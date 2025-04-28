@@ -173,21 +173,21 @@
       "Sentinel-3"
     ],
     "sensor": [
-      "MODIS",
+      "OLCI",
       "SGLI",
-      "OLCI"
+      "MODIS"
     ],
     "cities": [
-      "Tokyo",
       "Kobe",
+      "New York",
       "Venice",
-      "Nagoya",
-      "New York"
+      "Tokyo",
+      "Nagoya"
     ],
     "countries": [
-      "IT",
       "US",
-      "JP"
+      "JP",
+      "IT"
     ]
   }
 }

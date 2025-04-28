@@ -22,17 +22,17 @@
       ],
       "cities": [
         "Aral Lake",
+        "Biwa Lake",
         "Tonlé Sap Lake",
-        "Vänern Lake",
         "Balaton Lake",
-        "Biwa Lake"
+        "Vänern Lake"
       ],
       "countries": [
         "UZ",
         "HU",
-        "KH",
         "SW",
         "KZ",
+        "KH",
         "JP"
       ],
       "locations": true,
@@ -146,17 +146,17 @@
     ],
     "cities": [
       "Aral Lake",
+      "Biwa Lake",
       "Tonlé Sap Lake",
-      "Vänern Lake",
       "Balaton Lake",
-      "Biwa Lake"
+      "Vänern Lake"
     ],
     "countries": [
       "UZ",
       "HU",
-      "KH",
       "SW",
       "KZ",
+      "KH",
       "JP"
     ]
   }

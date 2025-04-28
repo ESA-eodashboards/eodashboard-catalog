@@ -160,8 +160,8 @@
       "Sentinel-2"
     ],
     "sensor": [
-      "OLI",
-      "MSI"
+      "MSI",
+      "OLI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/HLS_NDVI/thumbnail.png"
