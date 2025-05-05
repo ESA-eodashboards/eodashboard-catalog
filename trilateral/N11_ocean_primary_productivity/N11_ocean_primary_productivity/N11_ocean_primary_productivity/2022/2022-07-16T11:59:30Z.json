@@ -12,11 +12,11 @@
   "links": [
     {
       "rel": "wms",
-      "href": "https://ogcpreview2.restecmap.com/examind/api/WS/wms/default",
+      "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
       "title": "N11_ocean_primary_productivity",
       "wms:layers": [
-        "ONPP-GCOMC-World-Monthly"
+        "EODASH:ONPP-GCOMC-World-Monthly"
       ],
       "role": [
         "data"

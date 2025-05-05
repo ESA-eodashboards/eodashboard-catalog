@@ -30,11 +30,11 @@
     },
     {
       "rel": "wms",
-      "href": "https://ogcpreview2.restecmap.com/examind/api/WS/wms/default",
+      "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
       "title": "N1_NO2_jaxa",
       "wms:layers": [
-        "NO2-TROPOMI-Cairo-Daily"
+        "EODASH:NO2-TROPOMI-Cairo-Daily"
       ],
       "role": [
         "data"
@@ -101,8 +101,8 @@
     "temporal": {
       "interval": [
         [
-          "2018-06-30T11:59:59.500000Z",
-          "2019-10-05T11:59:59.500000Z"
+          "2018-06-30T11:59:59Z",
+          "2019-10-05T11:59:59Z"
         ]
       ]
     }

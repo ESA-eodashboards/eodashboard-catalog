@@ -12,11 +12,11 @@
   "links": [
     {
       "rel": "wms",
-      "href": "https://ogcpreview2.restecmap.com/examind/api/WS/wms/default",
+      "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
       "title": "N12_sea_ice_concentration_antarctic",
       "wms:layers": [
-        "SIC_S"
+        "EODASH:SIC_S"
       ],
       "role": [
         "data"

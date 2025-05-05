@@ -18,9 +18,9 @@
     },
     {
       "rel": "item",
-      "href": "./soil_moisture_anomaly/2022/2022-02-14T23:59:30Z.json",
+      "href": "./soil_moisture_anomaly/2022/2022-02-16T11:59:30Z.json",
       "type": "application/geo+json",
-      "datetime": "2022-02-14T23:59:30Z"
+      "datetime": "2022-02-16T11:59:30Z"
     },
     {
       "rel": "item",
@@ -30,9 +30,9 @@
     },
     {
       "rel": "item",
-      "href": "./soil_moisture_anomaly/2022/2022-04-15T23:59:30Z.json",
+      "href": "./soil_moisture_anomaly/2022/2022-04-16T11:59:30Z.json",
       "type": "application/geo+json",
-      "datetime": "2022-04-15T23:59:30Z"
+      "datetime": "2022-04-16T11:59:30Z"
     },
     {
       "rel": "item",
@@ -42,9 +42,45 @@
     },
     {
       "rel": "item",
-      "href": "./soil_moisture_anomaly/2022/2022-06-15T23:59:30Z.json",
+      "href": "./soil_moisture_anomaly/2022/2022-06-16T11:59:30Z.json",
       "type": "application/geo+json",
-      "datetime": "2022-06-15T23:59:30Z"
+      "datetime": "2022-06-16T11:59:30Z"
+    },
+    {
+      "rel": "item",
+      "href": "./soil_moisture_anomaly/2022/2022-07-16T11:59:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-07-16T11:59:30Z"
+    },
+    {
+      "rel": "item",
+      "href": "./soil_moisture_anomaly/2022/2022-08-16T11:59:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-08-16T11:59:30Z"
+    },
+    {
+      "rel": "item",
+      "href": "./soil_moisture_anomaly/2022/2022-09-16T11:59:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-09-16T11:59:30Z"
+    },
+    {
+      "rel": "item",
+      "href": "./soil_moisture_anomaly/2022/2022-10-16T11:59:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-10-16T11:59:30Z"
+    },
+    {
+      "rel": "item",
+      "href": "./soil_moisture_anomaly/2022/2022-11-16T11:59:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-11-16T11:59:30Z"
+    },
+    {
+      "rel": "item",
+      "href": "./soil_moisture_anomaly/2022/2022-12-16T11:59:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2022-12-16T11:59:30Z"
     },
     {
       "rel": "item",
@@ -54,9 +90,9 @@
     },
     {
       "rel": "item",
-      "href": "./soil_moisture_anomaly/2023/2023-02-14T23:59:30Z.json",
+      "href": "./soil_moisture_anomaly/2023/2023-02-16T11:59:30Z.json",
       "type": "application/geo+json",
-      "datetime": "2023-02-14T23:59:30Z"
+      "datetime": "2023-02-16T11:59:30Z"
     },
     {
       "rel": "item",
@@ -66,9 +102,9 @@
     },
     {
       "rel": "item",
-      "href": "./soil_moisture_anomaly/2023/2023-04-15T23:59:30Z.json",
+      "href": "./soil_moisture_anomaly/2023/2023-04-16T11:59:30Z.json",
       "type": "application/geo+json",
-      "datetime": "2023-04-15T23:59:30Z"
+      "datetime": "2023-04-16T11:59:30Z"
     },
     {
       "rel": "item",
@@ -78,9 +114,45 @@
     },
     {
       "rel": "item",
-      "href": "./soil_moisture_anomaly/2023/2023-06-15T23:59:30Z.json",
+      "href": "./soil_moisture_anomaly/2023/2023-06-16T11:59:30Z.json",
       "type": "application/geo+json",
-      "datetime": "2023-06-15T23:59:30Z"
+      "datetime": "2023-06-16T11:59:30Z"
+    },
+    {
+      "rel": "item",
+      "href": "./soil_moisture_anomaly/2023/2023-07-16T11:59:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-07-16T11:59:30Z"
+    },
+    {
+      "rel": "item",
+      "href": "./soil_moisture_anomaly/2023/2023-08-16T11:59:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-08-16T11:59:30Z"
+    },
+    {
+      "rel": "item",
+      "href": "./soil_moisture_anomaly/2023/2023-09-16T11:59:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-09-16T11:59:30Z"
+    },
+    {
+      "rel": "item",
+      "href": "./soil_moisture_anomaly/2023/2023-10-16T11:59:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-10-16T11:59:30Z"
+    },
+    {
+      "rel": "item",
+      "href": "./soil_moisture_anomaly/2023/2023-11-16T11:59:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-11-16T11:59:30Z"
+    },
+    {
+      "rel": "item",
+      "href": "./soil_moisture_anomaly/2023/2023-12-16T11:59:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-12-16T11:59:30Z"
     },
     {
       "rel": "item",
@@ -90,9 +162,9 @@
     },
     {
       "rel": "item",
-      "href": "./soil_moisture_anomaly/2024/2024-02-15T11:59:30Z.json",
+      "href": "./soil_moisture_anomaly/2024/2024-02-16T11:59:30Z.json",
       "type": "application/geo+json",
-      "datetime": "2024-02-15T11:59:30Z"
+      "datetime": "2024-02-16T11:59:30Z"
     },
     {
       "rel": "item",
@@ -102,9 +174,9 @@
     },
     {
       "rel": "item",
-      "href": "./soil_moisture_anomaly/2024/2024-04-15T23:59:30Z.json",
+      "href": "./soil_moisture_anomaly/2024/2024-04-16T11:59:30Z.json",
       "type": "application/geo+json",
-      "datetime": "2024-04-15T23:59:30Z"
+      "datetime": "2024-04-16T11:59:30Z"
     },
     {
       "rel": "item",
@@ -114,17 +186,23 @@
     },
     {
       "rel": "item",
-      "href": "./soil_moisture_anomaly/2024/2024-06-15T23:59:30Z.json",
+      "href": "./soil_moisture_anomaly/2024/2024-06-16T11:59:30Z.json",
       "type": "application/geo+json",
-      "datetime": "2024-06-15T23:59:30Z"
+      "datetime": "2024-06-16T11:59:30Z"
+    },
+    {
+      "rel": "item",
+      "href": "./soil_moisture_anomaly/2024/2024-07-16T11:59:30Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-07-16T11:59:30Z"
     },
     {
       "rel": "wms",
-      "href": "https://ogcpreview2.restecmap.com/examind/api/WS/wms/default",
+      "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
       "title": "soil_moisture_anomaly",
       "wms:layers": [
-        "SMC-Anomaly-GCOMW-World-Monthly"
+        "EODASH:SMC-Anomaly-GCOMW-World-Monthly"
       ],
       "role": [
         "data"
@@ -181,8 +259,8 @@
       "bbox": [
         [
           -180.0,
-          -89.99999999997118,
-          179.99999999994236,
+          -90.0,
+          180.0,
           90.0
         ]
       ]
@@ -191,7 +269,7 @@
       "interval": [
         [
           "2022-01-16T11:59:30Z",
-          "2024-06-15T23:59:30Z"
+          "2024-07-16T11:59:30Z"
         ]
       ]
     }

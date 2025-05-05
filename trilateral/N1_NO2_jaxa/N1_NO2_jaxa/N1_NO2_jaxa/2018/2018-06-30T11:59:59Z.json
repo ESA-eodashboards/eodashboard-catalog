@@ -7,16 +7,16 @@
   "id": "2018-06-30T11:59:59Z",
   "geometry": null,
   "properties": {
-    "datetime": "2018-06-30T11:59:59.500000Z"
+    "datetime": "2018-06-30T11:59:59Z"
   },
   "links": [
     {
       "rel": "wms",
-      "href": "https://ogcpreview2.restecmap.com/examind/api/WS/wms/default",
+      "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
       "title": "N1_NO2_jaxa",
       "wms:layers": [
-        "NO2-TROPOMI-Cairo-Daily"
+        "EODASH:NO2-TROPOMI-Cairo-Daily"
       ],
       "role": [
         "data"

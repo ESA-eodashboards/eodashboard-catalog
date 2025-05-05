@@ -148,26 +148,26 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-1",
-      "ALOS-2"
+      "ALOS-2",
+      "Sentinel-1"
     ],
     "sensor": [
       "C-SAR",
       "PALSAR-2"
     ],
     "cities": [
-      "Los Angeles",
-      "Singapore",
-      "Beijing",
-      "Arcadia",
       "Palm Springs",
-      "Nagoya"
+      "Arcadia",
+      "Nagoya",
+      "Los Angeles",
+      "Beijing",
+      "Singapore"
     ],
     "countries": [
-      "CN",
       "US",
+      "SG",
       "JP",
-      "SG"
+      "CN"
     ]
   }
 }

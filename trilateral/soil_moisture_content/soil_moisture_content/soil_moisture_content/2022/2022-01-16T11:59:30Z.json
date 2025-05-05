@@ -12,11 +12,11 @@
   "links": [
     {
       "rel": "wms",
-      "href": "https://ogcpreview2.restecmap.com/examind/api/WS/wms/default",
+      "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
       "title": "soil_moisture_content",
       "wms:layers": [
-        "SMC-GCOMW-World-Monthly"
+        "EODASH:SMC-GCOMW-World-Monthly"
       ],
       "role": [
         "data"

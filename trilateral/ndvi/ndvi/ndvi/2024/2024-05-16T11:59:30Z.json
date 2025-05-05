@@ -12,11 +12,11 @@
   "links": [
     {
       "rel": "wms",
-      "href": "https://ogcpreview2.restecmap.com/examind/api/WS/wms/default",
+      "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
       "title": "ndvi",
       "wms:layers": [
-        "NDVI-GCOMC-World-Monthly"
+        "EODASH:NDVI-GCOMC-World-Monthly"
       ],
       "role": [
         "data"

@@ -40,8 +40,8 @@
     90.0
   ],
   "properties": {
-    "end_datetime": "2022-04-30T00:00:00+00:00",
-    "start_datetime": "2022-04-01T00:00:00+00:00",
+    "end_datetime": "2022-04-30T00:00:00Z",
+    "start_datetime": "2022-04-01T00:00:00Z",
     "datetime": null
   },
   "links": [

@@ -175,14 +175,14 @@
       "bbox": [
         [
           -180.0,
-          -89.99999999997118,
-          179.99999999994236,
+          -90.0,
+          180.0,
           90.0
         ],
         [
           -180.0,
-          -89.99999999997118,
-          179.99999999994236,
+          -90.0,
+          180.0,
           90.0
         ]
       ]
@@ -191,7 +191,7 @@
       "interval": [
         [
           "2022-01-16T11:59:30Z",
-          "2024-06-15T23:59:30Z"
+          "2024-07-16T11:59:30Z"
         ]
       ]
     }
@@ -212,38 +212,38 @@
       "agriculture"
     ],
     "satellite": [
-      "MetOp-A",
+      "NOAA-N16",
+      "NOAA-N19",
+      "Megha-Tropiques",
+      "JPSS-1",
       "NPP",
       "GPM Core Observatory",
-      "MetOp-B",
-      "TRMM",
-      "DMSP-F15",
-      "JPSS-1",
-      "ADEOS-II",
-      "Aqua",
-      "DMSP-F13",
-      "NOAA-N15",
       "DWSS-1",
       "GCOM-W1",
-      "DMSP-F11",
-      "Megha-Tropiques",
-      "NOAA-N16",
       "NOAA-N17",
-      "NOAA-N19",
+      "DMSP-F13",
+      "TRMM",
+      "MetOp-A",
+      "DMSP-F15",
       "NOAA-N18",
-      "DMSP-F14"
+      "Aqua",
+      "NOAA-N15",
+      "DMSP-F11",
+      "DMSP-F14",
+      "ADEOS-II",
+      "MetOp-B"
     ],
     "sensor": [
-      "SSM/I",
-      "AMSR",
-      "TBD",
       "AMSU-A/AMSU-B",
-      "TMI",
-      "ATMS",
-      "AMSU-A/MHS",
-      "AMSR-E",
       "MADRAS",
+      "AMSR",
+      "AMSU-A/MHS",
+      "ATMS",
+      "AMSR-E",
+      "TMI",
       "GMI",
+      "TBD",
+      "SSM/I",
       "AMSR2"
     ],
     "thumbnail": [

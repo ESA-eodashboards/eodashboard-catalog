@@ -7,16 +7,16 @@
   "id": "2019-10-05T11:59:59Z",
   "geometry": null,
   "properties": {
-    "datetime": "2019-10-05T11:59:59.500000Z"
+    "datetime": "2019-10-05T11:59:59Z"
   },
   "links": [
     {
       "rel": "wms",
-      "href": "https://ogcpreview2.restecmap.com/examind/api/WS/wms/default",
+      "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
       "title": "N2_CO2_jaxa_gosat",
       "wms:layers": [
-        "XCO2-GOSAT-Cairo"
+        "EODASH:XCO2-GOSAT-Cairo"
       ],
       "role": [
         "data"

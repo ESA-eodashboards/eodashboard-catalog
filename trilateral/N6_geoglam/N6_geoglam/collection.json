@@ -12,6 +12,22 @@
     },
     {
       "rel": "item",
+      "href": "./geoglam/2025/CropMonitor_202503.json",
+      "type": "application/geo+json",
+      "cog_href": "s3://veda-data-store/geoglam/CropMonitor_202503.tif",
+      "start_datetime": "2025-03-01T00:00:00Z",
+      "end_datetime": "2025-03-31T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./geoglam/2025/CropMonitor_202502.json",
+      "type": "application/geo+json",
+      "cog_href": "s3://veda-data-store/geoglam/CropMonitor_202502.tif",
+      "start_datetime": "2025-02-01T00:00:00Z",
+      "end_datetime": "2025-02-28T00:00:00Z"
+    },
+    {
+      "rel": "item",
       "href": "./geoglam/2025/CropMonitor_202501.json",
       "type": "application/geo+json",
       "cog_href": "s3://veda-data-store/geoglam/CropMonitor_202501.tif",
@@ -534,7 +550,7 @@
       "interval": [
         [
           "2020-01-01T00:00:00Z",
-          "2025-01-31T00:00:00Z"
+          "2025-03-31T00:00:00Z"
         ]
       ]
     }

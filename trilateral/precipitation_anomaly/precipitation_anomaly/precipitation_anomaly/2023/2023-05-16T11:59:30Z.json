@@ -12,11 +12,11 @@
   "links": [
     {
       "rel": "wms",
-      "href": "https://ogcpreview2.restecmap.com/examind/api/WS/wms/default",
+      "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
       "title": "precipitation_anomaly",
       "wms:layers": [
-        "PRC-Anomaly-GSMaP-World-Monthly"
+        "EODASH:PRC-Anomaly-GSMaP-World-Monthly"
       ],
       "role": [
         "data"
