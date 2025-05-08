@@ -32,25 +32,6 @@
       "otherSources": []
     },
     {
-      "rel": "child",
-      "href": "./collection.json",
-      "type": "application/json",
-      "title": "",
-      "subtitle": "",
-      "code": "",
-      "id": "",
-      "themes": [],
-      "locations": true,
-      "tags": [],
-      "agency": [],
-      "subcode": "",
-      "collection_group": "",
-      "sensor": [],
-      "satellite": [],
-      "insituSources": [],
-      "otherSources": []
-    },
-    {
       "rel": "self",
       "href": "https://eurodatacube.github.io/eodash-catalog/trilateral/catalog.json",
       "type": "application/json"
