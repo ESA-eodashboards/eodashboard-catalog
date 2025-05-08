@@ -1,0 +1,93 @@
+{
+  "type": "Collection",
+  "id": "",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "service",
+      "href": "",
+      "type": "application/geo+json",
+      "id": "",
+      "method": "GET",
+      "endpoint": "",
+      "body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections",
+      "eox:flatstyle": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections"
+    },
+    {
+      "rel": "parent",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "sci:doi": "",
+  "sci:citation": "",
+  "subtitle": "",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/",
+  "themes": [],
+  "locations": true,
+  "tags": [],
+  "agency": [],
+  "subcode": "",
+  "collection_group": "",
+  "sensor": [],
+  "satellite": [],
+  "insituSources": [],
+  "otherSources": [],
+  "eox:colorlegend": {
+    "title": "",
+    "range": [],
+    "domain": [],
+    "tickFormat": "",
+    "tickValues": [],
+    "scaletype": "continuous",
+    "marktype": "rect"
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections",
+  "title": "",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-05-08T13:00:51.681842Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
