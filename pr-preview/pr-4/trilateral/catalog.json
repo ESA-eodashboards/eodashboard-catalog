@@ -19,17 +19,7 @@
       "id": "cmems_data_chl",
       "themes": [],
       "subcode": "CMEMS_CHL",
-      "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/"
-      ],
-      "locations": true,
-      "tags": [],
-      "agency": [],
-      "collection_group": "",
-      "sensor": [],
-      "satellite": [],
-      "insituSources": [],
-      "otherSources": []
+      "tags": []
     },
     {
       "rel": "self",

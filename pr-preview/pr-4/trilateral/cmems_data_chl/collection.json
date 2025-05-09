@@ -15,29 +15,12 @@
       "href": "./cmems_data_chl/collection.json",
       "type": "application/json",
       "title": "CMEMS Chlorophyll",
-      "endpointtype": "marinedatastore_byoc",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
       "code": "CMEMS_CHL",
       "id": "cmems_data_chl",
       "themes": [],
-      "locations": true,
       "tags": [],
-      "agency": [],
-      "subcode": "CMEMS_CHL",
-      "collection_group": "",
-      "sensor": [],
-      "satellite": [],
-      "insituSources": [],
-      "otherSources": []
-    },
-    {
-      "rel": "service",
-      "href": "",
-      "type": "application/geo+json",
-      "id": "",
-      "method": "GET",
-      "endpoint": "",
-      "body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections",
-      "eox:flatstyle": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections"
+      "subcode": "CMEMS_CHL"
     },
     {
       "rel": "parent",
@@ -46,30 +29,9 @@
       "title": "Earth Observing Dashboard"
     }
   ],
-  "sci:doi": "",
-  "sci:citation": "",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/",
   "themes": [],
-  "locations": true,
   "tags": [],
-  "agency": [],
   "subcode": "CMEMS_CHL",
-  "collection_group": "",
-  "sensor": [],
-  "satellite": [],
-  "insituSources": [],
-  "otherSources": [],
-  "eox:colorlegend": {
-    "title": "",
-    "range": [],
-    "domain": [],
-    "tickFormat": "",
-    "tickValues": [],
-    "scaletype": "continuous",
-    "marktype": "rect"
-  },
-  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections",
   "title": "CMEMS Chlorophyll",
   "extent": {
     "spatial": {
@@ -97,29 +59,10 @@
       ]
     }
   },
-  "license": "proprietary",
+  "license": "other",
   "summaries": {
     "subcode": [
       "CMEMS_CHL"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/"
     ]
-  },
-  "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    }
   }
 }
