@@ -20,13 +20,13 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "CMEMS Chlorophyll 2"
+      "title": "CMEMS Chlorophyll"
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "CMEMS Chlorophyll 2"
+      "title": "CMEMS Chlorophyll"
     }
   ],
   "assets": {},
