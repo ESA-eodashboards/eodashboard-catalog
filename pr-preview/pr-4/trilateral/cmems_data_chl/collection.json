@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./cmems_data_chl/collection.json",
       "type": "application/json",
-      "title": "CMEMS Chlorophyll 7",
+      "title": "CMEMS Chlorophyll 8",
       "endpointtype": "marinedatastore_byoc",
       "code": "CMEMS_CHL",
       "id": "cmems_data_chl",
@@ -39,7 +39,7 @@
   "tags": [],
   "agency": [],
   "subcode": "CMEMS_CHL",
-  "title": "CMEMS Chlorophyll 7",
+  "title": "CMEMS Chlorophyll 8",
   "extent": {
     "spatial": {
       "bbox": [
