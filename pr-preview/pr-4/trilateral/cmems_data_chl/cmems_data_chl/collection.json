@@ -105,7 +105,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "CMEMS Chlorophyll 11"
+      "title": "CMEMS Chlorophyll 12"
     }
   ],
   "sci:doi": "",
@@ -117,7 +117,7 @@
   "agency": [],
   "subcode": "CMEMS_CHL",
   "endpointtype": "marinedatastore_WMTSCapabilities",
-  "title": "CMEMS Chlorophyll 11",
+  "title": "CMEMS Chlorophyll 12",
   "extent": {
     "spatial": {
       "bbox": [
