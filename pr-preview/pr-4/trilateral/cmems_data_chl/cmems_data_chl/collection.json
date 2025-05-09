@@ -89,6 +89,19 @@
       "datetime": "2025-01-01T00:00:00Z"
     },
     {
+      "rel": "wmts",
+      "href": "https://wmts.marine.copernicus.eu/teroWmts/OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-olci-300m_P1M_202211",
+      "type": "image/png",
+      "title": "wmts capabilities",
+      "wmts:layer": "OCEANCOLOUR_GLO_BGC_L4_NRT_009_102/cmems_obs-oc_glo_bgc-plankton_nrt_l4-olci-300m_P1M_202211/CHL",
+      "role": [
+        "data"
+      ],
+      "wmts:dimensions": {
+        "elevation": "0"
+      }
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -103,7 +116,7 @@
   "tags": [],
   "agency": [],
   "subcode": "CMEMS_CHL",
-  "endpointtype": "marinedatastore_byoc",
+  "endpointtype": "marinedatastore_WMTSCapabilities",
   "title": "CMEMS Chlorophyll 10",
   "extent": {
     "spatial": {

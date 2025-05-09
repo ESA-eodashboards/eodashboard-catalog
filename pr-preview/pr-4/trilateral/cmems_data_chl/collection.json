@@ -15,7 +15,7 @@
       "href": "./cmems_data_chl/collection.json",
       "type": "application/json",
       "title": "CMEMS Chlorophyll 10",
-      "endpointtype": "marinedatastore_byoc",
+      "endpointtype": "marinedatastore_WMTSCapabilities",
       "code": "CMEMS_CHL",
       "id": "cmems_data_chl",
       "themes": [],
