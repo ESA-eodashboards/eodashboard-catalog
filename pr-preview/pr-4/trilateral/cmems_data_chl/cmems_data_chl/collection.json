@@ -92,7 +92,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "CMEMS Chlorophyll 9"
+      "title": "CMEMS Chlorophyll 10"
     }
   ],
   "sci:doi": "",
@@ -104,7 +104,7 @@
   "agency": [],
   "subcode": "CMEMS_CHL",
   "endpointtype": "marinedatastore_byoc",
-  "title": "CMEMS Chlorophyll 9",
+  "title": "CMEMS Chlorophyll 10",
   "extent": {
     "spatial": {
       "bbox": [
