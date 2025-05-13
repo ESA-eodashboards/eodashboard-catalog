@@ -22,13 +22,12 @@
         "cryosphere"
       ],
       "cities": [
-        "Pine Island",
-        "Thwaites Glacier"
+        "Thwaites Glacier",
+        "Pine Island"
       ],
       "countries": [
         "AQ"
       ],
-      "locations": true,
       "tags": [
         "Antarctica",
         "Climate change",
@@ -63,6 +62,14 @@
       "href": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/Landsat_Data_Policy.pdf",
       "type": "application/pdf",
       "title": "Landsat Data Distribution Policy"
+    },
+    {
+      "rel": "service",
+      "href": "./ADD_Landsat_L2_Antarctica/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
     },
     {
       "rel": "parent",
@@ -107,6 +114,7 @@
     "Landsat-8",
     "Landsat-9"
   ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Landsat L2 Cloud free Antarctica",
   "extent": {
     "spatial": {
@@ -155,15 +163,15 @@
     ],
     "satellite": [
       "Landsat-8",
-      "Landsat-9",
-      "Landsat-7"
+      "Landsat-7",
+      "Landsat-9"
     ],
     "sensor": [
       "OLI"
     ],
     "cities": [
-      "Pine Island",
-      "Thwaites Glacier"
+      "Thwaites Glacier",
+      "Pine Island"
     ],
     "countries": [
       "AQ"

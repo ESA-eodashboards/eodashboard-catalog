@@ -21,7 +21,6 @@
       "themes": [
         "water"
       ],
-      "locations": true,
       "tags": [
         "Sentinel",
         "Open data",
@@ -38,6 +37,14 @@
       "satellite": [
         "Sentinel-2"
       ]
+    },
+    {
+      "rel": "service",
+      "href": "./Lakes_S2L2A/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
     },
     {
       "rel": "parent",
@@ -67,6 +74,7 @@
   "satellite": [
     "Sentinel-2"
   ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Lakes collection (Sentinel 2)",
   "extent": {
     "spatial": {

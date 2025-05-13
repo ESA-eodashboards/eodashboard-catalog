@@ -168,15 +168,15 @@
       "oceans"
     ],
     "satellite": [
-      "Suomi",
       "OrbView-2",
       "Envisat",
+      "Suomi",
       "Aqua"
     ],
     "sensor": [
-      "VIIRS",
       "MODIS",
       "SeaWiFS",
+      "VIIRS",
       "MERIS"
     ],
     "thumbnail": [

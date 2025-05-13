@@ -21,7 +21,6 @@
       "themes": [
         "water"
       ],
-      "locations": true,
       "tags": [
         "Climate Change Initiative",
         "Water quality",
@@ -40,6 +39,14 @@
       "rel": "license",
       "href": "http://creativecommons.org/licenses/by/4.0/legalcode",
       "type": "text/html"
+    },
+    {
+      "rel": "service",
+      "href": "./Lakes_SWT_surface_water_temperature/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
     },
     {
       "rel": "parent",
@@ -92,6 +99,7 @@
     "tickFormat": ".0f",
     "title": "Lake Surface Temperature [K]"
   },
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Lakes surface water temperature",
   "extent": {
     "spatial": {

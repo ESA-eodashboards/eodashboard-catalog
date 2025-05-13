@@ -23,7 +23,6 @@
         "oceans"
       ],
       "yAxis": "%",
-      "locations": true,
       "tags": [
         "Water quality",
         "Marine",
@@ -48,6 +47,14 @@
       "rel": "license",
       "href": "http://www.opensource.org/licenses/MIT",
       "type": "text/html"
+    },
+    {
+      "rel": "service",
+      "href": "./N3a2_chl_concentration_tri_jaxa/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
     },
     {
       "rel": "parent",
@@ -98,6 +105,7 @@
     "tickFormat": ".0f",
     "title": "Chl-a anomaly [%]"
   },
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Chlorophyll-a concentration from GCOM-C",
   "extent": {
     "spatial": {

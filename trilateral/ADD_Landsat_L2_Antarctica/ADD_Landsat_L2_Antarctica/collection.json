@@ -103,6 +103,14 @@
       "title": "Landsat Data Distribution Policy"
     },
     {
+      "rel": "service",
+      "href": "./ADD_Landsat_L2_Antarctica/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -116,7 +124,6 @@
   "themes": [
     "cryosphere"
   ],
-  "locations": true,
   "tags": [
     "Antarctica",
     "Climate change",
@@ -145,6 +152,7 @@
     "Landsat-8",
     "Landsat-9"
   ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Landsat L2 Cloud free Antarctica",
   "extent": {
     "spatial": {
@@ -192,8 +200,8 @@
   ],
   "summaries": {
     "cities": [
-      "Pine Island",
-      "Thwaites Glacier"
+      "Thwaites Glacier",
+      "Pine Island"
     ],
     "countries": [
       "AQ"

@@ -154,6 +154,14 @@
       "type": "text/html"
     },
     {
+      "rel": "service",
+      "href": "./NLK_lakes/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -163,7 +171,6 @@
   "themes": [
     "oceans"
   ],
-  "locations": true,
   "tags": [
     "Water quality",
     "Lakes",
@@ -186,6 +193,7 @@
   "satellite": [
     "Landsat-8"
   ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Lakes collection (Landsat-8)",
   "extent": {
     "spatial": {
@@ -246,19 +254,19 @@
   ],
   "summaries": {
     "cities": [
-      "Biwa Lake",
-      "Aral Lake",
-      "Balaton Lake",
       "Vänern Lake",
-      "Tonlé Sap Lake"
+      "Aral Lake",
+      "Biwa Lake",
+      "Tonlé Sap Lake",
+      "Balaton Lake"
     ],
     "countries": [
       "JP",
-      "KH",
-      "KZ",
       "SW",
+      "UZ",
+      "KH",
       "HU",
-      "UZ"
+      "KZ"
     ]
   }
 }

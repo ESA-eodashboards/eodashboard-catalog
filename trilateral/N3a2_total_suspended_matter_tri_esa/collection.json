@@ -23,7 +23,6 @@
         "oceans"
       ],
       "yAxis": "%",
-      "locations": true,
       "tags": [
         "Water quality",
         "Copernicus Services",
@@ -49,6 +48,14 @@
       "rel": "license",
       "href": "http://www.opensource.org/licenses/MIT",
       "type": "text/html"
+    },
+    {
+      "rel": "service",
+      "href": "./N3a2_total_suspended_matter_tri_esa/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
     },
     {
       "rel": "parent",
@@ -100,6 +107,7 @@
     "tickFormat": ".0f",
     "title": "Total suspended matter anomaly [%]"
   },
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Total suspended matter from Sentinel-3",
   "extent": {
     "spatial": {

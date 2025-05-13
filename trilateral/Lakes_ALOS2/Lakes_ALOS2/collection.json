@@ -58,6 +58,14 @@
       "type": "text/html"
     },
     {
+      "rel": "service",
+      "href": "./Lakes_ALOS2/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -68,7 +76,6 @@
   "themes": [
     "oceans"
   ],
-  "locations": true,
   "tags": [
     "Water quality",
     "Lakes",
@@ -93,6 +100,7 @@
   "satellite": [
     "ALOS-2"
   ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Lakes collection (ALOS2-HH/HV)",
   "extent": {
     "spatial": {

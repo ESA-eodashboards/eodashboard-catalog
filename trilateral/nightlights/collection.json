@@ -22,7 +22,6 @@
       "themes": [
         "economy"
       ],
-      "locations": true,
       "tags": [
         "Human activities",
         "Open data",
@@ -38,6 +37,14 @@
       "satellite": [
         "Suomi"
       ]
+    },
+    {
+      "rel": "service",
+      "href": "./nightlights/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
     },
     {
       "rel": "parent",
@@ -79,6 +86,7 @@
     "scaleType": "categorical",
     "title": ""
   },
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Nightlights from SUOMI-NPP",
   "extent": {
     "spatial": {
