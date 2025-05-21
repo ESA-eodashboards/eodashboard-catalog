@@ -22,8 +22,8 @@
         "cryosphere"
       ],
       "cities": [
-        "Thwaites Glacier",
-        "Pine Island"
+        "Pine Island",
+        "Thwaites Glacier"
       ],
       "countries": [
         "AQ"
@@ -162,16 +162,16 @@
       "cryosphere"
     ],
     "satellite": [
-      "Landsat-8",
       "Landsat-7",
-      "Landsat-9"
+      "Landsat-9",
+      "Landsat-8"
     ],
     "sensor": [
       "OLI"
     ],
     "cities": [
-      "Thwaites Glacier",
-      "Pine Island"
+      "Pine Island",
+      "Thwaites Glacier"
     ],
     "countries": [
       "AQ"
