@@ -21,19 +21,19 @@
         "oceans"
       ],
       "cities": [
-        "Aral Lake",
-        "Biwa Lake",
-        "Vänern Lake",
         "Balaton Lake",
-        "Tonlé Sap Lake"
+        "Tonlé Sap Lake",
+        "Vänern Lake",
+        "Aral Lake",
+        "Biwa Lake"
       ],
       "countries": [
+        "UZ",
         "SW",
         "HU",
-        "JP",
         "KZ",
-        "UZ",
-        "KH"
+        "KH",
+        "JP"
       ],
       "tags": [
         "Water quality",
@@ -153,19 +153,19 @@
       "OLI"
     ],
     "cities": [
-      "Aral Lake",
-      "Biwa Lake",
-      "Vänern Lake",
       "Balaton Lake",
-      "Tonlé Sap Lake"
+      "Tonlé Sap Lake",
+      "Vänern Lake",
+      "Aral Lake",
+      "Biwa Lake"
     ],
     "countries": [
+      "UZ",
       "SW",
-      "HU",
-      "JP",
       "KH",
       "KZ",
-      "UZ"
+      "HU",
+      "JP"
     ]
   }
 }

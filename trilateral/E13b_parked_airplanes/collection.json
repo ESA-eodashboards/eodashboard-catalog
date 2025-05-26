@@ -21,7 +21,7 @@
       "id": "E13b_parked_airplanes",
       "themes": [
         "economy",
-        "covid-19"
+        "COVID-19"
       ],
       "cities": [
         "Beijing",
@@ -95,7 +95,7 @@
   "subtitle": "Grounded airplanes during the novel coronavirus pandemic",
   "themes": [
     "economy",
-    "covid-19"
+    "COVID-19"
   ],
   "tags": [
     "Copernicus Services",
@@ -176,47 +176,47 @@
       "E13b"
     ],
     "themes": [
-      "economy",
-      "covid-19"
+      "COVID-19",
+      "economy"
     ],
     "satellite": [
-      "Sentinel-2",
-      "PlanetScope",
       "ALOS-2",
-      "Sentinel-1"
+      "Sentinel-1",
+      "PlanetScope",
+      "Sentinel-2"
     ],
     "sensor": [
-      "PSB.SD",
+      "MSI",
       "PALSAR-2",
-      "C-SAR",
-      "MSI"
+      "PSB.SD",
+      "C-SAR"
     ],
     "cities": [
-      "Napa",
-      "Hayward",
-      "Buchannan",
-      "Ontario",
+      "Los Angeles",
+      "Newark",
+      "Paris",
       "Marin",
+      "San Francisco",
+      "New York",
+      "Hayward",
+      "Heathrow",
+      "Ontario",
+      "Buchannan",
       "Beijing",
       "Narita",
-      "Heathrow",
-      "San Jose",
-      "Oakland",
-      "Newark",
-      "San Francisco",
       "Rome",
-      "New York",
+      "Napa",
+      "Oakland",
       "Beijing Daxing",
-      "Los Angeles",
-      "Paris"
+      "San Jose"
     ],
     "countries": [
       "CN",
-      "GB",
-      "US",
-      "JP",
       "FR",
-      "IT"
+      "IT",
+      "US",
+      "GB",
+      "JP"
     ]
   }
 }

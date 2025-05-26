@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "facebook_population_density",
   "stac_version": "1.1.0",
-  "description": "## High-resolution population density maps\n\nThis indicator shows the high-resolution maps estimating the number of people living within 30-meter grid tiles in nearly every country around the world. \nDarker areas indicate higher population density areas and lighter areas indicate lower population density areas.\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/FB-Fig1.png)\n\n\nData provider: Meta ([https://dataforgood.fb.com](https://dataforgood.facebook.com/dfg/about))\n\n\nRead more about the methodology employed to create these maps on the [Data for Good Website](https://dataforgood.fb.com/docs/methodology-high-resolution-population-density-maps-demographic-estimates/)\n",
+  "description": "facebook_population_density/facebook_population_density.md",
   "links": [
     {
       "rel": "root",
