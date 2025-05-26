@@ -100,6 +100,38 @@
     },
     {
       "rel": "child",
+      "href": "./GHS-BUILT-S-R2023A/collection.json",
+      "type": "application/json",
+      "title": "GHS-BUILT-S-R2023A",
+      "subtitle": "GHS built-up surface dataset GHS-BUILT-S_GLOBE_R2023A",
+      "code": "GHSBUILT",
+      "id": "GHS-BUILT-S-R2023A",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "GHSBUILT",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GHS-BUILT-S-R2023A/GHS-BUILT-S-R2023A.png"
+      ],
+      "tags": [
+        "Copernicus",
+        "Human settlement",
+        "Human activities",
+        "EMS",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./LIS_Global_DA_Evap/collection.json",
       "type": "application/json",
       "title": "Evapotranspiration LIS",
@@ -127,6 +159,33 @@
       ],
       "agency": [
         "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Lakes_SWT_surface_water_temperature/collection.json",
+      "type": "application/json",
+      "title": "Lakes surface water temperature",
+      "code": "Lakes_SWT",
+      "id": "Lakes_SWT_surface_water_temperature",
+      "themes": [
+        "water"
+      ],
+      "subcode": "Lakes_SWT",
+      "satellite": [
+        "Other"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_SWT_surface_water_temperature/Lakes_SWT_surface_water_temperature.png"
+      ],
+      "tags": [
+        "Climate Change Initiative",
+        "Water quality",
+        "Multi-sensors",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
       ]
     },
     {
@@ -422,6 +481,269 @@
     },
     {
       "rel": "child",
+      "href": "./N3a2_chl_concentration_tri_esa/collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration from Sentinel-3",
+      "subtitle": "Chlorophyll-a concentration maps",
+      "code": "N3a2_chl_esa",
+      "id": "N3a2_chl_concentration_tri_esa",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "N3a2_chl_esa",
+      "satellite": [
+        "Sentinel-3"
+      ],
+      "sensor": [
+        "OLCI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.png"
+      ],
+      "yAxis": "%",
+      "tags": [
+        "Water quality",
+        "Copernicus Services",
+        "CHL",
+        "CMEMS",
+        "Marine monitoring",
+        "Chlorophyll-a",
+        "Marine",
+        "CAMS"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N3a2_chl_concentration_tri_jaxa/collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration from GCOM-C",
+      "subtitle": "Chlorophyll-a concentration maps",
+      "code": "N3a2_chl_jaxa",
+      "id": "N3a2_chl_concentration_tri_jaxa",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "N3a2_chl_jaxa",
+      "satellite": [
+        "GCOM-C"
+      ],
+      "sensor": [
+        "SGLI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.png"
+      ],
+      "yAxis": "%",
+      "tags": [
+        "Water quality",
+        "Marine",
+        "GCOM-C",
+        "SGLI",
+        "Open data",
+        "Marine monitoring",
+        "Chlorophyll-a"
+      ],
+      "agency": [
+        "JAXA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N3a2_chl_concentration_tri_nasa/collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration from MODIS",
+      "subtitle": "Chlorophyll-a concentration maps",
+      "code": "N3a2_chl_nasa",
+      "id": "N3a2_chl_concentration_tri_nasa",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "N3a2_chl_nasa",
+      "satellite": [
+        "Acqua"
+      ],
+      "sensor": [
+        "MODIS"
+      ],
+      "cities": [
+        "San Francisco",
+        "New York",
+        "North Adriatic"
+      ],
+      "countries": [
+        "US",
+        "IT"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.png"
+      ],
+      "yAxis": "%",
+      "tags": [
+        "Water quality",
+        "Marine",
+        "Acqua",
+        "MODIS",
+        "Open data",
+        "Marine monitoring",
+        "Chlorophyll-a"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./sea_surface_temperature_maps/collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature maps",
+      "subtitle": "Sea surface temperature description",
+      "code": "N3a2_SST",
+      "id": "sea_surface_temperature_maps",
+      "themes": [
+        "water"
+      ],
+      "subcode": "N3a2_SST",
+      "satellite": [
+        "Sentinel-3"
+      ],
+      "sensor": [
+        "OLCI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_sea_surface_temperature/N3a2_sea_surface_temperature.png"
+      ],
+      "tags": [
+        "Water quality",
+        "Copernicus Services",
+        "Surface temperature",
+        "CMEMS",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N3a2_total_suspended_matter_tri_esa/collection.json",
+      "type": "application/json",
+      "title": "Total suspended matter from Sentinel-3",
+      "subtitle": "Total suspended matter maps",
+      "code": "N3a2_TSM_esa",
+      "id": "N3a2_total_suspended_matter_tri_esa",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "N3a2_TSM_esa",
+      "satellite": [
+        "Sentinel-3"
+      ],
+      "sensor": [
+        "OLCI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.png"
+      ],
+      "yAxis": "%",
+      "tags": [
+        "Water quality",
+        "Copernicus Services",
+        "CHL",
+        "CMEMS",
+        "Marine monitoring",
+        "Total Suspended Matter",
+        "Marine",
+        "CAMS"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N3a2_total_suspended_matter_tri_jaxa/collection.json",
+      "type": "application/json",
+      "title": "Total suspended matter from GCOM-C",
+      "subtitle": "Total suspended matter maps",
+      "code": "N3a2_TSM_jaxa",
+      "id": "N3a2_total_suspended_matter_tri_jaxa",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "N3a2_TSM_jaxa",
+      "satellite": [
+        "GCOM-C"
+      ],
+      "sensor": [
+        "SGLI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.png"
+      ],
+      "yAxis": "%",
+      "tags": [
+        "Water quality",
+        "Marine",
+        "GCOM-C",
+        "SGLI",
+        "Open data",
+        "Marine monitoring",
+        "Total suspended matter"
+      ],
+      "agency": [
+        "JAXA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N3a2_total_suspended_matter_tri_nasa/collection.json",
+      "type": "application/json",
+      "title": "Total suspended matter maps from MODIS",
+      "subtitle": "Total suspended matter maps",
+      "code": "N3a2_tsm_nasa",
+      "id": "N3a2_total_suspended_matter_tri_nasa",
+      "themes": [
+        "water"
+      ],
+      "subcode": "N3a2_tsm_nasa",
+      "satellite": [
+        "Acqua"
+      ],
+      "sensor": [
+        "MODIS"
+      ],
+      "cities": [
+        "San Francisco",
+        "New York",
+        "North Adriatic"
+      ],
+      "countries": [
+        "US",
+        "IT"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.png"
+      ],
+      "yAxis": "%",
+      "tags": [
+        "Water quality",
+        "Marine",
+        "Acqua",
+        "MODIS",
+        "Open data",
+        "Marine monitoring",
+        "Total suspended matter"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./N9_OMI_trno2-COG/collection.json",
       "type": "application/json",
       "title": "Nitrogen Dioxide from OMI (Yearly)",
@@ -525,6 +847,34 @@
       "agency": [
         "NASA",
         "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Ocean_Heat_Content_upper_300m/collection.json",
+      "type": "application/json",
+      "title": "Ocean heat content for the upper 300m",
+      "subtitle": "ORAS5 global ocean reanalysis monthly data from 1958 to present",
+      "code": "OHC300",
+      "id": "Ocean_Heat_Content_upper_300m",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "OHC300",
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data",
+        "Climate change service"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ORAS5"
       ]
     },
     {
