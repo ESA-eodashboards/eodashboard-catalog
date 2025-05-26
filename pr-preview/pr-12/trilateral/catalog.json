@@ -1,0 +1,537 @@
+{
+  "type": "Catalog",
+  "id": "trilateral",
+  "stac_version": "1.1.0",
+  "description": "A Tri-Agency Dashboard by NASA, ESA, JAXA",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./windu_ERA5-SingleLevel_100m_GLOBAL/collection.json",
+      "type": "application/json",
+      "title": "Wind U Field at 100m",
+      "subtitle": "Gridded ERA5 reanalysis wind U field at 100 m at global level",
+      "code": "CDS7",
+      "id": "windu_ERA5-SingleLevel_100m_GLOBAL",
+      "themes": [
+        "air"
+      ],
+      "subcode": "CDS7",
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data",
+        "Climate change service"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./windv_ERA5-SingleLevel_100m_GLOBAL/collection.json",
+      "type": "application/json",
+      "title": "Wind V Field at 100m",
+      "subtitle": "Gridded ERA5 reanalysis wind V field at 100 m at global level",
+      "code": "CDS8",
+      "id": "windv_ERA5-SingleLevel_100m_GLOBAL",
+      "themes": [
+        "air"
+      ],
+      "subcode": "CDS8",
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data",
+        "Climate change service"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./EPA_Field_burning_Monthly/collection.json",
+      "type": "application/json",
+      "title": "Field Burning monthly - EPA Methane Emissions 2012",
+      "subtitle": "Emissions from sector 4F from agricultural field burning (monthly), gridded",
+      "code": "EPA_Field_burning_Monthly",
+      "id": "EPA_Field_burning_Monthly",
+      "themes": [
+        "biomass"
+      ],
+      "subcode": "EPA_Field_burning_Monthly",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Field_burning_Monthly/thumbnail.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./EPA_Forest_fire_Methane_Daily/collection.json",
+      "type": "application/json",
+      "title": "Forest Fires daily - EPA Methane Emissions 2012",
+      "subtitle": "Daily emissions from sector 5 from forest fires for 2012, gridded.",
+      "code": "EPA_Forest_fire_Methane_Daily",
+      "id": "EPA_Forest_fire_Methane_Daily",
+      "themes": [
+        "biomass"
+      ],
+      "subcode": "EPA_Forest_fire_Methane_Daily",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Daily/thumbnail.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./LIS_Global_DA_Evap/collection.json",
+      "type": "application/json",
+      "title": "Evapotranspiration LIS",
+      "subtitle": "Total evapotranspiration gridded from 10km global LIS with assimilation",
+      "code": "LIS_Global_DA_Evap",
+      "id": "LIS_Global_DA_Evap",
+      "themes": [
+        "biomass"
+      ],
+      "subcode": "LIS_Global_DA_Evap",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LIS_Global_DA_Evap/thumbnail.png"
+      ],
+      "tags": [
+        "Evapotranspiration",
+        "Water cycle",
+        "Climate change",
+        "Open data",
+        "Soil moisture",
+        "Drought",
+        "NASA",
+        "Water resources",
+        "Assimilation",
+        "VEDA"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N10_OMSO2PCA-COG/collection.json",
+      "type": "application/json",
+      "title": "Sulfur Dioxide (OMI/Aura)",
+      "subtitle": "SO2 Total Column L3 1-day",
+      "code": "N10",
+      "id": "N10_OMSO2PCA-COG",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "N10",
+      "satellite": [
+        "Aura"
+      ],
+      "sensor": [
+        "OMI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N10_OMSO2PCA-COG/N10_OMSO2PCA-COG.png"
+      ],
+      "tags": [
+        "Air quality",
+        "SO2",
+        "Open data",
+        "Sulfur Dioxide",
+        "Ozone Monitoring Instrument"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./CO_3_daily/collection.json",
+      "type": "application/json",
+      "title": "Carbon Monoxide observed by Sentinel-5p TROPOMI",
+      "subtitle": "Global 3-daily Carbon monoxide",
+      "code": "N1_CO",
+      "id": "CO_3_daily",
+      "themes": [
+        "air",
+        "extreme-events"
+      ],
+      "subcode": "N1_CO",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.png"
+      ],
+      "tags": [
+        "Air quality",
+        "CO",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NO2_daily/collection.json",
+      "type": "application/json",
+      "title": "Air Quality (tropospheric NO2 concetrations)",
+      "subtitle": "Daily Nitrogen Dioxide",
+      "code": "N1_NO2",
+      "id": "NO2_daily",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1_NO2",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2.png"
+      ],
+      "tags": [
+        "Air quality",
+        "NO2",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N1_NO2_diff_monthly/collection.json",
+      "type": "application/json",
+      "title": "Nitrogen Dioxide (Monthly Difference)",
+      "subtitle": "Mean NO2 column density compared to 2015-2019 baseline [10^15 mol/cm²]",
+      "code": "N1_NO2_diff_monthly",
+      "id": "N1_NO2_diff_monthly",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "N1_NO2_diff_monthly",
+      "satellite": [
+        "Aura"
+      ],
+      "sensor": [
+        "OMI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_diff_monthly/N1_NO2_diff_monthly.png"
+      ],
+      "tags": [
+        "Air quality",
+        "NO2",
+        "Open data",
+        "Difference"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N1_NO2_monthly/collection.json",
+      "type": "application/json",
+      "title": "Nitrogen Dioxide (Monthly)",
+      "subtitle": "Mean NO2 column density based on OMI data [10^15 mol/cm²]",
+      "code": "N1_NO2_monthly",
+      "id": "N1_NO2_monthly",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "N1_NO2_monthly",
+      "satellite": [
+        "Aura"
+      ],
+      "sensor": [
+        "OMI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_monthly/N1_NO2_monthly.png"
+      ],
+      "tags": [
+        "Air quality",
+        "NO2",
+        "Open data",
+        "OMI"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./so2_daily/collection.json",
+      "type": "application/json",
+      "title": "Sulfur Dioxide observed by Sentinel-5p TROPOMI",
+      "subtitle": "Global daily SO2",
+      "code": "N1_SO2",
+      "id": "so2_daily",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1_SO2",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_SO2/N1_SO2.png"
+      ],
+      "tags": [
+        "Air quality",
+        "SO2",
+        "Open data",
+        "Air pollution"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./methane_monitoring/collection.json",
+      "type": "application/json",
+      "title": "Methane monitoring",
+      "subtitle": "Daily Methane Monitoring",
+      "code": "N1_CH4",
+      "id": "methane_monitoring",
+      "themes": [
+        "air"
+      ],
+      "subcode": "N1_CH4",
+      "satellite": [
+        "Sentinel-5P",
+        "GOSAT"
+      ],
+      "sensor": [
+        "TROPOMI",
+        "TANSO"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.png"
+      ],
+      "tags": [
+        "Air quality",
+        "CH4",
+        "Multi-sensors",
+        "Open data"
+      ],
+      "agency": [
+        "ESA",
+        "JAXA",
+        "NASA",
+        "NIWA"
+      ],
+      "insituSources": [
+        "TCCON"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N2_CO2_diff/collection.json",
+      "type": "application/json",
+      "title": "Carbon Dioxide from OCO-2 (daily difference)",
+      "subtitle": "CO2 difference compared to 2015-2019 baseline [ppm]",
+      "code": "N2_diff",
+      "id": "N2_CO2_diff",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "N2_diff",
+      "satellite": [
+        "OCO-2"
+      ],
+      "sensor": [
+        "OCO-2"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_diff/N2_CO2_diff.png"
+      ],
+      "tags": [
+        "Air quality",
+        "CO2",
+        "Open data",
+        "GHG",
+        "Greenhouse gases"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N2_CO2_mean/collection.json",
+      "type": "application/json",
+      "title": "Carbon Dioxide from OMI (daily)",
+      "subtitle": "Mean daily Carbon Dioxide [ppm]",
+      "code": "N2_CO2_mean",
+      "id": "N2_CO2_mean",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "N2_CO2_mean",
+      "satellite": [
+        "OCO-2"
+      ],
+      "sensor": [
+        "OCO-2"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_mean/N2_CO2_mean.png"
+      ],
+      "tags": [
+        "Air quality",
+        "CO2",
+        "Open data",
+        "GHG",
+        "Greenhouse gases"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N9_OMI_trno2-COG/collection.json",
+      "type": "application/json",
+      "title": "Nitrogen Dioxide from OMI (Yearly)",
+      "subtitle": "Yearly NO2 from NASA's OMI Aura [10^14 molecules/cm^2]",
+      "code": "N9",
+      "id": "N9_OMI_trno2-COG",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "N9",
+      "satellite": [
+        "Aura"
+      ],
+      "sensor": [
+        "OMI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N9_OMI_trno2-COG/N9_OMI_trno2-COG.png"
+      ],
+      "tags": [
+        "Air quality",
+        "NO2",
+        "Open data",
+        "Air quality",
+        "Air pollution"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./net_primary_production/collection.json",
+      "type": "application/json",
+      "title": "Ocean net primary production (MODIS)",
+      "code": "NPPN",
+      "id": "net_primary_production",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "NPPN",
+      "satellite": [
+        "Aqua"
+      ],
+      "sensor": [
+        "MODIS"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPPN_net_primary_production/NPPN_net_primary_production.png"
+      ],
+      "tags": [
+        "Model",
+        "Primary production",
+        "Open data",
+        "Photosynthesis",
+        "Organic material",
+        "Chlorophyll",
+        "Carbon",
+        "Water"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./ocean_primary_productivity/collection.json",
+      "type": "application/json",
+      "title": "Ocean net primary production (BICEP)",
+      "code": "NPP",
+      "id": "ocean_primary_productivity",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "NPP",
+      "satellite": [
+        "Envisat",
+        "Aqua",
+        "Suomi",
+        "OrbView-2"
+      ],
+      "sensor": [
+        "MERIS",
+        "MODIS",
+        "VIIRS",
+        "SeaWiFS"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPP_ocean_primary_productivity/NPP_ocean_primary_productivity.png"
+      ],
+      "tags": [
+        "Primary production",
+        "Open data",
+        "Photosynthesis",
+        "Organic material",
+        "Chlorophyll",
+        "Multi-sensors",
+        "Water",
+        "Carbon"
+      ],
+      "agency": [
+        "NASA",
+        "ESA"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://eurodatacube.github.io/eodash-catalog/trilateral/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Earth Observing Dashboard"
+}
