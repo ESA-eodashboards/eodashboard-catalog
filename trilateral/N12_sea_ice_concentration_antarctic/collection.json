@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "N12_sea_ice_concentration_antarctic",
   "stac_version": "1.1.0",
-  "description": "N12_sea_ice_concentration/N12.md",
+  "description": "## GCOM-W Sea Ice Concentration\n\nJAXA is releasing Sea ice data observed by JAXA's [Global Change Observation Mission – Water “SHIZUKU” (GCOM-W)](https://global.jaxa.jp/projects/sat/gcom_w/).\nArctic sea ice extent is used as an important indicator showing the effect of global warming. Taking advantage of the wide-area observation from satellites,\nJAXA is conducting observation of the sea ice in the entire Arctic Ocean. Every winter, drift ice arriving on the coast of the Sea of Okhotsk can be captured.\n\n\n## Additional information\n\n- [Read more](https://earth.jaxa.jp/en/data/products/sea-ice/index.html)\n- Access the [Global Change Observation Mission - Water (GCOM-W) Product Distribution Service](https://suzaku.eorc.jaxa.jp/GCOM_W/research/resdist.html)\n",
   "links": [
     {
       "rel": "root",

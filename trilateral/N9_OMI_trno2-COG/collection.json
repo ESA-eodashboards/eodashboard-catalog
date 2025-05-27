@@ -41,6 +41,14 @@
       ]
     },
     {
+      "rel": "service",
+      "href": "https://openveda.cloud/api/raster/cog/statistics",
+      "type": "application/json",
+      "id": "veda_statistics",
+      "method": "POST",
+      "endpoint": "veda"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -94,6 +102,8 @@
     "tickFormat": ".0f",
     "title": "NO2 [10^14 molecules/cm²]"
   },
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_vega_definition.json",
   "title": "Nitrogen Dioxide from OMI (Yearly)",
   "extent": {
     "spatial": {
@@ -159,6 +169,14 @@
       "type": "image/png",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary",
+      "type": "text/html",
+      "title": "OMI/Aura NO2 Cloud-Screened Total and Tropospheric Column L3 Global Gridded",
+      "roles": [
+        "metadata"
       ]
     },
     "covid_dashboard": {

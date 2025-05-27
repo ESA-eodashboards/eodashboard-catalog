@@ -41,6 +41,14 @@
       ]
     },
     {
+      "rel": "service",
+      "href": "https://openveda.cloud/api/raster/cog/statistics",
+      "type": "application/json",
+      "id": "veda_statistics",
+      "method": "POST",
+      "endpoint": "veda"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -100,6 +108,8 @@
     "tickFormat": ".0f",
     "title": "CO2 difference [ppm]"
   },
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_vega_definition.json",
   "title": "Carbon Dioxide from OCO-2 (daily difference)",
   "extent": {
     "spatial": {

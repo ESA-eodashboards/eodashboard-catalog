@@ -266,6 +266,14 @@
         "thumbnail"
       ]
     },
+    "reference_1": {
+      "href": "https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary",
+      "type": "text/html",
+      "title": "OMI/Aura NO2 Cloud-Screened Total and Tropospheric Column L3 Global Gridded",
+      "roles": [
+        "metadata"
+      ]
+    },
     "covid_dashboard": {
       "href": "https://www.earthdata.nasa.gov/covid19/indicators/no2",
       "type": "text/html",

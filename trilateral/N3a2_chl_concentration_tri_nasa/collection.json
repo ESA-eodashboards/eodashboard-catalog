@@ -59,10 +59,11 @@
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_N3a2_nasa_tri?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "href": "https://openveda.cloud/api/raster/cog/statistics",
       "type": "application/json",
-      "method": "GET",
-      "id": "N3a2_nasa_tri"
+      "id": "veda_statistics",
+      "method": "POST",
+      "endpoint": "veda"
     },
     {
       "rel": "parent",
@@ -112,8 +113,8 @@
     "tickFormat": ".0f",
     "title": "Chl-a anomaly [%]"
   },
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_vega_definition.json",
   "title": "Chlorophyll-a concentration from MODIS",
   "extent": {
     "spatial": {
@@ -162,13 +163,13 @@
       "MODIS"
     ],
     "cities": [
-      "San Francisco",
       "North Adriatic",
-      "New York"
+      "New York",
+      "San Francisco"
     ],
     "countries": [
-      "IT",
-      "US"
+      "US",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.png"
