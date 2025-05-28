@@ -82,6 +82,50 @@
       ]
     },
     {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -212,39 +256,39 @@
       "agriculture"
     ],
     "satellite": [
-      "DMSP-F11",
+      "NOAA-N19",
+      "DWSS-1",
+      "TRMM",
       "DMSP-F15",
-      "ADEOS-II",
       "NOAA-N15",
-      "NPP",
       "GCOM-W1",
-      "MetOp-A",
-      "JPSS-1",
       "DMSP-F13",
-      "NOAA-N17",
-      "NOAA-N18",
+      "DMSP-F14",
+      "Aqua",
+      "NOAA-N16",
+      "ADEOS-II",
       "Megha-Tropiques",
       "GPM Core Observatory",
-      "DWSS-1",
-      "NOAA-N19",
+      "MetOp-A",
+      "NOAA-N17",
       "MetOp-B",
-      "TRMM",
-      "NOAA-N16",
-      "Aqua",
-      "DMSP-F14"
+      "JPSS-1",
+      "NOAA-N18",
+      "DMSP-F11",
+      "NPP"
     ],
     "sensor": [
-      "TBD",
-      "SSM/I",
-      "TMI",
-      "GMI",
       "AMSU-A/MHS",
+      "SSM/I",
       "ATMS",
-      "AMSR2",
-      "AMSU-A/AMSU-B",
-      "AMSR",
       "AMSR-E",
-      "MADRAS"
+      "GMI",
+      "TBD",
+      "AMSR",
+      "MADRAS",
+      "TMI",
+      "AMSR2",
+      "AMSU-A/AMSU-B"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.png"

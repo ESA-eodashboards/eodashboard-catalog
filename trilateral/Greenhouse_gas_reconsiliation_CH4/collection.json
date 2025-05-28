@@ -96,6 +96,50 @@
       "id": "GGI_CH4"
     },
     {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -168,56 +212,56 @@
       "Other"
     ],
     "cities": [
-      "Bangladesh",
-      "Venezuela (Bolivarian Republic of)",
-      "South Africa",
-      "United States of America",
       "European Union (Convention)",
       "India",
-      "Indonesia",
-      "Brazil",
-      "Pakistan",
-      "Argentina",
-      "Democratic Republic of the Congo",
-      "Nigeria",
-      "Mongolia",
+      "Russian Federation",
       "Mexico",
+      "Venezuela (Bolivarian Republic of)",
+      "Colombia",
+      "United States of America",
+      "Pakistan",
+      "European Union (KP)",
       "Iran (Islamic Republic of)",
-      "Thailand",
+      "Mongolia",
+      "Nigeria",
+      "China",
       "Canada",
       "Australia",
-      "Colombia",
-      "China",
+      "Bangladesh",
       "Kazakhstan",
-      "European Union (KP)",
-      "Russian Federation",
-      "Sudan"
+      "Sudan",
+      "Brazil",
+      "South Africa",
+      "Indonesia",
+      "Argentina",
+      "Democratic Republic of the Congo",
+      "Thailand"
     ],
     "countries": [
-      "Bangladesh",
-      "Venezuela (Bolivarian Republic of)",
-      "South Africa",
-      "United States of America",
       "European Union (Convention)",
       "India",
-      "Indonesia",
-      "Brazil",
-      "Pakistan",
-      "Argentina",
-      "Democratic Republic of the Congo",
-      "Nigeria",
-      "Mongolia",
+      "Russian Federation",
       "Mexico",
+      "Venezuela (Bolivarian Republic of)",
+      "Colombia",
+      "United States of America",
+      "Pakistan",
+      "European Union (KP)",
       "Iran (Islamic Republic of)",
-      "Thailand",
+      "Mongolia",
+      "Nigeria",
+      "China",
       "Canada",
       "Australia",
-      "Colombia",
-      "China",
+      "Bangladesh",
       "Kazakhstan",
-      "European Union (KP)",
-      "Russian Federation",
-      "Sudan"
+      "Sudan",
+      "Brazil",
+      "South Africa",
+      "Indonesia",
+      "Argentina",
+      "Democratic Republic of the Congo",
+      "Thailand"
     ]
   }
 }
