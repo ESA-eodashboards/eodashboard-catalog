@@ -62,8 +62,8 @@
       "rel": "service",
       "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_N2_tri?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
-      "method": "GET",
-      "id": "N2_tri"
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -165,7 +165,7 @@
     "title": "diff XCO2 [ppm]"
   },
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N2_greenhouse_gases/chart.json",
   "title": "Carbon Dioxide at city level from GOSAT",
   "extent": {
     "spatial": {
@@ -212,24 +212,24 @@
       "GOSAT"
     ],
     "sensor": [
-      "TANSO-FTS",
-      "TANSO-CAI"
+      "TANSO-CAI",
+      "TANSO-FTS"
     ],
     "cities": [
-      "Dhaka",
-      "Mumbai",
-      "New York",
       "New Delhi",
-      "Beijing",
       "Shanghai",
-      "Tokyo"
+      "Dhaka",
+      "Tokyo",
+      "New York",
+      "Beijing",
+      "Mumbai"
     ],
     "countries": [
-      "BD",
-      "US",
+      "JP",
       "IN",
+      "BD",
       "CN",
-      "JP"
+      "US"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.png"

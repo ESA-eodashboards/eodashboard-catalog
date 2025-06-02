@@ -21,18 +21,18 @@
         "oceans"
       ],
       "cities": [
-        "Biwa Lake",
-        "Vänern Lake",
-        "Aral Lake",
+        "Balaton Lake",
         "Tonlé Sap Lake",
-        "Balaton Lake"
+        "Biwa Lake",
+        "Aral Lake",
+        "Vänern Lake"
       ],
       "countries": [
-        "KZ",
-        "UZ",
-        "KH",
         "HU",
+        "KZ",
         "JP",
+        "KH",
+        "UZ",
         "SW"
       ],
       "tags": [
@@ -197,18 +197,18 @@
       "OLI"
     ],
     "cities": [
-      "Biwa Lake",
-      "Vänern Lake",
-      "Aral Lake",
+      "Balaton Lake",
       "Tonlé Sap Lake",
-      "Balaton Lake"
+      "Biwa Lake",
+      "Aral Lake",
+      "Vänern Lake"
     ],
     "countries": [
-      "KZ",
-      "UZ",
-      "KH",
       "HU",
+      "KZ",
       "JP",
+      "KH",
+      "UZ",
       "SW"
     ]
   }
