@@ -106,7 +106,7 @@
   "links": [
     {
       "rel": "xyz",
-      "href": "https://reccap2.api.brockmann-consult.de/api/tiles/cop28~reccap2-9x108x139-0.0.1.zarr/intact_biomass_change_smooth_max/{z}/{y}/{x}?crs=EPSG:3857&time=2014-01-01 00:00:00+00:00&vmin=-5&vmax=5&cbar=Spectral",
+      "href": "https://reccap2.api.brockmann-consult.de/api/tiles/cop28~reccap2-9x108x139-0.0.1.zarr/intact_biomass_change_smooth_max/{z}/{y}/{x}?crs=EPSG:3857&time=2014-01-01T00:00:00Z&vmin=-5&vmax=5&cbar=Spectral",
       "type": "image/png",
       "title": "xcube tiles"
     },

@@ -196,22 +196,22 @@
       "ALOS-2"
     ],
     "sensor": [
-      "C-SAR",
-      "PALSAR-2"
+      "PALSAR-2",
+      "C-SAR"
     ],
     "cities": [
-      "Los Angeles",
-      "Singapore",
       "Palm Springs",
-      "Arcadia",
+      "Los Angeles",
       "Nagoya",
-      "Beijing"
+      "Singapore",
+      "Beijing",
+      "Arcadia"
     ],
     "countries": [
-      "US",
-      "JP",
       "SG",
-      "CN"
+      "CN",
+      "JP",
+      "US"
     ]
   }
 }

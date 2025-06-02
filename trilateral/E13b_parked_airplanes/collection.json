@@ -225,42 +225,42 @@
     ],
     "satellite": [
       "Sentinel-1",
-      "ALOS-2",
       "Sentinel-2",
-      "PlanetScope"
+      "PlanetScope",
+      "ALOS-2"
     ],
     "sensor": [
-      "C-SAR",
-      "PSB.SD",
       "MSI",
-      "PALSAR-2"
+      "PSB.SD",
+      "PALSAR-2",
+      "C-SAR"
     ],
     "cities": [
-      "Hayward",
+      "Ontario",
+      "Paris",
       "Marin",
-      "Oakland",
+      "Newark",
+      "Beijing Daxing",
+      "Heathrow",
       "Rome",
       "Los Angeles",
+      "Oakland",
+      "Hayward",
       "Buchannan",
-      "Ontario",
-      "Newark",
-      "San Jose",
-      "Heathrow",
-      "Beijing Daxing",
-      "San Francisco",
       "New York",
-      "Narita",
-      "Paris",
+      "Beijing",
       "Napa",
-      "Beijing"
+      "San Francisco",
+      "San Jose",
+      "Narita"
     ],
     "countries": [
-      "FR",
       "GB",
+      "US",
+      "IT",
       "CN",
       "JP",
-      "US",
-      "IT"
+      "FR"
     ]
   }
 }

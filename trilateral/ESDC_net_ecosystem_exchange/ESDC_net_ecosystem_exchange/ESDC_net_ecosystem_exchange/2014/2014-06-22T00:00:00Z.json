@@ -106,7 +106,7 @@
   "links": [
     {
       "rel": "xyz",
-      "href": "https://api.earthsystemdatalab.net/api/tiles/esdc/net_ecosystem_exchange/{z}/{y}/{x}?crs=EPSG:3857&time=2014-06-22 00:00:00+00:00&vmin=-7&vmax=2&cbar=bwr",
+      "href": "https://api.earthsystemdatalab.net/api/tiles/esdc/net_ecosystem_exchange/{z}/{y}/{x}?crs=EPSG:3857&time=2014-06-22T00:00:00Z&vmin=-7&vmax=2&cbar=bwr",
       "type": "image/png",
       "title": "xcube tiles"
     },

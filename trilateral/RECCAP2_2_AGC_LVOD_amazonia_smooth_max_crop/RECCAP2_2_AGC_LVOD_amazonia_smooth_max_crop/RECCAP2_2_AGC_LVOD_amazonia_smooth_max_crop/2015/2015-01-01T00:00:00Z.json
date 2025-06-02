@@ -106,7 +106,7 @@
   "links": [
     {
       "rel": "xyz",
-      "href": "https://reccap2.api.brockmann-consult.de/api/tiles/cop28~reccap2-9x108x139-0.0.1.zarr/AGC_LVOD_amazonia_smooth_max_crop/{z}/{y}/{x}?crs=EPSG:3857&time=2015-01-01 00:00:00+00:00&vmin=0&vmax=150&cbar=rain",
+      "href": "https://reccap2.api.brockmann-consult.de/api/tiles/cop28~reccap2-9x108x139-0.0.1.zarr/AGC_LVOD_amazonia_smooth_max_crop/{z}/{y}/{x}?crs=EPSG:3857&time=2015-01-01T00:00:00Z&vmin=0&vmax=150&cbar=rain",
       "type": "image/png",
       "title": "xcube tiles"
     },

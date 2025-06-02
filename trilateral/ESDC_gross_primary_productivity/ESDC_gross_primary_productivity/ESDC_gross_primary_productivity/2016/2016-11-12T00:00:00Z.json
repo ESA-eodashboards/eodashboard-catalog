@@ -106,7 +106,7 @@
   "links": [
     {
       "rel": "xyz",
-      "href": "https://api.earthsystemdatalab.net/api/tiles/esdc/gross_primary_productivity/{z}/{y}/{x}?crs=EPSG:3857&time=2016-11-12 00:00:00+00:00&vmin=-1&vmax=15&cbar=jet",
+      "href": "https://api.earthsystemdatalab.net/api/tiles/esdc/gross_primary_productivity/{z}/{y}/{x}?crs=EPSG:3857&time=2016-11-12T00:00:00Z&vmin=-1&vmax=15&cbar=jet",
       "type": "image/png",
       "title": "xcube tiles"
     },
