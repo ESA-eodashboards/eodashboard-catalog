@@ -68,14 +68,6 @@
       "method": "GET"
     },
     {
-      "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E9_tri?aoi_id=eq.{{feature}}&select=sub_aoi&limit=1",
-      "type": "application/geo+json",
-      "id": "show_geometry",
-      "method": "GET",
-      "eox:flatstyle": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/GFC_Garissa_FloodExtent/style.json"
-    },
-    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -200,26 +192,26 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-1",
-      "ALOS-2"
+      "ALOS-2",
+      "Sentinel-1"
     ],
     "sensor": [
       "C-SAR",
       "PALSAR-2"
     ],
     "cities": [
-      "Nagoya",
+      "Los Angeles",
       "Beijing",
-      "Palm Springs",
       "Singapore",
+      "Palm Springs",
       "Arcadia",
-      "Los Angeles"
+      "Nagoya"
     ],
     "countries": [
-      "JP",
-      "SG",
       "CN",
-      "US"
+      "SG",
+      "US",
+      "JP"
     ]
   }
 }
