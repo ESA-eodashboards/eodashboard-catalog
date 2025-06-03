@@ -119,19 +119,5 @@
     "scaleType": "continuous",
     "tickFormat": ".0f",
     "title": "[Mg C/ha]"
-  },
-  "Process": {
-    "Name": "xcube analytics",
-    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega_definition.json",
-    "EndPoints": [
-      {
-        "Identifier": "veda_statistics",
-        "Url": "https://openveda.cloud/api/raster/cog/statistics",
-        "Method": "POST",
-        "EndPoint": "veda",
-        "Type": "application/json"
-      }
-    ]
   }
 }
