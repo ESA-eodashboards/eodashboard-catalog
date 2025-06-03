@@ -47,5 +47,22 @@
       "Name": "JAXA",
       "Url": "https://global.jaxa.jp/"
     }
-  ]
+  ],
+  "Colorlegend": {
+    "domain": [
+      0,
+      1
+    ],
+    "range": [
+      "#b79a4b",
+      "#ece267",
+      "#abff38",
+      "#61e43e",
+      "#1c9c03",
+      "#0e4303"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "NDVI"
+  }
 }
