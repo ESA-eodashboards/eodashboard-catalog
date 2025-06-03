@@ -41,6 +41,22 @@
     },
     {
       "rel": "child",
+      "href": "./EPA_Forest_fire_Methane_Daily/collection.json",
+      "type": "application/json",
+      "title": "Forest Fires daily - EPA Methane Emissions 2012",
+      "subtitle": "Daily emissions from sector 5 from forest fires for 2012, gridded.",
+      "code": "EPA_Forest_fire_Methane_Daily",
+      "id": "EPA_Forest_fire_Methane_Daily",
+      "themes": [
+        "biomass"
+      ],
+      "subcode": "EPA_Forest_fire_Methane_Daily",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Daily/thumbnail.png"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./lakes_alos2_hh/collection.json",
       "type": "application/json",
       "title": "Lakes (ALOS2-HH)",
