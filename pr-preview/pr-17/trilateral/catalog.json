@@ -12,6 +12,35 @@
     },
     {
       "rel": "child",
+      "href": "./ndvi/collection.json",
+      "type": "application/json",
+      "title": "Normalized Difference Vegetation Index",
+      "subtitle": "Normalized Difference Vegetation Index",
+      "code": "E10e",
+      "id": "ndvi",
+      "themes": [
+        "biomass"
+      ],
+      "subcode": "E10e",
+      "satellite": [
+        "GCOM-C"
+      ],
+      "sensor": [
+        "SGLI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10e_ndvi/E10e_ndvi.png"
+      ],
+      "tags": [
+        "NDVI",
+        "Open data"
+      ],
+      "agency": [
+        "JAXA"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./lakes_alos2_hh/collection.json",
       "type": "application/json",
       "title": "Lakes (ALOS2-HH)",
