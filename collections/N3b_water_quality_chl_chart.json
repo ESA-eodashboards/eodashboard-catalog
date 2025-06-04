@@ -57,11 +57,23 @@
   ],
   "Resources": [
     {
-      "EndPoint": "https://api.npoint.io/09717bc17122318da3eb",
+      "EndPoint": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/",
       "Name": "GeoDB",
       "Database": "eodash",
       "CollectionId": "Regional_Water_quality_timeseries",
       "AdditionalQueryString": "indicator_name=eq.Chlorophyll-a concentration anomaly"
     }
-  ]
+  ],
+  "Process": {
+    "Name": "GeoDB Statistics",
+    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a2_agricultural_production_area/chart.json",
+    "EndPoints": [
+      {
+        "Identifier": "process_geodb",
+        "Url": "https://api.npoint.io/09717bc17122318da3eb",
+        "Type": "application/json"
+      }
+    ]
+  }
 }
