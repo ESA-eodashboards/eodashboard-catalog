@@ -123,5 +123,19 @@
     "scaleType": "continuous",
     "tickFormat": ".0f",
     "title": "[Mg C/ha/year]"
+  },
+  "Process": {
+    "Name": "xcube  Statistics",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
+    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
+    "EndPoints": [
+      {
+        "Identifier": "xcube_statistics",
+        "Url": "https://reccap2.api.brockmann-consult.de/api/timeseries/cop28~reccap2-9x108x139-0.0.1.zarr/deforested_biomass?aggMethods=median",
+        "Method": "POST",
+        "Body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_body.json",
+        "Type": "application/json"
+      }
+    ]
   }
 }
