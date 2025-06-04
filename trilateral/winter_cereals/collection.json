@@ -183,9 +183,9 @@
       "Landsat-8"
     ],
     "sensor": [
+      "C-SAR",
       "OLI",
-      "MSI",
-      "C-SAR"
+      "MSI"
     ],
     "cities": [
       "Spain"

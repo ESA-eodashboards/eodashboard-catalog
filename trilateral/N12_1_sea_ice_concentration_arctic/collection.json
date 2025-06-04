@@ -113,11 +113,14 @@
   ],
   "eox:colorlegend": {
     "domain": [
-      "NaN",
+      50,
+      60,
+      70,
+      80,
+      90,
       100
     ],
     "range": [
-      "#ffffff",
       "#4040ff",
       "#4646ff",
       "#6262ff",

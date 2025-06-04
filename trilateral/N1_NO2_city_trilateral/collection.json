@@ -196,26 +196,26 @@
       "TROPOMI"
     ],
     "cities": [
-      "Paris",
-      "Milan",
-      "New Delhi",
-      "San Francisco",
       "Rome",
+      "New Delhi",
       "Tokyo",
-      "New York",
-      "Beijing",
+      "Los Angeles",
+      "San Francisco",
+      "Milan",
+      "Paris",
       "Madrid",
       "Mumbai",
-      "Los Angeles"
+      "Beijing",
+      "New York"
     ],
     "countries": [
+      "ES",
+      "IN",
+      "CN",
       "FR",
       "IT",
       "JP",
-      "IN",
-      "CN",
-      "US",
-      "ES"
+      "US"
     ]
   },
   "assets": {
