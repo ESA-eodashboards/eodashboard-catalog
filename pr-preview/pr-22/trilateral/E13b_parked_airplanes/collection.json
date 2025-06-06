@@ -80,7 +80,7 @@
     },
     {
       "rel": "service",
-      "href": "https://api.npoint.io/bf58c6f2615ddacf00f6",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/",
       "type": "application/json",
       "id": "process_geodb",
       "method": "GET"
@@ -168,7 +168,7 @@
     "PlanetScope"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N2_greenhouse_gases/chart.json",
+  "eodash:vegadefinition": "https://api.npoint.io/bf58c6f2615ddacf00f6",
   "title": "Parked Airplanes",
   "extent": {
     "spatial": {
@@ -220,47 +220,47 @@
       "E13b"
     ],
     "themes": [
-      "economy",
-      "COVID-19"
+      "COVID-19",
+      "economy"
     ],
     "satellite": [
-      "ALOS-2",
-      "Sentinel-2",
+      "Sentinel-1",
       "PlanetScope",
-      "Sentinel-1"
+      "ALOS-2",
+      "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
-      "PSB.SD",
+      "C-SAR",
       "PALSAR-2",
-      "C-SAR"
+      "PSB.SD",
+      "MSI"
     ],
     "cities": [
-      "San Jose",
-      "Beijing Daxing",
-      "Beijing",
+      "Paris",
+      "Ontario",
       "Hayward",
+      "San Francisco",
       "Narita",
       "Heathrow",
       "Buchannan",
       "Oakland",
-      "Rome",
-      "Paris",
-      "New York",
-      "Newark",
       "Los Angeles",
+      "Beijing",
       "Napa",
-      "San Francisco",
-      "Marin",
-      "Ontario"
+      "Newark",
+      "Beijing Daxing",
+      "New York",
+      "Rome",
+      "San Jose",
+      "Marin"
     ],
     "countries": [
       "IT",
       "JP",
-      "US",
-      "CN",
       "GB",
-      "FR"
+      "US",
+      "FR",
+      "CN"
     ]
   }
 }
