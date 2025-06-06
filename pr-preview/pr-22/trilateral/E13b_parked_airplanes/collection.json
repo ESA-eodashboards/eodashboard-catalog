@@ -80,7 +80,7 @@
     },
     {
       "rel": "service",
-      "href": "https://api.npoint.io/789ded1badeb23fc7beb",
+      "href": "https://api.npoint.io/bf58c6f2615ddacf00f6",
       "type": "application/json",
       "id": "process_geodb",
       "method": "GET"
@@ -220,47 +220,47 @@
       "E13b"
     ],
     "themes": [
-      "COVID-19",
-      "economy"
+      "economy",
+      "COVID-19"
     ],
     "satellite": [
       "ALOS-2",
-      "Sentinel-1",
+      "Sentinel-2",
       "PlanetScope",
-      "Sentinel-2"
+      "Sentinel-1"
     ],
     "sensor": [
-      "PALSAR-2",
       "MSI",
       "PSB.SD",
+      "PALSAR-2",
       "C-SAR"
     ],
     "cities": [
-      "San Francisco",
-      "Rome",
-      "Ontario",
-      "Marin",
-      "Hayward",
-      "Beijing",
-      "Heathrow",
-      "Newark",
-      "Buchannan",
-      "New York",
-      "Los Angeles",
-      "Napa",
       "San Jose",
       "Beijing Daxing",
+      "Beijing",
+      "Hayward",
+      "Narita",
+      "Heathrow",
+      "Buchannan",
       "Oakland",
+      "Rome",
       "Paris",
-      "Narita"
+      "New York",
+      "Newark",
+      "Los Angeles",
+      "Napa",
+      "San Francisco",
+      "Marin",
+      "Ontario"
     ],
     "countries": [
       "IT",
+      "JP",
       "US",
-      "FR",
-      "GB",
       "CN",
-      "JP"
+      "GB",
+      "FR"
     ]
   }
 }

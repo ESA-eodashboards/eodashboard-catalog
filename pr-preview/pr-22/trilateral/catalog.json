@@ -36,31 +36,31 @@
         "PSB.SD"
       ],
       "cities": [
-        "San Francisco",
-        "Rome",
-        "Ontario",
-        "Marin",
-        "Hayward",
-        "Beijing",
-        "Heathrow",
-        "Newark",
-        "Buchannan",
-        "New York",
-        "Los Angeles",
-        "Napa",
         "San Jose",
         "Beijing Daxing",
+        "Beijing",
+        "Hayward",
+        "Narita",
+        "Heathrow",
+        "Buchannan",
         "Oakland",
+        "Rome",
         "Paris",
-        "Narita"
+        "New York",
+        "Newark",
+        "Los Angeles",
+        "Napa",
+        "San Francisco",
+        "Marin",
+        "Ontario"
       ],
       "countries": [
         "IT",
+        "JP",
         "US",
-        "FR",
-        "GB",
         "CN",
-        "JP"
+        "GB",
+        "FR"
       ],
       "tags": [
         "Copernicus Services",
