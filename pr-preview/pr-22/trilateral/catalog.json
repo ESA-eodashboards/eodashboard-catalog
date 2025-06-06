@@ -1,0 +1,86 @@
+{
+  "type": "Catalog",
+  "id": "trilateral",
+  "stac_version": "1.1.0",
+  "description": "A Tri-Agency Dashboard by NASA, ESA, JAXA",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./E13b_parked_airplanes/collection.json",
+      "type": "application/json",
+      "title": "Parked Airplanes",
+      "subtitle": "Grounded airplanes during the novel coronavirus pandemic",
+      "code": "E13b",
+      "id": "E13b_parked_airplanes",
+      "themes": [
+        "economy",
+        "COVID-19"
+      ],
+      "subcode": "E13b",
+      "satellite": [
+        "ALOS-2",
+        "Sentinel-1",
+        "Sentinel-2",
+        "PlanetScope"
+      ],
+      "sensor": [
+        "PALSAR-2",
+        "C-SAR",
+        "MSI",
+        "PSB.SD"
+      ],
+      "cities": [
+        "San Francisco",
+        "Rome",
+        "Ontario",
+        "Marin",
+        "Hayward",
+        "Beijing",
+        "Heathrow",
+        "Newark",
+        "Buchannan",
+        "New York",
+        "Los Angeles",
+        "Napa",
+        "San Jose",
+        "Beijing Daxing",
+        "Oakland",
+        "Paris",
+        "Narita"
+      ],
+      "countries": [
+        "IT",
+        "US",
+        "FR",
+        "GB",
+        "CN",
+        "JP"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "Open data",
+        "COVID-19",
+        "Mobility",
+        "Community",
+        "Air traffic"
+      ],
+      "agency": [
+        "ESA",
+        "NASA",
+        "JAXA"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://eurodatacube.github.io/eodash-catalog/trilateral/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Earth Observing Dashboard"
+}
