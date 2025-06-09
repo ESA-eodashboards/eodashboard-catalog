@@ -148,7 +148,7 @@
     }
   ],
   "subtitle": "Thwaites Glacier Landsat L2 low-cloud scenes",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_L2_Thwaites/thumbnail.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Thwaites_Landsat_L2/thumbnail.png",
   "themes": [
     "cryosphere"
   ],
@@ -231,20 +231,20 @@
       "cryosphere"
     ],
     "satellite": [
-      "Landsat-9",
       "Landsat-8",
-      "Landsat-7"
+      "Landsat-7",
+      "Landsat-9"
     ],
     "sensor": [
       "OLI"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_L2_Thwaites/thumbnail.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Thwaites_Landsat_L2/thumbnail.png"
     ]
   },
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_L2_Thwaites/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Thwaites_Landsat_L2/thumbnail.png",
       "type": "image/png",
       "roles": [
         "thumbnail"

@@ -1,0 +1,228 @@
+{
+  "type": "Collection",
+  "id": "NLK_lakes",
+  "stac_version": "1.1.0",
+  "description": "# Lakes\n\nSelected low-cloud-cover Landsat Collection-2 Level-2 Surface Reflectance scenes covering various lakes.\nProducts from multiple missions and instruments are combined in this single collection for the purpose of visualizing RGB images. Note that the full item records are not interchangeable across instruments for purposes other than visualization and that the assets available are not the same for each instrument.\n\n# Dataset description\nMetric: Provides Level-2 Surface Reflectance data, which is corrected for atmospheric conditions to offer realistic color representations. The data is primarily intended for RGB image visualizations of surface conditions.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./NLK_lakes/collection.json",
+      "type": "application/json",
+      "title": "Lakes collection (Landsat-8)",
+      "code": "NLK",
+      "id": "NLK_lakes",
+      "themes": [
+        "oceans"
+      ],
+      "cities": [
+        "Tonlé Sap Lake",
+        "Aral Lake",
+        "Vänern Lake",
+        "Biwa Lake",
+        "Balaton Lake"
+      ],
+      "countries": [
+        "HU",
+        "KZ",
+        "SW",
+        "UZ",
+        "KH",
+        "JP"
+      ],
+      "tags": [
+        "Water quality",
+        "Lakes",
+        "Lake",
+        "Landsat",
+        "OLI",
+        "Lake monitoring",
+        "Surface Reflectance",
+        "Hydrological changes",
+        "Ecosystems",
+        "Resources"
+      ],
+      "agency": [
+        "NASA"
+      ],
+      "subcode": "NLK",
+      "sensor": [
+        "OLI"
+      ],
+      "satellite": [
+        "Landsat-8"
+      ]
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "service",
+      "href": "./NLK_lakes/{{feature}}/collection.json",
+      "type": "application/json; profile=collection",
+      "id": "locations",
+      "method": "GET",
+      "endpoint": "STAC"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
+  "themes": [
+    "oceans"
+  ],
+  "locations": true,
+  "tags": [
+    "Water quality",
+    "Lakes",
+    "Lake",
+    "Landsat",
+    "OLI",
+    "Lake monitoring",
+    "Surface Reflectance",
+    "Hydrological changes",
+    "Ecosystems",
+    "Resources"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "NLK",
+  "sensor": [
+    "OLI"
+  ],
+  "satellite": [
+    "Landsat-8"
+  ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "title": "Lakes collection (Landsat-8)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          10.69941816,
+          11.94560442,
+          138.17282533,
+          59.83119443
+        ],
+        [
+          10.69941816,
+          11.94560442,
+          138.17282533,
+          59.83119443
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1984-04-18T09:40:30.064088Z",
+          "2023-06-20T06:40:19.342057Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "NLK"
+    ],
+    "themes": [
+      "oceans"
+    ],
+    "satellite": [
+      "Landsat-8"
+    ],
+    "sensor": [
+      "OLI"
+    ],
+    "cities": [
+      "Tonlé Sap Lake",
+      "Aral Lake",
+      "Vänern Lake",
+      "Biwa Lake",
+      "Balaton Lake"
+    ],
+    "countries": [
+      "HU",
+      "KZ",
+      "SW",
+      "UZ",
+      "KH",
+      "JP"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

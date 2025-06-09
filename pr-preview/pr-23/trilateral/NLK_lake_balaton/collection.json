@@ -1,0 +1,160 @@
+{
+  "type": "Collection",
+  "id": "NLK_lake_balaton",
+  "stac_version": "1.1.0",
+  "description": "Balaton lake Landsat-8",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./NLK_lake_balaton/collection.json",
+      "type": "application/json",
+      "title": "Balaton Lake cloud free",
+      "endpointtype": "VEDA_tiles",
+      "code": "NLK_lake_balaton",
+      "id": "NLK_lake_balaton",
+      "themes": [
+        "oceans"
+      ],
+      "tags": [
+        "lake"
+      ],
+      "satellite": [
+        "Landsat-8"
+      ],
+      "sensor": [
+        "OLI"
+      ],
+      "agency": [
+        "NASA"
+      ],
+      "subcode": "NLK_lake_balaton"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
+  "themes": [
+    "oceans"
+  ],
+  "tags": [
+    "lake"
+  ],
+  "satellite": [
+    "Landsat-8"
+  ],
+  "sensor": [
+    "OLI"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "NLK_lake_balaton",
+  "title": "Balaton Lake cloud free",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          15.04798484,
+          46.34951509,
+          19.16156268,
+          48.51911491
+        ],
+        [
+          15.04798484,
+          46.34951509,
+          19.16156268,
+          48.51911491
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1984-09-15T09:09:32.098056Z",
+          "2023-05-22T07:35:18.700905Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "NLK_lake_balaton"
+    ],
+    "themes": [
+      "oceans"
+    ],
+    "satellite": [
+      "Landsat-8"
+    ],
+    "sensor": [
+      "OLI"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

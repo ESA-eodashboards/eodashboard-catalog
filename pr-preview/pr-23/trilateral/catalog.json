@@ -50,6 +50,37 @@
     },
     {
       "rel": "child",
+      "href": "./WSF_world_settlement_footprint_2019/collection.json",
+      "type": "application/json",
+      "title": "World settlement footprint 2019",
+      "code": "WSF",
+      "id": "WSF_world_settlement_footprint_2019",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "WSF",
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "C-SAR",
+        "MSI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.png"
+      ],
+      "tags": [
+        "Human settlement",
+        "Human activities",
+        "Open data"
+      ],
+      "agency": [
+        "DLR"
+      ]
+    },
+    {
+      "rel": "child",
       "href": "./4D_Greenland_Melt_Duration/collection.json",
       "type": "application/json",
       "title": "Greenland Melt Duration",
@@ -251,7 +282,7 @@
         "OLI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_L2_Pine_Island/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Pine_Island_Landsat_L2/thumbnail.png"
       ],
       "tags": [
         "Antarctica",
@@ -298,7 +329,7 @@
         "OLI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_L2_Thwaites/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Thwaites_Landsat_L2/thumbnail.png"
       ],
       "tags": [
         "Antarctica",
@@ -352,7 +383,7 @@
         "AQ"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_L2_Pine_Island/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Thwaites_Landsat_L2/thumbnail.png"
       ],
       "tags": [
         "Antarctica",
@@ -611,56 +642,56 @@
         "Other"
       ],
       "cities": [
-        "Kazakhstan",
-        "United States of America",
+        "Pakistan",
+        "South Africa",
+        "India",
+        "Iran (Islamic Republic of)",
+        "China",
+        "Mongolia",
         "Canada",
         "Thailand",
-        "Brazil",
-        "Sudan",
-        "India",
-        "Mongolia",
-        "European Union (Convention)",
-        "Russian Federation",
-        "Democratic Republic of the Congo",
-        "Nigeria",
-        "European Union (KP)",
         "Mexico",
-        "Bangladesh",
+        "European Union (Convention)",
         "Indonesia",
-        "Pakistan",
-        "China",
-        "South Africa",
-        "Australia",
-        "Venezuela (Bolivarian Republic of)",
         "Colombia",
+        "Bangladesh",
+        "European Union (KP)",
+        "Venezuela (Bolivarian Republic of)",
+        "Kazakhstan",
+        "United States of America",
+        "Democratic Republic of the Congo",
+        "Australia",
+        "Nigeria",
         "Argentina",
-        "Iran (Islamic Republic of)"
+        "Brazil",
+        "Russian Federation",
+        "Sudan"
       ],
       "countries": [
-        "Kazakhstan",
-        "United States of America",
+        "Pakistan",
+        "South Africa",
+        "India",
+        "Iran (Islamic Republic of)",
+        "China",
+        "Mongolia",
         "Canada",
         "Thailand",
-        "Brazil",
-        "Sudan",
-        "India",
-        "Mongolia",
-        "European Union (Convention)",
-        "Russian Federation",
-        "Democratic Republic of the Congo",
-        "Nigeria",
-        "European Union (KP)",
         "Mexico",
-        "Bangladesh",
+        "European Union (Convention)",
         "Indonesia",
-        "Pakistan",
-        "China",
-        "South Africa",
-        "Australia",
-        "Venezuela (Bolivarian Republic of)",
         "Colombia",
+        "Bangladesh",
+        "European Union (KP)",
+        "Venezuela (Bolivarian Republic of)",
+        "Kazakhstan",
+        "United States of America",
+        "Democratic Republic of the Congo",
+        "Australia",
+        "Nigeria",
         "Argentina",
-        "Iran (Islamic Republic of)"
+        "Brazil",
+        "Russian Federation",
+        "Sudan"
       ],
       "tags": [
         "CH4",
@@ -687,56 +718,56 @@
         "Other"
       ],
       "cities": [
-        "Kazakhstan",
-        "United States of America",
+        "Pakistan",
+        "South Africa",
+        "India",
+        "Iran (Islamic Republic of)",
+        "China",
+        "Mongolia",
         "Canada",
         "Thailand",
-        "Brazil",
-        "Sudan",
-        "India",
-        "Mongolia",
-        "European Union (Convention)",
-        "Russian Federation",
-        "Democratic Republic of the Congo",
-        "Nigeria",
-        "European Union (KP)",
         "Mexico",
-        "Bangladesh",
+        "European Union (Convention)",
         "Indonesia",
-        "Pakistan",
-        "China",
-        "South Africa",
-        "Australia",
-        "Venezuela (Bolivarian Republic of)",
         "Colombia",
+        "Bangladesh",
+        "European Union (KP)",
+        "Venezuela (Bolivarian Republic of)",
+        "Kazakhstan",
+        "United States of America",
+        "Democratic Republic of the Congo",
+        "Australia",
+        "Nigeria",
         "Argentina",
-        "Iran (Islamic Republic of)"
+        "Brazil",
+        "Russian Federation",
+        "Sudan"
       ],
       "countries": [
-        "Kazakhstan",
-        "United States of America",
+        "Pakistan",
+        "South Africa",
+        "India",
+        "Iran (Islamic Republic of)",
+        "China",
+        "Mongolia",
         "Canada",
         "Thailand",
-        "Brazil",
-        "Sudan",
-        "India",
-        "Mongolia",
-        "European Union (Convention)",
-        "Russian Federation",
-        "Democratic Republic of the Congo",
-        "Nigeria",
-        "European Union (KP)",
         "Mexico",
-        "Bangladesh",
+        "European Union (Convention)",
         "Indonesia",
-        "Pakistan",
-        "China",
-        "South Africa",
-        "Australia",
-        "Venezuela (Bolivarian Republic of)",
         "Colombia",
+        "Bangladesh",
+        "European Union (KP)",
+        "Venezuela (Bolivarian Republic of)",
+        "Kazakhstan",
+        "United States of America",
+        "Democratic Republic of the Congo",
+        "Australia",
+        "Nigeria",
         "Argentina",
-        "Iran (Islamic Republic of)"
+        "Brazil",
+        "Russian Federation",
+        "Sudan"
       ],
       "tags": [
         "NO2",
@@ -815,6 +846,249 @@
         "name": "EPSG:3031",
         "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
       }
+    },
+    {
+      "rel": "child",
+      "href": "./NLK_lake_aral/collection.json",
+      "type": "application/json",
+      "title": "Aral Lake Landsat-8 cloud free",
+      "code": "NLK_lake_aral",
+      "id": "NLK_lake_aral",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "NLK_lake_aral",
+      "satellite": [
+        "Landsat-8"
+      ],
+      "sensor": [
+        "OLI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
+      ],
+      "tags": [
+        "Lake",
+        "Optical",
+        "Water",
+        "Open Data"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NLK_lake_balaton/collection.json",
+      "type": "application/json",
+      "title": "Balaton Lake cloud free",
+      "code": "NLK_lake_balaton",
+      "id": "NLK_lake_balaton",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "NLK_lake_balaton",
+      "satellite": [
+        "Landsat-8"
+      ],
+      "sensor": [
+        "OLI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
+      ],
+      "tags": [
+        "lake"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NLK_lake_biwa/collection.json",
+      "type": "application/json",
+      "title": "Biwa Lake cloud free",
+      "code": "NLK_lake_biwa",
+      "id": "NLK_lake_biwa",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "NLK_lake_biwa",
+      "satellite": [
+        "Landsat-8"
+      ],
+      "sensor": [
+        "OLI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
+      ],
+      "tags": [
+        "lake"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NLK_lake_tonle_sap/collection.json",
+      "type": "application/json",
+      "title": "Tonlé Sap Lake cloud free",
+      "code": "NLK_lake_tonle_sap",
+      "id": "NLK_lake_tonle_sap",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "NLK_lake_tonle_sap",
+      "satellite": [
+        "Landsat-8"
+      ],
+      "sensor": [
+        "OLI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
+      ],
+      "tags": [
+        "lake"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NLK_lake_vanern/collection.json",
+      "type": "application/json",
+      "title": "Vänern Lake cloud free",
+      "code": "NLK_lake_vanern",
+      "id": "NLK_lake_vanern",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "NLK_lake_vanern",
+      "satellite": [
+        "Landsat-8"
+      ],
+      "sensor": [
+        "OLI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
+      ],
+      "tags": [
+        "lake"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NLK_lakes/collection.json",
+      "type": "application/json",
+      "title": "Lakes collection (Landsat-8)",
+      "code": "NLK",
+      "id": "NLK_lakes",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "NLK",
+      "satellite": [
+        "Landsat-8"
+      ],
+      "sensor": [
+        "OLI"
+      ],
+      "cities": [
+        "Tonlé Sap Lake",
+        "Aral Lake",
+        "Vänern Lake",
+        "Biwa Lake",
+        "Balaton Lake"
+      ],
+      "countries": [
+        "HU",
+        "KZ",
+        "SW",
+        "UZ",
+        "KH",
+        "JP"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
+      ],
+      "tags": [
+        "Water quality",
+        "Lakes",
+        "Lake",
+        "Landsat",
+        "OLI",
+        "Lake monitoring",
+        "Surface Reflectance",
+        "Hydrological changes",
+        "Ecosystems",
+        "Resources"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./world_settlement_footprint/collection.json",
+      "type": "application/json",
+      "title": "World settlement footprint",
+      "code": "WSF",
+      "id": "world_settlement_footprint",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "WSF",
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "C-SAR",
+        "MSI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.png"
+      ],
+      "tags": [
+        "Human settlement",
+        "Human activities",
+        "Open data"
+      ],
+      "agency": [
+        "DLR"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./WSF_world_settlement_footprint_ind/collection.json",
+      "type": "application/json",
+      "title": "World settlement footprint",
+      "code": "WSF_world_settlement_footprint_ind",
+      "id": "WSF_world_settlement_footprint_ind",
+      "subcode": "WSF_world_settlement_footprint_ind",
+      "themes": [
+        "economy"
+      ],
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI",
+        "C-SAR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.png"
+      ]
     },
     {
       "rel": "self",
