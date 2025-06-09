@@ -21,18 +21,18 @@
         "oceans"
       ],
       "cities": [
+        "Tonlé Sap Lake",
         "Vänern Lake",
-        "Biwa Lake",
-        "Aral Lake",
         "Balaton Lake",
-        "Tonlé Sap Lake"
+        "Biwa Lake",
+        "Aral Lake"
       ],
       "countries": [
         "HU",
-        "KH",
         "JP",
-        "SW",
         "UZ",
+        "KH",
+        "SW",
         "KZ"
       ],
       "tags": [
@@ -122,6 +122,7 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
   "themes": [
     "oceans"
   ],
@@ -197,19 +198,31 @@
       "OLI"
     ],
     "cities": [
+      "Tonlé Sap Lake",
       "Vänern Lake",
-      "Biwa Lake",
-      "Aral Lake",
       "Balaton Lake",
-      "Tonlé Sap Lake"
+      "Biwa Lake",
+      "Aral Lake"
     ],
     "countries": [
       "HU",
-      "KH",
       "JP",
-      "SW",
       "UZ",
+      "KH",
+      "SW",
       "KZ"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

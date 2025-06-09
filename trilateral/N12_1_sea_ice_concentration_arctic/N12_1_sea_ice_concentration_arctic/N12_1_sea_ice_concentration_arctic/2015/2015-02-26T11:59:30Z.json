@@ -23,6 +23,10 @@
       ],
       "wms:dimensions": {
         "TIME": "2015-02-26T11:59:30Z"
+      },
+      "eodash:proj4_def": {
+        "name": "EPSG:3411",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs +type=crs"
       }
     },
     {
@@ -45,5 +49,9 @@
     }
   ],
   "assets": {},
-  "collection": "N12_1_sea_ice_concentration_arctic"
+  "collection": "N12_1_sea_ice_concentration_arctic",
+  "eodash:proj4_def": {
+    "name": "EPSG:3411",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs +type=crs"
+  }
 }

@@ -6302,6 +6302,7 @@
       "title": "Lakes collection (Landsat-8)"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
   "themes": [
     "oceans"
   ],
@@ -6350,5 +6351,14 @@
       "roles": "licensor, producer, processor",
       "url": "https://landsat.gsfc.nasa.gov/data/data-access/"
     }
-  ]
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

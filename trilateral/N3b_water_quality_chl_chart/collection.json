@@ -212,26 +212,26 @@
       "oceans"
     ],
     "satellite": [
-      "GCOM-C",
+      "Sentinel-3",
       "Acqua",
-      "Sentinel-3"
+      "GCOM-C"
     ],
     "sensor": [
-      "MODIS",
+      "SGLI",
       "OLCI",
-      "SGLI"
+      "MODIS"
     ],
     "cities": [
-      "Tokyo",
-      "Nagoya",
-      "Kobe",
+      "Venice",
       "New York",
-      "Venice"
+      "Tokyo",
+      "Kobe",
+      "Nagoya"
     ],
     "countries": [
-      "US",
+      "IT",
       "JP",
-      "IT"
+      "US"
     ]
   }
 }

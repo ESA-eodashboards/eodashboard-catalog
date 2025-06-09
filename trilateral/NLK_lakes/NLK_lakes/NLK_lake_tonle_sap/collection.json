@@ -2284,6 +2284,7 @@
       "title": "Lakes collection (Landsat-8)"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
   "themes": [
     "oceans"
   ],
@@ -2324,11 +2325,11 @@
   },
   "license": "other",
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lake_cloud_free/cm_legend.png",
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
       "type": "image/png",
       "roles": [
-        "metadata"
+        "thumbnail"
       ]
     }
   }

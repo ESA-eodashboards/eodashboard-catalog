@@ -110,7 +110,11 @@
       ],
       "role": [
         "data"
-      ]
+      ],
+      "eodash:proj4_def": {
+        "name": "EPSG:3031",
+        "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "parent",
@@ -155,6 +159,10 @@
   "satellite": [
     "MetOp"
   ],
+  "eodash:mapProjection": {
+    "name": "EPSG:3031",
+    "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
   "eox:colorlegend": {
     "domain": [
       1,
@@ -180,6 +188,10 @@
     "scaleType": "continuous",
     "tickFormat": ".0f",
     "title": "Ice melting end [day of year]"
+  },
+  "eodash:proj4_def": {
+    "name": "EPSG:3031",
+    "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
   },
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Antarctica Melt Season End",

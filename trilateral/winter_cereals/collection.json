@@ -183,8 +183,8 @@
       "Landsat-8"
     ],
     "sensor": [
-      "C-SAR",
       "OLI",
+      "C-SAR",
       "MSI"
     ],
     "cities": [

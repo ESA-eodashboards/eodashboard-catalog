@@ -225,22 +225,22 @@
       "agriculture"
     ],
     "satellite": [
-      "GCOM-C",
       "ALOS-2",
       "Sentinel-2",
+      "GCOM-C",
       "Landsat-8"
     ],
     "sensor": [
-      "MSI",
       "OLI",
       "PALSAR-2",
-      "SGLI"
+      "SGLI",
+      "MSI"
     ],
     "cities": [
       "Glenn (GCOM-C)",
+      "Yolo",
       "Colusa",
-      "Glenn",
-      "Yolo"
+      "Glenn"
     ],
     "countries": [
       "US"

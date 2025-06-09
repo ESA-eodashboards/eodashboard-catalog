@@ -168,9 +168,11 @@
       "title": "Lakes collection (Landsat-8)"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
   "themes": [
     "oceans"
   ],
+  "locations": true,
   "tags": [
     "Water quality",
     "Lakes",
@@ -254,19 +256,28 @@
   ],
   "summaries": {
     "cities": [
+      "Tonlé Sap Lake",
       "Vänern Lake",
-      "Biwa Lake",
-      "Aral Lake",
       "Balaton Lake",
-      "Tonlé Sap Lake"
+      "Biwa Lake",
+      "Aral Lake"
     ],
     "countries": [
       "HU",
-      "KH",
       "JP",
-      "SW",
       "UZ",
+      "KH",
+      "SW",
       "KZ"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

@@ -343,7 +343,7 @@
     }
   ],
   "subtitle": "Pine Island Landsat L2 low-cloud scenes",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_L2_Pine_Island/thumbnail.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Pine_Island_Landsat_L2/thumbnail.png",
   "themes": [
     "cryosphere"
   ],
@@ -375,6 +375,10 @@
     "Landsat-8",
     "Landsat-9"
   ],
+  "eodash:mapProjection": {
+    "name": "EPSG:3031",
+    "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
   "endpointtype": "VEDA_tiles",
   "title": "Pine Island",
   "extent": {
@@ -411,7 +415,7 @@
   ],
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_L2_Pine_Island/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Pine_Island_Landsat_L2/thumbnail.png",
       "type": "image/png",
       "roles": [
         "thumbnail"
