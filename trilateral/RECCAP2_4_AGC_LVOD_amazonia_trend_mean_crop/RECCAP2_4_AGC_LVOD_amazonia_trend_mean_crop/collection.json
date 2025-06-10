@@ -71,14 +71,6 @@
       "datetime": "2019-01-01T00:00:00Z"
     },
     {
-      "rel": "example",
-      "href": "https://reccap2.api.brockmann-consult.de/api/timeseries/cop28~reccap2-9x108x139-0.0.1.zarr/AGC_LVOD_amazonia_trend_mean_crop?aggMethods=median",
-      "type": "application/json",
-      "title": "xcube analytics",
-      "example:language": "JSON",
-      "example:method": "POST"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

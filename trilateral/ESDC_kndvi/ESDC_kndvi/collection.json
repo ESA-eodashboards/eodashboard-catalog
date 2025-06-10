@@ -2219,14 +2219,6 @@
       "datetime": "2021-12-23T00:00:00Z"
     },
     {
-      "rel": "example",
-      "href": "https://api.earthsystemdatalab.net/api/timeseries/esdc/kndvi?aggMethods=median",
-      "type": "application/json",
-      "title": "xcube analytics",
-      "example:language": "JSON",
-      "example:method": "POST"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

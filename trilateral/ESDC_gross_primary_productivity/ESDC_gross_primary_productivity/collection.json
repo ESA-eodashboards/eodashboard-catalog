@@ -1385,14 +1385,6 @@
       "datetime": "2018-12-15T00:00:00Z"
     },
     {
-      "rel": "example",
-      "href": "https://api.earthsystemdatalab.net/api/timeseries/esdc/gross_primary_productivity?aggMethods=median",
-      "type": "application/json",
-      "title": "xcube analytics",
-      "example:language": "JSON",
-      "example:method": "POST"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
