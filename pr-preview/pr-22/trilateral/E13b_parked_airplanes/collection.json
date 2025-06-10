@@ -80,7 +80,7 @@
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
       "id": "process_geodb",
       "method": "GET"
@@ -225,42 +225,42 @@
     ],
     "satellite": [
       "PlanetScope",
-      "Sentinel-1",
+      "Sentinel-2",
       "ALOS-2",
-      "Sentinel-2"
+      "Sentinel-1"
     ],
     "sensor": [
       "C-SAR",
       "PALSAR-2",
-      "MSI",
-      "PSB.SD"
+      "PSB.SD",
+      "MSI"
     ],
     "cities": [
-      "Rome",
-      "Ontario",
-      "Narita",
-      "San Jose",
-      "Heathrow",
-      "Hayward",
-      "Oakland",
-      "San Francisco",
       "Marin",
-      "Beijing",
-      "Buchannan",
+      "Rome",
+      "Oakland",
+      "New York",
+      "Paris",
       "Napa",
       "Los Angeles",
+      "Buchannan",
       "Beijing Daxing",
-      "Paris",
+      "Narita",
       "Newark",
-      "New York"
+      "Beijing",
+      "Heathrow",
+      "Ontario",
+      "San Francisco",
+      "Hayward",
+      "San Jose"
     ],
     "countries": [
-      "FR",
-      "US",
-      "IT",
-      "GB",
       "JP",
-      "CN"
+      "FR",
+      "GB",
+      "US",
+      "CN",
+      "IT"
     ]
   }
 }
