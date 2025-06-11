@@ -216,14 +216,14 @@
     ],
     "sensor": [
       "MODIS",
-      "OLCI",
-      "SGLI"
+      "SGLI",
+      "OLCI"
     ],
     "cities": [
       "Tokyo",
+      "Nagoya",
       "Venice",
-      "Kobe",
-      "Nagoya"
+      "Kobe"
     ],
     "countries": [
       "IT",

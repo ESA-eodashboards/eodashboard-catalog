@@ -218,15 +218,15 @@
     ],
     "sensor": [
       "MODIS",
-      "OLCI",
-      "SGLI"
+      "SGLI",
+      "OLCI"
     ],
     "cities": [
-      "Tokyo",
-      "New York",
-      "Venice",
       "Kobe",
-      "Nagoya"
+      "Tokyo",
+      "Nagoya",
+      "New York",
+      "Venice"
     ],
     "countries": [
       "IT",
