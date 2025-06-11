@@ -91,6 +91,8 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "sci:doi": "10.5067/OE8BDP5KU30Q",
+  "sci:citation": "Petty, A. A., N. Kurtz, R. Kwok, T. Markus, T. A. Neumann, and N. Keeney. 2022. ICESat-2 L4 Monthly Gridded Sea Ice Thickness, Version 2. [Indicate subset used]. \nBoulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. \n",
   "subtitle": "Monthly Arctic sea ice thickness",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SITI_IS2SITMOGR4-cog/SITI_IS2SITMOGR4-cog.png",
   "themes": [

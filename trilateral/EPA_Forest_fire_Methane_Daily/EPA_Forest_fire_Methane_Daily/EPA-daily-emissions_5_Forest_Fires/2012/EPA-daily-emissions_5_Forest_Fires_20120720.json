@@ -63,7 +63,7 @@
     },
     {
       "rel": "xyz",
-      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/EPA-daily-emissions_5_Forest_Fires/EPA-daily-emissions_5_Forest_Fires_20120720.tif&resampling_method=nearest&bidx=1&colormap_name=rainbow&rescale=0,2e12&nodata=0",
+      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/EPA-daily-emissions_5_Forest_Fires/EPA-daily-emissions_5_Forest_Fires_20120720.tif&resampling_method=nearest&bidx=1&colormap_name=rainbow&rescale=0,2e12",
       "type": "image/png",
       "title": "EPA_Forest_fire_Methane_Daily"
     },
