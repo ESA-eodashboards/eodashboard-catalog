@@ -168,7 +168,7 @@
     "PlanetScope"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://api.npoint.io/de70e6b7ce4c13634840",
+  "eodash:vegadefinition": "https://api.npoint.io/5f8de1d5de6aefd0d870",
   "title": "Parked Airplanes",
   "extent": {
     "spatial": {
@@ -224,43 +224,43 @@
       "COVID-19"
     ],
     "satellite": [
+      "Sentinel-2",
       "Sentinel-1",
-      "PlanetScope",
       "ALOS-2",
-      "Sentinel-2"
+      "PlanetScope"
     ],
     "sensor": [
-      "C-SAR",
-      "PSB.SD",
       "PALSAR-2",
-      "MSI"
+      "MSI",
+      "PSB.SD",
+      "C-SAR"
     ],
     "cities": [
-      "Oakland",
-      "Hayward",
-      "Beijing Daxing",
-      "New York",
-      "Narita",
-      "Los Angeles",
-      "Napa",
       "Rome",
-      "San Francisco",
       "Marin",
-      "Newark",
-      "Paris",
-      "Beijing",
       "Buchannan",
       "Ontario",
+      "Oakland",
+      "San Francisco",
+      "Newark",
+      "Los Angeles",
+      "Beijing",
       "Heathrow",
-      "San Jose"
+      "Hayward",
+      "Napa",
+      "Beijing Daxing",
+      "San Jose",
+      "New York",
+      "Paris",
+      "Narita"
     ],
     "countries": [
+      "FR",
+      "GB",
+      "JP",
       "CN",
       "US",
-      "IT",
-      "GB",
-      "FR",
-      "JP"
+      "IT"
     ]
   }
 }
