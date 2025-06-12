@@ -24,7 +24,7 @@
       ],
       "tags": [
         "Antarctica",
-        "Climate change",
+        "climate change",
         "Polar regions",
         "Open data",
         "Open Science",
@@ -34,7 +34,7 @@
         "Melt",
         "Landsat",
         "OLI",
-        "Glacier",
+        "glaciers",
         "Ice monitoring"
       ],
       "agency": [
@@ -71,7 +71,7 @@
       ],
       "tags": [
         "Antarctica",
-        "Climate change",
+        "climate change",
         "Polar regions",
         "Open data",
         "Open Science",
@@ -81,7 +81,7 @@
         "Melt",
         "Landsat",
         "OLI",
-        "Glacier",
+        "glaciers",
         "Ice monitoring"
       ],
       "agency": [
@@ -135,7 +135,7 @@
   "locations": true,
   "tags": [
     "Antarctica",
-    "Climate change",
+    "climate change",
     "Polar regions",
     "Open data",
     "Open Science",
@@ -145,7 +145,7 @@
     "Melt",
     "Landsat",
     "OLI",
-    "Glacier",
+    "glaciers",
     "Ice monitoring"
   ],
   "agency": [
@@ -209,8 +209,8 @@
   ],
   "summaries": {
     "cities": [
-      "Pine Island",
-      "Thwaites Glacier"
+      "Thwaites Glacier",
+      "Pine Island"
     ],
     "countries": [
       "AQ"

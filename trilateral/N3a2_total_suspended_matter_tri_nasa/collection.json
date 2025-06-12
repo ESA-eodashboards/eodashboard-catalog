@@ -39,7 +39,7 @@
         "MODIS",
         "Open data",
         "Marine monitoring",
-        "Total suspended matter"
+        "Total Suspended Matter"
       ],
       "agency": [
         "NASA"
@@ -129,7 +129,7 @@
     "MODIS",
     "Open data",
     "Marine monitoring",
-    "Total suspended matter"
+    "Total Suspended Matter"
   ],
   "agency": [
     "NASA"
@@ -207,9 +207,9 @@
       "MODIS"
     ],
     "cities": [
-      "New York",
       "San Francisco",
-      "North Adriatic"
+      "North Adriatic",
+      "New York"
     ],
     "countries": [
       "IT",

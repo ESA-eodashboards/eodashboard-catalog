@@ -19,7 +19,7 @@
       "code": "NPPN",
       "id": "net_primary_production",
       "themes": [
-        "oceans"
+        "water"
       ],
       "tags": [
         "Model",
@@ -109,7 +109,7 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPPN_net_primary_production/NPPN_net_primary_production.png",
   "themes": [
-    "oceans"
+    "water"
   ],
   "tags": [
     "Model",
@@ -203,7 +203,7 @@
       "NPPN"
     ],
     "themes": [
-      "oceans"
+      "water"
     ],
     "satellite": [
       "Aqua"

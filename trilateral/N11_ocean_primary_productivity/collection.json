@@ -20,7 +20,7 @@
       "code": "N11",
       "id": "N11_ocean_primary_productivity",
       "themes": [
-        "oceans"
+        "water"
       ],
       "tags": [
         "Primary production",
@@ -100,7 +100,7 @@
   "subtitle": "Net primary productivity [mgC/m2/day]",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N11_ocean_primary_productivity/N11_ocean_primary_productivity.png",
   "themes": [
-    "oceans"
+    "water"
   ],
   "tags": [
     "Primary production",
@@ -182,7 +182,7 @@
       "N11"
     ],
     "themes": [
-      "oceans"
+      "water"
     ],
     "satellite": [
       "GCOM-C"

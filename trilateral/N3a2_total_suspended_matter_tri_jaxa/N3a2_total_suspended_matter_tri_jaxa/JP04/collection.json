@@ -1842,7 +1842,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.png",
   "yAxis": "%",
   "themes": [
-    "oceans"
+    "water"
   ],
   "tags": [
     "Water quality",
@@ -1851,7 +1851,7 @@
     "SGLI",
     "Open data",
     "Marine monitoring",
-    "Total suspended matter"
+    "Total Suspended Matter"
   ],
   "agency": [
     "JAXA"

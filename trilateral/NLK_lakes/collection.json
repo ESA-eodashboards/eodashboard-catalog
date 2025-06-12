@@ -18,27 +18,26 @@
       "code": "NLK",
       "id": "NLK_lakes",
       "themes": [
-        "oceans"
+        "water"
       ],
       "cities": [
-        "Biwa Lake",
         "Balaton Lake",
         "Vänern Lake",
+        "Aral Lake",
         "Tonlé Sap Lake",
-        "Aral Lake"
+        "Biwa Lake"
       ],
       "countries": [
+        "HU",
         "SW",
         "KZ",
-        "KH",
         "UZ",
-        "JP",
-        "HU"
+        "KH",
+        "JP"
       ],
       "tags": [
         "Water quality",
         "Lakes",
-        "Lake",
         "Landsat",
         "OLI",
         "Lake monitoring",
@@ -124,13 +123,12 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
   "themes": [
-    "oceans"
+    "water"
   ],
   "locations": true,
   "tags": [
     "Water quality",
     "Lakes",
-    "Lake",
     "Landsat",
     "OLI",
     "Lake monitoring",
@@ -189,7 +187,7 @@
       "NLK"
     ],
     "themes": [
-      "oceans"
+      "water"
     ],
     "satellite": [
       "Landsat-8"
@@ -198,19 +196,19 @@
       "OLI"
     ],
     "cities": [
-      "Biwa Lake",
       "Balaton Lake",
       "Vänern Lake",
+      "Aral Lake",
       "Tonlé Sap Lake",
-      "Aral Lake"
+      "Biwa Lake"
     ],
     "countries": [
-      "KZ",
+      "HU",
       "SW",
-      "KH",
+      "KZ",
       "UZ",
-      "JP",
-      "HU"
+      "KH",
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"

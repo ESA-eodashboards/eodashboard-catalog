@@ -197,25 +197,25 @@
     ],
     "cities": [
       "Milan",
-      "San Francisco",
       "Mumbai",
-      "New Delhi",
+      "Los Angeles",
+      "San Francisco",
       "Madrid",
-      "Beijing",
-      "Tokyo",
       "Rome",
+      "Beijing",
       "Paris",
       "New York",
-      "Los Angeles"
+      "New Delhi",
+      "Tokyo"
     ],
     "countries": [
-      "IN",
-      "ES",
-      "IT",
-      "US",
-      "CN",
       "JP",
-      "FR"
+      "CN",
+      "IN",
+      "IT",
+      "ES",
+      "FR",
+      "US"
     ]
   },
   "assets": {

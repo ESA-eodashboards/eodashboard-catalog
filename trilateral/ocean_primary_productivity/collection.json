@@ -19,7 +19,7 @@
       "code": "NPP",
       "id": "ocean_primary_productivity",
       "themes": [
-        "oceans"
+        "water"
       ],
       "tags": [
         "Primary production",
@@ -116,7 +116,7 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPP_ocean_primary_productivity/NPP_ocean_primary_productivity.png",
   "themes": [
-    "oceans"
+    "water"
   ],
   "tags": [
     "Primary production",
@@ -219,19 +219,19 @@
       "NPP"
     ],
     "themes": [
-      "oceans"
+      "water"
     ],
     "satellite": [
-      "Envisat",
-      "Suomi",
+      "OrbView-2",
       "Aqua",
-      "OrbView-2"
+      "Envisat",
+      "Suomi"
     ],
     "sensor": [
-      "MERIS",
-      "SeaWiFS",
       "MODIS",
-      "VIIRS"
+      "VIIRS",
+      "SeaWiFS",
+      "MERIS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPP_ocean_primary_productivity/NPP_ocean_primary_productivity.png"

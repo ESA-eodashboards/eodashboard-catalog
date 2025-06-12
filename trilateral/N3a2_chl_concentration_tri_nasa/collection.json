@@ -20,7 +20,7 @@
       "code": "N3a2_chl_nasa",
       "id": "N3a2_chl_concentration_tri_nasa",
       "themes": [
-        "oceans"
+        "water"
       ],
       "cities": [
         "North Adriatic",
@@ -120,7 +120,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.png",
   "yAxis": "%",
   "themes": [
-    "oceans"
+    "water"
   ],
   "tags": [
     "Water quality",
@@ -198,7 +198,7 @@
       "N3a2_chl_nasa"
     ],
     "themes": [
-      "oceans"
+      "water"
     ],
     "satellite": [
       "Acqua"
@@ -207,9 +207,9 @@
       "MODIS"
     ],
     "cities": [
-      "New York",
       "San Francisco",
-      "North Adriatic"
+      "North Adriatic",
+      "New York"
     ],
     "countries": [
       "IT",

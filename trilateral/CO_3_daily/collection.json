@@ -20,7 +20,7 @@
       "code": "N1_CO",
       "id": "CO_3_daily",
       "themes": [
-        "air",
+        "atmosphere",
         "extreme-events"
       ],
       "tags": [
@@ -102,7 +102,7 @@
   "subtitle": "Global 3-daily Carbon monoxide",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.png",
   "themes": [
-    "air",
+    "atmosphere",
     "extreme-events"
   ],
   "tags": [
@@ -186,8 +186,8 @@
       "N1_CO"
     ],
     "themes": [
-      "air",
-      "extreme-events"
+      "extreme-events",
+      "atmosphere"
     ],
     "satellite": [
       "Sentinel-5P"

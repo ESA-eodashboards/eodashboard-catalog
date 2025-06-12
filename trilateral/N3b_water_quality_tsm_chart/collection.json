@@ -20,7 +20,7 @@
       "code": "N3b_tsm",
       "id": "N3b_water_quality_tsm_chart",
       "themes": [
-        "oceans"
+        "water"
       ],
       "cities": [
         "Venice",
@@ -125,7 +125,7 @@
   ],
   "subtitle": "Total Suspended Matter anomaly time series",
   "themes": [
-    "oceans"
+    "water"
   ],
   "tags": [
     "Water quality",
@@ -207,23 +207,23 @@
       "N3b_tsm"
     ],
     "themes": [
-      "oceans"
+      "water"
     ],
     "satellite": [
+      "GCOM-C",
       "Sentinel-3",
-      "Acqua",
-      "GCOM-C"
+      "Acqua"
     ],
     "sensor": [
-      "MODIS",
+      "OLCI",
       "SGLI",
-      "OLCI"
+      "MODIS"
     ],
     "cities": [
       "Tokyo",
-      "Nagoya",
       "Venice",
-      "Kobe"
+      "Kobe",
+      "Nagoya"
     ],
     "countries": [
       "IT",

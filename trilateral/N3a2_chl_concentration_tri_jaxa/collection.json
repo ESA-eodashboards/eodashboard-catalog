@@ -20,7 +20,7 @@
       "code": "N3a2_chl_jaxa",
       "id": "N3a2_chl_concentration_tri_jaxa",
       "themes": [
-        "oceans"
+        "water"
       ],
       "yAxis": "%",
       "tags": [
@@ -111,7 +111,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.png",
   "yAxis": "%",
   "themes": [
-    "oceans"
+    "water"
   ],
   "locations": true,
   "tags": [
@@ -189,7 +189,7 @@
       "N3a2_chl_jaxa"
     ],
     "themes": [
-      "oceans"
+      "water"
     ],
     "satellite": [
       "GCOM-C"

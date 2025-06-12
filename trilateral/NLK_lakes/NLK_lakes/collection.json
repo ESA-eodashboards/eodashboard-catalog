@@ -19,10 +19,10 @@
       "code": "NLK_lake_aral",
       "id": "NLK_lake_aral",
       "themes": [
-        "oceans"
+        "water"
       ],
       "tags": [
-        "Lake",
+        "Lakes",
         "Optical",
         "Water",
         "Open Data"
@@ -49,10 +49,10 @@
       "code": "NLK_lake_biwa",
       "id": "NLK_lake_biwa",
       "themes": [
-        "oceans"
+        "water"
       ],
       "tags": [
-        "lake"
+        "Lakes"
       ],
       "satellite": [
         "Landsat-8"
@@ -76,10 +76,10 @@
       "code": "NLK_lake_tonle_sap",
       "id": "NLK_lake_tonle_sap",
       "themes": [
-        "oceans"
+        "water"
       ],
       "tags": [
-        "lake"
+        "Lakes"
       ],
       "satellite": [
         "Landsat-8"
@@ -103,10 +103,10 @@
       "code": "NLK_lake_vanern",
       "id": "NLK_lake_vanern",
       "themes": [
-        "oceans"
+        "water"
       ],
       "tags": [
-        "lake"
+        "Lakes"
       ],
       "satellite": [
         "Landsat-8"
@@ -130,10 +130,10 @@
       "code": "NLK_lake_balaton",
       "id": "NLK_lake_balaton",
       "themes": [
-        "oceans"
+        "water"
       ],
       "tags": [
-        "lake"
+        "Lakes"
       ],
       "satellite": [
         "Landsat-8"
@@ -170,13 +170,12 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
   "themes": [
-    "oceans"
+    "water"
   ],
   "locations": true,
   "tags": [
     "Water quality",
     "Lakes",
-    "Lake",
     "Landsat",
     "OLI",
     "Lake monitoring",
@@ -256,19 +255,19 @@
   ],
   "summaries": {
     "cities": [
-      "Biwa Lake",
       "Balaton Lake",
       "Vänern Lake",
+      "Aral Lake",
       "Tonlé Sap Lake",
-      "Aral Lake"
+      "Biwa Lake"
     ],
     "countries": [
+      "HU",
       "SW",
       "KZ",
-      "KH",
       "UZ",
-      "JP",
-      "HU"
+      "KH",
+      "JP"
     ]
   },
   "assets": {

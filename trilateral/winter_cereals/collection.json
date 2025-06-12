@@ -178,14 +178,14 @@
       "agriculture"
     ],
     "satellite": [
-      "Sentinel-1",
       "Landsat-8",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Sentinel-1"
     ],
     "sensor": [
       "OLI",
-      "MSI",
-      "C-SAR"
+      "C-SAR",
+      "MSI"
     ],
     "cities": [
       "Spain"

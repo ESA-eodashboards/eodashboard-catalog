@@ -19,13 +19,13 @@
       "code": "ENSST",
       "id": "ENSST_by_GCOM-W-AMSR_JAXA",
       "themes": [
-        "oceans",
+        "water",
         "extreme-events"
       ],
       "tags": [
         "SST",
         "El Nino",
-        "Climate Change",
+        "climate change",
         "Open data"
       ],
       "agency": [
@@ -91,13 +91,13 @@
     }
   ],
   "themes": [
-    "oceans",
+    "water",
     "extreme-events"
   ],
   "tags": [
     "SST",
     "El Nino",
-    "Climate Change",
+    "climate change",
     "Open data"
   ],
   "agency": [
@@ -185,7 +185,7 @@
       "ENSST"
     ],
     "themes": [
-      "oceans",
+      "water",
       "extreme-events"
     ],
     "satellite": [

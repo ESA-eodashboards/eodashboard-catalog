@@ -20,7 +20,7 @@
       "code": "N1_NO2",
       "id": "NO2_daily",
       "themes": [
-        "air"
+        "atmosphere"
       ],
       "tags": [
         "Air quality",
@@ -101,7 +101,7 @@
   "subtitle": "Daily Nitrogen Dioxide",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2.png",
   "themes": [
-    "air"
+    "atmosphere"
   ],
   "tags": [
     "Air quality",
@@ -185,7 +185,7 @@
       "N1_NO2"
     ],
     "themes": [
-      "air"
+      "atmosphere"
     ],
     "satellite": [
       "Sentinel-5P"

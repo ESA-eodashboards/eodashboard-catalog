@@ -20,7 +20,7 @@
       "code": "N3a2_TSM_jaxa",
       "id": "N3a2_total_suspended_matter_tri_jaxa",
       "themes": [
-        "oceans"
+        "water"
       ],
       "yAxis": "%",
       "tags": [
@@ -30,7 +30,7 @@
         "SGLI",
         "Open data",
         "Marine monitoring",
-        "Total suspended matter"
+        "Total Suspended Matter"
       ],
       "agency": [
         "JAXA"
@@ -111,7 +111,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.png",
   "yAxis": "%",
   "themes": [
-    "oceans"
+    "water"
   ],
   "locations": true,
   "tags": [
@@ -121,7 +121,7 @@
     "SGLI",
     "Open data",
     "Marine monitoring",
-    "Total suspended matter"
+    "Total Suspended Matter"
   ],
   "agency": [
     "JAXA"
@@ -189,7 +189,7 @@
       "N3a2_TSM_jaxa"
     ],
     "themes": [
-      "oceans"
+      "water"
     ],
     "satellite": [
       "GCOM-C"

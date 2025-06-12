@@ -20,7 +20,7 @@
       "code": "N3a2_TSM_esa",
       "id": "N3a2_total_suspended_matter_tri_esa",
       "themes": [
-        "oceans"
+        "water"
       ],
       "yAxis": "%",
       "tags": [
@@ -112,7 +112,7 @@
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.png",
   "yAxis": "%",
   "themes": [
-    "oceans"
+    "water"
   ],
   "locations": true,
   "tags": [
@@ -195,7 +195,7 @@
       "N3a2_TSM_esa"
     ],
     "themes": [
-      "oceans"
+      "water"
     ],
     "satellite": [
       "Sentinel-3"

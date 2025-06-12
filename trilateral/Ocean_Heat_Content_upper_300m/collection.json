@@ -20,7 +20,7 @@
       "code": "OHC300",
       "id": "Ocean_Heat_Content_upper_300m",
       "themes": [
-        "oceans"
+        "water"
       ],
       "tags": [
         "Copernicus Services",
@@ -108,7 +108,7 @@
   "sci:citation": "Copernicus Climate Change Service, Climate Data Store, (2021).\nORAS5 global ocean reanalysis monthly data from 1958 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS).\n",
   "subtitle": "ORAS5 global ocean reanalysis monthly data from 1958 to present",
   "themes": [
-    "oceans"
+    "water"
   ],
   "tags": [
     "Copernicus Services",
@@ -188,7 +188,7 @@
       "OHC300"
     ],
     "themes": [
-      "oceans"
+      "water"
     ]
   },
   "assets": {

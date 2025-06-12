@@ -20,7 +20,7 @@
       "code": "N1_SO2",
       "id": "so2_daily",
       "themes": [
-        "air"
+        "atmosphere"
       ],
       "tags": [
         "Air quality",
@@ -101,7 +101,7 @@
   "subtitle": "Global daily SO2",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_SO2/N1_SO2.png",
   "themes": [
-    "air"
+    "atmosphere"
   ],
   "tags": [
     "Air quality",
@@ -180,7 +180,7 @@
       "N1_SO2"
     ],
     "themes": [
-      "air"
+      "atmosphere"
     ],
     "satellite": [
       "Sentinel-5P"
