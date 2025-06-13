@@ -4,10 +4,10 @@
   "EodashIdentifier": "NLK_lake_vanern",
   "Description": "V\u00e4nern lake Landsat-8",
   "Themes": [
-    "oceans"
+    "water"
   ],
   "Tags": [
-    "lake"
+    "Lakes"
   ],
   "Satellite": [
     "Landsat-8"
@@ -18,7 +18,7 @@
   "Agency": [
     "NASA"
   ],
-  "Legend": "NLK_lake_cloud_free/cm_legend.png",
+  "Image": "NLK_lakes/thumbnail.jpg",
   "Resources": [
     {
       "EndPoint": "https://openveda.cloud/api/stac/",
