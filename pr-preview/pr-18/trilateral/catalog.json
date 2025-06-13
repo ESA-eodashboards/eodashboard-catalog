@@ -33,15 +33,15 @@
         "MODIS"
       ],
       "cities": [
-        "New York",
-        "Venice",
         "Tokyo",
         "Kobe",
-        "Nagoya"
+        "Venice",
+        "Nagoya",
+        "New York"
       ],
       "countries": [
-        "IT",
         "US",
+        "IT",
         "JP"
       ],
       "tags": [
