@@ -20,7 +20,7 @@
       "code": "N3b_chl",
       "id": "N3b_water_quality_chl_chart",
       "themes": [
-        "oceans"
+        "water"
       ],
       "cities": [
         "Venice",
@@ -127,7 +127,7 @@
   ],
   "subtitle": "Chlorophyll-a concentration time series",
   "themes": [
-    "oceans"
+    "water"
   ],
   "tags": [
     "Water quality",
@@ -209,24 +209,24 @@
       "N3b_chl"
     ],
     "themes": [
-      "oceans"
+      "water"
     ],
     "satellite": [
-      "GCOM-C",
+      "Acqua",
       "Sentinel-3",
-      "Acqua"
+      "GCOM-C"
     ],
     "sensor": [
+      "MODIS",
       "OLCI",
-      "SGLI",
-      "MODIS"
+      "SGLI"
     ],
     "cities": [
+      "Tokyo",
       "Kobe",
-      "New York",
       "Nagoya",
       "Venice",
-      "Tokyo"
+      "New York"
     ],
     "countries": [
       "JP",

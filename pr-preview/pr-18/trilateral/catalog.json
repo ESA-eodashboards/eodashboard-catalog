@@ -19,7 +19,7 @@
       "code": "N3b_chl",
       "id": "N3b_water_quality_chl_chart",
       "themes": [
-        "oceans"
+        "water"
       ],
       "subcode": "N3b_chl",
       "satellite": [
@@ -33,11 +33,11 @@
         "MODIS"
       ],
       "cities": [
+        "Tokyo",
         "Kobe",
-        "New York",
         "Nagoya",
         "Venice",
-        "Tokyo"
+        "New York"
       ],
       "countries": [
         "JP",
