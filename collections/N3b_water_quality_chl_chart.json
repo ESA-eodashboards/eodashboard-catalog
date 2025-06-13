@@ -67,7 +67,7 @@
   "Process": {
     "Name": "GeoDB Statistics",
     "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
-    "VegaDefinition": "https://www.npoint.io/docs/b186cd075237bfc675ef",
+    "VegaDefinition": "https://www.npoint.io/docs/1245ab9dfa67dbad87a7",
     "EndPoints": [
       {
         "Identifier": "process_geodb",
