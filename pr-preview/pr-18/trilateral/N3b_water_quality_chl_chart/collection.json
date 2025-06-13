@@ -69,7 +69,7 @@
     },
     {
       "rel": "service",
-      "href": "https://api.npoint.io/09717bc17122318da3eb",
+      "href": "https://api.npoint.io/893614f8285a8e2b153b",
       "type": "application/json",
       "id": "process_geodb",
       "method": "GET"
@@ -213,25 +213,25 @@
     ],
     "satellite": [
       "Acqua",
-      "Sentinel-3",
-      "GCOM-C"
+      "GCOM-C",
+      "Sentinel-3"
     ],
     "sensor": [
-      "MODIS",
       "OLCI",
+      "MODIS",
       "SGLI"
     ],
     "cities": [
-      "Tokyo",
       "Kobe",
-      "Nagoya",
+      "Tokyo",
       "Venice",
+      "Nagoya",
       "New York"
     ],
     "countries": [
-      "JP",
+      "US",
       "IT",
-      "US"
+      "JP"
     ]
   }
 }
