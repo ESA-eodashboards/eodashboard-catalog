@@ -1,0 +1,114 @@
+{
+  "type": "Catalog",
+  "id": "trilateral",
+  "stac_version": "1.1.0",
+  "description": "A Tri-Agency Dashboard by NASA, ESA, JAXA",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./precipitation_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Local Precipitation from GCOM-W",
+      "subtitle": "Precipitation Timeseries",
+      "code": "PRCTS",
+      "id": "precipitation_timeseries",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "PRCTS",
+      "satellite": [
+        "Other"
+      ],
+      "cities": [
+        "Kansas",
+        "Paraná"
+      ],
+      "countries": [
+        "US",
+        "BR"
+      ],
+      "tags": [
+        "Precipitation",
+        "Rainfall",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "JAXA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./soil_moisture_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Local Soil Moisture from GSMaP",
+      "subtitle": "Soil Moisture Timeseries",
+      "code": "SMCTS",
+      "id": "soil_moisture_timeseries",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "SMCTS",
+      "satellite": [
+        "Other"
+      ],
+      "cities": [
+        "Kansas",
+        "Paraná"
+      ],
+      "countries": [
+        "US",
+        "BR"
+      ],
+      "tags": [
+        "Precipitation",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "JAXA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vegetation_index_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Local NDVI from GSMaP",
+      "subtitle": "Normalized Difference Vegetation Index Timeseries",
+      "code": "VITS",
+      "id": "vegetation_index_timeseries",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "VITS",
+      "satellite": [
+        "Other"
+      ],
+      "cities": [
+        "Kansas",
+        "Paraná"
+      ],
+      "countries": [
+        "US",
+        "BR"
+      ],
+      "tags": [
+        "Precipitation",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "JAXA"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://eurodatacube.github.io/eodash-catalog/trilateral/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Earth Observing Dashboard"
+}
