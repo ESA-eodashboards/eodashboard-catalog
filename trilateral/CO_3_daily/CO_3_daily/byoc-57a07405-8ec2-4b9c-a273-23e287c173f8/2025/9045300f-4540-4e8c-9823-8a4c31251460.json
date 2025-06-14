@@ -4,7 +4,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
   ],
-  "id": "3f8d6b71-a3fb-4ae3-a353-25a6a663b141",
+  "id": "9045300f-4540-4e8c-9823-8a4c31251460",
   "geometry": {
     "type": "Polygon",
     "crs": {
@@ -45,7 +45,7 @@
     90.0
   ],
   "properties": {
-    "datetime": "2025-03-02T00:00:00Z",
+    "datetime": "2025-04-28T00:00:00Z",
     "proj:bbox": [
       -180.0,
       -90.0,
@@ -112,7 +112,7 @@
         "data"
       ],
       "wms:dimensions": {
-        "TIME": "2025-03-02T00:00:00Z/2025-03-02T23:59:59Z"
+        "TIME": "2025-04-28T00:00:00Z/2025-04-28T23:59:59Z"
       }
     },
     {

@@ -4,7 +4,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
   ],
-  "id": "224c50e3-45b1-4d93-8e28-278f52d60d0c",
+  "id": "e9b958d3-7353-4e5e-ae61-f94d28ffe51e",
   "geometry": {
     "type": "Polygon",
     "crs": {
@@ -45,7 +45,7 @@
     90.0
   ],
   "properties": {
-    "datetime": "2025-03-03T00:00:00Z",
+    "datetime": "2025-06-02T00:00:00Z",
     "proj:bbox": [
       -180.0,
       -90.0,
@@ -98,30 +98,30 @@
       "rel": "collection",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Sulfur Dioxide observed by Sentinel-5p TROPOMI"
+      "title": "Methane monitoring"
     },
     {
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
-      "title": "so2_daily",
+      "title": "methane_monitoring",
       "wms:layers": [
-        "AWS_VIS_SO2_DAILY_DATA"
+        "AWS_CH4_WEEKLY"
       ],
       "role": [
         "data"
       ],
       "wms:dimensions": {
-        "TIME": "2025-03-03T00:00:00Z/2025-03-03T23:59:59Z"
+        "TIME": "2025-06-02T00:00:00Z/2025-06-02T23:59:59Z"
       }
     },
     {
       "rel": "parent",
       "href": "../../collection.json",
       "type": "application/json",
-      "title": "Sulfur Dioxide observed by Sentinel-5p TROPOMI"
+      "title": "Methane monitoring"
     }
   ],
   "assets": {},
-  "collection": "byoc-4ad9663f-d173-411d-8d28-3081d4d9e3aa"
+  "collection": "byoc-0ecb4a55-5ce2-4525-bdcb-a333d37d46ef"
 }

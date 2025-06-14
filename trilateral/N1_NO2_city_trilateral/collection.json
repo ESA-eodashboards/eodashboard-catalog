@@ -164,7 +164,7 @@
       "interval": [
         [
           "2018-05-07T00:00:00Z",
-          "2025-02-03T00:00:00Z"
+          "2025-05-12T00:00:00Z"
         ]
       ]
     }
@@ -196,26 +196,26 @@
       "TROPOMI"
     ],
     "cities": [
-      "Milan",
-      "Mumbai",
+      "New Delhi",
+      "Rome",
+      "Tokyo",
       "Los Angeles",
+      "Mumbai",
+      "New York",
+      "Milan",
+      "Beijing",
       "San Francisco",
       "Madrid",
-      "Rome",
-      "Beijing",
-      "Paris",
-      "New York",
-      "New Delhi",
-      "Tokyo"
+      "Paris"
     ],
     "countries": [
-      "JP",
-      "CN",
-      "IN",
+      "FR",
       "IT",
       "ES",
-      "FR",
-      "US"
+      "JP",
+      "US",
+      "CN",
+      "IN"
     ]
   },
   "assets": {
