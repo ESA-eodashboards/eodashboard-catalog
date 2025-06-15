@@ -209,25 +209,25 @@
       "PS2"
     ],
     "cities": [
-      "Los Angeles",
-      "Gdynia",
-      "Ghent",
-      "Suez ",
       "Suez",
-      "San Francisco",
-      "Genoa",
-      "New York",
       "Dunkirk",
-      "Hamburg"
+      "New York",
+      "San Francisco",
+      "Ghent",
+      "Hamburg",
+      "Genoa",
+      "Gdynia",
+      "Suez ",
+      "Los Angeles"
     ],
     "countries": [
       "BE",
+      "EG",
       "IT",
       "US",
-      "EG",
-      "DE",
       "PL",
-      "FR"
+      "FR",
+      "DE"
     ]
   }
 }

@@ -196,22 +196,22 @@
       "Sentinel-1"
     ],
     "sensor": [
-      "PALSAR-2",
-      "C-SAR"
+      "C-SAR",
+      "PALSAR-2"
     ],
     "cities": [
-      "Los Angeles",
-      "Arcadia",
       "Beijing",
-      "Nagoya",
       "Singapore",
-      "Palm Springs"
+      "Palm Springs",
+      "Nagoya",
+      "Arcadia",
+      "Los Angeles"
     ],
     "countries": [
+      "US",
       "CN",
       "JP",
-      "SG",
-      "US"
+      "SG"
     ]
   }
 }

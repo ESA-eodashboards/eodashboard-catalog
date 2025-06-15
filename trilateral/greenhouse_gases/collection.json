@@ -212,24 +212,24 @@
       "GOSAT"
     ],
     "sensor": [
-      "TANSO-CAI",
-      "TANSO-FTS"
+      "TANSO-FTS",
+      "TANSO-CAI"
     ],
     "cities": [
-      "Dhaka",
-      "Tokyo",
       "Beijing",
-      "New Delhi",
       "Mumbai",
+      "Tokyo",
       "New York",
-      "Shanghai"
+      "Shanghai",
+      "New Delhi",
+      "Dhaka"
     ],
     "countries": [
-      "BD",
-      "US",
-      "CN",
       "JP",
-      "IN"
+      "US",
+      "IN",
+      "BD",
+      "CN"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.png"
