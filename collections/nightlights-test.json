@@ -1,3 +1,42 @@
 {
-  "Name": "nightlights-test"
+  "Name": "nightlights-test",
+  "Title": "nightlights testing submission",
+  "EodashIdentifier": "NI",
+  "Description": "",
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "Nightlights output",
+      "Style": "",
+      "Bbox": [
+        -80,
+        40,
+        -70,
+        50
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "Nightlights output Lubo",
+              "File": "https://hub-otc-sc.eox.at/user/lubojr/files/eodashboard-notebooks/notebooks/nightlights_notebook/data/Nightlights/output/Nighttimelevel_Urban_h10v04_2019-2022.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
