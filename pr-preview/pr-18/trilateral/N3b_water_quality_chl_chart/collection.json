@@ -161,7 +161,7 @@
     "Acqua"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://www.npoint.io/docs/1245ab9dfa67dbad87a7",
+  "eodash:vegadefinition": "https://api.npoint.io/1245ab9dfa67dbad87a7",
   "title": "Chlorophyll-a concentration",
   "extent": {
     "spatial": {
@@ -217,21 +217,21 @@
       "Sentinel-3"
     ],
     "sensor": [
-      "SGLI",
       "OLCI",
+      "SGLI",
       "MODIS"
     ],
     "cities": [
+      "Nagoya",
+      "Kobe",
       "Venice",
       "Tokyo",
-      "Nagoya",
-      "New York",
-      "Kobe"
+      "New York"
     ],
     "countries": [
+      "US",
       "IT",
-      "JP",
-      "US"
+      "JP"
     ]
   }
 }
