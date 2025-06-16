@@ -41,14 +41,6 @@
   },
   "links": [
     {
-      "rel": "style",
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS2_wildlife/flatstyle.json",
-      "type": "text/cog-styles",
-      "asset:keys": [
-        "Nightlights output Lubo"
-      ]
-    },
-    {
       "rel": "root",
       "href": "../../../../catalog.json",
       "type": "application/json",
