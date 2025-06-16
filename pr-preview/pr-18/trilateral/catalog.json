@@ -33,16 +33,16 @@
         "MODIS"
       ],
       "cities": [
-        "Tokyo",
         "New York",
-        "Nagoya",
         "Venice",
+        "Nagoya",
+        "Tokyo",
         "Kobe"
       ],
       "countries": [
         "US",
-        "JP",
-        "IT"
+        "IT",
+        "JP"
       ],
       "tags": [
         "Water quality",
@@ -57,6 +57,59 @@
         "Open data",
         "Marine monitoring",
         "Chlorophyll-a",
+        "COVID-19"
+      ],
+      "agency": [
+        "ESA",
+        "JAXA",
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N3b_water_quality_tsm_chart/collection.json",
+      "type": "application/json",
+      "title": "Total Suspended Matter concentration anomaly",
+      "subtitle": "Total Suspended Matter anomaly time series",
+      "code": "N3b_tsm",
+      "id": "N3b_water_quality_tsm_chart",
+      "themes": [
+        "water"
+      ],
+      "subcode": "N3b_tsm",
+      "satellite": [
+        "Sentinel-3",
+        "GCOM-C",
+        "Acqua"
+      ],
+      "sensor": [
+        "OLCI",
+        "SGLI",
+        "MODIS"
+      ],
+      "cities": [
+        "Nagoya",
+        "Tokyo",
+        "Venice",
+        "Kobe"
+      ],
+      "countries": [
+        "IT",
+        "JP"
+      ],
+      "tags": [
+        "Water quality",
+        "Marine",
+        "Copernicus Services",
+        "Sentinel-3",
+        "Acqua",
+        "GCOM-C",
+        "OLCI",
+        "SGLI",
+        "MODIS",
+        "Open data",
+        "Marine monitoring",
+        "Total Suspended Sediments",
         "COVID-19"
       ],
       "agency": [
