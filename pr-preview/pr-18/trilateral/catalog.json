@@ -33,16 +33,16 @@
         "MODIS"
       ],
       "cities": [
-        "Nagoya",
-        "Kobe",
-        "Venice",
         "Tokyo",
-        "New York"
+        "New York",
+        "Nagoya",
+        "Venice",
+        "Kobe"
       ],
       "countries": [
         "US",
-        "IT",
-        "JP"
+        "JP",
+        "IT"
       ],
       "tags": [
         "Water quality",
