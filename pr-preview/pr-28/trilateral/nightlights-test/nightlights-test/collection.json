@@ -16,7 +16,7 @@
       "type": "application/geo+json",
       "datetime": "2023-01-01T00:00:00Z",
       "assets": [
-        "https://hub-otc-sc.eox.at/user/lubojr/files/eodashboard-notebooks/notebooks/nightlights_notebook/data/Nightlights/output/Nighttimelevel_Urban_h10v04_2019-2022.tif"
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/Nighttimelevel_Urban_h10v04_2019-2022.tif"
       ]
     },
     {
