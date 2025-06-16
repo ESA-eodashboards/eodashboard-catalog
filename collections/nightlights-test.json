@@ -18,8 +18,8 @@
   "Legend": "",
   "Resources": [
     {
-      "Name": "Nightlights output",
-      "Style": "",
+      "Name": "COG source",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/IDEAS2_wildlife/flatstyle.json",
       "Bbox": [
         -80,
         40,
@@ -36,7 +36,11 @@
             }
           ]
         }
-      ]
+      ],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
     }
   ]
 }
