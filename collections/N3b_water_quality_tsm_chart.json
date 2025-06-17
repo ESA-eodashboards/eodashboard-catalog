@@ -67,7 +67,7 @@
   "Process": {
     "Name": "GeoDB Statistics",
     "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
-    "VegaDefinition": "https://api.npoint.io/1245ab9dfa67dbad87a7",
+    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N3b_water_quality_tsm_chart/chart.json",
     "EndPoints": [
       {
         "Identifier": "process_geodb",
