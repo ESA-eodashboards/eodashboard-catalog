@@ -159,7 +159,7 @@
     "Acqua"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://api.npoint.io/1245ab9dfa67dbad87a7",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N3b_water_quality_tsm_chart/chart.json",
   "title": "Total Suspended Matter concentration anomaly",
   "extent": {
     "spatial": {
@@ -210,19 +210,19 @@
       "water"
     ],
     "satellite": [
-      "GCOM-C",
+      "Sentinel-3",
       "Acqua",
-      "Sentinel-3"
+      "GCOM-C"
     ],
     "sensor": [
       "MODIS",
-      "OLCI",
-      "SGLI"
+      "SGLI",
+      "OLCI"
     ],
     "cities": [
-      "Nagoya",
-      "Tokyo",
       "Venice",
+      "Tokyo",
+      "Nagoya",
       "Kobe"
     ],
     "countries": [
