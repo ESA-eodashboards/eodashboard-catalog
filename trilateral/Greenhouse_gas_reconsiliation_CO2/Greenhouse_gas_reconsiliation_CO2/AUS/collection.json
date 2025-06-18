@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "AUS",
+  "stac_version": "1.1.0",
+  "description": "Australia - Australia",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Carbon Dioxide from CCI RECCAP2"
+    }
+  ],
+  "subcode": "AUS",
+  "title": "Australia",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

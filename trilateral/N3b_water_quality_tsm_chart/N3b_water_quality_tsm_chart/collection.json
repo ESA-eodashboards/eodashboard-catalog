@@ -11,40 +11,44 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./N3b_water_quality_tsm_chart/2019/Venice.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT10/collection.json",
+      "type": "application/json",
+      "title": "Venice",
       "id": "IT10",
       "latlng": "45.314247, 12.508056",
       "country": "IT",
-      "city": "Venice"
+      "name": "Venice"
     },
     {
-      "rel": "item",
-      "href": "./N3b_water_quality_tsm_chart/2019/Kobe.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./JP05/collection.json",
+      "type": "application/json",
+      "title": "Kobe",
       "id": "JP05",
       "latlng": "34.550000, 135.1500001",
       "country": "JP",
-      "city": "Kobe"
+      "name": "Kobe"
     },
     {
-      "rel": "item",
-      "href": "./N3b_water_quality_tsm_chart/2019/Nagoya.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./JP06/collection.json",
+      "type": "application/json",
+      "title": "Nagoya",
       "id": "JP06",
       "latlng": "34.750000, 136.7000001",
       "country": "JP",
-      "city": "Nagoya"
+      "name": "Nagoya"
     },
     {
-      "rel": "item",
-      "href": "./N3b_water_quality_tsm_chart/2019/Tokyo.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./JP07/collection.json",
+      "type": "application/json",
+      "title": "Tokyo",
       "id": "JP07",
       "latlng": "35.550000, 139.9000001",
       "country": "JP",
-      "city": "Tokyo"
+      "name": "Tokyo"
     },
     {
       "rel": "parent",
@@ -89,25 +93,25 @@
     "GCOM-C",
     "Acqua"
   ],
-  "geoDBID": "Regional_Water_quality_timeseries",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Total Suspended Matter concentration anomaly",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          12.498056,
-          34.54,
-          139.9100001,
-          45.324247
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-01-04T11:50:00Z",
-          "2025-02-22T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

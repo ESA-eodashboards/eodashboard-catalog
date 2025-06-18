@@ -11,49 +11,54 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./rice_planting/2018/Glenn GCOMC.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US05/collection.json",
+      "type": "application/json",
+      "title": "Glenn (GCOM-C)",
       "id": "US05",
       "latlng": "39.586,-122.4",
       "country": "US",
-      "city": "Glenn (GCOM-C)"
+      "name": "Glenn (GCOM-C)"
     },
     {
-      "rel": "item",
-      "href": "./rice_planting/2018/Yolo.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US06/collection.json",
+      "type": "application/json",
+      "title": "Yolo",
       "id": "US06",
       "latlng": "38.732,-121.809",
       "country": "US",
-      "city": "Yolo"
+      "name": "Yolo"
     },
     {
-      "rel": "item",
-      "href": "./rice_planting/2018/Colusa.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US07/collection.json",
+      "type": "application/json",
+      "title": "Colusa",
       "id": "US07",
       "latlng": "39.139,-122.219",
       "country": "US",
-      "city": "Colusa"
+      "name": "Colusa"
     },
     {
-      "rel": "item",
-      "href": "./rice_planting/2015/Glenn.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US08/collection.json",
+      "type": "application/json",
+      "title": "Glenn",
       "id": "US08",
       "latlng": "39.48284,-122.06556",
       "country": "US",
-      "city": "Glenn"
+      "name": "Glenn"
     },
     {
-      "rel": "item",
-      "href": "./rice_planting/2013/Glenn.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US09/collection.json",
+      "type": "application/json",
+      "title": "Glenn",
       "id": "US09",
       "latlng": "39.48284,-122.06557",
       "country": "US",
-      "city": "Glenn"
+      "name": "Glenn"
     },
     {
       "rel": "parent",
@@ -117,25 +122,25 @@
     "tickFormat": ".0f",
     "title": "NDVI"
   },
-  "geoDBID": "E10c_tri",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Rice planting",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -122.41000000000001,
-          38.722,
-          -121.79899999999999,
-          39.596
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2013-03-31T03:49:31Z",
-          "2021-07-02T04:13:38Z"
+          null,
+          null
         ]
       ]
     }

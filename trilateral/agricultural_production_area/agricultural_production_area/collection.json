@@ -11,13 +11,14 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./agricultural_production_area/2020/Brandenburg Region.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE11/collection.json",
+      "type": "application/json",
+      "title": "Brandenburg Region",
       "id": "DE11",
       "latlng": "52.131413,13.090632",
       "country": "DE",
-      "city": "Brandenburg Region"
+      "name": "Brandenburg Region"
     },
     {
       "rel": "parent",
@@ -45,7 +46,7 @@
   "satellite": [
     "Sentinel-2"
   ],
-  "geoDBID": "E10a2_tri",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Agricultural production - area",
   "extent": {

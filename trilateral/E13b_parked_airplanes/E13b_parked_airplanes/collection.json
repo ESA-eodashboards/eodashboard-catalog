@@ -11,157 +11,174 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2020/Beijing.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CN011/collection.json",
+      "type": "application/json",
+      "title": "Beijing",
       "id": "CN011",
       "latlng": "40.072,116.593",
       "country": "CN",
-      "city": "Beijing"
+      "name": "Beijing"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2020/Beijing Daxing.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CN012/collection.json",
+      "type": "application/json",
+      "title": "Beijing Daxing",
       "id": "CN012",
       "latlng": "39.495,116.419",
       "country": "CN",
-      "city": "Beijing Daxing"
+      "name": "Beijing Daxing"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2019/Paris.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FR8/collection.json",
+      "type": "application/json",
+      "title": "Paris",
       "id": "FR8",
       "latlng": "49.006976345624935,2.559786183921451",
       "country": "FR",
-      "city": "Paris"
+      "name": "Paris"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2019/Rome.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT9/collection.json",
+      "type": "application/json",
+      "title": "Rome",
       "id": "IT9",
       "latlng": "41.80710100142961,12.253597669510512",
       "country": "IT",
-      "city": "Rome"
+      "name": "Rome"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2020/Narita.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./JP012/collection.json",
+      "type": "application/json",
+      "title": "Narita",
       "id": "JP012",
       "latlng": "35.774,140.385",
       "country": "JP",
-      "city": "Narita"
+      "name": "Narita"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2019/Heathrow.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./UK4/collection.json",
+      "type": "application/json",
+      "title": "Heathrow",
       "id": "UK4",
       "latlng": "51.469716296645025,-0.4580423952680147",
       "country": "GB",
-      "city": "Heathrow"
+      "name": "Heathrow"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2020/Los Angeles.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US021/collection.json",
+      "type": "application/json",
+      "title": "Los Angeles",
       "id": "US021",
       "latlng": "33.94,-118.41",
       "country": "US",
-      "city": "Los Angeles"
+      "name": "Los Angeles"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2020/Ontario.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US022/collection.json",
+      "type": "application/json",
+      "title": "Ontario",
       "id": "US022",
       "latlng": "34.057,-117.6",
       "country": "US",
-      "city": "Ontario"
+      "name": "Ontario"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2020/San Francisco.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US031/collection.json",
+      "type": "application/json",
+      "title": "San Francisco",
       "id": "US031",
       "latlng": "37.622,-122.378",
       "country": "US",
-      "city": "San Francisco"
+      "name": "San Francisco"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2020/San Jose.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US032/collection.json",
+      "type": "application/json",
+      "title": "San Jose",
       "id": "US032",
       "latlng": "37.363,-121.93",
       "country": "US",
-      "city": "San Jose"
+      "name": "San Jose"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2020/Oakland.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US033/collection.json",
+      "type": "application/json",
+      "title": "Oakland",
       "id": "US033",
       "latlng": "37.722,-122.226",
       "country": "US",
-      "city": "Oakland"
+      "name": "Oakland"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2020/Hayward.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US034/collection.json",
+      "type": "application/json",
+      "title": "Hayward",
       "id": "US034",
       "latlng": "37.6585,-122.121",
       "country": "US",
-      "city": "Hayward"
+      "name": "Hayward"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2020/Napa.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US035/collection.json",
+      "type": "application/json",
+      "title": "Napa",
       "id": "US035",
       "latlng": "38.216,-122.276",
       "country": "US",
-      "city": "Napa"
+      "name": "Napa"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2020/Marin.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US036/collection.json",
+      "type": "application/json",
+      "title": "Marin",
       "id": "US036",
       "latlng": "38.144,-122.557",
       "country": "US",
-      "city": "Marin"
+      "name": "Marin"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2020/Buchannan.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US037/collection.json",
+      "type": "application/json",
+      "title": "Buchannan",
       "id": "US037",
       "latlng": "37.99,-122.057",
       "country": "US",
-      "city": "Buchannan"
+      "name": "Buchannan"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2020/New York.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US041/collection.json",
+      "type": "application/json",
+      "title": "New York",
       "id": "US041",
       "latlng": "40.642,-73.788",
       "country": "US",
-      "city": "New York"
+      "name": "New York"
     },
     {
-      "rel": "item",
-      "href": "./E13b_parked_airplanes/2020/Newark.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US042/collection.json",
+      "type": "application/json",
+      "title": "Newark",
       "id": "US042",
       "latlng": "40.689,-74.172",
       "country": "US",
-      "city": "Newark"
+      "name": "Newark"
     },
     {
       "rel": "parent",
@@ -202,16 +219,16 @@
     "Sentinel-2",
     "PlanetScope"
   ],
-  "geoDBID": "E13b_tri",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Parked Airplanes",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -122.56700000000001,
-          33.93,
-          140.39499999999998,
+          -0.4680423952680147,
+          41.79710100142961,
+          12.263597669510512,
           51.47971629664502
         ]
       ]

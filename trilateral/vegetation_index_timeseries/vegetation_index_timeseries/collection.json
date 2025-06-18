@@ -11,22 +11,24 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./vegetation_index_timeseries/2020/Paraná.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BR04/collection.json",
+      "type": "application/json",
+      "title": "Paraná",
       "id": "BR04",
       "latlng": "-24.615, -51.315",
       "country": "BR",
-      "city": "Paraná"
+      "name": "Paraná"
     },
     {
-      "rel": "item",
-      "href": "./vegetation_index_timeseries/2020/Kansas.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US10/collection.json",
+      "type": "application/json",
+      "title": "Kansas",
       "id": "US10",
       "latlng": "38.5,-98.325",
       "country": "US",
-      "city": "Kansas"
+      "name": "Kansas"
     },
     {
       "rel": "parent",
@@ -51,25 +53,25 @@
   "satellite": [
     "Other"
   ],
-  "geoDBID": "VITS_Vegetation_Index_Timeseries",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Local NDVI from GSMaP",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -98.33500000000001,
-          -24.625,
-          -51.305,
-          38.51
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-01-09T00:00:00Z",
-          "2023-06-24T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

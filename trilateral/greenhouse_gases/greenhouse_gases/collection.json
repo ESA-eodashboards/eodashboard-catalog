@@ -11,67 +11,74 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./greenhouse_gases/2016/Dhaka.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BD01/collection.json",
+      "type": "application/json",
+      "title": "Dhaka",
       "id": "BD01",
       "latlng": "23.8,90.3",
       "country": "BD",
-      "city": "Dhaka"
+      "name": "Dhaka"
     },
     {
-      "rel": "item",
-      "href": "./greenhouse_gases/2016/Beijing.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CN01/collection.json",
+      "type": "application/json",
+      "title": "Beijing",
       "id": "CN01",
       "latlng": "39.9,116.38",
       "country": "CN",
-      "city": "Beijing"
+      "name": "Beijing"
     },
     {
-      "rel": "item",
-      "href": "./greenhouse_gases/2016/Shanghai.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CN02/collection.json",
+      "type": "application/json",
+      "title": "Shanghai",
       "id": "CN02",
       "latlng": "31.3,121.4",
       "country": "CN",
-      "city": "Shanghai"
+      "name": "Shanghai"
     },
     {
-      "rel": "item",
-      "href": "./greenhouse_gases/2016/New Delhi.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IN01/collection.json",
+      "type": "application/json",
+      "title": "New Delhi",
       "id": "IN01",
       "latlng": "28.6448,77.216721",
       "country": "IN",
-      "city": "New Delhi"
+      "name": "New Delhi"
     },
     {
-      "rel": "item",
-      "href": "./greenhouse_gases/2016/Mumbai.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IN02/collection.json",
+      "type": "application/json",
+      "title": "Mumbai",
       "id": "IN02",
       "latlng": "19.076,72.8777",
       "country": "IN",
-      "city": "Mumbai"
+      "name": "Mumbai"
     },
     {
-      "rel": "item",
-      "href": "./greenhouse_gases/2016/Tokyo.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./JP01/collection.json",
+      "type": "application/json",
+      "title": "Tokyo",
       "id": "JP01",
       "latlng": "35.61,139.78",
       "country": "JP",
-      "city": "Tokyo"
+      "name": "Tokyo"
     },
     {
-      "rel": "item",
-      "href": "./greenhouse_gases/2016/New York.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US01/collection.json",
+      "type": "application/json",
+      "title": "New York",
       "id": "US01",
       "latlng": "40.71268,-74.005812",
       "country": "US",
-      "city": "New York"
+      "name": "New York"
     },
     {
       "rel": "parent",
@@ -129,25 +136,25 @@
     "tickFormat": ".0f",
     "title": "diff XCO2 [ppm]"
   },
-  "geoDBID": "N2_tri",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Carbon Dioxide at city level from GOSAT",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -74.01581200000001,
-          19.066,
-          139.79,
-          40.72268
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2016-01-01T00:00:00Z",
-          "2020-04-01T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

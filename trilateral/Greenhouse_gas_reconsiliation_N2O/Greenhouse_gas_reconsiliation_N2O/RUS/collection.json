@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "RUS",
+  "stac_version": "1.1.0",
+  "description": "Russian Federation - Russian Federation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Nitrous oxide from CCI RECCAP2"
+    }
+  ],
+  "subcode": "RUS",
+  "title": "Russian Federation",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

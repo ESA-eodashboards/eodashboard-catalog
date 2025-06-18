@@ -171,24 +171,24 @@
     "spatial": {
       "bbox": [
         [
-          -74.01581200000001,
-          19.066,
-          139.79,
-          40.72268
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ],
         [
-          -74.01581200000001,
-          19.066,
-          139.79,
-          40.72268
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2016-01-01T00:00:00Z",
-          "2020-04-01T00:00:00Z"
+          "2025-06-18T06:08:47.780385Z",
+          null
         ]
       ]
     }
@@ -212,24 +212,24 @@
       "GOSAT"
     ],
     "sensor": [
-      "TANSO-FTS",
-      "TANSO-CAI"
+      "TANSO-CAI",
+      "TANSO-FTS"
     ],
     "cities": [
-      "Dhaka",
       "New York",
-      "Mumbai",
+      "Beijing",
+      "Dhaka",
       "New Delhi",
       "Shanghai",
-      "Beijing",
+      "Mumbai",
       "Tokyo"
     ],
     "countries": [
-      "IN",
-      "BD",
       "CN",
       "US",
-      "JP"
+      "BD",
+      "JP",
+      "IN"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.png"

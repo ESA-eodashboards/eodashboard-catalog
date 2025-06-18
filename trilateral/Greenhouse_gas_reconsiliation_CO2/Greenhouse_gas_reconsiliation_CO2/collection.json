@@ -11,220 +11,244 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1990/Argentina.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ARG/collection.json",
+      "type": "application/json",
+      "title": "Argentina",
       "id": "ARG",
       "latlng": "-34.583,-58.667",
       "country": "Argentina",
-      "city": "Argentina"
+      "name": "Argentina"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1990/Australia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./AUS/collection.json",
+      "type": "application/json",
+      "title": "Australia",
       "id": "AUS",
       "latlng": "-35.267,149.133",
       "country": "Australia",
-      "city": "Australia"
+      "name": "Australia"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1994/Bangladesh.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BGD/collection.json",
+      "type": "application/json",
+      "title": "Bangladesh",
       "id": "BGD",
       "latlng": "23.717,90.4",
       "country": "Bangladesh",
-      "city": "Bangladesh"
+      "name": "Bangladesh"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1990/Brazil.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BRA/collection.json",
+      "type": "application/json",
+      "title": "Brazil",
       "id": "BRA",
       "latlng": "-15.783,-47.917",
       "country": "Brazil",
-      "city": "Brazil"
+      "name": "Brazil"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1990/Canada.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CAN/collection.json",
+      "type": "application/json",
+      "title": "Canada",
       "id": "CAN",
       "latlng": "45.417,-75.7",
       "country": "Canada",
-      "city": "Canada"
+      "name": "Canada"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1994/China.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CHN/collection.json",
+      "type": "application/json",
+      "title": "China",
       "id": "CHN",
       "latlng": "39.917,116.383",
       "country": "China",
-      "city": "China"
+      "name": "China"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1994/Democratic Republic of the Congo.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./COD/collection.json",
+      "type": "application/json",
+      "title": "Democratic Republic of the Congo",
       "id": "COD",
       "latlng": "-4.317,15.3",
       "country": "Democratic Republic of the Congo",
-      "city": "Democratic Republic of the Congo"
+      "name": "Democratic Republic of the Congo"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1990/Colombia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./COL/collection.json",
+      "type": "application/json",
+      "title": "Colombia",
       "id": "COL",
       "latlng": "4.6,-74.083",
       "country": "Colombia",
-      "city": "Colombia"
+      "name": "Colombia"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1990/European Union Convention.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./EUA/collection.json",
+      "type": "application/json",
+      "title": "European Union (Convention)",
       "id": "EUA",
       "latlng": "50.83,4.34",
       "country": "European Union (Convention)",
-      "city": "European Union (Convention)"
+      "name": "European Union (Convention)"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1990/European Union KP.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./EUC/collection.json",
+      "type": "application/json",
+      "title": "European Union (KP)",
       "id": "EUC",
       "latlng": "50.8301,4.3401",
       "country": "European Union (KP)",
-      "city": "European Union (KP)"
+      "name": "European Union (KP)"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1990/Indonesia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IDN/collection.json",
+      "type": "application/json",
+      "title": "Indonesia",
       "id": "IDN",
       "latlng": "-6.167,106.817",
       "country": "Indonesia",
-      "city": "Indonesia"
+      "name": "Indonesia"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1994/India.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IND/collection.json",
+      "type": "application/json",
+      "title": "India",
       "id": "IND",
       "latlng": "28.6,77.2",
       "country": "India",
-      "city": "India"
+      "name": "India"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1994/Iran Islamic Republic of.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IRN/collection.json",
+      "type": "application/json",
+      "title": "Iran (Islamic Republic of)",
       "id": "IRN",
       "latlng": "35.7,51.417",
       "country": "Iran (Islamic Republic of)",
-      "city": "Iran (Islamic Republic of)"
+      "name": "Iran (Islamic Republic of)"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1990/Kazakhstan.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./KAZ/collection.json",
+      "type": "application/json",
+      "title": "Kazakhstan",
       "id": "KAZ",
       "latlng": "51.167,71.417",
       "country": "Kazakhstan",
-      "city": "Kazakhstan"
+      "name": "Kazakhstan"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1990/Mexico.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./MEX/collection.json",
+      "type": "application/json",
+      "title": "Mexico",
       "id": "MEX",
       "latlng": "19.433,-99.133",
       "country": "Mexico",
-      "city": "Mexico"
+      "name": "Mexico"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1990/Mongolia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./MNG/collection.json",
+      "type": "application/json",
+      "title": "Mongolia",
       "id": "MNG",
       "latlng": "47.917,106.917",
       "country": "Mongolia",
-      "city": "Mongolia"
+      "name": "Mongolia"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/2000/Nigeria.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./NGA/collection.json",
+      "type": "application/json",
+      "title": "Nigeria",
       "id": "NGA",
       "latlng": "9.083,7.533",
       "country": "Nigeria",
-      "city": "Nigeria"
+      "name": "Nigeria"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1994/Pakistan.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./PAK/collection.json",
+      "type": "application/json",
+      "title": "Pakistan",
       "id": "PAK",
       "latlng": "33.683,73.05",
       "country": "Pakistan",
-      "city": "Pakistan"
+      "name": "Pakistan"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1990/Russian Federation.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./RUS/collection.json",
+      "type": "application/json",
+      "title": "Russian Federation",
       "id": "RUS",
       "latlng": "55.75,37.6",
       "country": "Russian Federation",
-      "city": "Russian Federation"
+      "name": "Russian Federation"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1995/Sudan.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./SDN/collection.json",
+      "type": "application/json",
+      "title": "Sudan",
       "id": "SDN",
       "latlng": "15.6,32.533",
       "country": "Sudan",
-      "city": "Sudan"
+      "name": "Sudan"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1994/Thailand.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./THA/collection.json",
+      "type": "application/json",
+      "title": "Thailand",
       "id": "THA",
       "latlng": "13.75,100.517",
       "country": "Thailand",
-      "city": "Thailand"
+      "name": "Thailand"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1990/United States of America.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./USA/collection.json",
+      "type": "application/json",
+      "title": "United States of America",
       "id": "USA",
       "latlng": "38.883,-77.0",
       "country": "United States of America",
-      "city": "United States of America"
+      "name": "United States of America"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1999/Venezuela Bolivarian Republic of.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./VEN/collection.json",
+      "type": "application/json",
+      "title": "Venezuela (Bolivarian Republic of)",
       "id": "VEN",
       "latlng": "10.483,-66.867",
       "country": "Venezuela (Bolivarian Republic of)",
-      "city": "Venezuela (Bolivarian Republic of)"
+      "name": "Venezuela (Bolivarian Republic of)"
     },
     {
-      "rel": "item",
-      "href": "./Greenhouse_gas_reconsiliation_CO2/1990/South Africa.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ZAF/collection.json",
+      "type": "application/json",
+      "title": "South Africa",
       "id": "ZAF",
       "latlng": "-25.7,28.217",
       "country": "South Africa",
-      "city": "South Africa"
+      "name": "South Africa"
     },
     {
       "rel": "parent",
@@ -252,25 +276,25 @@
   "satellite": [
     "Other"
   ],
-  "geoDBID": "GGI_CO2",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Carbon Dioxide from CCI RECCAP2",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -99.143,
-          -35.277,
-          149.143,
-          55.76
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "1990-01-01T00:00:00Z",
-          "2020-01-01T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

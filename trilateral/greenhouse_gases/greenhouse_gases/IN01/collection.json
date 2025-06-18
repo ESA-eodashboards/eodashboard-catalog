@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "IN01",
+  "stac_version": "1.1.0",
+  "description": "New Delhi - IN",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Carbon Dioxide at city level from GOSAT"
+    }
+  ],
+  "subcode": "IN01",
+  "title": "New Delhi",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

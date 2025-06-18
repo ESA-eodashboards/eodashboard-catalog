@@ -167,24 +167,24 @@
     "spatial": {
       "bbox": [
         [
-          -72.944,
-          34.54,
-          139.91,
-          45.3242
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ],
         [
-          -72.944,
-          34.54,
-          139.91,
-          45.3242
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-01-04T11:50:00Z",
-          "2025-02-22T00:00:00Z"
+          "2025-06-18T06:14:13.506240Z",
+          null
         ]
       ]
     }
@@ -212,26 +212,26 @@
       "water"
     ],
     "satellite": [
-      "Acqua",
+      "GCOM-C",
       "Sentinel-3",
-      "GCOM-C"
+      "Acqua"
     ],
     "sensor": [
-      "MODIS",
       "SGLI",
-      "OLCI"
+      "OLCI",
+      "MODIS"
     ],
     "cities": [
-      "Venice",
       "New York",
-      "Kobe",
+      "Venice",
       "Nagoya",
+      "Kobe",
       "Tokyo"
     ],
     "countries": [
+      "IT",
       "JP",
-      "US",
-      "IT"
+      "US"
     ]
   }
 }

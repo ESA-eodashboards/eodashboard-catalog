@@ -151,24 +151,24 @@
     "spatial": {
       "bbox": [
         [
-          -6.148,
-          37.539,
-          1.496,
-          42.653999999999996
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ],
         [
-          -6.148,
-          37.539,
-          1.496,
-          42.653999999999996
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-05-17T00:00:00Z",
-          "2020-08-02T00:00:00Z"
+          "2025-06-18T06:08:43.530883Z",
+          null
         ]
       ]
     }
@@ -188,27 +188,27 @@
       "agriculture"
     ],
     "satellite": [
-      "Landsat-8",
+      "Sentinel-2",
       "Sentinel-1",
-      "Sentinel-2"
+      "Landsat-8"
     ],
     "sensor": [
-      "MSI",
       "OLI",
+      "MSI",
       "C-SAR"
     ],
     "cities": [
-      "La Rioja",
       "Castilla-La Mancha",
-      "Aragon",
-      "Comunidad Foral de Navarra",
-      "Castilla y Leon",
-      "Cataluna",
-      "Comunidad Valenciana",
-      "Region de Murcia",
-      "Andalucia",
       "Extremadura",
-      "Comunidad de Madrid"
+      "Region de Murcia",
+      "Comunidad Foral de Navarra",
+      "Aragon",
+      "La Rioja",
+      "Comunidad de Madrid",
+      "Castilla y Leon",
+      "Andalucia",
+      "Cataluna",
+      "Comunidad Valenciana"
     ],
     "countries": [
       "ES"

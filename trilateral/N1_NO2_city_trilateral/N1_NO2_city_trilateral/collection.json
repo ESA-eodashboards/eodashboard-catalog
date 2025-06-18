@@ -11,103 +11,114 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./N1_NO2_city_trilateral/2018/Beijing.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./CN01/collection.json",
+      "type": "application/json",
+      "title": "Beijing",
       "id": "CN01",
       "latlng": "39.9,116.38",
       "country": "CN",
-      "city": "Beijing"
+      "name": "Beijing"
     },
     {
-      "rel": "item",
-      "href": "./N1_NO2_city_trilateral/2018/Madrid.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./ES01/collection.json",
+      "type": "application/json",
+      "title": "Madrid",
       "id": "ES01",
       "latlng": "40.416775,-3.70379",
       "country": "ES",
-      "city": "Madrid"
+      "name": "Madrid"
     },
     {
-      "rel": "item",
-      "href": "./N1_NO2_city_trilateral/2018/Paris.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FR01/collection.json",
+      "type": "application/json",
+      "title": "Paris",
       "id": "FR01",
       "latlng": "48.864716,2.349014",
       "country": "FR",
-      "city": "Paris"
+      "name": "Paris"
     },
     {
-      "rel": "item",
-      "href": "./N1_NO2_city_trilateral/2018/New Delhi.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IN01/collection.json",
+      "type": "application/json",
+      "title": "New Delhi",
       "id": "IN01",
       "latlng": "28.6448,77.216721",
       "country": "IN",
-      "city": "New Delhi"
+      "name": "New Delhi"
     },
     {
-      "rel": "item",
-      "href": "./N1_NO2_city_trilateral/2018/Mumbai.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IN02/collection.json",
+      "type": "application/json",
+      "title": "Mumbai",
       "id": "IN02",
       "latlng": "19.076,72.8777",
       "country": "IN",
-      "city": "Mumbai"
+      "name": "Mumbai"
     },
     {
-      "rel": "item",
-      "href": "./N1_NO2_city_trilateral/2018/Rome.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT01/collection.json",
+      "type": "application/json",
+      "title": "Rome",
       "id": "IT01",
       "latlng": "41.902782,12.496366",
       "country": "IT",
-      "city": "Rome"
+      "name": "Rome"
     },
     {
-      "rel": "item",
-      "href": "./N1_NO2_city_trilateral/2018/Milan.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT05/collection.json",
+      "type": "application/json",
+      "title": "Milan",
       "id": "IT05",
       "latlng": "45.464664,9.18854",
       "country": "IT",
-      "city": "Milan"
+      "name": "Milan"
     },
     {
-      "rel": "item",
-      "href": "./N1_NO2_city_trilateral/2018/Tokyo.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./JP01/collection.json",
+      "type": "application/json",
+      "title": "Tokyo",
       "id": "JP01",
       "latlng": "35.61,139.78",
       "country": "JP",
-      "city": "Tokyo"
+      "name": "Tokyo"
     },
     {
-      "rel": "item",
-      "href": "./N1_NO2_city_trilateral/2018/New York.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US01/collection.json",
+      "type": "application/json",
+      "title": "New York",
       "id": "US01",
       "latlng": "40.71268,-74.005812",
       "country": "US",
-      "city": "New York"
+      "name": "New York"
     },
     {
-      "rel": "item",
-      "href": "./N1_NO2_city_trilateral/2018/Los Angeles.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US02/collection.json",
+      "type": "application/json",
+      "title": "Los Angeles",
       "id": "US02",
       "latlng": "34.05,-118.25",
       "country": "US",
-      "city": "Los Angeles"
+      "name": "Los Angeles"
     },
     {
-      "rel": "item",
-      "href": "./N1_NO2_city_trilateral/2018/San Francisco.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US03/collection.json",
+      "type": "application/json",
+      "title": "San Francisco",
       "id": "US03",
       "latlng": "37.7775,-122.416389",
       "country": "US",
-      "city": "San Francisco"
+      "name": "San Francisco"
     },
     {
       "rel": "parent",
@@ -137,25 +148,25 @@
   "satellite": [
     "Sentinel-5P"
   ],
-  "geoDBID": "N1_tri",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Nitrogen Dioxide at City level",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -122.426389,
-          19.066,
-          139.79,
-          48.874716
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2018-05-07T00:00:00Z",
-          "2025-05-12T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

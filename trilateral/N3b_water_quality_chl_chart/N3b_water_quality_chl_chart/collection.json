@@ -11,49 +11,54 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./N3b_water_quality_chl_chart/2019/Venice.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT6/collection.json",
+      "type": "application/json",
+      "title": "Venice",
       "id": "IT6",
       "latlng": "45.3142, 12.5081",
       "country": "IT",
-      "city": "Venice"
+      "name": "Venice"
     },
     {
-      "rel": "item",
-      "href": "./N3b_water_quality_chl_chart/2019/Tokyo.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./JP01/collection.json",
+      "type": "application/json",
+      "title": "Tokyo",
       "id": "JP01",
       "latlng": " 35.550000, 139.900000",
       "country": "JP",
-      "city": "Tokyo"
+      "name": "Tokyo"
     },
     {
-      "rel": "item",
-      "href": "./N3b_water_quality_chl_chart/2019/Kobe.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./JP02/collection.json",
+      "type": "application/json",
+      "title": "Kobe",
       "id": "JP02",
       "latlng": " 34.550000, 135.150000",
       "country": "JP",
-      "city": "Kobe"
+      "name": "Kobe"
     },
     {
-      "rel": "item",
-      "href": "./N3b_water_quality_chl_chart/2019/Nagoya.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./JP04/collection.json",
+      "type": "application/json",
+      "title": "Nagoya",
       "id": "JP04",
       "latlng": " 34.750000, 136.700000",
       "country": "JP",
-      "city": "Nagoya"
+      "name": "Nagoya"
     },
     {
-      "rel": "item",
-      "href": "./N3b_water_quality_chl_chart/2019/New York.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US04/collection.json",
+      "type": "application/json",
+      "title": "New York",
       "id": "US04",
       "latlng": "41.1017, -72.934",
       "country": "US",
-      "city": "New York"
+      "name": "New York"
     },
     {
       "rel": "parent",
@@ -98,25 +103,25 @@
     "GCOM-C",
     "Acqua"
   ],
-  "geoDBID": "Regional_Water_quality_timeseries",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Chlorophyll-a concentration",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -72.944,
-          34.54,
-          139.91,
-          45.3242
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-01-04T11:50:00Z",
-          "2025-02-22T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

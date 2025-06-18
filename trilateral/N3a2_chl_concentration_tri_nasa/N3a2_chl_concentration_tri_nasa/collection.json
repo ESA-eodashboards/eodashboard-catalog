@@ -11,31 +11,34 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./N3a2_chl_concentration_tri_nasa/2020/North Adriatic.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./NorthAdriaticCHL/collection.json",
+      "type": "application/json",
+      "title": "North Adriatic",
       "id": "NorthAdriaticCHL",
       "latlng": "45.19752, 13.02978",
       "country": "IT",
-      "city": "North Adriatic"
+      "name": "North Adriatic"
     },
     {
-      "rel": "item",
-      "href": "./N3a2_chl_concentration_tri_nasa/2020/San Francisco.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US03/collection.json",
+      "type": "application/json",
+      "title": "San Francisco",
       "id": "US03",
       "latlng": "37.7775, -122.41638",
       "country": "US",
-      "city": "San Francisco"
+      "name": "San Francisco"
     },
     {
-      "rel": "item",
-      "href": "./N3a2_chl_concentration_tri_nasa/2020/New York.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US04/collection.json",
+      "type": "application/json",
+      "title": "New York",
       "id": "US04",
       "latlng": "41.0114, -73.09",
       "country": "US",
-      "city": "New York"
+      "name": "New York"
     },
     {
       "rel": "license",
@@ -90,25 +93,25 @@
     "tickFormat": ".0f",
     "title": "Chl-a anomaly [%]"
   },
-  "geoDBID": "N3a2_nasa_tri",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Chlorophyll-a concentration from MODIS",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -122.42638000000001,
-          37.767500000000005,
-          13.03978,
-          45.207519999999995
+          null,
+          null,
+          null,
+          null
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-01-01T00:00:00Z",
-          "2022-03-16T00:00:00Z"
+          null,
+          null
         ]
       ]
     }

@@ -1,0 +1,781 @@
+{
+  "type": "Collection",
+  "id": "DE1",
+  "stac_version": "1.1.0",
+  "description": "Hamburg - DE",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-08-05T10:45:59.json",
+      "type": "application/geo+json",
+      "datetime": "2021-08-05T10:45:59Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-12-25T10:36:02.json",
+      "type": "application/geo+json",
+      "datetime": "2021-12-25T10:36:02Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-06-01T10:45:59.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-01T10:45:59Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-06-03T10:36:07.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-03T10:36:07Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-12-20T10:35:55.json",
+      "type": "application/geo+json",
+      "datetime": "2021-12-20T10:35:55Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-10-04T10:46:04.json",
+      "type": "application/geo+json",
+      "datetime": "2022-10-04T10:46:04Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-02-28T10:35:57.json",
+      "type": "application/geo+json",
+      "datetime": "2022-02-28T10:35:57Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-02-26T10:46:00.json",
+      "type": "application/geo+json",
+      "datetime": "2022-02-26T10:46:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-04-15T10:50:54.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-15T10:50:54Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-04-20T10:43:59.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-20T10:43:59Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-04-18T11:00:22.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-18T11:00:22Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-06-16T10:46:08.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-16T10:46:08Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-06-21T10:46:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-21T10:46:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-06-26T10:46:03.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-26T10:46:03Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-06-23T10:36:07.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-23T10:36:07Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-03-05T10:35:57.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-05T10:35:57Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-03-13T10:45:55.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-13T10:45:55Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-03-05T10:36:05.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-05T10:36:05Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-03-08T10:46:01.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-08T10:46:01Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-03-10T10:35:59.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-10T10:35:59Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-03-13T10:45:56.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-13T10:45:56Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-12-20T10:35:55.json",
+      "type": "application/geo+json",
+      "datetime": "2021-12-20T10:35:55Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-02-14T10:36:01.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-14T10:36:01Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-03-18T10:46:01.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-18T10:46:01Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-03-20T10:35:59.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-20T10:35:59Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-07-11T10:45:59.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-11T10:45:59Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-02-17T10:45:57.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-17T10:45:57Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-03-25T10:36:04.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-25T10:36:04Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-10-11T10:36:07.json",
+      "type": "application/geo+json",
+      "datetime": "2022-10-11T10:36:07Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-08-17T10:36:05.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-17T10:36:05Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-08-15T10:46:03.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-15T10:46:03Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-02-24T10:43:43.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-24T10:43:43Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-04-14T10:36:04.json",
+      "type": "application/geo+json",
+      "datetime": "2022-04-14T10:36:04Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-10-16T10:36:00.json",
+      "type": "application/geo+json",
+      "datetime": "2022-10-16T10:36:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-03-23T10:45:55.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-23T10:45:55Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-03-25T10:35:57.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-25T10:35:57Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-04-17T10:46:01.json",
+      "type": "application/geo+json",
+      "datetime": "2022-04-17T10:46:01Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-02-27T10:54:25.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-27T10:54:25Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-10-26T10:36:00.json",
+      "type": "application/geo+json",
+      "datetime": "2022-10-26T10:36:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-03-28T10:45:54.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-28T10:45:54Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-04-27T10:46:03.json",
+      "type": "application/geo+json",
+      "datetime": "2022-04-27T10:46:03Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-04-07T10:45:55.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-07T10:45:55Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-04-04T10:35:57.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-04T10:35:57Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-08-30T10:46:01.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-30T10:46:01Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-07-31T10:46:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-31T10:46:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-04-09T10:35:58.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-09T10:35:58Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-02-13T10:35:59.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-13T10:35:59Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-04-12T10:45:54.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-12T10:45:54Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-05-02T10:45:52.json",
+      "type": "application/geo+json",
+      "datetime": "2022-05-02T10:45:52Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-09-01T10:35:58.json",
+      "type": "application/geo+json",
+      "datetime": "2021-09-01T10:35:58Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-02-21T10:45:57.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-21T10:45:57Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-04-19T10:35:56.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-19T10:35:56Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-04-17T10:45:57.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-17T10:45:57Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-05-09T10:35:58.json",
+      "type": "application/geo+json",
+      "datetime": "2022-05-09T10:35:58Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-02-26T10:45:56.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-26T10:45:56Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-08-05T10:46:03.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-05T10:46:03Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-08-07T10:36:04.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-07T10:36:04Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-04-22T10:45:52.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-22T10:45:52Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-04-24T10:36:03.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-24T10:36:03Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-04-27T10:46:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-27T10:46:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-06-03T10:36:09.json",
+      "type": "application/geo+json",
+      "datetime": "2022-06-03T10:36:09Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-04-23T10:48:50.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-23T10:48:50Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-04-30T10:36:05.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-30T10:36:05Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-03-05T10:36:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-05T10:36:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-03-03T10:45:57.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-03T10:45:57Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-03-13T10:45:57.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-13T10:45:57Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-09-14T10:45:54.json",
+      "type": "application/geo+json",
+      "datetime": "2021-09-14T10:45:54Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-09-09T10:45:57.json",
+      "type": "application/geo+json",
+      "datetime": "2021-09-09T10:45:57Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-05-09T10:35:59.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-09T10:35:59Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-06-23T10:36:13.json",
+      "type": "application/geo+json",
+      "datetime": "2022-06-23T10:36:13Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-03-25T10:36:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-25T10:36:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-06-18T10:36:05.json",
+      "type": "application/geo+json",
+      "datetime": "2022-06-18T10:36:05Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-12-25T10:36:02.json",
+      "type": "application/geo+json",
+      "datetime": "2021-12-25T10:36:02Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-03-30T10:35:58.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-30T10:35:58Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-07-03T10:36:14.json",
+      "type": "application/geo+json",
+      "datetime": "2022-07-03T10:36:14Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-04-12T10:45:52.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-12T10:45:52Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-05-13T10:46:01.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-13T10:46:01Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-06-07T10:46:05.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-07T10:46:05Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-06-02T10:46:00.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-02T10:46:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-04-19T10:35:56.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-19T10:35:56Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-04-17T10:45:53.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-17T10:45:53Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-03-31T10:46:58.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-31T10:46:58Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-03-29T10:57:01.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-29T10:57:01Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-04-27T10:45:53.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-27T10:45:53Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-09-26T10:36:05.json",
+      "type": "application/geo+json",
+      "datetime": "2021-09-26T10:36:05Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-08-02T10:36:11.json",
+      "type": "application/geo+json",
+      "datetime": "2022-08-02T10:36:11Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-08-10T10:46:01.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-10T10:46:01Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-05-20T10:36:05.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-20T10:36:05Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-05-29T10:36:02.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-29T10:36:02Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-10-09T10:46:03.json",
+      "type": "application/geo+json",
+      "datetime": "2021-10-09T10:46:03Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-06-11T10:45:58.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-11T10:45:58Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-08-10T10:46:01.json",
+      "type": "application/geo+json",
+      "datetime": "2022-08-10T10:46:01Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-08-12T10:36:13.json",
+      "type": "application/geo+json",
+      "datetime": "2022-08-12T10:36:13Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-10-29T10:46:02.json",
+      "type": "application/geo+json",
+      "datetime": "2021-10-29T10:46:02Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-06-28T10:36:03.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-28T10:36:03Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-06-16T10:45:58.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-16T10:45:58Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-07-13T10:36:03.json",
+      "type": "application/geo+json",
+      "datetime": "2021-07-13T10:36:03Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-09-16T10:36:03.json",
+      "type": "application/geo+json",
+      "datetime": "2022-09-16T10:36:03Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2022/2022-09-21T10:36:08.json",
+      "type": "application/geo+json",
+      "datetime": "2022-09-21T10:36:08Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2021/2021-07-16T10:46:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-07-16T10:46:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-01-03T10:45:52.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-03T10:45:52Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-04-08T10:46:10.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-08T10:46:10Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-06-29T10:36:06.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-29T10:36:06Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-06-22T10:46:02.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-22T10:46:02Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-08-26T10:46:02.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-26T10:46:02Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-08-31T10:45:58.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-31T10:45:58Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-09-22T10:36:00.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-22T10:36:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-09-30T10:45:59.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-30T10:45:59Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-10-27T10:36:04.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-27T10:36:04Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-10-30T10:46:01.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-30T10:46:01Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-11-11T10:36:00.json",
+      "type": "application/geo+json",
+      "datetime": "2019-11-11T10:36:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-11-29T10:45:57.json",
+      "type": "application/geo+json",
+      "datetime": "2019-11-29T10:45:57Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-12-19T10:45:51.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-19T10:45:51Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2019/2019-12-31T10:35:56.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-31T10:35:56Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-08-12T10:36:07.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-12T10:36:07Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-09-21T10:36:06.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-21T10:36:06Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-09-16T10:36:03.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-16T10:36:03Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-09-29T10:46:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-29T10:46:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-10-01T10:36:07.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-01T10:36:07Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-11-08T10:45:59.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-08T10:45:59Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-11-15T10:36:02.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-15T10:36:02Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-12-18T10:45:53.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-18T10:45:53Z"
+    },
+    {
+      "rel": "item",
+      "href": "./DE1/2020/2020-12-25T10:35:58.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-25T10:35:58Z"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Shipping Activity at Major Ports"
+    }
+  ],
+  "subcode": "DE1",
+  "title": "Hamburg",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.934467,
+          53.522123,
+          9.954467,
+          53.542123
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-03T10:45:52Z",
+          "2022-10-26T10:36:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

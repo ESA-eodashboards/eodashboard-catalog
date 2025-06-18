@@ -11,94 +11,104 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./E13c_shipping_activity/2019/Ghent.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./BE3/collection.json",
+      "type": "application/json",
+      "title": "Ghent",
       "id": "BE3",
       "latlng": "51.091559,3.740081",
       "country": "BE",
-      "city": "Ghent"
+      "name": "Ghent"
     },
     {
-      "rel": "item",
-      "href": "./E13c_shipping_activity/2019/Hamburg.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./DE1/collection.json",
+      "type": "application/json",
+      "title": "Hamburg",
       "id": "DE1",
       "latlng": "53.532123,9.944467",
       "country": "DE",
-      "city": "Hamburg"
+      "name": "Hamburg"
     },
     {
-      "rel": "item",
-      "href": "./E13c_shipping_activity/2020/Suez.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./EG01/collection.json",
+      "type": "application/json",
+      "title": "Suez",
       "id": "EG01",
       "latlng": "30.05,32.56",
       "country": "EG",
-      "city": "Suez"
+      "name": "Suez"
     },
     {
-      "rel": "item",
-      "href": "./E13c_shipping_activity/2019/Suez.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./EG1/collection.json",
+      "type": "application/json",
+      "title": "Suez ",
       "id": "EG1",
       "latlng": "30.939554,32.314923",
       "country": "EG",
-      "city": "Suez "
+      "name": "Suez "
     },
     {
-      "rel": "item",
-      "href": "./E13c_shipping_activity/2019/Dunkirk.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./FR3/collection.json",
+      "type": "application/json",
+      "title": "Dunkirk",
       "id": "FR3",
       "latlng": "51.036138,2.285374",
       "country": "FR",
-      "city": "Dunkirk"
+      "name": "Dunkirk"
     },
     {
-      "rel": "item",
-      "href": "./E13c_shipping_activity/2019/Genoa.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./IT3/collection.json",
+      "type": "application/json",
+      "title": "Genoa",
       "id": "IT3",
       "latlng": "44.408142,8.885851",
       "country": "IT",
-      "city": "Genoa"
+      "name": "Genoa"
     },
     {
-      "rel": "item",
-      "href": "./E13c_shipping_activity/2019/Gdynia.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./PL1/collection.json",
+      "type": "application/json",
+      "title": "Gdynia",
       "id": "PL1",
       "latlng": "54.537859,18.510887",
       "country": "PL",
-      "city": "Gdynia"
+      "name": "Gdynia"
     },
     {
-      "rel": "item",
-      "href": "./E13c_shipping_activity/2020/New York.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US01/collection.json",
+      "type": "application/json",
+      "title": "New York",
       "id": "US01",
       "latlng": "40.6,-74.05",
       "country": "US",
-      "city": "New York"
+      "name": "New York"
     },
     {
-      "rel": "item",
-      "href": "./E13c_shipping_activity/2020/Los Angeles.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US02/collection.json",
+      "type": "application/json",
+      "title": "Los Angeles",
       "id": "US02",
       "latlng": "34.05,-118.251",
       "country": "US",
-      "city": "Los Angeles"
+      "name": "Los Angeles"
     },
     {
-      "rel": "item",
-      "href": "./E13c_shipping_activity/2020/San Francisco.json",
-      "type": "application/geo+json",
+      "rel": "child",
+      "href": "./US03/collection.json",
+      "type": "application/json",
+      "title": "San Francisco",
       "id": "US03",
       "latlng": "37.7775,-122.41638",
       "country": "US",
-      "city": "San Francisco"
+      "name": "San Francisco"
     },
     {
       "rel": "parent",
@@ -133,16 +143,16 @@
     "Sentinel-2",
     "PlanetScope"
   ],
-  "geoDBID": "E13c_tri",
+  "locations": true,
   "endpointtype": "GeoDB",
   "title": "Shipping Activity at Major Ports",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -122.42638000000001,
-          30.04,
-          32.57,
+          2.2753740000000002,
+          30.929554,
+          32.324923,
           54.547858999999995
         ]
       ]
