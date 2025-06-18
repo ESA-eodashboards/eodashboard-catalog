@@ -15,5 +15,28 @@
     "Citation": ""
   },
   "Image": "",
-  "Legend": ""
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "Bbox": [
+        -91.16337769716465,
+        35.11236934113627,
+        -79.42698576841649,
+        47.28344245243067
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "Nightlights",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/Nighttimelevel_Urban_h10v04_2019-2022.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
