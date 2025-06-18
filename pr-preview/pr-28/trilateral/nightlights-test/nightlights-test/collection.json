@@ -27,7 +27,21 @@
     }
   ],
   "subtitle": "Local USA map of Urban night lights aggregated for years 2019-2022",
+  "themes": [
+    "COVID-19"
+  ],
+  "tags": [
+    "Human activities",
+    "Night lights",
+    "Open data"
+  ],
   "subcode": "NI",
+  "sensor": [
+    "VIIRS"
+  ],
+  "satellite": [
+    "Suomi NPP"
+  ],
   "endpointtype": "COG source",
   "title": "nightlights testing submission",
   "extent": {
