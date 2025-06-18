@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "nightlights-demo-lps",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "# title\nsubcontent",
   "links": [
     {
       "rel": "root",
@@ -77,7 +77,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-06-18T08:37:28.364346Z",
+          "2025-06-18T08:38:59.317519Z",
           null
         ]
       ]
