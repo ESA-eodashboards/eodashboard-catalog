@@ -108,7 +108,7 @@
   "Process": {
     "Name": "GeoDB Statistics",
     "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
-    "VegaDefinition": "https://api.npoint.io/4a9b215218d51d969113",
+    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10c_rice_planting/chart.json",
     "EndPoints": [
       {
         "Identifier": "process_geodb",
