@@ -1,0 +1,72 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2023-01-01T00:00:00Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -91.16337769716465,
+          35.11236934113627
+        ],
+        [
+          -79.42698576841649,
+          35.11236934113627
+        ],
+        [
+          -79.42698576841649,
+          47.28344245243067
+        ],
+        [
+          -91.16337769716465,
+          47.28344245243067
+        ],
+        [
+          -91.16337769716465,
+          35.11236934113627
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -91.16337769716465,
+    35.11236934113627,
+    -79.42698576841649,
+    47.28344245243067
+  ],
+  "properties": {
+    "datetime": "2023-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Testing Nightlights"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Testing Nightlights"
+    }
+  ],
+  "assets": {
+    "Nightlights": {
+      "href": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/Nighttimelevel_Urban_h10v04_2019-2022.tif",
+      "type": "image/tiff",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "nightlights-demo-lps"
+}

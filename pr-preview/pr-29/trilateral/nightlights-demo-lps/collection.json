@@ -11,6 +11,16 @@
       "title": "Earth Observing Dashboard"
     },
     {
+      "rel": "child",
+      "href": "./nightlights-demo-lps/collection.json",
+      "type": "application/json",
+      "title": "Testing Nightlights",
+      "endpointtype": "COG source",
+      "code": "NIGHTLIGHTS",
+      "id": "nightlights-demo-lps",
+      "subcode": "NIGHTLIGHTS"
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -67,21 +77,32 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -91.16337769716465,
+          35.11236934113627,
+          -79.42698576841649,
+          47.28344245243067
+        ],
+        [
+          -91.16337769716465,
+          35.11236934113627,
+          -79.42698576841649,
+          47.28344245243067
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-18T08:38:59.317519Z",
-          null
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "NIGHTLIGHTS"
+    ]
+  }
 }
