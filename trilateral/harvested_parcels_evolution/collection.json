@@ -167,7 +167,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-06-18T06:08:43.530883Z",
+          "2025-06-18T16:17:13.477997Z",
           null
         ]
       ]
@@ -193,22 +193,22 @@
       "Landsat-8"
     ],
     "sensor": [
+      "C-SAR",
       "OLI",
-      "MSI",
-      "C-SAR"
+      "MSI"
     ],
     "cities": [
-      "Castilla-La Mancha",
-      "Extremadura",
-      "Region de Murcia",
-      "Comunidad Foral de Navarra",
-      "Aragon",
-      "La Rioja",
-      "Comunidad de Madrid",
       "Castilla y Leon",
-      "Andalucia",
+      "Castilla-La Mancha",
       "Cataluna",
-      "Comunidad Valenciana"
+      "La Rioja",
+      "Region de Murcia",
+      "Extremadura",
+      "Comunidad Foral de Navarra",
+      "Comunidad Valenciana",
+      "Comunidad de Madrid",
+      "Andalucia",
+      "Aragon"
     ],
     "countries": [
       "ES"

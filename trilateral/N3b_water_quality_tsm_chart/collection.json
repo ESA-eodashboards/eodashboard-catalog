@@ -181,7 +181,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-06-18T06:14:12.073218Z",
+          "2025-06-18T16:23:06.008779Z",
           null
         ]
       ]
@@ -210,20 +210,20 @@
       "water"
     ],
     "satellite": [
-      "GCOM-C",
+      "Acqua",
       "Sentinel-3",
-      "Acqua"
+      "GCOM-C"
     ],
     "sensor": [
-      "SGLI",
       "OLCI",
-      "MODIS"
+      "MODIS",
+      "SGLI"
     ],
     "cities": [
+      "Venice",
       "Tokyo",
-      "Kobe",
       "Nagoya",
-      "Venice"
+      "Kobe"
     ],
     "countries": [
       "IT",

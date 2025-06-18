@@ -157,7 +157,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-06-18T06:08:45.090623Z",
+          "2025-06-18T16:17:14.970828Z",
           null
         ]
       ]
@@ -183,9 +183,9 @@
       "Landsat-8"
     ],
     "sensor": [
+      "C-SAR",
       "OLI",
-      "MSI",
-      "C-SAR"
+      "MSI"
     ],
     "cities": [
       "Spain"

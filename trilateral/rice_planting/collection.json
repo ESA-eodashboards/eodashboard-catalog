@@ -61,8 +61,8 @@
       "rel": "service",
       "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10c_tri?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
-      "method": "GET",
-      "id": "E10c_tri"
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -170,7 +170,7 @@
     "title": "NDVI"
   },
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10c_rice_planting/chart.json",
   "title": "Rice planting",
   "extent": {
     "spatial": {
@@ -192,7 +192,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-06-18T06:08:46.365641Z",
+          "2025-06-18T16:17:16.283921Z",
           null
         ]
       ]
@@ -225,22 +225,22 @@
       "agriculture"
     ],
     "satellite": [
-      "GCOM-C",
       "Sentinel-2",
-      "Landsat-8",
-      "ALOS-2"
+      "ALOS-2",
+      "GCOM-C",
+      "Landsat-8"
     ],
     "sensor": [
-      "OLI",
       "SGLI",
-      "PALSAR-2",
-      "MSI"
+      "OLI",
+      "MSI",
+      "PALSAR-2"
     ],
     "cities": [
-      "Glenn",
       "Glenn (GCOM-C)",
-      "Yolo",
-      "Colusa"
+      "Glenn",
+      "Colusa",
+      "Yolo"
     ],
     "countries": [
       "US"
