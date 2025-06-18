@@ -59,7 +59,7 @@
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10c?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10c_tri?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
       "type": "application/json",
       "id": "process_geodb",
       "method": "GET"
@@ -192,7 +192,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-06-18T13:54:42.888013Z",
+          "2025-06-18T14:01:04.694043Z",
           null
         ]
       ]
@@ -225,22 +225,22 @@
       "agriculture"
     ],
     "satellite": [
+      "GCOM-C",
       "ALOS-2",
-      "Sentinel-2",
       "Landsat-8",
-      "GCOM-C"
+      "Sentinel-2"
     ],
     "sensor": [
+      "MSI",
       "PALSAR-2",
       "OLI",
-      "SGLI",
-      "MSI"
+      "SGLI"
     ],
     "cities": [
       "Yolo",
       "Glenn (GCOM-C)",
-      "Glenn",
-      "Colusa"
+      "Colusa",
+      "Glenn"
     ],
     "countries": [
       "US"
