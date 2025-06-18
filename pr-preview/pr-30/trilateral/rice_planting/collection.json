@@ -170,7 +170,7 @@
     "title": "NDVI"
   },
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://api.npoint.io/4a9b215218d51d969113",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10c_rice_planting/chart.json",
   "title": "Rice planting",
   "extent": {
     "spatial": {
@@ -192,7 +192,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-06-18T14:01:04.694043Z",
+          "2025-06-18T15:23:25.664360Z",
           null
         ]
       ]
@@ -226,20 +226,20 @@
     ],
     "satellite": [
       "GCOM-C",
+      "Sentinel-2",
       "ALOS-2",
-      "Landsat-8",
-      "Sentinel-2"
+      "Landsat-8"
     ],
     "sensor": [
-      "MSI",
       "PALSAR-2",
+      "SGLI",
       "OLI",
-      "SGLI"
+      "MSI"
     ],
     "cities": [
+      "Colusa",
       "Yolo",
       "Glenn (GCOM-C)",
-      "Colusa",
       "Glenn"
     ],
     "countries": [
