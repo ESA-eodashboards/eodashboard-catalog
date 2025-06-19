@@ -1,0 +1,50 @@
+{
+  "type": "Catalog",
+  "id": "trilateral",
+  "stac_version": "1.1.0",
+  "description": "A Tri-Agency Dashboard by NASA, ESA, JAXA",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./JAXA_Nighttimelevel_Rural/collection.json",
+      "type": "application/json",
+      "title": "Night lights in rural areas",
+      "subtitle": "Global map of night lights aggregated for years 2019-2022",
+      "code": "NTLR",
+      "id": "JAXA_Nighttimelevel_Rural",
+      "themes": [
+        "COVID-19"
+      ],
+      "subcode": "NTLR",
+      "satellite": [
+        "Suomi NPP"
+      ],
+      "sensor": [
+        "VIIRS"
+      ],
+      "tags": [
+        "Human activities",
+        "Night lights",
+        "Open data"
+      ],
+      "agency": [
+        "JAXA"
+      ],
+      "otherSources": [
+        "Other"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://eurodatacube.github.io/eodash-catalog/trilateral/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Earth Observing Dashboard"
+}
