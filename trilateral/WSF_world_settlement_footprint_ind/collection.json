@@ -132,18 +132,6 @@
           -85,
           180,
           85
-        ],
-        [
-          -180,
-          -85,
-          180,
-          85
-        ],
-        [
-          -180,
-          -85,
-          180,
-          85
         ]
       ]
     },
@@ -165,12 +153,12 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-2",
-      "Sentinel-1"
+      "Sentinel-1",
+      "Sentinel-2"
     ],
     "sensor": [
-      "C-SAR",
-      "MSI"
+      "MSI",
+      "C-SAR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.png"

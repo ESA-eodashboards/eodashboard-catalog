@@ -164,12 +164,6 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
-        ],
-        [
           null,
           null,
           null,
@@ -180,7 +174,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-06-18T16:23:48.862190Z",
+          "2025-06-19T21:46:01.338431Z",
           null
         ]
       ]
@@ -207,13 +201,13 @@
       "MODIS"
     ],
     "cities": [
-      "San Francisco",
+      "North Adriatic",
       "New York",
-      "North Adriatic"
+      "San Francisco"
     ],
     "countries": [
-      "IT",
-      "US"
+      "US",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.png"

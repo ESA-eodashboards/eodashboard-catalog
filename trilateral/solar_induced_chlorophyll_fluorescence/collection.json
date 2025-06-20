@@ -131,19 +131,13 @@
       "#8AA69A"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
+    "tickFormat": ".1f",
     "title": "[mW/m²/sr/nm]"
   },
   "title": "Solar induced chlorophyll fluorescence",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          30.0,
-          29.0,
-          32.0,
-          31.0
-        ],
         [
           30.0,
           29.0,

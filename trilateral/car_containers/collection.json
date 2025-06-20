@@ -156,12 +156,6 @@
           1.254856,
           136.89,
           40.089999999999996
-        ],
-        [
-          -118.42,
-          1.254856,
-          136.89,
-          40.089999999999996
         ]
       ]
     },
@@ -193,26 +187,26 @@
       "economy"
     ],
     "satellite": [
-      "ALOS-2",
-      "Sentinel-1"
+      "Sentinel-1",
+      "ALOS-2"
     ],
     "sensor": [
-      "C-SAR",
-      "PALSAR-2"
+      "PALSAR-2",
+      "C-SAR"
     ],
     "cities": [
-      "Los Angeles",
-      "Nagoya",
-      "Arcadia",
-      "Beijing",
       "Singapore",
-      "Palm Springs"
+      "Los Angeles",
+      "Palm Springs",
+      "Nagoya",
+      "Beijing",
+      "Arcadia"
     ],
     "countries": [
-      "CN",
-      "SG",
       "JP",
-      "US"
+      "US",
+      "SG",
+      "CN"
     ]
   }
 }

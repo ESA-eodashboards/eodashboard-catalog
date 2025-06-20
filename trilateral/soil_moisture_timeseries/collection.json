@@ -123,12 +123,6 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
-        ],
-        [
           null,
           null,
           null,
@@ -139,7 +133,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-06-18T16:17:19.726143Z",
+          "2025-06-19T21:39:50.362403Z",
           null
         ]
       ]
@@ -164,8 +158,8 @@
       "Other"
     ],
     "cities": [
-      "Kansas",
-      "Paraná"
+      "Paraná",
+      "Kansas"
     ],
     "countries": [
       "US",

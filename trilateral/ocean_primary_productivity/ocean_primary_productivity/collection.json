@@ -1741,7 +1741,7 @@
       "#900000"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
+    "tickFormat": ".1f",
     "title": "PP [g C/y m²]"
   },
   "endpointtype": "WMS_OverwriteTimes",

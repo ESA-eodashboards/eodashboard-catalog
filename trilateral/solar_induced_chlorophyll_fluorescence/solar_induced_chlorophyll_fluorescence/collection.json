@@ -91,7 +91,7 @@
       "#8AA69A"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
+    "tickFormat": ".1f",
     "title": "[mW/m²/sr/nm]"
   },
   "endpointtype": "WMS_Time",

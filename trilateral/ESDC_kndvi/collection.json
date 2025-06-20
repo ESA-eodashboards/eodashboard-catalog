@@ -146,7 +146,7 @@
       "#006837"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
+    "tickFormat": ".1f",
     "title": "KNDVI"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
@@ -155,12 +155,6 @@
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
-        ],
         [
           -180.0,
           -90.0,

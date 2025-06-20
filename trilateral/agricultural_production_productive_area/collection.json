@@ -129,12 +129,6 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
-        ],
-        [
           null,
           null,
           null,
@@ -145,7 +139,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-06-18T16:17:09.363706Z",
+          "2025-06-19T21:39:39.365746Z",
           null
         ]
       ]
@@ -180,8 +174,8 @@
       "Huelva (Lagunas de las Madres)"
     ],
     "countries": [
-      "DE",
-      "ES"
+      "ES",
+      "DE"
     ]
   }
 }

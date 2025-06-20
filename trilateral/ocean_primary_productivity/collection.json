@@ -164,7 +164,7 @@
       "#900000"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
+    "tickFormat": ".1f",
     "title": "PP [g C/y m²]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
@@ -173,12 +173,6 @@
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -180,
-          -85,
-          180,
-          85
-        ],
         [
           -180,
           -85,
@@ -222,15 +216,15 @@
       "water"
     ],
     "satellite": [
-      "Suomi",
       "Envisat",
-      "OrbView-2",
-      "Aqua"
+      "Aqua",
+      "Suomi",
+      "OrbView-2"
     ],
     "sensor": [
       "MODIS",
-      "SeaWiFS",
       "MERIS",
+      "SeaWiFS",
       "VIIRS"
     ],
     "thumbnail": [

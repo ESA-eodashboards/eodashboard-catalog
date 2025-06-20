@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "LIS_Global_DA_Evap",
   "stac_version": "1.1.0",
-  "description": "# Evapotranspiration - LIS 10km Global DA\n\n## Dataset Description: \nDataset represents Gridded total evapotranspiration (in kg m-2 s-1) from 10km global LIS with assimilation.\n\n- Resolution: 10km\n- GeographicalCoverage: Global\n- TemporalAvailability: \"['2002-08-02', '2021-12-01']\"\n- TemporalResolution: daily\n- Host: \"[VEDA](https://www.earthdata.nasa.gov/esds/veda)\"\n\n## Data Access\n\n- \"[VEDA Catalog](https://staging-stac.delta-backend.com/collections/lis-global-da-evap)\"\n",
+  "description": "# Evapotranspiration - LIS 10km Global DA\n\n## Dataset Description: \nDataset represents Gridded total evapotranspiration (in kg m-2 s-1) from 10km global LIS with assimilation.\n\n- Resolution: 10km\n- GeographicalCoverage: Global\n- TemporalAvailability: \"['2002-08-02', '2021-12-01']\"\n- TemporalResolution: daily\n- Host: \"[VEDA](https://www.earthdata.nasa.gov/esds/veda)\"\n\n## Data Access\n\n- \"[VEDA Catalog](https://openveda.cloud/api/stac/collections/lis-global-da-evap)\"\n",
   "links": [
     {
       "rel": "root",
@@ -150,12 +150,6 @@
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -179.9500000157243,
-          -59.98224871364589,
-          179.9973980503783,
-          89.9999999874719
-        ],
         [
           -179.9500000157243,
           -59.98224871364589,

@@ -69,10 +69,10 @@
     "spatial": {
       "bbox": [
         [
-          -180,
-          -60,
-          180,
-          75
+          -95,
+          35,
+          -80,
+          48
         ]
       ]
     },
@@ -105,6 +105,14 @@
   ],
   "assets": {
     "reference_1": {
+      "href": "https://esa-eodashboards.github.io/eodashboard-client/notebook/?id=notebooks/nightlights-notebook/night-lights-blending",
+      "type": "text/html",
+      "title": "Nightlight maps Jupyter Notebook",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
       "href": "https://ladsweb.modaps.eosdis.nasa.gov/",
       "type": "text/html",
       "title": "Level-1 data access",

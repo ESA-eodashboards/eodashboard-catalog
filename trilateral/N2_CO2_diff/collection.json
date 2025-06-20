@@ -149,7 +149,7 @@
       "#67001f"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
+    "tickFormat": ".1f",
     "title": "CO2 difference [ppm]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
@@ -158,12 +158,6 @@
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -180.3125,
-          -90.25,
-          179.6875,
-          90.25
-        ],
         [
           -180.3125,
           -90.25,

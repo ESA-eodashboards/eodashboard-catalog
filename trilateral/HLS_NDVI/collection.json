@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "HLS_NDVI",
   "stac_version": "1.1.0",
-  "description": "## Normalized difference vegetation index from HLS\n\n## Dataset Description:\n\nDataset represents a NDVI calculated from Harmonized Landsat and Sentinel-2 Data over Punta Gorda, Florida, USA.\n\n- GeographicalCoverage: [-82.37,26.31,-81.9,27.03]\n- TemporalAvailability: \"['2022-09-05', '2022-09-30']\"\n- TemporalResolution: individual dates\n- Host: \"[VEDA](https://www.earthdata.nasa.gov/esds/veda)\"\n\n## Data Access\n\n- \"[VEDA Catalog](https://staging-stac.delta-backend.com/collections/hls-ndvi)\"\n",
+  "description": "## Normalized difference vegetation index from HLS\n\n## Dataset Description:\n\nDataset represents a NDVI calculated from Harmonized Landsat and Sentinel-2 Data over Punta Gorda, Florida, USA.\n\n- GeographicalCoverage: [-82.37,26.31,-81.9,27.03]\n- TemporalAvailability: \"['2022-09-05', '2022-09-30']\"\n- TemporalResolution: individual dates\n- Host: \"[VEDA](https://www.earthdata.nasa.gov/esds/veda)\"\n\n## Data Access\n\n- \"[VEDA Catalog](https://openveda.cloud/api/stac/collections/hls-ndvi)\"\n",
   "links": [
     {
       "rel": "root",
@@ -147,19 +147,13 @@
       "#ff01ef"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
+    "tickFormat": ".1f",
     "title": "NDVI"
   },
   "title": "NDVI from HLS",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -82.37631113903603,
-          26.31173859507485,
-          -81.9037040761012,
-          27.035837664631245
-        ],
         [
           -82.37631113903603,
           26.31173859507485,
@@ -200,12 +194,12 @@
       "biomass"
     ],
     "satellite": [
-      "Landsat",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Landsat"
     ],
     "sensor": [
-      "OLI",
-      "MSI"
+      "MSI",
+      "OLI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/HLS_NDVI/thumbnail.png"

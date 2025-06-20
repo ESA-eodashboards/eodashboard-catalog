@@ -161,12 +161,6 @@
           30.929554,
           32.324923,
           54.547858999999995
-        ],
-        [
-          2.2753740000000002,
-          30.929554,
-          32.324923,
-          54.547858999999995
         ]
       ]
     },
@@ -206,28 +200,28 @@
       "PlanetScope"
     ],
     "sensor": [
-      "PS2",
-      "MSI"
+      "MSI",
+      "PS2"
     ],
     "cities": [
-      "Ghent",
-      "Los Angeles",
-      "Suez",
-      "Genoa",
-      "Hamburg",
-      "Suez ",
-      "Gdynia",
-      "New York",
       "Dunkirk",
-      "San Francisco"
+      "Gdynia",
+      "Los Angeles",
+      "Suez ",
+      "Ghent",
+      "New York",
+      "Hamburg",
+      "San Francisco",
+      "Suez",
+      "Genoa"
     ],
     "countries": [
       "EG",
-      "DE",
+      "BE",
       "FR",
       "IT",
       "PL",
-      "BE",
+      "DE",
       "US"
     ]
   }

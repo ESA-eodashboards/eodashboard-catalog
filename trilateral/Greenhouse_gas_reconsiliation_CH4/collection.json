@@ -171,12 +171,6 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
-        ],
-        [
           null,
           null,
           null,
@@ -187,7 +181,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-06-18T16:25:11.385268Z",
+          "2025-06-19T21:47:32.115383Z",
           null
         ]
       ]
@@ -212,56 +206,56 @@
       "Other"
     ],
     "cities": [
-      "China",
-      "European Union (Convention)",
-      "Indonesia",
-      "Pakistan",
-      "Sudan",
-      "India",
-      "Brazil",
-      "Australia",
-      "Mongolia",
-      "Mexico",
-      "Colombia",
-      "Democratic Republic of the Congo",
-      "United States of America",
-      "Thailand",
-      "Argentina",
-      "Russian Federation",
-      "Canada",
-      "South Africa",
-      "Nigeria",
-      "Kazakhstan",
       "Bangladesh",
       "Iran (Islamic Republic of)",
+      "Mexico",
+      "Kazakhstan",
+      "Democratic Republic of the Congo",
+      "Thailand",
+      "Sudan",
+      "Pakistan",
+      "China",
+      "Indonesia",
+      "European Union (Convention)",
+      "Colombia",
+      "India",
+      "Venezuela (Bolivarian Republic of)",
+      "Australia",
+      "Argentina",
+      "Mongolia",
       "European Union (KP)",
-      "Venezuela (Bolivarian Republic of)"
+      "Russian Federation",
+      "South Africa",
+      "Brazil",
+      "Canada",
+      "United States of America",
+      "Nigeria"
     ],
     "countries": [
-      "China",
-      "European Union (Convention)",
-      "Indonesia",
-      "Pakistan",
-      "Sudan",
-      "India",
-      "Brazil",
-      "Australia",
-      "Mongolia",
-      "Mexico",
-      "Colombia",
-      "Democratic Republic of the Congo",
-      "United States of America",
-      "Thailand",
-      "Argentina",
-      "Russian Federation",
-      "Canada",
-      "South Africa",
-      "Nigeria",
-      "Kazakhstan",
       "Bangladesh",
       "Iran (Islamic Republic of)",
+      "Mexico",
+      "Kazakhstan",
+      "Democratic Republic of the Congo",
+      "Thailand",
+      "Sudan",
+      "Pakistan",
+      "China",
+      "Indonesia",
+      "European Union (Convention)",
+      "Colombia",
+      "India",
+      "Venezuela (Bolivarian Republic of)",
+      "Australia",
+      "Argentina",
+      "Mongolia",
       "European Union (KP)",
-      "Venezuela (Bolivarian Republic of)"
+      "Russian Federation",
+      "South Africa",
+      "Brazil",
+      "Canada",
+      "United States of America",
+      "Nigeria"
     ]
   }
 }

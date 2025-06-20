@@ -17552,7 +17552,7 @@
       "#67001f"
     ],
     "scaleType": "continuous",
-    "tickFormat": ".0f",
+    "tickFormat": ".1f",
     "title": "CO2 difference [ppm]"
   },
   "endpointtype": "VEDA_cog",
