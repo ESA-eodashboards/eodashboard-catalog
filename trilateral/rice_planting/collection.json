@@ -186,7 +186,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-06-20T11:19:12.892003Z",
+          "2025-06-20T16:37:41.341019Z",
           null
         ]
       ]
@@ -219,22 +219,22 @@
       "agriculture"
     ],
     "satellite": [
+      "Landsat-8",
       "Sentinel-2",
       "GCOM-C",
-      "Landsat-8",
       "ALOS-2"
     ],
     "sensor": [
-      "PALSAR-2",
-      "OLI",
       "MSI",
-      "SGLI"
+      "PALSAR-2",
+      "SGLI",
+      "OLI"
     ],
     "cities": [
-      "Colusa",
+      "Yolo",
       "Glenn (GCOM-C)",
-      "Glenn",
-      "Yolo"
+      "Colusa",
+      "Glenn"
     ],
     "countries": [
       "US"

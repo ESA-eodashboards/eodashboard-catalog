@@ -181,7 +181,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-06-20T11:19:14.885138Z",
+          "2025-06-20T16:37:42.687140Z",
           null
         ]
       ]
@@ -210,20 +210,20 @@
       "TANSO-FTS"
     ],
     "cities": [
-      "Shanghai",
-      "New Delhi",
-      "Beijing",
-      "New York",
-      "Mumbai",
+      "Tokyo",
       "Dhaka",
-      "Tokyo"
+      "Beijing",
+      "Mumbai",
+      "Shanghai",
+      "New York",
+      "New Delhi"
     ],
     "countries": [
+      "BD",
+      "IN",
       "US",
       "JP",
-      "CN",
-      "BD",
-      "IN"
+      "CN"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.png"
