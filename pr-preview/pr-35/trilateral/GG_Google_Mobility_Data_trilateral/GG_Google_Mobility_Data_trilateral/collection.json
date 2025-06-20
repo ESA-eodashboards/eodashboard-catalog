@@ -1,0 +1,1321 @@
+{
+  "type": "Collection",
+  "id": "GG_Google_Mobility_Data_trilateral",
+  "stac_version": "1.1.0",
+  "description": "### People Mobility Reports \n\nThis indicator shows the impact of COVID-19 lockdown restrictions on the movement of people and is based on  [Google LLC \"Google COVID-19 Community Mobility Reports\"](https://www.google.com/covid19/mobility/).\nEach datasets shows the daily variation of visits and length of stay at 6 place categories:\n\n- **Grocery & pharmacy** = Mobility trends for places like grocery markets, food warehouses, farmers markets, specialty food shops, drug stores, and pharmacies.\n\n- **Parks** = Mobility trends for places like local parks, national parks, public beaches, marinas, dog parks, plazas, and public gardens.\n\n- **Transit stations** = Mobility trends for places like public transport hubs such as subway, bus, and train stations.\n\n- **Retail & recreation** = Mobility trends for places like restaurants, cafes, shopping centers, theme parks, museums, libraries, and movie theaters.\n\n- **Residential** = Mobility trends for places of residence.\n\n- **Workplaces** = Mobility trends for places of work.\n\n\nThe median value for the corresponding day of the week during the 5-week period Jan 3–Feb 6, 2020 has been considered as a baseline value.\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./AE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AE",
+      "latlng": "24.467,54.367",
+      "country": "United Arab Emirates",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./AF/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AF",
+      "latlng": "34.517,69.183",
+      "country": "Afghanistan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./AO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AO",
+      "latlng": "-8.833,13.217",
+      "country": "Angola",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./AR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AR",
+      "latlng": "-34.583,-58.667",
+      "country": "Argentina",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./AT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AT",
+      "latlng": "48.2,16.367",
+      "country": "Austria",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./AU/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AU",
+      "latlng": "-35.267,149.133",
+      "country": "Australia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BA",
+      "latlng": "43.867,18.417",
+      "country": "Bosnia and Herzegovina",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BD/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BD",
+      "latlng": "23.717,90.4",
+      "country": "Bangladesh",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BE",
+      "latlng": "50.833,4.333",
+      "country": "Belgium",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BF/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BF",
+      "latlng": "12.367,-1.517",
+      "country": "Burkina Faso",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BG",
+      "latlng": "42.683,23.317",
+      "country": "Bulgaria",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BJ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BJ",
+      "latlng": "6.483,2.617",
+      "country": "Benin",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BO",
+      "latlng": "-16.5,-68.15",
+      "country": "Bolivia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BR",
+      "latlng": "-15.783,-47.917",
+      "country": "Brazil",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BS/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BS",
+      "latlng": "25.083,-77.35",
+      "country": "Bahamas",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BW/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BW",
+      "latlng": "-24.633,25.9",
+      "country": "Botswana",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BY/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BY",
+      "latlng": "53.9,27.567",
+      "country": "Belarus",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BZ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BZ",
+      "latlng": "17.25,-88.767",
+      "country": "Belize",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CA",
+      "latlng": "45.417,-75.7",
+      "country": "Canada",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CH/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CH",
+      "latlng": "46.917,7.467",
+      "country": "Switzerland",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CI/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CI",
+      "latlng": "6.817,-5.267",
+      "country": "Ivory Coast",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CL/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CL",
+      "latlng": "-33.45,-70.667",
+      "country": "Chile",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CM/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CM",
+      "latlng": "3.867,11.517",
+      "country": "Cameroon",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CO",
+      "latlng": "4.6,-74.083",
+      "country": "Colombia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CR",
+      "latlng": "9.933,-84.083",
+      "country": "Costa Rica",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CZ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CZ",
+      "latlng": "50.083,14.467",
+      "country": "Czech Republic",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./DE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "DE",
+      "latlng": "52.517,13.4",
+      "country": "Germany",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./DK/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "DK",
+      "latlng": "55.667,12.583",
+      "country": "Denmark",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./DO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "DO",
+      "latlng": "18.467,-69.9",
+      "country": "Dominican Republic",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./EC/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "EC",
+      "latlng": "-0.217,-78.5",
+      "country": "Ecuador",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./EE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "EE",
+      "latlng": "59.433,24.717",
+      "country": "Estonia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./EG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "EG",
+      "latlng": "30.05,31.25",
+      "country": "Egypt",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ES/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ES",
+      "latlng": "40.4,-3.683",
+      "country": "Spain",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./FI/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "FI",
+      "latlng": "60.167,24.933",
+      "country": "Finland",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./FJ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "FJ",
+      "latlng": "-18.133,178.417",
+      "country": "Fiji",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./FR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "FR",
+      "latlng": "48.867,2.333",
+      "country": "France",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GA",
+      "latlng": "0.383,9.45",
+      "country": "Gabon",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GB/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GB",
+      "latlng": "51.5,-0.083",
+      "country": "United Kingdom",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GE",
+      "latlng": "41.683,44.833",
+      "country": "Georgia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GH/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GH",
+      "latlng": "5.55,-0.217",
+      "country": "Ghana",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GR",
+      "latlng": "37.983,23.733",
+      "country": "Greece",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GT",
+      "latlng": "14.617,-90.517",
+      "country": "Guatemala",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GW/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GW",
+      "latlng": "11.85,-15.583",
+      "country": "Guinea-Bissau",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./HN/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "HN",
+      "latlng": "14.1,-87.217",
+      "country": "Honduras",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./HR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "HR",
+      "latlng": "45.8,16.0",
+      "country": "Croatia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./HT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "HT",
+      "latlng": "18.533,-72.333",
+      "country": "Haiti",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./HU/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "HU",
+      "latlng": "47.5,19.083",
+      "country": "Hungary",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ID/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ID",
+      "latlng": "-6.167,106.817",
+      "country": "Indonesia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./IE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "IE",
+      "latlng": "53.317,-6.233",
+      "country": "Ireland",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./IL/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "IL",
+      "latlng": "31.767,35.233",
+      "country": "Israel",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./IN/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "IN",
+      "latlng": "28.6,77.2",
+      "country": "India",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./IQ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "IQ",
+      "latlng": "33.333,44.4",
+      "country": "Iraq",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./IT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "IT",
+      "latlng": "41.9,12.483",
+      "country": "Italy",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./JM/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "JM",
+      "latlng": "18.0,-76.8",
+      "country": "Jamaica",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./JO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "JO",
+      "latlng": "31.95,35.933",
+      "country": "Jordan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./JP/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "JP",
+      "latlng": "35.683,139.75",
+      "country": "Japan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./KE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "KE",
+      "latlng": "-1.283,36.817",
+      "country": "Kenya",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./KG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "KG",
+      "latlng": "42.867,74.6",
+      "country": "Kyrgyzstan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./KH/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "KH",
+      "latlng": "11.55,104.917",
+      "country": "Cambodia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./KR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "KR",
+      "latlng": "37.55,126.983",
+      "country": "Korea South",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./KW/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "KW",
+      "latlng": "29.367,47.967",
+      "country": "Kuwait",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./KZ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "KZ",
+      "latlng": "51.167,71.417",
+      "country": "Kazakhstan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LA",
+      "latlng": "17.967,102.6",
+      "country": "Laos",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LB/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LB",
+      "latlng": "33.867,35.5",
+      "country": "Lebanon",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LK/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LK",
+      "latlng": "6.917,79.833",
+      "country": "Sri Lanka",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LT",
+      "latlng": "54.683,25.317",
+      "country": "Lithuania",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LU/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LU",
+      "latlng": "49.6,6.117",
+      "country": "Luxembourg",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LV/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LV",
+      "latlng": "56.95,24.1",
+      "country": "Latvia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LY/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LY",
+      "latlng": "32.883,13.167",
+      "country": "Libya",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MA",
+      "latlng": "34.017,-6.817",
+      "country": "Morocco",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MD/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MD",
+      "latlng": "47.0,28.85",
+      "country": "Moldova",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MK/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MK",
+      "latlng": "42.0,21.433",
+      "country": "Macedonia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ML/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ML",
+      "latlng": "12.65,-8.0",
+      "country": "Mali",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MM/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MM",
+      "latlng": "16.8,96.15",
+      "country": "Myanmar",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MN/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MN",
+      "latlng": "47.917,106.917",
+      "country": "Mongolia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MT",
+      "latlng": "35.883,14.5",
+      "country": "Malta",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MX/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MX",
+      "latlng": "19.433,-99.133",
+      "country": "Mexico",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MY/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MY",
+      "latlng": "3.167,101.7",
+      "country": "Malaysia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MZ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MZ",
+      "latlng": "-25.95,32.583",
+      "country": "Mozambique",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NE",
+      "latlng": "13.517,2.117",
+      "country": "Niger",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NG",
+      "latlng": "9.083,7.533",
+      "country": "Nigeria",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NI/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NI",
+      "latlng": "12.133,-86.25",
+      "country": "Nicaragua",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NL/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NL",
+      "latlng": "52.35,4.917",
+      "country": "Netherlands",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NO",
+      "latlng": "59.917,10.75",
+      "country": "Norway",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NP/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NP",
+      "latlng": "27.717,85.317",
+      "country": "Nepal",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NZ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NZ",
+      "latlng": "-41.3,174.783",
+      "country": "New Zealand",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./OM/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "OM",
+      "latlng": "23.617,58.583",
+      "country": "Oman",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PA",
+      "latlng": "8.967,-79.533",
+      "country": "Panama",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PE",
+      "latlng": "-12.05,-77.05",
+      "country": "Peru",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PG",
+      "latlng": "-9.45,147.183",
+      "country": "Papua New Guinea",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PH/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PH",
+      "latlng": "14.6,120.967",
+      "country": "Philippines",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PK/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PK",
+      "latlng": "33.683,73.05",
+      "country": "Pakistan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PL/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PL",
+      "latlng": "52.25,21.0",
+      "country": "Poland",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PR",
+      "latlng": "18.467,-66.117",
+      "country": "Puerto Rico",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PT",
+      "latlng": "38.717,-9.133",
+      "country": "Portugal",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PY/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PY",
+      "latlng": "-25.267,-57.667",
+      "country": "Paraguay",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./QA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "QA",
+      "latlng": "25.283,51.533",
+      "country": "Qatar",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./RO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "RO",
+      "latlng": "44.433,26.1",
+      "country": "Romania",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./RS/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "RS",
+      "latlng": "44.833,20.5",
+      "country": "Serbia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./RU/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "RU",
+      "latlng": "55.75,37.6",
+      "country": "Russia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./RW/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "RW",
+      "latlng": "-1.95,30.05",
+      "country": "Rwanda",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SA",
+      "latlng": "24.65,46.7",
+      "country": "Saudi Arabia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SE",
+      "latlng": "59.333,18.05",
+      "country": "Sweden",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SG",
+      "latlng": "1.283,103.85",
+      "country": "Singapore",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SI/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SI",
+      "latlng": "46.05,14.517",
+      "country": "Slovenia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SK/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SK",
+      "latlng": "48.15,17.117",
+      "country": "Slovakia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SN/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SN",
+      "latlng": "14.733,-17.633",
+      "country": "Senegal",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SV/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SV",
+      "latlng": "13.7,-89.2",
+      "country": "El Salvador",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./TG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "TG",
+      "latlng": "6.117,1.217",
+      "country": "Togo",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./TH/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "TH",
+      "latlng": "13.75,100.517",
+      "country": "Thailand",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./TJ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "TJ",
+      "latlng": "38.55,68.767",
+      "country": "Tajikistan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./TR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "TR",
+      "latlng": "39.933,32.867",
+      "country": "Turkey",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./TT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "TT",
+      "latlng": "10.65,-61.517",
+      "country": "Trinidad and Tobago",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./TW/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "TW",
+      "latlng": "25.033,121.517",
+      "country": "Taiwan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./TZ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "TZ",
+      "latlng": "-6.8,39.283",
+      "country": "Tanzania",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./UA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "UA",
+      "latlng": "50.433,30.517",
+      "country": "Ukraine",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./UG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "UG",
+      "latlng": "0.317,32.55",
+      "country": "Uganda",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./US/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "US",
+      "latlng": "38.883,-77.0",
+      "country": "United States",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./UY/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "UY",
+      "latlng": "-34.85,-56.167",
+      "country": "Uruguay",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./VE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "VE",
+      "latlng": "10.483,-66.867",
+      "country": "Venezuela",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./VN/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "VN",
+      "latlng": "21.033,105.85",
+      "country": "Vietnam",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./YE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "YE",
+      "latlng": "15.35,44.2",
+      "country": "Yemen",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ZA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ZA",
+      "latlng": "-25.7,28.217",
+      "country": "South Africa",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ZM/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ZM",
+      "latlng": "-15.417,28.283",
+      "country": "Zambia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ZW/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ZW",
+      "latlng": "-17.817,31.033",
+      "country": "Zimbabwe",
+      "name": "/"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports"
+    }
+  ],
+  "subtitle": "People mobility data showing the impact of COVID-19 lockdown restrictions",
+  "yAxis": "/",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Mobility",
+    "Traffic"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "GG",
+  "insituSources": [
+    "Mobile"
+  ],
+  "locations": true,
+  "endpointtype": "GeoDB",
+  "title": "People Mobility Reports",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Google",
+      "url": "https://www.google.com/covid19/mobility/"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "/"
+    ]
+  }
+}
