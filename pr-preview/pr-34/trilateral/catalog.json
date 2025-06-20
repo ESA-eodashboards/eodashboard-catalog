@@ -1,0 +1,103 @@
+{
+  "type": "Catalog",
+  "id": "trilateral",
+  "stac_version": "1.1.0",
+  "description": "A Tri-Agency Dashboard by NASA, ESA, JAXA",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./agricultural_production_productive_area/collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - productive area",
+      "subtitle": "Agricultural production in Europe",
+      "code": "E10a1",
+      "id": "agricultural_production_productive_area",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a1",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "cities": [
+        "Huelva (Lagunas de las Madres)",
+        "Brandenburg"
+      ],
+      "countries": [
+        "ES",
+        "DE"
+      ],
+      "tags": [
+        "Copernicus",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./harvested_parcels_evolution/collection.json",
+      "type": "application/json",
+      "title": "Harvested parcels",
+      "subtitle": "Evolution of harvested parcels in percentage",
+      "code": "E10a6",
+      "id": "harvested_parcels_evolution",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a6",
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2",
+        "Landsat-8"
+      ],
+      "sensor": [
+        "C-SAR",
+        "MSI",
+        "OLI"
+      ],
+      "cities": [
+        "Andalucia",
+        "Extremadura",
+        "Castilla-La Mancha",
+        "La Rioja",
+        "Comunidad de Madrid",
+        "Castilla y Leon",
+        "Region de Murcia",
+        "Cataluna",
+        "Comunidad Valenciana",
+        "Aragon",
+        "Comunidad Foral de Navarra"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "tags": [
+        "Copernicus",
+        "Sen4CAP",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA",
+        "NASA",
+        "USGS"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://eurodatacube.github.io/eodash-catalog/trilateral/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Earth Observing Dashboard"
+}
