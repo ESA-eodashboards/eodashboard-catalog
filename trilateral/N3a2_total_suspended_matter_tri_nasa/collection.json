@@ -174,7 +174,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-06-19T21:46:39.634405Z",
+          "2025-06-20T11:27:20.487510Z",
           null
         ]
       ]
@@ -201,13 +201,13 @@
       "MODIS"
     ],
     "cities": [
-      "North Adriatic",
       "New York",
+      "North Adriatic",
       "San Francisco"
     ],
     "countries": [
-      "US",
-      "IT"
+      "IT",
+      "US"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.png"

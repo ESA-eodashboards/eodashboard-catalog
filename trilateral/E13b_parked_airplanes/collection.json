@@ -87,6 +87,13 @@
       "endpoint": "STAC"
     },
     {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -170,6 +177,7 @@
     "PlanetScope"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13b_parked_airplanes/chart.json",
   "title": "Parked Airplanes",
   "extent": {
     "spatial": {
@@ -215,47 +223,47 @@
       "E13b"
     ],
     "themes": [
-      "COVID-19",
-      "economy"
+      "economy",
+      "COVID-19"
     ],
     "satellite": [
-      "Sentinel-1",
-      "ALOS-2",
       "Sentinel-2",
-      "PlanetScope"
+      "PlanetScope",
+      "Sentinel-1",
+      "ALOS-2"
     ],
     "sensor": [
+      "PALSAR-2",
       "PSB.SD",
       "MSI",
-      "PALSAR-2",
       "C-SAR"
     ],
     "cities": [
       "Ontario",
-      "Marin",
-      "Los Angeles",
-      "Hayward",
-      "Beijing Daxing",
-      "Beijing",
       "Oakland",
-      "Rome",
-      "Napa",
-      "New York",
-      "San Jose",
-      "San Francisco",
-      "Buchannan",
+      "Beijing",
       "Newark",
+      "Rome",
+      "Beijing Daxing",
+      "New York",
+      "Los Angeles",
+      "Heathrow",
+      "Buchannan",
+      "Marin",
+      "Napa",
+      "San Francisco",
       "Paris",
+      "San Jose",
       "Narita",
-      "Heathrow"
+      "Hayward"
     ],
     "countries": [
-      "FR",
-      "IT",
+      "US",
+      "JP",
       "GB",
       "CN",
-      "JP",
-      "US"
+      "IT",
+      "FR"
     ]
   }
 }

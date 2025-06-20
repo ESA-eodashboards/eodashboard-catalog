@@ -151,7 +151,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-06-19T21:39:45.825572Z",
+          "2025-06-20T11:19:11.174550Z",
           null
         ]
       ]
@@ -172,14 +172,14 @@
       "agriculture"
     ],
     "satellite": [
+      "Sentinel-2",
       "Landsat-8",
-      "Sentinel-1",
-      "Sentinel-2"
+      "Sentinel-1"
     ],
     "sensor": [
+      "OLI",
       "MSI",
-      "C-SAR",
-      "OLI"
+      "C-SAR"
     ],
     "cities": [
       "Spain"
