@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "MK",
+  "stac_version": "1.1.0",
+  "description": "/ - Macedonia",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports"
+    }
+  ],
+  "subcode": "MK",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          21.423,
+          41.99,
+          21.443,
+          42.01
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-15T00:00:00Z",
+          "2022-10-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

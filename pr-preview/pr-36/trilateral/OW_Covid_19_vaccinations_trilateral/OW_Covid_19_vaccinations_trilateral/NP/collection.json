@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "NP",
+  "stac_version": "1.1.0",
+  "description": "/ - Nepal",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "NP",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          85.30699999999999,
+          27.706999999999997,
+          85.327,
+          27.727
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-26T00:00:00Z",
+          "2023-11-23T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

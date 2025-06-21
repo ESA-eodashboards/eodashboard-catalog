@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "NZ",
+  "stac_version": "1.1.0",
+  "description": "/ - New Zealand",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "NZ",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          174.773,
+          -41.309999999999995,
+          174.79299999999998,
+          -41.29
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-02-14T00:00:00Z",
+          "2024-03-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

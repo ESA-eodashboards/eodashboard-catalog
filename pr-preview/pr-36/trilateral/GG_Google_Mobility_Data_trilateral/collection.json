@@ -1,0 +1,295 @@
+{
+  "type": "Collection",
+  "id": "GG_Google_Mobility_Data_trilateral",
+  "stac_version": "1.1.0",
+  "description": "### People Mobility Reports \n\nThis indicator shows the impact of COVID-19 lockdown restrictions on the movement of people and is based on  [Google LLC \"Google COVID-19 Community Mobility Reports\"](https://www.google.com/covid19/mobility/).\nEach datasets shows the daily variation of visits and length of stay at 6 place categories:\n\n- **Grocery & pharmacy** = Mobility trends for places like grocery markets, food warehouses, farmers markets, specialty food shops, drug stores, and pharmacies.\n\n- **Parks** = Mobility trends for places like local parks, national parks, public beaches, marinas, dog parks, plazas, and public gardens.\n\n- **Transit stations** = Mobility trends for places like public transport hubs such as subway, bus, and train stations.\n\n- **Retail & recreation** = Mobility trends for places like restaurants, cafes, shopping centers, theme parks, museums, libraries, and movie theaters.\n\n- **Residential** = Mobility trends for places of residence.\n\n- **Workplaces** = Mobility trends for places of work.\n\n\nThe median value for the corresponding day of the week during the 5-week period Jan 3–Feb 6, 2020 has been considered as a baseline value.\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./GG_Google_Mobility_Data_trilateral/collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports",
+      "endpointtype": "GeoDB",
+      "subtitle": "People mobility data showing the impact of COVID-19 lockdown restrictions",
+      "code": "GG",
+      "id": "GG_Google_Mobility_Data_trilateral",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "United Arab Emirates",
+        "Afghanistan",
+        "Angola",
+        "Argentina",
+        "Austria",
+        "Australia",
+        "Bosnia and Herzegovina",
+        "Bangladesh",
+        "Belgium",
+        "Burkina Faso",
+        "Bulgaria",
+        "Benin",
+        "Bolivia",
+        "Brazil",
+        "Bahamas",
+        "Botswana",
+        "Belarus",
+        "Belize",
+        "Canada",
+        "Switzerland",
+        "Ivory Coast",
+        "Chile",
+        "Cameroon",
+        "Colombia",
+        "Costa Rica",
+        "Czech Republic",
+        "Germany",
+        "Denmark",
+        "Dominican Republic",
+        "Ecuador",
+        "Estonia",
+        "Egypt",
+        "Spain",
+        "Finland",
+        "Fiji",
+        "France",
+        "Gabon",
+        "United Kingdom",
+        "Georgia",
+        "Ghana",
+        "Greece",
+        "Guatemala",
+        "Guinea-Bissau",
+        "Honduras",
+        "Croatia",
+        "Haiti",
+        "Hungary",
+        "Indonesia",
+        "Ireland",
+        "Israel",
+        "India",
+        "Iraq",
+        "Italy",
+        "Jamaica",
+        "Jordan",
+        "Japan",
+        "Kenya",
+        "Kyrgyzstan",
+        "Cambodia",
+        "Korea South",
+        "Kuwait",
+        "Kazakhstan",
+        "Laos",
+        "Lebanon",
+        "Sri Lanka",
+        "Lithuania",
+        "Luxembourg",
+        "Latvia",
+        "Libya",
+        "Morocco",
+        "Moldova",
+        "Macedonia",
+        "Mali",
+        "Myanmar",
+        "Mongolia",
+        "Malta",
+        "Mexico",
+        "Malaysia",
+        "Mozambique",
+        "Niger",
+        "Nigeria",
+        "Nicaragua",
+        "Netherlands",
+        "Norway",
+        "Nepal",
+        "New Zealand",
+        "Oman",
+        "Panama",
+        "Peru",
+        "Papua New Guinea",
+        "Philippines",
+        "Pakistan",
+        "Poland",
+        "Puerto Rico",
+        "Portugal",
+        "Paraguay",
+        "Qatar",
+        "Romania",
+        "Serbia",
+        "Russia",
+        "Rwanda",
+        "Saudi Arabia",
+        "Sweden",
+        "Singapore",
+        "Slovenia",
+        "Slovakia",
+        "Senegal",
+        "El Salvador",
+        "Togo",
+        "Thailand",
+        "Tajikistan",
+        "Turkey",
+        "Trinidad and Tobago",
+        "Taiwan",
+        "Tanzania",
+        "Ukraine",
+        "Uganda",
+        "United States",
+        "Uruguay",
+        "Venezuela",
+        "Vietnam",
+        "Yemen",
+        "South Africa",
+        "Zambia",
+        "Zimbabwe"
+      ],
+      "yAxis": "/",
+      "tags": [
+        "Mobility",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "GG",
+      "insituSources": [
+        "Mobile"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_Mobility_data?aoi_id=eq.{{feature}}&select=time,aoi,measurement_value,reference_value",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "subtitle": "People mobility data showing the impact of COVID-19 lockdown restrictions",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports.png",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Mobility",
+    "Traffic"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "GG",
+  "insituSources": [
+    "Mobile"
+  ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/GG_people_mobility_reports/chart.json",
+  "title": "People Mobility Reports",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -99.143,
+          -41.309999999999995,
+          178.427,
+          60.177
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-15T00:00:00Z",
+          "2022-10-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Google",
+      "url": "https://www.google.com/covid19/mobility/"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "GG"
+    ],
+    "themes": [
+      "economy"
+    ],
+    "cities": [
+      "/"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports.png"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

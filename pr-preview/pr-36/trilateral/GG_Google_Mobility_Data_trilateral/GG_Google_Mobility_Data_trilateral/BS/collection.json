@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "BS",
+  "stac_version": "1.1.0",
+  "description": "/ - Bahamas",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports"
+    }
+  ],
+  "subcode": "BS",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -77.36,
+          25.072999999999997,
+          -77.33999999999999,
+          25.093
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-15T00:00:00Z",
+          "2022-10-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

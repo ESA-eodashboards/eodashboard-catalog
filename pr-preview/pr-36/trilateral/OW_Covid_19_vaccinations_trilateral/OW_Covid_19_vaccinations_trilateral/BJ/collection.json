@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "BJ",
+  "stac_version": "1.1.0",
+  "description": "/ - Benin",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "BJ",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          2.607,
+          6.473,
+          2.627,
+          6.492999999999999
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-05-12T00:00:00Z",
+          "2022-12-18T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

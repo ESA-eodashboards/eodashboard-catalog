@@ -1,0 +1,2035 @@
+{
+  "type": "Catalog",
+  "id": "trilateral",
+  "stac_version": "1.1.0",
+  "description": "A Tri-Agency Dashboard by NASA, ESA, JAXA",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./ADD_L2_Pine_Island/collection.json",
+      "type": "application/json",
+      "title": "Pine Island Landsat L2",
+      "subtitle": "Pine Island Landsat L2 low-cloud scenes",
+      "code": "ADD_L2_Pine_Island",
+      "id": "ADD_L2_Pine_Island",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "ADD_L2_Pine_Island",
+      "satellite": [
+        "Landsat-7",
+        "Landsat-8",
+        "Landsat-9"
+      ],
+      "sensor": [
+        "OLI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_L2_Pine_Island/thumbnail.png"
+      ],
+      "tags": [
+        "Antarctica",
+        "climate change",
+        "Polar regions",
+        "Open data",
+        "Open Science",
+        "Cryosphere",
+        "Glaciers",
+        "Ice cap",
+        "Melt",
+        "Landsat",
+        "OLI",
+        "glaciers",
+        "Ice monitoring"
+      ],
+      "agency": [
+        "NASA",
+        "USGS"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3031",
+        "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./ADD_L2_Thwaites/collection.json",
+      "type": "application/json",
+      "title": "Thwaites Glacier Landsat L2",
+      "subtitle": "Thwaites Glacier Landsat L2 low-cloud scenes",
+      "code": "ADD_L2_Thwaites",
+      "id": "ADD_L2_Thwaites",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "ADD_L2_Thwaites",
+      "satellite": [
+        "Landsat-7",
+        "Landsat-8",
+        "Landsat-9"
+      ],
+      "sensor": [
+        "OLI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_L2_Thwaites/thumbnail.png"
+      ],
+      "tags": [
+        "Antarctica",
+        "climate change",
+        "Polar regions",
+        "Open data",
+        "Open Science",
+        "Cryosphere",
+        "Glaciers",
+        "Ice cap",
+        "Melt",
+        "Landsat",
+        "OLI",
+        "glaciers",
+        "Ice monitoring"
+      ],
+      "agency": [
+        "NASA",
+        "USGS"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3031",
+        "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./windu_ERA5-SingleLevel_100m_GLOBAL/collection.json",
+      "type": "application/json",
+      "title": "Wind U Field at 100m",
+      "subtitle": "Gridded ERA5 reanalysis wind U field at 100 m at global level",
+      "code": "CDS7",
+      "id": "windu_ERA5-SingleLevel_100m_GLOBAL",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "CDS7",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS7_windu_ERA5-SingleLevel_100m_GLOBAL/CDS7_windu_ERA5-SingleLevel_100m_GLOBAL.png"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data",
+        "Climate change service"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./windv_ERA5-SingleLevel_100m_GLOBAL/collection.json",
+      "type": "application/json",
+      "title": "Wind V Field at 100m",
+      "subtitle": "Gridded ERA5 reanalysis wind V field at 100 m at global level",
+      "code": "CDS8",
+      "id": "windv_ERA5-SingleLevel_100m_GLOBAL",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "CDS8",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS7_windu_ERA5-SingleLevel_100m_GLOBAL/CDS7_windu_ERA5-SingleLevel_100m_GLOBAL.png"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data",
+        "Climate change service"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ERA5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./CV_Covid_19_cases_trilateral/collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases",
+      "code": "CV",
+      "id": "CV_Covid_19_cases_trilateral",
+      "themes": [
+        "covid-19"
+      ],
+      "subcode": "CV",
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "Kuwait",
+        "United States of America",
+        "Guinea",
+        "Norway",
+        "Slovenia",
+        "Finland",
+        "Azerbaijan",
+        "United Arab Emirates",
+        "Ireland",
+        "Sudan",
+        "Eritrea",
+        "Honduras",
+        "Colombia",
+        "Bulgaria",
+        "Albania",
+        "Guyana",
+        "China",
+        "Indonesia",
+        "Benin",
+        "North Macedonia",
+        "Philippines",
+        "Rwanda",
+        "Malaysia",
+        "Montenegro",
+        "Greece",
+        "Iran",
+        "Morocco",
+        "Italy",
+        "Lesotho",
+        "Estonia",
+        "Israel",
+        "Netherlands",
+        "Nigeria",
+        "Pakistan",
+        "Paraguay",
+        "Kyrgyzstan",
+        "Iraq",
+        "Senegal",
+        "Vietnam",
+        "France",
+        "Somalia",
+        "Latvia",
+        "Tajikistan",
+        "Armenia",
+        "Niger",
+        "Bhutan",
+        "Zimbabwe",
+        "Gabon",
+        "Tunisia",
+        "Djibouti",
+        "Madagascar",
+        "Sweden",
+        "Haiti",
+        "Jamaica",
+        "Canada",
+        "Hungary",
+        "Chile",
+        "Lebanon",
+        "Qatar",
+        "Mauritania",
+        "Trinidad and Tobago",
+        "Papua New Guinea",
+        "Ukraine",
+        "Brazil",
+        "Yemen",
+        "Serbia",
+        "Vanuatu",
+        "Kazakhstan",
+        "Belarus",
+        "Costa Rica",
+        "Switzerland",
+        "Jordan",
+        "Botswana",
+        "Cuba",
+        "Panama",
+        "Central African Republic",
+        "Denmark",
+        "United Kingdom",
+        "South Sudan",
+        "Turkey",
+        "Angola",
+        "Bangladesh",
+        "Saudi Arabia",
+        "Uruguay",
+        "Mali",
+        "Cyprus",
+        "Singapore",
+        "Slovakia",
+        "Mongolia",
+        "Malawi",
+        "Bolivia",
+        "Namibia",
+        "South Africa",
+        "Gambia",
+        "Croatia",
+        "Malta",
+        "Dominican Republic",
+        "Togo",
+        "Nicaragua",
+        "Burundi",
+        "Iceland",
+        "Puerto Rico",
+        "Georgia",
+        "Thailand",
+        "Portugal",
+        "Chad",
+        "Equatorial Guinea",
+        "Japan",
+        "Peru",
+        "New Zealand",
+        "Romania",
+        "Syria",
+        "Kenya",
+        "Ghana",
+        "Oman",
+        "Cameroon",
+        "Brunei",
+        "Egypt",
+        "Uzbekistan",
+        "Monaco",
+        "Guatemala",
+        "India",
+        "Lithuania",
+        "Mozambique",
+        "Nepal",
+        "Luxembourg",
+        "Laos",
+        "Cambodia",
+        "Russia",
+        "Afghanistan",
+        "Ecuador",
+        "Poland",
+        "Antarctica",
+        "Czechia",
+        "Mexico",
+        "Sri Lanka",
+        "Fiji",
+        "Australia",
+        "Burkina Faso",
+        "Solomon Islands",
+        "Bosnia and Herzegovina",
+        "El Salvador",
+        "Kosovo",
+        "Venezuela",
+        "Liberia",
+        "Germany",
+        "Austria",
+        "Algeria",
+        "Belize",
+        "Moldova",
+        "Uganda",
+        "Argentina",
+        "Spain",
+        "Suriname",
+        "Belgium",
+        "Libya",
+        "Zambia",
+        "Ethiopia",
+        "Sierra Leone"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CV_Covid_19_cases/CV_Covid_19_cases.png"
+      ],
+      "tags": [
+        "COVID-19",
+        "Human activities",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "Other"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./agricultural_production_productive_area/collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - productive area",
+      "subtitle": "Agricultural production in Europe",
+      "code": "E10a1",
+      "id": "agricultural_production_productive_area",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a1",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "cities": [
+        "Brandenburg",
+        "Huelva (Lagunas de las Madres)"
+      ],
+      "countries": [
+        "DE",
+        "ES"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.png"
+      ],
+      "tags": [
+        "Copernicus",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./agricultural_production_area/collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - area",
+      "subtitle": "Agricultural production in Europe",
+      "code": "E10a2",
+      "id": "agricultural_production_area",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a2",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "cities": [
+        "Brandenburg Region"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a2_agricultural_production_area/E10a2_agricultural_production_area.png"
+      ],
+      "tags": [
+        "Copernicus",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./agricultural_production_area_change/collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - area change",
+      "subtitle": "Agricultural production in Europe",
+      "code": "E10a3",
+      "id": "agricultural_production_area_change",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a3",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "cities": [
+        "Brandenburg"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a3_agricultural_production_area_change/E10a3_agricultural_production_area_change.png"
+      ],
+      "tags": [
+        "Copernicus",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./harvested_parcels_evolution/collection.json",
+      "type": "application/json",
+      "title": "Harvested parcels",
+      "subtitle": "Evolution of harvested parcels in percentage",
+      "code": "E10a6",
+      "id": "harvested_parcels_evolution",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a6",
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2",
+        "Landsat-8"
+      ],
+      "sensor": [
+        "C-SAR",
+        "MSI",
+        "OLI"
+      ],
+      "cities": [
+        "Comunidad Valenciana",
+        "Castilla y Leon",
+        "La Rioja",
+        "Comunidad de Madrid",
+        "Cataluna",
+        "Castilla-La Mancha",
+        "Region de Murcia",
+        "Andalucia",
+        "Aragon",
+        "Extremadura",
+        "Comunidad Foral de Navarra"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution.png"
+      ],
+      "tags": [
+        "Copernicus",
+        "Sen4CAP",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA",
+        "NASA",
+        "USGS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./winter_cereals/collection.json",
+      "type": "application/json",
+      "title": "Winter cereals",
+      "subtitle": "Winter cereals growth and harvest – Spain",
+      "code": "E10a8",
+      "id": "winter_cereals",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a8",
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2",
+        "Landsat-8"
+      ],
+      "sensor": [
+        "C-SAR",
+        "MSI",
+        "OLI"
+      ],
+      "cities": [
+        "Spain"
+      ],
+      "countries": [
+        "ES"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a8_winter_cereals/E10a8_winter_cereals.png"
+      ],
+      "tags": [
+        "Copernicus",
+        "Sen4CAP",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "ESA",
+        "NASA",
+        "USGS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./E13b_parked_airplanes/collection.json",
+      "type": "application/json",
+      "title": "Parked Airplanes",
+      "subtitle": "Grounded airplanes during the novel coronavirus pandemic",
+      "code": "E13b",
+      "id": "E13b_parked_airplanes",
+      "themes": [
+        "economy",
+        "covid-19"
+      ],
+      "subcode": "E13b",
+      "satellite": [
+        "ALOS-2",
+        "Sentinel-1",
+        "Sentinel-2",
+        "PlanetScope"
+      ],
+      "sensor": [
+        "PALSAR-2",
+        "C-SAR",
+        "MSI",
+        "PSB.SD"
+      ],
+      "cities": [
+        "New York",
+        "Rome",
+        "Hayward",
+        "Ontario",
+        "Beijing",
+        "Narita",
+        "Napa",
+        "Newark",
+        "San Francisco",
+        "Heathrow",
+        "Beijing Daxing",
+        "Los Angeles",
+        "Oakland",
+        "Buchannan",
+        "San Jose",
+        "Marin",
+        "Paris"
+      ],
+      "countries": [
+        "JP",
+        "GB",
+        "US",
+        "IT",
+        "FR",
+        "CN"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.png"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "Open data",
+        "COVID-19",
+        "Mobility",
+        "Community",
+        "Air traffic"
+      ],
+      "agency": [
+        "ESA",
+        "NASA",
+        "JAXA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./E13c_shipping_activity/collection.json",
+      "type": "application/json",
+      "title": "Shipping Activity at Major Ports",
+      "subtitle": "Ship detections in EO data at major international harbours",
+      "code": "E13c",
+      "id": "E13c_shipping_activity",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13c",
+      "satellite": [
+        "Sentinel-2",
+        "PlanetScope"
+      ],
+      "sensor": [
+        "MSI",
+        "PS2"
+      ],
+      "cities": [
+        "Ghent",
+        "New York",
+        "Gdynia",
+        "Suez",
+        "Dunkirk",
+        "San Francisco",
+        "Los Angeles",
+        "Hamburg",
+        "Genoa",
+        "Suez "
+      ],
+      "countries": [
+        "DE",
+        "BE",
+        "EG",
+        "US",
+        "IT",
+        "PL",
+        "FR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.png"
+      ],
+      "tags": [
+        "Economy",
+        "Open data",
+        "Maritime",
+        "Copernicus",
+        "Shipping activity",
+        "Optical sensor"
+      ],
+      "agency": [
+        "ESA",
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./car_containers/collection.json",
+      "type": "application/json",
+      "title": "Car containers",
+      "subtitle": "Change in the number of new cars at automobile factory",
+      "code": "E9",
+      "id": "car_containers",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E9",
+      "satellite": [
+        "ALOS-2",
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "PALSAR-2",
+        "C-SAR"
+      ],
+      "cities": [
+        "Nagoya",
+        "Arcadia",
+        "Beijing",
+        "Los Angeles",
+        "Palm Springs",
+        "Singapore"
+      ],
+      "countries": [
+        "JP",
+        "CN",
+        "SG",
+        "US"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.png"
+      ],
+      "tags": [
+        "Mobility",
+        "SAR",
+        "Multi-sensors",
+        "Production",
+        "Finished goods",
+        "Automotive",
+        "Motor vehicles"
+      ],
+      "agency": [
+        "JAXA",
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./ENSST_by_GCOM-W-AMSR_JAXA/collection.json",
+      "type": "application/json",
+      "title": "Sea Surface Temperature (GCOM-W)",
+      "code": "ENSST",
+      "id": "ENSST_by_GCOM-W-AMSR_JAXA",
+      "themes": [
+        "water",
+        "extreme-events"
+      ],
+      "subcode": "ENSST",
+      "satellite": [
+        "GCOM-W"
+      ],
+      "sensor": [
+        "AMSR2"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ENSST_by_GCOM-W-AMSR_JAXA/ENSST_by_GCOM-W-AMSR_JAXA.png"
+      ],
+      "tags": [
+        "SST",
+        "El Nino",
+        "climate change",
+        "Open data"
+      ],
+      "agency": [
+        "JAXA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Greenhouse_gas_reconsiliation_CH4/collection.json",
+      "type": "application/json",
+      "title": "Methane from CCI RECCAP2",
+      "subtitle": "CH4 from National greenhouse gas inventories (NGHGI) database",
+      "code": "GGI_CH4",
+      "id": "Greenhouse_gas_reconsiliation_CH4",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "GGI_CH4",
+      "satellite": [
+        "Other"
+      ],
+      "cities": [
+        "Venezuela (Bolivarian Republic of)",
+        "Bangladesh",
+        "United States of America",
+        "Democratic Republic of the Congo",
+        "India",
+        "Mongolia",
+        "Sudan",
+        "Colombia",
+        "Iran (Islamic Republic of)",
+        "European Union (Convention)",
+        "South Africa",
+        "China",
+        "Indonesia",
+        "Mexico",
+        "Canada",
+        "Australia",
+        "Thailand",
+        "European Union (KP)",
+        "Brazil",
+        "Kazakhstan",
+        "Argentina",
+        "Nigeria",
+        "Russian Federation",
+        "Pakistan"
+      ],
+      "countries": [
+        "Venezuela (Bolivarian Republic of)",
+        "Bangladesh",
+        "United States of America",
+        "Democratic Republic of the Congo",
+        "India",
+        "Mongolia",
+        "Sudan",
+        "Colombia",
+        "Iran (Islamic Republic of)",
+        "European Union (Convention)",
+        "South Africa",
+        "China",
+        "Indonesia",
+        "Mexico",
+        "Canada",
+        "Australia",
+        "Thailand",
+        "European Union (KP)",
+        "Brazil",
+        "Kazakhstan",
+        "Argentina",
+        "Nigeria",
+        "Russian Federation",
+        "Pakistan"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_CH4/GGI_CH4.png"
+      ],
+      "tags": [
+        "CH4",
+        "Open data",
+        "reconciliation"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Greenhouse_gas_reconsiliation_CO2/collection.json",
+      "type": "application/json",
+      "title": "Carbon Dioxide from CCI RECCAP2",
+      "subtitle": "CO2 from National greenhouse gas inventories (NGHGI) database",
+      "code": "GGI_CO2",
+      "id": "Greenhouse_gas_reconsiliation_CO2",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "GGI_CO2",
+      "satellite": [
+        "Other"
+      ],
+      "cities": [
+        "Venezuela (Bolivarian Republic of)",
+        "Bangladesh",
+        "United States of America",
+        "Democratic Republic of the Congo",
+        "India",
+        "Mongolia",
+        "Sudan",
+        "Colombia",
+        "Iran (Islamic Republic of)",
+        "European Union (Convention)",
+        "South Africa",
+        "China",
+        "Indonesia",
+        "Mexico",
+        "Canada",
+        "Australia",
+        "Thailand",
+        "European Union (KP)",
+        "Brazil",
+        "Kazakhstan",
+        "Argentina",
+        "Nigeria",
+        "Russian Federation",
+        "Pakistan"
+      ],
+      "countries": [
+        "Venezuela (Bolivarian Republic of)",
+        "Bangladesh",
+        "United States of America",
+        "Democratic Republic of the Congo",
+        "India",
+        "Mongolia",
+        "Sudan",
+        "Colombia",
+        "Iran (Islamic Republic of)",
+        "European Union (Convention)",
+        "South Africa",
+        "China",
+        "Indonesia",
+        "Mexico",
+        "Canada",
+        "Australia",
+        "Thailand",
+        "European Union (KP)",
+        "Brazil",
+        "Kazakhstan",
+        "Argentina",
+        "Nigeria",
+        "Russian Federation",
+        "Pakistan"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_CO2/GGI_CO2.png"
+      ],
+      "tags": [
+        "CO2",
+        "Open data",
+        "Greenhouse gases"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Greenhouse_gas_reconsiliation_N2O/collection.json",
+      "type": "application/json",
+      "title": "Nitrous oxide from CCI RECCAP2",
+      "subtitle": "N2O from National greenhouse gas inventories (NGHGI) database",
+      "code": "GGI_N2O",
+      "id": "Greenhouse_gas_reconsiliation_N2O",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "GGI_N2O",
+      "satellite": [
+        "Other"
+      ],
+      "cities": [
+        "Venezuela (Bolivarian Republic of)",
+        "Bangladesh",
+        "United States of America",
+        "Democratic Republic of the Congo",
+        "India",
+        "Mongolia",
+        "Sudan",
+        "Colombia",
+        "Iran (Islamic Republic of)",
+        "European Union (Convention)",
+        "South Africa",
+        "China",
+        "Indonesia",
+        "Mexico",
+        "Canada",
+        "Australia",
+        "Thailand",
+        "European Union (KP)",
+        "Brazil",
+        "Kazakhstan",
+        "Argentina",
+        "Nigeria",
+        "Russian Federation",
+        "Pakistan"
+      ],
+      "countries": [
+        "Venezuela (Bolivarian Republic of)",
+        "Bangladesh",
+        "United States of America",
+        "Democratic Republic of the Congo",
+        "India",
+        "Mongolia",
+        "Sudan",
+        "Colombia",
+        "Iran (Islamic Republic of)",
+        "European Union (Convention)",
+        "South Africa",
+        "China",
+        "Indonesia",
+        "Mexico",
+        "Canada",
+        "Australia",
+        "Thailand",
+        "European Union (KP)",
+        "Brazil",
+        "Kazakhstan",
+        "Argentina",
+        "Nigeria",
+        "Russian Federation",
+        "Pakistan"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_N2O/GGI_N2O.png"
+      ],
+      "tags": [
+        "NO2",
+        "Open data",
+        "Greenhouse gases"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./GG_Google_Mobility_Data_trilateral/collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports",
+      "subtitle": "People mobility data showing the impact of COVID-19 lockdown restrictions",
+      "code": "GG",
+      "id": "GG_Google_Mobility_Data_trilateral",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "GG",
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "Kuwait",
+        "Norway",
+        "Slovenia",
+        "Finland",
+        "United Arab Emirates",
+        "Ireland",
+        "Honduras",
+        "Colombia",
+        "Bulgaria",
+        "Indonesia",
+        "Benin",
+        "Philippines",
+        "Rwanda",
+        "Malaysia",
+        "Greece",
+        "Morocco",
+        "Italy",
+        "Estonia",
+        "Israel",
+        "Netherlands",
+        "Nigeria",
+        "Pakistan",
+        "Paraguay",
+        "Kyrgyzstan",
+        "Iraq",
+        "Senegal",
+        "Vietnam",
+        "France",
+        "Latvia",
+        "Czech Republic",
+        "United States",
+        "Tajikistan",
+        "Niger",
+        "Zimbabwe",
+        "Gabon",
+        "Sweden",
+        "Haiti",
+        "Jamaica",
+        "Canada",
+        "Hungary",
+        "Chile",
+        "Lebanon",
+        "Qatar",
+        "Guinea-Bissau",
+        "Trinidad and Tobago",
+        "Papua New Guinea",
+        "Ukraine",
+        "Brazil",
+        "Yemen",
+        "Macedonia",
+        "Serbia",
+        "Kazakhstan",
+        "Belarus",
+        "Costa Rica",
+        "Switzerland",
+        "Jordan",
+        "Botswana",
+        "Panama",
+        "Denmark",
+        "United Kingdom",
+        "Turkey",
+        "Angola",
+        "Bangladesh",
+        "Saudi Arabia",
+        "Uruguay",
+        "Mali",
+        "Taiwan",
+        "Singapore",
+        "Slovakia",
+        "Mongolia",
+        "Bolivia",
+        "South Africa",
+        "Croatia",
+        "Malta",
+        "Dominican Republic",
+        "Togo",
+        "Nicaragua",
+        "Puerto Rico",
+        "Georgia",
+        "Thailand",
+        "Portugal",
+        "Japan",
+        "Peru",
+        "Ivory Coast",
+        "New Zealand",
+        "Romania",
+        "Korea South",
+        "Kenya",
+        "Ghana",
+        "Oman",
+        "Cameroon",
+        "Egypt",
+        "Myanmar",
+        "Guatemala",
+        "India",
+        "Lithuania",
+        "Mozambique",
+        "Nepal",
+        "Luxembourg",
+        "Laos",
+        "Cambodia",
+        "Russia",
+        "Afghanistan",
+        "Ecuador",
+        "Poland",
+        "Mexico",
+        "Sri Lanka",
+        "Tanzania",
+        "Fiji",
+        "Bahamas",
+        "Australia",
+        "Burkina Faso",
+        "Bosnia and Herzegovina",
+        "El Salvador",
+        "Venezuela",
+        "Germany",
+        "Austria",
+        "Belize",
+        "Moldova",
+        "Uganda",
+        "Argentina",
+        "Spain",
+        "Belgium",
+        "Libya",
+        "Zambia"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports.png"
+      ],
+      "tags": [
+        "Mobility",
+        "Traffic"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "Mobile"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./lake_water_extent/collection.json",
+      "type": "application/json",
+      "title": "Lakes water extent",
+      "subtitle": "Lake water extent (CCI LWE)",
+      "code": "LWE",
+      "id": "lake_water_extent",
+      "themes": [
+        "water"
+      ],
+      "subcode": "LWE",
+      "satellite": [
+        "Other"
+      ],
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "SE"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LWE_lake_water_extent/LWE_lake_water_extent.png"
+      ],
+      "tags": [
+        "Climate Change Initiative",
+        "climate change initiative",
+        "Water quality",
+        "Multi-sensors",
+        "Open data",
+        "Lakes"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./lake_water_level/collection.json",
+      "type": "application/json",
+      "title": "Lakes water level",
+      "subtitle": "Lake water level (CCI LWL)",
+      "code": "LWL",
+      "id": "lake_water_level",
+      "themes": [
+        "water"
+      ],
+      "subcode": "LWL",
+      "satellite": [
+        "Other"
+      ],
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "SE"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LWL_lake_water_level/LWL_lake_water_level.png"
+      ],
+      "tags": [
+        "Climate Change Initiative",
+        "climate change initiative",
+        "Lakes",
+        "Water quality",
+        "Multi-sensors",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./S14Amazonas_detections/collection.json",
+      "type": "application/json",
+      "title": "ESA Sentinel-1 for Science Amazonas",
+      "subtitle": "Multi-temporal Change Detection",
+      "code": "MCD",
+      "id": "S14Amazonas_detections",
+      "themes": [
+        "biomass"
+      ],
+      "subcode": "MCD",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/MCD_S14Amazonas_detections/thumbnail.png"
+      ],
+      "tags": [
+        "Copernicus",
+        "Forest disturbance"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N1_NO2_city_trilateral/collection.json",
+      "type": "application/json",
+      "title": "Nitrogen Dioxide at City level",
+      "subtitle": "Total Column NO2 averaged over a 50x50 sqkm area",
+      "code": "N1_NO2_city_trilateral",
+      "id": "N1_NO2_city_trilateral",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "N1_NO2_city_trilateral",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "cities": [
+        "New York",
+        "Rome",
+        "Beijing",
+        "Madrid",
+        "Milan",
+        "Mumbai",
+        "Tokyo",
+        "San Francisco",
+        "Los Angeles",
+        "New Delhi",
+        "Paris"
+      ],
+      "countries": [
+        "JP",
+        "US",
+        "IT",
+        "ES",
+        "FR",
+        "CN",
+        "IN"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.png"
+      ],
+      "tags": [
+        "Air quality",
+        "NO2",
+        "Open data",
+        "Tropospheric"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N1_NO2_jaxa/collection.json",
+      "type": "application/json",
+      "title": "Nitrogen dioxide daily (Cairo) [mol/m3]",
+      "subtitle": "NO2 daily column density in Cairo based on Sentinel-5P data",
+      "code": "N1_NO2_jaxa",
+      "id": "N1_NO2_jaxa",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "N1_NO2_jaxa",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_jaxa/N1_NO2_jaxa.png"
+      ],
+      "tags": [
+        "Air quality",
+        "NO2",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N3b_water_quality_chl_chart/collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration",
+      "subtitle": "Chlorophyll-a concentration time series",
+      "code": "N3b_chl",
+      "id": "N3b_water_quality_chl_chart",
+      "themes": [
+        "water"
+      ],
+      "subcode": "N3b_chl",
+      "satellite": [
+        "Sentinel-3",
+        "GCOM-C",
+        "Acqua"
+      ],
+      "sensor": [
+        "OLCI",
+        "SGLI",
+        "MODIS"
+      ],
+      "cities": [
+        "New York",
+        "Nagoya",
+        "Kobe",
+        "Tokyo",
+        "Venice"
+      ],
+      "countries": [
+        "JP",
+        "IT",
+        "US"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.png"
+      ],
+      "tags": [
+        "Water quality",
+        "Marine",
+        "Copernicus Services",
+        "Sentinel-3",
+        "Acqua",
+        "GCOM-C",
+        "OLCI",
+        "SGLI",
+        "MODIS",
+        "Open data",
+        "Marine monitoring",
+        "Chlorophyll-a",
+        "COVID-19"
+      ],
+      "agency": [
+        "ESA",
+        "JAXA",
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N3b_water_quality_tsm_chart/collection.json",
+      "type": "application/json",
+      "title": "Total Suspended Matter concentration anomaly",
+      "subtitle": "Total Suspended Matter anomaly time series",
+      "code": "N3b_tsm",
+      "id": "N3b_water_quality_tsm_chart",
+      "themes": [
+        "water"
+      ],
+      "subcode": "N3b_tsm",
+      "satellite": [
+        "Sentinel-3",
+        "GCOM-C",
+        "Acqua"
+      ],
+      "sensor": [
+        "OLCI",
+        "SGLI",
+        "MODIS"
+      ],
+      "cities": [
+        "Nagoya",
+        "Tokyo",
+        "Kobe",
+        "Venice"
+      ],
+      "countries": [
+        "JP",
+        "IT"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.png"
+      ],
+      "tags": [
+        "Water quality",
+        "Marine",
+        "Copernicus Services",
+        "Sentinel-3",
+        "Acqua",
+        "GCOM-C",
+        "OLCI",
+        "SGLI",
+        "MODIS",
+        "Open data",
+        "Marine monitoring",
+        "Total Suspended Sediments",
+        "COVID-19"
+      ],
+      "agency": [
+        "ESA",
+        "JAXA",
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NASA_ECOSTRESS_LST/collection.json",
+      "type": "application/json",
+      "title": "NASA ECOSTRESS land surface temperature",
+      "code": "NELST",
+      "id": "NASA_ECOSTRESS_LST",
+      "themes": [
+        "extreme-events"
+      ],
+      "subcode": "NELST",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NELST_ECOSTRESS_LST/NELST_ECOSTRESS_LST.png"
+      ],
+      "tags": [
+        "Temperature",
+        "Open data"
+      ],
+      "agency": [
+        "NASA"
+      ],
+      "otherSources": [
+        "ECOSTRESS"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./JAXA_Nighttimelevel_Rural/collection.json",
+      "type": "application/json",
+      "title": "Night lights in rural areas",
+      "subtitle": "Global map of night lights aggregated for years 2019-2022",
+      "code": "NTLR",
+      "id": "JAXA_Nighttimelevel_Rural",
+      "themes": [
+        "covid-19"
+      ],
+      "subcode": "NTLR",
+      "satellite": [
+        "Suomi NPP"
+      ],
+      "sensor": [
+        "VIIRS"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NTLR_JAXA_Nighttimelevel_Rural/NTLR_JAXA_Nighttimelevel_Rural.png"
+      ],
+      "tags": [
+        "Human activities",
+        "Night lights",
+        "Open data"
+      ],
+      "agency": [
+        "JAXA"
+      ],
+      "otherSources": [
+        "Other"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./JAXA_Nighttimelevel_Urban/collection.json",
+      "type": "application/json",
+      "title": "Night lights in urban areas",
+      "subtitle": "Global map of night lights aggregated for years 2019-2022",
+      "code": "NTLU",
+      "id": "JAXA_Nighttimelevel_Urban",
+      "themes": [
+        "covid-19"
+      ],
+      "subcode": "NTLU",
+      "satellite": [
+        "Suomi NPP"
+      ],
+      "sensor": [
+        "VIIRS"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NTLU_JAXA_Nighttimelevel_Urban/NTLU_JAXA_Nighttimelevel_Urban.png"
+      ],
+      "tags": [
+        "Human activities",
+        "Night lights",
+        "Open data"
+      ],
+      "agency": [
+        "JAXA"
+      ],
+      "otherSources": [
+        "Other"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Ocean_Heat_Content_upper_300m/collection.json",
+      "type": "application/json",
+      "title": "Ocean heat content for the upper 300m",
+      "subtitle": "ORAS5 global ocean reanalysis monthly data from 1958 to present",
+      "code": "OHC300",
+      "id": "Ocean_Heat_Content_upper_300m",
+      "themes": [
+        "water"
+      ],
+      "subcode": "OHC300",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OHC300_Ocean_Heat_Content_upper_300m/OHC300_Ocean_Heat_Content_upper_300m.png"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "C3S",
+        "CDS",
+        "Multi-sensors",
+        "Open data",
+        "Climate change service"
+      ],
+      "agency": [
+        "European Commission",
+        "ECMWF"
+      ],
+      "otherSources": [
+        "ORAS5"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./OW_Covid_19_vaccinations_trilateral/collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations",
+      "code": "OW",
+      "id": "OW_Covid_19_vaccinations_trilateral",
+      "themes": [
+        "covid-19"
+      ],
+      "subcode": "OW",
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "Kuwait",
+        "United States of America",
+        "Guinea",
+        "Norway",
+        "Slovenia",
+        "Finland",
+        "Azerbaijan",
+        "United Arab Emirates",
+        "Ireland",
+        "Sudan",
+        "Honduras",
+        "Colombia",
+        "Bulgaria",
+        "Albania",
+        "Guyana",
+        "China",
+        "Indonesia",
+        "Benin",
+        "North Macedonia",
+        "Philippines",
+        "Rwanda",
+        "Malaysia",
+        "Montenegro",
+        "Greece",
+        "Iran",
+        "Morocco",
+        "Italy",
+        "Lesotho",
+        "Bermuda",
+        "Estonia",
+        "Israel",
+        "Netherlands",
+        "Nigeria",
+        "Pakistan",
+        "Paraguay",
+        "Kyrgyzstan",
+        "Iraq",
+        "Senegal",
+        "Vietnam",
+        "France",
+        "Somalia",
+        "Latvia",
+        "New Caledonia",
+        "Tajikistan",
+        "Armenia",
+        "Niger",
+        "Bhutan",
+        "Gabon",
+        "Tunisia",
+        "Djibouti",
+        "Madagascar",
+        "Greenland",
+        "Sweden",
+        "Haiti",
+        "Jamaica",
+        "Canada",
+        "Hungary",
+        "Chile",
+        "Lebanon",
+        "Qatar",
+        "Mauritania",
+        "Trinidad and Tobago",
+        "Papua New Guinea",
+        "Ukraine",
+        "Brazil",
+        "Yemen",
+        "Serbia",
+        "Vanuatu",
+        "Kazakhstan",
+        "Belarus",
+        "South Korea",
+        "Costa Rica",
+        "Switzerland",
+        "Jordan",
+        "Botswana",
+        "Cuba",
+        "Panama",
+        "Central African Republic",
+        "Denmark",
+        "United Kingdom",
+        "South Sudan",
+        "Turkey",
+        "Angola",
+        "Falkland Islands",
+        "Bangladesh",
+        "Saudi Arabia",
+        "Uruguay",
+        "Mali",
+        "Taiwan",
+        "Cyprus",
+        "Singapore",
+        "Slovakia",
+        "Mongolia",
+        "Malawi",
+        "Bolivia",
+        "Namibia",
+        "South Africa",
+        "Gambia",
+        "Croatia",
+        "Malta",
+        "Dominican Republic",
+        "Turkmenistan",
+        "Togo",
+        "Nicaragua",
+        "Burundi",
+        "Iceland",
+        "Georgia",
+        "Thailand",
+        "Portugal",
+        "Chad",
+        "Equatorial Guinea",
+        "Japan",
+        "Peru",
+        "New Zealand",
+        "Romania",
+        "Syria",
+        "Kenya",
+        "Ghana",
+        "Oman",
+        "Cameroon",
+        "Brunei",
+        "Egypt",
+        "Myanmar",
+        "Monaco",
+        "Uzbekistan",
+        "Guatemala",
+        "India",
+        "Lithuania",
+        "Mozambique",
+        "Nepal",
+        "Luxembourg",
+        "Laos",
+        "Cambodia",
+        "Russia",
+        "Afghanistan",
+        "Ecuador",
+        "Poland",
+        "Czechia",
+        "Mexico",
+        "Sri Lanka",
+        "Fiji",
+        "Australia",
+        "Burkina Faso",
+        "Solomon Islands",
+        "Bosnia and Herzegovina",
+        "El Salvador",
+        "Kosovo",
+        "Venezuela",
+        "Liberia",
+        "Germany",
+        "Austria",
+        "Algeria",
+        "Belize",
+        "Moldova",
+        "Uganda",
+        "Argentina",
+        "Spain",
+        "Suriname",
+        "Belgium",
+        "Libya",
+        "Zambia",
+        "Ethiopia",
+        "Sierra Leone"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OW_Covid_19_vaccinations/OW_Covid_19_vaccinations.png"
+      ],
+      "tags": [
+        "COVID-19",
+        "Human activities",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "insituSources": [
+        "Other"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./precipitation_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Local Precipitation from GCOM-W",
+      "subtitle": "Precipitation Timeseries",
+      "code": "PRCTS",
+      "id": "precipitation_timeseries",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "PRCTS",
+      "satellite": [
+        "Other"
+      ],
+      "cities": [
+        "Paraná",
+        "Kansas"
+      ],
+      "countries": [
+        "US",
+        "BR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCTS_precipitation_timeseries/PRCTS_precipitation_timeseries.png"
+      ],
+      "tags": [
+        "Precipitation",
+        "Rainfall",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "JAXA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel-3-SLSTR-L2-LST/collection.json",
+      "type": "application/json",
+      "title": "Land Surface Temperature (Sentinel-3 SLSTR L2)",
+      "code": "SLSTR1",
+      "id": "Sentinel-3-SLSTR-L2-LST",
+      "themes": [
+        "extreme-events"
+      ],
+      "subcode": "SLSTR1",
+      "satellite": [
+        "Sentinel-3"
+      ],
+      "sensor": [
+        "SLSTR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SLSTR1_Sentinel-3-SLSTR-L2-LST/SLSTR1_Sentinel-3-SLSTR-L2-LST.png"
+      ],
+      "tags": [
+        "Copernicus Data Space Ecosystem",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./soil_moisture_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Local Soil Moisture from GSMaP",
+      "subtitle": "Soil Moisture Timeseries",
+      "code": "SMCTS",
+      "id": "soil_moisture_timeseries",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "SMCTS",
+      "satellite": [
+        "Other"
+      ],
+      "cities": [
+        "Paraná",
+        "Kansas"
+      ],
+      "countries": [
+        "US",
+        "BR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMCTS_soil_moisture_timeseries/SMCTS_soil_moisture_timeseries.png"
+      ],
+      "tags": [
+        "Precipitation",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "JAXA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence/collection.json",
+      "type": "application/json",
+      "title": "Global seasonal Sentinel-1 backscatter",
+      "subtitle": "Mean seasonal backscatter amplitudes C-band SAR dataset - HV polarization",
+      "code": "SSLC1",
+      "id": "SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "SSLC1",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence/SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence.png"
+      ],
+      "tags": [
+        "SAR",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ESA",
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./SSLC2_Seasonal_S1_COH12_hh_interferometric_coherence/collection.json",
+      "type": "application/json",
+      "title": "Global seasonal Sentinel-1 interferometric coherence",
+      "subtitle": "Median seasonal repeat-pass coherences C-band SAR dataset - 12-days",
+      "code": "SSLC2",
+      "id": "SSLC2_Seasonal_S1_COH12_hh_interferometric_coherence",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "SSLC2",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SSLC2_Seasonal_S1_COH12_hh_interferometric_coherence/SSLC2_Seasonal_S1_COH12_hh_interferometric_coherence.png"
+      ],
+      "tags": [
+        "SAR",
+        "Open data"
+      ],
+      "agency": [
+        "European Commission",
+        "ESA",
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./vegetation_index_timeseries/collection.json",
+      "type": "application/json",
+      "title": "Local NDVI from GSMaP",
+      "subtitle": "Normalized Difference Vegetation Index Timeseries",
+      "code": "VITS",
+      "id": "vegetation_index_timeseries",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "VITS",
+      "satellite": [
+        "Other"
+      ],
+      "cities": [
+        "Paraná",
+        "Kansas"
+      ],
+      "countries": [
+        "US",
+        "BR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/VITS_vegetation_index_timeseries/VITS_vegetation_index_timeseries.png"
+      ],
+      "tags": [
+        "Precipitation",
+        "Multi-sensors"
+      ],
+      "agency": [
+        "JAXA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./facebook_population_density/collection.json",
+      "type": "application/json",
+      "title": "Population Density (Meta)",
+      "code": "FB",
+      "id": "facebook_population_density",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "FB",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/facebook_population_density.png"
+      ],
+      "tags": [
+        "Human settlement",
+        "Human activities",
+        "Open data",
+        "Urban",
+        "Rural",
+        "Builtup"
+      ],
+      "agency": [
+        "NASA"
+      ],
+      "otherSources": [
+        "Multi-sensors"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./WSF_world_settlement_footprint_ind/collection.json",
+      "type": "application/json",
+      "title": "World settlement footprint",
+      "code": "WSF_world_settlement_footprint_ind",
+      "id": "WSF_world_settlement_footprint_ind",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "WSF_world_settlement_footprint_ind",
+      "satellite": [
+        "Sentinel-1",
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "C-SAR",
+        "MSI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.png"
+      ],
+      "tags": [
+        "Human settlement",
+        "Human activities",
+        "Open data"
+      ],
+      "agency": [
+        "DLR"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://eurodatacube.github.io/eodash-catalog/trilateral/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Earth Observing Dashboard"
+}

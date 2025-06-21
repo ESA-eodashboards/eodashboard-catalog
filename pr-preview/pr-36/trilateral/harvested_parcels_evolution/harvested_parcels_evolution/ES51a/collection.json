@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "ES51a",
+  "stac_version": "1.1.0",
+  "description": "Cataluna - ES",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Harvested parcels"
+    }
+  ],
+  "subcode": "ES51a",
+  "title": "Cataluna",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          1.476,
+          41.849000000000004,
+          1.496,
+          41.869
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-05-17T00:00:00Z",
+          "2020-08-02T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

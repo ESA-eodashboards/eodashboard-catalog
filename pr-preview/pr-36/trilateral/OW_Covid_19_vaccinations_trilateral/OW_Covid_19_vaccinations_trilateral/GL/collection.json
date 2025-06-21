@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "GL",
+  "stac_version": "1.1.0",
+  "description": "/ - Greenland",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "GL",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -51.76,
+          64.173,
+          -51.74,
+          64.19300000000001
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-27T00:00:00Z",
+          "2022-03-14T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

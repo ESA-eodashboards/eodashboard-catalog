@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "IRN",
+  "stac_version": "1.1.0",
+  "description": "Iran (Islamic Republic of) - Iran (Islamic Republic of)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Methane from CCI RECCAP2"
+    }
+  ],
+  "subcode": "IRN",
+  "title": "Iran (Islamic Republic of)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          51.407000000000004,
+          35.690000000000005,
+          51.427,
+          35.71
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1994-01-01T00:00:00Z",
+          "2010-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

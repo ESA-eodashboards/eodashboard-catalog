@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "GA",
+  "stac_version": "1.1.0",
+  "description": "/ - Gabon",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "GA",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.44,
+          0.373,
+          9.459999999999999,
+          0.393
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-03-22T00:00:00Z",
+          "2023-02-05T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "TM",
+  "stac_version": "1.1.0",
+  "description": "/ - Turkmenistan",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "TM",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          58.373000000000005,
+          37.940000000000005,
+          58.393,
+          37.96
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-02-28T00:00:00Z",
+          "2023-08-06T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

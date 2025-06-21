@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "XK",
+  "stac_version": "1.1.0",
+  "description": "/ - Kosovo",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases"
+    }
+  ],
+  "subcode": "XK",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          21.156879999999997,
+          42.66272,
+          21.17688,
+          42.682719999999996
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-22T00:00:00Z",
+          "2023-03-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

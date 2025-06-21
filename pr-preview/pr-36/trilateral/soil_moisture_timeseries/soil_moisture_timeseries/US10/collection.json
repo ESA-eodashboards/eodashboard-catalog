@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "US10",
+  "stac_version": "1.1.0",
+  "description": "Kansas - US",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Local Soil Moisture from GSMaP"
+    }
+  ],
+  "subcode": "US10",
+  "title": "Kansas",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -98.33500000000001,
+          38.49,
+          -98.315,
+          38.51
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-09T00:00:00Z",
+          "2023-06-24T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "US04",
+  "stac_version": "1.1.0",
+  "description": "New York - US",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration"
+    }
+  ],
+  "subcode": "US04",
+  "title": "New York",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -72.944,
+          41.0917,
+          -72.92399999999999,
+          41.1117
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-04T17:30:00Z",
+          "2022-03-19T18:20:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

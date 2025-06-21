@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "HT",
+  "stac_version": "1.1.0",
+  "description": "/ - Haiti",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases"
+    }
+  ],
+  "subcode": "HT",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -72.343,
+          18.523,
+          -72.323,
+          18.543000000000003
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-22T00:00:00Z",
+          "2023-03-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

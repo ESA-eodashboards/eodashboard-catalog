@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "IND",
+  "stac_version": "1.1.0",
+  "description": "India - India",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Methane from CCI RECCAP2"
+    }
+  ],
+  "subcode": "IND",
+  "title": "India",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          77.19,
+          28.59,
+          77.21000000000001,
+          28.610000000000003
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1994-01-01T00:00:00Z",
+          "2016-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

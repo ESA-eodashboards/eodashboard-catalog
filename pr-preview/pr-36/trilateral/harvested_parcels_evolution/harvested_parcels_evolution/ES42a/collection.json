@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "ES42a",
+  "stac_version": "1.1.0",
+  "description": "Castilla-La Mancha - ES",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Harvested parcels"
+    }
+  ],
+  "subcode": "ES42a",
+  "title": "Castilla-La Mancha",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -3.135,
+          39.733000000000004,
+          -3.115,
+          39.753
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-05-17T00:00:00Z",
+          "2020-08-02T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

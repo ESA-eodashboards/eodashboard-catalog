@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "BZ",
+  "stac_version": "1.1.0",
+  "description": "/ - Belize",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "BZ",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -88.777,
+          17.24,
+          -88.75699999999999,
+          17.26
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-02-28T00:00:00Z",
+          "2023-05-12T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

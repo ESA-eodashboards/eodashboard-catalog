@@ -1,0 +1,187 @@
+{
+  "type": "Collection",
+  "id": "car_containers",
+  "stac_version": "1.1.0",
+  "description": "# Finished goods production: vehicles inventory level\n\nThis indicator aims at tracking production and movement at factories and ports importing and exporting cars to monitor the increase and decrease of new car production\nby combining satellite data from:\n###\n- PALSAR-2, which uses L-band SAR mounted on [JAXA](https://global.jaxa.jp/)'s ALOS-2 \n- C-band SAR mounted on the [ESA](https://esa.int/)'s Sentinel-1\n- NASA-processed high-resolution optical remote sensing data from Planet’s SkySat\n\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./CN03/collection.json",
+      "type": "application/json",
+      "title": "Beijing",
+      "id": "CN03",
+      "latlng": "40.08, 116.6",
+      "country": "CN",
+      "name": "Beijing"
+    },
+    {
+      "rel": "child",
+      "href": "./JP03/collection.json",
+      "type": "application/json",
+      "title": "Nagoya",
+      "id": "JP03",
+      "latlng": "35.0800,136.8800",
+      "country": "JP",
+      "name": "Nagoya"
+    },
+    {
+      "rel": "child",
+      "href": "./SG01/collection.json",
+      "type": "application/json",
+      "title": "Singapore",
+      "id": "SG01",
+      "latlng": "1.264856, 103.847663",
+      "country": "SG",
+      "name": "Singapore"
+    },
+    {
+      "rel": "child",
+      "href": "./US021/collection.json",
+      "type": "application/json",
+      "title": "Los Angeles",
+      "id": "US021",
+      "latlng": "33.94, -118.41",
+      "country": "US",
+      "name": "Los Angeles"
+    },
+    {
+      "rel": "child",
+      "href": "./US050/collection.json",
+      "type": "application/json",
+      "title": "Los Angeles",
+      "id": "US050",
+      "latlng": "33.79,-117.89",
+      "country": "US",
+      "name": "Los Angeles"
+    },
+    {
+      "rel": "child",
+      "href": "./US051/collection.json",
+      "type": "application/json",
+      "title": "Los Angeles",
+      "id": "US051",
+      "latlng": "34.07,-118.23",
+      "country": "US",
+      "name": "Los Angeles"
+    },
+    {
+      "rel": "child",
+      "href": "./US052/collection.json",
+      "type": "application/json",
+      "title": "Palm Springs",
+      "id": "US052",
+      "latlng": "33.82,-116.5",
+      "country": "US",
+      "name": "Palm Springs"
+    },
+    {
+      "rel": "child",
+      "href": "./US053/collection.json",
+      "type": "application/json",
+      "title": "Arcadia",
+      "id": "US053",
+      "latlng": "34.14,-118.04",
+      "country": "US",
+      "name": "Arcadia"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Car containers"
+    }
+  ],
+  "subtitle": "Change in the number of new cars at automobile factory",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.png",
+  "yAxis": "Car Density",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Mobility",
+    "SAR",
+    "Multi-sensors",
+    "Production",
+    "Finished goods",
+    "Automotive",
+    "Motor vehicles"
+  ],
+  "agency": [
+    "JAXA",
+    "ESA"
+  ],
+  "subcode": "E9",
+  "sensor": [
+    "PALSAR-2",
+    "C-SAR"
+  ],
+  "satellite": [
+    "ALOS-2",
+    "Sentinel-1"
+  ],
+  "locations": true,
+  "endpointtype": "GeoDB",
+  "title": "Car containers",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -118.42,
+          1.254856,
+          136.89,
+          40.089999999999996
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-11-27T00:00:00Z",
+          "2022-12-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "JAXA",
+      "url": "https://global.jaxa.jp/"
+    },
+    {
+      "name": "ESA",
+      "url": "https://www.esa.int/"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "Beijing",
+      "Nagoya",
+      "Singapore",
+      "Los Angeles",
+      "Palm Springs",
+      "Arcadia"
+    ],
+    "countries": [
+      "CN",
+      "JP",
+      "SG",
+      "US"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

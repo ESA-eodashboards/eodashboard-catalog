@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "ZW",
+  "stac_version": "1.1.0",
+  "description": "/ - Zimbabwe",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports"
+    }
+  ],
+  "subcode": "ZW",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          31.023,
+          -17.827,
+          31.043000000000003,
+          -17.807
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-15T00:00:00Z",
+          "2022-10-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

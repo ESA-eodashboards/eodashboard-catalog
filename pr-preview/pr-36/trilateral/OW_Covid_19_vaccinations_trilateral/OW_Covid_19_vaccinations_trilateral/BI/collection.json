@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "BI",
+  "stac_version": "1.1.0",
+  "description": "/ - Burundi",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "BI",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.34,
+          -3.377,
+          29.360000000000003,
+          -3.357
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-10-19T00:00:00Z",
+          "2023-11-05T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

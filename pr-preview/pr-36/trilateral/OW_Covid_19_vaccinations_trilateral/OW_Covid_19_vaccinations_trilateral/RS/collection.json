@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "RS",
+  "stac_version": "1.1.0",
+  "description": "/ - Serbia",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "RS",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          20.49,
+          44.823,
+          20.51,
+          44.842999999999996
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-08T00:00:00Z",
+          "2022-06-23T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

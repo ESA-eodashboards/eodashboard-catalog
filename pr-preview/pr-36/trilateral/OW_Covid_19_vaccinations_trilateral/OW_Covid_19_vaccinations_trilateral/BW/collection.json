@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "BW",
+  "stac_version": "1.1.0",
+  "description": "/ - Botswana",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "BW",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          25.889999999999997,
+          -24.643,
+          25.91,
+          -24.622999999999998
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-03-25T00:00:00Z",
+          "2023-05-07T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

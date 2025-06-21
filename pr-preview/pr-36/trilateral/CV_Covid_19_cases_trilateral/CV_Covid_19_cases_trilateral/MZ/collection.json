@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "MZ",
+  "stac_version": "1.1.0",
+  "description": "/ - Mozambique",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases"
+    }
+  ],
+  "subcode": "MZ",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          32.573,
+          -25.96,
+          32.592999999999996,
+          -25.939999999999998
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-22T00:00:00Z",
+          "2023-03-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

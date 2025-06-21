@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "NC",
+  "stac_version": "1.1.0",
+  "description": "/ - New Caledonia",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "NC",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          166.44,
+          -22.277,
+          166.45999999999998,
+          -22.256999999999998
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-02-02T00:00:00Z",
+          "2023-05-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

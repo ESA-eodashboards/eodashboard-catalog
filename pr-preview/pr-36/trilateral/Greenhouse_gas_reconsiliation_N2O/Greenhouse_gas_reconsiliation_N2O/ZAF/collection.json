@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "ZAF",
+  "stac_version": "1.1.0",
+  "description": "South Africa - South Africa",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Nitrous oxide from CCI RECCAP2"
+    }
+  ],
+  "subcode": "ZAF",
+  "title": "South Africa",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.206999999999997,
+          -25.71,
+          28.227,
+          -25.689999999999998
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2017-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

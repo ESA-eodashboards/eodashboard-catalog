@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "US01",
+  "stac_version": "1.1.0",
+  "description": "New York - US",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Nitrogen Dioxide at City level"
+    }
+  ],
+  "subcode": "US01",
+  "title": "New York",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -74.01581200000001,
+          40.70268,
+          -73.995812,
+          40.72268
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-05-07T00:00:00Z",
+          "2025-05-12T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

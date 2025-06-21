@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "SI",
+  "stac_version": "1.1.0",
+  "description": "/ - Slovenia",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases"
+    }
+  ],
+  "subcode": "SI",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          14.507,
+          46.04,
+          14.527,
+          46.059999999999995
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-22T00:00:00Z",
+          "2023-03-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

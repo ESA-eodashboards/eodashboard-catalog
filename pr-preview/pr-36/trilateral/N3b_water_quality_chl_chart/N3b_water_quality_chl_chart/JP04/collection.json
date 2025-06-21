@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "JP04",
+  "stac_version": "1.1.0",
+  "description": "Nagoya - JP",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration"
+    }
+  ],
+  "subcode": "JP04",
+  "title": "Nagoya",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          136.69,
+          34.74,
+          136.70999999999998,
+          34.76
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-05T00:00:00Z",
+          "2025-02-22T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

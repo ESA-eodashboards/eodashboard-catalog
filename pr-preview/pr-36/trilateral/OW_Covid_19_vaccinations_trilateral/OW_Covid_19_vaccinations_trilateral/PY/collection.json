@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "PY",
+  "stac_version": "1.1.0",
+  "description": "/ - Paraguay",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "PY",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -57.677,
+          -25.277,
+          -57.657000000000004,
+          -25.256999999999998
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-02-22T00:00:00Z",
+          "2023-05-12T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "NGA",
+  "stac_version": "1.1.0",
+  "description": "Nigeria - Nigeria",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Methane from CCI RECCAP2"
+    }
+  ],
+  "subcode": "NGA",
+  "title": "Nigeria",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          7.523000000000001,
+          9.073,
+          7.543,
+          9.093
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2000-01-01T00:00:00Z",
+          "2016-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

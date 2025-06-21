@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "BF",
+  "stac_version": "1.1.0",
+  "description": "/ - Burkina Faso",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "BF",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -1.527,
+          12.357000000000001,
+          -1.507,
+          12.377
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-06-02T00:00:00Z",
+          "2023-07-23T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

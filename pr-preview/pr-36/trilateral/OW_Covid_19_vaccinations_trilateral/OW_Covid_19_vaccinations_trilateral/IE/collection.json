@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "IE",
+  "stac_version": "1.1.0",
+  "description": "/ - Ireland",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "IE",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -6.242999999999999,
+          53.307,
+          -6.223,
+          53.327
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-03-18T00:00:00Z",
+          "2024-01-29T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

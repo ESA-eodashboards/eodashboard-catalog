@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "RUS",
+  "stac_version": "1.1.0",
+  "description": "Russian Federation - Russian Federation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Methane from CCI RECCAP2"
+    }
+  ],
+  "subcode": "RUS",
+  "title": "Russian Federation",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          37.59,
+          55.74,
+          37.61,
+          55.76
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2020-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

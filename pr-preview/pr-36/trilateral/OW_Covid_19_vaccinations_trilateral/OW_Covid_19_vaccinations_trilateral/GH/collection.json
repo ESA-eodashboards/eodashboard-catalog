@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "GH",
+  "stac_version": "1.1.0",
+  "description": "/ - Ghana",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "GH",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -0.227,
+          5.54,
+          -0.207,
+          5.56
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-03-01T00:00:00Z",
+          "2023-07-02T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "ER",
+  "stac_version": "1.1.0",
+  "description": "/ - Eritrea",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases"
+    }
+  ],
+  "subcode": "ER",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          38.923,
+          15.323,
+          38.943,
+          15.343
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-22T00:00:00Z",
+          "2023-03-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

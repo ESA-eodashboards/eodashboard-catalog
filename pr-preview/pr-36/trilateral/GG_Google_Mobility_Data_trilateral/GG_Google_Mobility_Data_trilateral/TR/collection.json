@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "TR",
+  "stac_version": "1.1.0",
+  "description": "/ - Turkey",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports"
+    }
+  ],
+  "subcode": "TR",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          32.857,
+          39.923,
+          32.876999999999995,
+          39.943
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-15T00:00:00Z",
+          "2022-10-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

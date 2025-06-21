@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "KH",
+  "stac_version": "1.1.0",
+  "description": "/ - Cambodia",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "KH",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          104.907,
+          11.540000000000001,
+          104.927,
+          11.56
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-02-09T00:00:00Z",
+          "2023-12-07T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

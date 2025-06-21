@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "ET",
+  "stac_version": "1.1.0",
+  "description": "/ - Ethiopia",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "ET",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          38.690000000000005,
+          9.023,
+          38.71,
+          9.043
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-04-08T00:00:00Z",
+          "2023-05-28T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

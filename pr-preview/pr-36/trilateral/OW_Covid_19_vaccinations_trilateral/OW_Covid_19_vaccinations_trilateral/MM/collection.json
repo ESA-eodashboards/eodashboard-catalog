@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "MM",
+  "stac_version": "1.1.0",
+  "description": "/ - Myanmar",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "MM",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          96.14,
+          16.79,
+          96.16000000000001,
+          16.810000000000002
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-01-26T00:00:00Z",
+          "2023-08-21T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

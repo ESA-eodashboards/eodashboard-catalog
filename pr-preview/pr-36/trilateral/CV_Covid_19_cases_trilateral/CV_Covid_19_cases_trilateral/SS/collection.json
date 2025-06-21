@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "SS",
+  "stac_version": "1.1.0",
+  "description": "/ - South Sudan",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases"
+    }
+  ],
+  "subcode": "SS",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          31.561251,
+          4.849363,
+          31.581251,
+          4.869363
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-22T00:00:00Z",
+          "2023-03-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "UZ",
+  "stac_version": "1.1.0",
+  "description": "/ - Uzbekistan",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "UZ",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          69.24,
+          41.307,
+          69.26,
+          41.327
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-03-31T00:00:00Z",
+          "2023-09-24T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

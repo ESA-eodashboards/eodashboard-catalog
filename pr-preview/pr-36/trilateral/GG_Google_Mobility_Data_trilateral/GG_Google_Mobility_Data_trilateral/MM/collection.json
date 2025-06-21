@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "MM",
+  "stac_version": "1.1.0",
+  "description": "/ - Myanmar",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports"
+    }
+  ],
+  "subcode": "MM",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          96.14,
+          16.79,
+          96.16000000000001,
+          16.810000000000002
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-15T00:00:00Z",
+          "2022-10-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

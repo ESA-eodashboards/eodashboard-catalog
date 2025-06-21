@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "SDN",
+  "stac_version": "1.1.0",
+  "description": "Sudan - Sudan",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Methane from CCI RECCAP2"
+    }
+  ],
+  "subcode": "SDN",
+  "title": "Sudan",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          32.523,
+          15.59,
+          32.543,
+          15.61
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1995-01-01T00:00:00Z",
+          "2000-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

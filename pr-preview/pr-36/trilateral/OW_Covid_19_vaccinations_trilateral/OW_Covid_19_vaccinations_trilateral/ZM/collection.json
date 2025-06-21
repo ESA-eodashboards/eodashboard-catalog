@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "ZM",
+  "stac_version": "1.1.0",
+  "description": "/ - Zambia",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "ZM",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.273,
+          -15.427,
+          28.293000000000003,
+          -15.407
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-04-14T00:00:00Z",
+          "2022-03-19T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

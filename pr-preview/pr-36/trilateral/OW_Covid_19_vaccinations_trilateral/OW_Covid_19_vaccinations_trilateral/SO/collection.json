@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "SO",
+  "stac_version": "1.1.0",
+  "description": "/ - Somalia",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "SO",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          45.323,
+          2.0570000000000004,
+          45.342999999999996,
+          2.077
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-04-17T00:00:00Z",
+          "2023-07-25T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

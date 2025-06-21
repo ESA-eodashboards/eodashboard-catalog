@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "CAN",
+  "stac_version": "1.1.0",
+  "description": "Canada - Canada",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Carbon Dioxide from CCI RECCAP2"
+    }
+  ],
+  "subcode": "CAN",
+  "title": "Canada",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -75.71000000000001,
+          45.407000000000004,
+          -75.69,
+          45.427
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2020-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

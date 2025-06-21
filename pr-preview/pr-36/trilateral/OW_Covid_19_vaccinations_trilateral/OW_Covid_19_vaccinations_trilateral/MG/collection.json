@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "MG",
+  "stac_version": "1.1.0",
+  "description": "/ - Madagascar",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "MG",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          47.507000000000005,
+          -18.927000000000003,
+          47.527,
+          -18.907
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-05-12T00:00:00Z",
+          "2023-07-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

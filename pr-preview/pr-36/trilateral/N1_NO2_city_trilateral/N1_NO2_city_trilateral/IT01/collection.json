@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "IT01",
+  "stac_version": "1.1.0",
+  "description": "Rome - IT",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Nitrogen Dioxide at City level"
+    }
+  ],
+  "subcode": "IT01",
+  "title": "Rome",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          12.486366,
+          41.892782000000004,
+          12.506366,
+          41.912782
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-05-07T00:00:00Z",
+          "2025-05-12T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

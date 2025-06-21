@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "PK",
+  "stac_version": "1.1.0",
+  "description": "/ - Pakistan",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports"
+    }
+  ],
+  "subcode": "PK",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          73.03999999999999,
+          33.673,
+          73.06,
+          33.693
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-15T00:00:00Z",
+          "2022-10-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

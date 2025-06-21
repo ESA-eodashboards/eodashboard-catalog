@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "SN",
+  "stac_version": "1.1.0",
+  "description": "/ - Senegal",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases"
+    }
+  ],
+  "subcode": "SN",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -17.643,
+          14.723,
+          -17.622999999999998,
+          14.743
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-22T00:00:00Z",
+          "2023-03-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

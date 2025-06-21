@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "CL",
+  "stac_version": "1.1.0",
+  "description": "/ - Chile",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "CL",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -70.677,
+          -33.46,
+          -70.657,
+          -33.440000000000005
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-12-24T00:00:00Z",
+          "2023-11-17T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

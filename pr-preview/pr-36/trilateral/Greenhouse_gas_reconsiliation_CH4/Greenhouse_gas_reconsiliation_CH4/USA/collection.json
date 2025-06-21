@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "USA",
+  "stac_version": "1.1.0",
+  "description": "United States of America - United States of America",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Methane from CCI RECCAP2"
+    }
+  ],
+  "subcode": "USA",
+  "title": "United States of America",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -77.01,
+          38.873000000000005,
+          -76.99,
+          38.893
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2020-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

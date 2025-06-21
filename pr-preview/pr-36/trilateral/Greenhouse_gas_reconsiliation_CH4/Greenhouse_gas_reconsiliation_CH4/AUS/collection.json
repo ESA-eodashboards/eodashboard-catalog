@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "AUS",
+  "stac_version": "1.1.0",
+  "description": "Australia - Australia",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Methane from CCI RECCAP2"
+    }
+  ],
+  "subcode": "AUS",
+  "title": "Australia",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          149.12300000000002,
+          -35.277,
+          149.143,
+          -35.257000000000005
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1990-01-01T00:00:00Z",
+          "2020-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

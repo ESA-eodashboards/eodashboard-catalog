@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "PH",
+  "stac_version": "1.1.0",
+  "description": "/ - Philippines",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports"
+    }
+  ],
+  "subcode": "PH",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          120.957,
+          14.59,
+          120.977,
+          14.61
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-15T00:00:00Z",
+          "2022-10-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

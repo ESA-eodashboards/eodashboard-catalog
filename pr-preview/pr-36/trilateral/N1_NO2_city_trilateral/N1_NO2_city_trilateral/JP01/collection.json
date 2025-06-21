@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "JP01",
+  "stac_version": "1.1.0",
+  "description": "Tokyo - JP",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Nitrogen Dioxide at City level"
+    }
+  ],
+  "subcode": "JP01",
+  "title": "Tokyo",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          139.77,
+          35.6,
+          139.79,
+          35.62
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-05-07T00:00:00Z",
+          "2025-05-12T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

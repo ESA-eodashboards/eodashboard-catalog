@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "ES23b",
+  "stac_version": "1.1.0",
+  "description": "La Rioja - ES",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Harvested parcels"
+    }
+  ],
+  "subcode": "ES23b",
+  "title": "La Rioja",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -2.5149999999999997,
+          42.303000000000004,
+          -2.495,
+          42.323
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-05-17T00:00:00Z",
+          "2020-08-02T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

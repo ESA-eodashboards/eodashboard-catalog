@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "LA",
+  "stac_version": "1.1.0",
+  "description": "/ - Laos",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports"
+    }
+  ],
+  "subcode": "LA",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          102.58999999999999,
+          17.956999999999997,
+          102.61,
+          17.977
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-15T00:00:00Z",
+          "2022-10-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

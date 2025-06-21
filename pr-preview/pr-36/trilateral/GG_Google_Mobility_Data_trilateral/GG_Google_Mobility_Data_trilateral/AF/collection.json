@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "AF",
+  "stac_version": "1.1.0",
+  "description": "/ - Afghanistan",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports"
+    }
+  ],
+  "subcode": "AF",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          69.173,
+          34.507000000000005,
+          69.19300000000001,
+          34.527
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-15T00:00:00Z",
+          "2022-10-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

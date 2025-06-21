@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "MW",
+  "stac_version": "1.1.0",
+  "description": "/ - Malawi",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Vaccinations"
+    }
+  ],
+  "subcode": "MW",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          33.773,
+          -13.977,
+          33.793,
+          -13.957
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-03-17T00:00:00Z",
+          "2023-09-24T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

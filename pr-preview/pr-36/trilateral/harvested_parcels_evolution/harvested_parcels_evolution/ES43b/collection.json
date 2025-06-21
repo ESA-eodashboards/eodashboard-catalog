@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "ES43b",
+  "stac_version": "1.1.0",
+  "description": "Extremadura - ES",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Harvested parcels"
+    }
+  ],
+  "subcode": "ES43b",
+  "title": "Extremadura",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -6.148,
+          39.156,
+          -6.128,
+          39.175999999999995
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-05-17T00:00:00Z",
+          "2020-08-02T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

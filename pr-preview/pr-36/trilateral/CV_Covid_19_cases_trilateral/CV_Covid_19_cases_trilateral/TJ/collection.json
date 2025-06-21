@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "TJ",
+  "stac_version": "1.1.0",
+  "description": "/ - Tajikistan",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases"
+    }
+  ],
+  "subcode": "TJ",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          68.75699999999999,
+          38.54,
+          68.777,
+          38.559999999999995
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-22T00:00:00Z",
+          "2023-03-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "GM",
+  "stac_version": "1.1.0",
+  "description": "/ - Gambia",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases"
+    }
+  ],
+  "subcode": "GM",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -16.577,
+          13.44,
+          -16.557,
+          13.459999999999999
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-22T00:00:00Z",
+          "2023-03-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

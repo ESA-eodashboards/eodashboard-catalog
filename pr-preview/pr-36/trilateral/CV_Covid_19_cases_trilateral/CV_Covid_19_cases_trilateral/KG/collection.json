@@ -1,0 +1,43 @@
+{
+  "type": "Collection",
+  "id": "KG",
+  "stac_version": "1.1.0",
+  "description": "/ - Kyrgyzstan",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases"
+    }
+  ],
+  "subcode": "KG",
+  "title": "/",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          74.58999999999999,
+          42.857,
+          74.61,
+          42.876999999999995
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-22T00:00:00Z",
+          "2023-03-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
