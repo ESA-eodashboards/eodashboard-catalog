@@ -128,6 +128,7 @@
     }
   ],
   "subtitle": "Total Column NO2 averaged over a 50x50 sqkm area",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg",
   "yAxis": "Tropospheric NO2 (μmol/m2)",
   "themes": [
     "atmosphere"
@@ -155,18 +156,84 @@
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -122.426389,
+          19.066,
+          139.79,
+          48.874716
+        ],
+        [
+          116.36999999999999,
+          39.89,
+          116.39,
+          39.91
+        ],
+        [
+          -3.71379,
+          40.406775,
+          -3.6937900000000004,
+          40.426775
+        ],
+        [
+          2.339014,
+          48.854716,
+          2.3590139999999997,
+          48.874716
+        ],
+        [
+          77.206721,
+          28.6348,
+          77.22672100000001,
+          28.6548
+        ],
+        [
+          72.8677,
+          19.066,
+          72.88770000000001,
+          19.086000000000002
+        ],
+        [
+          12.486366,
+          41.892782000000004,
+          12.506366,
+          41.912782
+        ],
+        [
+          9.17854,
+          45.454664,
+          9.19854,
+          45.474664
+        ],
+        [
+          139.77,
+          35.6,
+          139.79,
+          35.62
+        ],
+        [
+          -74.01581200000001,
+          40.70268,
+          -73.995812,
+          40.72268
+        ],
+        [
+          -118.26,
+          34.04,
+          -118.24,
+          34.059999999999995
+        ],
+        [
+          -122.426389,
+          37.767500000000005,
+          -122.40638899999999,
+          37.7875
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          null,
-          null
+          "2018-05-07T00:00:00Z",
+          "2025-05-12T00:00:00Z"
         ]
       ]
     }
@@ -209,6 +276,13 @@
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P/Tropomi",
       "type": "text/html",

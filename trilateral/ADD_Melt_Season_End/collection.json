@@ -139,7 +139,7 @@
     }
   ],
   "subtitle": "Antarctica Melt Season End from 4D Antarctica",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Season_End/thumbnail.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Season_End/thumbnail.jpg",
   "themes": [
     "cryosphere"
   ],
@@ -244,7 +244,7 @@
       "ASCAT"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Season_End/thumbnail.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Season_End/thumbnail.jpg"
     ]
   },
   "assets": {
@@ -256,7 +256,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Season_End/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Season_End/thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

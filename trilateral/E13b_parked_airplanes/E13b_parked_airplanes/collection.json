@@ -188,10 +188,11 @@
     }
   ],
   "subtitle": "Grounded airplanes during the novel coronavirus pandemic",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg",
   "yAxis": "Time series of airport throughput",
   "themes": [
     "economy",
-    "COVID-19"
+    "covid-19"
   ],
   "tags": [
     "Copernicus Services",
@@ -289,5 +290,14 @@
       "GB",
       "US"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

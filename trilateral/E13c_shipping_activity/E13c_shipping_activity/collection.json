@@ -118,6 +118,7 @@
     }
   ],
   "subtitle": "Ship detections in EO data at major international harbours",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg",
   "yAxis": "Number of ships in Port",
   "themes": [
     "economy"
@@ -203,5 +204,14 @@
       "PL",
       "US"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

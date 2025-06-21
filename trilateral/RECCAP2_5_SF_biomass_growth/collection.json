@@ -108,7 +108,7 @@
       "doi": "10.5281/zenodo.7245450"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_5_SF_biomass_growth/World-RECCAP2_5.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_5_SF_biomass_growth/World-RECCAP2_5.jpg",
   "themes": [
     "biomass"
   ],
@@ -198,7 +198,7 @@
       "MIRAS"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_5_SF_biomass_growth/World-RECCAP2_5.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_5_SF_biomass_growth/World-RECCAP2_5.jpg"
     ]
   },
   "assets": {
@@ -210,7 +210,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_5_SF_biomass_growth/World-RECCAP2_5.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_5_SF_biomass_growth/World-RECCAP2_5.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

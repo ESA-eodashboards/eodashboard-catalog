@@ -48,7 +48,7 @@
       "title": "PALSAR-2/PALSAR Forest/Non-Forest Map"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/FNF_Palsar/FNF_Palsar.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/FNF_Palsar/FNF_Palsar.jpg",
   "themes": [
     "biomass"
   ],
@@ -128,7 +128,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/FNF_Palsar/FNF_Palsar.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/FNF_Palsar/FNF_Palsar.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

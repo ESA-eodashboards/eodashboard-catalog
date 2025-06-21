@@ -2232,7 +2232,7 @@
     }
   ],
   "subtitle": "BRDF-Adjusted Reflectance Daily L3 Global 0.05 Deg",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_kndvi/ESDC_kndvi.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_kndvi/ESDC_kndvi.jpg",
   "yAxis": "1",
   "themes": [
     "biomass"
@@ -2316,7 +2316,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_kndvi/ESDC_kndvi.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_kndvi/ESDC_kndvi.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

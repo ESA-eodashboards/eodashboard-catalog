@@ -133,7 +133,7 @@
     }
   ],
   "subtitle": "Monthly precipitation product",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.jpg",
   "themes": [
     "agriculture"
   ],
@@ -250,42 +250,42 @@
       "agriculture"
     ],
     "satellite": [
-      "MetOp-B",
-      "NOAA-N15",
-      "Megha-Tropiques",
-      "GPM Core Observatory",
-      "JPSS-1",
-      "NOAA-N19",
-      "ADEOS-II",
-      "NOAA-N17",
-      "GCOM-W1",
       "DMSP-F15",
-      "DMSP-F13",
-      "MetOp-A",
-      "DWSS-1",
-      "Aqua",
       "TRMM",
       "NPP",
-      "NOAA-N18",
       "DMSP-F14",
+      "GCOM-W1",
+      "NOAA-N15",
+      "DWSS-1",
+      "ADEOS-II",
+      "Megha-Tropiques",
+      "JPSS-1",
+      "GPM Core Observatory",
+      "NOAA-N18",
+      "NOAA-N17",
+      "NOAA-N19",
+      "MetOp-B",
       "DMSP-F11",
+      "MetOp-A",
+      "DMSP-F13",
+      "Aqua",
       "NOAA-N16"
     ],
     "sensor": [
-      "AMSR",
       "SSM/I",
       "AMSR-E",
-      "AMSR2",
+      "TMI",
+      "AMSU-A/MHS",
       "GMI",
-      "AMSU-A/AMSU-B",
-      "TBD",
       "ATMS",
       "MADRAS",
-      "AMSU-A/MHS",
-      "TMI"
+      "AMSR2",
+      "AMSR",
+      "AMSU-A/AMSU-B",
+      "TBD"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.jpg"
     ]
   },
   "assets": {
@@ -297,7 +297,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

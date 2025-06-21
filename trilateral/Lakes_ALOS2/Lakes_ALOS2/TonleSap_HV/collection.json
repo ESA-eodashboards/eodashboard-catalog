@@ -101,7 +101,7 @@
       "title": "Lakes collection (ALOS2-HH/HV)"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_ALOS2_lakes_alos2_hv/thumbnail.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_ALOS2_lakes_alos2_hv/thumbnail.jpg",
   "themes": [
     "water"
   ],
@@ -156,7 +156,7 @@
   ],
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_ALOS2_lakes_alos2_hv/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_ALOS2_lakes_alos2_hv/thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

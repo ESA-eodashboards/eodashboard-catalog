@@ -130,7 +130,7 @@
     }
   ],
   "subtitle": "Antarctica Melt Duration from 4D Antarctica",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Duration/thumbnail.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Duration/thumbnail.jpg",
   "themes": [
     "cryosphere"
   ],
@@ -238,7 +238,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Duration/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Duration/thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

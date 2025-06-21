@@ -47,10 +47,10 @@
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_Lake_water_level_tri_timeseries?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_Lake_water_level_tri_timeseries?aoi_id=eq.{{feature}}&select=site_name,time,aoi,measurement_value,input_data",
       "type": "application/json",
-      "method": "GET",
-      "id": "Lake_water_level_tri_timeseries"
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -110,6 +110,7 @@
     }
   ],
   "subtitle": "Lake water level (CCI LWL)",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LWL_lake_water_level/LWL_lake_water_level.jpg",
   "themes": [
     "water"
   ],
@@ -129,24 +130,24 @@
     "Other"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/Lake_water_extent_tri_timeseries/chart.json",
   "title": "Lakes water level",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          12.244200000000001,
+          59.4442,
+          12.2642,
+          59.4642
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-20T16:37:47.924122Z",
-          null
+          "2010-01-14T00:00:00Z",
+          "2020-12-28T00:00:00Z"
         ]
       ]
     }
@@ -173,9 +174,19 @@
     ],
     "countries": [
       "SE"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LWL_lake_water_level/LWL_lake_water_level.jpg"
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LWL_lake_water_level/LWL_lake_water_level.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://climate.esa.int/en/projects/lakes/key-documents-lakes/",
       "type": "text/html",

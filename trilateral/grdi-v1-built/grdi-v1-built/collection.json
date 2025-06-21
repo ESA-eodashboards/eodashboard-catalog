@@ -34,7 +34,7 @@
   "sci:doi": "10.7927/3xxe-ap97",
   "sci:citation": "Center for International Earth Science Information Network - CIESIN - Columbia University. 2022. Global Gridded Relative Deprivation Index (GRDI), v1. Palisades, NY. NASA Socioeconomic Data and Applications Center (SEDAC).\n",
   "subtitle": "Global Gridded Relative Deprivation Index - BUILT",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-v1-built/grdi-v1-built.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-v1-built/grdi-v1-built.jpg",
   "themes": [
     "economy"
   ],
@@ -114,7 +114,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-v1-built/grdi-v1-built.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-v1-built/grdi-v1-built.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

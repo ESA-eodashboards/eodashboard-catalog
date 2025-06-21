@@ -2207,7 +2207,7 @@
       "title": "Active Fires (MODIS)"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Modis_SNPP_2023/Modis_SNPP_2023.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Modis_SNPP_2023/Modis_SNPP_2023.jpg",
   "themes": [
     "extreme-events"
   ],
@@ -2258,7 +2258,7 @@
   ],
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Modis_SNPP_2023/Modis_SNPP_2023.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Modis_SNPP_2023/Modis_SNPP_2023.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

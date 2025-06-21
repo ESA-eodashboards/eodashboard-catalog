@@ -84,7 +84,7 @@
     }
   ],
   "subtitle": "Emissions from sector 4F from agricultural field burning (monthly), gridded",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Field_burning_Monthly/thumbnail.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Field_burning_Monthly/thumbnail.jpg",
   "themes": [
     "biomass"
   ],
@@ -121,7 +121,7 @@
       "biomass"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Field_burning_Monthly/thumbnail.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Field_burning_Monthly/thumbnail.jpg"
     ]
   },
   "assets": {
@@ -133,7 +133,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Field_burning_Monthly/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Field_burning_Monthly/thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

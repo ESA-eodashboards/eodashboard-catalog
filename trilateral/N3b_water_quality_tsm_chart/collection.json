@@ -67,7 +67,7 @@
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_Regional_Water_quality_timeseries?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_Regional_Water_quality_timeseries?aoi_id=eq.{{feature}}&select=site_name,city,time,aoi,measurement_value,eo_sensor,input_data",
       "type": "application/json",
       "id": "process_geodb",
       "method": "GET"
@@ -124,6 +124,7 @@
     }
   ],
   "subtitle": "Total Suspended Matter anomaly time series",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.jpg",
   "themes": [
     "water"
   ],
@@ -165,18 +166,18 @@
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          12.498056,
+          34.54,
+          139.9100001,
+          45.324247
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-20T16:42:42.811741Z",
-          null
+          "2019-01-04T11:50:00Z",
+          "2025-02-22T00:00:00Z"
         ]
       ]
     }
@@ -204,13 +205,13 @@
       "water"
     ],
     "satellite": [
-      "Acqua",
+      "GCOM-C",
       "Sentinel-3",
-      "GCOM-C"
+      "Acqua"
     ],
     "sensor": [
-      "MODIS",
       "SGLI",
+      "MODIS",
       "OLCI"
     ],
     "cities": [
@@ -220,8 +221,20 @@
       "Venice"
     ],
     "countries": [
-      "IT",
-      "JP"
+      "JP",
+      "IT"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

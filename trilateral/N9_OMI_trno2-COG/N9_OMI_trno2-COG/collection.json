@@ -175,7 +175,7 @@
     }
   ],
   "subtitle": "Yearly NO2 from NASA's OMI Aura [10^14 molecules/cm^2]",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N9_OMI_trno2-COG/N9_OMI_trno2-COG.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N9_OMI_trno2-COG/N9_OMI_trno2-COG.jpg",
   "themes": [
     "atmosphere"
   ],
@@ -260,7 +260,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N9_OMI_trno2-COG/N9_OMI_trno2-COG.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N9_OMI_trno2-COG/N9_OMI_trno2-COG.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

@@ -117,7 +117,7 @@
     }
   ],
   "subtitle": "CO2 emissions over large cities [ppmv]",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg",
   "themes": [
     "atmosphere"
   ],
@@ -171,18 +171,18 @@
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -74.01581200000001,
+          19.066,
+          139.79,
+          40.72268
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-20T16:37:42.687140Z",
-          null
+          "2016-01-01T00:00:00Z",
+          "2020-04-01T00:00:00Z"
         ]
       ]
     }
@@ -210,23 +210,23 @@
       "TANSO-FTS"
     ],
     "cities": [
-      "Tokyo",
-      "Dhaka",
-      "Beijing",
       "Mumbai",
-      "Shanghai",
+      "New Delhi",
       "New York",
-      "New Delhi"
+      "Shanghai",
+      "Dhaka",
+      "Tokyo",
+      "Beijing"
     ],
     "countries": [
-      "BD",
       "IN",
-      "US",
+      "BD",
+      "CN",
       "JP",
-      "CN"
+      "US"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg"
     ]
   },
   "assets": {
@@ -238,7 +238,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

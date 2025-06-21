@@ -23,18 +23,18 @@
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          32.523,
+          15.59,
+          32.543,
+          15.61
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          null,
-          null
+          "1995-01-01T00:00:00Z",
+          "2000-01-01T00:00:00Z"
         ]
       ]
     }

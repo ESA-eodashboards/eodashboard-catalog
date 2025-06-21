@@ -17509,7 +17509,7 @@
     }
   ],
   "subtitle": "Mean daily Carbon Dioxide [ppm]",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_mean/N2_CO2_mean.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_mean/N2_CO2_mean.jpg",
   "themes": [
     "atmosphere"
   ],
@@ -17594,7 +17594,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_mean/N2_CO2_mean.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_mean/N2_CO2_mean.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

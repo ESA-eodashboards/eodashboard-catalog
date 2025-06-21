@@ -1398,7 +1398,7 @@
     }
   ],
   "subtitle": "Net carbon exchange between the ecosystem and the atmosphere",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_net_ecosystem_exchange/ESDC_net_ecosystem_exchange.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_net_ecosystem_exchange/ESDC_net_ecosystem_exchange.jpg",
   "yAxis": "g C m^-2 d^-1",
   "themes": [
     "biomass"
@@ -1484,7 +1484,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_net_ecosystem_exchange/ESDC_net_ecosystem_exchange.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_net_ecosystem_exchange/ESDC_net_ecosystem_exchange.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

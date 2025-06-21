@@ -94,7 +94,7 @@
     }
   ],
   "subtitle": "Estimates from GEOGLAM Crop Monitor",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N6_geoglam/N6_geoglam.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N6_geoglam/N6_geoglam.jpg",
   "themes": [
     "agriculture"
   ],
@@ -179,7 +179,7 @@
       "Other"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N6_geoglam/N6_geoglam.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N6_geoglam/N6_geoglam.jpg"
     ]
   },
   "assets": {
@@ -191,7 +191,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N6_geoglam/N6_geoglam.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N6_geoglam/N6_geoglam.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

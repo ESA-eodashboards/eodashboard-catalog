@@ -107,6 +107,7 @@
   "sci:doi": "10.24381/cds.67e8eeb7",
   "sci:citation": "Copernicus Climate Change Service, Climate Data Store, (2021).\nORAS5 global ocean reanalysis monthly data from 1958 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS).\n",
   "subtitle": "ORAS5 global ocean reanalysis monthly data from 1958 to present",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OHC300_Ocean_Heat_Content_upper_300m/OHC300_Ocean_Heat_Content_upper_300m.jpg",
   "themes": [
     "water"
   ],
@@ -183,6 +184,9 @@
     ],
     "themes": [
       "water"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OHC300_Ocean_Heat_Content_upper_300m/OHC300_Ocean_Heat_Content_upper_300m.jpg"
     ]
   },
   "assets": {
@@ -191,6 +195,13 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OHC300_Ocean_Heat_Content_upper_300m/OHC300_Ocean_Heat_Content_upper_300m.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     },
     "reference_1": {

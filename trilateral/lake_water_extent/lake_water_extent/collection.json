@@ -34,6 +34,7 @@
     }
   ],
   "subtitle": "Lake water extent (CCI LWE)",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LWE_lake_water_extent/LWE_lake_water_extent.jpg",
   "yAxis": "Area of the Lake extent",
   "themes": [
     "water"
@@ -60,18 +61,18 @@
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          12.244200000000001,
+          59.4442,
+          12.2642,
+          59.4642
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          null,
-          null
+          "2010-01-14T00:00:00Z",
+          "2020-12-28T00:00:00Z"
         ]
       ]
     }
@@ -92,6 +93,13 @@
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LWE_lake_water_extent/LWE_lake_water_extent.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://climate.esa.int/en/projects/lakes/key-documents-lakes/",
       "type": "text/html",

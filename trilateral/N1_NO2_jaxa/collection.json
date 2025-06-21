@@ -90,6 +90,7 @@
     }
   ],
   "subtitle": "NO2 daily column density in Cairo based on Sentinel-5P data",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_jaxa/N1_NO2_jaxa.jpg",
   "themes": [
     "atmosphere"
   ],
@@ -173,6 +174,9 @@
     ],
     "sensor": [
       "TROPOMI"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_jaxa/N1_NO2_jaxa.jpg"
     ]
   },
   "assets": {
@@ -181,6 +185,13 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_jaxa/N1_NO2_jaxa.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     },
     "reference_1": {

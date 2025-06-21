@@ -105,6 +105,7 @@
     }
   ],
   "subtitle": "Agricultural production in Europe",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg",
   "themes": [
     "agriculture"
   ],
@@ -123,24 +124,24 @@
     "Sentinel-2"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a2_agricultural_production_area/chart.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a1_agricultural_production_productive_area/chart.json",
   "title": "Agricultural production - productive area",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -6.85888,
+          37.17316,
+          13.10063,
+          52.14141
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-20T16:37:34.515360Z",
-          null
+          "2019-12-27T11:21:32Z",
+          "2020-07-31T00:00:00Z"
         ]
       ]
     }
@@ -174,8 +175,20 @@
       "Huelva (Lagunas de las Madres)"
     ],
     "countries": [
-      "ES",
-      "DE"
+      "DE",
+      "ES"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

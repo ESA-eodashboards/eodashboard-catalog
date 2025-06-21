@@ -98,7 +98,7 @@
     }
   ],
   "subtitle": "Arctic sea ice thickness from CCI",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SIE_sea_ice_thickness_envisat/SIE_sea_ice_thickness_envisat.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SIE_sea_ice_thickness_envisat/SIE_sea_ice_thickness_envisat.jpg",
   "themes": [
     "cryosphere"
   ],
@@ -187,7 +187,7 @@
       "RA-2"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SIE_sea_ice_thickness_envisat/SIE_sea_ice_thickness_envisat.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SIE_sea_ice_thickness_envisat/SIE_sea_ice_thickness_envisat.jpg"
     ]
   },
   "assets": {
@@ -199,7 +199,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SIE_sea_ice_thickness_envisat/SIE_sea_ice_thickness_envisat.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SIE_sea_ice_thickness_envisat/SIE_sea_ice_thickness_envisat.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

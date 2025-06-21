@@ -126,6 +126,7 @@
     }
   ],
   "subtitle": "Ship detections in EO data at major international harbours",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg",
   "themes": [
     "economy"
   ],
@@ -196,33 +197,45 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-2",
-      "PlanetScope"
+      "PlanetScope",
+      "Sentinel-2"
     ],
     "sensor": [
       "MSI",
       "PS2"
     ],
     "cities": [
+      "Ghent",
       "Suez",
       "Dunkirk",
-      "Suez ",
-      "Hamburg",
-      "Genoa",
+      "New York",
       "Los Angeles",
       "San Francisco",
-      "Gdynia",
-      "New York",
-      "Ghent"
+      "Genoa",
+      "Suez ",
+      "Hamburg",
+      "Gdynia"
     ],
     "countries": [
       "PL",
-      "BE",
-      "EG",
-      "US",
-      "IT",
       "DE",
-      "FR"
+      "FR",
+      "EG",
+      "BE",
+      "US",
+      "IT"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

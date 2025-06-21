@@ -76,7 +76,7 @@
     }
   ],
   "subtitle": "Emissions from sector 5 from forest fires.",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Yearly/thumbnail.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Yearly/thumbnail.jpg",
   "themes": [
     "biomass"
   ],
@@ -111,7 +111,7 @@
       "biomass"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Yearly/thumbnail.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Yearly/thumbnail.jpg"
     ]
   },
   "assets": {
@@ -123,7 +123,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Yearly/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Yearly/thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

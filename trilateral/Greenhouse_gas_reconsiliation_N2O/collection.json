@@ -149,6 +149,7 @@
   "sci:doi": "10.5281/zenodo.10841716",
   "sci:citation": "Zhu Deng, Philippe Ciais, Liting Hu, Martinez, A., Saunois, M., Thompson, R., & Frédéric Chevallier. (2024). Global greenhouse gas reconciliation 2022 [Data set]. Zenodo.\n",
   "subtitle": "N2O from National greenhouse gas inventories (NGHGI) database",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_N2O/GGI_N2O.jpg",
   "themes": [
     "atmosphere"
   ],
@@ -171,18 +172,18 @@
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -99.143,
+          -35.277,
+          149.143,
+          55.76
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-20T16:44:44.054434Z",
-          null
+          "1990-01-01T00:00:00Z",
+          "2020-01-01T00:00:00Z"
         ]
       ]
     }
@@ -206,56 +207,68 @@
       "Other"
     ],
     "cities": [
-      "Russian Federation",
-      "Nigeria",
-      "Iran (Islamic Republic of)",
-      "Colombia",
-      "Venezuela (Bolivarian Republic of)",
-      "Canada",
-      "Indonesia",
-      "Sudan",
-      "Argentina",
-      "European Union (Convention)",
-      "Mongolia",
-      "China",
-      "India",
-      "Mexico",
-      "Thailand",
-      "Australia",
-      "Brazil",
-      "Bangladesh",
-      "South Africa",
       "European Union (KP)",
+      "Brazil",
+      "Mexico",
       "Pakistan",
+      "Thailand",
       "Kazakhstan",
+      "Russian Federation",
+      "China",
+      "Canada",
+      "India",
+      "South Africa",
+      "Sudan",
       "Democratic Republic of the Congo",
-      "United States of America"
+      "Colombia",
+      "United States of America",
+      "European Union (Convention)",
+      "Venezuela (Bolivarian Republic of)",
+      "Iran (Islamic Republic of)",
+      "Nigeria",
+      "Indonesia",
+      "Australia",
+      "Argentina",
+      "Bangladesh",
+      "Mongolia"
     ],
     "countries": [
-      "Russian Federation",
-      "Nigeria",
-      "Iran (Islamic Republic of)",
-      "Colombia",
-      "Venezuela (Bolivarian Republic of)",
-      "Canada",
-      "Indonesia",
-      "Sudan",
-      "Argentina",
-      "European Union (Convention)",
-      "Mongolia",
-      "China",
-      "India",
-      "Mexico",
-      "Thailand",
-      "Australia",
-      "Brazil",
-      "Bangladesh",
-      "South Africa",
       "European Union (KP)",
+      "Brazil",
+      "Mexico",
       "Pakistan",
+      "Thailand",
       "Kazakhstan",
+      "Russian Federation",
+      "China",
+      "Canada",
+      "India",
+      "South Africa",
+      "Sudan",
       "Democratic Republic of the Congo",
-      "United States of America"
+      "Colombia",
+      "United States of America",
+      "European Union (Convention)",
+      "Venezuela (Bolivarian Republic of)",
+      "Iran (Islamic Republic of)",
+      "Nigeria",
+      "Indonesia",
+      "Australia",
+      "Argentina",
+      "Bangladesh",
+      "Mongolia"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_N2O/GGI_N2O.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_N2O/GGI_N2O.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

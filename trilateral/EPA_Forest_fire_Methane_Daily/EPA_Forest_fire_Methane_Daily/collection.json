@@ -2593,7 +2593,7 @@
     }
   ],
   "subtitle": "Daily emissions from sector 5 from forest fires for 2012, gridded.",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Daily/thumbnail.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Daily/thumbnail.jpg",
   "themes": [
     "biomass"
   ],
@@ -2630,7 +2630,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Daily/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Daily/thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

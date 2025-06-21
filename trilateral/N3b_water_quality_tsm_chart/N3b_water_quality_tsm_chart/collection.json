@@ -58,6 +58,7 @@
     }
   ],
   "subtitle": "Total Suspended Matter anomaly time series",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.jpg",
   "yAxis": "Chlorophyll-a concentration anomaly [%]",
   "themes": [
     "water"
@@ -100,18 +101,42 @@
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          12.498056,
+          34.54,
+          139.9100001,
+          45.324247
+        ],
+        [
+          12.498056,
+          45.304247000000004,
+          12.518056,
+          45.324247
+        ],
+        [
+          135.1400001,
+          34.54,
+          135.1600001,
+          34.559999999999995
+        ],
+        [
+          136.69000010000002,
+          34.74,
+          136.7100001,
+          34.76
+        ],
+        [
+          139.8900001,
+          35.54,
+          139.9100001,
+          35.559999999999995
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          null,
-          null
+          "2019-01-04T11:50:00Z",
+          "2025-02-22T00:00:00Z"
         ]
       ]
     }
@@ -142,5 +167,14 @@
       "IT",
       "JP"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

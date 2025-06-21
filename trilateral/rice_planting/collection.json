@@ -116,7 +116,7 @@
     }
   ],
   "subtitle": "Early Rice Planting in Sacramento, California, USA",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.jpg",
   "themes": [
     "agriculture"
   ],
@@ -176,18 +176,18 @@
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -122.41000000000001,
+          38.722,
+          -121.79899999999999,
+          39.596
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-20T16:37:41.341019Z",
-          null
+          "2013-03-31T03:49:31Z",
+          "2021-07-02T04:13:38Z"
         ]
       ]
     }
@@ -219,28 +219,28 @@
       "agriculture"
     ],
     "satellite": [
+      "GCOM-C",
       "Landsat-8",
       "Sentinel-2",
-      "GCOM-C",
       "ALOS-2"
     ],
     "sensor": [
+      "SGLI",
       "MSI",
       "PALSAR-2",
-      "SGLI",
       "OLI"
     ],
     "cities": [
       "Yolo",
-      "Glenn (GCOM-C)",
       "Colusa",
-      "Glenn"
+      "Glenn",
+      "Glenn (GCOM-C)"
     ],
     "countries": [
       "US"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.jpg"
     ]
   },
   "assets": {
@@ -252,7 +252,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

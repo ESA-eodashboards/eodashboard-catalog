@@ -107,7 +107,7 @@
     }
   ],
   "subtitle": "Daily Methane Monitoring",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.jpg",
   "themes": [
     "atmosphere"
   ],
@@ -201,15 +201,15 @@
       "atmosphere"
     ],
     "satellite": [
-      "Sentinel-5P",
-      "GOSAT"
+      "GOSAT",
+      "Sentinel-5P"
     ],
     "sensor": [
       "TROPOMI",
       "TANSO"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.jpg"
     ]
   },
   "assets": {
@@ -221,7 +221,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

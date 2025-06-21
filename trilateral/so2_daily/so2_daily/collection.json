@@ -15554,7 +15554,7 @@
     }
   ],
   "subtitle": "Global daily SO2",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_SO2/N1_SO2.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_SO2/N1_SO2.jpg",
   "themes": [
     "atmosphere"
   ],
@@ -15632,7 +15632,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_SO2/N1_SO2.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_SO2/N1_SO2.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

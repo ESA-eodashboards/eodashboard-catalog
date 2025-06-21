@@ -21,7 +21,7 @@
       "id": "E13b_parked_airplanes",
       "themes": [
         "economy",
-        "COVID-19"
+        "covid-19"
       ],
       "cities": [
         "Beijing",
@@ -145,9 +145,10 @@
     }
   ],
   "subtitle": "Grounded airplanes during the novel coronavirus pandemic",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg",
   "themes": [
     "economy",
-    "COVID-19"
+    "covid-19"
   ],
   "locations": true,
   "tags": [
@@ -224,46 +225,58 @@
     ],
     "themes": [
       "economy",
-      "COVID-19"
+      "covid-19"
     ],
     "satellite": [
       "Sentinel-1",
-      "Sentinel-2",
       "PlanetScope",
+      "Sentinel-2",
       "ALOS-2"
     ],
     "sensor": [
-      "PSB.SD",
-      "MSI",
       "C-SAR",
+      "MSI",
+      "PSB.SD",
       "PALSAR-2"
     ],
     "cities": [
-      "Rome",
-      "San Jose",
-      "San Francisco",
-      "Los Angeles",
-      "Beijing",
-      "Napa",
-      "Hayward",
-      "Narita",
-      "Marin",
-      "Beijing Daxing",
-      "Buchannan",
-      "New York",
       "Heathrow",
+      "San Jose",
+      "Beijing Daxing",
+      "Marin",
+      "New York",
       "Paris",
-      "Oakland",
+      "Napa",
       "Newark",
-      "Ontario"
+      "Ontario",
+      "San Francisco",
+      "Hayward",
+      "Oakland",
+      "Narita",
+      "Beijing",
+      "Los Angeles",
+      "Rome",
+      "Buchannan"
     ],
     "countries": [
-      "US",
-      "IT",
-      "JP",
-      "FR",
+      "GB",
       "CN",
-      "GB"
+      "FR",
+      "JP",
+      "US",
+      "IT"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

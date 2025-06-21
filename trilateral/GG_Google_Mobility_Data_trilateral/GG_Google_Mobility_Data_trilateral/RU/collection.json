@@ -23,18 +23,18 @@
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          37.59,
+          55.74,
+          37.61,
+          55.76
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          null,
-          null
+          "2020-02-15T00:00:00Z",
+          "2022-10-15T00:00:00Z"
         ]
       ]
     }

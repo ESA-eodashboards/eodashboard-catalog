@@ -120,6 +120,7 @@
     }
   ],
   "subtitle": "Evolution of harvested parcels in percentage",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution.jpg",
   "themes": [
     "agriculture"
   ],
@@ -145,24 +146,24 @@
     "Landsat-8"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a2_agricultural_production_area/chart.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a6_harvested_parcels_evolution/chart.json",
   "title": "Harvested parcels",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -6.148,
+          37.539,
+          1.496,
+          42.653999999999996
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-20T16:37:38.763771Z",
-          null
+          "2020-05-17T00:00:00Z",
+          "2020-08-02T00:00:00Z"
         ]
       ]
     }
@@ -182,30 +183,42 @@
       "agriculture"
     ],
     "satellite": [
+      "Landsat-8",
       "Sentinel-1",
-      "Sentinel-2",
-      "Landsat-8"
+      "Sentinel-2"
     ],
     "sensor": [
-      "C-SAR",
       "MSI",
+      "C-SAR",
       "OLI"
     ],
     "cities": [
-      "Comunidad Valenciana",
-      "Cataluna",
-      "La Rioja",
-      "Comunidad de Madrid",
-      "Comunidad Foral de Navarra",
-      "Andalucia",
+      "Castilla y Leon",
       "Aragon",
+      "La Rioja",
+      "Comunidad Foral de Navarra",
       "Castilla-La Mancha",
+      "Andalucia",
+      "Comunidad Valenciana",
       "Region de Murcia",
+      "Comunidad de Madrid",
       "Extremadura",
-      "Castilla y Leon"
+      "Cataluna"
     ],
     "countries": [
       "ES"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution.jpg"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

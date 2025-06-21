@@ -68,7 +68,7 @@
     }
   ],
   "subtitle": "Early Rice Planting in Sacramento, California, USA",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.jpg",
   "yAxis": "NDVI",
   "themes": [
     "agriculture"
@@ -129,18 +129,48 @@
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -122.41000000000001,
+          38.722,
+          -121.79899999999999,
+          39.596
+        ],
+        [
+          -122.41000000000001,
+          39.576,
+          -122.39,
+          39.596
+        ],
+        [
+          -121.819,
+          38.722,
+          -121.79899999999999,
+          38.742
+        ],
+        [
+          -122.229,
+          39.129000000000005,
+          -122.20899999999999,
+          39.149
+        ],
+        [
+          -122.07556000000001,
+          39.472840000000005,
+          -122.05556,
+          39.49284
+        ],
+        [
+          -122.07557,
+          39.472840000000005,
+          -122.05556999999999,
+          39.49284
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          null,
-          null
+          "2013-03-31T03:49:31Z",
+          "2021-07-02T04:13:38Z"
         ]
       ]
     }
@@ -184,7 +214,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

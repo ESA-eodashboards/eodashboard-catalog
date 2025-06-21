@@ -53,7 +53,7 @@
     }
   ],
   "subtitle": "Chlorophyll-a concentration maps",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg",
   "yAxis": "%",
   "themes": [
     "water"
@@ -100,18 +100,36 @@
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -122.42638000000001,
+          37.767500000000005,
+          13.03978,
+          45.207519999999995
+        ],
+        [
+          13.01978,
+          45.18752,
+          13.03978,
+          45.207519999999995
+        ],
+        [
+          -122.42638000000001,
+          37.767500000000005,
+          -122.40638,
+          37.7875
+        ],
+        [
+          -73.10000000000001,
+          41.001400000000004,
+          -73.08,
+          41.0214
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          null,
-          null
+          "2020-01-01T00:00:00Z",
+          "2022-03-16T00:00:00Z"
         ]
       ]
     }
@@ -143,7 +161,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

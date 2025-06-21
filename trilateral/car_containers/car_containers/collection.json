@@ -98,6 +98,7 @@
     }
   ],
   "subtitle": "Change in the number of new cars at automobile factory",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg",
   "yAxis": "Car Density",
   "themes": [
     "economy"
@@ -173,5 +174,14 @@
       "SG",
       "US"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

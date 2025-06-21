@@ -134,7 +134,7 @@
   ],
   "sci:citation": "Citing the data:\nLindsley, R. D. and Long, D. G. (2010): Standard BYU ASCAT land/ice image products. Microwave Earth Remote Sensing Laboratory, 3\n",
   "subtitle": "Antarctica Meltmap from 4D Antarctica",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Meltmap/thumbnail.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Meltmap/thumbnail.jpg",
   "themes": [
     "cryosphere"
   ],
@@ -229,7 +229,7 @@
       "ASCAT"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Meltmap/thumbnail.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Meltmap/thumbnail.jpg"
     ]
   },
   "assets": {
@@ -241,7 +241,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Meltmap/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Meltmap/thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

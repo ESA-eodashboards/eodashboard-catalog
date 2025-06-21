@@ -31,18 +31,21 @@
         "C-SAR"
       ],
       "cities": [
-        "Los Angeles",
-        "Beijing",
         "Nagoya",
-        "Palm Springs",
+        "Arcadia",
         "Singapore",
-        "Arcadia"
+        "Palm Springs",
+        "Beijing",
+        "Los Angeles"
       ],
       "countries": [
-        "JP",
-        "US",
+        "SG",
         "CN",
-        "SG"
+        "US",
+        "JP"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg"
       ],
       "tags": [
         "Mobility",
@@ -77,7 +80,7 @@
         "TROPOMI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2.jpg"
       ],
       "tags": [
         "Air quality",
@@ -110,7 +113,7 @@
         "TANSO"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.jpg"
       ],
       "tags": [
         "Air quality",
@@ -148,7 +151,7 @@
         "TROPOMI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.jpg"
       ],
       "tags": [
         "Air quality",
@@ -179,7 +182,7 @@
         "TROPOMI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_SO2/N1_SO2.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_SO2/N1_SO2.jpg"
       ],
       "tags": [
         "Air quality",
@@ -210,7 +213,7 @@
         "OMI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_monthly/N1_NO2_monthly.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_monthly/N1_NO2_monthly.jpg"
       ],
       "tags": [
         "Air quality",
@@ -241,7 +244,7 @@
         "OMI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_diff_monthly/N1_NO2_diff_monthly.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_diff_monthly/N1_NO2_diff_monthly.jpg"
       ],
       "tags": [
         "Air quality",
@@ -272,26 +275,29 @@
         "TROPOMI"
       ],
       "cities": [
-        "Rome",
-        "Tokyo",
-        "San Francisco",
-        "Los Angeles",
-        "Beijing",
+        "Madrid",
         "Mumbai",
+        "New Delhi",
         "Milan",
         "New York",
         "Paris",
-        "New Delhi",
-        "Madrid"
+        "San Francisco",
+        "Tokyo",
+        "Beijing",
+        "Los Angeles",
+        "Rome"
       ],
       "countries": [
         "IN",
-        "US",
-        "ES",
-        "IT",
-        "JP",
+        "CN",
         "FR",
-        "CN"
+        "ES",
+        "JP",
+        "US",
+        "IT"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg"
       ],
       "tags": [
         "Air quality",
@@ -322,7 +328,7 @@
         "OCO-2"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_mean/N2_CO2_mean.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_mean/N2_CO2_mean.jpg"
       ],
       "tags": [
         "Air quality",
@@ -354,7 +360,7 @@
         "OCO-2"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_diff/N2_CO2_diff.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_diff/N2_CO2_diff.jpg"
       ],
       "tags": [
         "Air quality",
@@ -379,7 +385,7 @@
       ],
       "subcode": "FB",
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/facebook_population_density.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/facebook_population_density.jpg"
       ],
       "tags": [
         "Human settlement",
@@ -415,7 +421,7 @@
         "OMI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N9_OMI_trno2-COG/N9_OMI_trno2-COG.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N9_OMI_trno2-COG/N9_OMI_trno2-COG.jpg"
       ],
       "tags": [
         "Air quality",
@@ -452,7 +458,7 @@
         "SeaWiFS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPP_ocean_primary_productivity/NPP_ocean_primary_productivity.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPP_ocean_primary_productivity/NPP_ocean_primary_productivity.jpg"
       ],
       "tags": [
         "Primary production",
@@ -487,7 +493,7 @@
         "MODIS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPPN_net_primary_production/NPPN_net_primary_production.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPPN_net_primary_production/NPPN_net_primary_production.jpg"
       ],
       "tags": [
         "Model",
@@ -522,7 +528,7 @@
         "ATLAS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SITI_IS2SITMOGR4-cog/SITI_IS2SITMOGR4-cog.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SITI_IS2SITMOGR4-cog/SITI_IS2SITMOGR4-cog.jpg"
       ],
       "tags": [
         "Sea ice",
@@ -551,7 +557,7 @@
         "Other"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/nceo_africa_2017/nceo_africa_2017.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/nceo_africa_2017/nceo_africa_2017.jpg"
       ],
       "tags": [
         "Africa",
@@ -578,7 +584,7 @@
       ],
       "subcode": "GRDI1",
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-v1-built/grdi-v1-built.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-v1-built/grdi-v1-built.jpg"
       ],
       "tags": [
         "Human activities",
@@ -606,7 +612,7 @@
       ],
       "subcode": "GRDI2",
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-v1-raster/grdi-v1-raster.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-v1-raster/grdi-v1-raster.jpg"
       ],
       "tags": [
         "Human activities",
@@ -636,7 +642,7 @@
       ],
       "subcode": "GRDI3",
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-shdi-raster/grdi-shdi-raster.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-shdi-raster/grdi-shdi-raster.jpg"
       ],
       "tags": [
         "Human activities",
@@ -664,7 +670,7 @@
       ],
       "subcode": "GRDI4",
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-vnl-slope-raster/grdi-vnl-slope-raster.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-vnl-slope-raster/grdi-vnl-slope-raster.jpg"
       ],
       "tags": [
         "Human activities",
@@ -694,7 +700,7 @@
       ],
       "subcode": "GRDI5",
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-vnl-raster/grdi-vnl-raster.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-vnl-raster/grdi-vnl-raster.jpg"
       ],
       "tags": [
         "Human activities",
@@ -724,7 +730,7 @@
       ],
       "subcode": "GRDI6",
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-filled-missing-values-count/grdi-filled-missing-values-count.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-filled-missing-values-count/grdi-filled-missing-values-count.jpg"
       ],
       "tags": [
         "Human activities",
@@ -752,7 +758,7 @@
       ],
       "subcode": "GRDI7",
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-imr-raster/grdi-imr-raster.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-imr-raster/grdi-imr-raster.jpg"
       ],
       "tags": [
         "Human activities",
@@ -783,7 +789,7 @@
       ],
       "subcode": "GRDI8",
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-cdr-raster/grdi-cdr-raster.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-cdr-raster/grdi-cdr-raster.jpg"
       ],
       "tags": [
         "Human activities",
@@ -817,7 +823,7 @@
         "OMI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N10_OMSO2PCA-COG/N10_OMSO2PCA-COG.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N10_OMSO2PCA-COG/N10_OMSO2PCA-COG.jpg"
       ],
       "tags": [
         "Air quality",
@@ -849,7 +855,7 @@
         "RA-2"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SIE_sea_ice_thickness_envisat/SIE_sea_ice_thickness_envisat.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SIE_sea_ice_thickness_envisat/SIE_sea_ice_thickness_envisat.jpg"
       ],
       "tags": [
         "Sea ice",
@@ -881,7 +887,7 @@
         "SIRAL"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SIC_sea_ice_thickness_cryosat/SIC_sea_ice_thickness_cryosat.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SIC_sea_ice_thickness_cryosat/SIC_sea_ice_thickness_cryosat.jpg"
       ],
       "tags": [
         "Sea ice",
@@ -907,7 +913,7 @@
       ],
       "subcode": "NASAPopulation",
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NASAPopulation/NASAPopulation.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NASAPopulation/NASAPopulation.jpg"
       ],
       "tags": [
         "Society",
@@ -941,7 +947,15 @@
         "MSI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/WSF_world_settlement_footprint/WSF_world_settlement_footprint.jpg"
+      ],
+      "tags": [
+        "Human settlement",
+        "Human activities",
+        "Open data"
+      ],
+      "agency": [
+        "DLR"
       ]
     },
     {
@@ -962,7 +976,7 @@
         "AMSR2"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N12_sea_ice_concentration/Antarctic-N12.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N12_sea_ice_concentration/Antarctic-N12.jpg"
       ],
       "tags": [
         "Antarctica",
@@ -997,7 +1011,7 @@
         "AMSR2"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N12_sea_ice_concentration/Arctic-N12_1.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N12_sea_ice_concentration/Arctic-N12_1.jpg"
       ],
       "tags": [
         "Arctic",
@@ -1032,7 +1046,7 @@
         "SGLI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10e_ndvi/E10e_ndvi.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10e_ndvi/E10e_ndvi.jpg"
       ],
       "tags": [
         "NDVI",
@@ -1061,7 +1075,7 @@
         "SGLI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N11_ocean_primary_productivity/N11_ocean_primary_productivity.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N11_ocean_primary_productivity/N11_ocean_primary_productivity.jpg"
       ],
       "tags": [
         "Primary production",
@@ -1090,7 +1104,7 @@
         "Other"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMC_soil_moisture_anomaly/SMC_soil_moisture_anomaly.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMC_soil_moisture_anomaly/SMC_soil_moisture_anomaly.jpg"
       ],
       "tags": [
         "Precipitation",
@@ -1116,7 +1130,7 @@
         "Other"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRC_precipitation_anomaly/PRC_precipitation_anomaly.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRC_precipitation_anomaly/PRC_precipitation_anomaly.jpg"
       ],
       "tags": [
         "Precipitation",
@@ -1184,7 +1198,7 @@
         "ATMS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.jpg"
       ],
       "tags": [
         "Precipitation",
@@ -1223,8 +1237,11 @@
         "Huelva (Lagunas de las Madres)"
       ],
       "countries": [
-        "ES",
-        "DE"
+        "DE",
+        "ES"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg"
       ],
       "tags": [
         "Copernicus",
@@ -1258,6 +1275,9 @@
       "countries": [
         "DE"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a2_agricultural_production_area/E10a2_agricultural_production_area.jpg"
+      ],
       "tags": [
         "Copernicus",
         "Open data"
@@ -1290,6 +1310,9 @@
       "countries": [
         "DE"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a3_agricultural_production_area_change/E10a3_agricultural_production_area_change.jpg"
+      ],
       "tags": [
         "Copernicus",
         "Open data"
@@ -1321,20 +1344,23 @@
         "OLI"
       ],
       "cities": [
-        "Comunidad Valenciana",
-        "Cataluna",
-        "La Rioja",
-        "Comunidad de Madrid",
-        "Comunidad Foral de Navarra",
-        "Andalucia",
+        "Castilla y Leon",
         "Aragon",
+        "La Rioja",
+        "Comunidad Foral de Navarra",
         "Castilla-La Mancha",
+        "Andalucia",
+        "Comunidad Valenciana",
         "Region de Murcia",
+        "Comunidad de Madrid",
         "Extremadura",
-        "Castilla y Leon"
+        "Cataluna"
       ],
       "countries": [
         "ES"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a6_harvested_parcels_evolution/E10a6_harvested_parcels_evolution.jpg"
       ],
       "tags": [
         "Copernicus",
@@ -1375,6 +1401,9 @@
       "countries": [
         "ES"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a8_winter_cereals/E10a8_winter_cereals.jpg"
+      ],
       "tags": [
         "Copernicus",
         "Sen4CAP",
@@ -1412,15 +1441,15 @@
       ],
       "cities": [
         "Yolo",
-        "Glenn (GCOM-C)",
         "Colusa",
-        "Glenn"
+        "Glenn",
+        "Glenn (GCOM-C)"
       ],
       "countries": [
         "US"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.jpg"
       ],
       "tags": [
         "Multi-sensors",
@@ -1454,23 +1483,23 @@
         "TANSO-CAI"
       ],
       "cities": [
-        "Tokyo",
-        "Dhaka",
-        "Beijing",
         "Mumbai",
-        "Shanghai",
+        "New Delhi",
         "New York",
-        "New Delhi"
+        "Shanghai",
+        "Dhaka",
+        "Tokyo",
+        "Beijing"
       ],
       "countries": [
-        "BD",
         "IN",
-        "US",
+        "BD",
+        "CN",
         "JP",
-        "CN"
+        "US"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg"
       ],
       "tags": [
         "Air quality",
@@ -1499,12 +1528,15 @@
         "Other"
       ],
       "cities": [
-        "Kansas",
-        "Paraná"
+        "Paraná",
+        "Kansas"
       ],
       "countries": [
         "BR",
         "US"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/VITS_vegetation_index_timeseries/VITS_vegetation_index_timeseries.jpg"
       ],
       "tags": [
         "Precipitation",
@@ -1530,12 +1562,15 @@
         "Other"
       ],
       "cities": [
-        "Kansas",
-        "Paraná"
+        "Paraná",
+        "Kansas"
       ],
       "countries": [
         "BR",
         "US"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMCTS_soil_moisture_timeseries/SMCTS_soil_moisture_timeseries.jpg"
       ],
       "tags": [
         "Precipitation",
@@ -1561,12 +1596,15 @@
         "Other"
       ],
       "cities": [
-        "Kansas",
-        "Paraná"
+        "Paraná",
+        "Kansas"
       ],
       "countries": [
         "BR",
         "US"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCTS_precipitation_timeseries/PRCTS_precipitation_timeseries.jpg"
       ],
       "tags": [
         "Precipitation",
@@ -1597,6 +1635,9 @@
       ],
       "countries": [
         "SE"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LWE_lake_water_extent/LWE_lake_water_extent.jpg"
       ],
       "tags": [
         "Climate Change Initiative",
@@ -1631,6 +1672,9 @@
       "countries": [
         "SE"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LWL_lake_water_level/LWL_lake_water_level.jpg"
+      ],
       "tags": [
         "Climate Change Initiative",
         "climate change initiative",
@@ -1661,19 +1705,19 @@
         "OLI"
       ],
       "cities": [
+        "Tonlé Sap Lake",
         "Aral Lake",
-        "Vänern Lake",
-        "Biwa Lake",
         "Balaton Lake",
-        "Tonlé Sap Lake"
+        "Vänern Lake",
+        "Biwa Lake"
       ],
       "countries": [
-        "KH",
-        "UZ",
         "KZ",
+        "UZ",
+        "KH",
+        "SW",
         "JP",
-        "HU",
-        "SW"
+        "HU"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
@@ -1711,7 +1755,7 @@
         "MSI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_S2L2A/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_S2L2A/thumbnail.jpg"
       ],
       "tags": [
         "Sentinel",
@@ -1741,7 +1785,7 @@
         "PALSAR-2"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_ALOS2_lakes_alos2/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_ALOS2/thumbnail.jpg"
       ],
       "tags": [
         "Water quality",
@@ -1778,7 +1822,7 @@
         "C-SAR"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_Sentinel1/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_Sentinel1/thumbnail.jpg"
       ],
       "tags": [
         "Sentinel",
@@ -1806,7 +1850,7 @@
         "Other"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_SWT_surface_water_temperature/Lakes_SWT_surface_water_temperature.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_SWT_surface_water_temperature/Lakes_SWT_surface_water_temperature.jpg"
       ],
       "tags": [
         "Climate Change Initiative",
@@ -1836,7 +1880,7 @@
         "OLCI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_WQ_TC_water_quality/Lakes_WQ_TC_water_quality.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_WQ_TC_water_quality/Lakes_WQ_TC_water_quality.jpg"
       ],
       "tags": [
         "Sentinel",
@@ -1868,7 +1912,7 @@
         "OLCI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_WQ_TURB_water_turbidity/Lakes_WQ_TURB_water_turbidity.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_WQ_TURB_water_turbidity/Lakes_WQ_TURB_water_turbidity.jpg"
       ],
       "tags": [
         "Sentinel",
@@ -1898,7 +1942,7 @@
         "Other"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMCG_soil_moisture_content/SMCG_soil_moisture_content.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMCG_soil_moisture_content/SMCG_soil_moisture_content.jpg"
       ],
       "tags": [
         "Precipitation",
@@ -1927,7 +1971,7 @@
         "TROPOMI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SIF_solar_induced_chlorophyll_fluorescence/SIF_solar_induced_chlorophyll_fluorescence.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SIF_solar_induced_chlorophyll_fluorescence/SIF_solar_induced_chlorophyll_fluorescence.jpg"
       ],
       "tags": [
         "Photosynthesis"
@@ -1955,7 +1999,7 @@
         "VIIRS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N5_nightlights/N5_nightlights.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N5_nightlights/N5_nightlights.jpg"
       ],
       "tags": [
         "Human activities",
@@ -1982,7 +2026,7 @@
         "Other"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N6_geoglam/N6_geoglam.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N6_geoglam/N6_geoglam.jpg"
       ],
       "tags": [
         "Agriculture",
@@ -2012,6 +2056,9 @@
         "atmosphere"
       ],
       "subcode": "CDS7",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS7_windu_ERA5-SingleLevel_100m_GLOBAL/CDS7_windu_ERA5-SingleLevel_100m_GLOBAL.jpg"
+      ],
       "tags": [
         "Copernicus Services",
         "C3S",
@@ -2040,6 +2087,9 @@
         "atmosphere"
       ],
       "subcode": "CDS8",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS7_windu_ERA5-SingleLevel_100m_GLOBAL/CDS7_windu_ERA5-SingleLevel_100m_GLOBAL.jpg"
+      ],
       "tags": [
         "Copernicus Services",
         "C3S",
@@ -2085,8 +2135,11 @@
         "Venice"
       ],
       "countries": [
-        "IT",
-        "JP"
+        "JP",
+        "IT"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.jpg"
       ],
       "tags": [
         "Water quality",
@@ -2132,16 +2185,19 @@
         "MODIS"
       ],
       "cities": [
-        "Tokyo",
-        "Venice",
-        "Kobe",
         "Nagoya",
-        "New York"
+        "New York",
+        "Kobe",
+        "Tokyo",
+        "Venice"
       ],
       "countries": [
-        "IT",
         "JP",
-        "US"
+        "US",
+        "IT"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.jpg"
       ],
       "tags": [
         "Water quality",
@@ -2183,7 +2239,7 @@
         "OLCI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg"
       ],
       "yAxis": "%",
       "tags": [
@@ -2219,7 +2275,7 @@
         "SGLI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg"
       ],
       "yAxis": "%",
       "tags": [
@@ -2254,16 +2310,16 @@
         "MODIS"
       ],
       "cities": [
+        "San Francisco",
         "New York",
-        "North Adriatic",
-        "San Francisco"
+        "North Adriatic"
       ],
       "countries": [
-        "IT",
-        "US"
+        "US",
+        "IT"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg"
       ],
       "yAxis": "%",
       "tags": [
@@ -2298,7 +2354,7 @@
         "OLCI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.jpg"
       ],
       "yAxis": "%",
       "tags": [
@@ -2334,7 +2390,7 @@
         "SGLI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.jpg"
       ],
       "yAxis": "%",
       "tags": [
@@ -2369,16 +2425,16 @@
         "MODIS"
       ],
       "cities": [
+        "San Francisco",
         "New York",
-        "North Adriatic",
-        "San Francisco"
+        "North Adriatic"
       ],
       "countries": [
-        "IT",
-        "US"
+        "US",
+        "IT"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.jpg"
       ],
       "yAxis": "%",
       "tags": [
@@ -2413,7 +2469,7 @@
         "OLCI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_sea_surface_temperature/N3a2_sea_surface_temperature.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_sea_surface_temperature/N3a2_sea_surface_temperature.jpg"
       ],
       "tags": [
         "Water quality",
@@ -2445,6 +2501,9 @@
       "sensor": [
         "TROPOMI"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_jaxa/N1_NO2_jaxa.jpg"
+      ],
       "tags": [
         "Air quality",
         "NO2",
@@ -2474,7 +2533,7 @@
         "TANSO-CAI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_jaxa_gosat/N2_CO2_jaxa_gosat.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_jaxa_gosat/N2_CO2_jaxa_gosat.jpg"
       ],
       "tags": [
         "Air quality",
@@ -2506,7 +2565,7 @@
         "MSI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GHS-BUILT-S-R2023A/GHS-BUILT-S-R2023A.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GHS-BUILT-S-R2023A/GHS-BUILT-S-R2023A.jpg"
       ],
       "tags": [
         "Copernicus",
@@ -2537,7 +2596,7 @@
         "MIRAS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/World-RECCAP2_1.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/World-RECCAP2_1.jpg"
       ],
       "tags": [
         "Amazon rainforest",
@@ -2567,7 +2626,7 @@
         "MIRAS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/World-RECCAP2_1.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/World-RECCAP2_1.jpg"
       ],
       "tags": [
         "Amazon rainforest",
@@ -2597,7 +2656,7 @@
         "MIRAS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/World-RECCAP2_1.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/World-RECCAP2_1.jpg"
       ],
       "tags": [
         "Amazon rainforest",
@@ -2627,7 +2686,7 @@
         "MIRAS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/World-RECCAP2_1.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/World-RECCAP2_1.jpg"
       ],
       "tags": [
         "Amazon rainforest",
@@ -2657,7 +2716,7 @@
         "MIRAS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_5_SF_biomass_growth/World-RECCAP2_5.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_5_SF_biomass_growth/World-RECCAP2_5.jpg"
       ],
       "tags": [
         "Amazon rainforest",
@@ -2687,7 +2746,7 @@
         "MIRAS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_6_deforested_biomass/World-RECCAP2_6.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_6_deforested_biomass/World-RECCAP2_6.jpg"
       ],
       "tags": [
         "Amazon rainforest",
@@ -2717,7 +2776,7 @@
         "MIRAS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_7_degraded_biomass/World-RECCAP2_7.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_7_degraded_biomass/World-RECCAP2_7.jpg"
       ],
       "tags": [
         "Amazon rainforest",
@@ -2747,7 +2806,7 @@
         "MIRAS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_8_edge_biomass_change/World-RECCAP2_8.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_8_edge_biomass_change/World-RECCAP2_8.jpg"
       ],
       "tags": [
         "Amazon rainforest",
@@ -2777,7 +2836,7 @@
         "MIRAS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_9_intact_biomass_change_methods_mean/World-RECCAP2_9.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_9_intact_biomass_change_methods_mean/World-RECCAP2_9.jpg"
       ],
       "tags": [
         "Amazon rainforest",
@@ -2807,7 +2866,7 @@
         "MIRAS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_9_intact_biomass_change_methods_mean/World-RECCAP2_9.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_9_intact_biomass_change_methods_mean/World-RECCAP2_9.jpg"
       ],
       "tags": [
         "Amazon rainforest",
@@ -2837,7 +2896,7 @@
         "MIRAS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_9_intact_biomass_change_methods_mean/World-RECCAP2_9.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_9_intact_biomass_change_methods_mean/World-RECCAP2_9.jpg"
       ],
       "tags": [
         "Amazon rainforest",
@@ -2867,7 +2926,7 @@
         "MIRAS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_9_intact_biomass_change_methods_mean/World-RECCAP2_9.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_9_intact_biomass_change_methods_mean/World-RECCAP2_9.jpg"
       ],
       "tags": [
         "Amazon rainforest",
@@ -2895,56 +2954,59 @@
         "Other"
       ],
       "cities": [
-        "Russian Federation",
-        "Nigeria",
-        "Iran (Islamic Republic of)",
-        "Colombia",
-        "Venezuela (Bolivarian Republic of)",
-        "Canada",
-        "Indonesia",
-        "Sudan",
-        "Argentina",
-        "European Union (Convention)",
-        "Mongolia",
-        "China",
-        "India",
-        "Mexico",
-        "Thailand",
-        "Australia",
-        "Brazil",
-        "Bangladesh",
-        "South Africa",
         "European Union (KP)",
+        "Brazil",
+        "Mexico",
         "Pakistan",
+        "Thailand",
         "Kazakhstan",
+        "Russian Federation",
+        "China",
+        "Canada",
+        "India",
+        "South Africa",
+        "Sudan",
         "Democratic Republic of the Congo",
-        "United States of America"
+        "Colombia",
+        "United States of America",
+        "European Union (Convention)",
+        "Venezuela (Bolivarian Republic of)",
+        "Iran (Islamic Republic of)",
+        "Nigeria",
+        "Indonesia",
+        "Australia",
+        "Argentina",
+        "Bangladesh",
+        "Mongolia"
       ],
       "countries": [
-        "Russian Federation",
-        "Nigeria",
-        "Iran (Islamic Republic of)",
-        "Colombia",
-        "Venezuela (Bolivarian Republic of)",
-        "Canada",
-        "Indonesia",
-        "Sudan",
-        "Argentina",
-        "European Union (Convention)",
-        "Mongolia",
-        "China",
-        "India",
-        "Mexico",
-        "Thailand",
-        "Australia",
-        "Brazil",
-        "Bangladesh",
-        "South Africa",
         "European Union (KP)",
+        "Brazil",
+        "Mexico",
         "Pakistan",
+        "Thailand",
         "Kazakhstan",
+        "Russian Federation",
+        "China",
+        "Canada",
+        "India",
+        "South Africa",
+        "Sudan",
         "Democratic Republic of the Congo",
-        "United States of America"
+        "Colombia",
+        "United States of America",
+        "European Union (Convention)",
+        "Venezuela (Bolivarian Republic of)",
+        "Iran (Islamic Republic of)",
+        "Nigeria",
+        "Indonesia",
+        "Australia",
+        "Argentina",
+        "Bangladesh",
+        "Mongolia"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_CO2/GGI_CO2.jpg"
       ],
       "tags": [
         "CO2",
@@ -2971,56 +3033,59 @@
         "Other"
       ],
       "cities": [
-        "Russian Federation",
-        "Nigeria",
-        "Iran (Islamic Republic of)",
-        "Colombia",
-        "Venezuela (Bolivarian Republic of)",
-        "Canada",
-        "Indonesia",
-        "Sudan",
-        "Argentina",
-        "European Union (Convention)",
-        "Mongolia",
-        "China",
-        "India",
-        "Mexico",
-        "Thailand",
-        "Australia",
-        "Brazil",
-        "Bangladesh",
-        "South Africa",
         "European Union (KP)",
+        "Brazil",
+        "Mexico",
         "Pakistan",
+        "Thailand",
         "Kazakhstan",
+        "Russian Federation",
+        "China",
+        "Canada",
+        "India",
+        "South Africa",
+        "Sudan",
         "Democratic Republic of the Congo",
-        "United States of America"
+        "Colombia",
+        "United States of America",
+        "European Union (Convention)",
+        "Venezuela (Bolivarian Republic of)",
+        "Iran (Islamic Republic of)",
+        "Nigeria",
+        "Indonesia",
+        "Australia",
+        "Argentina",
+        "Bangladesh",
+        "Mongolia"
       ],
       "countries": [
-        "Russian Federation",
-        "Nigeria",
-        "Iran (Islamic Republic of)",
-        "Colombia",
-        "Venezuela (Bolivarian Republic of)",
-        "Canada",
-        "Indonesia",
-        "Sudan",
-        "Argentina",
-        "European Union (Convention)",
-        "Mongolia",
-        "China",
-        "India",
-        "Mexico",
-        "Thailand",
-        "Australia",
-        "Brazil",
-        "Bangladesh",
-        "South Africa",
         "European Union (KP)",
+        "Brazil",
+        "Mexico",
         "Pakistan",
+        "Thailand",
         "Kazakhstan",
+        "Russian Federation",
+        "China",
+        "Canada",
+        "India",
+        "South Africa",
+        "Sudan",
         "Democratic Republic of the Congo",
-        "United States of America"
+        "Colombia",
+        "United States of America",
+        "European Union (Convention)",
+        "Venezuela (Bolivarian Republic of)",
+        "Iran (Islamic Republic of)",
+        "Nigeria",
+        "Indonesia",
+        "Australia",
+        "Argentina",
+        "Bangladesh",
+        "Mongolia"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_N2O/GGI_N2O.jpg"
       ],
       "tags": [
         "NO2",
@@ -3047,56 +3112,59 @@
         "Other"
       ],
       "cities": [
-        "Russian Federation",
-        "Nigeria",
-        "Iran (Islamic Republic of)",
-        "Colombia",
-        "Venezuela (Bolivarian Republic of)",
-        "Canada",
-        "Indonesia",
-        "Sudan",
-        "Argentina",
-        "European Union (Convention)",
-        "Mongolia",
-        "China",
-        "India",
-        "Mexico",
-        "Thailand",
-        "Australia",
-        "Brazil",
-        "Bangladesh",
-        "South Africa",
         "European Union (KP)",
+        "Brazil",
+        "Mexico",
         "Pakistan",
+        "Thailand",
         "Kazakhstan",
+        "Russian Federation",
+        "China",
+        "Canada",
+        "India",
+        "South Africa",
+        "Sudan",
         "Democratic Republic of the Congo",
-        "United States of America"
+        "Colombia",
+        "United States of America",
+        "European Union (Convention)",
+        "Venezuela (Bolivarian Republic of)",
+        "Iran (Islamic Republic of)",
+        "Nigeria",
+        "Indonesia",
+        "Australia",
+        "Argentina",
+        "Bangladesh",
+        "Mongolia"
       ],
       "countries": [
-        "Russian Federation",
-        "Nigeria",
-        "Iran (Islamic Republic of)",
-        "Colombia",
-        "Venezuela (Bolivarian Republic of)",
-        "Canada",
-        "Indonesia",
-        "Sudan",
-        "Argentina",
-        "European Union (Convention)",
-        "Mongolia",
-        "China",
-        "India",
-        "Mexico",
-        "Thailand",
-        "Australia",
-        "Brazil",
-        "Bangladesh",
-        "South Africa",
         "European Union (KP)",
+        "Brazil",
+        "Mexico",
         "Pakistan",
+        "Thailand",
         "Kazakhstan",
+        "Russian Federation",
+        "China",
+        "Canada",
+        "India",
+        "South Africa",
+        "Sudan",
         "Democratic Republic of the Congo",
-        "United States of America"
+        "Colombia",
+        "United States of America",
+        "European Union (Convention)",
+        "Venezuela (Bolivarian Republic of)",
+        "Iran (Islamic Republic of)",
+        "Nigeria",
+        "Indonesia",
+        "Australia",
+        "Argentina",
+        "Bangladesh",
+        "Mongolia"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_CH4/GGI_CH4.jpg"
       ],
       "tags": [
         "CH4",
@@ -3126,7 +3194,7 @@
         "MODIS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_gross_primary_productivity/ESDC_gross_primary_productivity.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_gross_primary_productivity/ESDC_gross_primary_productivity.jpg"
       ],
       "tags": [
         "CO2",
@@ -3154,7 +3222,7 @@
         "Other"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_kndvi/ESDC_kndvi.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_kndvi/ESDC_kndvi.jpg"
       ],
       "tags": [
         "CO2",
@@ -3187,7 +3255,7 @@
         "MODIS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_net_ecosystem_exchange/ESDC_net_ecosystem_exchange.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_net_ecosystem_exchange/ESDC_net_ecosystem_exchange.jpg"
       ],
       "tags": [
         "CO2",
@@ -3216,131 +3284,134 @@
         "/"
       ],
       "countries": [
-        "Poland",
-        "Italy",
-        "Zimbabwe",
-        "Togo",
-        "Tanzania",
-        "Bahamas",
-        "Ghana",
-        "Japan",
-        "Canada",
-        "Myanmar",
-        "Indonesia",
-        "Belarus",
-        "United Arab Emirates",
-        "Botswana",
-        "Kuwait",
-        "Uganda",
-        "Honduras",
-        "Tajikistan",
-        "Korea South",
         "Mexico",
-        "Haiti",
-        "Morocco",
-        "Greece",
+        "Lebanon",
+        "Yemen",
         "Uruguay",
-        "Australia",
-        "Chile",
-        "Puerto Rico",
-        "Finland",
-        "Fiji",
-        "Spain",
+        "Greece",
+        "Libya",
         "Guatemala",
-        "Romania",
-        "Luxembourg",
-        "Papua New Guinea",
+        "Belarus",
+        "Fiji",
         "Estonia",
-        "Panama",
+        "Hungary",
+        "Denmark",
+        "South Africa",
+        "Jamaica",
+        "Nicaragua",
+        "Saudi Arabia",
+        "Uganda",
+        "Malta",
+        "Niger",
+        "Ukraine",
+        "Dominican Republic",
+        "Ireland",
+        "Nigeria",
+        "Macedonia",
+        "Argentina",
+        "Qatar",
         "Bosnia and Herzegovina",
         "Philippines",
-        "Paraguay",
-        "Niger",
         "Benin",
-        "Cameroon",
-        "Sri Lanka",
-        "Singapore",
-        "Croatia",
-        "Ukraine",
-        "Lebanon",
-        "Jamaica",
         "Jordan",
-        "Russia",
-        "Guinea-Bissau",
-        "Mozambique",
-        "Germany",
-        "Egypt",
-        "Kenya",
-        "Laos",
-        "Malaysia",
-        "Bolivia",
+        "Luxembourg",
         "Brazil",
-        "New Zealand",
-        "Qatar",
-        "Costa Rica",
-        "Gabon",
-        "Hungary",
-        "Angola",
-        "Cambodia",
-        "Moldova",
-        "Lithuania",
-        "France",
+        "Korea South",
         "Switzerland",
-        "Zambia",
-        "Nicaragua",
+        "Bulgaria",
+        "Netherlands",
+        "Afghanistan",
+        "Rwanda",
+        "Canada",
+        "Chile",
+        "Portugal",
+        "Georgia",
+        "United Arab Emirates",
+        "Angola",
+        "Kenya",
         "El Salvador",
-        "Ireland",
         "Israel",
-        "Trinidad and Tobago",
-        "Taiwan",
-        "Mongolia",
+        "Morocco",
+        "Colombia",
+        "Belgium",
+        "Costa Rica",
+        "Kyrgyzstan",
         "Oman",
         "United States",
-        "India",
-        "Czech Republic",
-        "Bulgaria",
-        "Yemen",
-        "Portugal",
-        "Vietnam",
-        "Rwanda",
-        "Ivory Coast",
-        "Norway",
-        "South Africa",
+        "Lithuania",
+        "Haiti",
+        "Austria",
+        "Poland",
+        "Zimbabwe",
+        "Honduras",
+        "Tajikistan",
+        "Germany",
         "Pakistan",
+        "Puerto Rico",
+        "Ghana",
+        "Egypt",
+        "Trinidad and Tobago",
+        "Norway",
+        "Singapore",
+        "India",
         "United Kingdom",
-        "Netherlands",
-        "Belgium",
-        "Denmark",
-        "Kazakhstan",
-        "Dominican Republic",
-        "Ecuador",
-        "Georgia",
-        "Latvia",
-        "Nigeria",
-        "Afghanistan",
-        "Burkina Faso",
-        "Serbia",
-        "Slovakia",
-        "Belize",
-        "Colombia",
-        "Slovenia",
+        "Cambodia",
+        "Italy",
+        "Kuwait",
         "Sweden",
-        "Kyrgyzstan",
-        "Argentina",
-        "Iraq",
-        "Macedonia",
-        "Senegal",
-        "Thailand",
-        "Bangladesh",
-        "Nepal",
-        "Malta",
-        "Libya",
-        "Saudi Arabia",
+        "Sri Lanka",
+        "Croatia",
+        "Guinea-Bissau",
         "Mali",
-        "Turkey",
+        "Slovakia",
+        "Spain",
+        "Panama",
+        "France",
+        "Iraq",
+        "Myanmar",
+        "Vietnam",
+        "Indonesia",
+        "Serbia",
+        "Malaysia",
+        "Mozambique",
+        "Bahamas",
+        "Ivory Coast",
+        "Burkina Faso",
         "Peru",
+        "Turkey",
+        "Latvia",
+        "Tanzania",
         "Venezuela",
-        "Austria"
+        "Gabon",
+        "Thailand",
+        "Finland",
+        "Kazakhstan",
+        "Papua New Guinea",
+        "Paraguay",
+        "Ecuador",
+        "Cameroon",
+        "Belize",
+        "Togo",
+        "Bolivia",
+        "Laos",
+        "Japan",
+        "New Zealand",
+        "Botswana",
+        "Taiwan",
+        "Moldova",
+        "Zambia",
+        "Slovenia",
+        "Senegal",
+        "Australia",
+        "Russia",
+        "Romania",
+        "Czech Republic",
+        "Bangladesh",
+        "Mongolia",
+        "Nepal"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports.jpg"
       ],
       "tags": [
         "Mobility",
@@ -3374,25 +3445,28 @@
         "PS2"
       ],
       "cities": [
+        "Ghent",
         "Suez",
         "Dunkirk",
-        "Suez ",
-        "Hamburg",
-        "Genoa",
+        "New York",
         "Los Angeles",
         "San Francisco",
-        "Gdynia",
-        "New York",
-        "Ghent"
+        "Genoa",
+        "Suez ",
+        "Hamburg",
+        "Gdynia"
       ],
       "countries": [
         "PL",
-        "BE",
-        "EG",
-        "US",
-        "IT",
         "DE",
-        "FR"
+        "FR",
+        "EG",
+        "BE",
+        "US",
+        "IT"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg"
       ],
       "tags": [
         "Economy",
@@ -3417,7 +3491,7 @@
       "id": "E13b_parked_airplanes",
       "themes": [
         "economy",
-        "COVID-19"
+        "covid-19"
       ],
       "subcode": "E13b",
       "satellite": [
@@ -3433,31 +3507,34 @@
         "PSB.SD"
       ],
       "cities": [
-        "Rome",
-        "San Jose",
-        "San Francisco",
-        "Los Angeles",
-        "Beijing",
-        "Napa",
-        "Hayward",
-        "Narita",
-        "Marin",
-        "Beijing Daxing",
-        "Buchannan",
-        "New York",
         "Heathrow",
+        "San Jose",
+        "Beijing Daxing",
+        "Marin",
+        "New York",
         "Paris",
-        "Oakland",
+        "Napa",
         "Newark",
-        "Ontario"
+        "Ontario",
+        "San Francisco",
+        "Hayward",
+        "Oakland",
+        "Narita",
+        "Beijing",
+        "Los Angeles",
+        "Rome",
+        "Buchannan"
       ],
       "countries": [
-        "US",
-        "IT",
-        "JP",
-        "FR",
+        "GB",
         "CN",
-        "GB"
+        "FR",
+        "JP",
+        "US",
+        "IT"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg"
       ],
       "tags": [
         "Copernicus Services",
@@ -3481,172 +3558,175 @@
       "code": "CV",
       "id": "CV_Covid_19_cases_trilateral",
       "themes": [
-        "COVID-19"
+        "covid-19"
       ],
       "subcode": "CV",
       "cities": [
         "/"
       ],
       "countries": [
-        "Poland",
-        "Guyana",
-        "Suriname",
-        "Italy",
-        "Algeria",
-        "Malawi",
-        "Zimbabwe",
-        "Togo",
-        "Ghana",
-        "Azerbaijan",
-        "Canada",
-        "Ethiopia",
-        "Japan",
-        "Indonesia",
-        "Belarus",
-        "United Arab Emirates",
-        "Brunei",
-        "Botswana",
-        "Kuwait",
-        "Uganda",
-        "Honduras",
-        "Tajikistan",
-        "Gambia",
         "Mexico",
-        "Haiti",
-        "Morocco",
-        "Greece",
+        "Eritrea",
+        "Guyana",
+        "Lebanon",
+        "Tunisia",
         "Uruguay",
-        "Australia",
-        "Chile",
-        "Puerto Rico",
-        "Finland",
-        "Fiji",
-        "Spain",
+        "Yemen",
+        "Greece",
+        "Libya",
         "Guatemala",
-        "Romania",
-        "Luxembourg",
-        "Albania",
-        "Papua New Guinea",
+        "Brunei",
+        "Belarus",
+        "Mauritania",
+        "Fiji",
+        "Burundi",
+        "Sierra Leone",
         "Estonia",
-        "Panama",
+        "Hungary",
+        "Denmark",
+        "South Africa",
+        "Jamaica",
+        "Nicaragua",
+        "Saudi Arabia",
+        "Uganda",
+        "Malta",
+        "Niger",
+        "Ukraine",
+        "Solomon Islands",
+        "Iran",
+        "North Macedonia",
+        "Dominican Republic",
+        "Ireland",
+        "Nigeria",
+        "Iceland",
+        "Antarctica",
+        "Djibouti",
+        "Argentina",
+        "Qatar",
         "Bosnia and Herzegovina",
         "Philippines",
-        "Paraguay",
-        "Niger",
         "Benin",
-        "Cameroon",
-        "North Macedonia",
-        "Sri Lanka",
-        "Singapore",
-        "Croatia",
-        "Monaco",
-        "Sudan",
-        "Ukraine",
-        "Lebanon",
-        "Kosovo",
-        "Jamaica",
+        "Albania",
         "Jordan",
-        "Russia",
-        "Tunisia",
-        "Mozambique",
-        "Germany",
-        "Egypt",
-        "Kenya",
-        "Laos",
-        "Malaysia",
-        "Bolivia",
-        "Antarctica",
+        "Luxembourg",
         "Brazil",
-        "New Zealand",
-        "Qatar",
-        "Solomon Islands",
-        "Costa Rica",
-        "Gabon",
-        "Hungary",
+        "Syria",
+        "Somalia",
+        "Switzerland",
+        "Bulgaria",
+        "Chad",
+        "Cyprus",
+        "Netherlands",
+        "Afghanistan",
+        "China",
+        "Rwanda",
+        "Canada",
+        "Chile",
+        "Portugal",
+        "Georgia",
         "Angola",
-        "Cambodia",
-        "United States of America",
-        "Moldova",
+        "United Arab Emirates",
+        "Kenya",
+        "El Salvador",
+        "Israel",
+        "Ethiopia",
+        "Morocco",
+        "Colombia",
+        "Belgium",
+        "Czechia",
+        "Costa Rica",
+        "Kyrgyzstan",
+        "Oman",
         "Central African Republic",
         "Lithuania",
-        "France",
-        "Switzerland",
-        "Zambia",
-        "Nicaragua",
-        "El Salvador",
-        "Djibouti",
-        "Ireland",
-        "Israel",
-        "Vanuatu",
-        "South Sudan",
-        "Iceland",
-        "Trinidad and Tobago",
-        "Uzbekistan",
-        "Eritrea",
-        "Mongolia",
-        "China",
-        "Oman",
-        "India",
-        "Namibia",
-        "Bulgaria",
-        "Yemen",
-        "Portugal",
-        "Vietnam",
-        "Rwanda",
-        "Czechia",
-        "Norway",
-        "South Africa",
-        "Pakistan",
-        "Cuba",
-        "Equatorial Guinea",
-        "United Kingdom",
-        "Netherlands",
-        "Belgium",
-        "Mauritania",
-        "Denmark",
-        "Kazakhstan",
-        "Dominican Republic",
-        "Montenegro",
-        "Ecuador",
-        "Georgia",
-        "Latvia",
-        "Nigeria",
-        "Afghanistan",
-        "Burkina Faso",
-        "Serbia",
-        "Slovakia",
-        "Belize",
-        "Iran",
-        "Colombia",
-        "Slovenia",
-        "Sweden",
-        "Kyrgyzstan",
-        "Liberia",
-        "Argentina",
-        "Iraq",
-        "Syria",
-        "Senegal",
-        "Thailand",
-        "Burundi",
-        "Lesotho",
-        "Bangladesh",
-        "Nepal",
-        "Malta",
-        "Libya",
-        "Chad",
-        "Bhutan",
-        "Somalia",
-        "Guinea",
-        "Saudi Arabia",
-        "Mali",
-        "Turkey",
-        "Armenia",
-        "Madagascar",
-        "Peru",
-        "Cyprus",
-        "Venezuela",
+        "Haiti",
         "Austria",
-        "Sierra Leone"
+        "Lesotho",
+        "Poland",
+        "Zimbabwe",
+        "Honduras",
+        "Suriname",
+        "Tajikistan",
+        "Germany",
+        "Pakistan",
+        "Puerto Rico",
+        "Ghana",
+        "Egypt",
+        "Liberia",
+        "Madagascar",
+        "Norway",
+        "Singapore",
+        "Trinidad and Tobago",
+        "India",
+        "United Kingdom",
+        "Algeria",
+        "Cambodia",
+        "Montenegro",
+        "Italy",
+        "Kuwait",
+        "Namibia",
+        "Monaco",
+        "Sri Lanka",
+        "Sudan",
+        "Sweden",
+        "Croatia",
+        "Mali",
+        "Slovakia",
+        "Spain",
+        "United States of America",
+        "France",
+        "Iraq",
+        "Panama",
+        "Vietnam",
+        "Equatorial Guinea",
+        "Indonesia",
+        "Serbia",
+        "Malaysia",
+        "Mozambique",
+        "Kosovo",
+        "Burkina Faso",
+        "Peru",
+        "Cuba",
+        "Turkey",
+        "Latvia",
+        "Venezuela",
+        "Gabon",
+        "Thailand",
+        "Finland",
+        "Kazakhstan",
+        "Papua New Guinea",
+        "Paraguay",
+        "South Sudan",
+        "Ecuador",
+        "Cameroon",
+        "Belize",
+        "Uzbekistan",
+        "Togo",
+        "Armenia",
+        "Guinea",
+        "Malawi",
+        "Bolivia",
+        "Laos",
+        "Gambia",
+        "Japan",
+        "New Zealand",
+        "Botswana",
+        "Moldova",
+        "Bhutan",
+        "Azerbaijan",
+        "Vanuatu",
+        "Zambia",
+        "Slovenia",
+        "Senegal",
+        "Australia",
+        "Russia",
+        "Romania",
+        "Bangladesh",
+        "Mongolia",
+        "Nepal"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CV_Covid_19_cases/CV_Covid_19_cases.jpg"
       ],
       "tags": [
         "COVID-19",
@@ -3668,176 +3748,179 @@
       "code": "OW",
       "id": "OW_Covid_19_vaccinations_trilateral",
       "themes": [
-        "COVID-19"
+        "covid-19"
       ],
       "subcode": "OW",
       "cities": [
         "/"
       ],
       "countries": [
-        "Poland",
-        "Guyana",
-        "Suriname",
-        "Italy",
-        "Algeria",
-        "Malawi",
-        "Togo",
-        "Ghana",
-        "Azerbaijan",
-        "Canada",
-        "Ethiopia",
-        "Japan",
-        "Myanmar",
-        "Indonesia",
-        "Belarus",
-        "United Arab Emirates",
-        "Brunei",
-        "Botswana",
-        "Kuwait",
-        "Uganda",
-        "Honduras",
-        "Tajikistan",
-        "Gambia",
         "Mexico",
-        "Haiti",
-        "Morocco",
-        "Bermuda",
-        "Greece",
-        "Australia",
-        "Chile",
-        "Uruguay",
-        "Finland",
-        "Fiji",
-        "Spain",
-        "Guatemala",
-        "Romania",
-        "Luxembourg",
-        "Albania",
-        "Papua New Guinea",
-        "Estonia",
-        "Panama",
-        "Bosnia and Herzegovina",
-        "Philippines",
-        "Paraguay",
-        "Niger",
-        "Benin",
-        "Cameroon",
-        "North Macedonia",
-        "Sri Lanka",
-        "Singapore",
-        "Croatia",
-        "Monaco",
-        "Sudan",
-        "Ukraine",
+        "Guyana",
         "Lebanon",
-        "Kosovo",
-        "Jamaica",
-        "Jordan",
-        "Russia",
         "Tunisia",
-        "Mozambique",
-        "Germany",
-        "Egypt",
-        "Kenya",
-        "Laos",
-        "Malaysia",
-        "Bolivia",
-        "Brazil",
-        "New Zealand",
-        "Qatar",
-        "Solomon Islands",
-        "Costa Rica",
-        "Gabon",
+        "Uruguay",
+        "Yemen",
+        "Greece",
+        "Libya",
+        "Falkland Islands",
+        "Guatemala",
+        "Brunei",
+        "Belarus",
+        "Mauritania",
+        "Fiji",
+        "Burundi",
+        "Sierra Leone",
+        "Estonia",
         "Hungary",
-        "South Korea",
+        "Denmark",
+        "South Africa",
+        "Jamaica",
+        "Nicaragua",
+        "Saudi Arabia",
+        "Uganda",
+        "Malta",
+        "Niger",
+        "Ukraine",
+        "Solomon Islands",
+        "Iran",
+        "North Macedonia",
+        "Dominican Republic",
+        "Ireland",
+        "Nigeria",
+        "Iceland",
+        "Djibouti",
+        "Argentina",
+        "Qatar",
+        "Bosnia and Herzegovina",
+        "New Caledonia",
+        "Philippines",
+        "Benin",
+        "Albania",
+        "Jordan",
+        "Luxembourg",
+        "Brazil",
+        "Syria",
+        "Somalia",
+        "Switzerland",
+        "Bulgaria",
+        "Chad",
+        "Cyprus",
+        "Netherlands",
+        "Afghanistan",
+        "China",
+        "Rwanda",
+        "Canada",
+        "Chile",
+        "Portugal",
+        "Georgia",
         "Angola",
-        "Cambodia",
-        "Moldova",
-        "United States of America",
+        "United Arab Emirates",
+        "Turkmenistan",
+        "Kenya",
+        "El Salvador",
+        "Israel",
+        "Ethiopia",
+        "Morocco",
+        "Greenland",
+        "Colombia",
+        "Belgium",
+        "Czechia",
+        "Costa Rica",
+        "Kyrgyzstan",
+        "Oman",
         "Central African Republic",
         "Lithuania",
-        "France",
-        "Switzerland",
-        "Zambia",
-        "Nicaragua",
-        "El Salvador",
-        "Djibouti",
-        "Ireland",
-        "Israel",
-        "Vanuatu",
-        "South Sudan",
-        "Iceland",
-        "Trinidad and Tobago",
-        "Taiwan",
-        "Uzbekistan",
-        "Mongolia",
-        "China",
-        "Oman",
-        "India",
-        "Namibia",
-        "Bulgaria",
-        "Yemen",
-        "Portugal",
-        "Vietnam",
-        "Rwanda",
-        "Turkmenistan",
-        "Czechia",
-        "Norway",
-        "South Africa",
-        "Pakistan",
-        "Cuba",
-        "Equatorial Guinea",
-        "United Kingdom",
-        "Netherlands",
-        "Belgium",
-        "Mauritania",
-        "Denmark",
-        "Kazakhstan",
-        "Dominican Republic",
-        "Montenegro",
-        "Ecuador",
-        "Georgia",
-        "Latvia",
-        "Nigeria",
-        "Afghanistan",
-        "Burkina Faso",
-        "Serbia",
-        "Slovakia",
-        "Belize",
-        "New Caledonia",
-        "Iran",
-        "Colombia",
-        "Slovenia",
-        "Sweden",
-        "Kyrgyzstan",
-        "Liberia",
-        "Argentina",
-        "Iraq",
-        "Syria",
-        "Senegal",
-        "Thailand",
-        "Burundi",
-        "Lesotho",
-        "Falkland Islands",
-        "Greenland",
-        "Bangladesh",
-        "Nepal",
-        "Malta",
-        "Libya",
-        "Chad",
-        "Bhutan",
-        "Somalia",
-        "Guinea",
-        "Saudi Arabia",
-        "Mali",
-        "Turkey",
-        "Armenia",
-        "Madagascar",
-        "Peru",
-        "Cyprus",
-        "Venezuela",
+        "Haiti",
         "Austria",
-        "Sierra Leone"
+        "Lesotho",
+        "Poland",
+        "Honduras",
+        "Suriname",
+        "Tajikistan",
+        "Germany",
+        "Pakistan",
+        "Ghana",
+        "Egypt",
+        "Liberia",
+        "Madagascar",
+        "Norway",
+        "Singapore",
+        "Trinidad and Tobago",
+        "India",
+        "United Kingdom",
+        "Algeria",
+        "Cambodia",
+        "Montenegro",
+        "Italy",
+        "Kuwait",
+        "Namibia",
+        "Monaco",
+        "Sri Lanka",
+        "Sudan",
+        "Sweden",
+        "Croatia",
+        "Mali",
+        "Slovakia",
+        "Spain",
+        "Panama",
+        "France",
+        "Iraq",
+        "Myanmar",
+        "United States of America",
+        "Vietnam",
+        "Equatorial Guinea",
+        "Indonesia",
+        "Serbia",
+        "Malaysia",
+        "Mozambique",
+        "Kosovo",
+        "Burkina Faso",
+        "Peru",
+        "Cuba",
+        "Turkey",
+        "Latvia",
+        "Venezuela",
+        "Gabon",
+        "Thailand",
+        "Finland",
+        "Kazakhstan",
+        "Papua New Guinea",
+        "Paraguay",
+        "South Sudan",
+        "Ecuador",
+        "Cameroon",
+        "Belize",
+        "Uzbekistan",
+        "Togo",
+        "Armenia",
+        "Guinea",
+        "Malawi",
+        "Bolivia",
+        "Laos",
+        "Gambia",
+        "Bermuda",
+        "South Korea",
+        "Japan",
+        "New Zealand",
+        "Botswana",
+        "Taiwan",
+        "Moldova",
+        "Bhutan",
+        "Azerbaijan",
+        "Vanuatu",
+        "Zambia",
+        "Slovenia",
+        "Senegal",
+        "Australia",
+        "Russia",
+        "Romania",
+        "Bangladesh",
+        "Mongolia",
+        "Nepal"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OW_Covid_19_vaccinations/OW_Covid_19_vaccinations.jpg"
       ],
       "tags": [
         "COVID-19",
@@ -3871,7 +3954,7 @@
         "PALSAR-2"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/FNF_Palsar/FNF_Palsar.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/FNF_Palsar/FNF_Palsar.jpg"
       ],
       "tags": [
         "Multi-sensors",
@@ -3904,7 +3987,7 @@
         "MODIS"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Modis_SNPP_2023/Modis_SNPP_2023.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Modis_SNPP_2023/Modis_SNPP_2023.jpg"
       ],
       "tags": [
         "Fire",
@@ -3933,7 +4016,7 @@
         "C-SAR"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_West_Antarctica_S1/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_West_Antarctica_S1/thumbnail.jpg"
       ],
       "tags": [
         "Copernicus",
@@ -3977,14 +4060,14 @@
         "OLI"
       ],
       "cities": [
-        "Thwaites Glacier",
-        "Pine Island"
+        "Pine Island",
+        "Thwaites Glacier"
       ],
       "countries": [
         "AQ"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Thwaites_Landsat_L2/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Landsat_L2_Antarctica/ADD_Landsat_L2_Antarctica.jpg"
       ],
       "tags": [
         "Antarctica",
@@ -4025,7 +4108,7 @@
         "ASCAT"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Duration/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Duration/thumbnail.jpg"
       ],
       "tags": [
         "Antarctica",
@@ -4072,7 +4155,7 @@
         "ASCAT"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Onset/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Onset/thumbnail.jpg"
       ],
       "tags": [
         "Antarctica",
@@ -4116,7 +4199,7 @@
         "ASCAT"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Season_End/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Season_End/thumbnail.jpg"
       ],
       "tags": [
         "Antarctica",
@@ -4160,7 +4243,7 @@
         "ASCAT"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Meltmap/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Meltmap/thumbnail.jpg"
       ],
       "tags": [
         "Antarctica",
@@ -4204,7 +4287,7 @@
         "C-SAR"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_SM/image.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_SM/image.jpg"
       ],
       "tags": [
         "Open data",
@@ -4228,7 +4311,7 @@
       ],
       "subcode": "ESDL_Hydrology_Precipitation",
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.jpg"
       ],
       "yAxis": "mm/day",
       "tags": [
@@ -4267,7 +4350,7 @@
         "C-SAR"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/sen4ama/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/MCD_S14Amazonas_detections/thumbnail.jpg"
       ],
       "tags": [
         "Copernicus",
@@ -4290,7 +4373,7 @@
       ],
       "subcode": "EPA_Field_burning_Monthly",
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Field_burning_Monthly/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Field_burning_Monthly/thumbnail.jpg"
       ]
     },
     {
@@ -4306,7 +4389,7 @@
       ],
       "subcode": "EPA_Forest_fire_Methane_Daily",
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Daily/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Daily/thumbnail.jpg"
       ]
     },
     {
@@ -4322,7 +4405,7 @@
       ],
       "subcode": "EPA_Forest_fire_Methane_Yearly",
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Yearly/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Yearly/thumbnail.jpg"
       ]
     },
     {
@@ -4346,7 +4429,7 @@
         "OLI"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/HLS_NDVI/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/HLS_NDVI/thumbnail.jpg"
       ],
       "tags": [
         "Biomass",
@@ -4376,7 +4459,7 @@
       ],
       "subcode": "LIS_Global_DA_Evap",
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LIS_Global_DA_Evap/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LIS_Global_DA_Evap/thumbnail.jpg"
       ],
       "tags": [
         "Evapotranspiration",
@@ -4403,7 +4486,7 @@
       "code": "NTLU",
       "id": "JAXA_Nighttimelevel_Urban",
       "themes": [
-        "COVID-19"
+        "covid-19"
       ],
       "subcode": "NTLU",
       "satellite": [
@@ -4411,6 +4494,9 @@
       ],
       "sensor": [
         "VIIRS"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NTLU_JAXA_Nighttimelevel_Urban/NTLU_JAXA_Nighttimelevel_Urban.jpg"
       ],
       "tags": [
         "Human activities",
@@ -4433,7 +4519,7 @@
       "code": "NTLR",
       "id": "JAXA_Nighttimelevel_Rural",
       "themes": [
-        "COVID-19"
+        "covid-19"
       ],
       "subcode": "NTLR",
       "satellite": [
@@ -4441,6 +4527,9 @@
       ],
       "sensor": [
         "VIIRS"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NTLR_JAXA_Nighttimelevel_Rural/NTLR_JAXA_Nighttimelevel_Rural.jpg"
       ],
       "tags": [
         "Human activities",
@@ -4473,7 +4562,7 @@
         "ASCAT"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Melt_Duration/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Melt_Duration/thumbnail.jpg"
       ],
       "tags": [
         "Greenland",
@@ -4518,7 +4607,7 @@
         "ASCAT"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Melt_Onset/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Melt_Onset/thumbnail.jpg"
       ],
       "tags": [
         "Greenland",
@@ -4563,7 +4652,7 @@
         "ASCAT"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Melt_Season_End/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Melt_Season_End/thumbnail.jpg"
       ],
       "tags": [
         "Greenland",
@@ -4609,7 +4698,7 @@
         "ASCAT"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Meltmap/thumbnail.png"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Meltmap/thumbnail.jpg"
       ],
       "tags": [
         "Greenland",
@@ -4654,6 +4743,9 @@
       "sensor": [
         "AMSR2"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ENSST_by_GCOM-W-AMSR_JAXA/ENSST_by_GCOM-W-AMSR_JAXA.jpg"
+      ],
       "tags": [
         "SST",
         "El Nino",
@@ -4681,6 +4773,9 @@
       "sensor": [
         "SLSTR"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SLSTR1_Sentinel-3-SLSTR-L2-LST/SLSTR1_Sentinel-3-SLSTR-L2-LST.jpg"
+      ],
       "tags": [
         "Copernicus Data Space Ecosystem",
         "Open data"
@@ -4706,6 +4801,9 @@
       ],
       "sensor": [
         "C-SAR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence/SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence.jpg"
       ],
       "tags": [
         "SAR",
@@ -4735,6 +4833,9 @@
       "sensor": [
         "C-SAR"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SSLC2_Seasonal_S1_COH12_hh_interferometric_coherence/SSLC2_Seasonal_S1_COH12_hh_interferometric_coherence.jpg"
+      ],
       "tags": [
         "SAR",
         "Open data"
@@ -4757,6 +4858,9 @@
         "water"
       ],
       "subcode": "OHC300",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OHC300_Ocean_Heat_Content_upper_300m/OHC300_Ocean_Heat_Content_upper_300m.jpg"
+      ],
       "tags": [
         "Copernicus Services",
         "C3S",
@@ -4784,6 +4888,9 @@
         "extreme-events"
       ],
       "subcode": "NELST",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NELST_ECOSTRESS_LST/NELST_ECOSTRESS_LST.jpg"
+      ],
       "tags": [
         "Temperature",
         "Open data"

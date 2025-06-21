@@ -17509,7 +17509,7 @@
     }
   ],
   "subtitle": "CO2 difference compared to 2015-2019 baseline [ppm]",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_diff/N2_CO2_diff.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_diff/N2_CO2_diff.jpg",
   "themes": [
     "atmosphere"
   ],
@@ -17594,7 +17594,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_diff/N2_CO2_diff.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_diff/N2_CO2_diff.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

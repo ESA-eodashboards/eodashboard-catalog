@@ -117,7 +117,7 @@
     }
   ],
   "subtitle": "Chlorophyll-a concentration maps",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg",
   "yAxis": "%",
   "themes": [
     "water"
@@ -164,18 +164,18 @@
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -122.42638000000001,
+          37.767500000000005,
+          13.03978,
+          45.207519999999995
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-20T16:43:25.653621Z",
-          null
+          "2020-01-01T00:00:00Z",
+          "2022-03-16T00:00:00Z"
         ]
       ]
     }
@@ -201,16 +201,16 @@
       "MODIS"
     ],
     "cities": [
+      "San Francisco",
       "New York",
-      "North Adriatic",
-      "San Francisco"
+      "North Adriatic"
     ],
     "countries": [
-      "IT",
-      "US"
+      "US",
+      "IT"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg"
     ]
   },
   "assets": {
@@ -222,7 +222,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

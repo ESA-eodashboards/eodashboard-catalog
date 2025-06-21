@@ -88,7 +88,7 @@
     }
   ],
   "subtitle": "CO2 emissions over large cities [ppmv]",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg",
   "yAxis": "ppmv",
   "themes": [
     "atmosphere"
@@ -143,18 +143,60 @@
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -74.01581200000001,
+          19.066,
+          139.79,
+          40.72268
+        ],
+        [
+          90.28999999999999,
+          23.79,
+          90.31,
+          23.810000000000002
+        ],
+        [
+          116.36999999999999,
+          39.89,
+          116.39,
+          39.91
+        ],
+        [
+          121.39,
+          31.29,
+          121.41000000000001,
+          31.310000000000002
+        ],
+        [
+          77.206721,
+          28.6348,
+          77.22672100000001,
+          28.6548
+        ],
+        [
+          72.8677,
+          19.066,
+          72.88770000000001,
+          19.086000000000002
+        ],
+        [
+          139.77,
+          35.6,
+          139.79,
+          35.62
+        ],
+        [
+          -74.01581200000001,
+          40.70268,
+          -73.995812,
+          40.72268
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          null,
-          null
+          "2016-01-01T00:00:00Z",
+          "2020-04-01T00:00:00Z"
         ]
       ]
     }
@@ -194,7 +236,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

@@ -20,7 +20,7 @@
       "code": "NTLR",
       "id": "JAXA_Nighttimelevel_Rural",
       "themes": [
-        "COVID-19"
+        "covid-19"
       ],
       "tags": [
         "Human activities",
@@ -99,8 +99,9 @@
     }
   ],
   "subtitle": "Global map of night lights aggregated for years 2019-2022",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NTLR_JAXA_Nighttimelevel_Rural/NTLR_JAXA_Nighttimelevel_Rural.jpg",
   "themes": [
-    "COVID-19"
+    "covid-19"
   ],
   "tags": [
     "Human activities",
@@ -164,16 +165,26 @@
       "NTLR"
     ],
     "themes": [
-      "COVID-19"
+      "covid-19"
     ],
     "satellite": [
       "Suomi NPP"
     ],
     "sensor": [
       "VIIRS"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NTLR_JAXA_Nighttimelevel_Rural/NTLR_JAXA_Nighttimelevel_Rural.jpg"
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NTLR_JAXA_Nighttimelevel_Rural/NTLR_JAXA_Nighttimelevel_Rural.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://esa-eodashboards.github.io/eodashboard-client/notebook/?id=notebooks/nightlights-notebook/night-lights-blending",
       "type": "text/html",

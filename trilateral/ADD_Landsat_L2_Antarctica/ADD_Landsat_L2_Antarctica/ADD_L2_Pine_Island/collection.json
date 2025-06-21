@@ -343,7 +343,7 @@
     }
   ],
   "subtitle": "Pine Island Landsat L2 low-cloud scenes",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Pine_Island_Landsat_L2/thumbnail.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_L2_Pine_Island/thumbnail.jpg",
   "themes": [
     "cryosphere"
   ],
@@ -415,7 +415,7 @@
   ],
   "assets": {
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Pine_Island_Landsat_L2/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_L2_Pine_Island/thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

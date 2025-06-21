@@ -44,31 +44,9 @@
       "title": "EOxCloudless 2023",
       "roles": [
         "baselayer",
-        "invisible"
-      ],
-      "id": "cloudless-2023"
-    },
-    {
-      "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "OSM Background",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "OSM"
-    },
-    {
-      "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "Terrain Light",
-      "roles": [
-        "baselayer",
         "visible"
       ],
-      "id": "terrain-light"
+      "id": "cloudless-2023"
     },
     {
       "rel": "xyz",
@@ -88,7 +66,7 @@
       "title": "Earth Observing Dashboard"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/facebook_population_density.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/facebook_population_density.jpg",
   "themes": [
     "economy"
   ],
@@ -168,7 +146,7 @@
       "economy"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/facebook_population_density.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/facebook_population_density.jpg"
     ]
   },
   "assets": {
@@ -180,7 +158,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/facebook_population_density.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/facebook_population_density.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

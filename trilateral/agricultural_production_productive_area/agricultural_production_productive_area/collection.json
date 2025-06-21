@@ -38,6 +38,7 @@
     }
   ],
   "subtitle": "Agricultural production in Europe",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg",
   "yAxis": "Total area [ha]",
   "themes": [
     "agriculture"
@@ -63,18 +64,30 @@
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -6.85888,
+          37.17316,
+          13.10063,
+          52.14141
+        ],
+        [
+          13.080630000000001,
+          52.121410000000004,
+          13.10063,
+          52.14141
+        ],
+        [
+          -6.85888,
+          37.17316,
+          -6.8388800000000005,
+          37.19316
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          null,
-          null
+          "2019-12-27T11:21:32Z",
+          "2020-07-31T00:00:00Z"
         ]
       ]
     }
@@ -99,5 +112,14 @@
       "DE",
       "ES"
     ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
   }
 }

@@ -38,7 +38,7 @@
     }
   ],
   "subtitle": "NDVI calculated from Harmonized Landsat and Sentinel-2",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/HLS_NDVI/thumbnail.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/HLS_NDVI/thumbnail.jpg",
   "themes": [
     "biomass"
   ],
@@ -136,7 +136,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/HLS_NDVI/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/HLS_NDVI/thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

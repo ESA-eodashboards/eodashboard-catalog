@@ -72,6 +72,7 @@
     }
   ],
   "subtitle": "Median seasonal repeat-pass coherences C-band SAR dataset - 12-days",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SSLC2_Seasonal_S1_COH12_hh_interferometric_coherence/SSLC2_Seasonal_S1_COH12_hh_interferometric_coherence.jpg",
   "themes": [
     "cryosphere"
   ],
@@ -137,6 +138,13 @@
     }
   ],
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SSLC2_Seasonal_S1_COH12_hh_interferometric_coherence/SSLC2_Seasonal_S1_COH12_hh_interferometric_coherence.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://asf.alaska.edu/datasets/daac/global-seasonal-sentinel-1-interferometric-coherence-and-backscatter-dataset/",
       "type": "text/html",

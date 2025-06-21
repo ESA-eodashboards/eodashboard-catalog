@@ -32,7 +32,7 @@
     }
   ],
   "subtitle": "NCEO Africa AGB map for 2017 at 100 m spatial resolution",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/nceo_africa_2017/nceo_africa_2017.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/nceo_africa_2017/nceo_africa_2017.jpg",
   "themes": [
     "biomass"
   ],
@@ -115,7 +115,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/nceo_africa_2017/nceo_africa_2017.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/nceo_africa_2017/nceo_africa_2017.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

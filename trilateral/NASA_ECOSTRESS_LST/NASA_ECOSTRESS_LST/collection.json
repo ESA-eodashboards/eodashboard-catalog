@@ -43,6 +43,7 @@
   ],
   "sci:doi": "10.5067/ECOSTRESS/ECO2LSTE.001",
   "sci:citation": "Hook, S., Hulley, G. (2019). ECOSTRESS Land Surface Temperature and Emissivity Daily L2 Global 70 m V001 [Data set]. NASA EOSDIS Land Processes Distributed Active Archive Center\n",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NELST_ECOSTRESS_LST/NELST_ECOSTRESS_LST.jpg",
   "themes": [
     "extreme-events"
   ],
@@ -59,8 +60,8 @@
   ],
   "eox:colorlegend": {
     "domain": [
-      281,
-      309
+      8,
+      36
     ],
     "range": [
       "#ffffff",
@@ -74,7 +75,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "Temperature [°K]"
+    "title": "Temperature [°°C]"
   },
   "endpointtype": "Sentinel Hub_byoc",
   "title": "NASA ECOSTRESS land surface temperature",
@@ -112,6 +113,13 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NELST_ECOSTRESS_LST/NELST_ECOSTRESS_LST.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     },
     "reference_1": {

@@ -121,6 +121,7 @@
     }
   ],
   "subtitle": "Total Column NO2 averaged over a 50x50 sqkm area",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg",
   "themes": [
     "atmosphere"
   ],
@@ -141,24 +142,24 @@
     "Sentinel-5P"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://santilland.github.io/process_example/definitions/geodbvega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_vega_definition.json",
   "title": "Nitrogen Dioxide at City level",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -122.426389,
+          19.066,
+          139.79,
+          48.874716
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-06-20T16:34:05.387367Z",
-          null
+          "2018-05-07T00:00:00Z",
+          "2025-05-12T00:00:00Z"
         ]
       ]
     }
@@ -190,29 +191,39 @@
       "TROPOMI"
     ],
     "cities": [
-      "Rome",
-      "Tokyo",
-      "San Francisco",
-      "Los Angeles",
-      "Beijing",
+      "Madrid",
       "Mumbai",
+      "New Delhi",
       "Milan",
       "New York",
       "Paris",
-      "New Delhi",
-      "Madrid"
+      "San Francisco",
+      "Tokyo",
+      "Beijing",
+      "Los Angeles",
+      "Rome"
     ],
     "countries": [
       "IN",
-      "US",
-      "ES",
-      "IT",
-      "JP",
+      "CN",
       "FR",
-      "CN"
+      "ES",
+      "JP",
+      "US",
+      "IT"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg"
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P/Tropomi",
       "type": "text/html",

@@ -38,6 +38,7 @@
     }
   ],
   "subtitle": "Precipitation Timeseries",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCTS_precipitation_timeseries/PRCTS_precipitation_timeseries.jpg",
   "yAxis": "Precipitation[mm]",
   "themes": [
     "agriculture"
@@ -61,18 +62,30 @@
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -98.33500000000001,
+          -24.625,
+          -51.305,
+          38.51
+        ],
+        [
+          -51.324999999999996,
+          -24.625,
+          -51.305,
+          -24.604999999999997
+        ],
+        [
+          -98.33500000000001,
+          38.49,
+          -98.315,
+          38.51
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          null,
-          null
+          "2020-01-09T00:00:00Z",
+          "2023-06-24T00:00:00Z"
         ]
       ]
     }
@@ -96,6 +109,13 @@
     ]
   },
   "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCTS_precipitation_timeseries/PRCTS_precipitation_timeseries.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
     "reference_1": {
       "href": "https://suzaku.eorc.jaxa.jp/JASMIN/index.html",
       "type": "text/html",

@@ -100,7 +100,7 @@
     }
   ],
   "subtitle": "Global 3-daily Carbon monoxide",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.png",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.jpg",
   "themes": [
     "atmosphere",
     "extreme-events"
@@ -180,8 +180,8 @@
       "N1_CO"
     ],
     "themes": [
-      "extreme-events",
-      "atmosphere"
+      "atmosphere",
+      "extreme-events"
     ],
     "satellite": [
       "Sentinel-5P"
@@ -190,7 +190,7 @@
       "TROPOMI"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.png"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.jpg"
     ]
   },
   "assets": {
@@ -202,7 +202,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CO/N1_CO.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
