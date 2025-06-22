@@ -28,8 +28,13 @@
       ],
       "TimeEntries": [
         {
-          "Time": "",
-          "Assets": []
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "tif_file",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/Nighttimelevel_Urban_h10v04_2019-2022.tif"
+            }
+          ]
         }
       ]
     }
