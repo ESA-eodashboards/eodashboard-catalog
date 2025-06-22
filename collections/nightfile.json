@@ -24,19 +24,21 @@
       "Style": "",
       "TimeEntries": [
         {
-          "Time": "20230101",
-          "Assets": [
-            {
-              "Identifier": "",
-              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/Nighttimelevel_Urban_h10v04_2019-2022.tif"
-            }
-          ]
+          "Time": "",
+          "Assets": []
         }
-      ],
-      "EndPoint": "",
-      "Type": "byoc",
-      "CollectionId": "",
-      "LayerId": ""
+      ]
     }
-  ]
+  ],
+  "Process": {
+    "Name": "",
+    "JsonForm": "",
+    "EndPoints": [
+      {
+        "Identifier": "",
+        "Url": "",
+        "Type": "application/geo+json"
+      }
+    ]
+  }
 }
