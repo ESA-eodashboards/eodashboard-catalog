@@ -3,8 +3,13 @@
   "Title": "Night light Rural America",
   "EodashIdentifier": "",
   "Description": "# Nightlights dataset\n\nThis is the dataset for night light for America rural areas",
-  "Themes": [],
-  "Tags": [],
+  "Themes": [
+    "Covid 19"
+  ],
+  "Tags": [
+    "Covid 19",
+    "urban areas"
+  ],
   "DataSource": {},
   "Agency": [],
   "License": "",
@@ -15,5 +20,22 @@
     "Citation": ""
   },
   "Image": "",
-  "Legend": ""
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "Cloud Source",
+      "Style": "",
+      "TimeEntries": [
+        {
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "Nightlight rural",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/Nighttimelevel_Urban_h10v04_2019-2022.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
