@@ -1,3 +1,19 @@
 {
-  "Name": "nightfile"
+  "Name": "nightlight_demo",
+  "Title": "Nightlights demonstration of urban areas over North America",
+  "EodashIdentifier": "nightlights",
+  "Description": "# Nightlights Dataset\n- this dataset is generated in LPS25 tutorial",
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": ""
 }
