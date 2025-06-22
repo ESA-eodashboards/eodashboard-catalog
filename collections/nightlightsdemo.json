@@ -4,7 +4,10 @@
   "EodashIdentifier": "NIGHTLIGHTS",
   "Description": "#Nightlights dataset\n\n-This dataset is a trial in LPS25",
   "Themes": [],
-  "Tags": [],
+  "Tags": [
+    "covid-19",
+    "urban"
+  ],
   "DataSource": {},
   "Agency": [],
   "License": "",
@@ -15,5 +18,26 @@
     "Citation": ""
   },
   "Image": "",
-  "Legend": ""
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "TimeEntries": [
+        {
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "",
+              "File": ""
+            }
+          ]
+        }
+      ],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
+    }
+  ]
 }
