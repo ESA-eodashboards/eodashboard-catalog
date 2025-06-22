@@ -35,7 +35,11 @@
             }
           ]
         }
-      ]
+      ],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
     }
   ]
 }
