@@ -1,3 +1,19 @@
 {
-  "Name": "night_light"
+  "Name": "night_light",
+  "Title": "Night light demostration over the NY area",
+  "EodashIdentifier": "NIGHTLIGHT",
+  "Description": "# Night light data set\nStuff about this tutorial",
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": ""
 }
