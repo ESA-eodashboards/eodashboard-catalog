@@ -1,3 +1,35 @@
 {
-  "Name": "nightlights"
+  "Name": "nightlights",
+  "Title": "NIGHTLIGHTS demonstration of urban US areas",
+  "EodashIdentifier": "",
+  "Description": "",
+  "Themes": [],
+  "Tags": [
+    "urban",
+    "covid"
+  ],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "Bbox": [
+        -75.54666694966241,
+        38.85393381551178,
+        -70.4913257293006,
+        40.5393322173508
+      ],
+      "TimeEntries": []
+    }
+  ]
 }
