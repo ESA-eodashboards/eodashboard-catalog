@@ -3,7 +3,9 @@
   "Title": "Nightlights demonstration of urban areas over North America",
   "EodashIdentifier": "nightlights",
   "Description": "# Nightlights Dataset\n- this dataset is generated in LPS25 tutorial",
-  "Themes": [],
+  "Themes": [
+    "covid19"
+  ],
   "Tags": [],
   "DataSource": {},
   "Agency": [],
@@ -15,5 +17,26 @@
     "Citation": ""
   },
   "Image": "",
-  "Legend": ""
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "COG Source",
+      "Style": "",
+      "TimeEntries": [
+        {
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/Nighttimelevel_Urban_h10v04_2019-2022.tif"
+            }
+          ]
+        }
+      ],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
+    }
+  ]
 }
