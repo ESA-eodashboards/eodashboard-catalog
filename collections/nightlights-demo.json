@@ -3,8 +3,13 @@
   "Title": "Nightlights demostration",
   "EodashIdentifier": "NIGHTLIGHTS-DEMO",
   "Description": "Nightlights demonstration of data over East coast of the United States\nGenerated during LPS25",
-  "Themes": [],
-  "Tags": [],
+  "Themes": [
+    "Covid-19"
+  ],
+  "Tags": [
+    "covid-19",
+    "urban-data"
+  ],
   "DataSource": {},
   "Agency": [],
   "License": "",
@@ -15,5 +20,26 @@
     "Citation": ""
   },
   "Image": "",
-  "Legend": ""
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "TimeEntries": [
+        {
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/Nighttimelevel_Urban_h10v04_2019-2022.tif",
+              "File": ""
+            }
+          ]
+        }
+      ],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
+    }
+  ]
 }
