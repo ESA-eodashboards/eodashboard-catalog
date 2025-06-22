@@ -1,0 +1,37 @@
+{
+  "Name": "lps25-test",
+  "Title": "Nightlights demonstration",
+  "EodashIdentifier": "",
+  "Description": "# Nightlights dataset\n-",
+  "Themes": [
+    ""
+  ],
+  "Tags": [],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "TimeEntries": [
+        {
+          "Time": "",
+          "Assets": []
+        }
+      ],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
+    }
+  ]
+}
