@@ -1,3 +1,19 @@
 {
-  "Name": "nightlights_demo"
+  "Name": "nightlights_demo",
+  "Title": "title",
+  "EodashIdentifier": "eoid",
+  "Description": "description",
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": ""
 }
