@@ -15,5 +15,24 @@
     "Citation": ""
   },
   "Image": "",
-  "Legend": ""
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "cog source",
+      "Style": "",
+      "Bbox": [
+        -91.52138751525916,
+        38.13742258978953,
+        -60.160945893734265,
+        51.466313608078174
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2023",
+          "Assets": []
+        }
+      ],
+      "EndPoint": ""
+    }
+  ]
 }
