@@ -1,0 +1,43 @@
+{
+  "Name": "nightlights_demo",
+  "Title": "Nightlights demonstration of Urban areas over US",
+  "EodashIdentifier": "NIGHTLIGHTS",
+  "Description": "#Nightlights dataset\n\n-This dataset is a trial in LPS25",
+  "Themes": [],
+  "Tags": [
+    "covid-19",
+    "urban"
+  ],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "TimeEntries": [
+        {
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "",
+              "File": ""
+            }
+          ]
+        }
+      ],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
+    }
+  ]
+}
