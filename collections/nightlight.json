@@ -1,0 +1,42 @@
+{
+  "Name": "night_light",
+  "Title": "Night light demostration over the NY area",
+  "EodashIdentifier": "NIGHTLIGHT",
+  "Description": "# Night light data set\nStuff about this tutorial",
+  "Themes": [],
+  "Tags": [],
+  "DataSource": {},
+  "Agency": [],
+  "License": "",
+  "Locations": [],
+  "Provider": [],
+  "Citation": {
+    "DOI": "",
+    "Citation": ""
+  },
+  "Image": "",
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "Bbox": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "tif_file",
+              "File": "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/Nighttimelevel_Urban_h10v04_2019-2022.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
