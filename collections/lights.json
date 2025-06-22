@@ -4,7 +4,10 @@
   "EodashIdentifier": "Nightlights",
   "Description": "#nightlights datasets\n\nthis dataset ins generated Tutorial",
   "Themes": [],
-  "Tags": [],
+  "Tags": [
+    "urban",
+    "covid"
+  ],
   "DataSource": {},
   "Agency": [],
   "License": "",
@@ -15,5 +18,22 @@
     "Citation": ""
   },
   "Image": "",
-  "Legend": ""
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "COG dataset",
+      "Style": "",
+      "Bbox": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "TimeEntries": [],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
+    }
+  ]
 }
