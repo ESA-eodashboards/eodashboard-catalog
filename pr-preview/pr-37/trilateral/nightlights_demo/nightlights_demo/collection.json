@@ -1,0 +1,60 @@
+{
+  "type": "Collection",
+  "id": "nightlights_demo",
+  "stac_version": "1.1.0",
+  "description": "# Nightlights dataset\n\n- this dataset is generate in LPS25 Tutorial",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights_demo/2023/2023-01-01T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2023-01-01T00:00:00Z",
+      "assets": [
+        "https://eox-gtif-public.s3.eu-central-1.amazonaws.com/EOX/Nighttimelevel_Urban_h10v04_2019-2022.tif"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Nightlights demonstration of Urban areas over US"
+    }
+  ],
+  "themes": [
+    "covid-19"
+  ],
+  "tags": [
+    "covid-19",
+    "urban"
+  ],
+  "subcode": "NIGHTLIGHTS",
+  "endpointtype": "COG source",
+  "title": "Nightlights demonstration of Urban areas over US",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -85,
+          180,
+          85
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
