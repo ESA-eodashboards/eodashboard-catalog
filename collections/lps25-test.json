@@ -3,7 +3,9 @@
   "Title": "Nightlights demonstration",
   "EodashIdentifier": "",
   "Description": "# Nightlights dataset\n-",
-  "Themes": [],
+  "Themes": [
+    ""
+  ],
   "Tags": [],
   "DataSource": {},
   "Agency": [],
@@ -15,5 +17,21 @@
     "Citation": ""
   },
   "Image": "",
-  "Legend": ""
+  "Legend": "",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "TimeEntries": [
+        {
+          "Time": "",
+          "Assets": []
+        }
+      ],
+      "EndPoint": "",
+      "Type": "byoc",
+      "CollectionId": "",
+      "LayerId": ""
+    }
+  ]
 }
