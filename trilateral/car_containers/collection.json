@@ -205,17 +205,17 @@
     ],
     "cities": [
       "Arcadia",
-      "Nagoya",
-      "Singapore",
-      "Los Angeles",
       "Palm Springs",
+      "Singapore",
+      "Nagoya",
+      "Los Angeles",
       "Beijing"
     ],
     "countries": [
-      "SG",
       "JP",
-      "US",
-      "CN"
+      "CN",
+      "SG",
+      "US"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg"

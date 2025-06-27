@@ -234,37 +234,37 @@
       "ALOS-2"
     ],
     "sensor": [
-      "C-SAR",
       "PSB.SD",
       "MSI",
+      "C-SAR",
       "PALSAR-2"
     ],
     "cities": [
-      "Paris",
-      "New York",
-      "Newark",
-      "Napa",
-      "San Jose",
-      "Narita",
-      "Los Angeles",
-      "San Francisco",
+      "Rome",
       "Heathrow",
+      "Beijing Daxing",
+      "San Jose",
+      "Napa",
       "Hayward",
       "Oakland",
-      "Marin",
       "Buchannan",
-      "Rome",
+      "New York",
+      "Paris",
       "Ontario",
+      "Newark",
+      "San Francisco",
+      "Narita",
+      "Los Angeles",
       "Beijing",
-      "Beijing Daxing"
+      "Marin"
     ],
     "countries": [
+      "JP",
       "CN",
-      "IT",
-      "FR",
       "US",
+      "IT",
       "GB",
-      "JP"
+      "FR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg"

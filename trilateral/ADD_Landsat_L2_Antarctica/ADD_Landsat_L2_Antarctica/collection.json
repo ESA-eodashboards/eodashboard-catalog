@@ -52,7 +52,13 @@
       ],
       "eodash:mapProjection": {
         "name": "EPSG:3031",
-        "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+        "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -3299207.53,
+          -3333134.03,
+          3299207.53,
+          3333134.03
+        ]
       },
       "latlng": "-74,-102",
       "name": "Pine Island"
@@ -99,7 +105,13 @@
       ],
       "eodash:mapProjection": {
         "name": "EPSG:3031",
-        "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+        "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -3299207.53,
+          -3333134.03,
+          3299207.53,
+          3333134.03
+        ]
       },
       "latlng": "-74,-107",
       "name": "Thwaites Glacier"
@@ -209,8 +221,8 @@
   ],
   "summaries": {
     "cities": [
-      "Pine Island",
-      "Thwaites Glacier"
+      "Thwaites Glacier",
+      "Pine Island"
     ],
     "countries": [
       "AQ"
