@@ -1,0 +1,135 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "cbc83309-34ae-4c95-be8e-7b16fa951791",
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          -179.9999,
+          -88.99274
+        ],
+        [
+          179.9025,
+          -88.99274
+        ],
+        [
+          179.9025,
+          -56.0542
+        ],
+        [
+          -179.9999,
+          -56.0542
+        ],
+        [
+          -179.9999,
+          -88.99274
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -179.9999,
+    -88.99274,
+    179.9025,
+    -56.0542
+  ],
+  "properties": {
+    "datetime": "2010-01-01T00:00:00Z",
+    "proj:bbox": [
+      -179.9999,
+      -88.99274,
+      179.9025,
+      -56.0542
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            -179.9999,
+            -88.99274
+          ],
+          [
+            179.9025,
+            -88.99274
+          ],
+          [
+            179.9025,
+            -56.0542
+          ],
+          [
+            -179.9999,
+            -56.0542
+          ],
+          [
+            -179.9999,
+            -88.99274
+          ]
+        ]
+      ]
+    },
+    "proj:code": "EPSG:84"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Antarctica Melt Duration"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "ADD_Melt_Duration",
+      "wms:layers": [
+        "VIS_4D_ANTARTICA_DAYS"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2010-01-01T00:00:00Z/2010-01-01T23:59:59Z"
+      },
+      "eodash:proj4_def": {
+        "name": "EPSG:3031",
+        "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Antarctica Melt Duration"
+    }
+  ],
+  "assets": {},
+  "collection": "byoc-187112e0-de59-46f1-af76-86d7aec33c9e",
+  "eodash:proj4_def": {
+    "name": "EPSG:3031",
+    "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  }
+}

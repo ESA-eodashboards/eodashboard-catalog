@@ -1,0 +1,263 @@
+{
+  "type": "Collection",
+  "id": "4D_Greenland_Melt_Duration",
+  "stac_version": "1.1.0",
+  "description": "# Greenland Melt Season Duration 2007 - 2021 \n### VALUE ADDED PROTOTYPE PRODUCT\n\nAuthor: Enveo IT, Fürstenweg 176, 6020 Innsbruck, Austria\n\n\nThis dataset illustrates the Melt Season Duration. It refers to the first time that there are three consecutive days of melt in a year, thereby indicating the beginning of the snowmelt season. The product was generated based on melt maps (indicating presence of liquid water) from 2007 until 2021 derived from the ASCAT Enhanced Resolution Scatterometer Image Reconstruction (SIR) product [1]. The meltmaps (such as the one for 2021 depicted below) are also available on this Dashboard.\n\n\n**Explore the Greenland melt maps 2007-2021 on EO Dashboard:**\n\n* [Greenland Meltmaps](https://eodashboard.org/explore?indicator=4D_Greenland_Meltmap)\n\nAll products are provided in GeoTiff format at a grid spacing of 5 km x 5 km in the projection WGS 84 / NSIDC Sea Ice Polar Stereographic North (EPSG:3413). \n\n------------------------------------------------\n[1] The SIR product is processed by the Microwave Earth Remote Sensing Laboratory (MERS) at Brigham Young University (BYU) and based on the full resolution (SZF) ASCAT C-Band Scatterometer data. It provides an enhanced resolution of 4.45 km by combining multiple pass, irregularly spaced data into higher-resolution gridded images. The SIR product used combines all data acquired within a single 24-hr period (msfa). \n\n### Reference: \nLindsley, R. D. and Long, D. G. 2010. Standard BYU ASCAT land/ice image products. Microwave Earth Remote Sensing Laboratory, 3.\n\n### Data Access:\nESA Open Science Data Catalogue https://opensciencedata.esa.int/projects/4d-greenland/collection \n\n### 4D Greenland Project Page\n\nhttps://4dgreenland.eo4cryo.dk/\n\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-6868b841-2c93-4a7d-bf0b-2f11c24bf9dd/2021/7374f0a7-65d0-4f1e-b58e-f600a724fdb6.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-6868b841-2c93-4a7d-bf0b-2f11c24bf9dd/2020/1ad2d9e4-a9cc-480f-ae1a-a06586cd0714.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-6868b841-2c93-4a7d-bf0b-2f11c24bf9dd/2019/045216d8-9c70-4bee-88e5-04a846f72d0d.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-6868b841-2c93-4a7d-bf0b-2f11c24bf9dd/2018/0b2b0531-2aa1-479a-aa8e-7992b3ef04fe.json",
+      "type": "application/geo+json",
+      "datetime": "2018-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-6868b841-2c93-4a7d-bf0b-2f11c24bf9dd/2017/fa75475e-9f5c-44df-abe3-4b6404b3c69b.json",
+      "type": "application/geo+json",
+      "datetime": "2017-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-6868b841-2c93-4a7d-bf0b-2f11c24bf9dd/2016/a1cad0fb-706b-4445-a079-c84058091d9c.json",
+      "type": "application/geo+json",
+      "datetime": "2016-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-6868b841-2c93-4a7d-bf0b-2f11c24bf9dd/2015/53552db2-6384-44d7-88e4-88277cdf6cce.json",
+      "type": "application/geo+json",
+      "datetime": "2015-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-6868b841-2c93-4a7d-bf0b-2f11c24bf9dd/2014/a7022db5-ca37-43bd-9612-2b4b0fea4a8e.json",
+      "type": "application/geo+json",
+      "datetime": "2014-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-6868b841-2c93-4a7d-bf0b-2f11c24bf9dd/2013/c05c98bd-4239-46ba-801e-37bebb9eb5a0.json",
+      "type": "application/geo+json",
+      "datetime": "2013-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-6868b841-2c93-4a7d-bf0b-2f11c24bf9dd/2012/4e8d66a2-a3aa-4fc6-b33e-8374ed102572.json",
+      "type": "application/geo+json",
+      "datetime": "2012-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-6868b841-2c93-4a7d-bf0b-2f11c24bf9dd/2011/3b1cc189-4c10-4d24-8ee1-b0ff5a0bfb0e.json",
+      "type": "application/geo+json",
+      "datetime": "2011-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-6868b841-2c93-4a7d-bf0b-2f11c24bf9dd/2010/20b66b75-2de4-4f20-ba95-5aa1055a8faa.json",
+      "type": "application/geo+json",
+      "datetime": "2010-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-6868b841-2c93-4a7d-bf0b-2f11c24bf9dd/2009/2dfe2a0f-6179-43d0-acde-44b2ed0e7200.json",
+      "type": "application/geo+json",
+      "datetime": "2009-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-6868b841-2c93-4a7d-bf0b-2f11c24bf9dd/2008/5f211cd4-6c6e-4b17-8f81-a0f6dfef8375.json",
+      "type": "application/geo+json",
+      "datetime": "2008-01-01T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-6868b841-2c93-4a7d-bf0b-2f11c24bf9dd/2007/4b7b3676-bcb5-4c0e-890f-8aa1b9222b51.json",
+      "type": "application/geo+json",
+      "datetime": "2007-01-01T00:00:00Z"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "4D_Greenland_Melt_Duration",
+      "wms:layers": [
+        "VIS_4D_GREENLAND_DAYS"
+      ],
+      "role": [
+        "data"
+      ],
+      "eodash:proj4_def": {
+        "name": "EPSG:3413",
+        "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Greenland Melt Duration"
+    }
+  ],
+  "sci:citation": "Citing the data:\nLindsley, R. D. and Long, D. G. (2010): Standard BYU ASCAT land/ice image products. Microwave Earth Remote Sensing Laboratory, 3\n",
+  "subtitle": "Greenland Melt Duration from 4D Greenland",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Melt_Duration/thumbnail.jpg",
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "Greenland",
+    "Arctic",
+    "climate change",
+    "Polar regions",
+    "Open data",
+    "Open Science",
+    "Cryosphere",
+    "Glaciers",
+    "Ice cap",
+    "Melt",
+    "Scatterometer",
+    "C-SAR",
+    "Ice monitoring"
+  ],
+  "agency": [
+    "ESA",
+    "EUMETSAT"
+  ],
+  "subcode": "4D_Greenland_Melt_Duration",
+  "sensor": [
+    "ASCAT"
+  ],
+  "satellite": [
+    "MetOp"
+  ],
+  "eodash:mapProjection": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+    "extent": [
+      -5314763.31,
+      -5314763.31,
+      5314763.31,
+      5314763.31
+    ]
+  },
+  "eox:colorlegend": {
+    "domain": [
+      3,
+      210
+    ],
+    "range": [
+      "#306bff",
+      "#488eff",
+      "#5ca5ff",
+      "#6fb4ff",
+      "#82beff",
+      "#94c7ff",
+      "#a3d0ff",
+      "#b2d8ff",
+      "#c2deff",
+      "#cee5ff",
+      "#d8ecff",
+      "#e1f2ff",
+      "#e9f6ff",
+      "#f2fbff",
+      "#fbffff"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Ice melting [days]"
+  },
+  "eodash:proj4_def": {
+    "name": "EPSG:3413",
+    "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Greenland Melt Duration",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -89.3145177846944,
+          58.787272841702126,
+          7.554586574322073,
+          83.94675630823953
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2007-01-01T00:00:00Z",
+          "2021-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "ESA",
+      "url": "https://sentinel.esa.int/web/sentinel/"
+    },
+    {
+      "name": "EUMETSAT",
+      "url": "https://www.eumetsat.int/"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Melt_Duration/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Melt_Duration/thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://4dgreenland.eo4cryo.dk/",
+      "type": "text/html",
+      "title": "4D Greenland Project Page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://opensciencedata.esa.int/projects/4d-greenland/collection",
+      "type": "text/html",
+      "title": "ESA Open Science Data Catalogue: 4D-Greenland",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}
