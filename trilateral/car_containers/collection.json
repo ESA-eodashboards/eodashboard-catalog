@@ -200,22 +200,22 @@
       "ALOS-2"
     ],
     "sensor": [
-      "C-SAR",
-      "PALSAR-2"
+      "PALSAR-2",
+      "C-SAR"
     ],
     "cities": [
-      "Arcadia",
-      "Palm Springs",
-      "Singapore",
+      "Beijing",
       "Nagoya",
       "Los Angeles",
-      "Beijing"
+      "Singapore",
+      "Palm Springs",
+      "Arcadia"
     ],
     "countries": [
-      "JP",
+      "US",
       "CN",
       "SG",
-      "US"
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg"
