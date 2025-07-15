@@ -194,12 +194,12 @@
       "biomass"
     ],
     "satellite": [
-      "Landsat",
-      "Sentinel-2"
+      "Sentinel-2",
+      "Landsat"
     ],
     "sensor": [
-      "MSI",
-      "OLI"
+      "OLI",
+      "MSI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/HLS_NDVI/thumbnail.jpg"
