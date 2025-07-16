@@ -219,16 +219,16 @@
       "agriculture"
     ],
     "satellite": [
-      "Landsat-8",
       "ALOS-2",
       "Sentinel-2",
+      "Landsat-8",
       "GCOM-C"
     ],
     "sensor": [
-      "PALSAR-2",
-      "OLI",
+      "SGLI",
       "MSI",
-      "SGLI"
+      "PALSAR-2",
+      "OLI"
     ],
     "cities": [
       "Colusa",

@@ -1,0 +1,169 @@
+{
+  "type": "Collection",
+  "id": "alos2_floods",
+  "stac_version": "1.1.0",
+  "description": "# Flood mapping in East Africa\nThis flooding map was created using ALOS-2 data to show the extent of floodings in the 'Horn of Africa' region, after above-average rainfall caused by [El Niño in 2023](https://eodashboard.org/). \n\n[ALOS-2 is a JAXA](https://www.eorc.jaxa.jp/ALOS-2/en/about/palsar2.htm) satellite equipped with a Synthetic Aperture Radar (SAR) sensor called PALSAR-2,which emits microwave and receives the reflection from the ground to acquire information. Since it does not need other sources of light such as the sun, SAR has the advantage of providing satellite images regardless day or night. This makes it very useful to monitoring floods, since it can detect water regaadless of weather conditions. In SAR images, flooded areas appear darker that the surrounding land because smooth water reflects the radar signal away from the satellite. \n\n## Dataset interpretation\n- Flooded areas are **marked in red**.\n\n## Dataset Description\n- Coverage: Mozambique Area\n- Processing steps: radar HH polarization was pre-processed (noise removed, speckle filterin) and after that a threshould was applied - values below XXX were considered to be water. Finally a mask was applied to remove peramente water bodies.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./alos2_floods/collection.json",
+      "type": "application/json",
+      "title": "Floods maps in East Africa",
+      "endpointtype": "WMS_OverwriteTimes",
+      "code": "JAXA_ALOS2_Floodmap",
+      "id": "alos2_floods",
+      "themes": [
+        "extremes"
+      ],
+      "tags": [
+        "Water quality",
+        "Copernicus Services",
+        "CHL",
+        "CMEMS",
+        "Open data"
+      ],
+      "agency": [
+        "JAXA"
+      ],
+      "subcode": "JAXA_ALOS2_Floodmap",
+      "sensor": [
+        "PALSAR-2"
+      ],
+      "satellite": [
+        "ALOS-2"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "themes": [
+    "extremes"
+  ],
+  "tags": [
+    "Water quality",
+    "Copernicus Services",
+    "CHL",
+    "CMEMS",
+    "Open data"
+  ],
+  "agency": [
+    "JAXA"
+  ],
+  "subcode": "JAXA_ALOS2_Floodmap",
+  "sensor": [
+    "PALSAR-2"
+  ],
+  "satellite": [
+    "ALOS-2"
+  ],
+  "title": "Floods maps in East Africa",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          34,
+          -18,
+          41,
+          -10
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-03-15T00:00:00Z",
+          "2023-03-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "JAXA",
+      "url": "https://global.jaxa.jp/"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "JAXA_ALOS2_Floodmap"
+    ],
+    "themes": [
+      "extremes"
+    ],
+    "satellite": [
+      "ALOS-2"
+    ],
+    "sensor": [
+      "PALSAR-2"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/alos2_floods/cm_legend.png.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_1": {
+      "href": "https://www.eorc.jaxa.jp/ALOS-2/en/about/palsar2.htm",
+      "type": "text/html",
+      "title": "JAXA ALOS-2 PALSAR-2",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://www.eorc.jaxa.jp/ALOS/en/alos-2/a2_data_e.htm",
+      "type": "text/html",
+      "title": "Use data",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}
