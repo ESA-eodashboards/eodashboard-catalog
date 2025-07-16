@@ -16,7 +16,7 @@
       "type": "image/png",
       "title": "alos2_floods",
       "wms:layers": [
-        "JAXA_ALOS2_FLOODMAP_LAYER"
+        "JAXA_ALOS2_FLOODMAPS"
       ],
       "role": [
         "data"
@@ -24,7 +24,7 @@
     },
     {
       "rel": "item",
-      "href": "./alos2_floods/1970/be398a70-b20e-4b75-9857-8630a989af8e.json",
+      "href": "./alos2_floods/1970/1789fbd4-2973-413e-9091-34529404c178.json",
       "type": "application/geo+json"
     },
     {
@@ -70,7 +70,7 @@
     "temporal": {
       "interval": [
         [
-          "2025-07-16T10:21:36.937666Z",
+          "2025-07-16T10:23:11.446304Z",
           null
         ]
       ]
