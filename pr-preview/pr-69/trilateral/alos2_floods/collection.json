@@ -15,7 +15,7 @@
       "href": "./alos2_floods/collection.json",
       "type": "application/json",
       "title": "Floods maps in East Africa",
-      "endpointtype": "Sentinel Hub_byoc",
+      "endpointtype": "WMS_OverwriteTimes",
       "code": "JAXA_ALOS2_Floodmap",
       "id": "alos2_floods",
       "themes": [
@@ -46,7 +46,7 @@
       "title": "EOxCloudless 2023",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "cloudless-2023"
     },
@@ -60,17 +60,6 @@
         "invisible"
       ],
       "id": "OSM"
-    },
-    {
-      "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "Terrain Light",
-      "roles": [
-        "baselayer",
-        "visible"
-      ],
-      "id": "terrain-light"
     },
     {
       "rel": "xyz",
@@ -125,8 +114,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-07-16T10:23:11.446304Z",
-          "2025-07-16T10:23:11.446304Z"
+          "2023-03-15T00:00:00Z",
+          "2023-03-15T00:00:00Z"
         ]
       ]
     }

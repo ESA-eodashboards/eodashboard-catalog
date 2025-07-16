@@ -1,15 +1,30 @@
 {
   "type": "Feature",
   "stac_version": "1.1.0",
-  "stac_extensions": [],
-  "id": "1789fbd4-2973-413e-9091-34529404c178",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "id": "2023-03-15T00:00:00Z",
   "geometry": null,
   "properties": {
-    "start_datetime": "1970-01-01T00:00:00Z",
-    "end_datetime": "2025-07-16T10:23:12.336302Z",
-    "datetime": "1970-01-01T00:00:00Z"
+    "datetime": "2023-03-15T00:00:00Z"
   },
   "links": [
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/jpeg",
+      "title": "alos2_floods",
+      "wms:layers": [
+        "JAXA_ALOS2_FLOODMAPS"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2023-03-15T00:00:00Z"
+      }
+    },
     {
       "rel": "root",
       "href": "../../../../catalog.json",
