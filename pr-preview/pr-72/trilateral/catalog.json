@@ -1,0 +1,111 @@
+{
+  "type": "Catalog",
+  "id": "trilateral",
+  "stac_version": "1.1.0",
+  "description": "A Tri-Agency Dashboard by NASA, ESA, JAXA",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./smos_ocean_salinity/collection.json",
+      "type": "application/json",
+      "title": "SMOS Ocean Salinity",
+      "code": "SMOS_OS",
+      "id": "smos_ocean_salinity",
+      "themes": [
+        "oceans"
+      ],
+      "subcode": "SMOS_OS",
+      "satellite": [
+        "SMOS"
+      ],
+      "sensor": [
+        "MIRAS"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMOS_OS/SMOS_OS.png"
+      ],
+      "tags": [
+        "L-band",
+        "Ocean salinity",
+        "Water density",
+        "water salinity",
+        "Water cycle",
+        "carbon cycle",
+        "CO2",
+        "CO2 cycle",
+        "Climate change",
+        "Temperature",
+        "Microwave radiation",
+        "Sewater",
+        "SMOS",
+        "Soil Moisture and Ocean Salinity",
+        "Weather forecasting",
+        "MIRAS",
+        "Microwave Imaging Radiometer using Aperture Synthesis",
+        "Microwave Imaging Radiometer"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./smos_soil_moisture/collection.json",
+      "type": "application/json",
+      "title": "SMOS Soil Moisture",
+      "code": "SMOS_SM",
+      "id": "smos_soil_moisture",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "SMOS_SM",
+      "satellite": [
+        "SMOS"
+      ],
+      "sensor": [
+        "MIRAS"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMOS_SM/SMOS_SM.png"
+      ],
+      "tags": [
+        "CO2",
+        "Photosynthesis",
+        "Open data",
+        "Carbon",
+        "Agriculture",
+        "Farming",
+        "L-band",
+        "Carbon cycle",
+        "Evaporation",
+        "Forecast",
+        "Water cycle",
+        "Atmosphere",
+        "Atmospheric humidity",
+        "Plants",
+        "Vegetation",
+        "SMOS",
+        "Soil Moisture and Ocean Salinity",
+        "Weather forecasting",
+        "MIRAS",
+        "Microwave Imaging Radiometer using Aperture Synthesis",
+        "Microwave Imaging Radiometer"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://eurodatacube.github.io/eodash-catalog/trilateral/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Earth Observing Dashboard"
+}
