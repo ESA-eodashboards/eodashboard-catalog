@@ -83,14 +83,14 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2023",
+      "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2023"
+      "id": "cloudless-2024"
     },
     {
       "rel": "xyz",
@@ -250,39 +250,39 @@
       "agriculture"
     ],
     "satellite": [
+      "NOAA-N16",
       "JPSS-1",
-      "MetOp-B",
-      "DMSP-F15",
+      "Aqua",
       "Megha-Tropiques",
+      "MetOp-B",
+      "NOAA-N18",
+      "DMSP-F15",
+      "DMSP-F14",
+      "GCOM-W1",
+      "GPM Core Observatory",
+      "NOAA-N17",
+      "NOAA-N15",
       "TRMM",
       "NPP",
-      "ADEOS-II",
-      "DMSP-F11",
-      "NOAA-N18",
       "DMSP-F13",
-      "DMSP-F14",
-      "DWSS-1",
-      "NOAA-N16",
-      "GCOM-W1",
-      "NOAA-N17",
-      "GPM Core Observatory",
-      "NOAA-N15",
       "MetOp-A",
+      "DWSS-1",
+      "DMSP-F11",
       "NOAA-N19",
-      "Aqua"
+      "ADEOS-II"
     ],
     "sensor": [
-      "TMI",
-      "AMSR",
-      "AMSU-A/MHS",
-      "AMSR-E",
-      "AMSU-A/AMSU-B",
-      "MADRAS",
       "GMI",
-      "ATMS",
+      "TMI",
+      "AMSU-A/AMSU-B",
+      "AMSR-E",
       "AMSR2",
+      "AMSU-A/MHS",
+      "MADRAS",
+      "ATMS",
+      "SSM/I",
       "TBD",
-      "SSM/I"
+      "AMSR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.jpg"

@@ -85,7 +85,7 @@
       "rel": "wms",
       "href": "//sxcat-demo.eox.at/sxcat_maps/wms",
       "type": "image/png",
-      "title": "Terrain Light Stereographic South",
+      "title": "Terrain Light Stereographic North",
       "roles": [
         "baselayer",
         "visible"

@@ -95,14 +95,14 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2023",
+      "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2023"
+      "id": "cloudless-2024"
     },
     {
       "rel": "xyz",
@@ -229,40 +229,40 @@
     ],
     "satellite": [
       "PlanetScope",
-      "ALOS-2",
       "Sentinel-1",
-      "Sentinel-2"
+      "Sentinel-2",
+      "ALOS-2"
     ],
     "sensor": [
-      "PSB.SD",
-      "MSI",
       "PALSAR-2",
-      "C-SAR"
+      "C-SAR",
+      "MSI",
+      "PSB.SD"
     ],
     "cities": [
-      "Heathrow",
-      "Napa",
-      "New York",
-      "San Jose",
-      "Los Angeles",
-      "Rome",
-      "Marin",
       "Ontario",
-      "Narita",
-      "Newark",
-      "Beijing",
+      "Los Angeles",
+      "Heathrow",
+      "San Jose",
       "Hayward",
-      "Paris",
-      "Buchannan",
+      "San Francisco",
       "Oakland",
+      "Marin",
+      "Buchannan",
+      "New York",
+      "Rome",
+      "Napa",
+      "Newark",
+      "Narita",
+      "Paris",
       "Beijing Daxing",
-      "San Francisco"
+      "Beijing"
     ],
     "countries": [
+      "GB",
       "IT",
       "FR",
       "JP",
-      "GB",
       "CN",
       "US"
     ],
