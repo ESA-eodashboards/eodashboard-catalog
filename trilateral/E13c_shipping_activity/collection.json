@@ -207,23 +207,23 @@
     "cities": [
       "Dunkirk",
       "Los Angeles",
-      "Gdynia",
       "San Francisco",
       "New York",
       "Genoa",
-      "Suez",
       "Ghent",
+      "Gdynia",
       "Hamburg",
-      "Suez "
+      "Suez ",
+      "Suez"
     ],
     "countries": [
+      "US",
       "FR",
       "IT",
-      "BE",
-      "EG",
-      "DE",
       "PL",
-      "US"
+      "DE",
+      "EG",
+      "BE"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg"
