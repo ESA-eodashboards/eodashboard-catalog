@@ -1,0 +1,170 @@
+{
+  "type": "Collection",
+  "id": "US09",
+  "stac_version": "1.1.0",
+  "description": "Glenn - US",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Rice planting"
+    }
+  ],
+  "subcode": "E10c",
+  "subtitle": "Early Rice Planting in Sacramento, California, USA",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.jpg",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "Multi-sensors",
+    "Food security",
+    "Cereals"
+  ],
+  "agency": [
+    "NASA",
+    "USGS",
+    "JAXA",
+    "ESA"
+  ],
+  "sensor": [
+    "PALSAR-2",
+    "SGLI",
+    "MSI",
+    "OLI"
+  ],
+  "satellite": [
+    "ALOS-2",
+    "GCOM-C",
+    "Sentinel-2",
+    "Landsat-8"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      -1,
+      1
+    ],
+    "range": [
+      "#ffffff",
+      "#acacac",
+      "#595959",
+      "#616161",
+      "#b4b4b4",
+      "#f5f5f5",
+      "#949494",
+      "#454558",
+      "#1be830",
+      "#83ff01",
+      "#ffe801",
+      "#ff8001",
+      "#ff1801",
+      "#ff01ef"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "NDVI"
+  },
+  "title": "Glenn",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -122.07557,
+          39.472840000000005,
+          -122.05556999999999,
+          39.49284
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2013-03-31T03:49:31Z",
+          "2021-06-17T03:51:42Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "JAXA",
+      "url": "https://global.jaxa.jp/"
+    },
+    {
+      "name": "ESA",
+      "url": "https://www.esa.int/"
+    },
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/"
+    },
+    {
+      "name": "USGS",
+      "url": "https://www.usgs.gov/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://www.ers.usda.gov/publications/pub-details/?pubid=101645",
+      "type": "text/html",
+      "title": "Rice Outlook - July 2021",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://droughtmonitor.unl.edu/CurrentMap/StateDroughtMonitor.aspx?West",
+      "type": "text/html",
+      "title": "U.S. Drought Monitor",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=CALIFORNIA",
+      "type": "text/html",
+      "title": "Statistics by USDA",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_4": {
+      "href": "https://www.maff.go.jp/j/zyukyu/jki/j_rep/monthly/attach/pdf/r2index-28.pdf",
+      "type": "text/html",
+      "title": "Foreign Food Supply and Demand Report (October 2020, in Japanese)",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

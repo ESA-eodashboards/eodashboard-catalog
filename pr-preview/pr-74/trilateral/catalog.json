@@ -1,0 +1,471 @@
+{
+  "type": "Catalog",
+  "id": "trilateral",
+  "stac_version": "1.1.0",
+  "description": "A Tri-Agency Dashboard by NASA, ESA, JAXA",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./ADD_West_Antarctica_S1/collection.json",
+      "type": "application/json",
+      "title": "West Antarctica (Sentinel-1)",
+      "subtitle": "West Antarctica Sentinel-1 Subset",
+      "code": "ADD_West_Antarctica_S1",
+      "id": "ADD_West_Antarctica_S1",
+      "themes": [
+        "cryosphere"
+      ],
+      "subcode": "ADD_West_Antarctica_S1",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_West_Antarctica_S1/thumbnail.jpg"
+      ],
+      "tags": [
+        "Copernicus",
+        "Open data",
+        "SAR",
+        "Antarctica",
+        "Polar regions",
+        "climate change",
+        "Cryosphere",
+        "C-SAR",
+        "Open Science",
+        "Cryosphere",
+        "Ice monitoring"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3031",
+        "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+        "extent": [
+          -3299207.53,
+          -3333134.03,
+          3299207.53,
+          3333134.03
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./agricultural_production_area/collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - area",
+      "subtitle": "Agricultural production in Europe",
+      "code": "E10a2",
+      "id": "agricultural_production_area",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10a2",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "MSI"
+      ],
+      "cities": [
+        "Brandenburg Region"
+      ],
+      "countries": [
+        "DE"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a2_agricultural_production_area/E10a2_agricultural_production_area.jpg"
+      ],
+      "tags": [
+        "Copernicus",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./rice_planting/collection.json",
+      "type": "application/json",
+      "title": "Rice planting",
+      "subtitle": "Early Rice Planting in Sacramento, California, USA",
+      "code": "E10c",
+      "id": "rice_planting",
+      "themes": [
+        "agriculture"
+      ],
+      "subcode": "E10c",
+      "satellite": [
+        "ALOS-2",
+        "GCOM-C",
+        "Sentinel-2",
+        "Landsat-8"
+      ],
+      "sensor": [
+        "PALSAR-2",
+        "SGLI",
+        "MSI",
+        "OLI"
+      ],
+      "cities": [
+        "Glenn",
+        "Colusa",
+        "Glenn (GCOM-C)",
+        "Yolo"
+      ],
+      "countries": [
+        "US"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.jpg"
+      ],
+      "tags": [
+        "Multi-sensors",
+        "Food security",
+        "Cereals"
+      ],
+      "agency": [
+        "NASA",
+        "USGS",
+        "JAXA",
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./E13b_parked_airplanes/collection.json",
+      "type": "application/json",
+      "title": "Parked Airplanes",
+      "subtitle": "Grounded airplanes during the novel coronavirus pandemic",
+      "code": "E13b",
+      "id": "E13b_parked_airplanes",
+      "themes": [
+        "economy",
+        "covid-19"
+      ],
+      "subcode": "E13b",
+      "satellite": [
+        "ALOS-2",
+        "Sentinel-1",
+        "Sentinel-2",
+        "PlanetScope"
+      ],
+      "sensor": [
+        "PALSAR-2",
+        "C-SAR",
+        "MSI",
+        "PSB.SD"
+      ],
+      "cities": [
+        "Beijing Daxing",
+        "New York",
+        "Rome",
+        "San Francisco",
+        "Paris",
+        "Heathrow",
+        "Los Angeles",
+        "Ontario",
+        "San Jose",
+        "Oakland",
+        "Marin",
+        "Napa",
+        "Beijing",
+        "Narita",
+        "Hayward",
+        "Newark",
+        "Buchannan"
+      ],
+      "countries": [
+        "JP",
+        "GB",
+        "US",
+        "FR",
+        "IT",
+        "CN"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg"
+      ],
+      "tags": [
+        "Copernicus Services",
+        "Open data",
+        "COVID-19",
+        "Mobility",
+        "Community",
+        "Air traffic"
+      ],
+      "agency": [
+        "ESA",
+        "NASA",
+        "JAXA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./E13c_shipping_activity/collection.json",
+      "type": "application/json",
+      "title": "Shipping Activity at Major Ports",
+      "subtitle": "Ship detections in EO data at major international harbours",
+      "code": "E13c",
+      "id": "E13c_shipping_activity",
+      "themes": [
+        "economy"
+      ],
+      "subcode": "E13c",
+      "satellite": [
+        "Sentinel-2",
+        "PlanetScope"
+      ],
+      "sensor": [
+        "MSI",
+        "PS2"
+      ],
+      "cities": [
+        "San Francisco",
+        "Suez",
+        "Los Angeles",
+        "Dunkirk",
+        "Suez ",
+        "Gdynia",
+        "Genoa",
+        "Hamburg",
+        "Ghent",
+        "New York"
+      ],
+      "countries": [
+        "US",
+        "PL",
+        "FR",
+        "BE",
+        "IT",
+        "DE",
+        "EG"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg"
+      ],
+      "tags": [
+        "Economy",
+        "Open data",
+        "Maritime",
+        "Copernicus",
+        "Shipping activity",
+        "Optical sensor"
+      ],
+      "agency": [
+        "ESA",
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./S14Amazonas_detections/collection.json",
+      "type": "application/json",
+      "title": "ESA Sentinel-1 for Science Amazonas",
+      "subtitle": "Multi-temporal Change Detection",
+      "code": "MCD",
+      "id": "S14Amazonas_detections",
+      "themes": [
+        "biomass"
+      ],
+      "subcode": "MCD",
+      "satellite": [
+        "Sentinel-1"
+      ],
+      "sensor": [
+        "C-SAR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/MCD_S14Amazonas_detections/thumbnail.jpg"
+      ],
+      "tags": [
+        "Copernicus",
+        "Forest disturbance"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./greenhouse_gases/collection.json",
+      "type": "application/json",
+      "title": "Carbon Dioxide at city level from GOSAT",
+      "subtitle": "CO2 emissions over large cities [ppmv]",
+      "code": "N2_greenhouse_gases",
+      "id": "greenhouse_gases",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "N2_greenhouse_gases",
+      "satellite": [
+        "GOSAT"
+      ],
+      "sensor": [
+        "TANSO-FTS",
+        "TANSO-CAI"
+      ],
+      "cities": [
+        "New York",
+        "Dhaka",
+        "Mumbai",
+        "Tokyo",
+        "Shanghai",
+        "Beijing",
+        "New Delhi"
+      ],
+      "countries": [
+        "JP",
+        "US",
+        "BD",
+        "IN",
+        "CN"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg"
+      ],
+      "tags": [
+        "Air quality",
+        "CO2",
+        "Open data",
+        "GHG",
+        "Greenhouse gases"
+      ],
+      "agency": [
+        "JAXA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N3a2_chl_concentration_tri_nasa/collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration from MODIS",
+      "subtitle": "Chlorophyll-a concentration maps",
+      "code": "N3a2_chl_nasa",
+      "id": "N3a2_chl_concentration_tri_nasa",
+      "themes": [
+        "water"
+      ],
+      "subcode": "N3a2_chl_nasa",
+      "satellite": [
+        "Acqua"
+      ],
+      "sensor": [
+        "MODIS"
+      ],
+      "cities": [
+        "San Francisco",
+        "North Adriatic",
+        "New York"
+      ],
+      "countries": [
+        "US",
+        "IT"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg"
+      ],
+      "yAxis": "%",
+      "tags": [
+        "Water quality",
+        "Marine",
+        "Acqua",
+        "MODIS",
+        "Open data",
+        "Marine monitoring",
+        "Chlorophyll-a"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./N3a2_total_suspended_matter_tri_nasa/collection.json",
+      "type": "application/json",
+      "title": "Total suspended matter maps from MODIS",
+      "subtitle": "Total suspended matter maps",
+      "code": "N3a2_tsm_nasa",
+      "id": "N3a2_total_suspended_matter_tri_nasa",
+      "themes": [
+        "water"
+      ],
+      "subcode": "N3a2_tsm_nasa",
+      "satellite": [
+        "Acqua"
+      ],
+      "sensor": [
+        "MODIS"
+      ],
+      "cities": [
+        "San Francisco",
+        "North Adriatic",
+        "New York"
+      ],
+      "countries": [
+        "US",
+        "IT"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.jpg"
+      ],
+      "yAxis": "%",
+      "tags": [
+        "Water quality",
+        "Marine",
+        "Acqua",
+        "MODIS",
+        "Open data",
+        "Marine monitoring",
+        "Total Suspended Matter"
+      ],
+      "agency": [
+        "NASA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Sentinel-3-SLSTR-L2-LST/collection.json",
+      "type": "application/json",
+      "title": "Land Surface Temperature (Sentinel-3 SLSTR L2)",
+      "code": "SLSTR1",
+      "id": "Sentinel-3-SLSTR-L2-LST",
+      "themes": [
+        "extreme-events"
+      ],
+      "subcode": "SLSTR1",
+      "satellite": [
+        "Sentinel-3"
+      ],
+      "sensor": [
+        "SLSTR"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SLSTR1_Sentinel-3-SLSTR-L2-LST/SLSTR1_Sentinel-3-SLSTR-L2-LST.jpg"
+      ],
+      "tags": [
+        "Copernicus Data Space Ecosystem",
+        "Open data"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "https://eurodatacube.github.io/eodash-catalog/trilateral/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Earth Observing Dashboard"
+}

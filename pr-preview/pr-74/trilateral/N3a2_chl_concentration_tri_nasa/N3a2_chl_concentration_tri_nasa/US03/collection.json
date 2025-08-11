@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "id": "US03",
+  "stac_version": "1.1.0",
+  "description": "San Francisco - US",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration from MODIS"
+    }
+  ],
+  "subcode": "N3a2_chl_nasa",
+  "subtitle": "Chlorophyll-a concentration maps",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg",
+  "yAxis": "%",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Water quality",
+    "Marine",
+    "Acqua",
+    "MODIS",
+    "Open data",
+    "Marine monitoring",
+    "Chlorophyll-a"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "sensor": [
+    "MODIS"
+  ],
+  "satellite": [
+    "Acqua"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      -100,
+      100
+    ],
+    "range": [
+      "#053264",
+      "#7fb9d7",
+      "#ffffff",
+      "#e68764",
+      "#731432"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Chl-a anomaly [%]"
+  },
+  "title": "San Francisco",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -122.6033,
+          37.39634,
+          -121.69693,
+          38.15399
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-03-02T00:00:00Z",
+          "2021-04-24T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

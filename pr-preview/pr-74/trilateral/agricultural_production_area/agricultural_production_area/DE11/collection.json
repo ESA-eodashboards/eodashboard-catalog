@@ -1,0 +1,88 @@
+{
+  "type": "Collection",
+  "id": "DE11",
+  "stac_version": "1.1.0",
+  "description": "Brandenburg Region - DE",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - area"
+    }
+  ],
+  "subcode": "E10a2",
+  "subtitle": "Agricultural production in Europe",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a2_agricultural_production_area/E10a2_agricultural_production_area.jpg",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "Copernicus",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "title": "Brandenburg Region",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11.26573,
+          51.36071,
+          14.76504,
+          53.5587
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-03-14T10:10:19Z",
+          "2020-06-27T10:10:31Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Université catholique de Louvain",
+      "url": "https://uclouvain.be/en/index.html"
+    },
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a2_agricultural_production_area/E10a2_agricultural_production_area.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
