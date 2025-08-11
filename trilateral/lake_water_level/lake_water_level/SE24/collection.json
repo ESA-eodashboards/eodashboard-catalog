@@ -17,7 +17,32 @@
       "title": "Lakes water level"
     }
   ],
-  "subcode": "SE24",
+  "subcode": "LWL",
+  "sci:publications": [
+    {
+      "citation": "Carrea, L., Crétaux, JF., Liu, X. et al. Satellite-derived multivariate world-wide lake physical variable timeseries for climate studies. Sci Data 10, 30 (2023).",
+      "doi": "10.1038/s41597-022-01889-z"
+    }
+  ],
+  "subtitle": "Lake water level (CCI LWL)",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LWL_lake_water_level/LWL_lake_water_level.jpg",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Climate Change Initiative",
+    "climate change initiative",
+    "Lakes",
+    "Water quality",
+    "Multi-sensors",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "satellite": [
+    "Other"
+  ],
   "title": "/",
   "extent": {
     "spatial": {
@@ -39,5 +64,76 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "ESA",
+      "url": "https://www.esa.int/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LWL_lake_water_level/LWL_lake_water_level.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://climate.esa.int/en/projects/lakes/key-documents-lakes/",
+      "type": "text/html",
+      "title": "Data Documentation",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://climate.esa.int/en/projects/lakes/about/",
+      "type": "text/html",
+      "title": "CCI Lakes project website",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://catalogue.ceda.ac.uk/uuid/a07deacaffb8453e93d57ee214676304",
+      "type": "text/html",
+      "title": "Data Source",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_4": {
+      "href": "https://www.earthsystemdatalab.net/",
+      "type": "text/html",
+      "title": "DeepESDL (Earth System Data Lab)",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_5": {
+      "href": "https://viewer.earthsystemdatalab.net/",
+      "type": "text/html",
+      "title": "Lexcube - visualise datasets in a 3D cube",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_6": {
+      "href": "https://viewer.earthsystemdatalab.net/",
+      "type": "text/html",
+      "title": "xcube viewer - visualise DeepESDL datacubes (zarr) on the web",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_7": {
+      "href": "https://collections.eurodatacube.com/climate-change-initiative/",
+      "type": "text/html",
+      "title": "Euro Data Cube CCI Essential Climate Variables collection",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

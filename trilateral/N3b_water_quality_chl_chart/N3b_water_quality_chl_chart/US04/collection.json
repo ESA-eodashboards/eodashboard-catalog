@@ -17,7 +17,42 @@
       "title": "Chlorophyll-a concentration"
     }
   ],
-  "subcode": "US04",
+  "subcode": "N3b_chl",
+  "subtitle": "Chlorophyll-a concentration time series",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.jpg",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Water quality",
+    "Marine",
+    "Copernicus Services",
+    "Sentinel-3",
+    "Acqua",
+    "GCOM-C",
+    "OLCI",
+    "SGLI",
+    "MODIS",
+    "Open data",
+    "Marine monitoring",
+    "Chlorophyll-a",
+    "COVID-19"
+  ],
+  "agency": [
+    "ESA",
+    "JAXA",
+    "NASA"
+  ],
+  "sensor": [
+    "OLCI",
+    "SGLI",
+    "MODIS"
+  ],
+  "satellite": [
+    "Sentinel-3",
+    "GCOM-C",
+    "Acqua"
+  ],
   "title": "New York",
   "extent": {
     "spatial": {
@@ -39,5 +74,28 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "ESA",
+      "url": "https://sentinel.esa.int/web/sentinel/"
+    },
+    {
+      "name": "JAXA",
+      "url": "https://global.jaxa.jp/"
+    },
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

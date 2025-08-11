@@ -17,27 +17,93 @@
       "title": "Parked Airplanes"
     }
   ],
-  "subcode": "US041",
+  "subcode": "E13b",
+  "subtitle": "Grounded airplanes during the novel coronavirus pandemic",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg",
+  "themes": [
+    "economy",
+    "covid-19"
+  ],
+  "tags": [
+    "Copernicus Services",
+    "Open data",
+    "COVID-19",
+    "Mobility",
+    "Community",
+    "Air traffic"
+  ],
+  "agency": [
+    "ESA",
+    "NASA",
+    "JAXA"
+  ],
+  "sensor": [
+    "PALSAR-2",
+    "C-SAR",
+    "MSI",
+    "PSB.SD"
+  ],
+  "satellite": [
+    "ALOS-2",
+    "Sentinel-1",
+    "Sentinel-2",
+    "PlanetScope"
+  ],
   "title": "New York",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -73.825,
+          40.62,
+          -73.753,
+          40.664
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          null,
-          null
+          "2020-01-16T00:00:00Z",
+          "2020-10-06T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "JAXA",
+      "url": "https://global.jaxa.jp/"
+    },
+    {
+      "name": "ESA",
+      "url": "https://sentinel.esa.int/web/sentinel/"
+    },
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/"
+    },
+    {
+      "name": "planet",
+      "url": "https://www.planet.com/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

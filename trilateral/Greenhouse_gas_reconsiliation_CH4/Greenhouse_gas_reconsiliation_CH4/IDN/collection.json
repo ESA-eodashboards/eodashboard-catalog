@@ -17,7 +17,25 @@
       "title": "Methane from CCI RECCAP2"
     }
   ],
-  "subcode": "IDN",
+  "subcode": "GGI_CH4",
+  "sci:doi": "10.5281/zenodo.10841716",
+  "sci:citation": "Zhu Deng, Philippe Ciais, Liting Hu, Martinez, A., Saunois, M., Thompson, R., & Frédéric Chevallier. (2024). Global greenhouse gas reconciliation 2022 [Data set]. Zenodo.\n",
+  "subtitle": "CH4 from National greenhouse gas inventories (NGHGI) database",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_CH4/GGI_CH4.jpg",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "CH4",
+    "Open data",
+    "reconciliation"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "satellite": [
+    "Other"
+  ],
   "title": "Indonesia",
   "extent": {
     "spatial": {
@@ -39,5 +57,21 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "ESA",
+      "roles": "licensor, producer, processor",
+      "url": "https://climate.esa.int/en/projects/reccap-2/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_CH4/GGI_CH4.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

@@ -184,10 +184,10 @@
     "spatial": {
       "bbox": [
         [
-          -0.4680423952680147,
-          41.79710100142961,
-          12.263597669510512,
-          51.47971629664502
+          -122.565,
+          33.93,
+          140.406,
+          51.4794056
         ]
       ]
     },
@@ -228,42 +228,42 @@
       "covid-19"
     ],
     "satellite": [
-      "PlanetScope",
+      "Sentinel-1",
       "ALOS-2",
       "Sentinel-2",
-      "Sentinel-1"
+      "PlanetScope"
     ],
     "sensor": [
       "PALSAR-2",
       "PSB.SD",
-      "MSI",
-      "C-SAR"
+      "C-SAR",
+      "MSI"
     ],
     "cities": [
-      "Ontario",
-      "Los Angeles",
-      "San Francisco",
-      "San Jose",
-      "Heathrow",
-      "Oakland",
-      "Hayward",
-      "Napa",
-      "Buchannan",
-      "Beijing Daxing",
-      "Paris",
       "New York",
-      "Narita",
       "Rome",
-      "Newark",
+      "Buchannan",
       "Beijing",
-      "Marin"
+      "Heathrow",
+      "Ontario",
+      "Oakland",
+      "Newark",
+      "Los Angeles",
+      "Hayward",
+      "Paris",
+      "Beijing Daxing",
+      "Narita",
+      "Napa",
+      "Marin",
+      "San Jose",
+      "San Francisco"
     ],
     "countries": [
       "JP",
       "US",
-      "FR",
       "IT",
       "CN",
+      "FR",
       "GB"
     ],
     "thumbnail": [

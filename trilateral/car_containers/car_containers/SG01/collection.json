@@ -11,76 +11,48 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./SG01/2020/2020-01-07T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-01-07T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./SG01/2020/2020-02-12T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-02-12T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./SG01/2020/2020-04-12T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-04-12T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./SG01/2020/2020-04-24T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-04-24T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./SG01/2020/2020-05-06T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-06T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./SG01/2020/2020-05-18T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-18T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./SG01/2020/2020-05-30T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-30T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./SG01/2020/2020-06-11T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-06-11T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./SG01/2020/2020-06-23T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-06-23T00:00:00Z"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Car containers"
     }
   ],
-  "subcode": "SG01",
+  "subcode": "E9",
+  "subtitle": "Change in the number of new cars at automobile factory",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Mobility",
+    "SAR",
+    "Multi-sensors",
+    "Production",
+    "Finished goods",
+    "Automotive",
+    "Motor vehicles"
+  ],
+  "agency": [
+    "JAXA",
+    "ESA"
+  ],
+  "sensor": [
+    "PALSAR-2",
+    "C-SAR"
+  ],
+  "satellite": [
+    "ALOS-2",
+    "Sentinel-1"
+  ],
   "title": "Singapore",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          103.83766299999999,
-          1.254856,
-          103.857663,
-          1.274856
+          103.79106908,
+          1.22839947,
+          103.89963395,
+          1.33714062
         ]
       ]
     },
@@ -93,5 +65,32 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "JAXA",
+      "url": "https://global.jaxa.jp/"
+    },
+    {
+      "name": "ESA",
+      "url": "https://www.esa.int/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

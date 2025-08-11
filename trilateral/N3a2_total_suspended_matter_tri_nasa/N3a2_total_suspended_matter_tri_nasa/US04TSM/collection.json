@@ -11,22 +11,67 @@
       "title": "Earth Observing Dashboard"
     },
     {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Total suspended matter maps from MODIS"
     }
   ],
-  "subcode": "US04TSM",
+  "subcode": "N3a2_tsm_nasa",
+  "subtitle": "Total suspended matter maps",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.jpg",
+  "yAxis": "%",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Water quality",
+    "Marine",
+    "Acqua",
+    "MODIS",
+    "Open data",
+    "Marine monitoring",
+    "Total Suspended Matter"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "sensor": [
+    "MODIS"
+  ],
+  "satellite": [
+    "Acqua"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      -100,
+      100
+    ],
+    "range": [
+      "#053264",
+      "#7fb9d7",
+      "#ffffff",
+      "#e68764",
+      "#731432"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Total suspended matter anomaly [%]"
+  },
   "title": "New York",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -73.10000000000001,
-          41.001400000000004,
-          -73.08,
-          41.0214
+          -74.16735,
+          40.17179,
+          -70.97122,
+          41.5339
         ]
       ]
     },
@@ -39,5 +84,35 @@
       ]
     }
   },
-  "license": "other"
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

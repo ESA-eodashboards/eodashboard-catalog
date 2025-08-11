@@ -11,24 +11,6 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./N1_NO2_jaxa/2018/2018-06-30T11:59:59Z.json",
-      "type": "application/geo+json",
-      "datetime": "2018-06-30T11:59:59Z"
-    },
-    {
-      "rel": "item",
-      "href": "./N1_NO2_jaxa/2019/2019-02-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2019-02-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./N1_NO2_jaxa/2019/2019-10-05T11:59:59Z.json",
-      "type": "application/geo+json",
-      "datetime": "2019-10-05T11:59:59Z"
-    },
-    {
       "rel": "wms",
       "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
@@ -122,6 +104,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "legend": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_jaxa/N1_NO2_jaxa_legend.png",
       "type": "image/png",

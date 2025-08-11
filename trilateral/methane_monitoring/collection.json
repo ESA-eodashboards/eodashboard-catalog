@@ -166,6 +166,12 @@
           -90.0,
           180.0,
           90.0
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
@@ -173,7 +179,7 @@
       "interval": [
         [
           "2018-04-30T00:00:00Z",
-          "2025-06-02T00:00:00Z"
+          "2025-07-28T00:00:00Z"
         ]
       ]
     }
@@ -201,12 +207,12 @@
       "atmosphere"
     ],
     "satellite": [
-      "GOSAT",
-      "Sentinel-5P"
+      "Sentinel-5P",
+      "GOSAT"
     ],
     "sensor": [
-      "TROPOMI",
-      "TANSO"
+      "TANSO",
+      "TROPOMI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.jpg"

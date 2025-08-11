@@ -11,96 +11,6 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./byoc-187112e0-de59-46f1-af76-86d7aec33c9e/2021/ad3e1260-0e43-44c4-ada4-a1c0d77b3168.json",
-      "type": "application/geo+json",
-      "datetime": "2021-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-187112e0-de59-46f1-af76-86d7aec33c9e/2020/2829555f-7d64-4f4a-b011-7814ed702f19.json",
-      "type": "application/geo+json",
-      "datetime": "2020-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-187112e0-de59-46f1-af76-86d7aec33c9e/2019/e40ad0a3-b2f8-490f-9c38-4703253b6c81.json",
-      "type": "application/geo+json",
-      "datetime": "2019-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-187112e0-de59-46f1-af76-86d7aec33c9e/2018/9b64a1dd-9c5b-4c36-9936-593d8f1a90d3.json",
-      "type": "application/geo+json",
-      "datetime": "2018-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-187112e0-de59-46f1-af76-86d7aec33c9e/2017/a990298f-57b1-4a79-bc67-40b65a6f9e52.json",
-      "type": "application/geo+json",
-      "datetime": "2017-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-187112e0-de59-46f1-af76-86d7aec33c9e/2016/341909c0-f6cb-40e2-9b39-39a0c02f5809.json",
-      "type": "application/geo+json",
-      "datetime": "2016-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-187112e0-de59-46f1-af76-86d7aec33c9e/2015/6a1d3a21-3fe0-4db6-9411-00d0e4b9fca1.json",
-      "type": "application/geo+json",
-      "datetime": "2015-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-187112e0-de59-46f1-af76-86d7aec33c9e/2014/b3b89161-3883-47e6-b438-34b9ca46b555.json",
-      "type": "application/geo+json",
-      "datetime": "2014-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-187112e0-de59-46f1-af76-86d7aec33c9e/2013/9d9bdd7d-bf81-4cbe-812a-8a000040b3e2.json",
-      "type": "application/geo+json",
-      "datetime": "2013-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-187112e0-de59-46f1-af76-86d7aec33c9e/2012/56abbfae-cfcd-4183-8dbf-997630372a38.json",
-      "type": "application/geo+json",
-      "datetime": "2012-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-187112e0-de59-46f1-af76-86d7aec33c9e/2011/ddddf370-00a8-4115-96d3-851bd8e754e2.json",
-      "type": "application/geo+json",
-      "datetime": "2011-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-187112e0-de59-46f1-af76-86d7aec33c9e/2010/cbc83309-34ae-4c95-be8e-7b16fa951791.json",
-      "type": "application/geo+json",
-      "datetime": "2010-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-187112e0-de59-46f1-af76-86d7aec33c9e/2009/7231c795-3c12-4a1a-902f-2e1245ddffac.json",
-      "type": "application/geo+json",
-      "datetime": "2009-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-187112e0-de59-46f1-af76-86d7aec33c9e/2008/bcacc0f9-3acc-46f6-b479-3253d6ddc573.json",
-      "type": "application/geo+json",
-      "datetime": "2008-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-187112e0-de59-46f1-af76-86d7aec33c9e/2007/7fc067ba-f329-4b7b-8d07-5297c0e7b7a7.json",
-      "type": "application/geo+json",
-      "datetime": "2007-01-01T00:00:00Z"
-    },
-    {
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
@@ -236,6 +146,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "legend": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Duration/legend.png",
       "type": "image/png",

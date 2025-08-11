@@ -11,20 +11,6 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./hls-ndvi/2022/ndvi_cog_2022-09-30_day.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/hls-ndvi/ndvi_cog_2022-09-30_day.tif",
-      "datetime": "2022-09-30T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./hls-ndvi/2022/ndvi_cog_2022-09-05_day.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/hls-ndvi/ndvi_cog_2022-09-05_day.tif",
-      "datetime": "2022-09-05T00:00:00Z"
-    },
-    {
       "rel": "xyz",
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=cfastie&rescale=-1,1",
       "type": "image/png",
@@ -128,6 +114,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "legend": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/HLS_NDVI/cm_legend.png",
       "type": "image/png",

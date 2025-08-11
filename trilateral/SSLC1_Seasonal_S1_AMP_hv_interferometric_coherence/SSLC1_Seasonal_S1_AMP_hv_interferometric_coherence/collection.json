@@ -11,30 +11,6 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./byoc-b63afeed-f970-4c0e-9ecf-e216979f9642/2020/2d96aa0d-5170-4979-b00e-e9e3eb1d3308.json",
-      "type": "application/geo+json",
-      "datetime": "2020-09-21T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-b63afeed-f970-4c0e-9ecf-e216979f9642/2020/1122d502-5c53-413e-b4b1-e32de792ac8e.json",
-      "type": "application/geo+json",
-      "datetime": "2020-06-21T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-b63afeed-f970-4c0e-9ecf-e216979f9642/2020/48005ea2-971d-4be4-8d7e-29b34117a4d8.json",
-      "type": "application/geo+json",
-      "datetime": "2020-03-21T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./byoc-b63afeed-f970-4c0e-9ecf-e216979f9642/2019/23ec25b0-d1f8-4808-b7fb-816a724584d3.json",
-      "type": "application/geo+json",
-      "datetime": "2019-12-21T00:00:00Z"
-    },
-    {
       "rel": "license",
       "href": "http://creativecommons.org/licenses/by/4.0/legalcode",
       "type": "text/html"
@@ -138,6 +114,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence/SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence.jpg",
       "type": "image/png",

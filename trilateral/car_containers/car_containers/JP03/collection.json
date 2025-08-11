@@ -11,256 +11,48 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./JP03/2019/2019-11-27T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2019-11-27T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-01-03T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-01-03T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-01-27T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-01-27T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-01-31T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-01-31T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-02-08T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-02-08T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-02-20T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-02-20T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-03-01T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-03-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-03-03T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-03-03T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-03-04T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-03-04T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-03-15T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-03-15T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-03-27T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-03-27T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-04-20T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-04-20T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-05-02T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-02T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-05-08T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-08T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-05-14T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-14T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-05-26T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-05-26T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-06-01T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-06-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-06-07T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-06-07T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-06-10T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-06-10T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-06-13T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-06-13T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-06-24T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-06-24T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-07-01T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-07-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-07-25T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-07-25T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-08-08T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-08-08T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-08-16T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-08-16T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-10-07T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-10-07T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-11-08T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-11-08T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2020/2020-11-27T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2020-11-27T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2021/2021-01-29T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2021-01-29T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2021/2021-02-28T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2021-02-28T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2021/2021-03-03T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2021-03-03T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2021/2021-05-07T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2021-05-07T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2021/2021-06-09T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2021-06-09T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2021/2021-06-23T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2021-06-23T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2021/2021-08-18T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2021-08-18T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2021/2021-10-19T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2021-10-19T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2021/2021-10-22T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2021-10-22T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2021/2021-11-24T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2021-11-24T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./JP03/2022/2022-01-28T00:00:00.json",
-      "type": "application/geo+json",
-      "datetime": "2022-01-28T00:00:00Z"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Car containers"
     }
   ],
-  "subcode": "JP03",
+  "subcode": "E9",
+  "subtitle": "Change in the number of new cars at automobile factory",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Mobility",
+    "SAR",
+    "Multi-sensors",
+    "Production",
+    "Finished goods",
+    "Automotive",
+    "Motor vehicles"
+  ],
+  "agency": [
+    "JAXA",
+    "ESA"
+  ],
+  "sensor": [
+    "PALSAR-2",
+    "C-SAR"
+  ],
+  "satellite": [
+    "ALOS-2",
+    "Sentinel-1"
+  ],
   "title": "Nagoya",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          136.87,
-          35.07,
-          136.89,
-          35.089999999999996
+          136.74201569988466,
+          34.93867142383858,
+          136.95693574382997,
+          35.13376088778208
         ]
       ]
     },
@@ -273,5 +65,32 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "JAXA",
+      "url": "https://global.jaxa.jp/"
+    },
+    {
+      "name": "ESA",
+      "url": "https://www.esa.int/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

@@ -159,6 +159,12 @@
           26.31173859507485,
           -81.9037040761012,
           27.035837664631245
+        ],
+        [
+          -82.37631113903603,
+          26.31173859507485,
+          -81.9037040761012,
+          27.035837664631245
         ]
       ]
     },
@@ -198,8 +204,8 @@
       "Sentinel-2"
     ],
     "sensor": [
-      "OLI",
-      "MSI"
+      "MSI",
+      "OLI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/HLS_NDVI/thumbnail.jpg"

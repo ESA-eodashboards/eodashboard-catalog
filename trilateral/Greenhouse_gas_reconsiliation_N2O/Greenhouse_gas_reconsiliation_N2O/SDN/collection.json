@@ -17,7 +17,25 @@
       "title": "Nitrous oxide from CCI RECCAP2"
     }
   ],
-  "subcode": "SDN",
+  "subcode": "GGI_N2O",
+  "sci:doi": "10.5281/zenodo.10841716",
+  "sci:citation": "Zhu Deng, Philippe Ciais, Liting Hu, Martinez, A., Saunois, M., Thompson, R., & Frédéric Chevallier. (2024). Global greenhouse gas reconciliation 2022 [Data set]. Zenodo.\n",
+  "subtitle": "N2O from National greenhouse gas inventories (NGHGI) database",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_N2O/GGI_N2O.jpg",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "NO2",
+    "Open data",
+    "Greenhouse gases"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "satellite": [
+    "Other"
+  ],
   "title": "Sudan",
   "extent": {
     "spatial": {
@@ -39,5 +57,21 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "ESA",
+      "roles": "licensor, producer, processor",
+      "url": "https://climate.esa.int/en/projects/reccap-2/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_N2O/GGI_N2O.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

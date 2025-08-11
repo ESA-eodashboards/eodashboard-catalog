@@ -17,60 +17,6 @@
       "title": "xcube tiles"
     },
     {
-      "rel": "item",
-      "href": "./RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/2011/2011-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2011-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/2012/2012-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2012-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/2013/2013-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2013-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/2014/2014-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2014-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/2015/2015-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2015-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/2016/2016-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2016-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/2017/2017-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2017-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/2018/2018-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2018-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/2019/2019-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2019-01-01T00:00:00Z"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -164,6 +110,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "legend": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/RECCAP2_1_legend.png",
       "type": "image/png",

@@ -11,13 +11,6 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./facebook_population_density/2015/hrsl_general_latest_global_cog_2015-01-01_2022-06-8.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/facebook_population_density/hrsl_general_latest_global_cog_2015-01-01_2022-06-8.tif",
-      "datetime": "2015-01-01T00:00:00Z"
-    },
-    {
       "rel": "xyz",
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=ylorrd&rescale=0,70",
       "type": "image/png",
@@ -104,6 +97,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "legend": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/FB_legend.png",
       "type": "image/png",

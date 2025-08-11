@@ -17,27 +17,72 @@
       "title": "Car containers"
     }
   ],
-  "subcode": "US052",
+  "subcode": "E9",
+  "subtitle": "Change in the number of new cars at automobile factory",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Mobility",
+    "SAR",
+    "Multi-sensors",
+    "Production",
+    "Finished goods",
+    "Automotive",
+    "Motor vehicles"
+  ],
+  "agency": [
+    "JAXA",
+    "ESA"
+  ],
+  "sensor": [
+    "PALSAR-2",
+    "C-SAR"
+  ],
+  "satellite": [
+    "ALOS-2",
+    "Sentinel-1"
+  ],
   "title": "Palm Springs",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          null,
-          null
+          "1970-01-01T00:00:00Z",
+          "2025-08-11T12:38:55.546837Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "JAXA",
+      "url": "https://global.jaxa.jp/"
+    },
+    {
+      "name": "ESA",
+      "url": "https://www.esa.int/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

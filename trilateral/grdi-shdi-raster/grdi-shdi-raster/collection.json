@@ -11,14 +11,6 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./grdi-shdi-raster/2018/povmap-grdi-v1_SHDI_2018-01-01_2018-12-31.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/grdi-shdi-raster/povmap-grdi-v1_SHDI_2018-01-01_2018-12-31.tif",
-      "start_datetime": "2018-01-01T00:00:00Z",
-      "end_datetime": "2018-12-31T00:00:00Z"
-    },
-    {
       "rel": "xyz",
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=viridis&rescale=0.0,100.0",
       "type": "image/png",
@@ -93,7 +85,7 @@
       "interval": [
         [
           "2018-01-01T00:00:00Z",
-          "2018-12-31T00:00:00Z"
+          "2018-01-01T00:00:00Z"
         ]
       ]
     }
@@ -106,6 +98,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "legend": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-v1-built/cm_legend.png",
       "type": "image/png",

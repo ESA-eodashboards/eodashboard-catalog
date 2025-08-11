@@ -145,6 +145,12 @@
           -90.0,
           180.0,
           90.0
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
@@ -180,8 +186,8 @@
       "ENSST"
     ],
     "themes": [
-      "extreme-events",
-      "water"
+      "water",
+      "extreme-events"
     ],
     "satellite": [
       "GCOM-W"

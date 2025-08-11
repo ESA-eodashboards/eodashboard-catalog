@@ -17,7 +17,23 @@
       "title": "Local Precipitation from GCOM-W"
     }
   ],
-  "subcode": "BR04",
+  "subcode": "PRCTS",
+  "subtitle": "Precipitation Timeseries",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCTS_precipitation_timeseries/PRCTS_precipitation_timeseries.jpg",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "Precipitation",
+    "Rainfall",
+    "Multi-sensors"
+  ],
+  "agency": [
+    "JAXA"
+  ],
+  "satellite": [
+    "Other"
+  ],
   "title": "Paraná",
   "extent": {
     "spatial": {
@@ -39,5 +55,93 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "JAXA",
+      "roles": "licensor, producer, processor",
+      "url": "https://global.jaxa.jp/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCTS_precipitation_timeseries/PRCTS_precipitation_timeseries.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://suzaku.eorc.jaxa.jp/JASMIN/index.html",
+      "type": "text/html",
+      "title": "JAXA's Satellite based MonItoring Network system for FAO AMIS Market Monitor",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://jasmai.maff.go.jp/",
+      "type": "text/html",
+      "title": "JASMAI",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://jasmai.maff.go.jp/user_guide/#item_2_7",
+      "type": "text/html",
+      "title": "JASMAI user guide",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_4": {
+      "href": "http://www.eorc.jaxa.jp/",
+      "type": "text/html",
+      "title": "JAXA Earth Observation Research Center (EORC)",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_5": {
+      "href": "https://gportal.jaxa.jp/gpr/?lang=en",
+      "type": "text/html",
+      "title": "Earth observation satellite data provision system (G-Portal)",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_6": {
+      "href": "https://sharaku.eorc.jaxa.jp/AMSR/index_j.html",
+      "type": "text/html",
+      "title": "AMSR/AMSR-E",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_7": {
+      "href": "https://suzaku.eorc.jaxa.jp/GCOM_W/index_j.html",
+      "type": "text/html",
+      "title": "GCOM-W",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_8": {
+      "href": "https://sharaku.eorc.jaxa.jp/GSMaP/index_j.htm",
+      "type": "text/html",
+      "title": "Satellite Global Precipitation Map (GSMaP)",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_9": {
+      "href": "https://kuroshio.eorc.jaxa.jp/JASMES/index_j.html",
+      "type": "text/html",
+      "title": "Climate Formation Physical Quantity Dataset (JASMES)",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

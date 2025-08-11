@@ -17,7 +17,25 @@
       "title": "Carbon Dioxide from CCI RECCAP2"
     }
   ],
-  "subcode": "COL",
+  "subcode": "GGI_CO2",
+  "sci:doi": "10.5281/zenodo.10841716",
+  "sci:citation": "Zhu Deng, Philippe Ciais, Liting Hu, Martinez, A., Saunois, M., Thompson, R., & Frédéric Chevallier. (2024). Global greenhouse gas reconciliation 2022 [Data set]. Zenodo.\n",
+  "subtitle": "CO2 from National greenhouse gas inventories (NGHGI) database",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_CO2/GGI_CO2.jpg",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "CO2",
+    "Open data",
+    "Greenhouse gases"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "satellite": [
+    "Other"
+  ],
   "title": "Colombia",
   "extent": {
     "spatial": {
@@ -39,5 +57,21 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "ESA",
+      "roles": "licensor, producer, processor",
+      "url": "https://climate.esa.int/en/projects/reccap-2/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_CO2/GGI_CO2.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

@@ -11,30 +11,6 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./FNF_Palsar/2017/2017-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2017-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./FNF_Palsar/2018/2018-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2018-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./FNF_Palsar/2019/2019-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2019-01-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./FNF_Palsar/2020/2020-01-01T00:00:00Z.json",
-      "type": "application/geo+json",
-      "datetime": "2020-01-01T00:00:00Z"
-    },
-    {
       "rel": "wmts",
       "href": "https://ogcpreview1.restecmap.com/examind/api/WS/wmts/JAXA_WMTS_Preview",
       "type": "image/png",
@@ -120,6 +96,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "legend": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/FNF_Palsar/FNF_legend.png",
       "type": "image/png",

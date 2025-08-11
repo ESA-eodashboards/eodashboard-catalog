@@ -17,27 +17,105 @@
       "title": "Carbon Dioxide at city level from GOSAT"
     }
   ],
-  "subcode": "BD01",
+  "subcode": "N2_greenhouse_gases",
+  "subtitle": "CO2 emissions over large cities [ppmv]",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "Air quality",
+    "CO2",
+    "Open data",
+    "GHG",
+    "Greenhouse gases"
+  ],
+  "agency": [
+    "JAXA"
+  ],
+  "sensor": [
+    "TANSO-FTS",
+    "TANSO-CAI"
+  ],
+  "satellite": [
+    "GOSAT"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      -12.5,
+      12.5
+    ],
+    "range": [
+      "#000080",
+      "#0000d9",
+      "#001dff",
+      "#006cff",
+      "#00baff",
+      "#1cffda",
+      "#5cff9b",
+      "#9bff5c",
+      "#daff1c",
+      "#ffce00",
+      "#ff8500",
+      "#ff3c00",
+      "#d90000",
+      "#800000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "diff XCO2 [ppm]"
+  },
   "title": "Dhaka",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          90.28999999999999,
-          23.79,
-          90.31,
-          23.810000000000002
+          89.8,
+          23.3,
+          90.8,
+          24.3
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2016-04-01T00:00:00Z",
+          "2019-01-01T00:00:00Z",
           "2020-04-01T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "JAXA",
+      "roles": "licensor, producer, processor",
+      "url": "https://data2.gosat.nies.go.jp/index_en.html"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

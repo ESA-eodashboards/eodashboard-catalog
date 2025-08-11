@@ -17,27 +17,83 @@
       "title": "Shipping Activity at Major Ports"
     }
   ],
-  "subcode": "US01",
+  "subcode": "E13c",
+  "subtitle": "Ship detections in EO data at major international harbours",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Economy",
+    "Open data",
+    "Maritime",
+    "Copernicus",
+    "Shipping activity",
+    "Optical sensor"
+  ],
+  "agency": [
+    "ESA",
+    "NASA"
+  ],
+  "sensor": [
+    "MSI",
+    "PS2"
+  ],
+  "satellite": [
+    "Sentinel-2",
+    "PlanetScope"
+  ],
   "title": "New York",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          null,
-          null,
-          null,
-          null
+          -74.30329,
+          40.3952,
+          -73.61665,
+          40.77222
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          null,
-          null
+          "2020-01-02T00:00:00Z",
+          "2020-05-21T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "ESA",
+      "url": "https://sentinel.esa.int/web/sentinel/"
+    },
+    {
+      "name": "NASA’s Interagency Implementation and Advanced Concepts Team (IMPACT)",
+      "url": "https://www.earthdata.nasa.gov/esds/impact"
+    },
+    {
+      "name": "planet",
+      "url": "https://www.planet.com/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }

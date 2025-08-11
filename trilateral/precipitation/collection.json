@@ -222,6 +222,12 @@
           -90.0,
           180.0,
           90.0
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
@@ -250,39 +256,39 @@
       "agriculture"
     ],
     "satellite": [
-      "DMSP-F14",
-      "ADEOS-II",
-      "NOAA-N17",
-      "Aqua",
-      "NOAA-N15",
-      "TRMM",
       "NPP",
-      "GPM Core Observatory",
-      "DWSS-1",
-      "MetOp-A",
-      "DMSP-F11",
-      "MetOp-B",
-      "DMSP-F15",
-      "NOAA-N16",
-      "NOAA-N18",
-      "JPSS-1",
-      "Megha-Tropiques",
-      "NOAA-N19",
       "DMSP-F13",
-      "GCOM-W1"
+      "DWSS-1",
+      "ADEOS-II",
+      "Aqua",
+      "MetOp-B",
+      "GPM Core Observatory",
+      "NOAA-N19",
+      "Megha-Tropiques",
+      "TRMM",
+      "DMSP-F15",
+      "DMSP-F11",
+      "NOAA-N15",
+      "GCOM-W1",
+      "NOAA-N18",
+      "MetOp-A",
+      "NOAA-N16",
+      "DMSP-F14",
+      "JPSS-1",
+      "NOAA-N17"
     ],
     "sensor": [
-      "GMI",
-      "SSM/I",
-      "MADRAS",
-      "AMSR2",
-      "AMSR",
       "TMI",
-      "TBD",
+      "MADRAS",
+      "AMSU-A/AMSU-B",
       "AMSU-A/MHS",
       "AMSR-E",
-      "ATMS",
-      "AMSU-A/AMSU-B"
+      "AMSR2",
+      "SSM/I",
+      "TBD",
+      "AMSR",
+      "GMI",
+      "ATMS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.jpg"

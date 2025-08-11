@@ -75,6 +75,13 @@
       "endpoint": "STAC"
     },
     {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13c_tri?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -153,15 +160,16 @@
     "PlanetScope"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13b_parked_airplanes/chart.json",
   "title": "Shipping Activity at Major Ports",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          2.2753740000000002,
-          30.929554,
-          32.324923,
-          54.547858999999995
+          -122.63488,
+          29.81916,
+          32.78062,
+          54.54650770491618
         ]
       ]
     },
@@ -201,28 +209,28 @@
       "Sentinel-2"
     ],
     "sensor": [
-      "PS2",
-      "MSI"
+      "MSI",
+      "PS2"
     ],
     "cities": [
-      "Dunkirk",
-      "Los Angeles",
-      "San Francisco",
       "New York",
-      "Genoa",
-      "Ghent",
-      "Gdynia",
-      "Hamburg",
+      "Dunkirk",
       "Suez ",
-      "Suez"
+      "Suez",
+      "Hamburg",
+      "Genoa",
+      "Los Angeles",
+      "Gdynia",
+      "Ghent",
+      "San Francisco"
     ],
     "countries": [
-      "US",
-      "FR",
-      "IT",
       "PL",
+      "US",
       "DE",
+      "IT",
       "EG",
+      "FR",
       "BE"
     ],
     "thumbnail": [

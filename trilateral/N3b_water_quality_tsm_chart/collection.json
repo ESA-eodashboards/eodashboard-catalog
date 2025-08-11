@@ -205,24 +205,24 @@
       "water"
     ],
     "satellite": [
-      "GCOM-C",
       "Acqua",
-      "Sentinel-3"
+      "Sentinel-3",
+      "GCOM-C"
     ],
     "sensor": [
-      "MODIS",
+      "OLCI",
       "SGLI",
-      "OLCI"
+      "MODIS"
     ],
     "cities": [
-      "Venice",
-      "Tokyo",
       "Nagoya",
-      "Kobe"
+      "Kobe",
+      "Tokyo",
+      "Venice"
     ],
     "countries": [
-      "JP",
-      "IT"
+      "IT",
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.jpg"

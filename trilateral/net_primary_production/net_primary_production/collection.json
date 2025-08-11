@@ -11,102 +11,6 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./MO_NPP_npp_vgpm/2020/A_202012.L3m_MO_NPP_npp_vgpm_4km.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/MO_NPP_npp_vgpm/A_202012.L3m_MO_NPP_npp_vgpm_4km.tif",
-      "start_datetime": "2020-12-01T00:00:00Z",
-      "end_datetime": "2020-12-31T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./MO_NPP_npp_vgpm/2020/A_202011.L3m_MO_NPP_npp_vgpm_4km.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/MO_NPP_npp_vgpm/A_202011.L3m_MO_NPP_npp_vgpm_4km.tif",
-      "start_datetime": "2020-11-01T00:00:00Z",
-      "end_datetime": "2020-11-30T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./MO_NPP_npp_vgpm/2020/A_202010.L3m_MO_NPP_npp_vgpm_4km.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/MO_NPP_npp_vgpm/A_202010.L3m_MO_NPP_npp_vgpm_4km.tif",
-      "start_datetime": "2020-10-01T00:00:00Z",
-      "end_datetime": "2020-10-31T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./MO_NPP_npp_vgpm/2020/A_202009.L3m_MO_NPP_npp_vgpm_4km.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/MO_NPP_npp_vgpm/A_202009.L3m_MO_NPP_npp_vgpm_4km.tif",
-      "start_datetime": "2020-09-01T00:00:00Z",
-      "end_datetime": "2020-09-30T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./MO_NPP_npp_vgpm/2020/A_202008.L3m_MO_NPP_npp_vgpm_4km.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/MO_NPP_npp_vgpm/A_202008.L3m_MO_NPP_npp_vgpm_4km.tif",
-      "start_datetime": "2020-08-01T00:00:00Z",
-      "end_datetime": "2020-08-31T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./MO_NPP_npp_vgpm/2020/A_202007.L3m_MO_NPP_npp_vgpm_4km.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/MO_NPP_npp_vgpm/A_202007.L3m_MO_NPP_npp_vgpm_4km.tif",
-      "start_datetime": "2020-07-01T00:00:00Z",
-      "end_datetime": "2020-07-31T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./MO_NPP_npp_vgpm/2020/A_202006.L3m_MO_NPP_npp_vgpm_4km.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/MO_NPP_npp_vgpm/A_202006.L3m_MO_NPP_npp_vgpm_4km.tif",
-      "start_datetime": "2020-06-01T00:00:00Z",
-      "end_datetime": "2020-06-30T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./MO_NPP_npp_vgpm/2020/A_202005.L3m_MO_NPP_npp_vgpm_4km.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/MO_NPP_npp_vgpm/A_202005.L3m_MO_NPP_npp_vgpm_4km.tif",
-      "start_datetime": "2020-05-01T00:00:00Z",
-      "end_datetime": "2020-05-31T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./MO_NPP_npp_vgpm/2020/A_202004.L3m_MO_NPP_npp_vgpm_4km.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/MO_NPP_npp_vgpm/A_202004.L3m_MO_NPP_npp_vgpm_4km.tif",
-      "start_datetime": "2020-04-01T00:00:00Z",
-      "end_datetime": "2020-04-30T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./MO_NPP_npp_vgpm/2020/A_202003.L3m_MO_NPP_npp_vgpm_4km.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/MO_NPP_npp_vgpm/A_202003.L3m_MO_NPP_npp_vgpm_4km.tif",
-      "start_datetime": "2020-03-01T00:00:00Z",
-      "end_datetime": "2020-03-31T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./MO_NPP_npp_vgpm/2020/A_202002.L3m_MO_NPP_npp_vgpm_4km.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/MO_NPP_npp_vgpm/A_202002.L3m_MO_NPP_npp_vgpm_4km.tif",
-      "start_datetime": "2020-02-01T00:00:00Z",
-      "end_datetime": "2020-02-29T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./MO_NPP_npp_vgpm/2020/A_202001.L3m_MO_NPP_npp_vgpm_4km.json",
-      "type": "application/geo+json",
-      "cog_href": "s3://veda-data-store/MO_NPP_npp_vgpm/A_202001.L3m_MO_NPP_npp_vgpm_4km.tif",
-      "start_datetime": "2020-01-01T00:00:00Z",
-      "end_datetime": "2020-01-31T00:00:00Z"
-    },
-    {
       "rel": "xyz",
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=jet&rescale=0.0,1500.0",
       "type": "image/png",
@@ -198,7 +102,7 @@
       "interval": [
         [
           "2020-01-01T00:00:00Z",
-          "2020-12-31T00:00:00Z"
+          "2020-12-01T00:00:00Z"
         ]
       ]
     }
@@ -217,6 +121,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "legend": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPPN_net_primary_production/NPPN_legend.png",
       "type": "image/png",

@@ -11,78 +11,6 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "item",
-      "href": "./lakes_alos2_hh/2022/4cdb1e4e-cc2c-4736-ab96-f77bc6820b8e.json",
-      "type": "application/geo+json",
-      "datetime": "2022-12-14T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./lakes_alos2_hh/2022/defecc92-673c-47f5-9001-6b807fb54193.json",
-      "type": "application/geo+json",
-      "datetime": "2022-09-21T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./lakes_alos2_hh/2022/8e09f5e5-aa58-4f90-9169-d198fb087173.json",
-      "type": "application/geo+json",
-      "datetime": "2022-08-24T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./lakes_alos2_hh/2022/b383426a-6fcb-4099-8294-bbd91e672d98.json",
-      "type": "application/geo+json",
-      "datetime": "2022-07-13T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./lakes_alos2_hh/2022/1c7f581e-29e8-4aa1-a3d1-e0c524672dd4.json",
-      "type": "application/geo+json",
-      "datetime": "2022-06-01T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./lakes_alos2_hh/2022/e21873aa-b180-4827-8303-a03345c715fb.json",
-      "type": "application/geo+json",
-      "datetime": "2022-04-20T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./lakes_alos2_hh/2022/051d0bb5-7814-4bad-9269-1e1fd404f4fa.json",
-      "type": "application/geo+json",
-      "datetime": "2022-03-23T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./lakes_alos2_hh/2022/d15565b7-5de3-4e98-8f13-e16c31557f7f.json",
-      "type": "application/geo+json",
-      "datetime": "2022-02-09T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./lakes_alos2_hh/2021/ee5bef6b-ad36-47d8-b30b-38eb61277a00.json",
-      "type": "application/geo+json",
-      "datetime": "2021-11-03T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./lakes_alos2_hh/2020/2f09c70f-7f91-4676-b9a1-0a737dd46b44.json",
-      "type": "application/geo+json",
-      "datetime": "2020-11-04T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./lakes_alos2_hh/2017/a7612e2e-816e-428e-be8c-682312fdc56b.json",
-      "type": "application/geo+json",
-      "datetime": "2017-11-22T00:00:00Z"
-    },
-    {
-      "rel": "item",
-      "href": "./lakes_alos2_hh/2016/848fca4a-5e67-4bec-a760-538ab9c2041a.json",
-      "type": "application/geo+json",
-      "datetime": "2016-11-23T00:00:00Z"
-    },
-    {
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
@@ -157,6 +85,14 @@
     }
   ],
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_ALOS2/thumbnail.jpg",
       "type": "image/png",

@@ -17,7 +17,27 @@
       "title": "Nitrogen Dioxide at City level"
     }
   ],
-  "subcode": "ES01",
+  "subcode": "N1_NO2_city_trilateral",
+  "subtitle": "Total Column NO2 averaged over a 50x50 sqkm area",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "Air quality",
+    "NO2",
+    "Open data",
+    "Tropospheric"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "sensor": [
+    "TROPOMI"
+  ],
+  "satellite": [
+    "Sentinel-5P"
+  ],
   "title": "Madrid",
   "extent": {
     "spatial": {
@@ -39,5 +59,50 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "roles": "licensor, producer",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    },
+    {
+      "name": "ESA",
+      "roles": "processor",
+      "url": "https://www.esa.int/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P/Tropomi",
+      "type": "text/html",
+      "title": "Tropomi",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P/Air_pollution_remains_low_as_Europeans_stay_at_home",
+      "type": "text/html",
+      "title": "Air pollution remains low as Europeans stay at home",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://www.esa.int/ESA_Multimedia/Images/2020/04/NO2_concentrations_over_India",
+      "type": "text/html",
+      "title": "NO2 concentrations over India",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
 }

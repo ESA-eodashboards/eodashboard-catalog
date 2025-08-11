@@ -17,7 +17,22 @@
       "title": "People Mobility Reports"
     }
   ],
-  "subcode": "AE",
+  "subcode": "GG",
+  "subtitle": "People mobility data showing the impact of COVID-19 lockdown restrictions",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports.jpg",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Mobility",
+    "Traffic"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "insituSources": [
+    "Mobile"
+  ],
   "title": "/",
   "extent": {
     "spatial": {
@@ -39,5 +54,20 @@
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "providers": [
+    {
+      "name": "Google",
+      "url": "https://www.google.com/covid19/mobility/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
 }
