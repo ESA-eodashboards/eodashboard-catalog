@@ -130,7 +130,7 @@
     "Other"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/Lake_water_extent_tri_timeseries/chart.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/LWE_lake_water_extent/chart.json",
   "title": "Lakes water extent",
   "extent": {
     "spatial": {
