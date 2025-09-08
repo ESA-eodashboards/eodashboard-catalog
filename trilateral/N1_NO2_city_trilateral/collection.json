@@ -159,7 +159,7 @@
       "interval": [
         [
           "2018-05-07T00:00:00Z",
-          "2025-05-12T00:00:00Z"
+          "2025-06-23T00:00:00Z"
         ]
       ]
     }
@@ -191,26 +191,26 @@
       "TROPOMI"
     ],
     "cities": [
-      "New York",
       "Rome",
-      "Milan",
-      "Madrid",
-      "Beijing",
-      "Los Angeles",
-      "Mumbai",
       "New Delhi",
-      "Paris",
       "San Francisco",
-      "Tokyo"
+      "Los Angeles",
+      "Paris",
+      "Mumbai",
+      "Tokyo",
+      "Beijing",
+      "Milan",
+      "New York",
+      "Madrid"
     ],
     "countries": [
-      "JP",
-      "US",
       "IT",
       "IN",
+      "ES",
+      "JP",
       "CN",
-      "FR",
-      "ES"
+      "US",
+      "FR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg"
