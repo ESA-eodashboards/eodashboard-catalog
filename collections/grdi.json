@@ -8,12 +8,7 @@
       "Name": "VEDA",
       "EndPoint": "https://openveda.cloud/api/tiles/grdi-v1-raster/cog_default/{z}/{x}/{y}.png",
       "Type": "cog",
-      "CollectionId": "grdi-v1-raster",
-      "ColormapName": "viridis",
-      "Rescale": [
-        0,
-        100
-      ]
+      "CollectionId": "grdi-v1-raster"
     }
   ]
 }
