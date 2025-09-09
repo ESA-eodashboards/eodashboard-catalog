@@ -13,7 +13,8 @@
       "Rescale": [
         0,
         100
-      ]
+      ],
+      "ColormapName": "viridis"
     }
   ]
 }
