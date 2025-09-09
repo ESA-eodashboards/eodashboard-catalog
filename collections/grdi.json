@@ -6,9 +6,10 @@
   "Resources": [
     {
       "Name": "VEDA",
-      "EndPoint": "https://openveda.cloud/api/tiles/grdi-v1-raster/cog_default/{z}/{x}/{y}.png",
-      "Type": "tiles",
-      "CollectionId": "grdi-v1-raster"
+      "EndPoint": "https://openveda.cloud/api/stac/",
+      "Type": "cog",
+      "CollectionId": "grdi-v1-raster",
+      "Bidx": 1
     }
   ]
 }
