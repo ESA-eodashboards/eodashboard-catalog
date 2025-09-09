@@ -7,7 +7,7 @@
     {
       "Name": "VEDA",
       "EndPoint": "https://openveda.cloud/api/tiles/grdi-v1-raster/cog_default/{z}/{x}/{y}.png",
-      "Type": "cog",
+      "Type": "tiles",
       "CollectionId": "grdi-v1-raster"
     }
   ]
