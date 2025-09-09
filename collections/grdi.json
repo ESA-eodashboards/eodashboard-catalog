@@ -9,7 +9,11 @@
       "EndPoint": "https://openveda.cloud/api/stac/",
       "Type": "cog",
       "CollectionId": "grdi-v1-raster",
-      "Bidx": 1
+      "Bidx": 1,
+      "Rescale": [
+        0,
+        100
+      ]
     }
   ]
 }
