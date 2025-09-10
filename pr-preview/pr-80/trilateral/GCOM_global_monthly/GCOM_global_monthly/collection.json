@@ -1,0 +1,62 @@
+{
+  "type": "Collection",
+  "id": "GCOM_global_monthly",
+  "stac_version": "1.1.0",
+  "description": "TBD",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "style",
+      "href": "https://gist.githubusercontent.com/santilland/5a0ade61590b8d99b852e49a0756ff6e/raw/da779f6d99c82f59494844c43597b1fce354cd80/teststyle.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "data"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "GCOM"
+    }
+  ],
+  "subcode": "GCOM_GM",
+  "endpointtype": "COG source",
+  "title": "GCOM",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -176.8421052631579,
+          -75.80701326069078,
+          173.15789473684208,
+          76.82456568667763
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-02-01T00:00:00Z",
+          "2018-02-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
