@@ -12,12 +12,12 @@
     },
     {
       "rel": "child",
-      "href": "./GRDI/collection.json",
+      "href": "./GRDIv1/collection.json",
       "type": "application/json",
       "title": "Global Gridded Relative Deprivation Index (GRDI)",
-      "code": "GRDI",
-      "id": "GRDI",
-      "subcode": "GRDI"
+      "code": "GRDIv1",
+      "id": "GRDIv1",
+      "subcode": "GRDIv1"
     },
     {
       "rel": "self",
