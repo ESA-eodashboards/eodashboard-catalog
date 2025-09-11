@@ -15,8 +15,7 @@
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/GCOM/style.json",
       "type": "text/cog-styles",
       "asset:keys": [
-        "data",
-        "data2"
+        "data"
       ]
     },
     {
@@ -44,7 +43,7 @@
       "interval": [
         [
           "2018-02-01T00:00:00Z",
-          "2018-02-01T00:00:00Z"
+          "2018-07-20T00:00:00Z"
         ]
       ]
     }
