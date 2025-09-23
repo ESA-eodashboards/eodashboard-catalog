@@ -16,7 +16,7 @@
       "type": "image/png",
       "title": "testing-2025-09-23",
       "wms:layers": [
-        ""
+        "AWS_ICEYE-E3"
       ],
       "role": [
         "data"
@@ -28,6 +28,14 @@
       "type": "application/json",
       "title": "Crude oil storage monitoring"
     }
+  ],
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "SAR",
+    "Ports",
+    "Maritime"
   ],
   "subcode": "testing-2025-09-23",
   "endpointtype": "Sentinel Hub_byoc",
@@ -53,6 +61,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "ICEYE",
+      "url": "https://www.iceye.com/"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",

@@ -17,7 +17,15 @@
       "title": "Crude oil storage monitoring",
       "code": "testing-2025-09-23",
       "id": "testing-2025-09-23",
-      "subcode": "testing-2025-09-23"
+      "themes": [
+        "economy"
+      ],
+      "subcode": "testing-2025-09-23",
+      "tags": [
+        "SAR",
+        "Ports",
+        "Maritime"
+      ]
     },
     {
       "rel": "self",
