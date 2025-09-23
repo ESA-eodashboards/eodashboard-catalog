@@ -9,7 +9,13 @@
       "EndPoint": "https://services.sentinel-hub.com",
       "Type": "byoc",
       "CollectionId": "c47fa011-e9cd-4076-9b2f-68a93d757e58",
-      "LayerId": ""
+      "LayerId": "AWS_ICEYE-E3"
+    }
+  ],
+  "Provider": [
+    {
+      "Name": "ICEYE",
+      "Url": "https://www.iceye.com/"
     }
   ]
 }
