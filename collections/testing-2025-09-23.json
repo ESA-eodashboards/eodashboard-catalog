@@ -1,3 +1,15 @@
 {
-  "Name": "testing-2025-09-23"
+  "Name": "testing-2025-09-23",
+  "EodashIdentifier": "testing-2025-09-23",
+  "Title": "Crude oil storage monitoring",
+  "Description": "test",
+  "Resources": [
+    {
+      "Name": "Sentinel Hub",
+      "EndPoint": "https://services.sentinel-hub.com",
+      "Type": "byoc",
+      "CollectionId": "c47fa011-e9cd-4076-9b2f-68a93d757e58",
+      "LayerId": ""
+    }
+  ]
 }
