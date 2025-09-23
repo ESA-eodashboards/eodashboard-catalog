@@ -23,6 +23,50 @@
       ]
     },
     {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -30,6 +74,26 @@
     }
   ],
   "endpointtype": "Sentinel Hub WMS",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_S2L2A/thumbnail.jpg",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Sentinel",
+    "Open data",
+    "Water extent"
+  ],
+  "agency": [
+    "European Commission",
+    "ESA"
+  ],
+  "subcode": "Lakes_S2L2A",
+  "sensor": [
+    "MSI"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
   "title": "Tonlé Sap",
   "extent": {
     "spatial": {
@@ -52,6 +116,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
@@ -59,6 +129,69 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_S2L2A/thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2",
+      "type": "text/html",
+      "title": "Copernicus Sentinel-2 mission",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://sentiwiki.copernicus.eu/web/s2-mission",
+      "type": "text/html",
+      "title": "ESA Sentinel-2 Mission Guide",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://sentinel.esa.int/web/sentinel/missions/sentinel-2/data-products",
+      "type": "text/html",
+      "title": "ESA Sentinel-2 Data Products",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_4": {
+      "href": "https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/",
+      "type": "text/html",
+      "title": "Sentinel-Hub API and data Documentation",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_5": {
+      "href": "https://collections.eurodatacube.com/sentinel-2-l2a/",
+      "type": "text/html",
+      "title": "Sentinel-2 L2A Collection documentation on Euro Data Cube",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_6": {
+      "href": "https://eurodatacube.com/notebooks/curated/EDC_Sentinel_Hub-Data-access.ipynb",
+      "type": "text/html",
+      "title": "Jupyter Notebook - accessing data with xcube",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_7": {
+      "href": "https://custom-scripts.sentinel-hub.com/#sentinel-2",
+      "type": "text/html",
+      "title": "Collection of custom scripts on Sentinel-Hub",
+      "roles": [
+        "metadata"
       ]
     }
   }
