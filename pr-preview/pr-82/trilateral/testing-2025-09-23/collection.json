@@ -1,0 +1,108 @@
+{
+  "type": "Collection",
+  "id": "testing-2025-09-23",
+  "stac_version": "1.1.0",
+  "description": "test",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./testing-2025-09-23/collection.json",
+      "type": "application/json",
+      "title": "Crude oil storage monitoring",
+      "endpointtype": "Sentinel Hub_byoc",
+      "code": "testing-2025-09-23",
+      "id": "testing-2025-09-23",
+      "subcode": "testing-2025-09-23"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "subcode": "testing-2025-09-23",
+  "title": "Crude oil storage monitoring",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          4.08589,
+          51.94683,
+          4.10156,
+          51.95753
+        ],
+        [
+          4.08589,
+          51.94683,
+          4.10156,
+          51.95753
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-04T03:38:35Z",
+          "2020-07-17T03:44:28Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "testing-2025-09-23"
+    ]
+  }
+}
