@@ -31,7 +31,7 @@
       "tags": [
         "Antarctica",
         "climate change",
-        "Polar regions",
+        "Polar Regions",
         "Open data",
         "Open Science",
         "Cryosphere",
@@ -40,7 +40,6 @@
         "Melt",
         "Landsat",
         "OLI",
-        "glaciers",
         "Ice monitoring"
       ],
       "agency": [
@@ -133,7 +132,7 @@
   "tags": [
     "Antarctica",
     "climate change",
-    "Polar regions",
+    "Polar Regions",
     "Open data",
     "Open Science",
     "Cryosphere",
@@ -142,7 +141,6 @@
     "Melt",
     "Landsat",
     "OLI",
-    "glaciers",
     "Ice monitoring"
   ],
   "agency": [
@@ -201,8 +199,8 @@
     ],
     "satellite": [
       "Landsat-9",
-      "Landsat-8",
-      "Landsat-7"
+      "Landsat-7",
+      "Landsat-8"
     ],
     "sensor": [
       "OLI"

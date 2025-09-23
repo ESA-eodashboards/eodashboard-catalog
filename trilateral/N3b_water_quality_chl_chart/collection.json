@@ -47,7 +47,7 @@
         "MODIS",
         "Open data",
         "Marine monitoring",
-        "Chlorophyll-a",
+        "Chlorophyll",
         "COVID-19"
       ],
       "agency": [
@@ -142,7 +142,7 @@
     "MODIS",
     "Open data",
     "Marine monitoring",
-    "Chlorophyll-a",
+    "Chlorophyll",
     "COVID-19"
   ],
   "agency": [
@@ -179,7 +179,7 @@
       "interval": [
         [
           "2019-01-04T11:50:00Z",
-          "2025-02-22T00:00:00Z"
+          "2025-08-30T00:00:00Z"
         ]
       ]
     }
@@ -207,26 +207,26 @@
       "water"
     ],
     "satellite": [
-      "Sentinel-3",
+      "GCOM-C",
       "Acqua",
-      "GCOM-C"
+      "Sentinel-3"
     ],
     "sensor": [
-      "MODIS",
       "SGLI",
-      "OLCI"
+      "OLCI",
+      "MODIS"
     ],
     "cities": [
-      "New York",
-      "Kobe",
       "Tokyo",
       "Nagoya",
-      "Venice"
+      "Venice",
+      "New York",
+      "Kobe"
     ],
     "countries": [
+      "IT",
       "US",
-      "JP",
-      "IT"
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.jpg"

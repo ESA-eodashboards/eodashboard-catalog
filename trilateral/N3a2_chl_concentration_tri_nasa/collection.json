@@ -39,7 +39,7 @@
         "MODIS",
         "Open data",
         "Marine monitoring",
-        "Chlorophyll-a"
+        "Chlorophyll"
       ],
       "agency": [
         "NASA"
@@ -130,7 +130,7 @@
     "MODIS",
     "Open data",
     "Marine monitoring",
-    "Chlorophyll-a"
+    "Chlorophyll"
   ],
   "agency": [
     "NASA"
@@ -201,13 +201,13 @@
       "MODIS"
     ],
     "cities": [
-      "North Adriatic",
       "San Francisco",
+      "North Adriatic",
       "New York"
     ],
     "countries": [
-      "US",
-      "IT"
+      "IT",
+      "US"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg"

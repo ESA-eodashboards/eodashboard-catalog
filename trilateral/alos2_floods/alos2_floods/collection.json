@@ -29,13 +29,14 @@
       "title": "Floods maps in East Africa"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/alos2_floods/image.png",
   "themes": [
-    "extremes"
+    "extreme-events"
   ],
   "tags": [
     "Water quality",
     "Copernicus Services",
-    "CHL",
+    "Chlorophyll",
     "CMEMS",
     "Open data"
   ],
@@ -88,10 +89,17 @@
       ]
     },
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/alos2_floods/cm_legend.png.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/alos2_floods/cm_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/alos2_floods/image.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     },
     "reference_1": {

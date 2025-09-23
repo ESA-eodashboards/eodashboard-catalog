@@ -35,7 +35,7 @@
     "MODIS",
     "Open data",
     "Marine monitoring",
-    "Chlorophyll-a",
+    "Chlorophyll",
     "COVID-19"
   ],
   "agency": [
@@ -69,7 +69,7 @@
       "interval": [
         [
           "2019-01-04T11:50:00Z",
-          "2025-02-22T00:00:00Z"
+          "2025-08-30T00:00:00Z"
         ]
       ]
     }

@@ -23,7 +23,7 @@
       ],
       "tags": [
         "Multi-sensors",
-        "forest",
+        "Forest",
         "Open data",
         "Deforestation",
         "Forest degradation",
@@ -99,7 +99,7 @@
   ],
   "tags": [
     "Multi-sensors",
-    "forest",
+    "Forest",
     "Open data",
     "Deforestation",
     "Forest degradation",
@@ -175,8 +175,8 @@
       "ALOS"
     ],
     "sensor": [
-      "PALSAR",
-      "PALSAR-2"
+      "PALSAR-2",
+      "PALSAR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/FNF_Palsar/FNF_Palsar.jpg"

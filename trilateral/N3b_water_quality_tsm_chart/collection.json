@@ -166,10 +166,10 @@
     "spatial": {
       "bbox": [
         [
-          12.498056,
+          12.49811,
           34.54,
           139.9100001,
-          45.324247
+          45.32421
         ]
       ]
     },
@@ -177,7 +177,7 @@
       "interval": [
         [
           "2019-01-04T11:50:00Z",
-          "2025-02-22T00:00:00Z"
+          "2025-08-30T00:00:00Z"
         ]
       ]
     }
@@ -205,24 +205,24 @@
       "water"
     ],
     "satellite": [
-      "Sentinel-3",
+      "GCOM-C",
       "Acqua",
-      "GCOM-C"
+      "Sentinel-3"
     ],
     "sensor": [
-      "MODIS",
       "SGLI",
-      "OLCI"
+      "OLCI",
+      "MODIS"
     ],
     "cities": [
-      "Kobe",
+      "Nagoya",
       "Tokyo",
       "Venice",
-      "Nagoya"
+      "Kobe"
     ],
     "countries": [
-      "JP",
-      "IT"
+      "IT",
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.jpg"
