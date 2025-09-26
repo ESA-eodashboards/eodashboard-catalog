@@ -12,6 +12,15 @@
     },
     {
       "rel": "child",
+      "href": "./LST-gcom-c-2024-07/collection.json",
+      "type": "application/json",
+      "title": "GCOM C LST ",
+      "code": "LST-gcom-c-2024-07",
+      "id": "LST-gcom-c-2024-07",
+      "subcode": "LST-gcom-c-2024-07"
+    },
+    {
+      "rel": "child",
       "href": "./Nightlights-test/collection.json",
       "type": "application/json",
       "title": "Nightlights demo",
