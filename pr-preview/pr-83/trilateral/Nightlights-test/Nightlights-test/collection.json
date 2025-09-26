@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Nightlights-test",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "# test \n\n## subchapter\n\ntest",
   "links": [
     {
       "rel": "root",
@@ -24,10 +24,10 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -85.0,
-          180.0,
-          85.0
+          68.66487395077586,
+          15.7850687929024,
+          82.29250250147052,
+          28.458928087010953
         ]
       ]
     },
