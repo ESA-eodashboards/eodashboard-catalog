@@ -1,3 +1,28 @@
 {
-  "Name": "new_file"
+  "Name": "LST-GCOM-C",
+  "Title": "LST 202407 GCOM-C",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/GCOM/style.json",
+      "Bbox": [
+        70.32461665349926,
+        16.76646626208848,
+        76.67600817325861,
+        23.78121620812702
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20240701",
+          "Assets": [
+            {
+              "Identifier": "something",
+              "File": "https://obs.eu-nl.otc.t-systems.com/eodashboardtutorial/LST_202407.tiff?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DZPPJ23QUW6DYLDCKEYP%2F20250926%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20250926T100636Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=942481b4b96a6a7f4a4c330bb536f66574659e956c7d5a5be5983eabab609ff1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
