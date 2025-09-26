@@ -1,0 +1,108 @@
+{
+  "type": "Collection",
+  "id": "LST-GCOM-C",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./LST-GCOM-C/collection.json",
+      "type": "application/json",
+      "title": "LST 202407 GCOM-C",
+      "endpointtype": "COG source",
+      "code": "LST-GCOM-C",
+      "id": "LST-GCOM-C",
+      "subcode": "LST-GCOM-C"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "subcode": "LST-GCOM-C",
+  "title": "LST 202407 GCOM-C",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          70.32461665349926,
+          16.76646626208848,
+          76.67600817325861,
+          23.78121620812702
+        ],
+        [
+          70.32461665349926,
+          16.76646626208848,
+          76.67600817325861,
+          23.78121620812702
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-07-01T00:00:00Z",
+          "2024-07-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "LST-GCOM-C"
+    ]
+  }
+}

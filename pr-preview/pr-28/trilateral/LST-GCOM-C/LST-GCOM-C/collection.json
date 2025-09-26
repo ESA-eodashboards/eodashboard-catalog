@@ -1,0 +1,62 @@
+{
+  "type": "Collection",
+  "id": "LST-GCOM-C",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/GCOM/style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "something"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LST 202407 GCOM-C"
+    }
+  ],
+  "subcode": "LST-GCOM-C",
+  "endpointtype": "COG source",
+  "title": "LST 202407 GCOM-C",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          70.32461665349926,
+          16.76646626208848,
+          76.67600817325861,
+          23.78121620812702
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-07-01T00:00:00Z",
+          "2024-07-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}

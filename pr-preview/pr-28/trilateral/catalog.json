@@ -12,6 +12,15 @@
     },
     {
       "rel": "child",
+      "href": "./LST-GCOM-C/collection.json",
+      "type": "application/json",
+      "title": "LST 202407 GCOM-C",
+      "code": "LST-GCOM-C",
+      "id": "LST-GCOM-C",
+      "subcode": "LST-GCOM-C"
+    },
+    {
+      "rel": "child",
       "href": "./nightlights-test/collection.json",
       "type": "application/json",
       "title": "nightlights testing submission",
