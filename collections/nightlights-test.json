@@ -2,7 +2,7 @@
   "Name": "Nightlights-test",
   "EodashIdentifier": "NI",
   "Title": "Nightlights demo",
-  "Description": "",
+  "Description": "# test \n\n## subchapter\n\ntest",
   "Resources": [
     {
       "Name": "COG source",
@@ -13,10 +13,16 @@
           "Assets": [
             {
               "Identifier": "Nightlights output",
-              "File": ""
+              "File": "https://obs.eu-nl.otc.t-systems.com/eodashboardtutorial/Nighttimelevel_Urban_h25v06_2019-2022.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DZPPJ23QUW6DYLDCKEYP%2F20250926%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20250926T091004Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=22944453c07c039627a18a1d0774b0a5cdb68ed1f1efc3f5e9a2899fce030566"
             }
           ]
         }
+      ],
+      "Bbox": [
+        68.66487395077586,
+        15.7850687929024,
+        82.29250250147052,
+        28.458928087010953
       ]
     }
   ]
