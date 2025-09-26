@@ -1,3 +1,29 @@
 {
-  "Name": "LST 2024-07"
+  "Name": "LST-gcom-c-2024-07",
+  "EodashIdentifier": "LST-gcom-c-2024-07",
+  "Title": "GCOM C LST ",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "Bbox": [
+        69.53774081721502,
+        14.503584870277397,
+        81.28759771581926,
+        26.299483056221842
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20240701",
+          "Assets": [
+            {
+              "Identifier": "LST",
+              "File": "https://obs.eu-nl.otc.t-systems.com/eodashboardtutorial/LST_202407.tiff?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DZPPJ23QUW6DYLDCKEYP%2F20250926%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20250926T091943Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=dd3dc4ae70a632916fb0659975190b11cff3cfdf3861f40aa1b9d4a40e5b3dd2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
