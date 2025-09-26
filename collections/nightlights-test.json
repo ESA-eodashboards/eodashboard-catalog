@@ -1,3 +1,23 @@
 {
-  "Name": "Nightlights test"
+  "Name": "Nightlights-test",
+  "EodashIdentifier": "NI",
+  "Title": "Nightlights demo",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "TimeEntries": [
+        {
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "Nightlights output",
+              "File": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
