@@ -8,18 +8,18 @@
       "Name": "COG source",
       "Style": "",
       "Bbox": [
-        77.04855501971608,
-        28.45390357268866,
-        77.38013969428289,
-        28.723705576511225
+        76.85929023590822,
+        28.052013566786986,
+        77.84412572879963,
+        28.993794747898402
       ],
       "TimeEntries": [
         {
           "Time": "20220101",
           "Assets": [
             {
-              "Identifier": "",
-              "File": ""
+              "Identifier": "https://obs.eu-nl.otc.t-systems.com/eodashboardtutorial/Nighttimelevel_Urban_h25v06_2019-2022.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DZPPJ23QUW6DYLDCKEYP%2F20250930%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20250930T082809Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=57f967757aa4859a452e8152b8a1888208d7fff13067efc7bac81dd780ff389b",
+              "File": "nightlights"
             }
           ]
         }
