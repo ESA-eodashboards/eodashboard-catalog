@@ -3,5 +3,27 @@
   "EodashIdentifier": "nightlights-demo-bids",
   "Title": "Nightlights over New Delhi",
   "Description": "Data from NTLU JAXA Nighttime Light Urban",
-  "Resources": []
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "Bbox": [
+        77.04855501971608,
+        28.45390357268866,
+        77.38013969428289,
+        28.723705576511225
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20220101",
+          "Assets": [
+            {
+              "Identifier": "",
+              "File": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
