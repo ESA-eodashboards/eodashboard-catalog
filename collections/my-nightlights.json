@@ -1,3 +1,19 @@
 {
-  "Name": "my nightlights "
+  "Name": "mynightlights",
+  "EodashIdentifier": "my-nightlights-1234",
+  "Title": "nightlights",
+  "Description": "quo vadis ",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "Bbox": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "TimeEntries": []
+    }
+  ]
 }
