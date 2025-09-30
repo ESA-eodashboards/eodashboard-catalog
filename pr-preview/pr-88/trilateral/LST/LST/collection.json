@@ -1,0 +1,62 @@
+{
+  "type": "Collection",
+  "id": "LST",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/lubomir-dolezal-ml/eodashboard-catalog/refs/heads/lubomir-dolezal-ml/bids25-training/style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "lst"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "LST from GCOM-C for july 204"
+    }
+  ],
+  "subcode": "LST",
+  "endpointtype": "COG source",
+  "title": "LST from GCOM-C for july 204",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          71.0635078740096,
+          25.365505154458113,
+          81.64459050521644,
+          30.04983771226051
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-07-01T00:00:00Z",
+          "2024-07-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
