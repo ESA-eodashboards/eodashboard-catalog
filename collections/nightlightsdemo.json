@@ -3,5 +3,31 @@
   "EodashIdentifier": "nightlights-demo-bids-ksberger",
   "Title": "Lights over New Delhi",
   "Description": "****Nightlights over New Delhi****\njdfbnsduhs8duhg8dhf8u",
-  "Resources": []
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "Bbox": [
+        74.92350391846487,
+        25.596844304218045,
+        79.50401760872151,
+        30.040400135839832
+      ],
+      "TimeEntries": [
+        {
+          "Time": "202001",
+          "Assets": [
+            {
+              "Identifier": "https://obs.eu-nl.otc.t-systems.com/eodashboardtutorial/Nighttimelevel_Urban_h25v06_2019-2022.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DZPPJ23QUW6DYLDCKEYP%2F20250930%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20250930T082801Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=c7bfa8fb8e7f4cc14bc55cedb30bdcd0857498c0391e8ce49b44a1df438f4983",
+              "File": ""
+            },
+            {
+              "Identifier": "",
+              "File": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
