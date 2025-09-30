@@ -11,6 +11,22 @@
       "title": "Earth Observing Dashboard"
     },
     {
+      "rel": "child",
+      "href": "./nightlights-demo/collection.json",
+      "type": "application/json",
+      "title": "Nights over new Delhi",
+      "endpointtype": "COG source",
+      "code": "nightlights-demo-bids",
+      "id": "nightlights-demo",
+      "agency": [
+        "JAXA"
+      ],
+      "subcode": "nightlights-demo-bids",
+      "satellite": [
+        "SUOMI-NPP"
+      ]
+    },
+    {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -61,27 +77,47 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "agency": [
+    "JAXA"
+  ],
   "subcode": "nightlights-demo-bids",
+  "satellite": [
+    "SUOMI-NPP"
+  ],
   "title": "Nights over new Delhi",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          74.8635937157198,
+          19.52579883367512,
+          79.23316387047599,
+          24.8378252963199
+        ],
+        [
+          74.8635937157198,
+          19.52579883367512,
+          79.23316387047599,
+          24.8378252963199
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-09-30T08:25:01.412981Z",
-          null
+          "2022-01-01T00:00:00Z",
+          "2022-01-01T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "other"
+  "license": "other",
+  "summaries": {
+    "subcode": [
+      "nightlights-demo-bids"
+    ],
+    "satellite": [
+      "SUOMI-NPP"
+    ]
+  }
 }

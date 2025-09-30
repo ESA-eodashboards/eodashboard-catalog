@@ -17,7 +17,13 @@
       "title": "Nights over new Delhi",
       "code": "nightlights-demo-bids",
       "id": "nightlights-demo",
-      "subcode": "nightlights-demo-bids"
+      "subcode": "nightlights-demo-bids",
+      "satellite": [
+        "SUOMI-NPP"
+      ],
+      "agency": [
+        "JAXA"
+      ]
     },
     {
       "rel": "self",
