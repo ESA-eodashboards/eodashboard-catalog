@@ -1,0 +1,54 @@
+{
+  "type": "Collection",
+  "id": "nightlights_demo",
+  "stac_version": "1.1.0",
+  "description": "Data from NTLU JAXA Nighttime Light Urban",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Nightlights over New Delhi"
+    }
+  ],
+  "subcode": "nightlights-demo-bids",
+  "endpointtype": "COG source",
+  "title": "Nightlights over New Delhi",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          76.85929023590822,
+          28.052013566786986,
+          77.84412572879963,
+          28.993794747898402
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-01-01T00:00:00Z",
+          "2022-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
