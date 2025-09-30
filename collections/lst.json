@@ -3,5 +3,27 @@
   "EodashIdentifier": "LST",
   "Title": "LST from GCOM-C for july 204",
   "Description": "",
-  "Resources": []
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://raw.githubusercontent.com/lubomir-dolezal-ml/eodashboard-catalog/refs/heads/lubomir-dolezal-ml/bids25-training/style.json",
+      "Bbox": [
+        71.0635078740096,
+        25.365505154458113,
+        81.64459050521644,
+        30.04983771226051
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20240701",
+          "Assets": [
+            {
+              "Identifier": "lst",
+              "File": "https://obs.eu-nl.otc.t-systems.com/eodashboardtutorial/LST_202407.tiff?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DZPPJ23QUW6DYLDCKEYP%2F20250930%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20250930T084440Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bd4f304ecedb794cc7f0e243813dea7592f9f95780603a92f7c10d7e6e3f0d5f"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
