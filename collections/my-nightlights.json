@@ -13,7 +13,17 @@
         "",
         ""
       ],
-      "TimeEntries": []
+      "TimeEntries": [
+        {
+          "Time": "2025-01-01",
+          "Assets": [
+            {
+              "Identifier": "night",
+              "File": "https://obs.eu-nl.otc.t-systems.com/eodashboardtutorial/Nighttimelevel_Urban_h25v06_2019-2022.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DZPPJ23QUW6DYLDCKEYP%2F20250930%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20250930T083150Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=e529833338e58dd1e22e9bc38112c5f8d92187990f8c28a7803e0bb4fe78a268"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
