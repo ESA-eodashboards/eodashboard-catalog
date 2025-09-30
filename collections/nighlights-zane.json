@@ -1,0 +1,29 @@
+{
+  "Name": "nighlights-zane",
+  "EodashIdentifier": "LST",
+  "Title": "bids2025-eodash-zane",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "Bbox": [
+        72.95820832343153,
+        23.98746200607902,
+        76.79087452471481,
+        26.17591185410334
+      ],
+      "TimeEntries": [
+        {
+          "Time": "",
+          "Assets": [
+            {
+              "Identifier": "ee",
+              "File": "https://obs.eu-nl.otc.t-systems.com/eodashboardtutorial/Nighttimelevel_Urban_h25v06_2019-2022.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DZPPJ23QUW6DYLDCKEYP%2F20250930%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20250930T082856Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=2925268937fdec86f80463e7fbcf9cf13302868b51aada6a356b504dd5fc194a"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
