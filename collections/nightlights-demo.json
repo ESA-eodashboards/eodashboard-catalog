@@ -3,7 +3,29 @@
   "EodashIdentifier": "nightlights-demo-bids",
   "Title": "Nights over new Delhi",
   "Description": "NTLU JAXA Nighttime Light Urban\n\nThis dataset, NTLU (Nighttime Light Urban), provides a comprehensive global spatial representation of nighttime light levels in urban areas. It is derived from satellite observations from the\nsensor onboard the Suomi National Polar-orbiting Partnership (Suomi NPP) satellite. This dataset is valuable for studying the distribution of artificial lighting ",
-  "Resources": [],
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "Bbox": [
+        74.8635937157198,
+        19.52579883367512,
+        79.23316387047599,
+        24.8378252963199
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20220101",
+          "Assets": [
+            {
+              "Identifier": "file-1",
+              "File": "https://obs.eu-nl.otc.t-systems.com/eodashboardtutorial/Nighttimelevel_Urban_h25v06_2019-2022.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DZPPJ23QUW6DYLDCKEYP%2F20250930%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20250930T082745Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0b56da724879e7ab486e9d41cc5fdb6b96a05929143e5a8606c55b9aadd55f68"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "Agency": [
     "JAXA"
   ],
