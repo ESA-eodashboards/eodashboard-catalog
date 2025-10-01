@@ -1,3 +1,23 @@
 {
-  "Name": "lst"
+  "Name": "lst",
+  "EodashIdentifier": "",
+  "Title": "",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "TimeEntries": [
+        {
+          "Time": "",
+          "Assets": [
+            {
+              "Identifier": "",
+              "File": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
