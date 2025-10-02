@@ -186,7 +186,7 @@
   "providers": [
     {
       "name": "ESA",
-      "url": "https://sentinel.esa.int/web/sentinel/"
+      "url": "https://sentinels.copernicus.eu/web/sentinel/home"
     },
     {
       "name": "NASA’s Interagency Implementation and Advanced Concepts Team (IMPACT)",
@@ -205,33 +205,33 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-2",
-      "PlanetScope"
+      "PlanetScope",
+      "Sentinel-2"
     ],
     "sensor": [
-      "PS2",
-      "MSI"
+      "MSI",
+      "PS2"
     ],
     "cities": [
-      "San Francisco",
-      "Dunkirk",
+      "Ghent",
       "Hamburg",
-      "Suez ",
+      "Los Angeles",
+      "Dunkirk",
       "New York",
       "Genoa",
       "Suez",
-      "Ghent",
-      "Gdynia",
-      "Los Angeles"
+      "Suez ",
+      "San Francisco",
+      "Gdynia"
     ],
     "countries": [
-      "FR",
-      "EG",
-      "DE",
-      "BE",
-      "IT",
       "PL",
-      "US"
+      "US",
+      "FR",
+      "DE",
+      "EG",
+      "BE",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg"

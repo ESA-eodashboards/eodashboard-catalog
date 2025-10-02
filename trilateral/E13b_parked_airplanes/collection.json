@@ -208,7 +208,7 @@
     },
     {
       "name": "ESA",
-      "url": "https://sentinel.esa.int/web/sentinel/"
+      "url": "https://sentinels.copernicus.eu/web/sentinel/home"
     },
     {
       "name": "NASA",
@@ -234,37 +234,37 @@
       "PlanetScope"
     ],
     "sensor": [
-      "PSB.SD",
-      "C-SAR",
       "PALSAR-2",
-      "MSI"
+      "PSB.SD",
+      "MSI",
+      "C-SAR"
     ],
     "cities": [
-      "Beijing Daxing",
-      "San Francisco",
+      "Hayward",
+      "Buchannan",
+      "Heathrow",
+      "Los Angeles",
+      "Ontario",
+      "San Jose",
+      "Oakland",
       "Napa",
+      "New York",
+      "Beijing",
+      "Beijing Daxing",
       "Rome",
       "Narita",
-      "Oakland",
-      "Marin",
-      "New York",
-      "Heathrow",
-      "Buchannan",
-      "San Jose",
-      "Ontario",
-      "Newark",
-      "Hayward",
-      "Beijing",
       "Paris",
-      "Los Angeles"
+      "Marin",
+      "San Francisco",
+      "Newark"
     ],
     "countries": [
-      "JP",
+      "US",
       "FR",
       "GB",
-      "IT",
       "CN",
-      "US"
+      "JP",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg"

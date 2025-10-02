@@ -188,7 +188,7 @@
   "providers": [
     {
       "name": "ESA",
-      "url": "https://sentinel.esa.int/web/sentinel/"
+      "url": "https://sentinels.copernicus.eu/web/sentinel/home"
     },
     {
       "name": "JAXA",
@@ -212,21 +212,21 @@
       "Acqua"
     ],
     "sensor": [
+      "OLCI",
       "SGLI",
-      "MODIS",
-      "OLCI"
+      "MODIS"
     ],
     "cities": [
-      "Venice",
-      "Nagoya",
       "New York",
       "Tokyo",
+      "Venice",
+      "Nagoya",
       "Kobe"
     ],
     "countries": [
-      "JP",
+      "IT",
       "US",
-      "IT"
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.jpg"
