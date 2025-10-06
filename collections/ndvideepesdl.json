@@ -6,11 +6,11 @@
   "Resources": [
     {
       "Name": "xcube",
-      "EndPoint": "https://modis-pds.s3.amazonaws.com/MCD43C4.061.zarr",
+      "EndPoint": "s3://deep-esdl-public",
       "Type": "zarr",
-      "StacEndpoint": "https://lpdaac.usgs.gov/stac",
-      "DatacubeId": "MODIS_MCD43C4_NDVI",
-      "Variable": "NDVI"
+      "StacEndpoint": "",
+      "DatacubeId": "esdc-8d-0.25deg-256x128x128-3.0.1",
+      "Variable": "ndvi"
     }
   ]
 }
