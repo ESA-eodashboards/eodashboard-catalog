@@ -1,3 +1,16 @@
 {
-  "Name": "ndvi_deepESDL"
+  "Name": "ndvi_deepESDL",
+  "EodashIdentifier": "ndvi_deepESDL",
+  "Title": "NDVI",
+  "Description": "",
+  "Resources": [
+    {
+      "Name": "xcube",
+      "EndPoint": "https://modis-pds.s3.amazonaws.com/MCD43C4.061.zarr",
+      "Type": "zarr",
+      "StacEndpoint": "https://lpdaac.usgs.gov/stac",
+      "DatacubeId": "MODIS_MCD43C4_NDVI",
+      "Variable": "NDVI"
+    }
+  ]
 }
