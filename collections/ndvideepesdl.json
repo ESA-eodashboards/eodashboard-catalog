@@ -10,7 +10,8 @@
       "Type": "zarr",
       "StacEndpoint": "'/ogc'",
       "DatacubeId": "'esdc'",
-      "Variable": "ndvi"
+      "Variable": "ndvi",
+      "ColormapName": "RdYlGn"
     }
   ]
 }
