@@ -6,10 +6,10 @@
   "Resources": [
     {
       "Name": "xcube",
-      "EndPoint": "s3://deep-esdl-public",
+      "EndPoint": "s3://deep-esdl-public/",
       "Type": "zarr",
       "StacEndpoint": "",
-      "DatacubeId": "esdc-8d-0.25deg-256x128x128-3.0.1",
+      "DatacubeId": "esdc-8d-0.25deg-256x128x128-3.0.1.zarr",
       "Variable": "ndvi"
     }
   ]
