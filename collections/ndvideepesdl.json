@@ -6,7 +6,7 @@
   "Resources": [
     {
       "Name": "xcube",
-      "EndPoint": "https://api.earthsystemdatalab.net/api",
+      "EndPoint": "https://api.earthsystemdatalab.net/api/",
       "Type": "zarr",
       "StacEndpoint": "\"/ogc\"",
       "DatacubeId": "'esdc'",
