@@ -1,0 +1,47 @@
+{
+  "Name": "GCOM_global_monthly",
+  "EodashIdentifier": "GCOM_GM",
+  "Title": "GCOM",
+  "Description": "TBD",
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/GCOM/style.json",
+      "Bbox": [
+        60.878477306002935,
+        7.783306786465957,
+        93.0307467057101,
+        39.93557618617313
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20240501",
+          "Assets": [
+            {
+              "Identifier": "data",
+              "File": "https://s3.ap-northeast-1.wasabisys.com/je-pds/cog/v1/JAXA.G-Portal_GCOM-C.SGLI_standard.L3-LST.daytime.v3_global_monthly/2024-05/1/E000.00-E090.00/E000.00-N00.00-E090.00-N90.00-LST.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20240601",
+          "Assets": [
+            {
+              "Identifier": "data",
+              "File": "https://s3.ap-northeast-1.wasabisys.com/je-pds/cog/v1/JAXA.G-Portal_GCOM-C.SGLI_standard.L3-LST.daytime.v3_global_monthly/2024-06/1/E000.00-E090.00/E000.00-N00.00-E090.00-N90.00-LST.tiff"
+            }
+          ]
+        },
+        {
+          "Time": "20240701",
+          "Assets": [
+            {
+              "Identifier": "data",
+              "File": "https://s3.ap-northeast-1.wasabisys.com/je-pds/cog/v1/JAXA.G-Portal_GCOM-C.SGLI_standard.L3-LST.daytime.v3_global_monthly/2024-07/1/E000.00-E090.00/E000.00-N00.00-E090.00-N90.00-LST.tiff"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
