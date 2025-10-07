@@ -11,7 +11,11 @@
       "StacEndpoint": "'/ogc'",
       "DatacubeId": "'esdc'",
       "Variable": "ndvi",
-      "ColormapName": "RdYlGn"
+      "ColormapName": "RdYlGn",
+      "Rescale": [
+        0,
+        1
+      ]
     }
   ]
 }
