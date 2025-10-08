@@ -2,7 +2,7 @@
   "Name": "ndvi_deepESDL",
   "EodashIdentifier": "ndvi_deepESDL",
   "Title": "Normalized Difference Vegetation Index (NDVI)",
-  "Description": "MODIS/Terra+Aqua BRDF/Albedo Nadir BRDF-Adjusted Reflectance Daily L3 Global 0.05 Deg CMG and Vegetation Indices\n\nNDVI (Normalized Difference Vegetation Index) is a key indicator used in remote sensing to measure vegetation health and density. It works by comparing how plants reflect light in two specific spectral bands. Higher values indicating denser and healthier vegetation. Healthy vegetation reflects more NIR and absorbs more red → high NDVI values, while bare soil, water, or unhealthy vegetation have lower NDVI values\n\nNDVI was calculated using MODIS/Terra+Aqua BRDF/Albedo Nadir Reflectance products, specifically using the Red and NIR bands, then aggregated into 8-day means at 0.25° spatial resolution.",
+  "Description": "**Normalized Difference Vegetation Index (NDVI)**\n\nNDVI is a key indicator used in remote sensing to measure vegetation health and density. It works by comparing how plants reflect light in two specific spectral bands. Higher values indicating denser and healthier vegetation. Healthy vegetation reflects more NIR and absorbs more red: **high NDVI values**, while bare soil, water, or unhealthy vegetation have lower NDVI values\n\nNDVI was calculated using MODIS/Terra+Aqua BRDF/Albedo Nadir Reflectance products, specifically using the Red and NIR bands, then aggregated into 8-day means at 0.25° spatial resolution.",
   "Resources": [
     {
       "Name": "xcube",
