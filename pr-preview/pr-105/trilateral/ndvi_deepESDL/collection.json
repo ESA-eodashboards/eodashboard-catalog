@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "ndvi_deepESDL",
   "stac_version": "1.1.0",
-  "description": "**Normalized Difference Vegetation Index (NDVI)**\n \nNDVI is a key indicator used in remote sensing to measure vegetation health. It works by comparing how plants reflect light in two specific spectral bands: near-infrared (NIR) and red light. The NDVI formula Which uses the difference between near-infrared (NIR) and red reflectance divided by their sum (NIR - Red) / (NIR + Red).\n\n**** Interpreting NDVI**** \nNDVI values range from -1 to 1. Healthy and denser vegetation reflects more NIR and absorbs more red: meaning it has **higher NDVI values**, while bare soil, water, or unhealthy vegetation have **lower NDVI values**.\n\nNDVI was calculated using MODIS/Terra+Aqua BRDF/Albedo Nadir Reflectance products, specifically using the Red and NIR bands, then aggregated into 8-day means at 0.25° spatial resolution.",
+  "description": "# Normalized Difference Vegetation Index (NDVI)**\n \nNDVI is a key indicator used in remote sensing to measure vegetation health. It works by comparing how plants reflect light in two specific spectral bands: near-infrared (NIR) and red light. The NDVI formula Which uses the difference between near-infrared (NIR) and red reflectance divided by their sum (NIR - Red) / (NIR + Red).\n\n### Interpreting NDVI\nNDVI values range from -1 to 1. Healthy and denser vegetation reflects more NIR and absorbs more red: meaning it has **higher NDVI values**, while bare soil, water, or unhealthy vegetation have **lower NDVI values**.\n\n#### Aditional information\n* NDVI was calculated using MODIS/Terra+Aqua BRDF/Albedo Nadir Reflectance products, specifically using the Red and NIR bands, then aggregated into 8-day means at 0.25° spatial resolution.\n* The data shown is served from the Earth System Data Lab xcube server.",
   "links": [
     {
       "rel": "root",
@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./ndvi_deepESDL/collection.json",
       "type": "application/json",
-      "title": "Normalized Difference Vegetation Index (NDVI)",
+      "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average)",
       "endpointtype": "xcube_zarr",
       "code": "ndvi_deepESDL",
       "id": "ndvi_deepESDL",
@@ -83,7 +83,7 @@
   "subcode": "ndvi_deepESDL",
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
-  "title": "Normalized Difference Vegetation Index (NDVI)",
+  "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average)",
   "extent": {
     "spatial": {
       "bbox": [

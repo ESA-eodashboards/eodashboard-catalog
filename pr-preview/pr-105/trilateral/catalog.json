@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./ndvi_deepESDL/collection.json",
       "type": "application/json",
-      "title": "Normalized Difference Vegetation Index (NDVI)",
+      "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average)",
       "code": "ndvi_deepESDL",
       "id": "ndvi_deepESDL",
       "subcode": "ndvi_deepESDL"
