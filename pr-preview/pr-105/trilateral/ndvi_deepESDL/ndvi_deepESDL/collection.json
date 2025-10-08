@@ -1,0 +1,61 @@
+{
+  "type": "Collection",
+  "id": "ndvi_deepESDL",
+  "stac_version": "1.1.0",
+  "description": "MODIS/Terra+Aqua BRDF/Albedo Nadir BRDF-Adjusted Reflectance Daily L3 Global 0.05 Deg CMG and Vegetation Indices\n\nNDVI (Normalized Difference Vegetation Index) is a key indicator used in remote sensing to measure vegetation health and density. It works by comparing how plants reflect light in two specific spectral bands. Higher values indicating denser and healthier vegetation. Healthy vegetation reflects more NIR and absorbs more red → high NDVI values, while bare soil, water, or unhealthy vegetation have lower NDVI values\n\nNDVI was calculated using MODIS/Terra+Aqua BRDF/Albedo Nadir Reflectance products, specifically using the Red and NIR bands, then aggregated into 8-day means at 0.25° spatial resolution.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time={time}&vmin=0&vmax=1&cbar=RdYlGn",
+      "type": "image/png",
+      "title": "xcube tiles"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Normalized Difference Vegetation Index (NDVI)"
+    }
+  ],
+  "yAxis": "1",
+  "subcode": "ndvi_deepESDL",
+  "endpointtype": "xcube_zarr",
+  "title": "Normalized Difference Vegetation Index (NDVI)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1979-01-05T00:00:00Z",
+          "2021-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
