@@ -20,13 +20,13 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average)"
+      "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average) "
     }
   ],
   "yAxis": "1",
   "subcode": "ndvi_deepESDL",
   "endpointtype": "xcube_zarr",
-  "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average)",
+  "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average) ",
   "extent": {
     "spatial": {
       "bbox": [

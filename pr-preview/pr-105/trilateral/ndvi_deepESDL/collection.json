@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./ndvi_deepESDL/collection.json",
       "type": "application/json",
-      "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average)",
+      "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average) ",
       "endpointtype": "xcube_zarr",
       "code": "ndvi_deepESDL",
       "id": "ndvi_deepESDL",
@@ -83,7 +83,7 @@
   "subcode": "ndvi_deepESDL",
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
-  "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average)",
+  "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average) ",
   "extent": {
     "spatial": {
       "bbox": [
