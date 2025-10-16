@@ -111,9 +111,24 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "NASA",
+      "url": "https://terra.nasa.gov/data/modis-data"
+    }
+  ],
   "summaries": {
     "subcode": [
       "ndvi_deepESDL"
     ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/https://github.com/eurodatacube/eodash-assets/blob/main/collections/ESDC_NDVI/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
   }
 }
