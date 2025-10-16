@@ -17,5 +17,14 @@
         1
       ]
     }
-  ]
+  ],
+  "Legend": "https://github.com/eurodatacube/eodash-assets/blob/main/collections/ESDC_NDVI/cm_legend.png",
+  "Provider": [
+    {
+      "Name": "NASA",
+      "Url": "https://terra.nasa.gov/data/modis-data"
+    }
+  ],
+  "License": "",
+  "Colorlegend": {}
 }
