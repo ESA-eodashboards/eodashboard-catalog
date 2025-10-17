@@ -17,7 +17,22 @@
       "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average) ",
       "code": "ndvi_deepESDL",
       "id": "ndvi_deepESDL",
-      "subcode": "ndvi_deepESDL"
+      "themes": [
+        ""
+      ],
+      "subcode": "ndvi_deepESDL",
+      "satellite": [
+        "Acqua"
+      ],
+      "sensor": [
+        "MODIS"
+      ],
+      "tags": [
+        "vegetation",
+        "NDVI",
+        "monitoring",
+        "MODIS"
+      ]
     },
     {
       "rel": "self",

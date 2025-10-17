@@ -24,7 +24,27 @@
     }
   ],
   "yAxis": "1",
+  "themes": [
+    ""
+  ],
+  "tags": [
+    "vegetation",
+    "NDVI",
+    "monitoring",
+    "MODIS"
+  ],
   "subcode": "ndvi_deepESDL",
+  "sensor": [
+    "MODIS"
+  ],
+  "satellite": [
+    "Acqua"
+  ],
+  "eox:colorlegend": {
+    "range": [
+      "#000000"
+    ]
+  },
   "endpointtype": "xcube_zarr",
   "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average) ",
   "extent": {

@@ -18,8 +18,23 @@
       "endpointtype": "xcube_zarr",
       "code": "ndvi_deepESDL",
       "id": "ndvi_deepESDL",
+      "themes": [
+        ""
+      ],
       "yAxis": "1",
-      "subcode": "ndvi_deepESDL"
+      "tags": [
+        "vegetation",
+        "NDVI",
+        "monitoring",
+        "MODIS"
+      ],
+      "subcode": "ndvi_deepESDL",
+      "sensor": [
+        "MODIS"
+      ],
+      "satellite": [
+        "Acqua"
+      ]
     },
     {
       "rel": "service",
@@ -80,7 +95,27 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "themes": [
+    ""
+  ],
+  "tags": [
+    "vegetation",
+    "NDVI",
+    "monitoring",
+    "MODIS"
+  ],
   "subcode": "ndvi_deepESDL",
+  "sensor": [
+    "MODIS"
+  ],
+  "satellite": [
+    "Acqua"
+  ],
+  "eox:colorlegend": {
+    "range": [
+      "#000000"
+    ]
+  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
   "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average) ",
@@ -120,6 +155,15 @@
   "summaries": {
     "subcode": [
       "ndvi_deepESDL"
+    ],
+    "themes": [
+      ""
+    ],
+    "satellite": [
+      "Acqua"
+    ],
+    "sensor": [
+      "MODIS"
     ]
   },
   "assets": {
