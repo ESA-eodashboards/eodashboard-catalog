@@ -23,6 +23,7 @@
       "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average) "
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections//ESDC_NDVI/ESDC_NDVI.png",
   "yAxis": "1",
   "themes": [
     "land"
@@ -83,6 +84,13 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections//ESDC_NDVI/ESDC_NDVI.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }

@@ -27,6 +27,9 @@
       "sensor": [
         "MODIS"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections//ESDC_NDVI/ESDC_NDVI.png"
+      ],
       "tags": [
         "vegetation",
         "NDVI",

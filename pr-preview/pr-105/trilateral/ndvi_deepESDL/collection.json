@@ -95,6 +95,7 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections//ESDC_NDVI/ESDC_NDVI.png",
   "themes": [
     "land"
   ],
@@ -159,6 +160,9 @@
     ],
     "sensor": [
       "MODIS"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections//ESDC_NDVI/ESDC_NDVI.png"
     ]
   },
   "assets": {
@@ -167,6 +171,13 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections//ESDC_NDVI/ESDC_NDVI.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
