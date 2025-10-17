@@ -26,5 +26,29 @@
     }
   ],
   "License": "",
-  "Colorlegend": {}
+  "Colorlegend": {
+    "range": [
+      "#000000"
+    ]
+  },
+  "Tags": [
+    "vegetation",
+    "NDVI",
+    "monitoring",
+    "MODIS"
+  ],
+  "Themes": [
+    ""
+  ],
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [
+        "Acqua"
+      ],
+      "Sensor": [
+        "MODIS"
+      ]
+    }
+  },
+  "Agency": []
 }
