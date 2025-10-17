@@ -26,11 +26,7 @@
     }
   ],
   "License": "",
-  "Colorlegend": {
-    "range": [
-      "#000000"
-    ]
-  },
+  "Colorlegend": {},
   "Tags": [
     "vegetation",
     "NDVI",
@@ -38,12 +34,12 @@
     "MODIS"
   ],
   "Themes": [
-    ""
+    "land"
   ],
   "DataSource": {
     "Spaceborne": {
       "Satellite": [
-        "Acqua"
+        "Aqua"
       ],
       "Sensor": [
         "MODIS"
