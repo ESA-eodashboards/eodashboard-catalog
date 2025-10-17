@@ -25,7 +25,7 @@
   ],
   "yAxis": "1",
   "themes": [
-    ""
+    "land"
   ],
   "tags": [
     "vegetation",
@@ -38,13 +38,8 @@
     "MODIS"
   ],
   "satellite": [
-    "Acqua"
+    "Aqua"
   ],
-  "eox:colorlegend": {
-    "range": [
-      "#000000"
-    ]
-  },
   "endpointtype": "xcube_zarr",
   "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average) ",
   "extent": {

@@ -19,7 +19,7 @@
       "code": "ndvi_deepESDL",
       "id": "ndvi_deepESDL",
       "themes": [
-        ""
+        "land"
       ],
       "yAxis": "1",
       "tags": [
@@ -33,7 +33,7 @@
         "MODIS"
       ],
       "satellite": [
-        "Acqua"
+        "Aqua"
       ]
     },
     {
@@ -96,7 +96,7 @@
     }
   ],
   "themes": [
-    ""
+    "land"
   ],
   "tags": [
     "vegetation",
@@ -109,13 +109,8 @@
     "MODIS"
   ],
   "satellite": [
-    "Acqua"
+    "Aqua"
   ],
-  "eox:colorlegend": {
-    "range": [
-      "#000000"
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
   "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average) ",
@@ -157,10 +152,10 @@
       "ndvi_deepESDL"
     ],
     "themes": [
-      ""
+      "land"
     ],
     "satellite": [
-      "Acqua"
+      "Aqua"
     ],
     "sensor": [
       "MODIS"

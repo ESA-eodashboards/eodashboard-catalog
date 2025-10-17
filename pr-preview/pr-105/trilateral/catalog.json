@@ -18,11 +18,11 @@
       "code": "ndvi_deepESDL",
       "id": "ndvi_deepESDL",
       "themes": [
-        ""
+        "land"
       ],
       "subcode": "ndvi_deepESDL",
       "satellite": [
-        "Acqua"
+        "Aqua"
       ],
       "sensor": [
         "MODIS"
