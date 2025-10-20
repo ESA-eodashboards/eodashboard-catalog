@@ -234,8 +234,8 @@
     "temporal": {
       "interval": [
         [
-          "2022-01-16T11:59:30Z",
-          "2024-07-16T11:59:30Z"
+          "2022-01-01T00:00:00Z",
+          "2025-06-30T23:59:59Z"
         ]
       ]
     }
@@ -256,39 +256,39 @@
       "agriculture"
     ],
     "satellite": [
-      "DMSP-F14",
-      "NPP",
-      "MetOp-A",
-      "DMSP-F15",
-      "GCOM-W1",
-      "NOAA-N17",
-      "NOAA-N16",
-      "Aqua",
-      "Megha-Tropiques",
-      "MetOp-B",
-      "GPM Core Observatory",
+      "DWSS-1",
       "NOAA-N15",
       "JPSS-1",
-      "DMSP-F13",
-      "ADEOS-II",
-      "NOAA-N19",
+      "Megha-Tropiques",
+      "DMSP-F11",
       "TRMM",
+      "GCOM-W1",
+      "DMSP-F14",
+      "NOAA-N17",
+      "GPM Core Observatory",
+      "MetOp-A",
+      "NOAA-N16",
       "NOAA-N18",
-      "DWSS-1",
-      "DMSP-F11"
+      "NOAA-N19",
+      "DMSP-F13",
+      "DMSP-F15",
+      "ADEOS-II",
+      "NPP",
+      "MetOp-B",
+      "Aqua"
     ],
     "sensor": [
-      "AMSU-A/AMSU-B",
-      "SSM/I",
-      "AMSR-E",
+      "TMI",
       "AMSR",
       "TBD",
       "AMSU-A/MHS",
-      "AMSR2",
-      "TMI",
-      "ATMS",
       "GMI",
-      "MADRAS"
+      "ATMS",
+      "AMSU-A/AMSU-B",
+      "MADRAS",
+      "SSM/I",
+      "AMSR-E",
+      "AMSR2"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.jpg"

@@ -1,0 +1,184 @@
+{
+  "type": "Collection",
+  "id": "ndvi_deepESDL",
+  "stac_version": "1.1.0",
+  "description": "### Normalized Difference Vegetation Index (NDVI) (Weekly average)\nNDVI is a key indicator used in remote sensing to measure vegetation health. It works by comparing how plants reflect light in two specific spectral bands: near-infrared (NIR) and red light. The NDVI formula uses the difference between near-infrared (NIR) and red reflectance, divided by their sum:\n\n*NDVI = (NIR - Red) / (NIR + Red)*\n\n### Interpreting NDVI\nNDVI values range from -1 to 1. **Healthy**, dense vegetation reflects more NIR and absorbs more red light, resulting in **higher NDVI values**, while bare soil, water, or **stressed/unhealthy** vegetation yield **lower NDVI values**.\n\n### Additional Information\n* NDVI was calculated using MODIS/Terra + Aqua BRDF/Albedo Nadir Reflectance products, specifically using the red and NIR bands, and aggregated into 8-day means at a 0.25° spatial resolution.\n* The data shown is served from the [Earth System Data Lab xcube server](https://viewer.earthsystemdatalab.net/).",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./ndvi_deepESDL/collection.json",
+      "type": "application/json",
+      "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average) ",
+      "endpointtype": "xcube_zarr",
+      "code": "ndvi_deepESDL",
+      "id": "ndvi_deepESDL",
+      "themes": [
+        "land"
+      ],
+      "yAxis": "1",
+      "tags": [
+        "vegetation",
+        "NDVI",
+        "monitoring",
+        "MODIS"
+      ],
+      "subcode": "ndvi_deepESDL",
+      "sensor": [
+        "MODIS"
+      ],
+      "satellite": [
+        "Aqua"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://api.earthsystemdatalab.net/api/timeseries/esdc/ndvi?aggMethods=median",
+      "type": "application/json",
+      "id": "xcube_statistics",
+      "method": "POST",
+      "body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_body.json"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_NDVI/ESDC_NDVI.png",
+  "themes": [
+    "land"
+  ],
+  "tags": [
+    "vegetation",
+    "NDVI",
+    "monitoring",
+    "MODIS"
+  ],
+  "subcode": "ndvi_deepESDL",
+  "sensor": [
+    "MODIS"
+  ],
+  "satellite": [
+    "Aqua"
+  ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
+  "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average) ",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1979-01-05T00:00:00Z",
+          "2021-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "NASA",
+      "url": "https://terra.nasa.gov/data/modis-data"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "ndvi_deepESDL"
+    ],
+    "themes": [
+      "land"
+    ],
+    "satellite": [
+      "Aqua"
+    ],
+    "sensor": [
+      "MODIS"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_NDVI/ESDC_NDVI.png"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_NDVI/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_NDVI/ESDC_NDVI.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
