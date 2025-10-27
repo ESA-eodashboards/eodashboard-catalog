@@ -72,7 +72,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
@@ -83,7 +83,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "OSM Background",
       "roles": [
         "baselayer",
@@ -94,7 +94,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "Terrain Light",
       "roles": [
         "baselayer",
@@ -105,7 +105,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "image/png",
+      "type": "('image/png',)",
       "title": "Overlay labels",
       "roles": [
         "overlay",
@@ -191,26 +191,26 @@
       "TROPOMI"
     ],
     "cities": [
-      "Rome",
-      "Los Angeles",
-      "Mumbai",
-      "Beijing",
-      "New Delhi",
-      "New York",
       "Milan",
-      "San Francisco",
-      "Tokyo",
+      "New Delhi",
+      "Rome",
+      "New York",
+      "Mumbai",
+      "Madrid",
       "Paris",
-      "Madrid"
+      "Los Angeles",
+      "Tokyo",
+      "Beijing",
+      "San Francisco"
     ],
     "countries": [
-      "CN",
-      "JP",
-      "FR",
-      "IT",
+      "IN",
       "ES",
+      "CN",
       "US",
-      "IN"
+      "IT",
+      "FR",
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg"

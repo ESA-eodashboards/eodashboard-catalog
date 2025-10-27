@@ -84,7 +84,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "EOxCloudless 2024",
       "roles": [
         "baselayer",
@@ -95,7 +95,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "OSM Background",
       "roles": [
         "baselayer",
@@ -106,7 +106,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
+      "type": "('image/jpeg',)",
       "title": "Terrain Light",
       "roles": [
         "baselayer",
@@ -117,7 +117,7 @@
     {
       "rel": "xyz",
       "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "image/png",
+      "type": "('image/png',)",
       "title": "Overlay labels",
       "roles": [
         "overlay",
@@ -257,38 +257,38 @@
     ],
     "satellite": [
       "DWSS-1",
+      "NOAA-N17",
+      "DMSP-F15",
       "NOAA-N15",
-      "JPSS-1",
+      "NOAA-N16",
+      "MetOp-A",
       "Megha-Tropiques",
+      "NOAA-N18",
+      "NPP",
+      "DMSP-F14",
+      "DMSP-F13",
+      "MetOp-B",
+      "Aqua",
       "DMSP-F11",
       "TRMM",
       "GCOM-W1",
-      "DMSP-F14",
-      "NOAA-N17",
       "GPM Core Observatory",
-      "MetOp-A",
-      "NOAA-N16",
-      "NOAA-N18",
       "NOAA-N19",
-      "DMSP-F13",
-      "DMSP-F15",
-      "ADEOS-II",
-      "NPP",
-      "MetOp-B",
-      "Aqua"
+      "JPSS-1",
+      "ADEOS-II"
     ],
     "sensor": [
-      "TMI",
-      "AMSR",
-      "TBD",
-      "AMSU-A/MHS",
+      "AMSR2",
       "GMI",
-      "ATMS",
+      "TMI",
       "AMSU-A/AMSU-B",
       "MADRAS",
-      "SSM/I",
+      "ATMS",
+      "AMSU-A/MHS",
+      "AMSR",
+      "TBD",
       "AMSR-E",
-      "AMSR2"
+      "SSM/I"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.jpg"
