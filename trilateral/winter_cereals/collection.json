@@ -178,9 +178,9 @@
       "Sentinel-1"
     ],
     "sensor": [
-      "C-SAR",
       "MSI",
-      "OLI"
+      "OLI",
+      "C-SAR"
     ],
     "cities": [
       "Spain"
