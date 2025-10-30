@@ -172,7 +172,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2025-10-27T15:25:49.155227Z"
+          "2025-10-30T09:37:29.965450Z"
         ]
       ]
     }
@@ -200,20 +200,20 @@
       "Sentinel-1"
     ],
     "sensor": [
-      "C-SAR",
-      "PALSAR-2"
+      "PALSAR-2",
+      "C-SAR"
     ],
     "cities": [
-      "Palm Springs",
+      "Nagoya",
       "Singapore",
-      "Arcadia",
-      "Los Angeles",
       "Beijing",
-      "Nagoya"
+      "Arcadia",
+      "Palm Springs",
+      "Los Angeles"
     ],
     "countries": [
-      "JP",
       "SG",
+      "JP",
       "US",
       "CN"
     ],
