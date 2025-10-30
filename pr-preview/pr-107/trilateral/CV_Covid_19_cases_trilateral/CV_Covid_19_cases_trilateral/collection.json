@@ -1,0 +1,2691 @@
+{
+  "type": "Collection",
+  "id": "CV_Covid_19_cases_trilateral",
+  "stac_version": "1.1.0",
+  "description": "## Data on COVID-19 (coronavirus) \n\nThe source of this data is [Our World in Data](https://ourworldindata.org/coronavirus)\n\nThe full dataset is is updated daily and includes data on confirmed cases, deaths, hospitalizations, testing, and vaccinations as well as other variables of potential interest. Here, our interactive charts show visualise the variation of the total number of cases and the evolution of vaccinations. \n\nTry interacting with the charts to visualise each variable. \n\n**References:**\n\nThis data has been collected, aggregated, and documented by Cameron Appel, Diana Beltekian, Daniel Gavrilov, Charlie Giattino, Joe Hasell, Bobbie Macdonald, Edouard Mathieu, Esteban Ortiz-Ospina, Hannah Ritchie, Lucas Rodés-Guirao, Max Roser.\n\nHasell, J., Mathieu, E., Beltekian, D. et al. A cross-country database of COVID-19 testing. Sci Data 7, 345 (2020). https://doi.org/10.1038/s41597-020-00688-8\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./AE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AE",
+      "latlng": "24.467,54.367",
+      "country": "United Arab Emirates",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./AF/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AF",
+      "latlng": "34.517,69.183",
+      "country": "Afghanistan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./AL/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AL",
+      "latlng": "41.317,19.817",
+      "country": "Albania",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./AM/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AM",
+      "latlng": "40.167,44.5",
+      "country": "Armenia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./AO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AO",
+      "latlng": "-8.833,13.217",
+      "country": "Angola",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./AQ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AQ",
+      "latlng": "-80.040179,-59.572095",
+      "country": "Antarctica",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./AR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AR",
+      "latlng": "-34.583,-58.667",
+      "country": "Argentina",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./AS/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AS",
+      "latlng": "38.883,-77.0",
+      "country": "United States of America",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./AT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AT",
+      "latlng": "48.2,16.367",
+      "country": "Austria",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./AU/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AU",
+      "latlng": "-35.267,149.133",
+      "country": "Australia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./AZ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "AZ",
+      "latlng": "40.383,49.867",
+      "country": "Azerbaijan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BA",
+      "latlng": "43.867,18.417",
+      "country": "Bosnia and Herzegovina",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BD/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BD",
+      "latlng": "23.717,90.4",
+      "country": "Bangladesh",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BE",
+      "latlng": "50.833,4.333",
+      "country": "Belgium",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BF/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BF",
+      "latlng": "12.367,-1.517",
+      "country": "Burkina Faso",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BG",
+      "latlng": "42.683,23.317",
+      "country": "Bulgaria",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BI/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BI",
+      "latlng": "-3.367,29.35",
+      "country": "Burundi",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BJ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BJ",
+      "latlng": "6.483,2.617",
+      "country": "Benin",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BN/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BN",
+      "latlng": "4.883,114.933",
+      "country": "Brunei",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BO",
+      "latlng": "-16.5,-68.15",
+      "country": "Bolivia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BR",
+      "latlng": "-15.783,-47.917",
+      "country": "Brazil",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BT",
+      "latlng": "27.467,89.633",
+      "country": "Bhutan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BW/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BW",
+      "latlng": "-24.633,25.9",
+      "country": "Botswana",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BY/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BY",
+      "latlng": "53.9,27.567",
+      "country": "Belarus",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./BZ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "BZ",
+      "latlng": "17.25,-88.767",
+      "country": "Belize",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CA",
+      "latlng": "45.417,-75.7",
+      "country": "Canada",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CF/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CF",
+      "latlng": "4.367,18.583",
+      "country": "Central African Republic",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CH/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CH",
+      "latlng": "46.917,7.467",
+      "country": "Switzerland",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CL/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CL",
+      "latlng": "-33.45,-70.667",
+      "country": "Chile",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CM/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CM",
+      "latlng": "3.867,11.517",
+      "country": "Cameroon",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CN/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CN",
+      "latlng": "39.917,116.383",
+      "country": "China",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CO",
+      "latlng": "4.6,-74.083",
+      "country": "Colombia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CR",
+      "latlng": "9.933,-84.083",
+      "country": "Costa Rica",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CU/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CU",
+      "latlng": "23.117,-82.35",
+      "country": "Cuba",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CY/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CY",
+      "latlng": "35.167,33.367",
+      "country": "Cyprus",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./CZ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "CZ",
+      "latlng": "50.083,14.467",
+      "country": "Czechia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./DE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "DE",
+      "latlng": "52.517,13.4",
+      "country": "Germany",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./DJ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "DJ",
+      "latlng": "11.583,43.15",
+      "country": "Djibouti",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./DK/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "DK",
+      "latlng": "55.667,12.583",
+      "country": "Denmark",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./DO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "DO",
+      "latlng": "18.467,-69.9",
+      "country": "Dominican Republic",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./DZ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "DZ",
+      "latlng": "36.75,3.05",
+      "country": "Algeria",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./EC/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "EC",
+      "latlng": "-0.217,-78.5",
+      "country": "Ecuador",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./EE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "EE",
+      "latlng": "59.433,24.717",
+      "country": "Estonia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./EG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "EG",
+      "latlng": "30.05,31.25",
+      "country": "Egypt",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ER/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ER",
+      "latlng": "15.333,38.933",
+      "country": "Eritrea",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ES/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ES",
+      "latlng": "40.4,-3.683",
+      "country": "Spain",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ET/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ET",
+      "latlng": "9.033,38.7",
+      "country": "Ethiopia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./FI/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "FI",
+      "latlng": "60.167,24.933",
+      "country": "Finland",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./FJ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "FJ",
+      "latlng": "-18.133,178.417",
+      "country": "Fiji",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./FR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "FR",
+      "latlng": "48.867,2.333",
+      "country": "France",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GA",
+      "latlng": "0.383,9.45",
+      "country": "Gabon",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GB/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GB",
+      "latlng": "51.5,-0.083",
+      "country": "United Kingdom",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GE",
+      "latlng": "41.683,44.833",
+      "country": "Georgia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GH/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GH",
+      "latlng": "5.55,-0.217",
+      "country": "Ghana",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GM/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GM",
+      "latlng": "13.45,-16.567",
+      "country": "Gambia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GN/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GN",
+      "latlng": "9.5,-13.7",
+      "country": "Guinea",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GQ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GQ",
+      "latlng": "3.75,8.783",
+      "country": "Equatorial Guinea",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GR",
+      "latlng": "37.983,23.733",
+      "country": "Greece",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GT",
+      "latlng": "14.617,-90.517",
+      "country": "Guatemala",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GU/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GU",
+      "latlng": "38.883,-77.0",
+      "country": "United States of America",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./GY/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "GY",
+      "latlng": "6.8,-58.15",
+      "country": "Guyana",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./HN/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "HN",
+      "latlng": "14.1,-87.217",
+      "country": "Honduras",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./HR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "HR",
+      "latlng": "45.8,16.0",
+      "country": "Croatia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./HT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "HT",
+      "latlng": "18.533,-72.333",
+      "country": "Haiti",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./HU/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "HU",
+      "latlng": "47.5,19.083",
+      "country": "Hungary",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ID/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ID",
+      "latlng": "-6.167,106.817",
+      "country": "Indonesia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./IE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "IE",
+      "latlng": "53.317,-6.233",
+      "country": "Ireland",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./IL/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "IL",
+      "latlng": "31.767,35.233",
+      "country": "Israel",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./IN/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "IN",
+      "latlng": "28.6,77.2",
+      "country": "India",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./IQ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "IQ",
+      "latlng": "33.333,44.4",
+      "country": "Iraq",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./IR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "IR",
+      "latlng": "35.7,51.417",
+      "country": "Iran",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./IS/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "IS",
+      "latlng": "64.15,-21.95",
+      "country": "Iceland",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./IT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "IT",
+      "latlng": "41.9,12.483",
+      "country": "Italy",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./JM/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "JM",
+      "latlng": "18.0,-76.8",
+      "country": "Jamaica",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./JO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "JO",
+      "latlng": "31.95,35.933",
+      "country": "Jordan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./JP/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "JP",
+      "latlng": "35.683,139.75",
+      "country": "Japan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./KE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "KE",
+      "latlng": "-1.283,36.817",
+      "country": "Kenya",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./KG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "KG",
+      "latlng": "42.867,74.6",
+      "country": "Kyrgyzstan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./KH/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "KH",
+      "latlng": "11.55,104.917",
+      "country": "Cambodia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./KW/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "KW",
+      "latlng": "29.367,47.967",
+      "country": "Kuwait",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./KZ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "KZ",
+      "latlng": "51.167,71.417",
+      "country": "Kazakhstan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LA",
+      "latlng": "17.967,102.6",
+      "country": "Laos",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LB/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LB",
+      "latlng": "33.867,35.5",
+      "country": "Lebanon",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LK/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LK",
+      "latlng": "6.917,79.833",
+      "country": "Sri Lanka",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LR",
+      "latlng": "6.3,-10.8",
+      "country": "Liberia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LS/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LS",
+      "latlng": "-29.317,27.483",
+      "country": "Lesotho",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LT",
+      "latlng": "54.683,25.317",
+      "country": "Lithuania",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LU/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LU",
+      "latlng": "49.6,6.117",
+      "country": "Luxembourg",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LV/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LV",
+      "latlng": "56.95,24.1",
+      "country": "Latvia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./LY/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "LY",
+      "latlng": "32.883,13.167",
+      "country": "Libya",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MA",
+      "latlng": "34.017,-6.817",
+      "country": "Morocco",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MC/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MC",
+      "latlng": "43.733,7.417",
+      "country": "Monaco",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MD/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MD",
+      "latlng": "47.0,28.85",
+      "country": "Moldova",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ME/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ME",
+      "latlng": "42.433,19.267",
+      "country": "Montenegro",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MG",
+      "latlng": "-18.917,47.517",
+      "country": "Madagascar",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MK/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MK",
+      "latlng": "42.0,21.433",
+      "country": "North Macedonia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ML/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ML",
+      "latlng": "12.65,-8.0",
+      "country": "Mali",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MN/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MN",
+      "latlng": "47.917,106.917",
+      "country": "Mongolia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MP/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MP",
+      "latlng": "38.883,-77.0",
+      "country": "United States of America",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MR",
+      "latlng": "18.067,-15.967",
+      "country": "Mauritania",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MT",
+      "latlng": "35.883,14.5",
+      "country": "Malta",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MW/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MW",
+      "latlng": "-13.967,33.783",
+      "country": "Malawi",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MX/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MX",
+      "latlng": "19.433,-99.133",
+      "country": "Mexico",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MY/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MY",
+      "latlng": "3.167,101.7",
+      "country": "Malaysia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./MZ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "MZ",
+      "latlng": "-25.95,32.583",
+      "country": "Mozambique",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NA",
+      "latlng": "-22.567,17.083",
+      "country": "Namibia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NE",
+      "latlng": "13.517,2.117",
+      "country": "Niger",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NG",
+      "latlng": "9.083,7.533",
+      "country": "Nigeria",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NI/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NI",
+      "latlng": "12.133,-86.25",
+      "country": "Nicaragua",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NL/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NL",
+      "latlng": "52.35,4.917",
+      "country": "Netherlands",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NO",
+      "latlng": "59.917,10.75",
+      "country": "Norway",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NP/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NP",
+      "latlng": "27.717,85.317",
+      "country": "Nepal",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./NZ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "NZ",
+      "latlng": "-41.3,174.783",
+      "country": "New Zealand",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./OM/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "OM",
+      "latlng": "23.617,58.583",
+      "country": "Oman",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PA",
+      "latlng": "8.967,-79.533",
+      "country": "Panama",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PE",
+      "latlng": "-12.05,-77.05",
+      "country": "Peru",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PG",
+      "latlng": "-9.45,147.183",
+      "country": "Papua New Guinea",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PH/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PH",
+      "latlng": "14.6,120.967",
+      "country": "Philippines",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PK/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PK",
+      "latlng": "33.683,73.05",
+      "country": "Pakistan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PL/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PL",
+      "latlng": "52.25,21.0",
+      "country": "Poland",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PR",
+      "latlng": "18.467,-66.117",
+      "country": "Puerto Rico",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PT",
+      "latlng": "38.717,-9.133",
+      "country": "Portugal",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./PY/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "PY",
+      "latlng": "-25.267,-57.667",
+      "country": "Paraguay",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./QA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "QA",
+      "latlng": "25.283,51.533",
+      "country": "Qatar",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./RO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "RO",
+      "latlng": "44.433,26.1",
+      "country": "Romania",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./RS/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "RS",
+      "latlng": "44.833,20.5",
+      "country": "Serbia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./RU/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "RU",
+      "latlng": "55.75,37.6",
+      "country": "Russia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./RW/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "RW",
+      "latlng": "-1.95,30.05",
+      "country": "Rwanda",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SA",
+      "latlng": "24.65,46.7",
+      "country": "Saudi Arabia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SB/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SB",
+      "latlng": "-9.433,159.95",
+      "country": "Solomon Islands",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SD/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SD",
+      "latlng": "15.6,32.533",
+      "country": "Sudan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SE",
+      "latlng": "59.333,18.05",
+      "country": "Sweden",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SG",
+      "latlng": "1.283,103.85",
+      "country": "Singapore",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SI/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SI",
+      "latlng": "46.05,14.517",
+      "country": "Slovenia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SK/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SK",
+      "latlng": "48.15,17.117",
+      "country": "Slovakia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SL/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SL",
+      "latlng": "8.483,-13.233",
+      "country": "Sierra Leone",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SN/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SN",
+      "latlng": "14.733,-17.633",
+      "country": "Senegal",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SO/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SO",
+      "latlng": "2.067,45.333",
+      "country": "Somalia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SR",
+      "latlng": "5.833,-55.167",
+      "country": "Suriname",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SS/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SS",
+      "latlng": "4.859363,31.571251",
+      "country": "South Sudan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SV/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SV",
+      "latlng": "13.7,-89.2",
+      "country": "El Salvador",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./SY/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "SY",
+      "latlng": "33.5,36.3",
+      "country": "Syria",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./TD/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "TD",
+      "latlng": "12.1,15.033",
+      "country": "Chad",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./TG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "TG",
+      "latlng": "6.117,1.217",
+      "country": "Togo",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./TH/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "TH",
+      "latlng": "13.75,100.517",
+      "country": "Thailand",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./TJ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "TJ",
+      "latlng": "38.55,68.767",
+      "country": "Tajikistan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./TN/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "TN",
+      "latlng": "36.8,10.183",
+      "country": "Tunisia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./TR/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "TR",
+      "latlng": "39.933,32.867",
+      "country": "Turkey",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./TT/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "TT",
+      "latlng": "10.65,-61.517",
+      "country": "Trinidad and Tobago",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./UA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "UA",
+      "latlng": "50.433,30.517",
+      "country": "Ukraine",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./UG/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "UG",
+      "latlng": "0.317,32.55",
+      "country": "Uganda",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./US/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "US",
+      "latlng": "38.883,-77.0",
+      "country": "United States of America",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./UY/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "UY",
+      "latlng": "-34.85,-56.167",
+      "country": "Uruguay",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./UZ/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "UZ",
+      "latlng": "41.317,69.25",
+      "country": "Uzbekistan",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./VE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "VE",
+      "latlng": "10.483,-66.867",
+      "country": "Venezuela",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./VI/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "VI",
+      "latlng": "18.467,-66.117",
+      "country": "Puerto Rico",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./VN/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "VN",
+      "latlng": "21.033,105.85",
+      "country": "Vietnam",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./VU/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "VU",
+      "latlng": "-17.733,168.317",
+      "country": "Vanuatu",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./XK/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "XK",
+      "latlng": "42.67272,21.16688",
+      "country": "Kosovo",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./YE/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "YE",
+      "latlng": "15.35,44.2",
+      "country": "Yemen",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ZA/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ZA",
+      "latlng": "-25.7,28.217",
+      "country": "South Africa",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ZM/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ZM",
+      "latlng": "-15.417,28.283",
+      "country": "Zambia",
+      "name": "/"
+    },
+    {
+      "rel": "child",
+      "href": "./ZW/collection.json",
+      "type": "application/json",
+      "title": "/",
+      "id": "ZW",
+      "latlng": "-17.817,31.033",
+      "country": "Zimbabwe",
+      "name": "/"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Covid-19 Cases"
+    }
+  ],
+  "sci:doi": "10.1038/s41597-020-00688-8",
+  "sci:citation": "Hasell, J., Mathieu, E., Beltekian, D. et al. A cross-country database of COVID-19 testing. Sci Data 7, 345 (2020).\n",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CV_Covid_19_cases/CV_Covid_19_cases_photo.jpg",
+  "yAxis": "/",
+  "themes": [
+    "covid-19"
+  ],
+  "tags": [
+    "COVID-19",
+    "Human activities",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "CV",
+  "insituSources": [
+    "Other"
+  ],
+  "locations": true,
+  "endpointtype": "GeoDB",
+  "title": "Covid-19 Cases",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -99.143,
+          -80.050179,
+          178.427,
+          64.16000000000001
+        ],
+        [
+          54.357,
+          24.456999999999997,
+          54.376999999999995,
+          24.477
+        ],
+        [
+          69.173,
+          34.507000000000005,
+          69.19300000000001,
+          34.527
+        ],
+        [
+          19.807,
+          41.307,
+          19.827,
+          41.327
+        ],
+        [
+          44.49,
+          40.157000000000004,
+          44.51,
+          40.177
+        ],
+        [
+          13.207,
+          -8.843,
+          13.227,
+          -8.823
+        ],
+        [
+          -59.582094999999995,
+          -80.050179,
+          -59.562095,
+          -80.03017899999999
+        ],
+        [
+          -58.677,
+          -34.592999999999996,
+          -58.657000000000004,
+          -34.573
+        ],
+        [
+          -77.01,
+          38.873000000000005,
+          -76.99,
+          38.893
+        ],
+        [
+          16.357,
+          48.190000000000005,
+          16.377000000000002,
+          48.21
+        ],
+        [
+          149.12300000000002,
+          -35.277,
+          149.143,
+          -35.257000000000005
+        ],
+        [
+          49.857,
+          40.373000000000005,
+          49.876999999999995,
+          40.393
+        ],
+        [
+          18.407,
+          43.857,
+          18.427000000000003,
+          43.876999999999995
+        ],
+        [
+          90.39,
+          23.706999999999997,
+          90.41000000000001,
+          23.727
+        ],
+        [
+          4.323,
+          50.823,
+          4.343,
+          50.842999999999996
+        ],
+        [
+          -1.527,
+          12.357000000000001,
+          -1.507,
+          12.377
+        ],
+        [
+          23.307,
+          42.673,
+          23.327,
+          42.693
+        ],
+        [
+          29.34,
+          -3.377,
+          29.360000000000003,
+          -3.357
+        ],
+        [
+          2.607,
+          6.473,
+          2.627,
+          6.492999999999999
+        ],
+        [
+          114.923,
+          4.873,
+          114.94300000000001,
+          4.893
+        ],
+        [
+          -68.16000000000001,
+          -16.51,
+          -68.14,
+          -16.49
+        ],
+        [
+          -47.927,
+          -15.793,
+          -47.907000000000004,
+          -15.773
+        ],
+        [
+          89.62299999999999,
+          27.456999999999997,
+          89.643,
+          27.477
+        ],
+        [
+          25.889999999999997,
+          -24.643,
+          25.91,
+          -24.622999999999998
+        ],
+        [
+          27.557,
+          53.89,
+          27.577,
+          53.91
+        ],
+        [
+          -88.777,
+          17.24,
+          -88.75699999999999,
+          17.26
+        ],
+        [
+          -75.71000000000001,
+          45.407000000000004,
+          -75.69,
+          45.427
+        ],
+        [
+          18.572999999999997,
+          4.357,
+          18.593,
+          4.377
+        ],
+        [
+          7.457,
+          46.907000000000004,
+          7.476999999999999,
+          46.927
+        ],
+        [
+          -70.677,
+          -33.46,
+          -70.657,
+          -33.440000000000005
+        ],
+        [
+          11.507,
+          3.857,
+          11.527,
+          3.877
+        ],
+        [
+          116.37299999999999,
+          39.907000000000004,
+          116.393,
+          39.927
+        ],
+        [
+          -74.093,
+          4.59,
+          -74.073,
+          4.609999999999999
+        ],
+        [
+          -84.093,
+          9.923,
+          -84.073,
+          9.943
+        ],
+        [
+          -82.36,
+          23.107,
+          -82.33999999999999,
+          23.127000000000002
+        ],
+        [
+          33.357,
+          35.157000000000004,
+          33.376999999999995,
+          35.177
+        ],
+        [
+          14.457,
+          50.073,
+          14.477,
+          50.092999999999996
+        ],
+        [
+          13.39,
+          52.507000000000005,
+          13.41,
+          52.527
+        ],
+        [
+          43.14,
+          11.573,
+          43.16,
+          11.593
+        ],
+        [
+          12.573,
+          55.657000000000004,
+          12.593,
+          55.677
+        ],
+        [
+          -69.91000000000001,
+          18.456999999999997,
+          -69.89,
+          18.477
+        ],
+        [
+          3.04,
+          36.74,
+          3.0599999999999996,
+          36.76
+        ],
+        [
+          -78.51,
+          -0.227,
+          -78.49,
+          -0.207
+        ],
+        [
+          24.706999999999997,
+          59.423,
+          24.727,
+          59.443
+        ],
+        [
+          31.24,
+          30.04,
+          31.26,
+          30.060000000000002
+        ],
+        [
+          38.923,
+          15.323,
+          38.943,
+          15.343
+        ],
+        [
+          -3.6929999999999996,
+          40.39,
+          -3.673,
+          40.41
+        ],
+        [
+          38.690000000000005,
+          9.023,
+          38.71,
+          9.043
+        ],
+        [
+          24.923,
+          60.157000000000004,
+          24.943,
+          60.177
+        ],
+        [
+          178.407,
+          -18.143,
+          178.427,
+          -18.122999999999998
+        ],
+        [
+          2.3230000000000004,
+          48.857,
+          2.343,
+          48.876999999999995
+        ],
+        [
+          9.44,
+          0.373,
+          9.459999999999999,
+          0.393
+        ],
+        [
+          -0.093,
+          51.49,
+          -0.07300000000000001,
+          51.51
+        ],
+        [
+          44.823,
+          41.673,
+          44.842999999999996,
+          41.693
+        ],
+        [
+          -0.227,
+          5.54,
+          -0.207,
+          5.56
+        ],
+        [
+          -16.577,
+          13.44,
+          -16.557,
+          13.459999999999999
+        ],
+        [
+          -13.709999999999999,
+          9.49,
+          -13.69,
+          9.51
+        ],
+        [
+          8.773,
+          3.74,
+          8.793,
+          3.76
+        ],
+        [
+          23.723,
+          37.973,
+          23.743000000000002,
+          37.992999999999995
+        ],
+        [
+          -90.527,
+          14.607000000000001,
+          -90.50699999999999,
+          14.627
+        ],
+        [
+          -77.01,
+          38.873000000000005,
+          -76.99,
+          38.893
+        ],
+        [
+          -58.16,
+          6.79,
+          -58.14,
+          6.81
+        ],
+        [
+          -87.227,
+          14.09,
+          -87.207,
+          14.11
+        ],
+        [
+          15.99,
+          45.79,
+          16.01,
+          45.809999999999995
+        ],
+        [
+          -72.343,
+          18.523,
+          -72.323,
+          18.543000000000003
+        ],
+        [
+          19.072999999999997,
+          47.49,
+          19.093,
+          47.51
+        ],
+        [
+          106.80699999999999,
+          -6.177,
+          106.827,
+          -6.157
+        ],
+        [
+          -6.242999999999999,
+          53.307,
+          -6.223,
+          53.327
+        ],
+        [
+          35.223,
+          31.756999999999998,
+          35.242999999999995,
+          31.777
+        ],
+        [
+          77.19,
+          28.59,
+          77.21000000000001,
+          28.610000000000003
+        ],
+        [
+          44.39,
+          33.323,
+          44.41,
+          33.342999999999996
+        ],
+        [
+          51.407000000000004,
+          35.690000000000005,
+          51.427,
+          35.71
+        ],
+        [
+          -21.96,
+          64.14,
+          -21.939999999999998,
+          64.16000000000001
+        ],
+        [
+          12.473,
+          41.89,
+          12.493,
+          41.91
+        ],
+        [
+          -76.81,
+          17.99,
+          -76.78999999999999,
+          18.01
+        ],
+        [
+          35.923,
+          31.939999999999998,
+          35.943,
+          31.96
+        ],
+        [
+          139.74,
+          35.673,
+          139.76,
+          35.693
+        ],
+        [
+          36.807,
+          -1.293,
+          36.827,
+          -1.273
+        ],
+        [
+          74.58999999999999,
+          42.857,
+          74.61,
+          42.876999999999995
+        ],
+        [
+          104.907,
+          11.540000000000001,
+          104.927,
+          11.56
+        ],
+        [
+          47.957,
+          29.357,
+          47.977,
+          29.377000000000002
+        ],
+        [
+          71.407,
+          51.157000000000004,
+          71.427,
+          51.177
+        ],
+        [
+          102.58999999999999,
+          17.956999999999997,
+          102.61,
+          17.977
+        ],
+        [
+          35.49,
+          33.857,
+          35.51,
+          33.876999999999995
+        ],
+        [
+          79.823,
+          6.907,
+          79.843,
+          6.927
+        ],
+        [
+          -10.81,
+          6.29,
+          -10.790000000000001,
+          6.31
+        ],
+        [
+          27.473,
+          -29.327,
+          27.493000000000002,
+          -29.307
+        ],
+        [
+          25.307,
+          54.673,
+          25.327,
+          54.693
+        ],
+        [
+          6.107,
+          49.59,
+          6.127,
+          49.61
+        ],
+        [
+          24.09,
+          56.940000000000005,
+          24.110000000000003,
+          56.96
+        ],
+        [
+          13.157,
+          32.873000000000005,
+          13.177,
+          32.893
+        ],
+        [
+          -6.827,
+          34.007000000000005,
+          -6.807,
+          34.027
+        ],
+        [
+          7.407,
+          43.723,
+          7.427,
+          43.742999999999995
+        ],
+        [
+          28.84,
+          46.99,
+          28.860000000000003,
+          47.01
+        ],
+        [
+          19.256999999999998,
+          42.423,
+          19.277,
+          42.443
+        ],
+        [
+          47.507000000000005,
+          -18.927000000000003,
+          47.527,
+          -18.907
+        ],
+        [
+          21.423,
+          41.99,
+          21.443,
+          42.01
+        ],
+        [
+          -8.01,
+          12.64,
+          -7.99,
+          12.66
+        ],
+        [
+          106.907,
+          47.907000000000004,
+          106.927,
+          47.927
+        ],
+        [
+          -77.01,
+          38.873000000000005,
+          -76.99,
+          38.893
+        ],
+        [
+          -15.977,
+          18.057,
+          -15.957,
+          18.077
+        ],
+        [
+          14.49,
+          35.873000000000005,
+          14.51,
+          35.893
+        ],
+        [
+          33.773,
+          -13.977,
+          33.793,
+          -13.957
+        ],
+        [
+          -99.143,
+          19.423,
+          -99.12299999999999,
+          19.443
+        ],
+        [
+          101.69,
+          3.157,
+          101.71000000000001,
+          3.1769999999999996
+        ],
+        [
+          32.573,
+          -25.96,
+          32.592999999999996,
+          -25.939999999999998
+        ],
+        [
+          17.072999999999997,
+          -22.577,
+          17.093,
+          -22.557
+        ],
+        [
+          2.107,
+          13.507,
+          2.127,
+          13.527
+        ],
+        [
+          7.523000000000001,
+          9.073,
+          7.543,
+          9.093
+        ],
+        [
+          -86.26,
+          12.123,
+          -86.24,
+          12.142999999999999
+        ],
+        [
+          4.907,
+          52.34,
+          4.927,
+          52.36
+        ],
+        [
+          10.74,
+          59.907000000000004,
+          10.76,
+          59.927
+        ],
+        [
+          85.30699999999999,
+          27.706999999999997,
+          85.327,
+          27.727
+        ],
+        [
+          174.773,
+          -41.309999999999995,
+          174.79299999999998,
+          -41.29
+        ],
+        [
+          58.573,
+          23.607,
+          58.592999999999996,
+          23.627000000000002
+        ],
+        [
+          -79.543,
+          8.957,
+          -79.523,
+          8.977
+        ],
+        [
+          -77.06,
+          -12.06,
+          -77.03999999999999,
+          -12.040000000000001
+        ],
+        [
+          147.173,
+          -9.459999999999999,
+          147.19299999999998,
+          -9.44
+        ],
+        [
+          120.957,
+          14.59,
+          120.977,
+          14.61
+        ],
+        [
+          73.03999999999999,
+          33.673,
+          73.06,
+          33.693
+        ],
+        [
+          20.99,
+          52.24,
+          21.01,
+          52.26
+        ],
+        [
+          -66.12700000000001,
+          18.456999999999997,
+          -66.107,
+          18.477
+        ],
+        [
+          -9.142999999999999,
+          38.707,
+          -9.123,
+          38.727
+        ],
+        [
+          -57.677,
+          -25.277,
+          -57.657000000000004,
+          -25.256999999999998
+        ],
+        [
+          51.523,
+          25.273,
+          51.543,
+          25.293000000000003
+        ],
+        [
+          26.09,
+          44.423,
+          26.110000000000003,
+          44.443
+        ],
+        [
+          20.49,
+          44.823,
+          20.51,
+          44.842999999999996
+        ],
+        [
+          37.59,
+          55.74,
+          37.61,
+          55.76
+        ],
+        [
+          30.04,
+          -1.96,
+          30.060000000000002,
+          -1.94
+        ],
+        [
+          46.690000000000005,
+          24.639999999999997,
+          46.71,
+          24.66
+        ],
+        [
+          159.94,
+          -9.443,
+          159.95999999999998,
+          -9.423
+        ],
+        [
+          32.523,
+          15.59,
+          32.543,
+          15.61
+        ],
+        [
+          18.04,
+          59.323,
+          18.060000000000002,
+          59.342999999999996
+        ],
+        [
+          103.83999999999999,
+          1.273,
+          103.86,
+          1.293
+        ],
+        [
+          14.507,
+          46.04,
+          14.527,
+          46.059999999999995
+        ],
+        [
+          17.107,
+          48.14,
+          17.127000000000002,
+          48.16
+        ],
+        [
+          -13.243,
+          8.473,
+          -13.223,
+          8.493
+        ],
+        [
+          -17.643,
+          14.723,
+          -17.622999999999998,
+          14.743
+        ],
+        [
+          45.323,
+          2.0570000000000004,
+          45.342999999999996,
+          2.077
+        ],
+        [
+          -55.177,
+          5.823,
+          -55.157000000000004,
+          5.843
+        ],
+        [
+          31.561251,
+          4.849363,
+          31.581251,
+          4.869363
+        ],
+        [
+          -89.21000000000001,
+          13.69,
+          -89.19,
+          13.709999999999999
+        ],
+        [
+          36.29,
+          33.49,
+          36.309999999999995,
+          33.51
+        ],
+        [
+          15.023,
+          12.09,
+          15.043,
+          12.11
+        ],
+        [
+          1.207,
+          6.107,
+          1.227,
+          6.127
+        ],
+        [
+          100.50699999999999,
+          13.74,
+          100.527,
+          13.76
+        ],
+        [
+          68.75699999999999,
+          38.54,
+          68.777,
+          38.559999999999995
+        ],
+        [
+          10.173,
+          36.79,
+          10.193,
+          36.809999999999995
+        ],
+        [
+          32.857,
+          39.923,
+          32.876999999999995,
+          39.943
+        ],
+        [
+          -61.527,
+          10.64,
+          -61.507000000000005,
+          10.66
+        ],
+        [
+          30.506999999999998,
+          50.423,
+          30.527,
+          50.443
+        ],
+        [
+          32.54,
+          0.307,
+          32.559999999999995,
+          0.327
+        ],
+        [
+          -77.01,
+          38.873000000000005,
+          -76.99,
+          38.893
+        ],
+        [
+          -56.177,
+          -34.86,
+          -56.157000000000004,
+          -34.84
+        ],
+        [
+          69.24,
+          41.307,
+          69.26,
+          41.327
+        ],
+        [
+          -66.87700000000001,
+          10.473,
+          -66.857,
+          10.493
+        ],
+        [
+          -66.12700000000001,
+          18.456999999999997,
+          -66.107,
+          18.477
+        ],
+        [
+          105.83999999999999,
+          21.023,
+          105.86,
+          21.043000000000003
+        ],
+        [
+          168.30700000000002,
+          -17.743000000000002,
+          168.327,
+          -17.723
+        ],
+        [
+          21.156879999999997,
+          42.66272,
+          21.17688,
+          42.682719999999996
+        ],
+        [
+          44.190000000000005,
+          15.34,
+          44.21,
+          15.36
+        ],
+        [
+          28.206999999999997,
+          -25.71,
+          28.227,
+          -25.689999999999998
+        ],
+        [
+          28.273,
+          -15.427,
+          28.293000000000003,
+          -15.407
+        ],
+        [
+          31.023,
+          -17.827,
+          31.043000000000003,
+          -17.807
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-22T00:00:00Z",
+          "2023-03-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/covid-cases"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "/"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CV_Covid_19_cases/CV_Covid_19_cases_photo.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
