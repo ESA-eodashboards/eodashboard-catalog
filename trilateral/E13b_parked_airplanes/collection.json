@@ -229,42 +229,42 @@
     ],
     "satellite": [
       "PlanetScope",
-      "Sentinel-2",
       "Sentinel-1",
-      "ALOS-2"
+      "ALOS-2",
+      "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
-      "PSB.SD",
       "PALSAR-2",
-      "C-SAR"
+      "C-SAR",
+      "PSB.SD",
+      "MSI"
     ],
     "cities": [
-      "Narita",
-      "Rome",
-      "Beijing Daxing",
-      "San Francisco",
-      "Hayward",
-      "Buchannan",
-      "New York",
       "Ontario",
-      "Napa",
-      "San Jose",
       "Heathrow",
       "Los Angeles",
+      "New York",
       "Newark",
-      "Paris",
-      "Beijing",
+      "San Jose",
+      "Beijing Daxing",
+      "Buchannan",
+      "Napa",
+      "San Francisco",
       "Oakland",
-      "Marin"
+      "Narita",
+      "Rome",
+      "Hayward",
+      "Paris",
+      "Marin",
+      "Beijing"
     ],
     "countries": [
+      "CN",
       "FR",
       "IT",
       "US",
-      "CN",
-      "JP",
-      "GB"
+      "GB",
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg"
