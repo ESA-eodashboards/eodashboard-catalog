@@ -22,6 +22,9 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "Copernicus"
+      ],
       "tags": [
         "Air quality",
         "NO2",

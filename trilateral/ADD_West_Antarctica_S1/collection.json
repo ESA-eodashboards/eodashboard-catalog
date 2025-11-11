@@ -22,6 +22,11 @@
       "themes": [
         "cryosphere"
       ],
+      "providers": [
+        "ESA",
+        "Carbon Brief",
+        "Euro Data Cube"
+      ],
       "tags": [
         "Copernicus",
         "Open data",

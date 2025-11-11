@@ -21,6 +21,9 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Copernicus Land Monitoring Service"
+      ],
       "tags": [
         "Sentinel",
         "CLMS",

@@ -22,6 +22,9 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "JAXA"
+      ],
       "cities": [
         "Paraná",
         "Kansas"
@@ -126,10 +129,10 @@
     "spatial": {
       "bbox": [
         [
-          -98.33500000000001,
-          -24.625,
-          -51.305,
-          38.51
+          -98.525,
+          -24.814999999999998,
+          -51.114999999999995,
+          38.7
         ]
       ]
     },
@@ -161,8 +164,8 @@
       "Other"
     ],
     "cities": [
-      "Paraná",
-      "Kansas"
+      "Kansas",
+      "Paraná"
     ],
     "countries": [
       "BR",

@@ -21,6 +21,10 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "JAXA",
+        "ESA"
+      ],
       "subcode": "E9",
       "satellite": [
         "ALOS-2",
@@ -31,17 +35,17 @@
         "C-SAR"
       ],
       "cities": [
-        "Singapore",
-        "Los Angeles",
-        "Palm Springs",
-        "Beijing",
         "Arcadia",
-        "Nagoya"
+        "Palm Springs",
+        "Los Angeles",
+        "Nagoya",
+        "Singapore",
+        "Beijing"
       ],
       "countries": [
-        "CN",
-        "US",
         "SG",
+        "US",
+        "CN",
         "JP"
       ],
       "thumbnail": [
@@ -71,6 +75,9 @@
       "id": "NO2_daily",
       "themes": [
         "atmosphere"
+      ],
+      "providers": [
+        "Copernicus"
       ],
       "subcode": "N1_NO2",
       "satellite": [
@@ -102,6 +109,11 @@
       "id": "methane_monitoring",
       "themes": [
         "atmosphere"
+      ],
+      "providers": [
+        "Copernicus",
+        "JAXA",
+        "Caltech"
       ],
       "subcode": "N1_CH4",
       "satellite": [
@@ -143,6 +155,10 @@
         "atmosphere",
         "extreme-events"
       ],
+      "providers": [
+        "Copernicus",
+        "Copernicus Data Space"
+      ],
       "subcode": "N1_CO",
       "satellite": [
         "Sentinel-5P"
@@ -173,6 +189,9 @@
       "id": "so2_daily",
       "themes": [
         "atmosphere"
+      ],
+      "providers": [
+        "Copernicus"
       ],
       "subcode": "N1_SO2",
       "satellite": [
@@ -205,6 +224,9 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "NASA"
+      ],
       "subcode": "N1_NO2_monthly",
       "satellite": [
         "Aura"
@@ -235,6 +257,9 @@
       "id": "N1_NO2_diff_monthly",
       "themes": [
         "atmosphere"
+      ],
+      "providers": [
+        "NASA"
       ],
       "subcode": "N1_NO2_diff_monthly",
       "satellite": [
@@ -267,6 +292,10 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "Copernicus",
+        "ESA"
+      ],
       "subcode": "N1_NO2_city_trilateral",
       "satellite": [
         "Sentinel-5P"
@@ -275,26 +304,26 @@
         "TROPOMI"
       ],
       "cities": [
-        "New York",
-        "Los Angeles",
-        "Tokyo",
         "New Delhi",
-        "Milan",
-        "Madrid",
         "San Francisco",
-        "Mumbai",
-        "Beijing",
+        "New York",
+        "Tokyo",
+        "Paris",
+        "Madrid",
         "Rome",
-        "Paris"
+        "Los Angeles",
+        "Beijing",
+        "Mumbai",
+        "Milan"
       ],
       "countries": [
-        "CN",
-        "FR",
-        "IT",
-        "IN",
-        "US",
         "ES",
-        "JP"
+        "IN",
+        "IT",
+        "JP",
+        "FR",
+        "US",
+        "CN"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg"
@@ -319,6 +348,9 @@
       "id": "N2_CO2_mean",
       "themes": [
         "atmosphere"
+      ],
+      "providers": [
+        "NASA"
       ],
       "subcode": "N2_CO2_mean",
       "satellite": [
@@ -352,6 +384,9 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "NASA"
+      ],
       "subcode": "N2_diff",
       "satellite": [
         "OCO-2"
@@ -383,6 +418,9 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "Meta"
+      ],
       "subcode": "FB",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/facebook_population_density.jpg"
@@ -412,6 +450,9 @@
       "id": "N9_OMI_trno2-COG",
       "themes": [
         "atmosphere"
+      ],
+      "providers": [
+        "NASA"
       ],
       "subcode": "N9",
       "satellite": [
@@ -443,6 +484,11 @@
       "id": "ocean_primary_productivity",
       "themes": [
         "water"
+      ],
+      "providers": [
+        "ESA",
+        "NASA",
+        "GeoEye"
       ],
       "subcode": "NPP",
       "satellite": [
@@ -485,6 +531,10 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Ocean Productivity",
+        "NASA"
+      ],
       "subcode": "NPPN",
       "satellite": [
         "Aqua"
@@ -520,6 +570,9 @@
       "themes": [
         "cryosphere"
       ],
+      "providers": [
+        "NASA"
+      ],
       "subcode": "SITI",
       "satellite": [
         "ICESat-2"
@@ -552,6 +605,9 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "NCEO"
+      ],
       "subcode": "NCEO",
       "satellite": [
         "Other"
@@ -582,6 +638,9 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "NASA"
+      ],
       "subcode": "GRDI1",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-v1-built/grdi-v1-built.jpg"
@@ -609,6 +668,9 @@
       "id": "grdi-v1-raster",
       "themes": [
         "economy"
+      ],
+      "providers": [
+        "NASA"
       ],
       "subcode": "GRDI2",
       "thumbnail": [
@@ -640,6 +702,9 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "NASA"
+      ],
       "subcode": "GRDI3",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-shdi-raster/grdi-shdi-raster.jpg"
@@ -667,6 +732,9 @@
       "id": "grdi-vnl-slope-raster",
       "themes": [
         "economy"
+      ],
+      "providers": [
+        "NASA"
       ],
       "subcode": "GRDI4",
       "thumbnail": [
@@ -698,6 +766,9 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "NASA"
+      ],
       "subcode": "GRDI5",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-vnl-raster/grdi-vnl-raster.jpg"
@@ -728,6 +799,9 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "NASA"
+      ],
       "subcode": "GRDI6",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-filled-missing-values-count/grdi-filled-missing-values-count.jpg"
@@ -755,6 +829,9 @@
       "id": "grdi-imr-raster",
       "themes": [
         "economy"
+      ],
+      "providers": [
+        "NASA"
       ],
       "subcode": "GRDI7",
       "thumbnail": [
@@ -787,6 +864,9 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "NASA"
+      ],
       "subcode": "GRDI8",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-cdr-raster/grdi-cdr-raster.jpg"
@@ -814,6 +894,9 @@
       "id": "N10_OMSO2PCA-COG",
       "themes": [
         "atmosphere"
+      ],
+      "providers": [
+        "NASA"
       ],
       "subcode": "N10",
       "satellite": [
@@ -847,6 +930,9 @@
       "themes": [
         "cryosphere"
       ],
+      "providers": [
+        "ESA"
+      ],
       "subcode": "SIE",
       "satellite": [
         "Envisat"
@@ -878,6 +964,9 @@
       "id": "sea_ice_thickness_cryosat",
       "themes": [
         "cryosphere"
+      ],
+      "providers": [
+        "ESA"
       ],
       "subcode": "SIC",
       "satellite": [
@@ -911,6 +1000,9 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "SEDAC"
+      ],
       "subcode": "NASAPopulation",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NASAPopulation/NASAPopulation.jpg"
@@ -936,6 +1028,9 @@
       "id": "WSF_world_settlement_footprint_ind",
       "themes": [
         "economy"
+      ],
+      "providers": [
+        "DLR"
       ],
       "subcode": "WSF_world_settlement_footprint_ind",
       "satellite": [
@@ -967,6 +1062,9 @@
       "id": "N12_sea_ice_concentration_antarctic",
       "themes": [
         "cryosphere"
+      ],
+      "providers": [
+        "JAXA"
       ],
       "subcode": "N12_sea_ice_concentration_antarctic",
       "satellite": [
@@ -1009,6 +1107,9 @@
       "themes": [
         "cryosphere"
       ],
+      "providers": [
+        "JAXA"
+      ],
       "subcode": "N12_1_sea_ice_concentration_arctic",
       "satellite": [
         "GCOM-W"
@@ -1050,6 +1151,9 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "JAXA"
+      ],
       "subcode": "E10e",
       "satellite": [
         "GCOM-C"
@@ -1078,6 +1182,9 @@
       "id": "N11_ocean_primary_productivity",
       "themes": [
         "water"
+      ],
+      "providers": [
+        "JAXA"
       ],
       "subcode": "N11",
       "satellite": [
@@ -1111,6 +1218,9 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "JAXA"
+      ],
       "subcode": "SMC",
       "satellite": [
         "Other"
@@ -1136,6 +1246,9 @@
       "id": "precipitation_anomaly",
       "themes": [
         "agriculture"
+      ],
+      "providers": [
+        "JAXA"
       ],
       "subcode": "PRC",
       "satellite": [
@@ -1163,6 +1276,9 @@
       "id": "precipitation",
       "themes": [
         "agriculture"
+      ],
+      "providers": [
+        "JAXA"
       ],
       "subcode": "PRCG",
       "satellite": [
@@ -1237,6 +1353,10 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "Université catholique de Louvain",
+        "Copernicus"
+      ],
       "subcode": "E10a1",
       "satellite": [
         "Sentinel-2"
@@ -1245,12 +1365,12 @@
         "MSI"
       ],
       "cities": [
-        "Huelva (Lagunas de las Madres)",
-        "Brandenburg"
+        "Brandenburg",
+        "Huelva (Lagunas de las Madres)"
       ],
       "countries": [
-        "DE",
-        "ES"
+        "ES",
+        "DE"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg"
@@ -1273,6 +1393,10 @@
       "id": "agricultural_production_area",
       "themes": [
         "agriculture"
+      ],
+      "providers": [
+        "Université catholique de Louvain",
+        "Copernicus"
       ],
       "subcode": "E10a2",
       "satellite": [
@@ -1309,6 +1433,10 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "Université catholique de Louvain",
+        "Copernicus"
+      ],
       "subcode": "E10a3",
       "satellite": [
         "Sentinel-2"
@@ -1344,6 +1472,9 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "FEGA"
+      ],
       "subcode": "E10a6",
       "satellite": [
         "Sentinel-1",
@@ -1356,17 +1487,17 @@
         "OLI"
       ],
       "cities": [
-        "Extremadura",
-        "Aragon",
-        "Andalucia",
-        "La Rioja",
-        "Comunidad Valenciana",
         "Comunidad de Madrid",
-        "Castilla-La Mancha",
-        "Cataluna",
-        "Comunidad Foral de Navarra",
+        "Comunidad Valenciana",
+        "Andalucia",
+        "Region de Murcia",
+        "Aragon",
+        "Extremadura",
         "Castilla y Leon",
-        "Region de Murcia"
+        "La Rioja",
+        "Castilla-La Mancha",
+        "Comunidad Foral de Navarra",
+        "Cataluna"
       ],
       "countries": [
         "ES"
@@ -1395,6 +1526,9 @@
       "id": "winter_cereals",
       "themes": [
         "agriculture"
+      ],
+      "providers": [
+        "FEGA"
       ],
       "subcode": "E10a8",
       "satellite": [
@@ -1438,6 +1572,12 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "JAXA",
+        "ESA",
+        "NASA",
+        "USGS"
+      ],
       "subcode": "E10c",
       "satellite": [
         "ALOS-2",
@@ -1452,10 +1592,10 @@
         "OLI"
       ],
       "cities": [
-        "Glenn",
-        "Colusa",
         "Glenn (GCOM-C)",
-        "Yolo"
+        "Colusa",
+        "Yolo",
+        "Glenn"
       ],
       "countries": [
         "US"
@@ -1486,6 +1626,9 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "JAXA"
+      ],
       "subcode": "N2_greenhouse_gases",
       "satellite": [
         "GOSAT"
@@ -1495,20 +1638,20 @@
         "TANSO-CAI"
       ],
       "cities": [
-        "New York",
-        "Tokyo",
         "New Delhi",
-        "Mumbai",
+        "New York",
         "Shanghai",
+        "Tokyo",
         "Dhaka",
-        "Beijing"
+        "Beijing",
+        "Mumbai"
       ],
       "countries": [
-        "CN",
         "BD",
         "IN",
+        "JP",
         "US",
-        "JP"
+        "CN"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg"
@@ -1535,13 +1678,16 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "JAXA"
+      ],
       "subcode": "VITS",
       "satellite": [
         "Other"
       ],
       "cities": [
-        "Paraná",
-        "Kansas"
+        "Kansas",
+        "Paraná"
       ],
       "countries": [
         "BR",
@@ -1569,13 +1715,16 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "JAXA"
+      ],
       "subcode": "SMCTS",
       "satellite": [
         "Other"
       ],
       "cities": [
-        "Paraná",
-        "Kansas"
+        "Kansas",
+        "Paraná"
       ],
       "countries": [
         "BR",
@@ -1603,13 +1752,16 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "JAXA"
+      ],
       "subcode": "PRCTS",
       "satellite": [
         "Other"
       ],
       "cities": [
-        "Paraná",
-        "Kansas"
+        "Kansas",
+        "Paraná"
       ],
       "countries": [
         "BR",
@@ -1637,6 +1789,9 @@
       "id": "lake_water_extent",
       "themes": [
         "water"
+      ],
+      "providers": [
+        "ESA"
       ],
       "subcode": "LWE",
       "satellite": [
@@ -1673,6 +1828,9 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "ESA"
+      ],
       "subcode": "LWL",
       "satellite": [
         "Other"
@@ -1707,6 +1865,9 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "NASA"
+      ],
       "subcode": "NLK",
       "satellite": [
         "Landsat-8"
@@ -1715,18 +1876,18 @@
         "OLI"
       ],
       "cities": [
-        "Tonlé Sap Lake",
-        "Aral Lake",
-        "Balaton Lake",
         "Biwa Lake",
-        "Vänern Lake"
+        "Tonlé Sap Lake",
+        "Vänern Lake",
+        "Balaton Lake",
+        "Aral Lake"
       ],
       "countries": [
-        "KZ",
-        "HU",
+        "SW",
         "JP",
         "KH",
-        "SW",
+        "HU",
+        "KZ",
         "UZ"
       ],
       "thumbnail": [
@@ -1757,6 +1918,9 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Copernicus"
+      ],
       "subcode": "Lakes_S2L2A",
       "satellite": [
         "Sentinel-2"
@@ -1786,6 +1950,9 @@
       "id": "Lakes_ALOS2",
       "themes": [
         "water"
+      ],
+      "providers": [
+        "JAXA"
       ],
       "subcode": "Lakes_ALOS2",
       "satellite": [
@@ -1824,6 +1991,9 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Copernicus"
+      ],
       "subcode": "Lakes_Sentinel1",
       "satellite": [
         "Sentinel-1"
@@ -1855,6 +2025,9 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "ESA"
+      ],
       "subcode": "Lakes_SWT",
       "satellite": [
         "Other"
@@ -1881,6 +2054,9 @@
       "id": "Lakes_WQ_TC_water_quality",
       "themes": [
         "water"
+      ],
+      "providers": [
+        "Copernicus Land Monitoring Service"
       ],
       "subcode": "Lakes_WQ_TC",
       "satellite": [
@@ -1913,6 +2089,9 @@
       "id": "Lakes_WQ_TURB_water_turbidity",
       "themes": [
         "water"
+      ],
+      "providers": [
+        "Copernicus Land Monitoring Service"
       ],
       "subcode": "Lakes_WQ_TURB",
       "satellite": [
@@ -1947,6 +2126,9 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "JAXA"
+      ],
       "subcode": "SMCG",
       "satellite": [
         "Other"
@@ -1972,6 +2154,10 @@
       "id": "solar_induced_chlorophyll_fluorescence",
       "themes": [
         "agriculture"
+      ],
+      "providers": [
+        "Copernicus",
+        "ESA"
       ],
       "subcode": "SIF",
       "satellite": [
@@ -2000,6 +2186,9 @@
       "id": "nightlights",
       "themes": [
         "economy"
+      ],
+      "providers": [
+        "NASA"
       ],
       "subcode": "N5",
       "satellite": [
@@ -2030,6 +2219,9 @@
       "id": "N6_geoglam",
       "themes": [
         "agriculture"
+      ],
+      "providers": [
+        "GEOGLAM"
       ],
       "subcode": "N6",
       "satellite": [
@@ -2065,6 +2257,10 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "Copernicus Climate Change Service",
+        "Climate Data Store"
+      ],
       "subcode": "CDS7",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS7_windu_ERA5-SingleLevel_100m_GLOBAL/CDS7_windu_ERA5-SingleLevel_100m_GLOBAL.jpg"
@@ -2095,6 +2291,10 @@
       "id": "windv_ERA5-SingleLevel_100m_GLOBAL",
       "themes": [
         "atmosphere"
+      ],
+      "providers": [
+        "Copernicus Climate Change Service",
+        "Climate Data Store"
       ],
       "subcode": "CDS8",
       "thumbnail": [
@@ -2127,6 +2327,11 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "ESA",
+        "JAXA",
+        "NASA"
+      ],
       "subcode": "N3b_tsm",
       "satellite": [
         "Sentinel-3",
@@ -2141,12 +2346,12 @@
       "cities": [
         "Nagoya",
         "Kobe",
-        "Tokyo",
-        "Venice"
+        "Venice",
+        "Tokyo"
       ],
       "countries": [
-        "JP",
-        "IT"
+        "IT",
+        "JP"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.jpg"
@@ -2183,6 +2388,11 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "ESA",
+        "JAXA",
+        "NASA"
+      ],
       "subcode": "N3b_chl",
       "satellite": [
         "Sentinel-3",
@@ -2196,15 +2406,15 @@
       ],
       "cities": [
         "New York",
-        "Tokyo",
         "Kobe",
-        "Venice",
-        "Nagoya"
+        "Tokyo",
+        "Nagoya",
+        "Venice"
       ],
       "countries": [
         "US",
-        "JP",
-        "IT"
+        "IT",
+        "JP"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.jpg"
@@ -2241,6 +2451,10 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Copernicus Marine Service",
+        "ESA"
+      ],
       "subcode": "N3a2_chl_esa",
       "satellite": [
         "Sentinel-3"
@@ -2275,6 +2489,9 @@
       "id": "N3a2_chl_concentration_tri_jaxa",
       "themes": [
         "water"
+      ],
+      "providers": [
+        "JAXA"
       ],
       "subcode": "N3a2_chl_jaxa",
       "satellite": [
@@ -2311,6 +2528,9 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "NASA"
+      ],
       "subcode": "N3a2_chl_nasa",
       "satellite": [
         "Acqua"
@@ -2319,9 +2539,9 @@
         "MODIS"
       ],
       "cities": [
+        "North Adriatic",
         "San Francisco",
-        "New York",
-        "North Adriatic"
+        "New York"
       ],
       "countries": [
         "US",
@@ -2354,6 +2574,10 @@
       "id": "N3a2_total_suspended_matter_tri_esa",
       "themes": [
         "water"
+      ],
+      "providers": [
+        "Copernicus Marine Service",
+        "ESA"
       ],
       "subcode": "N3a2_TSM_esa",
       "satellite": [
@@ -2390,6 +2614,9 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "JAXA"
+      ],
       "subcode": "N3a2_TSM_jaxa",
       "satellite": [
         "GCOM-C"
@@ -2425,6 +2652,9 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "NASA"
+      ],
       "subcode": "N3a2_tsm_nasa",
       "satellite": [
         "Acqua"
@@ -2433,9 +2663,9 @@
         "MODIS"
       ],
       "cities": [
+        "North Adriatic",
         "San Francisco",
-        "New York",
-        "North Adriatic"
+        "New York"
       ],
       "countries": [
         "US",
@@ -2468,6 +2698,10 @@
       "id": "sea_surface_temperature_maps",
       "themes": [
         "water"
+      ],
+      "providers": [
+        "Copernicus Marine Service",
+        "CNR ISMAR"
       ],
       "subcode": "N3a2_SST",
       "satellite": [
@@ -2502,6 +2736,10 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "Copernicus",
+        "ESA"
+      ],
       "subcode": "N1_NO2_jaxa",
       "satellite": [
         "Sentinel-5P"
@@ -2531,6 +2769,9 @@
       "id": "N2_CO2_jaxa_gosat",
       "themes": [
         "atmosphere"
+      ],
+      "providers": [
+        "JAXA"
       ],
       "subcode": "N2_CO2_jaxa_gosat",
       "satellite": [
@@ -2565,6 +2806,10 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "Copernicus Emergency Management service",
+        "Joint Research Centre"
+      ],
       "subcode": "GHSBUILT",
       "satellite": [
         "Sentinel-2"
@@ -2596,6 +2841,9 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "ESA"
+      ],
       "subcode": "RECCAP2_1",
       "satellite": [
         "SMOS"
@@ -2625,6 +2873,9 @@
       "id": "RECCAP2_2_AGC_LVOD_amazonia_smooth_max_crop",
       "themes": [
         "biomass"
+      ],
+      "providers": [
+        "ESA"
       ],
       "subcode": "RECCAP2_2",
       "satellite": [
@@ -2656,6 +2907,9 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "ESA"
+      ],
       "subcode": "RECCAP2_3",
       "satellite": [
         "SMOS"
@@ -2685,6 +2939,9 @@
       "id": "RECCAP2_4_AGC_LVOD_amazonia_trend_mean_crop",
       "themes": [
         "biomass"
+      ],
+      "providers": [
+        "ESA"
       ],
       "subcode": "RECCAP2_4",
       "satellite": [
@@ -2716,6 +2973,9 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "ESA"
+      ],
       "subcode": "RECCAP2_5",
       "satellite": [
         "SMOS"
@@ -2745,6 +3005,9 @@
       "id": "RECCAP2_6_deforested_biomass",
       "themes": [
         "biomass"
+      ],
+      "providers": [
+        "ESA"
       ],
       "subcode": "RECCAP2_6",
       "satellite": [
@@ -2776,6 +3039,9 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "ESA"
+      ],
       "subcode": "RECCAP2_7",
       "satellite": [
         "SMOS"
@@ -2805,6 +3071,9 @@
       "id": "RECCAP2_8_edge_biomass_change",
       "themes": [
         "biomass"
+      ],
+      "providers": [
+        "ESA"
       ],
       "subcode": "RECCAP2_8",
       "satellite": [
@@ -2836,6 +3105,9 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "ESA"
+      ],
       "subcode": "RECCAP2_9",
       "satellite": [
         "SMOS"
@@ -2865,6 +3137,9 @@
       "id": "RECCAP2_10_intact_biomass_change_smooth_max",
       "themes": [
         "biomass"
+      ],
+      "providers": [
+        "ESA"
       ],
       "subcode": "RECCAP2_10",
       "satellite": [
@@ -2896,6 +3171,9 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "ESA"
+      ],
       "subcode": "RECCAP2_11",
       "satellite": [
         "SMOS"
@@ -2925,6 +3203,9 @@
       "id": "RECCAP2_12_intact_biomass_change_trend_mean",
       "themes": [
         "biomass"
+      ],
+      "providers": [
+        "ESA"
       ],
       "subcode": "RECCAP2_12",
       "satellite": [
@@ -2957,60 +3238,63 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "ESA"
+      ],
       "subcode": "GGI_CO2",
       "satellite": [
         "Other"
       ],
       "cities": [
-        "Venezuela (Bolivarian Republic of)",
-        "Democratic Republic of the Congo",
-        "Russian Federation",
-        "Australia",
-        "Brazil",
-        "European Union (Convention)",
-        "Colombia",
-        "Mexico",
-        "Bangladesh",
-        "Mongolia",
-        "United States of America",
-        "Sudan",
-        "Canada",
-        "Pakistan",
-        "European Union (KP)",
-        "Kazakhstan",
         "China",
-        "Nigeria",
-        "South Africa",
-        "Indonesia",
+        "Brazil",
+        "Australia",
         "India",
-        "Thailand",
+        "Venezuela (Bolivarian Republic of)",
+        "United States of America",
+        "Indonesia",
+        "European Union (Convention)",
+        "Canada",
         "Iran (Islamic Republic of)",
+        "Pakistan",
+        "Democratic Republic of the Congo",
+        "Mexico",
+        "Mongolia",
+        "European Union (KP)",
+        "Colombia",
+        "Nigeria",
+        "Sudan",
+        "Thailand",
+        "South Africa",
+        "Russian Federation",
+        "Bangladesh",
+        "Kazakhstan",
         "Argentina"
       ],
       "countries": [
-        "Venezuela (Bolivarian Republic of)",
-        "Democratic Republic of the Congo",
-        "Russian Federation",
-        "Australia",
-        "Brazil",
-        "European Union (Convention)",
-        "Colombia",
-        "Mexico",
-        "Bangladesh",
-        "Mongolia",
-        "United States of America",
-        "Sudan",
-        "Canada",
-        "Pakistan",
-        "European Union (KP)",
-        "Kazakhstan",
         "China",
-        "Nigeria",
-        "South Africa",
-        "Indonesia",
+        "Brazil",
+        "Australia",
         "India",
-        "Thailand",
+        "Venezuela (Bolivarian Republic of)",
+        "United States of America",
+        "Indonesia",
+        "European Union (Convention)",
+        "Canada",
         "Iran (Islamic Republic of)",
+        "Pakistan",
+        "Democratic Republic of the Congo",
+        "Mexico",
+        "Mongolia",
+        "European Union (KP)",
+        "Colombia",
+        "Nigeria",
+        "Sudan",
+        "Thailand",
+        "South Africa",
+        "Russian Federation",
+        "Bangladesh",
+        "Kazakhstan",
         "Argentina"
       ],
       "thumbnail": [
@@ -3036,60 +3320,63 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "ESA"
+      ],
       "subcode": "GGI_N2O",
       "satellite": [
         "Other"
       ],
       "cities": [
-        "Venezuela (Bolivarian Republic of)",
-        "Democratic Republic of the Congo",
-        "Russian Federation",
-        "Australia",
-        "Brazil",
-        "European Union (Convention)",
-        "Colombia",
-        "Mexico",
-        "Bangladesh",
-        "Mongolia",
-        "United States of America",
-        "Sudan",
-        "Canada",
-        "Pakistan",
-        "European Union (KP)",
-        "Kazakhstan",
         "China",
-        "Nigeria",
-        "South Africa",
-        "Indonesia",
+        "Brazil",
+        "Australia",
         "India",
-        "Thailand",
+        "Venezuela (Bolivarian Republic of)",
+        "United States of America",
+        "Indonesia",
+        "European Union (Convention)",
+        "Canada",
         "Iran (Islamic Republic of)",
+        "Pakistan",
+        "Democratic Republic of the Congo",
+        "Mexico",
+        "Mongolia",
+        "European Union (KP)",
+        "Colombia",
+        "Nigeria",
+        "Sudan",
+        "Thailand",
+        "South Africa",
+        "Russian Federation",
+        "Bangladesh",
+        "Kazakhstan",
         "Argentina"
       ],
       "countries": [
-        "Venezuela (Bolivarian Republic of)",
-        "Democratic Republic of the Congo",
-        "Russian Federation",
-        "Australia",
-        "Brazil",
-        "European Union (Convention)",
-        "Colombia",
-        "Mexico",
-        "Bangladesh",
-        "Mongolia",
-        "United States of America",
-        "Sudan",
-        "Canada",
-        "Pakistan",
-        "European Union (KP)",
-        "Kazakhstan",
         "China",
-        "Nigeria",
-        "South Africa",
-        "Indonesia",
+        "Brazil",
+        "Australia",
         "India",
-        "Thailand",
+        "Venezuela (Bolivarian Republic of)",
+        "United States of America",
+        "Indonesia",
+        "European Union (Convention)",
+        "Canada",
         "Iran (Islamic Republic of)",
+        "Pakistan",
+        "Democratic Republic of the Congo",
+        "Mexico",
+        "Mongolia",
+        "European Union (KP)",
+        "Colombia",
+        "Nigeria",
+        "Sudan",
+        "Thailand",
+        "South Africa",
+        "Russian Federation",
+        "Bangladesh",
+        "Kazakhstan",
         "Argentina"
       ],
       "thumbnail": [
@@ -3115,60 +3402,63 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "ESA"
+      ],
       "subcode": "GGI_CH4",
       "satellite": [
         "Other"
       ],
       "cities": [
-        "Venezuela (Bolivarian Republic of)",
-        "Democratic Republic of the Congo",
-        "Russian Federation",
-        "Australia",
-        "Brazil",
-        "European Union (Convention)",
-        "Colombia",
-        "Mexico",
-        "Bangladesh",
-        "Mongolia",
-        "United States of America",
-        "Sudan",
-        "Canada",
-        "Pakistan",
-        "European Union (KP)",
-        "Kazakhstan",
         "China",
-        "Nigeria",
-        "South Africa",
-        "Indonesia",
+        "Brazil",
+        "Australia",
         "India",
-        "Thailand",
+        "Venezuela (Bolivarian Republic of)",
+        "United States of America",
+        "Indonesia",
+        "European Union (Convention)",
+        "Canada",
         "Iran (Islamic Republic of)",
+        "Pakistan",
+        "Democratic Republic of the Congo",
+        "Mexico",
+        "Mongolia",
+        "European Union (KP)",
+        "Colombia",
+        "Nigeria",
+        "Sudan",
+        "Thailand",
+        "South Africa",
+        "Russian Federation",
+        "Bangladesh",
+        "Kazakhstan",
         "Argentina"
       ],
       "countries": [
-        "Venezuela (Bolivarian Republic of)",
-        "Democratic Republic of the Congo",
-        "Russian Federation",
-        "Australia",
-        "Brazil",
-        "European Union (Convention)",
-        "Colombia",
-        "Mexico",
-        "Bangladesh",
-        "Mongolia",
-        "United States of America",
-        "Sudan",
-        "Canada",
-        "Pakistan",
-        "European Union (KP)",
-        "Kazakhstan",
         "China",
-        "Nigeria",
-        "South Africa",
-        "Indonesia",
+        "Brazil",
+        "Australia",
         "India",
-        "Thailand",
+        "Venezuela (Bolivarian Republic of)",
+        "United States of America",
+        "Indonesia",
+        "European Union (Convention)",
+        "Canada",
         "Iran (Islamic Republic of)",
+        "Pakistan",
+        "Democratic Republic of the Congo",
+        "Mexico",
+        "Mongolia",
+        "European Union (KP)",
+        "Colombia",
+        "Nigeria",
+        "Sudan",
+        "Thailand",
+        "South Africa",
+        "Russian Federation",
+        "Bangladesh",
+        "Kazakhstan",
         "Argentina"
       ],
       "thumbnail": [
@@ -3193,6 +3483,9 @@
       "id": "ESDC_gross_primary_productivity",
       "themes": [
         "biomass"
+      ],
+      "providers": [
+        "NASA"
       ],
       "subcode": "ESDC_gross_primary_productivity",
       "satellite": [
@@ -3225,6 +3518,9 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "NASA"
+      ],
       "subcode": "ESDC_kndvi",
       "satellite": [
         "Other"
@@ -3254,6 +3550,9 @@
       "id": "ESDC_net_ecosystem_exchange",
       "themes": [
         "biomass"
+      ],
+      "providers": [
+        "NASA"
       ],
       "subcode": "ESDC_net_ecosystem_exchange",
       "satellite": [
@@ -3287,136 +3586,139 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "Google"
+      ],
       "subcode": "GG",
       "cities": [
         "/"
       ],
       "countries": [
-        "Gabon",
-        "Georgia",
-        "Bulgaria",
-        "Niger",
-        "Norway",
-        "Australia",
-        "Mozambique",
-        "Bahamas",
-        "Dominican Republic",
-        "Belize",
-        "Estonia",
-        "Serbia",
-        "Nepal",
         "Saudi Arabia",
-        "Iraq",
-        "Papua New Guinea",
-        "Angola",
-        "Singapore",
-        "Thailand",
-        "Austria",
-        "Spain",
-        "Korea South",
-        "Ukraine",
-        "Honduras",
-        "Slovakia",
-        "Senegal",
-        "Trinidad and Tobago",
-        "Togo",
-        "Russia",
-        "Luxembourg",
-        "Bosnia and Herzegovina",
-        "Macedonia",
-        "United Kingdom",
-        "Laos",
-        "Uganda",
-        "Mexico",
-        "Zimbabwe",
-        "Mongolia",
-        "Bolivia",
-        "Kuwait",
-        "Finland",
-        "Libya",
-        "Nigeria",
-        "Kenya",
-        "Malaysia",
-        "Indonesia",
-        "Rwanda",
-        "Ecuador",
-        "Vietnam",
-        "Ireland",
-        "Kyrgyzstan",
-        "Costa Rica",
-        "Taiwan",
-        "Greece",
-        "Philippines",
-        "France",
-        "Israel",
-        "Tanzania",
-        "Qatar",
-        "Fiji",
-        "Netherlands",
-        "Brazil",
-        "Panama",
-        "Chile",
-        "Japan",
-        "Moldova",
-        "Canada",
-        "Germany",
-        "Lithuania",
-        "Switzerland",
-        "Myanmar",
-        "Kazakhstan",
-        "South Africa",
-        "Denmark",
-        "Haiti",
-        "Botswana",
-        "Poland",
+        "Puerto Rico",
         "Ghana",
-        "Jordan",
-        "Burkina Faso",
-        "Nicaragua",
+        "Haiti",
+        "Georgia",
+        "Romania",
+        "Fiji",
         "Ivory Coast",
-        "Malta",
+        "Rwanda",
+        "Turkey",
+        "Latvia",
+        "Jamaica",
+        "Hungary",
+        "Sweden",
+        "Costa Rica",
         "Guatemala",
+        "Uganda",
+        "Venezuela",
         "Cameroon",
+        "Myanmar",
+        "Chile",
+        "Switzerland",
+        "Spain",
+        "Bolivia",
+        "Peru",
+        "Croatia",
+        "Qatar",
+        "Paraguay",
+        "Honduras",
+        "Luxembourg",
+        "Gabon",
+        "India",
+        "Bahamas",
+        "Uruguay",
+        "Philippines",
+        "Macedonia",
+        "Belize",
+        "United Arab Emirates",
+        "New Zealand",
+        "Togo",
+        "Ukraine",
+        "Austria",
+        "Korea South",
+        "Vietnam",
+        "Malta",
+        "Pakistan",
+        "Afghanistan",
+        "Libya",
+        "Colombia",
+        "Tanzania",
+        "Nigeria",
+        "Trinidad and Tobago",
+        "Estonia",
+        "Portugal",
+        "Serbia",
+        "Thailand",
+        "Guinea-Bissau",
+        "Germany",
+        "Bangladesh",
+        "Norway",
+        "Singapore",
+        "United Kingdom",
+        "Kazakhstan",
+        "United States",
+        "Kenya",
+        "Dominican Republic",
+        "Egypt",
+        "Panama",
+        "Moldova",
+        "Kyrgyzstan",
+        "Japan",
+        "Sri Lanka",
+        "Lebanon",
+        "Nepal",
+        "Netherlands",
+        "Bosnia and Herzegovina",
         "Oman",
         "Morocco",
-        "Uruguay",
-        "Hungary",
-        "Benin",
-        "Sweden",
+        "Ecuador",
+        "Zimbabwe",
+        "Finland",
+        "Botswana",
+        "Indonesia",
+        "Nicaragua",
+        "Denmark",
+        "Canada",
         "Yemen",
-        "Belarus",
-        "Tajikistan",
-        "United Arab Emirates",
-        "Sri Lanka",
-        "Colombia",
-        "Venezuela",
-        "Bangladesh",
-        "Paraguay",
-        "New Zealand",
-        "Portugal",
-        "United States",
-        "Puerto Rico",
-        "Pakistan",
         "Cambodia",
-        "Jamaica",
-        "Zambia",
-        "Belgium",
-        "Egypt",
-        "Peru",
-        "Latvia",
-        "Romania",
-        "India",
+        "Russia",
+        "Benin",
+        "Iraq",
+        "Kuwait",
+        "Greece",
         "El Salvador",
+        "Taiwan",
         "Italy",
-        "Croatia",
-        "Mali",
-        "Turkey",
-        "Guinea-Bissau",
-        "Lebanon",
+        "Burkina Faso",
+        "Lithuania",
+        "Argentina",
+        "Niger",
         "Slovenia",
+        "Malaysia",
+        "Mali",
+        "Brazil",
+        "Papua New Guinea",
+        "Poland",
+        "Laos",
+        "Australia",
+        "Jordan",
+        "Israel",
+        "Belgium",
         "Czech Republic",
-        "Afghanistan",
-        "Argentina"
+        "Belarus",
+        "Angola",
+        "Ireland",
+        "Senegal",
+        "Mexico",
+        "Mongolia",
+        "France",
+        "Tajikistan",
+        "Mozambique",
+        "South Africa",
+        "Zambia",
+        "Bulgaria",
+        "Slovakia"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports.jpg"
@@ -3443,6 +3745,11 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "ESA",
+        "NASA’s Interagency Implementation and Advanced Concepts Team (IMPACT)",
+        "planet"
+      ],
       "subcode": "E13c",
       "satellite": [
         "Sentinel-2",
@@ -3453,25 +3760,25 @@
         "PS2"
       ],
       "cities": [
+        "San Francisco",
+        "Suez",
+        "Dunkirk",
         "New York",
+        "Ghent",
+        "Hamburg",
         "Los Angeles",
         "Genoa",
-        "Suez",
-        "Hamburg",
-        "Gdynia",
-        "San Francisco",
-        "Dunkirk",
-        "Ghent",
-        "Suez "
+        "Suez ",
+        "Gdynia"
       ],
       "countries": [
-        "DE",
-        "FR",
-        "BE",
+        "EG",
         "IT",
-        "US",
+        "DE",
         "PL",
-        "EG"
+        "FR",
+        "US",
+        "BE"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg"
@@ -3501,6 +3808,12 @@
         "economy",
         "covid-19"
       ],
+      "providers": [
+        "JAXA",
+        "ESA",
+        "NASA",
+        "planet"
+      ],
       "subcode": "E13b",
       "satellite": [
         "ALOS-2",
@@ -3515,31 +3828,31 @@
         "PSB.SD"
       ],
       "cities": [
-        "Ontario",
-        "Heathrow",
-        "Los Angeles",
-        "New York",
-        "Newark",
-        "San Jose",
-        "Beijing Daxing",
-        "Buchannan",
-        "Napa",
-        "San Francisco",
-        "Oakland",
-        "Narita",
-        "Rome",
         "Hayward",
+        "Narita",
+        "Heathrow",
+        "San Francisco",
+        "New York",
+        "Napa",
         "Paris",
         "Marin",
-        "Beijing"
+        "Buchannan",
+        "Newark",
+        "Ontario",
+        "Rome",
+        "Los Angeles",
+        "San Jose",
+        "Beijing Daxing",
+        "Beijing",
+        "Oakland"
       ],
       "countries": [
-        "CN",
-        "FR",
-        "IT",
-        "US",
         "GB",
-        "JP"
+        "IT",
+        "JP",
+        "FR",
+        "US",
+        "CN"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg"
@@ -3568,170 +3881,173 @@
       "themes": [
         "covid-19"
       ],
+      "providers": [
+        "Our World in Data"
+      ],
       "subcode": "CV",
       "cities": [
         "/"
       ],
       "countries": [
-        "Albania",
-        "Gabon",
-        "Kosovo",
-        "Iceland",
-        "Georgia",
-        "Bulgaria",
-        "Liberia",
-        "Niger",
-        "Norway",
-        "Australia",
-        "Mozambique",
-        "Dominican Republic",
-        "North Macedonia",
-        "Belize",
-        "Estonia",
-        "Serbia",
-        "Nepal",
         "Saudi Arabia",
-        "Vanuatu",
-        "Iraq",
-        "Central African Republic",
-        "Algeria",
-        "Papua New Guinea",
-        "Angola",
-        "Singapore",
-        "Cuba",
-        "Iran",
-        "Equatorial Guinea",
-        "Thailand",
-        "Madagascar",
-        "Austria",
-        "Spain",
-        "Ukraine",
-        "Honduras",
-        "Slovakia",
-        "Senegal",
-        "Trinidad and Tobago",
-        "Solomon Islands",
-        "Togo",
-        "Russia",
-        "Luxembourg",
-        "Bosnia and Herzegovina",
-        "Armenia",
-        "Eritrea",
-        "United Kingdom",
-        "Laos",
-        "Monaco",
-        "Chad",
-        "Uganda",
-        "Mexico",
-        "Zimbabwe",
-        "Mongolia",
-        "Montenegro",
-        "United States of America",
-        "Namibia",
-        "Bolivia",
-        "Kuwait",
-        "Finland",
-        "Libya",
-        "Nigeria",
-        "Kenya",
-        "Malaysia",
-        "Indonesia",
-        "Rwanda",
-        "Ecuador",
-        "Vietnam",
-        "Ireland",
-        "Kyrgyzstan",
-        "Costa Rica",
-        "Cyprus",
-        "Greece",
-        "Czechia",
-        "Lesotho",
-        "Philippines",
-        "France",
-        "Antarctica",
-        "Israel",
-        "Somalia",
-        "Malawi",
-        "Qatar",
-        "Fiji",
-        "Netherlands",
-        "Brazil",
-        "Gambia",
-        "Panama",
-        "Chile",
-        "Japan",
-        "Moldova",
-        "Mauritania",
-        "Canada",
-        "Azerbaijan",
-        "Germany",
-        "Lithuania",
-        "Switzerland",
-        "Ethiopia",
-        "Burundi",
-        "Tunisia",
-        "Kazakhstan",
-        "South Africa",
-        "Sierra Leone",
-        "Denmark",
-        "Haiti",
-        "Botswana",
-        "Poland",
-        "Ghana",
-        "Jordan",
-        "Burkina Faso",
-        "Nicaragua",
-        "Malta",
-        "Uzbekistan",
-        "Guatemala",
-        "Cameroon",
-        "Oman",
-        "Syria",
-        "Morocco",
-        "Uruguay",
-        "Hungary",
-        "Benin",
-        "Brunei",
-        "Sweden",
-        "Yemen",
-        "Belarus",
-        "Tajikistan",
-        "United Arab Emirates",
-        "Sri Lanka",
-        "Colombia",
-        "Venezuela",
-        "Bangladesh",
-        "Djibouti",
-        "Paraguay",
-        "Sudan",
-        "New Zealand",
-        "Portugal",
         "Puerto Rico",
-        "Pakistan",
-        "Bhutan",
-        "Cambodia",
-        "China",
-        "South Sudan",
-        "Jamaica",
-        "Zambia",
-        "Belgium",
-        "Egypt",
-        "Peru",
-        "Latvia",
+        "Ghana",
+        "Haiti",
+        "Georgia",
         "Romania",
-        "India",
-        "El Salvador",
-        "Guinea",
-        "Italy",
-        "Suriname",
-        "Croatia",
-        "Mali",
+        "Vanuatu",
+        "Fiji",
+        "Chad",
+        "Rwanda",
+        "Gambia",
         "Turkey",
+        "Uzbekistan",
+        "Jamaica",
+        "Hungary",
+        "Algeria",
+        "Latvia",
+        "Antarctica",
+        "Sweden",
+        "Costa Rica",
+        "Guatemala",
+        "Uganda",
+        "Syria",
+        "Venezuela",
+        "Brunei",
+        "Cameroon",
+        "Chile",
+        "Switzerland",
+        "Spain",
+        "Montenegro",
+        "Bolivia",
+        "Ethiopia",
+        "Peru",
         "Guyana",
-        "Lebanon",
-        "Slovenia",
+        "Croatia",
+        "Qatar",
+        "Paraguay",
+        "Armenia",
+        "Cyprus",
+        "Tunisia",
+        "North Macedonia",
+        "South Sudan",
+        "Honduras",
+        "Luxembourg",
+        "Gabon",
+        "India",
+        "Uruguay",
+        "Philippines",
+        "Belize",
+        "United Arab Emirates",
+        "New Zealand",
+        "Togo",
+        "Ukraine",
+        "Mauritania",
+        "Austria",
+        "Vietnam",
+        "Malta",
+        "Pakistan",
         "Afghanistan",
-        "Argentina"
+        "Libya",
+        "Colombia",
+        "Somalia",
+        "Czechia",
+        "Nigeria",
+        "Trinidad and Tobago",
+        "Estonia",
+        "Iran",
+        "Portugal",
+        "Serbia",
+        "Thailand",
+        "Solomon Islands",
+        "Germany",
+        "Bangladesh",
+        "Albania",
+        "Norway",
+        "Singapore",
+        "United Kingdom",
+        "Kazakhstan",
+        "Kenya",
+        "Dominican Republic",
+        "Egypt",
+        "Panama",
+        "Moldova",
+        "Kyrgyzstan",
+        "Japan",
+        "Sri Lanka",
+        "Lebanon",
+        "Monaco",
+        "Iceland",
+        "Nepal",
+        "Sierra Leone",
+        "Netherlands",
+        "Burundi",
+        "Bosnia and Herzegovina",
+        "Oman",
+        "Morocco",
+        "Ecuador",
+        "Suriname",
+        "Zimbabwe",
+        "Finland",
+        "Botswana",
+        "Indonesia",
+        "Malawi",
+        "Nicaragua",
+        "Lesotho",
+        "Denmark",
+        "Canada",
+        "Yemen",
+        "Madagascar",
+        "Central African Republic",
+        "Cambodia",
+        "Russia",
+        "Sudan",
+        "Djibouti",
+        "Benin",
+        "Azerbaijan",
+        "Iraq",
+        "Greece",
+        "Kuwait",
+        "El Salvador",
+        "Italy",
+        "Burkina Faso",
+        "Lithuania",
+        "Argentina",
+        "Niger",
+        "Slovenia",
+        "Malaysia",
+        "China",
+        "Mali",
+        "Brazil",
+        "Papua New Guinea",
+        "Poland",
+        "Kosovo",
+        "Laos",
+        "Australia",
+        "Jordan",
+        "United States of America",
+        "Liberia",
+        "Israel",
+        "Belgium",
+        "Equatorial Guinea",
+        "Belarus",
+        "Angola",
+        "Ireland",
+        "Namibia",
+        "Senegal",
+        "Mexico",
+        "Mongolia",
+        "Eritrea",
+        "France",
+        "Tajikistan",
+        "Mozambique",
+        "South Africa",
+        "Zambia",
+        "Bhutan",
+        "Guinea",
+        "Bulgaria",
+        "Slovakia",
+        "Cuba"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CV_Covid_19_cases/CV_Covid_19_cases_photo.jpg"
@@ -3758,174 +4074,177 @@
       "themes": [
         "covid-19"
       ],
+      "providers": [
+        "Our World in Data"
+      ],
       "subcode": "OW",
       "cities": [
         "/"
       ],
       "countries": [
-        "Albania",
-        "Gabon",
-        "Kosovo",
-        "Iceland",
-        "Georgia",
-        "Bulgaria",
-        "Liberia",
-        "Niger",
-        "Norway",
-        "Australia",
-        "Mozambique",
-        "Dominican Republic",
-        "North Macedonia",
-        "Belize",
-        "Lebanon",
-        "Estonia",
-        "Serbia",
-        "Nepal",
         "Saudi Arabia",
+        "Ghana",
+        "Haiti",
+        "Georgia",
+        "Romania",
         "Vanuatu",
-        "Iraq",
-        "Central African Republic",
-        "Algeria",
-        "Papua New Guinea",
-        "Angola",
-        "Singapore",
-        "Cuba",
-        "Iran",
-        "Equatorial Guinea",
-        "Thailand",
-        "Madagascar",
-        "Austria",
-        "Spain",
-        "Ukraine",
-        "Honduras",
-        "Slovakia",
-        "Senegal",
-        "Trinidad and Tobago",
-        "Solomon Islands",
-        "Togo",
-        "Russia",
-        "Luxembourg",
-        "Bosnia and Herzegovina",
-        "Armenia",
-        "United Kingdom",
-        "Laos",
-        "Monaco",
+        "Fiji",
         "Chad",
+        "Rwanda",
+        "Gambia",
+        "Turkey",
+        "Uzbekistan",
+        "Jamaica",
+        "Hungary",
+        "Algeria",
+        "Latvia",
+        "New Caledonia",
+        "Sweden",
+        "Costa Rica",
+        "Guatemala",
         "Uganda",
+        "Syria",
+        "Venezuela",
+        "Brunei",
+        "Cameroon",
+        "Myanmar",
+        "Chile",
+        "Switzerland",
+        "Spain",
+        "Montenegro",
+        "Bolivia",
+        "Ethiopia",
+        "Peru",
+        "Guyana",
+        "South Korea",
+        "Croatia",
+        "Qatar",
+        "Paraguay",
+        "Armenia",
+        "Cyprus",
+        "Tunisia",
+        "North Macedonia",
+        "Greenland",
+        "South Sudan",
+        "Honduras",
+        "Luxembourg",
+        "Gabon",
+        "India",
+        "Uruguay",
+        "Philippines",
+        "Belize",
+        "United Arab Emirates",
+        "New Zealand",
+        "Togo",
+        "Ukraine",
+        "Mauritania",
+        "Austria",
+        "Vietnam",
+        "Malta",
+        "Pakistan",
+        "Afghanistan",
+        "Libya",
+        "Colombia",
+        "Somalia",
+        "Czechia",
+        "Nigeria",
+        "Trinidad and Tobago",
+        "Estonia",
+        "Iran",
+        "Portugal",
+        "Serbia",
+        "Thailand",
+        "Solomon Islands",
+        "Germany",
+        "Bangladesh",
+        "Albania",
+        "Norway",
+        "Singapore",
+        "United Kingdom",
+        "Kazakhstan",
+        "Kenya",
+        "Dominican Republic",
+        "Egypt",
+        "Panama",
+        "Moldova",
+        "Kyrgyzstan",
+        "Japan",
+        "Sri Lanka",
+        "Lebanon",
+        "Monaco",
+        "Iceland",
+        "Nepal",
+        "Sierra Leone",
+        "Netherlands",
+        "Burundi",
+        "Bosnia and Herzegovina",
+        "Oman",
+        "Morocco",
+        "Turkmenistan",
+        "Ecuador",
+        "Suriname",
+        "Finland",
+        "Botswana",
+        "Indonesia",
+        "Malawi",
+        "Nicaragua",
+        "Lesotho",
+        "Denmark",
+        "Canada",
+        "Yemen",
+        "Madagascar",
+        "Central African Republic",
+        "Falkland Islands",
+        "Cambodia",
+        "Russia",
+        "Sudan",
+        "Djibouti",
+        "Benin",
+        "Azerbaijan",
+        "Iraq",
+        "Greece",
+        "Kuwait",
+        "El Salvador",
+        "Taiwan",
+        "Italy",
+        "Burkina Faso",
+        "Lithuania",
+        "Argentina",
+        "Niger",
+        "Slovenia",
+        "Malaysia",
+        "China",
+        "Mali",
+        "Brazil",
+        "Papua New Guinea",
+        "Poland",
+        "Kosovo",
+        "Laos",
+        "Australia",
+        "Jordan",
+        "Liberia",
+        "United States of America",
+        "Israel",
+        "Belgium",
+        "Equatorial Guinea",
+        "Belarus",
+        "Angola",
+        "Ireland",
+        "Namibia",
+        "Senegal",
         "Mexico",
         "Mongolia",
-        "Montenegro",
-        "Namibia",
-        "United States of America",
-        "Bolivia",
-        "Kuwait",
-        "Finland",
-        "Falkland Islands",
-        "Libya",
-        "Nigeria",
-        "Kenya",
-        "Malaysia",
-        "Indonesia",
-        "Rwanda",
-        "Ecuador",
-        "Vietnam",
-        "Ireland",
-        "Kyrgyzstan",
-        "Costa Rica",
-        "Cyprus",
-        "Taiwan",
-        "Greece",
-        "Czechia",
-        "Lesotho",
-        "Philippines",
-        "France",
-        "South Korea",
-        "Israel",
-        "Somalia",
-        "Malawi",
-        "Qatar",
-        "Fiji",
-        "Netherlands",
-        "Brazil",
-        "Gambia",
-        "Panama",
-        "Turkmenistan",
-        "Chile",
-        "Japan",
-        "Moldova",
-        "Greenland",
-        "Mauritania",
-        "Canada",
-        "Azerbaijan",
-        "Germany",
-        "Lithuania",
-        "Switzerland",
-        "Myanmar",
-        "Ethiopia",
-        "Burundi",
-        "Tunisia",
-        "Kazakhstan",
-        "South Africa",
-        "Sierra Leone",
-        "Denmark",
-        "Haiti",
-        "Botswana",
-        "Poland",
-        "Ghana",
-        "Jordan",
-        "Burkina Faso",
-        "Nicaragua",
-        "Malta",
-        "Uzbekistan",
-        "Guatemala",
-        "Cameroon",
-        "Oman",
-        "Syria",
-        "Morocco",
-        "Uruguay",
-        "Hungary",
-        "Benin",
-        "Brunei",
-        "Sweden",
-        "Yemen",
-        "Belarus",
-        "Tajikistan",
-        "United Arab Emirates",
-        "Sri Lanka",
-        "Colombia",
-        "Venezuela",
-        "Bangladesh",
-        "Djibouti",
-        "Paraguay",
-        "Sudan",
-        "New Zealand",
-        "Portugal",
-        "Pakistan",
-        "New Caledonia",
-        "Bhutan",
-        "Cambodia",
-        "China",
-        "South Sudan",
-        "Jamaica",
-        "Zambia",
-        "Belgium",
-        "Egypt",
-        "Peru",
-        "Latvia",
-        "Romania",
-        "India",
-        "El Salvador",
-        "Guinea",
-        "Italy",
-        "Suriname",
-        "Croatia",
-        "Mali",
-        "Turkey",
-        "Guyana",
         "Bermuda",
-        "Slovenia",
-        "Afghanistan",
-        "Argentina"
+        "France",
+        "Tajikistan",
+        "Mozambique",
+        "South Africa",
+        "Zambia",
+        "Bhutan",
+        "Guinea",
+        "Bulgaria",
+        "Slovakia",
+        "Cuba"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OW_Covid_19_vaccinations/OW_Covid_19_vaccinations_photo.jpg"
@@ -3951,6 +4270,9 @@
       "id": "FNF_Palsar",
       "themes": [
         "biomass"
+      ],
+      "providers": [
+        "JAXA"
       ],
       "subcode": "FNF",
       "satellite": [
@@ -3986,6 +4308,9 @@
       "themes": [
         "extreme-events"
       ],
+      "providers": [
+        "NASA"
+      ],
       "subcode": "Modis_SNPP_2023",
       "satellite": [
         "Terra",
@@ -4015,6 +4340,11 @@
       "id": "ADD_West_Antarctica_S1",
       "themes": [
         "cryosphere"
+      ],
+      "providers": [
+        "ESA",
+        "Carbon Brief",
+        "Euro Data Cube"
       ],
       "subcode": "ADD_West_Antarctica_S1",
       "satellite": [
@@ -4064,6 +4394,10 @@
       "themes": [
         "cryosphere"
       ],
+      "providers": [
+        "NASA",
+        "USGS"
+      ],
       "subcode": "ADD_Landsat_L2_Antarctica",
       "satellite": [
         "Landsat-7",
@@ -4074,8 +4408,8 @@
         "OLI"
       ],
       "cities": [
-        "Thwaites Glacier",
-        "Pine Island"
+        "Pine Island",
+        "Thwaites Glacier"
       ],
       "countries": [
         "AQ"
@@ -4112,6 +4446,10 @@
       "id": "ADD_Melt_Duration",
       "themes": [
         "cryosphere"
+      ],
+      "providers": [
+        "ESA",
+        "EUMETSAT"
       ],
       "subcode": "ADD_Melt_Duration",
       "satellite": [
@@ -4166,6 +4504,10 @@
       "themes": [
         "cryosphere"
       ],
+      "providers": [
+        "ESA",
+        "EUMETSAT"
+      ],
       "subcode": "ADD_Melt_Onset",
       "satellite": [
         "MetOp"
@@ -4215,6 +4557,10 @@
       "id": "ADD_Melt_Season_End",
       "themes": [
         "cryosphere"
+      ],
+      "providers": [
+        "ESA",
+        "EUMETSAT"
       ],
       "subcode": "ADD_Melt_Season_End",
       "satellite": [
@@ -4266,6 +4612,10 @@
       "themes": [
         "cryosphere"
       ],
+      "providers": [
+        "ESA",
+        "EUMETSAT"
+      ],
       "subcode": "ADD_Meltmap",
       "satellite": [
         "MetOp"
@@ -4316,6 +4666,9 @@
         "agriculture",
         "water"
       ],
+      "providers": [
+        "TU Wien"
+      ],
       "subcode": "ESDL_Hydrology_SM",
       "satellite": [
         "Sentinel-1"
@@ -4345,6 +4698,14 @@
       "themes": [
         "agriculture",
         "water"
+      ],
+      "providers": [
+        "NOAA",
+        "NASA",
+        "ECMWF",
+        "WLS",
+        "CNR IRPI",
+        "EURAC"
       ],
       "subcode": "ESDL_Hydrology_Precipitation",
       "thumbnail": [
@@ -4378,6 +4739,12 @@
       "id": "S14Amazonas_detections",
       "themes": [
         "biomass"
+      ],
+      "providers": [
+        "GISAT s.r.o",
+        "FGI",
+        "Agresta",
+        "NMBU"
       ],
       "subcode": "MCD",
       "satellite": [
@@ -4456,6 +4823,11 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "ESA",
+        "NASA",
+        "VEDA"
+      ],
       "subcode": "HLS_NDVI",
       "satellite": [
         "Sentinel-2",
@@ -4494,6 +4866,9 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "VEDA"
+      ],
       "subcode": "LIS_Global_DA_Evap",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LIS_Global_DA_Evap/thumbnail.jpg"
@@ -4524,6 +4899,11 @@
       "id": "JAXA_Nighttimelevel_Urban",
       "themes": [
         "covid-19"
+      ],
+      "providers": [
+        "NASA",
+        "JAXA",
+        "Tokyo University of Foreign Studies"
       ],
       "subcode": "NTLU",
       "satellite": [
@@ -4558,6 +4938,11 @@
       "themes": [
         "covid-19"
       ],
+      "providers": [
+        "NASA",
+        "JAXA",
+        "Tokyo University of Foreign Studies"
+      ],
       "subcode": "NTLR",
       "satellite": [
         "Suomi NPP"
@@ -4590,6 +4975,10 @@
       "id": "4D_Greenland_Melt_Duration",
       "themes": [
         "cryosphere"
+      ],
+      "providers": [
+        "ESA",
+        "EUMETSAT"
       ],
       "subcode": "4D_Greenland_Melt_Duration",
       "satellite": [
@@ -4642,6 +5031,10 @@
       "themes": [
         "cryosphere"
       ],
+      "providers": [
+        "ESA",
+        "EUMETSAT"
+      ],
       "subcode": "4D_Greenland_Melt_Onset",
       "satellite": [
         "MetOp"
@@ -4692,6 +5085,10 @@
       "id": "4D_Greenland_Melt_Season_End",
       "themes": [
         "cryosphere"
+      ],
+      "providers": [
+        "ESA",
+        "EUMETSAT"
       ],
       "subcode": "4D_Greenland_Melt_Season_End",
       "satellite": [
@@ -4745,6 +5142,10 @@
       "themes": [
         "cryosphere"
       ],
+      "providers": [
+        "ESA",
+        "EUMETSAT"
+      ],
       "subcode": "4D_Greenland_Meltmap",
       "satellite": [
         "MetOp"
@@ -4797,6 +5198,11 @@
         "water",
         "extreme-events"
       ],
+      "providers": [
+        "JAXA",
+        "JAXA GCOM project",
+        "JAXA EORC"
+      ],
       "subcode": "ENSST",
       "satellite": [
         "GCOM-W"
@@ -4827,6 +5233,10 @@
       "themes": [
         "extreme-events"
       ],
+      "providers": [
+        "Copernicus",
+        "ESA"
+      ],
       "subcode": "SLSTR1",
       "satellite": [
         "Sentinel-3"
@@ -4855,6 +5265,12 @@
       "id": "SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence",
       "themes": [
         "cryosphere"
+      ],
+      "providers": [
+        "Copernicus",
+        "NASA",
+        "Earth Big Data",
+        "Gamma Remote Sensing"
       ],
       "subcode": "SSLC1",
       "satellite": [
@@ -4887,6 +5303,12 @@
       "themes": [
         "cryosphere"
       ],
+      "providers": [
+        "Copernicus",
+        "NASA",
+        "Earth Big Data",
+        "Gamma Remote Sensing"
+      ],
       "subcode": "SSLC2",
       "satellite": [
         "Sentinel-1"
@@ -4918,6 +5340,10 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Copernicus",
+        "ECMWF"
+      ],
       "subcode": "OHC300",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OHC300_Ocean_Heat_Content_upper_300m/OHC300_Ocean_Heat_Content_upper_300m.jpg"
@@ -4948,6 +5374,9 @@
       "themes": [
         "extreme-events"
       ],
+      "providers": [
+        "NASA/JPL/ECOSTRESS"
+      ],
       "subcode": "NELST",
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NELST_ECOSTRESS_LST/NELST_ECOSTRESS_LST.jpg"
@@ -4972,6 +5401,9 @@
       "id": "alos2_floods",
       "themes": [
         "extreme-events"
+      ],
+      "providers": [
+        "JAXA"
       ],
       "subcode": "JAXA_ALOS2_Floodmap",
       "satellite": [
@@ -5091,6 +5523,9 @@
       "id": "ndvi_deepESDL",
       "themes": [
         "land"
+      ],
+      "providers": [
+        "NASA"
       ],
       "subcode": "ndvi_deepESDL",
       "satellite": [

@@ -21,6 +21,9 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "ESA"
+      ],
       "yAxis": "Mg C ha",
       "tags": [
         "Amazon rainforest",

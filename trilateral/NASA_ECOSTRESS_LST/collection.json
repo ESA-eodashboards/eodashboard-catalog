@@ -21,6 +21,9 @@
       "themes": [
         "extreme-events"
       ],
+      "providers": [
+        "NASA/JPL/ECOSTRESS"
+      ],
       "tags": [
         "Temperature",
         "Open data"

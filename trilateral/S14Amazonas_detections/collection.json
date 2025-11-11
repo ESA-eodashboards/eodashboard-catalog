@@ -22,6 +22,12 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "GISAT s.r.o",
+        "FGI",
+        "Agresta",
+        "NMBU"
+      ],
       "tags": [
         "Copernicus",
         "Forest disturbance"

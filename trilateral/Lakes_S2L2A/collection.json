@@ -21,6 +21,9 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Copernicus"
+      ],
       "tags": [
         "Sentinel",
         "Open data",

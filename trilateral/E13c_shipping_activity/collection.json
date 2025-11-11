@@ -22,6 +22,11 @@
       "themes": [
         "economy"
       ],
+      "providers": [
+        "ESA",
+        "NASA’s Interagency Implementation and Advanced Concepts Team (IMPACT)",
+        "planet"
+      ],
       "cities": [
         "Ghent",
         "Hamburg",
@@ -213,25 +218,25 @@
       "MSI"
     ],
     "cities": [
+      "San Francisco",
+      "Suez",
+      "Dunkirk",
       "New York",
+      "Ghent",
+      "Hamburg",
       "Los Angeles",
       "Genoa",
-      "Suez",
-      "Hamburg",
-      "Gdynia",
-      "San Francisco",
-      "Dunkirk",
-      "Ghent",
-      "Suez "
+      "Suez ",
+      "Gdynia"
     ],
     "countries": [
-      "DE",
-      "FR",
-      "BE",
+      "EG",
       "IT",
-      "US",
+      "DE",
       "PL",
-      "EG"
+      "FR",
+      "US",
+      "BE"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg"

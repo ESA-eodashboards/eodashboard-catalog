@@ -22,6 +22,10 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Copernicus Marine Service",
+        "ESA"
+      ],
       "yAxis": "%",
       "tags": [
         "Water quality",

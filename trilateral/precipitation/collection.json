@@ -22,6 +22,9 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "JAXA"
+      ],
       "tags": [
         "Precipitation",
         "Rainfall",
@@ -257,38 +260,38 @@
     ],
     "satellite": [
       "NOAA-N18",
-      "NOAA-N17",
-      "NOAA-N19",
+      "DWSS-1",
       "GPM Core Observatory",
       "JPSS-1",
-      "Aqua",
-      "MetOp-B",
-      "Megha-Tropiques",
-      "DMSP-F14",
-      "NOAA-N15",
-      "DMSP-F15",
       "DMSP-F11",
-      "DMSP-F13",
-      "GCOM-W1",
-      "TRMM",
-      "ADEOS-II",
       "NPP",
-      "NOAA-N16",
+      "DMSP-F15",
+      "Aqua",
+      "ADEOS-II",
+      "NOAA-N17",
+      "TRMM",
+      "GCOM-W1",
+      "MetOp-B",
       "MetOp-A",
-      "DWSS-1"
+      "DMSP-F14",
+      "NOAA-N16",
+      "DMSP-F13",
+      "Megha-Tropiques",
+      "NOAA-N19",
+      "NOAA-N15"
     ],
     "sensor": [
-      "ATMS",
-      "TMI",
-      "AMSR",
-      "AMSR-E",
-      "AMSR2",
-      "MADRAS",
-      "TBD",
       "AMSU-A/AMSU-B",
-      "GMI",
       "AMSU-A/MHS",
-      "SSM/I"
+      "AMSR",
+      "SSM/I",
+      "TBD",
+      "MADRAS",
+      "AMSR2",
+      "ATMS",
+      "AMSR-E",
+      "GMI",
+      "TMI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.jpg"

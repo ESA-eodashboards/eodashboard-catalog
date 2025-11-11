@@ -22,6 +22,9 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "JAXA"
+      ],
       "cities": [
         "Dhaka",
         "Beijing",
@@ -219,20 +222,20 @@
       "TANSO-CAI"
     ],
     "cities": [
-      "New York",
-      "Tokyo",
       "New Delhi",
-      "Mumbai",
+      "New York",
       "Shanghai",
+      "Tokyo",
       "Dhaka",
-      "Beijing"
+      "Beijing",
+      "Mumbai"
     ],
     "countries": [
-      "CN",
       "BD",
       "IN",
+      "JP",
       "US",
-      "JP"
+      "CN"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg"

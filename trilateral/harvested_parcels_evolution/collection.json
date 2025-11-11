@@ -22,6 +22,9 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "FEGA"
+      ],
       "cities": [
         "Comunidad Foral de Navarra",
         "La Rioja",
@@ -152,10 +155,10 @@
     "spatial": {
       "bbox": [
         [
-          -6.148,
-          37.539,
-          1.496,
-          42.653999999999996
+          -6.338,
+          37.349,
+          1.686,
+          42.844
         ]
       ]
     },
@@ -193,17 +196,17 @@
       "MSI"
     ],
     "cities": [
-      "Extremadura",
-      "Aragon",
-      "Andalucia",
-      "La Rioja",
-      "Comunidad Valenciana",
       "Comunidad de Madrid",
-      "Castilla-La Mancha",
-      "Cataluna",
-      "Comunidad Foral de Navarra",
+      "Comunidad Valenciana",
+      "Andalucia",
+      "Region de Murcia",
+      "Aragon",
+      "Extremadura",
       "Castilla y Leon",
-      "Region de Murcia"
+      "La Rioja",
+      "Castilla-La Mancha",
+      "Comunidad Foral de Navarra",
+      "Cataluna"
     ],
     "countries": [
       "ES"

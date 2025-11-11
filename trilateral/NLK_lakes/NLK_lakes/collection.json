@@ -21,6 +21,9 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "NASA"
+      ],
       "tags": [
         "Lakes",
         "Optical",
@@ -299,19 +302,19 @@
   ],
   "summaries": {
     "cities": [
-      "Tonlé Sap Lake",
-      "Aral Lake",
-      "Balaton Lake",
       "Biwa Lake",
-      "Vänern Lake"
+      "Tonlé Sap Lake",
+      "Vänern Lake",
+      "Balaton Lake",
+      "Aral Lake"
     ],
     "countries": [
-      "UZ",
+      "SW",
+      "JP",
+      "KH",
       "KZ",
       "HU",
-      "KH",
-      "SW",
-      "JP"
+      "UZ"
     ]
   },
   "assets": {

@@ -21,6 +21,9 @@
       "themes": [
         "extreme-events"
       ],
+      "providers": [
+        "NASA"
+      ],
       "tags": [
         "Fire",
         "Open data"
@@ -160,8 +163,8 @@
       "extreme-events"
     ],
     "satellite": [
-      "Terra",
-      "Aqua"
+      "Aqua",
+      "Terra"
     ],
     "sensor": [
       "MODIS"

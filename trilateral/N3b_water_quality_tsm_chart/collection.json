@@ -22,6 +22,11 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "ESA",
+        "JAXA",
+        "NASA"
+      ],
       "cities": [
         "Venice",
         "Kobe",
@@ -166,10 +171,10 @@
     "spatial": {
       "bbox": [
         [
-          12.49811,
-          34.54,
-          139.9100001,
-          45.32421
+          12.308110000000001,
+          34.349999999999994,
+          140.1000001,
+          45.514210000000006
         ]
       ]
     },
@@ -211,18 +216,18 @@
     ],
     "sensor": [
       "SGLI",
-      "MODIS",
-      "OLCI"
+      "OLCI",
+      "MODIS"
     ],
     "cities": [
       "Nagoya",
       "Kobe",
-      "Tokyo",
-      "Venice"
+      "Venice",
+      "Tokyo"
     ],
     "countries": [
-      "JP",
-      "IT"
+      "IT",
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.jpg"

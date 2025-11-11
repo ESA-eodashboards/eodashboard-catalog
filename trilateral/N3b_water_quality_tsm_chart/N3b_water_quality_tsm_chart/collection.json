@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./IT10/collection.json",
       "type": "application/json",
-      "title": "Venice",
+      "title": "Venice - N3b_water_quality_tsm_chart",
       "id": "IT10",
       "latlng": "45.31421, 12.50811",
       "country": "IT",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./JP05/collection.json",
       "type": "application/json",
-      "title": "Kobe",
+      "title": "Kobe - N3b_water_quality_tsm_chart",
       "id": "JP05",
       "latlng": "34.550000, 135.1500001",
       "country": "JP",
@@ -34,7 +34,7 @@
       "rel": "child",
       "href": "./JP06/collection.json",
       "type": "application/json",
-      "title": "Nagoya",
+      "title": "Nagoya - N3b_water_quality_tsm_chart",
       "id": "JP06",
       "latlng": "34.750000, 136.7000001",
       "country": "JP",
@@ -44,7 +44,7 @@
       "rel": "child",
       "href": "./JP07/collection.json",
       "type": "application/json",
-      "title": "Tokyo",
+      "title": "Tokyo - N3b_water_quality_tsm_chart",
       "id": "JP07",
       "latlng": "35.550000, 139.9000001",
       "country": "JP",
@@ -101,34 +101,34 @@
     "spatial": {
       "bbox": [
         [
-          12.49811,
-          34.54,
-          139.9100001,
-          45.32421
+          12.308110000000001,
+          34.349999999999994,
+          140.1000001,
+          45.514210000000006
         ],
         [
-          12.49811,
-          45.304210000000005,
-          12.51811,
-          45.32421
+          12.308110000000001,
+          45.11421,
+          12.70811,
+          45.514210000000006
         ],
         [
-          135.1400001,
-          34.54,
-          135.1600001,
-          34.559999999999995
+          134.9500001,
+          34.349999999999994,
+          135.3500001,
+          34.75
         ],
         [
-          136.69000010000002,
-          34.74,
-          136.7100001,
-          34.76
+          136.50000010000002,
+          34.55,
+          136.9000001,
+          34.95
         ],
         [
-          139.8900001,
-          35.54,
-          139.9100001,
-          35.559999999999995
+          139.7000001,
+          35.349999999999994,
+          140.1000001,
+          35.75
         ]
       ]
     },

@@ -26,7 +26,8 @@
       ],
       "role": [
         "data"
-      ]
+      ],
+      "proj:epsg": 3857
     },
     {
       "rel": "license",
@@ -87,6 +88,7 @@
     "tickFormat": ".0f",
     "title": "[GJ/m2]"
   },
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Ocean heat content for the upper 300m",
   "extent": {

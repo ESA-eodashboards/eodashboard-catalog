@@ -2,13 +2,20 @@
   "type": "Collection",
   "id": "BR04",
   "stac_version": "1.1.0",
-  "description": "Paraná - BR",
+  "description": "# Vegetation Index (NDVI)\n\n[JAXA](https://global.jaxa.jp/)(Japan Aerospace Exploration Agency) together with Japanese Ministry of Agriculture, Forestry and Fisheries (MAFF) provide bi-monthly agrometeorological information for Asia on [JASMIN](https://suzaku.eorc.jaxa.jp/JASMIN/index.html) and on [JASMAI](https://jasmai.maff.go.jp/) for selected world areas.\n\nThis agrometeorological information is obtained from satellite observations (e.g. SHIZUKU (GCOM-W), MODIS, Multiple Satellites (GSMaP)) and GPM Core Observatory, and includes precipitation, drought index, soil moisture, solar radiation, surface temperature, vegetation index and anomaly, rainfall, and other relevant agriculture and land products. \n\nThe vegetation index (NDVI) is an index that uses the sunlight reflection characteristics of plants to indicate the amount and activity of green leaves in plants. \n\n\n### Additional information\n\n* Vegetation Index (NDVI): Ministry of Agriculture, Forestry and Fisheries \"Agricultural Meteorological Information Satellite Monitoring System\"\n(Created by processing JAXA's \"Natural Vegetation Index (NDVI) Product\")\n* JAXA Earth Observation Research Center (EORC)\thttp://www.eorc.jaxa.jp\n* JAXA \"Earth observation satellite data provision system (G-Portal)\"\thttps://gportal.jaxa.jp/gpr/?lang=en\n* JAXA \"AMSR/AMSR-E\"\thttps://sharaku.eorc.jaxa.jp/AMSR/index_j.html\n* JAXA \"GCOM-W\"\thttps://suzaku.eorc.jaxa.jp/GCOM_W/index_j.html\n* JAXA \"Satellite Global Precipitation Map (GSMaP)\"\thttps://sharaku.eorc.jaxa.jp/GSMaP/index_j.htm\n* JAXA \"Climate Formation Physical Quantity Dataset (JASMES)\"\thttps://kuroshio.eorc.jaxa.jp/JASMES/index_j.html\n",
   "links": [
     {
       "rel": "root",
       "href": "../../../catalog.json",
       "type": "application/json",
       "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_VITS_Vegetation_Index_Timeseries?aoi_id=eq.BR04&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -61,6 +68,8 @@
       "title": "Local NDVI from GSMaP"
     }
   ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/SMCTS_soil_moisture_timeseries/chart.json",
   "subcode": "VITS",
   "subtitle": "Normalized Difference Vegetation Index Timeseries",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/VITS_vegetation_index_timeseries/VITS_vegetation_index_timeseries.jpg",
@@ -77,15 +86,15 @@
   "satellite": [
     "Other"
   ],
-  "title": "Paraná",
+  "title": "Paraná - vegetation_index_timeseries",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -51.324999999999996,
-          -24.625,
-          -51.305,
-          -24.604999999999997
+          -51.515,
+          -24.814999999999998,
+          -51.114999999999995,
+          -24.415
         ]
       ]
     },

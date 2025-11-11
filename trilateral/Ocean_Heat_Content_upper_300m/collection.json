@@ -22,6 +22,10 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Copernicus",
+        "ECMWF"
+      ],
       "tags": [
         "Copernicus Services",
         "C3S",

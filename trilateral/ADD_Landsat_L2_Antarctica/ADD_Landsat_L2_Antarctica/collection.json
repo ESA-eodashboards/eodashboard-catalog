@@ -22,6 +22,10 @@
       "themes": [
         "cryosphere"
       ],
+      "providers": [
+        "NASA",
+        "USGS"
+      ],
       "tags": [
         "Antarctica",
         "climate change",
@@ -73,6 +77,10 @@
       "id": "ADD_L2_Thwaites",
       "themes": [
         "cryosphere"
+      ],
+      "providers": [
+        "NASA",
+        "USGS"
       ],
       "tags": [
         "Antarctica",
@@ -262,8 +270,8 @@
   ],
   "summaries": {
     "cities": [
-      "Thwaites Glacier",
-      "Pine Island"
+      "Pine Island",
+      "Thwaites Glacier"
     ],
     "countries": [
       "AQ"

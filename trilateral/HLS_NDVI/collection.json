@@ -22,6 +22,11 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "ESA",
+        "NASA",
+        "VEDA"
+      ],
       "tags": [
         "Biomass",
         "NDVI",
@@ -200,8 +205,8 @@
       "biomass"
     ],
     "satellite": [
-      "Sentinel-2",
-      "Landsat"
+      "Landsat",
+      "Sentinel-2"
     ],
     "sensor": [
       "OLI",

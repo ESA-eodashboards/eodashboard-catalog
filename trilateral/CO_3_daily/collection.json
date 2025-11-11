@@ -23,6 +23,10 @@
         "atmosphere",
         "extreme-events"
       ],
+      "providers": [
+        "Copernicus",
+        "Copernicus Data Space"
+      ],
       "tags": [
         "Air quality",
         "CO",

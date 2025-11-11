@@ -22,6 +22,10 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "Copernicus",
+        "ESA"
+      ],
       "tags": [
         "Photosynthesis"
       ],

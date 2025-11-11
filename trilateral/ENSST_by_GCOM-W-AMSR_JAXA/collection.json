@@ -22,6 +22,11 @@
         "water",
         "extreme-events"
       ],
+      "providers": [
+        "JAXA",
+        "JAXA GCOM project",
+        "JAXA EORC"
+      ],
       "tags": [
         "SST",
         "El Nino",

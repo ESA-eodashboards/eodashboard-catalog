@@ -26,7 +26,8 @@
       ],
       "role": [
         "data"
-      ]
+      ],
+      "proj:epsg": 3857
     },
     {
       "rel": "license",
@@ -92,6 +93,7 @@
     "tickFormat": ".0f",
     "title": "Wind field [m/s]"
   },
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Wind U Field at 100m",
   "extent": {

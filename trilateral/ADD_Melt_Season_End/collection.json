@@ -22,6 +22,10 @@
       "themes": [
         "cryosphere"
       ],
+      "providers": [
+        "ESA",
+        "EUMETSAT"
+      ],
       "tags": [
         "Antarctica",
         "climate change",

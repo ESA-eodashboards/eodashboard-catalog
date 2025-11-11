@@ -21,6 +21,10 @@
       "themes": [
         "extreme-events"
       ],
+      "providers": [
+        "Copernicus",
+        "ESA"
+      ],
       "tags": [
         "Copernicus Data Space Ecosystem",
         "Open data"

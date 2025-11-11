@@ -22,6 +22,9 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "NASA"
+      ],
       "yAxis": "g C m^-2 d^-1",
       "tags": [
         "CO2",

@@ -22,6 +22,10 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "Copernicus",
+        "ESA"
+      ],
       "cities": [
         "Beijing",
         "Madrid",
@@ -148,10 +152,10 @@
     "spatial": {
       "bbox": [
         [
-          -122.426389,
-          19.066,
-          139.79,
-          48.874716
+          -122.616389,
+          18.876,
+          139.98,
+          49.064716000000004
         ]
       ]
     },
@@ -191,26 +195,26 @@
       "TROPOMI"
     ],
     "cities": [
-      "New York",
-      "Los Angeles",
-      "Tokyo",
       "New Delhi",
-      "Milan",
-      "Madrid",
       "San Francisco",
-      "Mumbai",
-      "Beijing",
+      "New York",
+      "Tokyo",
+      "Paris",
+      "Madrid",
       "Rome",
-      "Paris"
+      "Los Angeles",
+      "Beijing",
+      "Mumbai",
+      "Milan"
     ],
     "countries": [
-      "CN",
-      "FR",
-      "IT",
-      "IN",
-      "US",
       "ES",
-      "JP"
+      "IN",
+      "IT",
+      "JP",
+      "FR",
+      "US",
+      "CN"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg"

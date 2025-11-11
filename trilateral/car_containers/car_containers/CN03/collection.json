@@ -2,13 +2,20 @@
   "type": "Collection",
   "id": "CN03",
   "stac_version": "1.1.0",
-  "description": "Beijing - CN",
+  "description": "# Finished goods production: vehicles inventory level\n\nThis indicator aims at tracking production and movement at factories and ports importing and exporting cars to monitor the increase and decrease of new car production\nby combining satellite data from:\n###\n- PALSAR-2, which uses L-band SAR mounted on [JAXA](https://global.jaxa.jp/)'s ALOS-2 \n- C-band SAR mounted on the [ESA](https://esa.int/)'s Sentinel-1\n- NASA-processed high-resolution optical remote sensing data from Planet’s SkySat\n\n\n",
   "links": [
     {
       "rel": "root",
       "href": "../../../catalog.json",
       "type": "application/json",
       "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E9_tri?aoi_id=eq.CN03&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -61,6 +68,8 @@
       "title": "Car containers"
     }
   ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E9_car_containers/chart.json",
   "subcode": "E9",
   "subtitle": "Change in the number of new cars at automobile factory",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg",
@@ -88,7 +97,7 @@
     "ALOS-2",
     "Sentinel-1"
   ],
-  "title": "Beijing",
+  "title": "Beijing - car_containers",
   "extent": {
     "spatial": {
       "bbox": [

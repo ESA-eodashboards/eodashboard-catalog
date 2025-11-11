@@ -2,13 +2,20 @@
   "type": "Collection",
   "id": "COD",
   "stac_version": "1.1.0",
-  "description": "Democratic Republic of the Congo - Democratic Republic of the Congo",
+  "description": "# Greenhouse gas reconciliation 2022 CO2 (CCI RECCAP2)\n\nThese indicators compare the differences between the latest national greenhouse gas inventories (NGHGI) and atmospheric inversion models to support the global stocktake of the Paris Agreement.\n\nThe comparison framework used includes net ecosystem exchange carbon dioxide (CO2) flux, anthropogenic methane (CH4) emissions, and anthropogenic nitrous oxide (N2O) emissions.\n\nThe global harmonized NGHGI database was updated for inventory data by compiling data from periodical UNFCCC inventories by Annex I countries and sporadic and less detailed emissions reports by non-Annex I countries given by National Communications and Biennial Update Reports.\n\nFor the inversion data, updated results from an ensemble of global inversions produced for the Global Carbon Project were used for the three greenhouse gases, with ancillary data.\n\nFor CO2, the updated CO2 inversion ensembles up to 2021 included 3 new satellite inversions compared to the previous study, and an improved managed land mask was implemented.\n\n\n### Additional information\n\n- Dataset contributed by: [ESA CCI RECCAP2](https://climate.esa.int/en/projects/reccap-2/)\n",
   "links": [
     {
       "rel": "root",
       "href": "../../../catalog.json",
       "type": "application/json",
       "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_GGI_CO2?aoi_id=eq.COD&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -61,6 +68,8 @@
       "title": "Carbon Dioxide from CCI RECCAP2"
     }
   ],
+  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/GGI_CO2/chart.json",
   "subcode": "GGI_CO2",
   "sci:doi": "10.5281/zenodo.10841716",
   "sci:citation": "Zhu Deng, Philippe Ciais, Liting Hu, Martinez, A., Saunois, M., Thompson, R., & Frédéric Chevallier. (2024). Global greenhouse gas reconciliation 2022 [Data set]. Zenodo.\n",
@@ -80,15 +89,15 @@
   "satellite": [
     "Other"
   ],
-  "title": "Democratic Republic of the Congo",
+  "title": "Democratic Republic of the Congo - Greenhouse_gas_reconsiliation_CO2",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          15.290000000000001,
-          -4.327,
-          15.31,
-          -4.307
+          15.100000000000001,
+          -4.517,
+          15.5,
+          -4.117
         ]
       ]
     },

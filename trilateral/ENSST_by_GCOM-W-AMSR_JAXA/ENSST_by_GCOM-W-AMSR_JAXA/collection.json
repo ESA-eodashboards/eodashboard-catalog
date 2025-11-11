@@ -20,7 +20,8 @@
       ],
       "role": [
         "data"
-      ]
+      ],
+      "proj:epsg": 3857
     },
     {
       "rel": "parent",
@@ -75,6 +76,7 @@
     "tickFormat": ".0f",
     "title": "Sea Surface Temperature [°C]"
   },
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Sea Surface Temperature (GCOM-W)",
   "extent": {

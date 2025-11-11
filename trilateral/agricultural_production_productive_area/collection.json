@@ -22,6 +22,10 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "Université catholique de Louvain",
+        "Copernicus"
+      ],
       "cities": [
         "Brandenburg",
         "Huelva (Lagunas de las Madres)"
@@ -130,10 +134,10 @@
     "spatial": {
       "bbox": [
         [
-          -6.85888,
-          37.17316,
-          13.10063,
-          52.14141
+          -7.0488800000000005,
+          36.98316,
+          13.29063,
+          52.331410000000005
         ]
       ]
     },
@@ -171,12 +175,12 @@
       "MSI"
     ],
     "cities": [
-      "Huelva (Lagunas de las Madres)",
-      "Brandenburg"
+      "Brandenburg",
+      "Huelva (Lagunas de las Madres)"
     ],
     "countries": [
-      "DE",
-      "ES"
+      "ES",
+      "DE"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg"

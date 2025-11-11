@@ -20,7 +20,8 @@
       ],
       "role": [
         "data"
-      ]
+      ],
+      "proj:epsg": 3857
     },
     {
       "rel": "parent",
@@ -58,6 +59,7 @@
   "otherSources": [
     "Other"
   ],
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Night lights in urban areas",
   "extent": {

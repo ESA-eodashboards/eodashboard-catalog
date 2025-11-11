@@ -22,6 +22,11 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "ESA",
+        "JAXA",
+        "NASA"
+      ],
       "cities": [
         "Venice",
         "Tokyo",
@@ -168,10 +173,10 @@
     "spatial": {
       "bbox": [
         [
-          -72.944,
-          34.54,
-          139.91,
-          45.3242
+          -73.134,
+          34.349999999999994,
+          140.1,
+          45.5142
         ]
       ]
     },
@@ -213,20 +218,20 @@
     ],
     "sensor": [
       "SGLI",
-      "MODIS",
-      "OLCI"
+      "OLCI",
+      "MODIS"
     ],
     "cities": [
       "New York",
-      "Tokyo",
       "Kobe",
-      "Venice",
-      "Nagoya"
+      "Tokyo",
+      "Nagoya",
+      "Venice"
     ],
     "countries": [
       "US",
-      "JP",
-      "IT"
+      "IT",
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.jpg"

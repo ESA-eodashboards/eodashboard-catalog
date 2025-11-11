@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./US05/collection.json",
       "type": "application/json",
-      "title": "Glenn (GCOM-C)",
+      "title": "Glenn (GCOM-C) - rice_planting",
       "id": "US05",
       "latlng": "39.586,-122.4",
       "country": "US",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./US06/collection.json",
       "type": "application/json",
-      "title": "Yolo",
+      "title": "Yolo - rice_planting",
       "id": "US06",
       "latlng": "38.732,-121.809",
       "country": "US",
@@ -34,7 +34,7 @@
       "rel": "child",
       "href": "./US07/collection.json",
       "type": "application/json",
-      "title": "Colusa",
+      "title": "Colusa - rice_planting",
       "id": "US07",
       "latlng": "39.139,-122.219",
       "country": "US",
@@ -44,7 +44,7 @@
       "rel": "child",
       "href": "./US08/collection.json",
       "type": "application/json",
-      "title": "Glenn",
+      "title": "Glenn - rice_planting",
       "id": "US08",
       "latlng": "39.48284,-122.06556",
       "country": "US",
@@ -54,7 +54,7 @@
       "rel": "child",
       "href": "./US09/collection.json",
       "type": "application/json",
-      "title": "Glenn",
+      "title": "Glenn - rice_planting",
       "id": "US09",
       "latlng": "39.48284,-122.06557",
       "country": "US",
@@ -153,16 +153,16 @@
           40.0
         ],
         [
-          -122.07556000000001,
-          39.472840000000005,
-          -122.05556,
-          39.49284
+          -122.26556000000001,
+          39.28284,
+          -121.86556,
+          39.682840000000006
         ],
         [
-          -122.07557,
-          39.472840000000005,
-          -122.05556999999999,
-          39.49284
+          -122.26557,
+          39.28284,
+          -121.86556999999999,
+          39.682840000000006
         ]
       ]
     },

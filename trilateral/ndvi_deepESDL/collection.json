@@ -21,6 +21,9 @@
       "themes": [
         "land"
       ],
+      "providers": [
+        "NASA"
+      ],
       "yAxis": "1",
       "tags": [
         "vegetation",

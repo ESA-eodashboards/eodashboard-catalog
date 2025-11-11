@@ -22,6 +22,12 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "JAXA",
+        "ESA",
+        "NASA",
+        "USGS"
+      ],
       "cities": [
         "Glenn (GCOM-C)",
         "Yolo",
@@ -228,22 +234,22 @@
       "agriculture"
     ],
     "satellite": [
+      "GCOM-C",
       "Landsat-8",
       "Sentinel-2",
-      "ALOS-2",
-      "GCOM-C"
+      "ALOS-2"
     ],
     "sensor": [
-      "PALSAR-2",
       "SGLI",
       "OLI",
+      "PALSAR-2",
       "MSI"
     ],
     "cities": [
-      "Glenn",
-      "Colusa",
       "Glenn (GCOM-C)",
-      "Yolo"
+      "Colusa",
+      "Yolo",
+      "Glenn"
     ],
     "countries": [
       "US"

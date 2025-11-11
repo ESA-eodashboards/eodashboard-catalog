@@ -21,6 +21,11 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "ESA",
+        "NASA",
+        "GeoEye"
+      ],
       "tags": [
         "Primary production",
         "Open data",
@@ -217,15 +222,15 @@
     ],
     "satellite": [
       "Envisat",
-      "Suomi",
       "Aqua",
+      "Suomi",
       "OrbView-2"
     ],
     "sensor": [
-      "MODIS",
-      "VIIRS",
       "SeaWiFS",
-      "MERIS"
+      "VIIRS",
+      "MERIS",
+      "MODIS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPP_ocean_primary_productivity/NPP_ocean_primary_productivity.jpg"

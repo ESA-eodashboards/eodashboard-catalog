@@ -25,7 +25,8 @@
       ],
       "role": [
         "data"
-      ]
+      ],
+      "proj:epsg": 3857
     },
     {
       "rel": "license",
@@ -68,6 +69,7 @@
   "satellite": [
     "Sentinel-1"
   ],
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Global seasonal Sentinel-1 backscatter",
   "extent": {

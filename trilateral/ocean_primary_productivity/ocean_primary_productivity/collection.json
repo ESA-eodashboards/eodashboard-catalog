@@ -20,7 +20,8 @@
       ],
       "role": [
         "data"
-      ]
+      ],
+      "proj:epsg": 3857
     },
     {
       "rel": "parent",
@@ -88,6 +89,7 @@
     "tickFormat": ".1f",
     "title": "PP [g C/y m²]"
   },
+  "proj:epsg": 3857,
   "endpointtype": "WMS_OverwriteTimes",
   "title": "Ocean net primary production (BICEP)",
   "extent": {

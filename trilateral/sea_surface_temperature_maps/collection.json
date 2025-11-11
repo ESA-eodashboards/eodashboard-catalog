@@ -22,6 +22,10 @@
       "themes": [
         "water"
       ],
+      "providers": [
+        "Copernicus Marine Service",
+        "CNR ISMAR"
+      ],
       "tags": [
         "Water quality",
         "Copernicus Services",

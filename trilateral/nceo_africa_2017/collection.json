@@ -22,6 +22,9 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "NCEO"
+      ],
       "tags": [
         "Africa",
         "Wood",

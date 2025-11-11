@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./DE11/collection.json",
       "type": "application/json",
-      "title": "Brandenburg",
+      "title": "Brandenburg - agricultural_production_area_change",
       "id": "DE11",
       "latlng": "52.131413, 13.090632",
       "country": "DE",
@@ -54,10 +54,10 @@
     "spatial": {
       "bbox": [
         [
-          13.080632,
-          52.121413000000004,
-          13.100632,
-          52.141413
+          12.890632,
+          51.931413,
+          13.290631999999999,
+          52.331413000000005
         ]
       ]
     },

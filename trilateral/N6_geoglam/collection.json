@@ -22,6 +22,9 @@
       "themes": [
         "agriculture"
       ],
+      "providers": [
+        "GEOGLAM"
+      ],
       "tags": [
         "Agriculture",
         "Human activities",

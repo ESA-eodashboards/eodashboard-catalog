@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./SE24/collection.json",
       "type": "application/json",
-      "title": "/",
+      "title": "/ - lake_water_level",
       "id": "SE24",
       "latlng": "59.4542,12.2542",
       "country": "SE",
@@ -60,10 +60,10 @@
     "spatial": {
       "bbox": [
         [
-          12.244200000000001,
-          59.4442,
-          12.2642,
-          59.4642
+          12.054200000000002,
+          59.2542,
+          12.4542,
+          59.6542
         ]
       ]
     },

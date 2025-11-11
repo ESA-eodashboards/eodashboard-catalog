@@ -22,6 +22,9 @@
         "agriculture",
         "water"
       ],
+      "providers": [
+        "TU Wien"
+      ],
       "yAxis": "% Relative Saturation",
       "tags": [
         "Open data",

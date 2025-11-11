@@ -22,6 +22,14 @@
         "agriculture",
         "water"
       ],
+      "providers": [
+        "NOAA",
+        "NASA",
+        "ECMWF",
+        "WLS",
+        "CNR IRPI",
+        "EURAC"
+      ],
       "yAxis": "mm/day",
       "tags": [
         "Open data",

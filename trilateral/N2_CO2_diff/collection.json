@@ -22,6 +22,9 @@
       "themes": [
         "atmosphere"
       ],
+      "providers": [
+        "NASA"
+      ],
       "tags": [
         "Air quality",
         "CO2",
