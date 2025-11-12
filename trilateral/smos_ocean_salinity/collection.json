@@ -19,7 +19,7 @@
       "code": "SMOS_OS",
       "id": "smos_ocean_salinity",
       "themes": [
-        "oceans"
+        "water"
       ],
       "yAxis": "psu",
       "tags": [
@@ -112,7 +112,7 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMOS_OS/SMOS_OS.png",
   "themes": [
-    "oceans"
+    "water"
   ],
   "tags": [
     "L-band",
@@ -192,7 +192,7 @@
       "SMOS_OS"
     ],
     "themes": [
-      "oceans"
+      "water"
     ],
     "satellite": [
       "SMOS"
