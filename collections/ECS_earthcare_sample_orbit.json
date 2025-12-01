@@ -1,0 +1,51 @@
+{
+  "Name": "ECS_earthcare_sample_orbit",
+  "Title": "Orbit passage",
+  "EodashIdentifier": "ECS_earthcare_sample_orbit",
+  "Themes": [
+    "biomass"
+  ],
+  "Agency": [
+    "ESA"
+  ],
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/ECS_earthcare_sample/vector_style.json",
+      "Bbox": [
+        -104,
+        -85,
+        170,
+        26
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20250616T202420",
+          "Assets": [
+            {
+              "Identifier": "20250616T202420",
+              "File": "https://gtif-public.s3.eu-central-1.amazonaws.com/EarthCARE-eodashboard/ECA_EXAD_AC__TC__2B_20250616T202420Z_20250616T233239Z_05973E.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250621T010314",
+          "Assets": [
+            {
+              "Identifier": "20250621T010314",
+              "File": "https://gtif-public.s3.eu-central-1.amazonaws.com/EarthCARE-eodashboard/ECA_EXAD_AC__TC__2B_20250621T010314Z_20250621T035704Z_06038G.geojson"
+            }
+          ]
+        }, {
+          "Time": "20250628T152631",
+          "Assets": [
+            {
+              "Identifier": "20250628T152631",
+              "File": "https://gtif-public.s3.eu-central-1.amazonaws.com/EarthCARE-eodashboard/ECA_EXAD_AC__TC__2B_20250628T152631Z_20250628T174754Z_06157A.geojson"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

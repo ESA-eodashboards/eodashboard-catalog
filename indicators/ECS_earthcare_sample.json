@@ -1,0 +1,14 @@
+{
+  "Name": "earthcare_sample",
+  "Title": "EarthCARE Biomass",
+  "EodashIdentifier": "earthcare_sample",
+  "Description": "ECS_earthcare_sample/ECS_earthcare_sample.md",
+  "Collections": ["ECS_earthcare_sample_orbit", "ECS_earthcare_sample_2d"],
+  "Image": "ECS_earthcare_sample/ECS_earthcare_sample.jpg",
+  "Agency": [
+    "ESA"
+  ],
+  "Themes": [
+    "biomass"
+  ]
+}
