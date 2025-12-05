@@ -47,13 +47,6 @@
       "Url": "https://ocov2.jpl.nasa.gov/"
     }
   ],
-  "Services": [
-    {
-      "Endpoint": "https://openveda.cloud/api/raster/cog/statistics",
-      "Name": "VEDA Statistics",
-      "Rescale": "1e6"
-    }
-  ],
   "Resources": [
     {
       "EndPoint": "https://openveda.cloud/api/stac/",

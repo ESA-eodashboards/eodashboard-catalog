@@ -40,13 +40,6 @@
       "Url": "https://www.earthdata.nasa.gov/covid19/indicators/no2"
     }
   ],
-  "Services": [
-    {
-      "Endpoint": "https://openveda.cloud/api/raster/cog/statistics",
-      "Name": "VEDA Statistics",
-      "Rescale": "1e-14"
-    }
-  ],
   "Resources": [
     {
       "EndPoint": "https://openveda.cloud/api/stac/",

@@ -43,12 +43,6 @@
       "Url": "https://aura.gsfc.nasa.gov/"
     }
   ],
-  "Services": [
-    {
-      "Endpoint": "https://openveda.cloud/api/raster/cog/statistics",
-      "Name": "VEDA Statistics"
-    }
-  ],
   "Resources": [
     {
       "EndPoint": "https://openveda.cloud/api/stac/",

@@ -21,13 +21,6 @@
       "Bidx": 1
     }
   ],
-  "Services": [
-    {
-      "Endpoint": "https://openveda.cloud/api/raster/cog/statistics",
-      "Name": "VEDA Statistics",
-      "Rescale": "1e-9"
-    }
-  ],
   "Image": "EPA_Field_burning_Monthly/thumbnail.jpg",
   "Legend": "EPA_Field_burning_Monthly/cm_legend.png",
   "Process": {

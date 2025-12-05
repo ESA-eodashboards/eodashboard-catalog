@@ -43,13 +43,6 @@
       "Bidx": 1
     }
   ],
-  "Services": [
-    {
-      "Endpoint": "https://openveda.cloud/api/raster/cog/statistics",
-      "Name": "VEDA Statistics",
-      "Rescale": "1e6"
-    }
-  ],
   "Image": "LIS_Global_DA_Evap/thumbnail.jpg",
   "Legend": "LIS_Global_DA_Evap/cm_legend.png",
   "Colorlegend": {

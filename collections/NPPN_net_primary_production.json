@@ -45,12 +45,6 @@
       "Url": "https://sites.science.oregonstate.edu/ocean.productivity/index.php"
     }
   ],
-  "Services": [
-    {
-      "Endpoint": "https://openveda.cloud/api/raster/cog/statistics",
-      "Name": "VEDA Statistics"
-    }
-  ],
   "Resources": [
     {
       "Name": "VEDA",
