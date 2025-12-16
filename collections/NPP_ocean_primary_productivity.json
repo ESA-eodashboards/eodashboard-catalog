@@ -95,17 +95,17 @@
   "Provider": [
     {
       "Name": "ESA",
-      "Roles": "licensor, producer, processor",
+      "Roles": ["licensor, producer, processor"],
       "Url": "https://earth.esa.int/eogateway/search?category=data&data_access_type=data%20description&mission=envisat&instrument=meris"
     },
     {
       "Name": "NASA",
-      "Roles": "licensor, producer, processor",
+      "Roles": ["licensor, producer, processor"],
       "Url": "https://data.nasa.gov/browse"
     },
     {
       "Name": "GeoEye",
-      "Roles": "licensor, producer",
+      "Roles": ["licensor, producer"],
       "Url": "https://www.maxar.com/"
     }
   ],

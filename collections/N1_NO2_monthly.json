@@ -55,7 +55,7 @@
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": "licensor, producer, processor",
+      "Roles": ["licensor, producer, processor"],
       "Url": "https://www.earthdata.nasa.gov/learn/articles/find-no2-data"
     }
   ],

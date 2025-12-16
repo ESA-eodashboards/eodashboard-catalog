@@ -55,17 +55,17 @@
   "Provider": [
     {
       "Name": "JAXA",
-      "Roles": "licensor",
+      "Roles": ["licensor"],
       "Url": "https://global.jaxa.jp/"
     },
     {
       "Name": "JAXA GCOM project",
-      "Roles": "producer",
+      "Roles": ["producer"],
       "Url": "https://suzaku.eorc.jaxa.jp/GCOM/index.html"
     },
     {
       "Name": "JAXA EORC",
-      "Roles": "processor",
+      "Roles": ["processor"],
       "Url": "https://earth.jaxa.jp/"
     }
   ],

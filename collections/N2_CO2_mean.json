@@ -64,7 +64,7 @@
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": "licensor, producer, processor",
+      "Roles": ["licensor, producer, processor"],
       "Url": "https://ocov2.jpl.nasa.gov/science/oco-2-data-center/"
     }
   ],

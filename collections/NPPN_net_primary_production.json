@@ -62,12 +62,12 @@
   "Provider": [
     {
       "Name": "Ocean Productivity",
-      "Roles": "processor",
+      "Roles": ["processor"],
       "Url": "http://orca.science.oregonstate.edu/npp_products.php"
     },
     {
       "Name": "NASA",
-      "Roles": "licensor, producer",
+      "Roles": ["licensor, producer"],
       "Url": "https://www.earthdata.nasa.gov/esds/veda"
     }
   ],

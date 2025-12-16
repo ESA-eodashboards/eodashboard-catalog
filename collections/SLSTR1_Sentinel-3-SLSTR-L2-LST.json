@@ -53,12 +53,12 @@
   "Provider": [
     {
       "Name": "Copernicus",
-      "Roles": "licensor, producer",
+      "Roles": ["licensor, producer"],
       "Url": "https://www.copernicus.eu/en"
     },
     {
       "Name": "ESA",
-      "Roles": "processor",
+      "Roles": ["processor"],
       "Url": "https://sentinels.copernicus.eu/web/sentinel/home"
     }
   ],

@@ -37,7 +37,7 @@
     {
       "Name": "ESA",
       "Url": "https://sentinels.copernicus.eu/web/sentinel/home",
-      "Roles": "producer, processor"
+      "Roles": ["producer, processor"]
     },
     {
       "Name": "Carbon Brief",

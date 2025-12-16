@@ -56,7 +56,7 @@
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": "licensor, producer",
+      "Roles": ["licensor, producer"],
       "Url": "https://www.earthdata.nasa.gov/"
     }
   ],

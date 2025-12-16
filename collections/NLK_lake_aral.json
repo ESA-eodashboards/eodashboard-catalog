@@ -43,7 +43,7 @@
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": "licensor, producer, processor",
+      "Roles": ["licensor, producer, processor"],
       "Url": "https://landsat.gsfc.nasa.gov/data/data-access/"
     }
   ]

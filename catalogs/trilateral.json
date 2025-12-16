@@ -5,6 +5,7 @@
   "endpoint": "https://esa-eodashboards.github.io/eodashboard-catalog/trilateral/",
   "geodb_default_form": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "geodb_default_vega": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_vega_definition.json",
+  "geodb_empty_form": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
   "default_xcube_process": {
     "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
@@ -60,9 +61,7 @@
     "PRCG_precipitation",
     "E10a1_agricultural_production_productive_area",
     "E10a2_agricultural_production_area",
-    "E10a3_agricultural_production_area_change",
     "E10a6_harvested_parcels_evolution",
-    "E10a8_winter_cereals",
     "E10c_rice_planting",
     "N2_greenhouse_gases",
     "VITS_vegetation_index_timeseries",

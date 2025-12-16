@@ -65,7 +65,7 @@
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": "licensor, producer, processor",
+      "Roles": ["licensor, producer, processor"],
       "Url": "https://terra.nasa.gov/data/modis-data"
     }
   ]

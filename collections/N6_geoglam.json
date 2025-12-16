@@ -50,7 +50,7 @@
   "Provider": [
     {
       "Name": "GEOGLAM",
-      "Roles": "licensor, processor",
+      "Roles": ["licensor, processor"],
       "Url": "https://www.cropmonitor.org/eo-data"
     }
   ],
