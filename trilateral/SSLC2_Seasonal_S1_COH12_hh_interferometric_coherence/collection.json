@@ -52,7 +52,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "EOxCloudless 2024",
       "roles": [
@@ -63,7 +63,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "OSM Background",
       "roles": [
@@ -74,7 +74,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "Terrain Light",
       "roles": [
@@ -85,7 +85,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "('image/png',)",
       "title": "Overlay labels",
       "roles": [
@@ -161,22 +161,30 @@
   "providers": [
     {
       "name": "Copernicus",
-      "roles": "licensor",
+      "roles": [
+        "licensor"
+      ],
       "url": "https://www.copernicus.eu/en"
     },
     {
       "name": "NASA",
-      "roles": "producer",
+      "roles": [
+        "producer"
+      ],
       "url": "https://jpl.nasa.gov/?_ga=2.243049538.1322991491.1723040890-976169570.1722866809"
     },
     {
       "name": "Earth Big Data",
-      "roles": "processor",
+      "roles": [
+        "processor"
+      ],
       "url": "https://earthbigdata.com/"
     },
     {
       "name": "Gamma Remote Sensing",
-      "roles": "processor",
+      "roles": [
+        "processor"
+      ],
       "url": "https://www.gamma-rs.ch/"
     }
   ],

@@ -86,7 +86,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "EOxCloudless 2024",
       "roles": [
@@ -97,7 +97,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "OSM Background",
       "roles": [
@@ -108,7 +108,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "Terrain Light",
       "roles": [
@@ -119,7 +119,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "('image/png',)",
       "title": "Overlay labels",
       "roles": [
@@ -247,7 +247,9 @@
   "providers": [
     {
       "name": "JAXA",
-      "roles": "licensor, producer, processor",
+      "roles": [
+        "licensor, producer, processor"
+      ],
       "url": "https://global.jaxa.jp/"
     }
   ],
@@ -259,39 +261,39 @@
       "agriculture"
     ],
     "satellite": [
-      "NOAA-N17",
-      "NOAA-N15",
-      "JPSS-1",
-      "MetOp-A",
-      "DMSP-F15",
       "DMSP-F14",
-      "NOAA-N19",
-      "TRMM",
-      "NOAA-N18",
-      "NPP",
-      "GCOM-W1",
+      "MetOp-A",
       "DWSS-1",
-      "DMSP-F11",
-      "Megha-Tropiques",
-      "MetOp-B",
+      "NPP",
+      "NOAA-N15",
+      "NOAA-N16",
       "GPM Core Observatory",
-      "ADEOS-II",
-      "DMSP-F13",
+      "NOAA-N17",
+      "DMSP-F11",
+      "NOAA-N18",
+      "GCOM-W1",
       "Aqua",
-      "NOAA-N16"
+      "JPSS-1",
+      "Megha-Tropiques",
+      "DMSP-F15",
+      "TRMM",
+      "DMSP-F13",
+      "NOAA-N19",
+      "MetOp-B",
+      "ADEOS-II"
     ],
     "sensor": [
-      "AMSR",
-      "SSM/I",
-      "AMSR2",
-      "AMSU-A/AMSU-B",
-      "TMI",
       "AMSR-E",
-      "AMSU-A/MHS",
+      "AMSU-A/AMSU-B",
+      "AMSR2",
+      "TBD",
       "GMI",
       "MADRAS",
       "ATMS",
-      "TBD"
+      "AMSR",
+      "TMI",
+      "AMSU-A/MHS",
+      "SSM/I"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.jpg"

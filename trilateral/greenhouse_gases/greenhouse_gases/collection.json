@@ -205,7 +205,9 @@
   "providers": [
     {
       "name": "JAXA",
-      "roles": "licensor, producer, processor",
+      "roles": [
+        "licensor, producer, processor"
+      ],
       "url": "https://data2.gosat.nies.go.jp/index_en.html"
     }
   ],

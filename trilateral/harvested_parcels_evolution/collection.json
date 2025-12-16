@@ -73,7 +73,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "EOxCloudless 2024",
       "roles": [
@@ -84,7 +84,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "OSM Background",
       "roles": [
@@ -95,7 +95,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "Terrain Light",
       "roles": [
@@ -106,7 +106,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "('image/png',)",
       "title": "Overlay labels",
       "roles": [
@@ -186,27 +186,27 @@
       "agriculture"
     ],
     "satellite": [
-      "Sentinel-2",
+      "Sentinel-1",
       "Landsat-8",
-      "Sentinel-1"
+      "Sentinel-2"
     ],
     "sensor": [
+      "MSI",
       "OLI",
-      "C-SAR",
-      "MSI"
+      "C-SAR"
     ],
     "cities": [
-      "Castilla y Leon",
-      "Aragon",
-      "Cataluna",
-      "Region de Murcia",
-      "Comunidad de Madrid",
-      "Andalucia",
-      "Extremadura",
-      "Comunidad Valenciana",
       "Comunidad Foral de Navarra",
+      "Andalucia",
+      "Comunidad de Madrid",
+      "Cataluna",
+      "Comunidad Valenciana",
       "Castilla-La Mancha",
-      "La Rioja"
+      "Aragon",
+      "La Rioja",
+      "Castilla y Leon",
+      "Region de Murcia",
+      "Extremadura"
     ],
     "countries": [
       "ES"

@@ -45,7 +45,73 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2018_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "EOxCloudless 2018",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2018"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2019_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "EOxCloudless 2019",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2019"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2020_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "EOxCloudless 2020",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2020"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "EOxCloudless 2021",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "cloudless-2021"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2022_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "EOxCloudless 2022",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2022"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "EOxCloudless 2023",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2023"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "EOxCloudless 2024",
       "roles": [
@@ -56,7 +122,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "OSM Background",
       "roles": [
@@ -67,18 +133,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
-      "title": "Terrain Light",
-      "roles": [
-        "baselayer",
-        "visible"
-      ],
-      "id": "terrain-light"
-    },
-    {
-      "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "('image/png',)",
       "title": "Overlay labels",
       "roles": [

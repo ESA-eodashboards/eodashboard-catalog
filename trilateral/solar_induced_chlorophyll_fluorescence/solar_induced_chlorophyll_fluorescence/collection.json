@@ -102,12 +102,16 @@
   "providers": [
     {
       "name": "Copernicus",
-      "roles": "licensor",
+      "roles": [
+        "licensor"
+      ],
       "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
     },
     {
       "name": "ESA",
-      "roles": "producer, processor",
+      "roles": [
+        "producer, processor"
+      ],
       "url": "https://s5p-troposif.noveltis.fr/data-access/"
     }
   ],

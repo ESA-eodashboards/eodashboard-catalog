@@ -94,12 +94,16 @@
   "providers": [
     {
       "name": "Copernicus",
-      "roles": "licensor, producer",
+      "roles": [
+        "licensor, producer"
+      ],
       "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
     },
     {
       "name": "ESA",
-      "roles": "processor",
+      "roles": [
+        "processor"
+      ],
       "url": "https://www.esa.int/"
     }
   ],

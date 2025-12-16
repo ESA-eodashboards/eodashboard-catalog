@@ -17,13 +17,6 @@
       "title": "net_primary_production"
     },
     {
-      "rel": "example",
-      "href": "https://openveda.cloud/api/raster/cog/statistics",
-      "type": "application/json",
-      "title": "VEDA Statistics",
-      "example:language": "JSON"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -111,12 +104,16 @@
   "providers": [
     {
       "name": "Ocean Productivity",
-      "roles": "processor",
+      "roles": [
+        "processor"
+      ],
       "url": "http://orca.science.oregonstate.edu/npp_products.php"
     },
     {
       "name": "NASA",
-      "roles": "licensor, producer",
+      "roles": [
+        "licensor, producer"
+      ],
       "url": "https://www.earthdata.nasa.gov/esds/veda"
     }
   ],

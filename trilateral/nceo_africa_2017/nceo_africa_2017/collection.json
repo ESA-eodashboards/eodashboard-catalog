@@ -94,7 +94,9 @@
   "providers": [
     {
       "name": "NCEO",
-      "roles": "licensor, processor",
+      "roles": [
+        "licensor, processor"
+      ],
       "url": "https://www.nceo.ac.uk/data-tools/datasets/"
     }
   ],

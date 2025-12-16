@@ -86,17 +86,23 @@
   "providers": [
     {
       "name": "NASA",
-      "roles": "licensor, producer",
+      "roles": [
+        "licensor, producer"
+      ],
       "url": "https://www.nasa.gov/"
     },
     {
       "name": "JAXA",
-      "roles": "processor",
+      "roles": [
+        "processor"
+      ],
       "url": "https://earth.jaxa.jp/"
     },
     {
       "name": "Tokyo University of Foreign Studies",
-      "roles": "processor",
+      "roles": [
+        "processor"
+      ],
       "url": "https://www.tufs.ac.jp/english/education/ia/"
     }
   ],

@@ -52,31 +52,6 @@
   "satellite": [
     "Terra"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      -7,
-      2
-    ],
-    "range": [
-      "#0000ff",
-      "#2727ff",
-      "#4e4eff",
-      "#7676ff",
-      "#9d9dff",
-      "#c4c4ff",
-      "#ebebff",
-      "#ffebeb",
-      "#ffc4c4",
-      "#ff9d9d",
-      "#ff7676",
-      "#ff4e4e",
-      "#ff2727",
-      "#ff0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "[gC/m²/day]"
-  },
   "endpointtype": "xcube_zarr",
   "title": "Land Net Ecosystem Exchange",
   "extent": {
@@ -103,7 +78,9 @@
   "providers": [
     {
       "name": "NASA",
-      "roles": "licensor, producer, processor",
+      "roles": [
+        "licensor, producer, processor"
+      ],
       "url": "https://terra.nasa.gov/data/modis-data"
     }
   ],
@@ -114,13 +91,6 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
-      ]
-    },
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_net_ecosystem_exchange/ESDC_net_ecosystem_exchange_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
       ]
     },
     "thumbnail": {

@@ -28,14 +28,10 @@
         "NASA"
       ],
       "cities": [
-        "Venice",
-        "Kobe",
-        "Nagoya",
-        "Tokyo"
+        "Venice"
       ],
       "countries": [
-        "IT",
-        "JP"
+        "IT"
       ],
       "yAxis": "Chlorophyll-a concentration anomaly [%]",
       "tags": [
@@ -79,7 +75,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "EOxCloudless 2024",
       "roles": [
@@ -90,7 +86,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "OSM Background",
       "roles": [
@@ -101,7 +97,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "('image/jpeg',)",
       "title": "Terrain Light",
       "roles": [
@@ -112,7 +108,7 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "('image/png',)",
       "title": "Overlay labels",
       "roles": [
@@ -172,8 +168,8 @@
       "bbox": [
         [
           12.308110000000001,
-          34.349999999999994,
-          140.1000001,
+          45.11421,
+          12.70811,
           45.514210000000006
         ]
       ]
@@ -182,7 +178,7 @@
       "interval": [
         [
           "2019-01-04T11:50:00Z",
-          "2025-08-30T00:00:00Z"
+          "2025-01-04T00:00:00Z"
         ]
       ]
     }
@@ -210,9 +206,9 @@
       "water"
     ],
     "satellite": [
-      "Sentinel-3",
       "Acqua",
-      "GCOM-C"
+      "GCOM-C",
+      "Sentinel-3"
     ],
     "sensor": [
       "MODIS",
@@ -220,14 +216,10 @@
       "OLCI"
     ],
     "cities": [
-      "Tokyo",
-      "Venice",
-      "Kobe",
-      "Nagoya"
+      "Venice"
     ],
     "countries": [
-      "IT",
-      "JP"
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.jpg"

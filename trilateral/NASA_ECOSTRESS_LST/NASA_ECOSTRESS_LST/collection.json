@@ -91,7 +91,9 @@
   "providers": [
     {
       "name": "NASA/JPL/ECOSTRESS",
-      "roles": "processor",
+      "roles": [
+        "processor"
+      ],
       "url": "https://ecostress.jpl.nasa.gov/"
     }
   ],

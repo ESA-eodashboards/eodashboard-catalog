@@ -17,13 +17,6 @@
       "title": "LIS_Global_DA_Evap"
     },
     {
-      "rel": "example",
-      "href": "https://openveda.cloud/api/raster/cog/statistics",
-      "type": "application/json",
-      "title": "VEDA Statistics",
-      "example:language": "JSON"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

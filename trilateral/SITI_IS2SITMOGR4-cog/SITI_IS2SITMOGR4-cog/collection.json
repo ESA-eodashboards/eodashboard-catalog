@@ -98,7 +98,9 @@
   "providers": [
     {
       "name": "NASA",
-      "roles": "licensor, producer",
+      "roles": [
+        "licensor, producer"
+      ],
       "url": "https://www.earthdata.nasa.gov/"
     }
   ],

@@ -115,12 +115,16 @@
   "providers": [
     {
       "name": "Copernicus",
-      "roles": "licensor, producer",
+      "roles": [
+        "licensor, producer"
+      ],
       "url": "https://www.copernicus.eu/en"
     },
     {
       "name": "ECMWF",
-      "roles": "processor",
+      "roles": [
+        "processor"
+      ],
       "url": "https://www.ecmwf.int/"
     }
   ],

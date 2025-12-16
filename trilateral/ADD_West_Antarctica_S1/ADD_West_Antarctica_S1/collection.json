@@ -107,7 +107,9 @@
   "providers": [
     {
       "name": "ESA",
-      "roles": "producer, processor",
+      "roles": [
+        "producer, processor"
+      ],
       "url": "https://sentinels.copernicus.eu/web/sentinel/home"
     },
     {

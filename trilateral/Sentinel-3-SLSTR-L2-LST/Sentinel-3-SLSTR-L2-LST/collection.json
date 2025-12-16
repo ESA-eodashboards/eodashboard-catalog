@@ -91,12 +91,16 @@
   "providers": [
     {
       "name": "Copernicus",
-      "roles": "licensor, producer",
+      "roles": [
+        "licensor, producer"
+      ],
       "url": "https://www.copernicus.eu/en"
     },
     {
       "name": "ESA",
-      "roles": "processor",
+      "roles": [
+        "processor"
+      ],
       "url": "https://sentinels.copernicus.eu/web/sentinel/home"
     }
   ],

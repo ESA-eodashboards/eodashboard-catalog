@@ -17,13 +17,6 @@
       "title": "N2_CO2_mean"
     },
     {
-      "rel": "example",
-      "href": "https://openveda.cloud/api/raster/cog/statistics",
-      "type": "application/json",
-      "title": "VEDA Statistics",
-      "example:language": "JSON"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -109,7 +102,9 @@
   "providers": [
     {
       "name": "NASA",
-      "roles": "licensor, producer, processor",
+      "roles": [
+        "licensor, producer, processor"
+      ],
       "url": "https://ocov2.jpl.nasa.gov/science/oco-2-data-center/"
     }
   ],

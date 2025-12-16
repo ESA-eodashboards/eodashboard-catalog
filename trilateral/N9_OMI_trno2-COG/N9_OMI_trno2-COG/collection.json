@@ -17,13 +17,6 @@
       "title": "N9_OMI_trno2-COG"
     },
     {
-      "rel": "example",
-      "href": "https://openveda.cloud/api/raster/cog/statistics",
-      "type": "application/json",
-      "title": "VEDA Statistics",
-      "example:language": "JSON"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -103,7 +96,9 @@
   "providers": [
     {
       "name": "NASA",
-      "roles": "licensor, producer, processor",
+      "roles": [
+        "licensor, producer, processor"
+      ],
       "url": "https://search.earthdata.nasa.gov/search?q=OMNO2d_003"
     }
   ],
