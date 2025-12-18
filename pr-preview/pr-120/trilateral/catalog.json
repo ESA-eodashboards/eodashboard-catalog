@@ -20,6 +20,10 @@
       "themes": [
         "biomass"
       ],
+      "providers": [
+        "ESA",
+        "VITO"
+      ],
       "agency": [
         "ESA"
       ],
