@@ -6,7 +6,7 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "",
+      "Style": "http://0.0.0.0:8002/style.json",
       "Bbox": [
         97.6848942001838,
         -14.288074897604432,
