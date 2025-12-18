@@ -11,6 +11,14 @@
       "title": "Earth Observing Dashboard"
     },
     {
+      "rel": "style",
+      "href": "http://0.0.0.0:8002/style.json",
+      "type": "text/cog-styles",
+      "asset:keys": [
+        "sample"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
