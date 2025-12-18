@@ -13,5 +13,22 @@
   "Citation": {
     "DOI": "10.5281/zenodo.5571936",
     "Citation": "Publications, models and data products that make use of these datasets must include proper acknowledgement, including citing the datasets and the journal article as in the following citation. If you are using the data as a layer in a published map, please include the following attribution text: © ESA WorldCover project / Contains modified Copernicus Sentinel data (2020) processed by ESA WorldCover consortium To cite these maps as data source in your publication, please add: Zanaga, D., Van De Kerchove, R., De Keersmaecker, W., Souverijns, N., Brockmann, C., Quast, R., Wevers, J., Grosu, A., Paccini, A., Vergnaud, S., Cartus, O., Santoro, M., Fritz, S., Georgieva, I., Lesiv, M., Carter, S., Herold, M., Li, Linlin, Tsendbazar, N.E., Ramoino, F., Arino, O., 2021. ESA WorldCover 10 m 2020 v100."
-  }
+  },
+  "Provider": [
+    {
+      "Name": "ESA",
+      "Url": "https://esa.imt",
+      "Roles": [
+        "producer"
+      ]
+    },
+    {
+      "Name": "VITO",
+      "Url": "https://terrascope.be/",
+      "Roles": [
+        "processor",
+        "host"
+      ]
+    }
+  ]
 }
