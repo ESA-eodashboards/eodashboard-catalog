@@ -6,79 +6,15 @@
   "links": [
     {
       "rel": "root",
-      "href": "../catalog.json",
+      "href": "../../catalog.json",
       "type": "application/json",
       "title": "Earth Observing Dashboard"
-    },
-    {
-      "rel": "child",
-      "href": "./Sample_ESA_Worldcover_tile/collection.json",
-      "type": "application/json",
-      "title": "ESA World Cover Tile S09 E108",
-      "endpointtype": "COG source",
-      "code": "ESA_Worldcover",
-      "id": "Sample_ESA_Worldcover_tile",
-      "themes": [
-        "biomass"
-      ],
-      "providers": [
-        "ESA",
-        "VITO"
-      ],
-      "agency": [
-        "ESA"
-      ],
-      "subcode": "ESA_Worldcover"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
-      "title": "EOxCloudless 2024",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "cloudless-2024"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
-      "title": "OSM Background",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "OSM"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "('image/jpeg',)",
-      "title": "Terrain Light",
-      "roles": [
-        "baselayer",
-        "visible"
-      ],
-      "id": "terrain-light"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "('image/png',)",
-      "title": "Overlay labels",
-      "roles": [
-        "overlay",
-        "visible"
-      ],
-      "id": "overlay_bright"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "../collection.json",
       "type": "application/json",
-      "title": "Earth Observing Dashboard"
+      "title": "ESA World Cover Tile S09 E108"
     }
   ],
   "sci:doi": "10.5281/zenodo.5571936",
@@ -90,16 +26,11 @@
     "ESA"
   ],
   "subcode": "ESA_Worldcover",
+  "endpointtype": "COG source",
   "title": "ESA World Cover Tile S09 E108",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          97.6848942001838,
-          -14.288074897604432,
-          129.29574888358653,
-          9.133851132904715
-        ],
         [
           97.6848942001838,
           -14.288074897604432,
@@ -135,12 +66,14 @@
       "url": "https://terrascope.be/"
     }
   ],
-  "summaries": {
-    "subcode": [
-      "ESA_Worldcover"
-    ],
-    "themes": [
-      "biomass"
-    ]
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
   }
 }
