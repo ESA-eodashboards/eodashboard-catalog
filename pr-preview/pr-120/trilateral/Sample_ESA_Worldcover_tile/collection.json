@@ -1,0 +1,95 @@
+{
+  "type": "Collection",
+  "id": "Sample_ESA_Worldcover_tile",
+  "stac_version": "1.1.0",
+  "description": "**ESA WorldCover 2020**  is a global Land Cover Map for 2020 at **10** meter resolution. It is released in COG format in 3 x 3 degree latlon tiles. The map for 2020 was produced using v100 of the algorithm. WorldCover provides the first global land cover products for 2020 and 2021 at 10 m resolution, developed and validated based on Sentinel-1 and Sentinel-2 data.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "('image/jpeg',)",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "('image/png',)",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "sci:doi": "10.5281/zenodo.5571936",
+  "sci:citation": "Publications, models and data products that make use of these datasets must include proper acknowledgement, including citing the datasets and the journal article as in the following citation. If you are using the data as a layer in a published map, please include the following attribution text: © ESA WorldCover project / Contains modified Copernicus Sentinel data (2020) processed by ESA WorldCover consortium To cite these maps as data source in your publication, please add: Zanaga, D., Van De Kerchove, R., De Keersmaecker, W., Souverijns, N., Brockmann, C., Quast, R., Wevers, J., Grosu, A., Paccini, A., Vergnaud, S., Cartus, O., Santoro, M., Fritz, S., Georgieva, I., Lesiv, M., Carter, S., Herold, M., Li, Linlin, Tsendbazar, N.E., Ramoino, F., Arino, O., 2021. ESA WorldCover 10 m 2020 v100.",
+  "themes": [
+    "biomass"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "ESA_Worldcover",
+  "title": "ESA World Cover Tile S09 E108",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-12-18T17:37:39.653292Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
