@@ -3,7 +3,29 @@
   "EodashIdentifier": "ESA_Worldcover",
   "Title": "ESA World Cover Tile S09 E108",
   "Description": "**ESA WorldCover 2020**  is a global Land Cover Map for 2020 at **10** meter resolution. It is released in COG format in 3 x 3 degree latlon tiles. The map for 2020 was produced using v100 of the algorithm. WorldCover provides the first global land cover products for 2020 and 2021 at 10 m resolution, developed and validated based on Sentinel-1 and Sentinel-2 data.",
-  "Resources": [],
+  "Resources": [
+    {
+      "Name": "COG source",
+      "Style": "",
+      "Bbox": [
+        97.6848942001838,
+        -14.288074897604432,
+        129.29574888358653,
+        9.133851132904715
+      ],
+      "TimeEntries": [
+        {
+          "Time": "20200101",
+          "Assets": [
+            {
+              "Identifier": "sample",
+              "File": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v100/2020/map/ESA_WorldCover_10m_2020_v100_S09E108_Map.tif"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "Themes": [
     "biomass"
   ],
