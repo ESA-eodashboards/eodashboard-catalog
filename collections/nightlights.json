@@ -25,5 +25,19 @@
         }
       ]
     }
+  ],
+  "Themes": [
+    "biomass"
+  ],
+  "Provider": [
+    {
+      "Name": "",
+      "Url": "",
+      "Roles": []
+    },
+    {
+      "Name": "",
+      "Url": ""
+    }
   ]
 }
