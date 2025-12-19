@@ -6,7 +6,7 @@
   "Resources": [
     {
       "Name": "COG source",
-      "Style": "http://0.0.0.0:8002/style.json",
+      "Style": "",
       "Bbox": [
         97.6848942001838,
         -14.288074897604432,
@@ -19,7 +19,7 @@
           "Assets": [
             {
               "Identifier": "sample",
-              "File": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/v100/2020/map/ESA_WorldCover_10m_2020_v100_S09E108_Map.tif"
+              "File": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/36/Q/WD/2020/7/S2A_36QWD_20200701_0_L2A/TCI.tif"
             }
           ]
         }
