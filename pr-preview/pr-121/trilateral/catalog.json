@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./NightlightsTest/collection.json",
+      "href": "./BuiltUpTest/collection.json",
       "type": "application/json",
       "title": "Covid-19 Cases",
       "code": "1234567Data",
-      "id": "NightlightsTest",
+      "id": "BuiltUpTest",
       "subcode": "1234567Data"
     },
     {
