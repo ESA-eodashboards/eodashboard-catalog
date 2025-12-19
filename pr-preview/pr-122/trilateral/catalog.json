@@ -17,6 +17,13 @@
       "title": "Nightlights Urban tile over Canada",
       "code": "NI_TEST",
       "id": "nightlights-test",
+      "themes": [
+        "biomass"
+      ],
+      "providers": [
+        "",
+        ""
+      ],
       "subcode": "NI_TEST"
     },
     {

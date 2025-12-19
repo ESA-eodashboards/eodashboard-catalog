@@ -17,6 +17,9 @@
       "title": "Nightlights Urban tile over Canada"
     }
   ],
+  "themes": [
+    "biomass"
+  ],
   "subcode": "NI_TEST",
   "endpointtype": "COG source",
   "title": "Nightlights Urban tile over Canada",
@@ -41,6 +44,17 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "",
+      "roles": [],
+      "url": ""
+    },
+    {
+      "name": "",
+      "url": ""
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",

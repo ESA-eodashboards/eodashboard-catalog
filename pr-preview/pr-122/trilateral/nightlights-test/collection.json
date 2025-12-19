@@ -18,6 +18,13 @@
       "endpointtype": "COG source",
       "code": "NI_TEST",
       "id": "nightlights-test",
+      "themes": [
+        "biomass"
+      ],
+      "providers": [
+        "",
+        ""
+      ],
       "subcode": "NI_TEST"
     },
     {
@@ -71,6 +78,9 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "themes": [
+    "biomass"
+  ],
   "subcode": "NI_TEST",
   "title": "Nightlights Urban tile over Canada",
   "extent": {
@@ -100,9 +110,23 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "",
+      "roles": [],
+      "url": ""
+    },
+    {
+      "name": "",
+      "url": ""
+    }
+  ],
   "summaries": {
     "subcode": [
       "NI_TEST"
+    ],
+    "themes": [
+      "biomass"
     ]
   }
 }
