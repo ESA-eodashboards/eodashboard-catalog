@@ -1,0 +1,29 @@
+{
+  "type": "Catalog",
+  "id": "trilateral",
+  "stac_version": "1.1.0",
+  "description": "A Tri-Agency Dashboard by NASA, ESA, JAXA",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./nightlights-test/collection.json",
+      "type": "application/json",
+      "title": "Nightlights Urban tile over Canada",
+      "code": "NI_TEST",
+      "id": "nightlights-test",
+      "subcode": "NI_TEST"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-eodashboards.github.io/eodashboard-catalog/trilateral/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "Earth Observing Dashboard"
+}
