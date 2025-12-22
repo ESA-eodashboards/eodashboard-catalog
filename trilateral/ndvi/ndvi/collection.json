@@ -14,7 +14,7 @@
       "rel": "wms",
       "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
-      "title": "ndvi",
+      "title": "Normalized Difference Vegetation Index",
       "wms:layers": [
         "EODASH:NDVI-GCOMC-World-Monthly"
       ],
@@ -23,7 +23,8 @@
       ],
       "wms:styles": [
         ""
-      ]
+      ],
+      "key": "5c72174e-c1f2-414f-9190-8bc3437ee9a9"
     },
     {
       "rel": "parent",

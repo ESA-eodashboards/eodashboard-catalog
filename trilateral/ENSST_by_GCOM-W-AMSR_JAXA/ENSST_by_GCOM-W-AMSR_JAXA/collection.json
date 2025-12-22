@@ -14,7 +14,7 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
-      "title": "ENSST_by_GCOM-W-AMSR_JAXA",
+      "title": "Sea Surface Temperature (GCOM-W)",
       "wms:layers": [
         "SST_BY_GCOM-W-AMSR_JAXA"
       ],

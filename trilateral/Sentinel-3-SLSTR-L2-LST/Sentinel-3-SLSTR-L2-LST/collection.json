@@ -14,13 +14,14 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/jpeg",
-      "title": "Sentinel-3-SLSTR-L2-LST",
+      "title": "Land Surface Temperature (Sentinel-3 SLSTR L2)",
       "wms:layers": [
         "SENTINEL-3-SLSTR-L2-LST"
       ],
       "role": [
         "data"
-      ]
+      ],
+      "key": "cd8966df-7d74-41d3-853a-99a134c6b99d"
     },
     {
       "rel": "parent",

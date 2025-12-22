@@ -14,7 +14,8 @@
       "rel": "xyz",
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=jet&rescale=0.0,1500.0",
       "type": "image/png",
-      "title": "net_primary_production"
+      "title": "Ocean net primary production (MODIS)",
+      "key": "1a528669-79a6-496d-8dbc-aaa0a3521c90"
     },
     {
       "rel": "parent",

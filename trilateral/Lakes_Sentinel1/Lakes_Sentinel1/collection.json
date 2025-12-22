@@ -26,7 +26,7 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
-      "title": "Lakes_Sentinel1",
+      "title": "Lakes collection (Sentinel 1)",
       "wms:layers": [
         "SENTINEL_1_IW_VV"
       ],

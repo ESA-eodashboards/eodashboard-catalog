@@ -14,13 +14,14 @@
       "rel": "wms",
       "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
-      "title": "soil_moisture_content",
+      "title": "Soil moisture content from GSMaP",
       "wms:layers": [
         "EODASH:SMC-GCOMW-World-Monthly"
       ],
       "role": [
         "data"
-      ]
+      ],
+      "key": "71db3878-88a9-4f98-ab54-d63d8433b6de"
     },
     {
       "rel": "parent",

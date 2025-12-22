@@ -14,13 +14,14 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/jpeg",
-      "title": "ocean_primary_productivity",
+      "title": "Ocean net primary production (BICEP)",
       "wms:layers": [
         "BICEP_NPP_VIS_PP2"
       ],
       "role": [
         "data"
       ],
+      "key": "32743d3a-e5e0-444f-866a-150fa2b57dde",
       "proj:epsg": 3857
     },
     {

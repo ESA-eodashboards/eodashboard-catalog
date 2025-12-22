@@ -14,13 +14,14 @@
       "rel": "wms",
       "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
-      "title": "N2_CO2_jaxa_gosat",
+      "title": "Carbon Dioxide from GOSAT",
       "wms:layers": [
         "EODASH:XCO2-GOSAT-Cairo"
       ],
       "role": [
         "data"
-      ]
+      ],
+      "key": "236817bc-d63e-49f8-a896-8a6e81bdc5a6"
     },
     {
       "rel": "parent",

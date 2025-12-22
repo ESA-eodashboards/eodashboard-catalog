@@ -14,13 +14,14 @@
       "rel": "wms",
       "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
-      "title": "N11_ocean_primary_productivity",
+      "title": "Ocean Primary Productivity (GCOM-C)",
       "wms:layers": [
         "EODASH:ONPP-GCOMC-World-Monthly"
       ],
       "role": [
         "data"
-      ]
+      ],
+      "key": "ff1c03b9-b096-475b-93ff-ade4ac3042ab"
     },
     {
       "rel": "parent",

@@ -19,7 +19,7 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
-      "title": "SSLC2_Seasonal_S1_COH12_hh_interferometric_coherence",
+      "title": "Global seasonal Sentinel-1 interferometric coherence",
       "wms:layers": [
         "S1_COH12_HH"
       ],

@@ -14,13 +14,14 @@
       "rel": "wms",
       "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
-      "title": "precipitation",
+      "title": "Precipitation from GSMaP",
       "wms:layers": [
         "EODASH:PRC-GSMaP-World-Monthly"
       ],
       "role": [
         "data"
-      ]
+      ],
+      "key": "d4d2dcb8-9270-4718-912b-40987b4d3989"
     },
     {
       "rel": "parent",

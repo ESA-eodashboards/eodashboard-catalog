@@ -14,13 +14,14 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/jpeg",
-      "title": "alos2_floods",
+      "title": "Floods maps in East Africa",
       "wms:layers": [
         "JAXA_ALOS2_FLOODMAPS"
       ],
       "role": [
         "data"
-      ]
+      ],
+      "key": "05f76171-edf8-4c40-a449-ef4c9d27bc43"
     },
     {
       "rel": "parent",

@@ -14,7 +14,8 @@
       "rel": "xyz",
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=ylorrd&rescale=0,70",
       "type": "image/png",
-      "title": "facebook_population_density"
+      "title": "Population Density (Meta)",
+      "key": "885b1d45-c8c4-49ce-bf54-844d5b6dd01f"
     },
     {
       "rel": "parent",

@@ -14,13 +14,14 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/jpeg",
-      "title": "ADD_West_Antarctica_S1",
+      "title": "West Antarctica (Sentinel-1)",
       "wms:layers": [
         "SENTINEL-1-EW"
       ],
       "role": [
         "data"
       ],
+      "key": "536e3aaf-bec1-4dea-bf29-b0aa708a015b",
       "eodash:proj4_def": {
         "name": "EPSG:3031",
         "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"

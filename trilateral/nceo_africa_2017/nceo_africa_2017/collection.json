@@ -14,7 +14,8 @@
       "rel": "xyz",
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=gist_earth_r&rescale=0.0,400.0",
       "type": "image/png",
-      "title": "nceo_africa_2017"
+      "title": "Aboveground Woody Biomass",
+      "key": "80fdee43-9d6f-45df-8c3e-3bc96ee3c685"
     },
     {
       "rel": "parent",

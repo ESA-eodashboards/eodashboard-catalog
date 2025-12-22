@@ -14,7 +14,8 @@
       "rel": "xyz",
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=rdylbu_r&rescale=0.000408,0.000419",
       "type": "image/png",
-      "title": "N2_CO2_mean"
+      "title": "Carbon Dioxide from OMI (daily)",
+      "key": "bcb20586-44b3-4152-83e6-2c7230fce617"
     },
     {
       "rel": "parent",

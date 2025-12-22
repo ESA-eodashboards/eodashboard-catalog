@@ -14,7 +14,8 @@
       "rel": "xyz",
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=reds&rescale=0,37e14",
       "type": "image/png",
-      "title": "N9_OMI_trno2-COG"
+      "title": "Nitrogen Dioxide from OMI (Yearly)",
+      "key": "e903fa4b-205a-4a02-85bf-a05bc582955f"
     },
     {
       "rel": "parent",

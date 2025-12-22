@@ -14,11 +14,12 @@
       "rel": "wms",
       "href": "https://ogcpreview1.restecmap.com/examind/api/WS/wms/JAXA_WMS_Preview",
       "type": "image/jpeg",
-      "title": "FNF_Palsar",
+      "title": "PALSAR-2/PALSAR Forest/Non-Forest Map",
       "wms:layers": "FNF-PALSAR2-World-2020-Yearly",
       "role": [
         "data"
-      ]
+      ],
+      "key": "5245ec2c-6d22-48c1-80dd-0f90fd00df89"
     },
     {
       "rel": "parent",

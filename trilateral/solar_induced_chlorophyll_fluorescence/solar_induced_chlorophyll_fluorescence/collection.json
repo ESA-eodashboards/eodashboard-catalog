@@ -14,13 +14,14 @@
       "rel": "wms",
       "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
-      "title": "solar_induced_chlorophyll_fluorescence",
+      "title": "Solar induced chlorophyll fluorescence",
       "wms:layers": [
         "EODASH:SIF-TROPOMI-Cairo-Monthly"
       ],
       "role": [
         "data"
-      ]
+      ],
+      "key": "1f410bc0-614c-4857-bf99-8975603fcc3e"
     },
     {
       "rel": "parent",

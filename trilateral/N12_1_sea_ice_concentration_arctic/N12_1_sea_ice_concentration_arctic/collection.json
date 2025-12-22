@@ -14,13 +14,14 @@
       "rel": "wms",
       "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
-      "title": "N12_1_sea_ice_concentration_arctic",
+      "title": "Sea ice concentration GCOM-W - Arctic",
       "wms:layers": [
         "EODASH:SIC_N"
       ],
       "role": [
         "data"
       ],
+      "key": "6a5afdb7-3a1c-4b7b-8fc8-94a9254756bc",
       "eodash:proj4_def": {
         "name": "EPSG:3411",
         "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs +type=crs"

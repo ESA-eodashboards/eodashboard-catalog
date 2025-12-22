@@ -59,7 +59,7 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
-      "title": "Lakes_SWT_surface_water_temperature",
+      "title": "Lakes surface water temperature",
       "wms:layers": [
         "LAKES_SURFACE_WATER_TEMPERATURE"
       ],

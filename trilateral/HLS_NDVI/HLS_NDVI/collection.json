@@ -14,7 +14,8 @@
       "rel": "xyz",
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=cfastie&rescale=-1,1",
       "type": "image/png",
-      "title": "HLS_NDVI"
+      "title": "NDVI from HLS",
+      "key": "aded9b0c-5b2e-42d6-bf07-0f92ab9562bf"
     },
     {
       "rel": "parent",

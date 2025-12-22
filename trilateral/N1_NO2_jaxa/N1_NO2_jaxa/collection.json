@@ -14,13 +14,14 @@
       "rel": "wms",
       "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
-      "title": "N1_NO2_jaxa",
+      "title": "Nitrogen dioxide daily (Cairo) [mol/m3]",
       "wms:layers": [
         "EODASH:NO2-TROPOMI-Cairo-Daily"
       ],
       "role": [
         "data"
-      ]
+      ],
+      "key": "a4c40e82-060b-4d42-be7c-1a3147377b6f"
     },
     {
       "rel": "parent",

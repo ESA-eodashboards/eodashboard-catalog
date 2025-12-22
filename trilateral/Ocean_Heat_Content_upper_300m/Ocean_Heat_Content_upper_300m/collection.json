@@ -20,7 +20,7 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
-      "title": "Ocean_Heat_Content_upper_300m",
+      "title": "Ocean heat content for the upper 300m",
       "wms:layers": [
         "OCEAN_HEAT_CONTENT_UPPER_300M"
       ],
