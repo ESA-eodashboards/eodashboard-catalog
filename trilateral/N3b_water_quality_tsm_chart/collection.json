@@ -210,14 +210,14 @@
       "water"
     ],
     "satellite": [
+      "GCOM-C",
       "Acqua",
-      "Sentinel-3",
-      "GCOM-C"
+      "Sentinel-3"
     ],
     "sensor": [
-      "SGLI",
       "OLCI",
-      "MODIS"
+      "MODIS",
+      "SGLI"
     ],
     "cities": [
       "Venice"
