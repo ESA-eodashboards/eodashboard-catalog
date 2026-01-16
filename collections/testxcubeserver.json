@@ -17,5 +17,19 @@
       ]
     }
   ],
-  "EodashIdentifier": "RECCAP_TEST"
+  "EodashIdentifier": "RECCAP_TEST",
+  "Colorlegend": {
+    "domain": [
+      0,
+      150
+    ],
+    "title": "[Mg C/ha]",
+    "range": [
+      "#eeedf3",
+      "#e1d8d3",
+      "#d7c4ad",
+      "#beb68e"
+    ],
+    "tickFormat": ".0f"
+  }
 }
