@@ -25,6 +25,20 @@
   ],
   "yAxis": "Mg C ha",
   "subcode": "RECCAP_TEST",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      150
+    ],
+    "title": "[Mg C/ha]",
+    "range": [
+      "#eeedf3",
+      "#e1d8d3",
+      "#d7c4ad",
+      "#beb68e"
+    ],
+    "tickFormat": ".0f"
+  },
   "endpointtype": "xcube_zarr",
   "title": "MY title",
   "extent": {

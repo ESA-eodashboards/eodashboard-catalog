@@ -85,6 +85,20 @@
     }
   ],
   "subcode": "RECCAP_TEST",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      150
+    ],
+    "title": "[Mg C/ha]",
+    "range": [
+      "#eeedf3",
+      "#e1d8d3",
+      "#d7c4ad",
+      "#beb68e"
+    ],
+    "tickFormat": ".0f"
+  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
   "title": "MY title",
