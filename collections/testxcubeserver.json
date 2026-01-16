@@ -2,6 +2,20 @@
   "Name": "test_xcube_server",
   "Title": "MY title",
   "Description": "",
-  "Resources": [],
+  "Resources": [
+    {
+      "Name": "xcube",
+      "EndPoint": "https://reccap2.api.brockmann-consult.de/api",
+      "Type": "zarr",
+      "StacEndpoint": "/ogc",
+      "DatacubeId": "cop28~reccap2-9x108x139-0.0.1.zarr",
+      "Variable": "AGC_LVOD_amazonia_smooth_mean_crop",
+      "ColormapName": "rain",
+      "Rescale": [
+        0,
+        50
+      ]
+    }
+  ],
   "EodashIdentifier": "RECCAP_TEST"
 }
