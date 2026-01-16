@@ -1,0 +1,61 @@
+{
+  "type": "Collection",
+  "id": "test_xcube_server",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://reccap2.api.brockmann-consult.de/api/tiles/cop28~reccap2-9x108x139-0.0.1.zarr/AGC_LVOD_amazonia_smooth_mean_crop/{z}/{y}/{x}?crs=EPSG:3857&time={time}&vmin=0&vmax=50&cbar=rain",
+      "type": "image/png",
+      "title": "xcube tiles"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "MY title"
+    }
+  ],
+  "yAxis": "Mg C ha",
+  "subcode": "RECCAP_TEST",
+  "endpointtype": "xcube_zarr",
+  "title": "MY title",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -79.0,
+          -18.25,
+          -44.25,
+          8.75
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2011-01-01T00:00:00Z",
+          "2019-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
