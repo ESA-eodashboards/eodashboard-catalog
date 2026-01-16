@@ -17,6 +17,12 @@
       "title": "MY title",
       "code": "RECCAP_TEST",
       "id": "test_xcube_server",
+      "themes": [
+        "biomass"
+      ],
+      "providers": [
+        "ESA"
+      ],
       "subcode": "RECCAP_TEST"
     },
     {
