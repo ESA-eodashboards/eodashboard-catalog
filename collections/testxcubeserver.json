@@ -31,5 +31,19 @@
       "#beb68e"
     ],
     "tickFormat": ".0f"
-  }
+  },
+  "Provider": [
+    {
+      "Name": "ESA",
+      "Url": "https://climate.esa.int/en/projects/reccap-2/",
+      "Roles": [
+        "licensor",
+        "producer",
+        "processor"
+      ]
+    }
+  ],
+  "Themes": [
+    "biomass"
+  ]
 }
