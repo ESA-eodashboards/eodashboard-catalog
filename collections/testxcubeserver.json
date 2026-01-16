@@ -1,3 +1,7 @@
 {
-  "Name": "test_xcube_server"
+  "Name": "test_xcube_server",
+  "Title": "MY title",
+  "Description": "",
+  "Resources": [],
+  "EodashIdentifier": "RECCAP_TEST"
 }
