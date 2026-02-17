@@ -1,0 +1,35 @@
+{
+  "Name": "Sentinel-5P Absorbing Aerosol Index (day)",
+  "Title": "Sentinel-5P Absorbing Aerosol Index (day)",
+  "Description": "S5P-L3GRD-AAI-DAY/S5P-L3GRD-AAI-DAY.md",
+  "Colorlegend": {
+    "domain": [
+      1.0,
+      7.0
+    ],
+    "range": [
+      "#fbfea2",
+      "#fbb318",
+      "#ec6726",
+      "#bb3754",
+      "#781c6d",
+      "#33095e",
+      "#36331e"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Absorbing Aerosol Index @ 354/388 nm"
+  },
+  "Legend": "S5P-L3GRD-AAI-DAY/S5P-L3GRD-AAI-DAY_legend.png",
+  "EodashIdentifier": "S5P-L3GRD-AAI-DAY",
+  "Resources": [
+    {
+      "EndPoint": "https://services.sentinel-hub.com",
+      "Name": "Sentinel Hub",
+      "Type": "byoc",
+      "CollectionId": "62136507-01d9-4f1c-a502-77a79454d264",
+      "LayerId": "S5P-L3GRD-AAI-DAY",
+      "DataProjection": 4326
+    }
+  ]
+}
