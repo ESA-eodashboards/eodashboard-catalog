@@ -28,10 +28,14 @@
         "NASA"
       ],
       "cities": [
-        "Venice"
+        "Venice",
+        "Kobe",
+        "Nagoya",
+        "Tokyo"
       ],
       "countries": [
-        "IT"
+        "IT",
+        "JP"
       ],
       "yAxis": "Chlorophyll-a concentration anomaly [%]",
       "tags": [
@@ -172,8 +176,8 @@
       "bbox": [
         [
           12.308110000000001,
-          45.11421,
-          12.70811,
+          34.349999999999994,
+          140.1000001,
           45.514210000000006
         ]
       ]
@@ -182,7 +186,7 @@
       "interval": [
         [
           "2019-01-04T11:50:00Z",
-          "2025-01-04T00:00:00Z"
+          "2025-11-29T00:00:00Z"
         ]
       ]
     }
@@ -211,18 +215,22 @@
     ],
     "satellite": [
       "GCOM-C",
-      "Acqua",
-      "Sentinel-3"
+      "Sentinel-3",
+      "Acqua"
     ],
     "sensor": [
-      "OLCI",
       "MODIS",
+      "OLCI",
       "SGLI"
     ],
     "cities": [
+      "Tokyo",
+      "Kobe",
+      "Nagoya",
       "Venice"
     ],
     "countries": [
+      "JP",
       "IT"
     ],
     "thumbnail": [

@@ -21,6 +21,36 @@
       "name": "Venice"
     },
     {
+      "rel": "child",
+      "href": "./JP05/collection.json",
+      "type": "application/json",
+      "title": "Kobe - N3b_water_quality_tsm_chart",
+      "id": "JP05",
+      "latlng": "34.550000, 135.1500001",
+      "country": "JP",
+      "name": "Kobe"
+    },
+    {
+      "rel": "child",
+      "href": "./JP06/collection.json",
+      "type": "application/json",
+      "title": "Nagoya - N3b_water_quality_tsm_chart",
+      "id": "JP06",
+      "latlng": "34.750000, 136.7000001",
+      "country": "JP",
+      "name": "Nagoya"
+    },
+    {
+      "rel": "child",
+      "href": "./JP07/collection.json",
+      "type": "application/json",
+      "title": "Tokyo - N3b_water_quality_tsm_chart",
+      "id": "JP07",
+      "latlng": "35.550000, 139.9000001",
+      "country": "JP",
+      "name": "Tokyo"
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -72,9 +102,33 @@
       "bbox": [
         [
           12.308110000000001,
+          34.349999999999994,
+          140.1000001,
+          45.514210000000006
+        ],
+        [
+          12.308110000000001,
           45.11421,
           12.70811,
           45.514210000000006
+        ],
+        [
+          134.9500001,
+          34.349999999999994,
+          135.3500001,
+          34.75
+        ],
+        [
+          136.50000010000002,
+          34.55,
+          136.9000001,
+          34.95
+        ],
+        [
+          139.7000001,
+          35.349999999999994,
+          140.1000001,
+          35.75
         ]
       ]
     },
@@ -82,7 +136,7 @@
       "interval": [
         [
           "2019-01-04T11:50:00Z",
-          "2025-01-04T00:00:00Z"
+          "2025-11-29T00:00:00Z"
         ]
       ]
     }
@@ -104,10 +158,14 @@
   ],
   "summaries": {
     "cities": [
-      "Venice"
+      "Venice",
+      "Kobe",
+      "Nagoya",
+      "Tokyo"
     ],
     "countries": [
-      "IT"
+      "IT",
+      "JP"
     ]
   },
   "assets": {
