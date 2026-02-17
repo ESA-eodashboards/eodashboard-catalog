@@ -21,7 +21,7 @@
       "href": "https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-antarctic-glaciers-thwaites/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55&nodata=0",
       "type": "image/png",
       "title": "Thwaites Glacier Landsat L2",
-      "key": "bbec7e00-e28e-42e6-8ab8-790a62dc3401"
+      "key": "63e8841e-ec49-44f9-b30c-09a18717254a"
     },
     {
       "rel": "license",
