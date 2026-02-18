@@ -14,7 +14,7 @@
       "rel": "xyz",
       "href": "https://api.earthsystemdatalab.net/api/tiles/esdc/gross_primary_productivity/{z}/{y}/{x}?crs=EPSG:3857&time={time}&vmin=-1&vmax=15&cbar=jet",
       "type": "image/png",
-      "title": "xcube tiles"
+      "title": "Land Gross Primary Productivity"
     },
     {
       "rel": "parent",

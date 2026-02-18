@@ -14,7 +14,7 @@
       "rel": "xyz",
       "href": "https://api.earthsystemdatalab.net/api/tiles/smos-sm/Soil_Moisture/{z}/{y}/{x}?crs=EPSG:3857&time={time}&vmin=0&vmax=1&cbar=jet",
       "type": "image/png",
-      "title": "xcube tiles"
+      "title": "SMOS Soil Moisture"
     },
     {
       "rel": "parent",

@@ -14,7 +14,7 @@
       "rel": "xyz",
       "href": "https://api.earthsystemdatalab.net/api/tiles/esdc/kndvi/{z}/{y}/{x}?crs=EPSG:3857&time={time}&vmin=0&vmax=1&cbar=RdYlGn",
       "type": "image/png",
-      "title": "xcube tiles"
+      "title": "Kernel NDVI (daily)"
     },
     {
       "rel": "parent",

@@ -14,7 +14,7 @@
       "rel": "xyz",
       "href": "https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time={time}&vmin=-1&vmax=1&cbar=RdYlGn",
       "type": "image/png",
-      "title": "xcube tiles"
+      "title": "Normalized Difference Vegetation Index (NDVI) (Weekly Average) "
     },
     {
       "rel": "parent",

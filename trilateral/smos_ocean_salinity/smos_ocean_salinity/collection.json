@@ -14,7 +14,7 @@
       "rel": "xyz",
       "href": "https://api.earthsystemdatalab.net/api/tiles/smos-os/SSS_corr/{z}/{y}/{x}?crs=EPSG:3857&time={time}&vmin=0&vmax=50&cbar=jet",
       "type": "image/png",
-      "title": "xcube tiles"
+      "title": "SMOS Ocean Salinity"
     },
     {
       "rel": "parent",
