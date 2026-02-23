@@ -1,0 +1,47 @@
+{
+  "Name": "Sentinel-5P Aerosol Layer Height (day)",
+  "Title": "Sentinel-5P Aerosol Layer Height (day)",
+  "Description": "S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY.md",
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [
+        "Sentinel-5P"
+      ],
+      "Sensor": [
+        "TROPOMI"
+      ]
+    }
+  },
+  "Agency": [
+    "ESA"
+  ],
+  "Image": "S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY_thumbnail.jpg",
+  "Colorlegend": {
+    "domain": [
+      0.0,
+      12.0
+    ],
+    "range": [
+      "#fcee98",
+      "#77ca67",
+      "#3b9287",
+      "#0e5a90",
+      "#403a71"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Aerosol Layer Height [km]"
+  },
+  "Legend": "S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY_legend.png",
+  "EodashIdentifier": "S5P-L3GRD-ALH-DAY",
+  "Resources": [
+    {
+      "EndPoint": "https://services.sentinel-hub.com",
+      "Name": "Sentinel Hub",
+      "Type": "byoc",
+      "CollectionId": "b7b1b68a-88cd-4f8b-aca6-156f06a60c0d",
+      "LayerId": "S5P-L3GRD-ALH-DAY",
+      "DataProjection": 4326
+    }
+  ]
+}
