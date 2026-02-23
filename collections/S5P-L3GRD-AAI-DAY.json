@@ -2,6 +2,20 @@
   "Name": "Sentinel-5P Absorbing Aerosol Index (day)",
   "Title": "Sentinel-5P Absorbing Aerosol Index (day)",
   "Description": "S5P-L3GRD-AAI-DAY/S5P-L3GRD-AAI-DAY.md",
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [
+        "Sentinel-5P"
+      ],
+      "Sensor": [
+        "TROPOMI"
+      ]
+    }
+  },
+  "Agency": [
+    "ESA"
+  ],
+  "Image": "S5P-L3GRD-AAI-DAY/S5P-L3GRD-AAI-DAY_thumbnail.jpg",
   "Colorlegend": {
     "domain": [
       1.0,
