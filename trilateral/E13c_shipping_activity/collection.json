@@ -214,32 +214,32 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-2",
-      "PlanetScope"
+      "PlanetScope",
+      "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
-      "PS2"
+      "PS2",
+      "MSI"
     ],
     "cities": [
-      "San Francisco",
       "Los Angeles",
-      "Hamburg",
-      "Gdynia",
       "Dunkirk",
-      "Ghent",
-      "Suez",
-      "Suez ",
+      "Hamburg",
       "Genoa",
-      "New York"
+      "Suez",
+      "Gdynia",
+      "New York",
+      "Suez ",
+      "Ghent",
+      "San Francisco"
     ],
     "countries": [
-      "PL",
-      "EG",
-      "FR",
-      "IT",
       "BE",
       "US",
+      "IT",
+      "EG",
+      "FR",
+      "PL",
       "DE"
     ],
     "thumbnail": [
