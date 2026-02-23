@@ -1,21 +1,33 @@
 {
   "type": "Collection",
-  "id": "ES01",
+  "id": "Sentinel-5P Aerosol Layer Height (day)",
   "stac_version": "1.1.0",
-  "description": "Madrid",
+  "description": "## Sentinel-5P Aerosol Layer Height (day)\nDescription here.\n",
   "links": [
     {
       "rel": "root",
-      "href": "../../../catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "xyz",
-      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
-      "type": "image/png",
-      "title": "Nightlights from SUOMI-NPP",
-      "key": "ea40256e-9320-4a15-b392-f718743badbe"
+      "rel": "child",
+      "href": "./Sentinel-5P Aerosol Layer Height (day)/collection.json",
+      "type": "application/json",
+      "title": "Sentinel-5P Aerosol Layer Height (day)",
+      "endpointtype": "Sentinel Hub_byoc",
+      "code": "S5P-L3GRD-ALH-DAY",
+      "id": "Sentinel-5P Aerosol Layer Height (day)",
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "S5P-L3GRD-ALH-DAY",
+      "sensor": [
+        "TROPOMI"
+      ],
+      "satellite": [
+        "Sentinel-5P"
+      ]
     },
     {
       "rel": "xyz",
@@ -67,119 +79,93 @@
     },
     {
       "rel": "parent",
-      "href": "../collection.json",
+      "href": "../catalog.json",
       "type": "application/json",
-      "title": "Nightlights from SUOMI-NPP"
+      "title": "Earth Observing Dashboard"
     }
   ],
-  "subtitle": "30-meter Black Marble High Definition (HD) nighttime lights",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N5_nightlights/N5_nightlights.jpg",
-  "themes": [
-    "economy"
-  ],
-  "tags": [
-    "Human activities",
-    "Open data",
-    "SUOMI-NPP"
-  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY_thumbnail.jpg",
   "agency": [
-    "NASA"
+    "ESA"
   ],
-  "subcode": "N5",
+  "subcode": "S5P-L3GRD-ALH-DAY",
   "sensor": [
-    "VIIRS"
+    "TROPOMI"
   ],
   "satellite": [
-    "Suomi"
+    "Sentinel-5P"
   ],
   "eox:colorlegend": {
     "domain": [
-      "Less light",
-      "More light"
+      0.0,
+      12.0
     ],
     "range": [
-      "#000004",
-      "#fcffa4"
+      "#fcee98",
+      "#77ca67",
+      "#3b9287",
+      "#0e5a90",
+      "#403a71"
     ],
-    "scaleType": "categorical",
-    "title": ""
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Aerosol Layer Height [km]"
   },
-  "title": "Madrid",
+  "title": "Sentinel-5P Aerosol Layer Height (day)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -4.00379,
-          40.116775,
-          -3.40379,
-          40.716775
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-01-01T00:00:00Z",
-          "2022-03-01T00:00:00Z"
+          "2025-01-01T00:00:00Z",
+          "2025-01-04T00:00:00Z"
         ]
       ]
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "NASA",
-      "roles": [
-        "licensor, producer, processor"
-      ],
-      "url": "https://search.earthdata.nasa.gov/search?portal=idn&fi=VIIRS"
-    }
-  ],
+  "summaries": {
+    "subcode": [
+      "S5P-L3GRD-ALH-DAY"
+    ],
+    "satellite": [
+      "Sentinel-5P"
+    ],
+    "sensor": [
+      "TROPOMI"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY_thumbnail.jpg"
+    ]
+  },
   "assets": {
-    "geoparquet": {
-      "href": "./items.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "GeoParquet Items",
-      "roles": [
-        "collection-mirror"
-      ]
-    },
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N5_nightlights/N5_legend.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N5_nightlights/N5_nightlights.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY_thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
-      ]
-    },
-    "black_marble": {
-      "href": "https://blackmarble.gsfc.nasa.gov/",
-      "type": "text/html",
-      "title": "NASA's Black Marble",
-      "roles": [
-        "metadata"
-      ]
-    },
-    "suomi_npp": {
-      "href": "https://www.nasa.gov/mission_pages/NPP/main/index.html",
-      "type": "text/html",
-      "title": "Suomi National Polar-orbiting Partnership (Suomi NPP)",
-      "roles": [
-        "metadata"
-      ]
-    },
-    "covid_dashboard": {
-      "href": "https://www.earthdata.nasa.gov/covid19/indicators/bm",
-      "type": "text/html",
-      "title": "NASA Covid Dashboard",
-      "roles": [
-        "metadata"
       ]
     }
   }

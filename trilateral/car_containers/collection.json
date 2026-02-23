@@ -180,7 +180,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2026-02-23T08:48:52.192714Z"
+          "2026-02-23T15:28:05.887439Z"
         ]
       ]
     }
@@ -212,18 +212,18 @@
       "C-SAR"
     ],
     "cities": [
-      "Los Angeles",
+      "Singapore",
       "Nagoya",
       "Palm Springs",
-      "Beijing",
       "Arcadia",
-      "Singapore"
+      "Beijing",
+      "Los Angeles"
     ],
     "countries": [
-      "SG",
-      "JP",
       "US",
-      "CN"
+      "SG",
+      "CN",
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg"
