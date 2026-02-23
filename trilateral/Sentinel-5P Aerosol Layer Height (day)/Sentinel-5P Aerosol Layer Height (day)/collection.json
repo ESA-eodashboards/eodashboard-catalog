@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Sentinel-5P Absorbing Aerosol Index (day)",
+  "id": "Sentinel-5P Aerosol Layer Height (day)",
   "stac_version": "1.1.0",
-  "description": "## Sentinel-5P Absorbing Aerosol Index (day)\nDescription here.\n",
+  "description": "## Sentinel-5P Aerosol Layer Height (day)\nDescription here.\n",
   "links": [
     {
       "rel": "root",
@@ -14,9 +14,9 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
-      "title": "Sentinel-5P Absorbing Aerosol Index (day)",
+      "title": "Sentinel-5P Aerosol Layer Height (day)",
       "wms:layers": [
-        "S5P-L3GRD-AAI-DAY"
+        "S5P-L3GRD-ALH-DAY"
       ],
       "role": [
         "data"
@@ -27,14 +27,14 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-5P Absorbing Aerosol Index (day)"
+      "title": "Sentinel-5P Aerosol Layer Height (day)"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-AAI-DAY/S5P-L3GRD-AAI-DAY_thumbnail.jpg",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY_thumbnail.jpg",
   "agency": [
     "ESA"
   ],
-  "subcode": "S5P-L3GRD-AAI-DAY",
+  "subcode": "S5P-L3GRD-ALH-DAY",
   "sensor": [
     "TROPOMI"
   ],
@@ -43,25 +43,23 @@
   ],
   "eox:colorlegend": {
     "domain": [
-      1.0,
-      7.0
+      0.0,
+      12.0
     ],
     "range": [
-      "#fbfea2",
-      "#fbb318",
-      "#ec6726",
-      "#bb3754",
-      "#781c6d",
-      "#33095e",
-      "#36331e"
+      "#fcee98",
+      "#77ca67",
+      "#3b9287",
+      "#0e5a90",
+      "#403a71"
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "Absorbing Aerosol Index @ 354/388 nm"
+    "title": "Aerosol Layer Height [km]"
   },
   "proj:epsg": 4326,
   "endpointtype": "Sentinel Hub_byoc",
-  "title": "Sentinel-5P Absorbing Aerosol Index (day)",
+  "title": "Sentinel-5P Aerosol Layer Height (day)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -76,8 +74,8 @@
     "temporal": {
       "interval": [
         [
-          "2024-01-01T00:00:00Z",
-          "2026-01-31T00:00:00Z"
+          "2025-01-01T00:00:00Z",
+          "2025-01-04T00:00:00Z"
         ]
       ]
     }
@@ -93,14 +91,14 @@
       ]
     },
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-AAI-DAY/S5P-L3GRD-AAI-DAY_legend.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-AAI-DAY/S5P-L3GRD-AAI-DAY_thumbnail.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY_thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

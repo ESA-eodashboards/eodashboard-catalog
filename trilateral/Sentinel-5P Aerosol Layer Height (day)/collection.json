@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "NLK_lakes",
+  "id": "Sentinel-5P Aerosol Layer Height (day)",
   "stac_version": "1.1.0",
-  "description": "# Lakes\n\nSelected low-cloud-cover Landsat Collection-2 Level-2 Surface Reflectance scenes covering various lakes.\nProducts from multiple missions and instruments are combined in this single collection for the purpose of visualizing RGB images. Note that the full item records are not interchangeable across instruments for purposes other than visualization and that the assets available are not the same for each instrument.\n\n# Dataset description\nMetric: Provides Level-2 Surface Reflectance data, which is corrected for atmospheric conditions to offer realistic color representations. The data is primarily intended for RGB image visualizations of surface conditions.\n",
+  "description": "## Sentinel-5P Aerosol Layer Height (day)\nDescription here.\n",
   "links": [
     {
       "rel": "root",
@@ -12,66 +12,22 @@
     },
     {
       "rel": "child",
-      "href": "./NLK_lakes/collection.json",
+      "href": "./Sentinel-5P Aerosol Layer Height (day)/collection.json",
       "type": "application/json",
-      "title": "Lakes collection (Landsat-8)",
-      "code": "NLK",
-      "id": "NLK_lakes",
-      "themes": [
-        "water"
-      ],
-      "providers": [
-        "NASA"
-      ],
-      "cities": [
-        "Tonlé Sap Lake",
-        "Aral Lake",
-        "Vänern Lake",
-        "Biwa Lake",
-        "Balaton Lake"
-      ],
-      "countries": [
-        "KZ",
-        "HU",
-        "JP",
-        "SW",
-        "UZ",
-        "KH"
-      ],
-      "tags": [
-        "Water quality",
-        "Lakes",
-        "Landsat",
-        "OLI",
-        "Lake monitoring",
-        "Surface Reflectance",
-        "Hydrological changes",
-        "Ecosystems",
-        "Resources"
-      ],
+      "title": "Sentinel-5P Aerosol Layer Height (day)",
+      "endpointtype": "Sentinel Hub_byoc",
+      "code": "S5P-L3GRD-ALH-DAY",
+      "id": "Sentinel-5P Aerosol Layer Height (day)",
       "agency": [
-        "NASA"
+        "ESA"
       ],
-      "subcode": "NLK",
+      "subcode": "S5P-L3GRD-ALH-DAY",
       "sensor": [
-        "OLI"
+        "TROPOMI"
       ],
       "satellite": [
-        "Landsat-8"
+        "Sentinel-5P"
       ]
-    },
-    {
-      "rel": "license",
-      "href": "http://www.opensource.org/licenses/MIT",
-      "type": "text/html"
-    },
-    {
-      "rel": "service",
-      "href": "./NLK_lakes/{{feature}}/collection.json",
-      "type": "application/json; profile=collection",
-      "id": "locations",
-      "method": "GET",
-      "endpoint": "STAC"
     },
     {
       "rel": "xyz",
@@ -128,96 +84,85 @@
       "title": "Earth Observing Dashboard"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
-  "themes": [
-    "water"
-  ],
-  "locations": true,
-  "tags": [
-    "Water quality",
-    "Lakes",
-    "Landsat",
-    "OLI",
-    "Lake monitoring",
-    "Surface Reflectance",
-    "Hydrological changes",
-    "Ecosystems",
-    "Resources"
-  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY_thumbnail.jpg",
   "agency": [
-    "NASA"
+    "ESA"
   ],
-  "subcode": "NLK",
+  "subcode": "S5P-L3GRD-ALH-DAY",
   "sensor": [
-    "OLI"
+    "TROPOMI"
   ],
   "satellite": [
-    "Landsat-8"
+    "Sentinel-5P"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "title": "Lakes collection (Landsat-8)",
+  "eox:colorlegend": {
+    "domain": [
+      0.0,
+      12.0
+    ],
+    "range": [
+      "#fcee98",
+      "#77ca67",
+      "#3b9287",
+      "#0e5a90",
+      "#403a71"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Aerosol Layer Height [km]"
+  },
+  "title": "Sentinel-5P Aerosol Layer Height (day)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          10.9809643,
-          11.9586038,
-          138.0953959,
-          59.7931386
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "1984-04-18T09:40:30.064088Z",
-          "2023-06-20T06:40:19.342057Z"
+          "2025-01-01T00:00:00Z",
+          "2025-01-04T00:00:00Z"
         ]
       ]
     }
   },
-  "license": "MIT",
-  "providers": [
-    {
-      "name": "NASA",
-      "url": "https://www.nasa.gov/"
-    }
-  ],
+  "license": "other",
   "summaries": {
     "subcode": [
-      "NLK"
-    ],
-    "themes": [
-      "water"
+      "S5P-L3GRD-ALH-DAY"
     ],
     "satellite": [
-      "Landsat-8"
+      "Sentinel-5P"
     ],
     "sensor": [
-      "OLI"
-    ],
-    "cities": [
-      "Tonlé Sap Lake",
-      "Aral Lake",
-      "Vänern Lake",
-      "Biwa Lake",
-      "Balaton Lake"
-    ],
-    "countries": [
-      "KZ",
-      "HU",
-      "JP",
-      "SW",
-      "UZ",
-      "KH"
+      "TROPOMI"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY_thumbnail.jpg"
     ]
   },
   "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY_thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
