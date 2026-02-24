@@ -88,6 +88,19 @@
       }
     }
   ],
+  "Process": {
+  "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
+  "VegaDefinition": "no_destination/RECCAP2_12-chart.json",
+  "EndPoints": [
+      {
+        "Url": "https://reccap2.api.brockmann-consult.de/api/timeseries/cop28~reccap2-9x108x139-0.0.1.zarr/intact_biomass_change_trend_mean?aggMethods=median",
+        "Identifier": "xcube_statistics",
+        "Method": "POST",
+        "Body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_body.json",
+        "Type": "application/json"
+      }
+    ]
+  },
   "Provider": [
     {
       "Name": "ESA",
