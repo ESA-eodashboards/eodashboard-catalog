@@ -2,6 +2,22 @@
   "Name": "Sentinel-5P Absorbing Aerosol Index (day)",
   "Title": "Sentinel-5P Absorbing Aerosol Index (day)",
   "Description": "S5P-L3GRD-AAI-DAY/S5P-L3GRD-AAI-DAY.md",
+  "Themes": [
+    "atmosphere"
+  ],
+  "Tags": [
+    "UV",
+    "Atmosphere",
+    "Particles",
+    "Polution",
+    "Ash",
+    "AAI",
+    "UVAI",
+    "Open data",
+    "Open Science",
+    "S5P",
+    "Copernicus",
+  ],
   "DataSource": {
     "Spaceborne": {
       "Satellite": [
