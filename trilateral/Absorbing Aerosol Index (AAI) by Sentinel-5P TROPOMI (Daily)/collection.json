@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "methane_monitoring",
+  "id": "Absorbing Aerosol Index (AAI) by Sentinel-5P TROPOMI (Daily)",
   "stac_version": "1.1.0",
-  "description": "## Methane monitoring\n\nThis indicator aims at showing Methane (CH4) concentrations by means of Sentinel-5p [TROPOMI](http://www.tropomi.eu) data.\nTROPOMI uses absorption information from the Oxygen-A Band (760nm) and the SWIR spectral range to monitor CH4 levels in the Earth’s atmosphere contributing to the enhancement of the greenhouse effect.\n\nData from the GOSAT satellite instrument and ground-based TCCON instruments are used for verification and validation.",
+  "description": "## Absorbing Aerosol Index (AAI) by Sentinel-5P TROPOMI (Daily)\n\nThe Absorbing Aerosol Index (AAI), also known as Ultraviolet Aerosol Index (UVAI), is a dimensionless quantity that reveals the presence of absorbing aerosols in the atmosphere: particles such as desert dust, volcanic ash, and smoke from biomass burning that absorb incoming solar radiation. Unlike many other satellite retrievals, the AAI can be calculated even in the presence of clouds, enabling daily, near-global coverage and making it particularly powerful for tracking the evolution of episodic aerosol plumes across the globe.\n\n#### About the dataset\n- The AAI is measured by the [TROPOMI instrument](https://www.tropomi.eu/) aboard Copernicus ESA's [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P) satellite, operating in the UV spectral range.\n- The AAI is derived from the difference between observed and modelled reflectance, based on wavelength-dependent changes in Rayleigh scattering in the UV spectral range for a pair of wavelengths, where ozone absorption is minimal.\n- The measurements are performed once per day, providing a full global snapshot of aerosol activity.\n- A positive aerosol index indicates the presence of absorbing aerosols (such as mineral dust or carbonaceous smoke), while negative values are typically associated with non-absorbing aerosols or clouds.\n\n#### Use cases \nThe AAI is especially well suited for monitoring natural and human-driven aerosol events. Saharan dust storms leave a strong positive signal as mineral-rich particles are lofted thousands of metres into the atmosphere and transported across the Atlantic. Similarly, large-scale wildfires in regions such as the Amazon, sub-Saharan Africa, or Siberia produce dense smoke plumes that are readily detected and tracked over days to weeks. Volcanic eruptions inject fine ash and sulfur-rich particles that can spread across hemispheres and impact aviation safety and climate.\n\n\n",
   "links": [
     {
       "rel": "root",
@@ -12,53 +12,41 @@
     },
     {
       "rel": "child",
-      "href": "./methane_monitoring/collection.json",
+      "href": "./Absorbing Aerosol Index (AAI) by Sentinel-5P TROPOMI (Daily)/collection.json",
       "type": "application/json",
-      "title": "Methane monitoring",
+      "title": "Absorbing Aerosol Index (AAI) by Sentinel-5P TROPOMI (Daily)",
       "endpointtype": "Sentinel Hub_byoc",
-      "subtitle": "Daily Methane Monitoring",
-      "code": "N1_CH4",
-      "id": "methane_monitoring",
+      "code": "S5P-L3GRD-AAI-DAY",
+      "id": "Absorbing Aerosol Index (AAI) by Sentinel-5P TROPOMI (Daily)",
       "themes": [
         "atmosphere"
       ],
       "providers": [
-        "Copernicus",
-        "JAXA",
-        "Caltech"
+        "Copernicus"
       ],
       "tags": [
-        "Air quality",
-        "CH4",
-        "Multi-sensors",
-        "Open data"
+        "UV",
+        "Atmosphere",
+        "Particles",
+        "Polution",
+        "Ash",
+        "AAI",
+        "UVAI",
+        "Open data",
+        "Open Science",
+        "S5P",
+        "Copernicus"
       ],
       "agency": [
-        "ESA",
-        "JAXA",
-        "NASA",
-        "NIWA"
+        "ESA"
       ],
-      "subcode": "N1_CH4",
+      "subcode": "S5P-L3GRD-AAI-DAY",
       "sensor": [
-        "TROPOMI",
-        "TANSO"
+        "TROPOMI"
       ],
       "satellite": [
-        "Sentinel-5P",
-        "GOSAT"
-      ],
-      "insituSources": [
-        "TCCON"
+        "Sentinel-5P"
       ]
-    },
-    {
-      "rel": "service",
-      "href": "https://services.sentinel-hub.com/api/v1/statistics",
-      "type": "application/json",
-      "id": "sentinelhub-statistics",
-      "method": "POST",
-      "endpoint": "sentinelhub"
     },
     {
       "rel": "xyz",
@@ -115,58 +103,52 @@
       "title": "Earth Observing Dashboard"
     }
   ],
-  "subtitle": "Daily Methane Monitoring",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.jpg",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-AAI-DAY/S5P-L3GRD-AAI-DAY_thumbnail.jpg",
   "themes": [
     "atmosphere"
   ],
   "tags": [
-    "Air quality",
-    "CH4",
-    "Multi-sensors",
-    "Open data"
+    "UV",
+    "Atmosphere",
+    "Particles",
+    "Polution",
+    "Ash",
+    "AAI",
+    "UVAI",
+    "Open data",
+    "Open Science",
+    "S5P",
+    "Copernicus"
   ],
   "agency": [
-    "ESA",
-    "JAXA",
-    "NASA",
-    "NIWA"
+    "ESA"
   ],
-  "subcode": "N1_CH4",
+  "subcode": "S5P-L3GRD-AAI-DAY",
   "sensor": [
-    "TROPOMI",
-    "TANSO"
+    "TROPOMI"
   ],
   "satellite": [
-    "Sentinel-5P",
-    "GOSAT"
-  ],
-  "insituSources": [
-    "TCCON"
+    "Sentinel-5P"
   ],
   "eox:colorlegend": {
     "domain": [
-      1680,
-      1980
+      1.0,
+      7.0
     ],
     "range": [
-      "#000103",
-      "#006cd3",
-      "#00d2ff",
-      "#00ffff",
-      "#46ff96",
-      "#fffd00",
-      "#ffc100",
-      "#ff4900",
-      "#ff0000"
+      "#fbfea2",
+      "#fbb318",
+      "#ec6726",
+      "#bb3754",
+      "#781c6d",
+      "#33095e",
+      "#36331e"
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "CH4 volume mixing ratio [ppbv]"
+    "title": "Absorbing Aerosol Index @ 354/388 nm"
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
-  "title": "Methane monitoring",
+  "title": "Absorbing Aerosol Index (AAI) by Sentinel-5P TROPOMI (Daily)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -187,8 +169,8 @@
     "temporal": {
       "interval": [
         [
-          "2018-04-30T00:00:00Z",
-          "2025-11-24T00:00:00Z"
+          "2024-01-01T00:00:00Z",
+          "2026-01-31T00:00:00Z"
         ]
       ]
     }
@@ -197,57 +179,39 @@
   "providers": [
     {
       "name": "Copernicus",
-      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
-    },
-    {
-      "name": "JAXA",
-      "url": "https://earth.jaxa.jp/en/data/"
-    },
-    {
-      "name": "Caltech",
-      "url": "https://tccondata.org/"
+      "url": "https://maps.s5p-pal.com/aai/"
     }
   ],
   "summaries": {
     "subcode": [
-      "N1_CH4"
+      "S5P-L3GRD-AAI-DAY"
     ],
     "themes": [
       "atmosphere"
     ],
     "satellite": [
-      "GOSAT",
       "Sentinel-5P"
     ],
     "sensor": [
-      "TANSO",
       "TROPOMI"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.jpg"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-AAI-DAY/S5P-L3GRD-AAI-DAY_thumbnail.jpg"
     ]
   },
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_legend.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-AAI-DAY/S5P-L3GRD-AAI-DAY_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-AAI-DAY/S5P-L3GRD-AAI-DAY_thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
-      ]
-    },
-    "tropomi_methane": {
-      "href": "http://www.tropomi.eu/data-products/methane",
-      "type": "text/html",
-      "title": "TROPOMI Methane",
-      "roles": [
-        "metadata"
       ]
     }
   }
