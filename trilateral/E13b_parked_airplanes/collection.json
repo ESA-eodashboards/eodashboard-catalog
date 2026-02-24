@@ -234,46 +234,46 @@
       "E13b"
     ],
     "themes": [
-      "economy",
-      "covid-19"
+      "covid-19",
+      "economy"
     ],
     "satellite": [
-      "Sentinel-1",
-      "PlanetScope",
       "Sentinel-2",
-      "ALOS-2"
+      "ALOS-2",
+      "Sentinel-1",
+      "PlanetScope"
     ],
     "sensor": [
-      "MSI",
       "PALSAR-2",
       "C-SAR",
+      "MSI",
       "PSB.SD"
     ],
     "cities": [
-      "Beijing Daxing",
       "New York",
-      "Los Angeles",
-      "San Francisco",
+      "Beijing",
+      "Paris",
       "Heathrow",
+      "San Francisco",
       "Napa",
-      "Buchannan",
       "Newark",
       "Rome",
-      "Oakland",
-      "Beijing",
       "San Jose",
-      "Ontario",
+      "Buchannan",
       "Hayward",
       "Marin",
+      "Los Angeles",
       "Narita",
-      "Paris"
+      "Beijing Daxing",
+      "Ontario",
+      "Oakland"
     ],
     "countries": [
-      "GB",
-      "IT",
       "JP",
-      "FR",
+      "IT",
+      "GB",
       "CN",
+      "FR",
       "US"
     ],
     "thumbnail": [

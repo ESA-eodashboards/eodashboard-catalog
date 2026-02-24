@@ -208,13 +208,13 @@
       "MODIS"
     ],
     "cities": [
-      "North Adriatic",
       "New York",
-      "San Francisco"
+      "San Francisco",
+      "North Adriatic"
     ],
     "countries": [
-      "US",
-      "IT"
+      "IT",
+      "US"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg"
