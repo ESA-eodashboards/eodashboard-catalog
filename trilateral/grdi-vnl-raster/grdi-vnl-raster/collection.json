@@ -15,7 +15,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=viridis&rescale=0.0,100.0",
       "type": "image/png",
       "title": "VIIRS Nighttime Lights (VNL) Constituent Raster",
-      "key": "139a1e21-3c00-454a-855b-d400c02bb395"
+      "key": "48e57c97-ddfe-4493-a991-e5f8262cf427"
     },
     {
       "rel": "parent",
@@ -114,6 +114,22 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "urban-health-final": {
+      "href": "https://eodashboard.org/story/?id=urban-health-final",
+      "type": "text/markdown",
+      "title": "Urban Health and Megacities: the case of New Delhi",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/urban-health-final.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
+      "roles": [
+        "metadata",
+        "story"
       ]
     },
     "thumbnail": {
