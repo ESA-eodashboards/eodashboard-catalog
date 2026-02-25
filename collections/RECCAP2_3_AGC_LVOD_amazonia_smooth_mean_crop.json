@@ -90,7 +90,7 @@
   ],
   "Process": {
   "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "VegaDefinition": "no_destination/RECCAP2_3-chart.json",
+  "VegaDefinition": "RECCAP2_3_AGC_LVOD_amazonia_smooth_mean_crop/chart.json",
   "EndPoints": [
       {
         "Url": "https://reccap2.api.brockmann-consult.de/api/timeseries/cop28~reccap2-9x108x139-0.0.1.zarr/AGC_LVOD_amazonia_smooth_mean_crop?aggMethods=median",
