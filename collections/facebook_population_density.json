@@ -73,7 +73,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "Population density [People/m\u00b2]"
+    "title": "Population density [People/m²]"
   },
   "BaseLayers": [
     {
@@ -85,6 +85,16 @@
       "maxNativeZoom": 17,
       "protocol": "xyz",
       "visible": true
+    }
+  ],
+  "Stories": [
+    {
+      "Name": "Urban Health and Megacities: the case of New Delhi",
+      "Id": "urban-health-final"
+    },
+    {
+      "Name": "Extreme Air Pollution Episodes in Northern India and Pakistan",
+      "Id": "extreme_air_pollution_india_and_pakistan"
     }
   ]
 }
