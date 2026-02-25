@@ -180,7 +180,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2026-02-25T03:26:30.427693Z"
+          "2026-02-25T05:29:24.719968Z"
         ]
       ]
     }
@@ -204,26 +204,26 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-1",
-      "ALOS-2"
+      "ALOS-2",
+      "Sentinel-1"
     ],
     "sensor": [
-      "PALSAR-2",
-      "C-SAR"
+      "C-SAR",
+      "PALSAR-2"
     ],
     "cities": [
-      "Singapore",
+      "Beijing",
       "Palm Springs",
-      "Arcadia",
+      "Singapore",
       "Nagoya",
-      "Los Angeles",
-      "Beijing"
+      "Arcadia",
+      "Los Angeles"
     ],
     "countries": [
-      "JP",
+      "CN",
       "SG",
-      "US",
-      "CN"
+      "JP",
+      "US"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg"
