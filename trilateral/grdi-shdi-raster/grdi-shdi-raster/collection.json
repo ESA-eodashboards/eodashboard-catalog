@@ -15,7 +15,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=viridis&rescale=0.0,100.0",
       "type": "image/png",
       "title": "Subnational Human Development Index (SHDI)",
-      "key": "fec33f9e-9165-468b-bc7b-e95cebfbad7e"
+      "key": "10b229c0-d39c-45c9-919c-791b4f630e2c"
     },
     {
       "rel": "parent",
@@ -112,6 +112,22 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "urban-health-final": {
+      "href": "https://eodashboard.org/story/?id=urban-health-final",
+      "type": "text/markdown",
+      "title": "Urban Health and Megacities: the case of New Delhi",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/urban-health-final.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
+      "roles": [
+        "metadata",
+        "story"
       ]
     },
     "thumbnail": {

@@ -168,6 +168,38 @@
         "metadata"
       ]
     },
+    "urban-health-final": {
+      "href": "https://eodashboard.org/story/?id=urban-health-final",
+      "type": "text/markdown",
+      "title": "Urban Health and Megacities: the case of New Delhi",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/urban-health-final.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "extreme_air_pollution_india_and_pakistan": {
+      "href": "https://eodashboard.org/story/?id=extreme_air_pollution_india_and_pakistan",
+      "type": "text/markdown",
+      "title": "Extreme Air Pollution Episodes in Northern India and Pakistan",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/extreme_air_pollution_india_and_pakistan.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/facebook_population_density.jpg",
       "type": "image/png",

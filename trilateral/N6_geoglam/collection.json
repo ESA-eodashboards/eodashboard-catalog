@@ -205,6 +205,38 @@
         "metadata"
       ]
     },
+    "el_nino_part_3_food_security": {
+      "href": "https://eodashboard.org/story/?id=el_nino_part_3_food_security",
+      "type": "text/markdown",
+      "title": "El Niño 2023-2024: Food Security Impacts",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/el_nino_part_3_food_security.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "world_crop_supply_and_demand": {
+      "href": "https://eodashboard.org/story/?id=world_crop_supply_and_demand",
+      "type": "text/markdown",
+      "title": "Satellites are Providing Insights into Agricultural Production, Crop Conditions, and Food Supply",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/world_crop_supply_and_demand.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N6_geoglam/N6_geoglam.jpg",
       "type": "image/png",

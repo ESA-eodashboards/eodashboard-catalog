@@ -224,14 +224,14 @@
       "SGLI"
     ],
     "cities": [
-      "Kobe",
       "Nagoya",
-      "Tokyo",
-      "Venice"
+      "Venice",
+      "Kobe",
+      "Tokyo"
     ],
     "countries": [
-      "IT",
-      "JP"
+      "JP",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.jpg"

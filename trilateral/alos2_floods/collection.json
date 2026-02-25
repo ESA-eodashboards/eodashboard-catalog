@@ -159,6 +159,22 @@
         "metadata"
       ]
     },
+    "ElNinoPart4": {
+      "href": "https://eodashboard.org/story/?id=ElNinoPart4",
+      "type": "text/markdown",
+      "title": "El Niño 2023–2024 (Part 4): Floods and Cyclone Impacts in East Africa",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/ElNinoPart4.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/alos2_floods/image.png",
       "type": "image/png",
