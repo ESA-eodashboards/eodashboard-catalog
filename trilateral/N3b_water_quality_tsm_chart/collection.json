@@ -219,19 +219,19 @@
       "GCOM-C"
     ],
     "sensor": [
-      "OLCI",
       "SGLI",
-      "MODIS"
+      "MODIS",
+      "OLCI"
     ],
     "cities": [
-      "Tokyo",
-      "Nagoya",
       "Venice",
+      "Nagoya",
+      "Tokyo",
       "Kobe"
     ],
     "countries": [
-      "JP",
-      "IT"
+      "IT",
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.jpg"

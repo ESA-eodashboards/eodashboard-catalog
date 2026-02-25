@@ -254,6 +254,38 @@
         "metadata"
       ]
     },
+    "jaxa-greenland-melting-and-darkening": {
+      "href": "https://eodashboard.org/story/?id=jaxa-greenland-melting-and-darkening",
+      "type": "text/markdown",
+      "title": "Recent Melting and Darkening of the Greenland Ice Sheet",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/jaxa-greenland-melting-and-darkening.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "thwaites-intro": {
+      "href": "https://eodashboard.org/story/?id=thwaites-intro",
+      "type": "text/markdown",
+      "title": "Collaboration on Glaciers and Ice Sheets Research",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/thwaites-intro.md",
+          "description": "Raw markdown content of the story"
+        }
+      },
+      "alternate:name": "rendered",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/4D_Greenland_Melt_Duration/thumbnail.jpg",
       "type": "image/png",
