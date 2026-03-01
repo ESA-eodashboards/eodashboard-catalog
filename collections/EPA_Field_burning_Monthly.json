@@ -26,7 +26,7 @@
   "Process": {
     "Name": "VEDA Statistics",
     "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_vega_definition.json",
+    "VegaDefinition": "EPA_Field_burning_Monthly/chart.json",
     "EndPoints": [
       {
         "Identifier": "veda_statistics",
