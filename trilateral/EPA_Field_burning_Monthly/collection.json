@@ -93,6 +93,27 @@
     "biomass"
   ],
   "subcode": "EPA_Field_burning_Monthly",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      4.5
+    ],
+    "range": [
+      "#7f00ff",
+      "#4756fb",
+      "#0da4ef",
+      "#2adcdc",
+      "#62fac3",
+      "#9cfaa3",
+      "#d4dc7f",
+      "#ffa457",
+      "#ff562b",
+      "#ff0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "10^9 [molec/cm2/s]"
+  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_vega_definition.json",
   "title": "Field Burning monthly - EPA Methane Emissions 2012",

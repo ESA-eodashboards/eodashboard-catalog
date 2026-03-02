@@ -93,6 +93,27 @@
     "biomass"
   ],
   "subcode": "EPA_Forest_fire_Methane_Daily",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      2
+    ],
+    "range": [
+      "#7f00ff",
+      "#4756fb",
+      "#0da4ef",
+      "#2adcdc",
+      "#62fac3",
+      "#9cfaa3",
+      "#d4dc7f",
+      "#ffa457",
+      "#ff562b",
+      "#ff0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "10^12 [molec/cm2/s]"
+  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_vega_definition.json",
   "title": "Forest Fires daily - EPA Methane Emissions 2012",

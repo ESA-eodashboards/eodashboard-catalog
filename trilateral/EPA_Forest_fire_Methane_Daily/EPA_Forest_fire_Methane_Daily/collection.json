@@ -15,7 +15,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=rainbow&rescale=0,2e12&nodata=0",
       "type": "image/png",
       "title": "Forest Fires daily - EPA Methane Emissions 2012",
-      "key": "a52b86fb-056a-45e1-88f3-1e2ff70f08cb"
+      "key": "f3b16a12-0d1c-4adc-9bc4-88e17012698c"
     },
     {
       "rel": "parent",
@@ -30,6 +30,27 @@
     "biomass"
   ],
   "subcode": "EPA_Forest_fire_Methane_Daily",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      2
+    ],
+    "range": [
+      "#7f00ff",
+      "#4756fb",
+      "#0da4ef",
+      "#2adcdc",
+      "#62fac3",
+      "#9cfaa3",
+      "#d4dc7f",
+      "#ffa457",
+      "#ff562b",
+      "#ff0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "10^12 [molec/cm2/s]"
+  },
   "endpointtype": "VEDA_cog",
   "title": "Forest Fires daily - EPA Methane Emissions 2012",
   "extent": {

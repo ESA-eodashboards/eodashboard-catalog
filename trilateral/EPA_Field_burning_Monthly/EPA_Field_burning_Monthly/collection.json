@@ -15,7 +15,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=rainbow&rescale=0,4.5e9",
       "type": "image/png",
       "title": "Field Burning monthly - EPA Methane Emissions 2012",
-      "key": "03d534c2-c3fe-41c3-9187-2de31c557982"
+      "key": "bd600c95-b257-4b84-8ff5-0bafd25e8e02"
     },
     {
       "rel": "parent",
@@ -30,6 +30,27 @@
     "biomass"
   ],
   "subcode": "EPA_Field_burning_Monthly",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      4.5
+    ],
+    "range": [
+      "#7f00ff",
+      "#4756fb",
+      "#0da4ef",
+      "#2adcdc",
+      "#62fac3",
+      "#9cfaa3",
+      "#d4dc7f",
+      "#ffa457",
+      "#ff562b",
+      "#ff0000"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "10^9 [molec/cm2/s]"
+  },
   "endpointtype": "VEDA_cog",
   "title": "Field Burning monthly - EPA Methane Emissions 2012",
   "extent": {
