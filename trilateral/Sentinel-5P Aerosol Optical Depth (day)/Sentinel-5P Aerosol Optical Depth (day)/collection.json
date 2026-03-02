@@ -1,0 +1,109 @@
+{
+  "type": "Collection",
+  "id": "Sentinel-5P Aerosol Optical Depth (day)",
+  "stac_version": "1.1.0",
+  "description": "## Sentinel-5P Aerosol Optical Depth (day)\nDescription here.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Sentinel-5P Aerosol Optical Depth (day)",
+      "wms:layers": [
+        "S5P-L3GRD-AOD-DAY"
+      ],
+      "role": [
+        "data"
+      ],
+      "proj:epsg": 4326
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel-5P Aerosol Optical Depth (day)"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-AOD-DAY/S5P-L3GRD-AOD-DAY_thumbnail.jpg",
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "S5P-L3GRD-AOD-DAY",
+  "sensor": [
+    "TROPOMI"
+  ],
+  "satellite": [
+    "Sentinel-5P"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      0.2,
+      10.0
+    ],
+    "range": [
+      "#dbf3e2",
+      "#5dcdac",
+      "#3495a8",
+      "#395c9b",
+      "#372952",
+      "#0b0305"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".2f",
+    "title": "Aerosol Optical Depth @ 494 nm"
+  },
+  "proj:epsg": 4326,
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Sentinel-5P Aerosol Optical Depth (day)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-07-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-AOD-DAY/S5P-L3GRD-AOD-DAY_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-AOD-DAY/S5P-L3GRD-AOD-DAY_thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}
