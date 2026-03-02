@@ -1,7 +1,22 @@
 {
-  "Name": "Sentinel-5P Aerosol Layer Height (day)",
-  "Title": "Sentinel-5P Aerosol Layer Height (day)",
+  "Name": "Aerosol Layer Height (ALH) by Sentinel-5P TROPOMI (Daily)",
+  "Title": "Aerosol Layer Height (ALH) by Sentinel-5P TROPOMI (Daily)",
   "Description": "S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY.md",
+  "Themes": [
+    "atmosphere"
+  ],
+  "Tags": [
+    "Aerosol",
+    "Atmosphere",
+    "Particles",
+    "Dust",
+    "Ash",
+    "ALH",
+    "Open data",
+    "Open Science",
+    "S5P",
+    "Copernicus"
+  ],
   "DataSource": {
     "Spaceborne": {
       "Satellite": [
@@ -14,6 +29,12 @@
   },
   "Agency": [
     "ESA"
+  ],
+  "Provider": [
+    {
+      "Name": "Copernicus",
+      "Url": "https://maps.s5p-pal.com/alh/"
+    }
   ],
   "Image": "S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY_thumbnail.jpg",
   "Colorlegend": {
