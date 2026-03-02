@@ -222,25 +222,25 @@
       "PS2"
     ],
     "cities": [
-      "Suez",
       "Gdynia",
-      "New York",
-      "Hamburg",
-      "Dunkirk",
-      "Suez ",
       "San Francisco",
       "Ghent",
+      "Suez ",
       "Genoa",
-      "Los Angeles"
+      "Dunkirk",
+      "Los Angeles",
+      "Hamburg",
+      "New York",
+      "Suez"
     ],
     "countries": [
-      "US",
-      "FR",
-      "IT",
       "BE",
-      "DE",
+      "EG",
+      "US",
+      "IT",
+      "FR",
       "PL",
-      "EG"
+      "DE"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg"

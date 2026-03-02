@@ -228,20 +228,20 @@
       "TANSO-FTS"
     ],
     "cities": [
-      "New York",
-      "Tokyo",
-      "Shanghai",
-      "Dhaka",
       "Mumbai",
+      "Shanghai",
+      "New York",
       "Beijing",
+      "Tokyo",
+      "Dhaka",
       "New Delhi"
     ],
     "countries": [
       "JP",
-      "US",
       "BD",
-      "CN",
-      "IN"
+      "IN",
+      "US",
+      "CN"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg"
