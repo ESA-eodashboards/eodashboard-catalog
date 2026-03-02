@@ -1,0 +1,48 @@
+{
+  "Name": "Sentinel-5P Aerosol Optical Depth (day)",
+  "Title": "Sentinel-5P Aerosol Optical Depth (day)",
+  "Description": "S5P-L3GRD-AOD-DAY/S5P-L3GRD-AOD-DAY.md",
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [
+        "Sentinel-5P"
+      ],
+      "Sensor": [
+        "TROPOMI"
+      ]
+    }
+  },
+  "Agency": [
+    "ESA"
+  ],
+  "Image": "S5P-L3GRD-AOD-DAY/S5P-L3GRD-AOD-DAY_thumbnail.jpg",
+  "Colorlegend": {
+    "domain": [
+      0.2,
+      10.0
+    ],
+    "range": [
+      "#dbf3e2",
+      "#5dcdac",
+      "#3495a8",
+      "#395c9b",
+      "#372952",
+      "#0b0305"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".2f",
+    "title": "Aerosol Optical Depth @ 494 nm"
+  },
+  "Legend": "S5P-L3GRD-AOD-DAY/S5P-L3GRD-AOD-DAY_legend.png",
+  "EodashIdentifier": "S5P-L3GRD-AOD-DAY",
+  "Resources": [
+    {
+      "EndPoint": "https://services.sentinel-hub.com",
+      "Name": "Sentinel Hub",
+      "Type": "byoc",
+      "CollectionId": "53d472ef-072e-4aa6-a916-effbaf73d46d",
+      "LayerId": "S5P-L3GRD-AOD-DAY",
+      "DataProjection": 4326
+    }
+  ]
+}
