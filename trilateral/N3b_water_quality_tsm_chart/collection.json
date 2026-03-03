@@ -219,15 +219,15 @@
       "GCOM-C"
     ],
     "sensor": [
-      "SGLI",
       "MODIS",
+      "SGLI",
       "OLCI"
     ],
     "cities": [
       "Tokyo",
       "Kobe",
-      "Venice",
-      "Nagoya"
+      "Nagoya",
+      "Venice"
     ],
     "countries": [
       "JP",

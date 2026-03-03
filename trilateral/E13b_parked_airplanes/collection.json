@@ -244,37 +244,37 @@
       "Sentinel-2"
     ],
     "sensor": [
+      "PSB.SD",
       "MSI",
-      "C-SAR",
       "PALSAR-2",
-      "PSB.SD"
+      "C-SAR"
     ],
     "cities": [
-      "Paris",
-      "Beijing Daxing",
-      "Oakland",
       "Beijing",
-      "New York",
-      "Heathrow",
-      "San Jose",
       "Rome",
-      "San Francisco",
-      "Hayward",
-      "Ontario",
-      "Marin",
+      "Paris",
       "Buchannan",
+      "San Jose",
+      "Hayward",
+      "Los Angeles",
+      "Heathrow",
+      "Ontario",
+      "New York",
       "Narita",
-      "Newark",
+      "Beijing Daxing",
       "Napa",
-      "Los Angeles"
+      "Oakland",
+      "Newark",
+      "Marin",
+      "San Francisco"
     ],
     "countries": [
-      "CN",
-      "GB",
       "JP",
+      "IT",
+      "GB",
       "US",
-      "FR",
-      "IT"
+      "CN",
+      "FR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg"
