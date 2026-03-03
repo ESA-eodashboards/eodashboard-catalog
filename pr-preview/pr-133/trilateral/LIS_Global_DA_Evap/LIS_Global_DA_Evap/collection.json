@@ -1,0 +1,127 @@
+{
+  "type": "Collection",
+  "id": "LIS_Global_DA_Evap",
+  "stac_version": "1.1.0",
+  "description": "# Evapotranspiration - LIS 10km Global DA\n\n## Dataset Description: \nDataset represents Gridded total evapotranspiration (in kg m-2 s-1) from 10km global LIS with assimilation.\n\n- Resolution: 10km\n- GeographicalCoverage: Global\n- TemporalAvailability: \"['2002-08-02', '2021-12-01']\"\n- TemporalResolution: daily\n- Host: \"[VEDA](https://www.earthdata.nasa.gov/esds/veda)\"\n\n## Data Access\n\n- \"[VEDA Catalog](https://openveda.cloud/api/stac/collections/lis-global-da-evap)\"\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=viridis&rescale=0,0.0001",
+      "type": "image/png",
+      "title": "Evapotranspiration LIS",
+      "key": "eb86a73c-a154-42ae-9991-8af024fea50a"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Evapotranspiration LIS"
+    }
+  ],
+  "subtitle": "Total evapotranspiration gridded from 10km global LIS with assimilation",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LIS_Global_DA_Evap/thumbnail.jpg",
+  "themes": [
+    "biomass"
+  ],
+  "tags": [
+    "Evapotranspiration",
+    "Water cycle",
+    "climate change",
+    "Open data",
+    "Soil moisture",
+    "Drought",
+    "NASA",
+    "Water resources",
+    "Assimilation",
+    "VEDA"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "LIS_Global_DA_Evap",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      100
+    ],
+    "range": [
+      "#440154",
+      "#481c6e",
+      "#453581",
+      "#3d4d8a",
+      "#34618d",
+      "#2b748e",
+      "#24878e",
+      "#1f998a",
+      "#25ac82",
+      "#40bd72",
+      "#67cc5c",
+      "#98d83e",
+      "#cde11d",
+      "#fde725"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "mg/m2/s"
+  },
+  "endpointtype": "VEDA_cog",
+  "title": "Evapotranspiration LIS",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.9500000157243,
+          -59.98224871364589,
+          179.9973980503783,
+          89.9999999874719
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2002-08-02T00:00:00Z",
+          "2021-12-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "VEDA",
+      "description": "NASA's Visualization, Exploration, and Data Analysis (VEDA) project is an open-source science cyberinfrastructure for data processing, visualization, exploration, and geographic information systems (GIS) capabilities.",
+      "url": "https://www.earthdata.nasa.gov/esds/veda"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LIS_Global_DA_Evap/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LIS_Global_DA_Evap/thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "type": "Collection",
+  "id": "RECCAP2_2_AGC_LVOD_amazonia_smooth_max_crop",
+  "stac_version": "1.1.0",
+  "description": "# Aboveground carbon\n\nDataset contributed by: [ESA CCI RECCAP2](https://climate.esa.int/en/projects/reccap-2/)\n\nAboveground carbon [MgC/ha] (2011-2019) derived from different L-VOD indices calibrated to AGC using the ESA CCI biomass map. Provides data based on different filtering methods (smoothed, max and trend) as well as their mean.\nUnits: MgC/ha\n\n\n### Additional information:\n\n- The data shown is served from the [CCI RECCAP2 xcube server](https://reccap2.viewer.brockmann-consult.de/)\n- [Amazon biomass in decline due to deforestation and degradation](https://climate.esa.int/en/news-events/amazon-biomass-in-decline-due-to-deforestation-and-degradation/)\n- [Younger trees champion carbon capture](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/SMOS/Younger_trees_champion_carbon_capture)\n- [ESA results on display at COP27](https://www.esa.int/Applications/Observing_the_Earth/Space_for_our_climate/ESA_results_on_display_at_COP27)\n- [Satellites improve national reporting of greenhouse gases](https://www.esa.int/Applications/Observing_the_Earth/Space_for_our_climate/Satellites_improve_national_reporting_of_greenhouse_gases)\n- [Counting carbon](https://www.esa.int/ESA_Multimedia/Videos/2021/07/Counting_carbon)\n- [Growth A toolkit for analyzing secondary forest aboveground carbon dynamics in the Brazilian Amazon](https://www.frontiersin.org/articles/10.3389/ffgc.2023.1230734)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./RECCAP2_2_AGC_LVOD_amazonia_smooth_max_crop/collection.json",
+      "type": "application/json",
+      "title": "Smooth max aboveground carbon (CCI RECCAP2)",
+      "endpointtype": "xcube_zarr",
+      "code": "RECCAP2_2",
+      "id": "RECCAP2_2_AGC_LVOD_amazonia_smooth_max_crop",
+      "themes": [
+        "biomass"
+      ],
+      "providers": [
+        "ESA"
+      ],
+      "yAxis": "Mg C ha",
+      "tags": [
+        "Amazon rainforest",
+        "Open data",
+        "Carbon",
+        "Forest"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "RECCAP2_2",
+      "sensor": [
+        "MIRAS"
+      ],
+      "satellite": [
+        "SMOS"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://reccap2.api.brockmann-consult.de/api/timeseries/cop28~reccap2-9x108x139-0.0.1.zarr/AGC_LVOD_amazonia_smooth_max_crop?aggMethods=median",
+      "type": "application/json",
+      "id": "xcube_statistics",
+      "method": "POST",
+      "body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_body.json"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "sci:publications": [
+    {
+      "citation": "SMOS-IC passive microwave satellite images L-VOD product (version 2.0), Wigneron, J.-P., Li, X., Frappart F., Fan L., Al-Yaari A., De Lannoy G., Liu X., Wang M., Le Masson E., Moisy C. (2021). \nSMOS-IC data record of soil moisture and L-VOD. Historical development, applications and perspectives, Remote Sens. Env., 254, 112238.\n",
+      "doi": "10.1016/j.rse.2020.112238"
+    },
+    {
+      "citation": "Fawcett, Dominic, Sitch, Stephen, Ciais, Philippe, Wigneron, Jean Pierre, Silva-Junior, Celso H. L., Heinrich, Viola, Vancutsem, Christelle, Achard, Frédéric, Bastos, Ana, Yang, Hui, Li, Xiaojun, Albergel, Clément, Friedlingstein, Pierre, & Aragão, Luiz E. O. C. (2022). \nProcessed Data for Figures of 'Declining Amazon biomass due to deforestation and subsequent degradation losses exceeding gains' (Version v1) [Data set]. Zenodo.\n",
+      "doi": "10.5281/zenodo.7245450"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/World-RECCAP2_1.jpg",
+  "themes": [
+    "biomass"
+  ],
+  "tags": [
+    "Amazon rainforest",
+    "Open data",
+    "Carbon",
+    "Forest"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "RECCAP2_2",
+  "sensor": [
+    "MIRAS"
+  ],
+  "satellite": [
+    "SMOS"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      150
+    ],
+    "range": [
+      "#eeedf3",
+      "#e1d8d3",
+      "#d7c4ad",
+      "#beb68e",
+      "#9dab81",
+      "#7aa076",
+      "#54946f",
+      "#28886e",
+      "#08776e",
+      "#06656b",
+      "#185364",
+      "#234057",
+      "#252e47",
+      "#221b38"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "[Mg C/ha]"
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_2_AGC_LVOD_amazonia_smooth_max_crop/chart.json",
+  "title": "Smooth max aboveground carbon (CCI RECCAP2)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -79.0,
+          -18.25,
+          -44.25,
+          8.75
+        ],
+        [
+          -79.0,
+          -18.25,
+          -44.25,
+          8.75
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2011-01-01T00:00:00Z",
+          "2019-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "ESA",
+      "roles": [
+        "licensor, producer, processor"
+      ],
+      "url": "https://climate.esa.int/en/projects/reccap-2/"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "RECCAP2_2"
+    ],
+    "themes": [
+      "biomass"
+    ],
+    "satellite": [
+      "SMOS"
+    ],
+    "sensor": [
+      "MIRAS"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/World-RECCAP2_1.jpg"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/RECCAP2_1_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/World-RECCAP2_1.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://climate.esa.int/en/projects/reccap-2/",
+      "type": "text/html",
+      "title": "RECCAP-2",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://reccap2.viewer.brockmann-consult.de/",
+      "type": "text/html",
+      "title": "CCI RECCAP2 xcube Viewer",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://climate.esa.int/en/news-events/amazon-biomass-in-decline-due-to-deforestation-and-degradation/",
+      "type": "text/html",
+      "title": "Amazon biomass in decline due to deforestation and degradation",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_4": {
+      "href": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/SMOS/Younger_trees_champion_carbon_capture",
+      "type": "text/html",
+      "title": "Younger trees champion carbon capture",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_5": {
+      "href": "https://www.esa.int/Applications/Observing_the_Earth/Space_for_our_climate/ESA_results_on_display_at_COP27",
+      "type": "text/html",
+      "title": "ESA results on display at COP27",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_6": {
+      "href": "https://www.esa.int/Applications/Observing_the_Earth/Space_for_our_climate/Satellites_improve_national_reporting_of_greenhouse_gases",
+      "type": "text/html",
+      "title": "Satellites improve national reporting of greenhouse gases",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_7": {
+      "href": "https://www.esa.int/ESA_Multimedia/Videos/2021/07/Counting_carbon",
+      "type": "text/html",
+      "title": "Counting carbon",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_8": {
+      "href": "https://www.frontiersin.org/articles/10.3389/ffgc.2023.1230734",
+      "type": "text/html",
+      "title": "Growth A toolkit for analyzing secondary forest aboveground carbon dynamics in the Brazilian Amazon",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

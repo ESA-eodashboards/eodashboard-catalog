@@ -1,0 +1,267 @@
+{
+  "type": "Collection",
+  "id": "Vanern",
+  "stac_version": "1.1.0",
+  "description": "Vänern",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "type": "text/html"
+    },
+    {
+      "rel": "example",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_SWT_surface_water_temperature/Lakes_SWT_surface_water_temperature.js",
+      "type": "application/javascript",
+      "title": "evalscript",
+      "example:language": "JavaScript",
+      "dataId": "byoc-9fdb8c27-9000-4912-b715-1465f840a1db"
+    },
+    {
+      "rel": "example",
+      "href": "https://eurodatacube.com/notebooks/curated/EDC_Access_CCI_data.ipynb",
+      "type": "application/x-ipynb+json",
+      "title": "Accessing CCI data with xcube",
+      "example:language": "Jupyter Notebook",
+      "example:container": true
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Lakes surface water temperature",
+      "wms:layers": [
+        "LAKES_SURFACE_WATER_TEMPERATURE"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "service",
+      "href": "https://services.sentinel-hub.com/api/v1/statistics",
+      "type": "application/json",
+      "id": "sentinelhub-statistics",
+      "method": "POST",
+      "endpoint": "sentinelhub"
+    },
+    {
+      "rel": "license",
+      "href": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "type": "text/html"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Lakes surface water temperature"
+    }
+  ],
+  "sci:publications": [
+    {
+      "citation": "Carrea, L., Crétaux, JF., Liu, X. et al. Satellite-derived multivariate world-wide lake physical variable timeseries for climate studies. Sci Data 10, 30 (2023).",
+      "doi": "10.1038/s41597-022-01889-z"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_SWT_surface_water_temperature/Lakes_SWT_surface_water_temperature.jpg",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Climate Change Initiative",
+    "Water quality",
+    "Multi-sensors",
+    "Open data"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Lakes_SWT",
+  "satellite": [
+    "Other"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      270,
+      310
+    ],
+    "range": [
+      "#274f85",
+      "#568dba",
+      "#80aecf",
+      "#c5dbe9",
+      "#f6f6f6",
+      "#f3d3c0",
+      "#e3a48e",
+      "#b7534a",
+      "#812028"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Lake Surface Temperature [K]"
+  },
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_SWT_surface_water_temperature/chart.json",
+  "title": "Vänern",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          12.283333333333328,
+          58.34166666666667,
+          14.158333333333335,
+          59.42499999999999
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2010-01-01T00:00:00Z",
+          "2020-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "ESA",
+      "url": "https://www.esa.int/"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_SWT_surface_water_temperature/SWT_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_SWT_surface_water_temperature/Lakes_SWT_surface_water_temperature.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://climate.esa.int/en/projects/lakes/key-documents-lakes/",
+      "type": "text/html",
+      "title": "Data Documentation",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://climate.esa.int/en/projects/lakes/about/",
+      "type": "text/html",
+      "title": "CCI Lakes project website",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://catalogue.ceda.ac.uk/uuid/a07deacaffb8453e93d57ee214676304",
+      "type": "text/html",
+      "title": "Data Source",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_4": {
+      "href": "https://www.earthsystemdatalab.net/",
+      "type": "text/html",
+      "title": "DeepESDL (Earth System Data Lab)",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_5": {
+      "href": "https://viewer.earthsystemdatalab.net/",
+      "type": "text/html",
+      "title": "Lexcube - visualise datasets in a 3D cube",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_6": {
+      "href": "https://viewer.earthsystemdatalab.net/",
+      "type": "text/html",
+      "title": "xcube viewer - visualise DeepESDL datacubes (zarr) on the web",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_7": {
+      "href": "https://collections.eurodatacube.com/climate-change-initiative/",
+      "type": "text/html",
+      "title": "Euro Data Cube CCI Essential Climate Variables collection",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

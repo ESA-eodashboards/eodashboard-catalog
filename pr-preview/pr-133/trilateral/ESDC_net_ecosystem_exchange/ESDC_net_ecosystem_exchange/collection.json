@@ -1,0 +1,112 @@
+{
+  "type": "Collection",
+  "id": "ESDC_net_ecosystem_exchange",
+  "stac_version": "1.1.0",
+  "description": "# Net Ecosystem Exchange\n\nNet carbon exchange between the ecosystem and the atmosphere\n\n\n### Additional information\n\n- The data shown is served from the [Earth System Data Lab xcube server](https://viewer.earthsystemdatalab.net/)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://api.earthsystemdatalab.net/api/tiles/esdc/net_ecosystem_exchange/{z}/{y}/{x}?crs=EPSG:3857&time={time}&vmin=-7&vmax=2&cbar=bwr",
+      "type": "image/png",
+      "title": "Land Net Ecosystem Exchange"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Land Net Ecosystem Exchange"
+    }
+  ],
+  "sci:publications": [
+    {
+      "citation": "Tramontana, G., Jung, M., Schwalm, C. R., Ichii, K., Camps-Valls, G., Ráduly, B., Reichstein, M., Arain, M. A., Cescatti, A., Kiely, G., Merbold, L., Serrano-Ortiz, P., Sickert, S., Wolf, S., and Papale, D. \nPredicting carbon dioxide and energy fluxes across global FLUXNET sites with regression algorithms, Biogeosciences, 13, 4291–4313.\n",
+      "doi": "10.5194/bg-13-4291-2016, 2016"
+    }
+  ],
+  "subtitle": "Net carbon exchange between the ecosystem and the atmosphere",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_net_ecosystem_exchange/ESDC_net_ecosystem_exchange.jpg",
+  "yAxis": "g C m^-2 d^-1",
+  "themes": [
+    "biomass"
+  ],
+  "tags": [
+    "CO2",
+    "Atmosphere",
+    "Photosynthesis",
+    "Open data",
+    "Carbon"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "ESDC_net_ecosystem_exchange",
+  "sensor": [
+    "MODIS"
+  ],
+  "satellite": [
+    "Terra"
+  ],
+  "endpointtype": "xcube_zarr",
+  "title": "Land Net Ecosystem Exchange",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2014-01-05T00:00:00Z",
+          "2018-12-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "NASA",
+      "roles": [
+        "licensor, producer, processor"
+      ],
+      "url": "https://terra.nasa.gov/data/modis-data"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_net_ecosystem_exchange/ESDC_net_ecosystem_exchange.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://viewer.earthsystemdatalab.net/",
+      "type": "text/html",
+      "title": "Data served from the Earth System Data Lab xcube server",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}
