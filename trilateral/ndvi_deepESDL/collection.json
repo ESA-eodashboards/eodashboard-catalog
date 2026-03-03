@@ -102,6 +102,28 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "eodash:stories": {
+    "scienceHub_timeSeries_vegetation": {
+      "href": "https://eodashboard.org/story/?id=scienceHub_timeSeries_vegetation",
+      "type": "text/markdown",
+      "title": "Evaluating Time Series Interpolation Techniques for Vegetation Monitoring Using Remote Sensing Data",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/scienceHub_timeSeries_vegetation.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_NDVI/ESDC_NDVI.png",
   "themes": [
     "land"
@@ -184,13 +206,15 @@
       "href": "https://eodashboard.org/story/?id=scienceHub_timeSeries_vegetation",
       "type": "text/markdown",
       "title": "Evaluating Time Series Interpolation Techniques for Vegetation Monitoring Using Remote Sensing Data",
+      "description": "Rendered page of the story",
       "alternate": {
         "raw": {
           "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/scienceHub_timeSeries_vegetation.md",
-          "description": "Raw markdown content of the story"
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
         }
       },
-      "alternate:name": "rendered",
+      "alternate:name": "rendered story page",
       "roles": [
         "metadata",
         "story"

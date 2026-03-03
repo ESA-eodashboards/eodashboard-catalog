@@ -21,7 +21,7 @@
       "role": [
         "data"
       ],
-      "key": "a65c6de3-922b-48a5-9e88-2074446e897a"
+      "key": "b440ef67-c508-4af2-8600-6b0c4de935bb"
     },
     {
       "rel": "parent",
@@ -30,6 +30,28 @@
       "title": "Floods maps in East Africa"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "eodash:stories": {
+    "ElNinoPart4": {
+      "href": "https://eodashboard.org/story/?id=ElNinoPart4",
+      "type": "text/markdown",
+      "title": "El Niño 2023–2024 (Part 4): Floods and Cyclone Impacts in East Africa",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/ElNinoPart4.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/alos2_floods/image.png",
   "themes": [
     "extreme-events"
@@ -100,13 +122,15 @@
       "href": "https://eodashboard.org/story/?id=ElNinoPart4",
       "type": "text/markdown",
       "title": "El Niño 2023–2024 (Part 4): Floods and Cyclone Impacts in East Africa",
+      "description": "Rendered page of the story",
       "alternate": {
         "raw": {
           "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/ElNinoPart4.md",
-          "description": "Raw markdown content of the story"
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
         }
       },
-      "alternate:name": "rendered",
+      "alternate:name": "rendered story page",
       "roles": [
         "metadata",
         "story"

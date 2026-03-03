@@ -240,19 +240,19 @@
     "satellite": [
       "Landsat-8",
       "Sentinel-2",
-      "ALOS-2",
-      "GCOM-C"
+      "GCOM-C",
+      "ALOS-2"
     ],
     "sensor": [
-      "OLI",
-      "MSI",
       "PALSAR-2",
-      "SGLI"
+      "SGLI",
+      "MSI",
+      "OLI"
     ],
     "cities": [
-      "Yolo",
       "Glenn",
       "Glenn (GCOM-C)",
+      "Yolo",
       "Colusa"
     ],
     "countries": [
