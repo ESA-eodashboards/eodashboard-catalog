@@ -1,7 +1,43 @@
 {
-  "Name": "Sentinel-5P Absorbing Aerosol Index (day)",
-  "Title": "Sentinel-5P Absorbing Aerosol Index (day)",
+  "Name": "Absorbing Aerosol Index (AAI) by Sentinel-5P TROPOMI (Daily)",
+  "Title": "Absorbing Aerosol Index (AAI) by Sentinel-5P TROPOMI (Daily)",
   "Description": "S5P-L3GRD-AAI-DAY/S5P-L3GRD-AAI-DAY.md",
+  "Themes": [
+    "atmosphere"
+  ],
+  "Tags": [
+    "UV",
+    "Atmosphere",
+    "Particles",
+    "Polution",
+    "Ash",
+    "AAI",
+    "UVAI",
+    "Open data",
+    "Open Science",
+    "S5P",
+    "Copernicus"
+  ],
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [
+        "Sentinel-5P"
+      ],
+      "Sensor": [
+        "TROPOMI"
+      ]
+    }
+  },
+  "Agency": [
+    "ESA"
+  ],
+  "Provider": [
+   {
+      "Name": "Copernicus",
+      "Url": "https://maps.s5p-pal.com/aai/"
+    }
+  ],
+  "Image": "S5P-L3GRD-AAI-DAY/S5P-L3GRD-AAI-DAY_thumbnail.jpg",
   "Colorlegend": {
     "domain": [
       1.0,
