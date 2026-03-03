@@ -306,19 +306,19 @@
   ],
   "summaries": {
     "cities": [
-      "Biwa Lake",
-      "Aral Lake",
       "Tonlé Sap Lake",
+      "Aral Lake",
+      "Biwa Lake",
       "Vänern Lake",
       "Balaton Lake"
     ],
     "countries": [
-      "SW",
       "KZ",
       "KH",
       "JP",
-      "HU",
-      "UZ"
+      "UZ",
+      "SW",
+      "HU"
     ]
   },
   "assets": {
