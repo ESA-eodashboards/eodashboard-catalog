@@ -281,7 +281,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".2f",
-    "title": "Diffuse attenuation coefficient blue [m^(-1)]",
+    "title": "Diffuse attenuation coefficient blue [m\u207B\u00B1]",
     "tickValues": [
       0.01,
       0.03,
