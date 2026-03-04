@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Sentinel-5P Aerosol Optical Depth (day)",
+  "id": "Aerosol Optical Depth (AOD) by Sentinel-5P TROPOMI (Daily)",
   "stac_version": "1.1.0",
-  "description": "## Aerosol Optical Depth (AOD) by Sentinel-5P TROPOMI (Daily)\n\nThe Aerosol Optical Depth (AOD), also referred to as Aerosol Optical Thickness (AOT), quantifies the total columnar load of aerosols in the atmosphere by measuring how much sunlight is attenuated due to scattering and absorption by particles between the Earth’s surface and the top of the atmosphere.\n\nUnlike aerosol height products, AOD does not provide vertical information. Instead, it indicates the overall abundance of aerosols in the atmospheric column: higher AOD values correspond to hazier conditions and larger aerosol burdens, while low values indicate relatively clean air.\n\n#### About the dataset\n\n- The AOD product is derived from measurements by the [TROPOMI instrument](https://www.tropomi.eu/) aboard ESA’s [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P) satellite.\n- It provides daily global observations of aerosol optical thickness across cloud-free scenes.\n- The dataset captures the spatial distribution of aerosols from both natural sources (e.g. desert dust, volcanic ash, sea salt) and anthropogenic sources (e.g. industrial pollution, biomass burning).\n- In addition to daily maps, the platform provides monthly, seasonal, and yearly moving averages to support analysis of longer-term variability and trends.\n- Together with the Sentinel-5P Aerosol Index and Sentinel-5P Aerosol Layer Height products, AOD forms part of the Copernicus global aerosol monitoring suite.\n\n#### Use cases\n\nAOD is widely used to monitor and analyse the spatial and temporal distribution of aerosols on regional to global scales. Applications include:\n\nAir quality assessment and pollution monitoring\n\nTracking desert dust and wildfire smoke transport\n\nVolcanic ash monitoring\n\nClimate research, including aerosol radiative forcing studies\n\nValidation and assimilation in atmospheric and transport models\n\nBecause AOD represents the integrated aerosol load in the atmospheric column, it is particularly useful for identifying large-scale aerosol events and assessing their evolution over time.\n",
+  "description": "## Aerosol Optical Depth (AOD) by Sentinel-5P TROPOMI (Daily)\n\nThe Aerosol Optical Depth (AOD), also referred to as **Aerosol Optical Thickness (AOT)**, quantifies the **total column amount of aerosols by measuring how strongly particles scatter and absorb sunlight** between the surface and the top of the atmosphere.\n\nUnlike [aerosol height products](https://eodashboard.org/explore/?x=0.0000&y=0.0000&z=2.3432&template=expert&indicator=S5P-L3GRD-ALH-DAY&datetime=2025-01-06), AOD does not provide vertical information. Instead, it indicates the overall abundance of aerosols in the atmospheric column: higher AOD values correspond to hazier conditions and larger aerosol burdens, while low values indicate relatively clean air.\n\n#### About the dataset\n\n- The AOD product is derived from measurements by the [TROPOMI instrument](https://www.tropomi.eu/) aboard ESA’s [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P) satellite.\n- It provides daily global spatial distribution of aerosol optical thickness across cloud-free scenes.\n- The [retrieval algorithm](https://data-portal.s5p-pal.com/product-docs/aot/s5p_aot_pum_v2.1.0_signed.pdf) derives aerosol optical thickness in the 340–494 nm wavelength range, selected because it contains important information on aerosol absorption.\n- The dataset captures the spatial distribution of aerosols from both natural sources (e.g. desert dust, volcanic ash, sea salt) and anthropogenic sources (e.g. industrial pollution, biomass burning).\n- Together with the Sentinel-5P [Aerosol Absorbing Index (AAI)](https://eodashboard.org/explore/?x=0.0000&y=0.0000&z=2.4959&template=expert&indicator=S5P-L3GRD-AAI-DAY&datetime=2024-01-24) and [Aerosol Layer Height (ALH)](https://eodashboard.org/explore/?x=15.0000&y=18.3149&z=2.3450&template=expert&indicator=S5P-L3GRD-ALH-DAY&datetime=2025-01-06) products, AOD forms part of the Copernicus global aerosol monitoring suite.\n\n#### Use cases\n\nAOD is particularly useful for identifying large-scale aerosol events and assessing their evolution over time.Applications include:\n- Air quality assessment and pollution monitoring\n- Tracking desert dust and wildfire smoke transport\n- Volcanic ash monitoring\n- Climate research, including aerosol radiative forcing studies\n- Validation and assimilation in atmospheric and transport models\n\n\n",
   "links": [
     {
       "rel": "root",
@@ -12,12 +12,30 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel-5P Aerosol Optical Depth (day)/collection.json",
+      "href": "./Aerosol Optical Depth (AOD) by Sentinel-5P TROPOMI (Daily)/collection.json",
       "type": "application/json",
-      "title": "Sentinel-5P Aerosol Optical Depth (day)",
+      "title": "Aerosol Optical Depth (AOD) by Sentinel-5P TROPOMI (Daily)",
       "endpointtype": "Sentinel Hub_byoc",
       "code": "S5P-L3GRD-AOD-DAY",
-      "id": "Sentinel-5P Aerosol Optical Depth (day)",
+      "id": "Aerosol Optical Depth (AOD) by Sentinel-5P TROPOMI (Daily)",
+      "themes": [
+        "atmosphere"
+      ],
+      "providers": [
+        "Copernicus"
+      ],
+      "tags": [
+        "Aerosol",
+        "Atmosphere",
+        "Particles",
+        "Dust",
+        "Ash",
+        "AOD",
+        "Open data",
+        "Open Science",
+        "S5P",
+        "Copernicus"
+      ],
       "agency": [
         "ESA"
       ],
@@ -85,6 +103,21 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-AOD-DAY/S5P-L3GRD-AOD-DAY_thumbnail.jpg",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "Aerosol",
+    "Atmosphere",
+    "Particles",
+    "Dust",
+    "Ash",
+    "AOD",
+    "Open data",
+    "Open Science",
+    "S5P",
+    "Copernicus"
+  ],
   "agency": [
     "ESA"
   ],
@@ -101,7 +134,6 @@
       10.0
     ],
     "range": [
-      "#d2efda",
       "#d2efda",
       "#d0eed9",
       "#cdeed6",
@@ -370,7 +402,7 @@
       10.0
     ]
   },
-  "title": "Sentinel-5P Aerosol Optical Depth (day)",
+  "title": "Aerosol Optical Depth (AOD) by Sentinel-5P TROPOMI (Daily)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -398,9 +430,18 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://maps.s5p-pal.com/aod-494nm/day/"
+    }
+  ],
   "summaries": {
     "subcode": [
       "S5P-L3GRD-AOD-DAY"
+    ],
+    "themes": [
+      "atmosphere"
     ],
     "satellite": [
       "Sentinel-5P"
