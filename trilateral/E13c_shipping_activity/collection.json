@@ -240,29 +240,29 @@
       "PlanetScope"
     ],
     "sensor": [
-      "MSI",
-      "PS2"
+      "PS2",
+      "MSI"
     ],
     "cities": [
-      "Suez ",
-      "Los Angeles",
-      "Suez",
-      "San Francisco",
-      "Genoa",
+      "Dunkirk",
       "Gdynia",
       "Hamburg",
       "Ghent",
-      "Dunkirk",
-      "New York"
+      "Los Angeles",
+      "San Francisco",
+      "New York",
+      "Suez",
+      "Suez ",
+      "Genoa"
     ],
     "countries": [
+      "FR",
       "IT",
-      "PL",
-      "EG",
       "DE",
       "BE",
       "US",
-      "FR"
+      "EG",
+      "PL"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg"
