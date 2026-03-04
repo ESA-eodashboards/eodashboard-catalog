@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Sentinel-5P Cloud Fraction (day)",
+  "id": "Cloud Fraction (CF) by Sentinel-5P TROPOMI (Daily)",
   "stac_version": "1.1.0",
   "description": "## Cloud Fraction (CF) by Sentinel-5P TROPOMI (Daily)\n\nThe Cloud Fraction (CF) quantifies the **portion of a satellite pixel covered by clouds**, providing a measure of cloud coverage at a given location. Cloud fraction is a key parameter for understanding the impact of clouds on radiation, weather, and atmospheric composition.\n\nCF is especially important for satellite trace gas retrievals, as clouds can obscure or scatter the atmospheric signal. Accurate knowledge of cloud coverage ensures the reliability of measurements for gases like ozone, nitrogen dioxide, and methane.\n\nCF provides a **horizontal coverage metric** rather than vertical structure, complementing other cloud parameters such as [Cloud Top Height (CTH)](https://eodashboard.org/explore/?x=0.0000&y=0.0000&z=2.5934&template=expert&indicator=S5P-L3GRD-CLOUDTH-DAY&datetime=2025-02-28).\n\n#### About the dataset\n\n- The CF product is derived from measurements by the [TROPOMI instrument](https://www.tropomi.eu/) aboard Copernicus ESA's [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P) satellite.\n\n\n\n#### Use cases\nThe CF product, combined with [Cloud Top Height (CTH)](https://eodashboard.org/explore/?x=0.0000&y=0.0000&z=2.5934&template=expert&indicator=S5P-L3GRD-CLOUDTH-DAY&datetime=2025-02-28), provides a comprehensive view of cloud properties, supporting both operational and scientific applications in atmospheric monitoring.  Some of applications of this CF products are:\n- Improving trace gas retrievals by correcting for cloud contamination\n- Monitoring cloud coverage at regional and global scales\n- Climate studies: cloud-radiation interactions and cloud feedbacks\n- Weather analysis: cloud distribution and convection patterns\n- Validation of atmospheric models and satellite cloud retrieval algorithms\n",
   "links": [
@@ -14,7 +14,7 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
-      "title": "Sentinel-5P Cloud Fraction (day)",
+      "title": "Cloud Fraction (CF) by Sentinel-5P TROPOMI (Daily)",
       "wms:layers": [
         "S5P-L3GRD-CLOUDFR-DAY"
       ],
@@ -27,10 +27,24 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-5P Cloud Fraction (day)"
+      "title": "Cloud Fraction (CF) by Sentinel-5P TROPOMI (Daily)"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-CLOUDFR-DAY/S5P-L3GRD-CLOUDFR-DAY_thumbnail.jpg",
+  "themes": [
+    "atmosphere",
+    "clouds"
+  ],
+  "tags": [
+    "Cloud",
+    "Cloud Fraction",
+    "CF",
+    "Atmosphere",
+    "Open data",
+    "Open Science",
+    "S5P",
+    "Copernicus"
+  ],
   "agency": [
     "ESA"
   ],
@@ -318,7 +332,7 @@
   },
   "proj:epsg": 4326,
   "endpointtype": "Sentinel Hub_byoc",
-  "title": "Sentinel-5P Cloud Fraction (day)",
+  "title": "Cloud Fraction (CF) by Sentinel-5P TROPOMI (Daily)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -340,6 +354,12 @@
     }
   },
   "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://maps.s5p-pal.com/cloud-fraction/"
+    }
+  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
