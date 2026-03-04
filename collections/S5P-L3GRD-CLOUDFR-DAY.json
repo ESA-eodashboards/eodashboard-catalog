@@ -1,7 +1,21 @@
 {
-  "Name": "Sentinel-5P Cloud Fraction (day)",
-  "Title": "Sentinel-5P Cloud Fraction (day)",
+  "Name": "Cloud Fraction (CF) by Sentinel-5P TROPOMI (Daily)",
+  "Title": "Cloud Fraction (CF) by Sentinel-5P TROPOMI (Daily)",
   "Description": "S5P-L3GRD-CLOUDFR-DAY/S5P-L3GRD-CLOUDFR-DAY.md",
+  "Themes": [
+    "atmosphere",
+    "clouds"
+  ],
+  "Tags": [
+    "Cloud",
+    "Cloud Fraction",
+    "CF",
+    "Atmosphere",
+    "Open data",
+    "Open Science",
+    "S5P",
+    "Copernicus"
+  ],
   "DataSource": {
     "Spaceborne": {
       "Satellite": [
@@ -14,6 +28,12 @@
   },
   "Agency": [
     "ESA"
+  ],
+  "Provider": [
+    {
+      "Name": "Copernicus",
+      "Url": "https://maps.s5p-pal.com/cloud-fraction/"
+    }
   ],
   "Image": "S5P-L3GRD-CLOUDFR-DAY/S5P-L3GRD-CLOUDFR-DAY_thumbnail.jpg",
   "Colorlegend": {
