@@ -1,7 +1,22 @@
 {
-  "Name": "Sentinel-5P Aerosol Optical Depth (day)",
-  "Title": "Sentinel-5P Aerosol Optical Depth (day)",
+  "Name": "Aerosol Optical Depth (AOD) by Sentinel-5P TROPOMI (Daily)",
+  "Title": "Aerosol Optical Depth (AOD) by Sentinel-5P TROPOMI (Daily)",
   "Description": "S5P-L3GRD-AOD-DAY/S5P-L3GRD-AOD-DAY.md",
+  "Themes": [
+    "atmosphere"
+  ],
+  "Tags": [
+    "Aerosol",
+    "Atmosphere",
+    "Particles",
+    "Dust",
+    "Ash",
+    "AOD",
+    "Open data",
+    "Open Science",
+    "S5P",
+    "Copernicus"
+  ],
   "DataSource": {
     "Spaceborne": {
       "Satellite": [
@@ -15,6 +30,12 @@
   "Agency": [
     "ESA"
   ],
+  "Provider": [
+    {
+      "Name": "Copernicus",
+      "Url": "https://maps.s5p-pal.com/aod-494nm/day/"
+    }
+  ],
   "Image": "S5P-L3GRD-AOD-DAY/S5P-L3GRD-AOD-DAY_thumbnail.jpg",
   "Colorlegend": {
     "domain": [
@@ -22,7 +43,6 @@
       10.0
     ],
     "range": [
-      "#d2efda",
       "#d2efda",
       "#d0eed9",
       "#cdeed6",
