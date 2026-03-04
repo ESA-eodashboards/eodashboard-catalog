@@ -154,7 +154,29 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
   "subtitle": "Grounded airplanes during the novel coronavirus pandemic",
+  "eodash:stories": {
+    "airports": {
+      "href": "https://eodashboard.org/story/?id=airports",
+      "type": "text/markdown",
+      "title": "Grounded: How COVID-19 Emptied the World's Airports",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/airports.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg",
   "themes": [
     "economy",
@@ -234,46 +256,46 @@
       "E13b"
     ],
     "themes": [
-      "covid-19",
-      "economy"
+      "economy",
+      "covid-19"
     ],
     "satellite": [
+      "Sentinel-2",
       "ALOS-2",
       "PlanetScope",
-      "Sentinel-1",
-      "Sentinel-2"
+      "Sentinel-1"
     ],
     "sensor": [
-      "MSI",
-      "C-SAR",
+      "PALSAR-2",
       "PSB.SD",
-      "PALSAR-2"
+      "C-SAR",
+      "MSI"
     ],
     "cities": [
-      "Beijing",
-      "Oakland",
-      "Paris",
-      "Hayward",
-      "Heathrow",
-      "Narita",
-      "Marin",
       "Beijing Daxing",
+      "Paris",
+      "Beijing",
+      "Heathrow",
+      "Los Angeles",
+      "Oakland",
+      "San Francisco",
+      "Napa",
+      "San Jose",
+      "Narita",
       "Newark",
+      "Rome",
+      "Marin",
       "New York",
       "Buchannan",
-      "Los Angeles",
-      "Napa",
-      "San Francisco",
-      "Rome",
       "Ontario",
-      "San Jose"
+      "Hayward"
     ],
     "countries": [
-      "IT",
-      "GB",
       "JP",
-      "US",
+      "IT",
       "CN",
+      "US",
+      "GB",
       "FR"
     ],
     "thumbnail": [
@@ -281,6 +303,24 @@
     ]
   },
   "assets": {
+    "airports": {
+      "href": "https://eodashboard.org/story/?id=airports",
+      "type": "text/markdown",
+      "title": "Grounded: How COVID-19 Emptied the World's Airports",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/airports.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg",
       "type": "image/png",
