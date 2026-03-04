@@ -1,6 +1,6 @@
 {
-  "Name": "Sentinel-5P Kd Ocean Colour blue (day)",
-  "Title": "Sentinel-5P Kd Ocean Colour blue (day)",
+  "Name": "Kd Ocean Colour Blue by Sentinel-5P TROPOMI (Daily)",
+  "Title": "Kd Ocean Colour Blue by Sentinel-5P TROPOMI (Daily)",
   "Description": "S5P-L3GRD-KdBLUE-DAY/S5P-L3GRD-KdBLUE-DAY.md",
   "DataSource": {
     "Spaceborne": {
@@ -15,7 +15,18 @@
   "Agency": [
     "ESA"
   ],
+  "Provider": "https://maps.s5p-pal.com/ocean-colour-blue/",
   "Image": "S5P-L3GRD-KdBLUE-DAY/S5P-L3GRD-KdBLUE-DAY_thumbnail.jpg",
+  "Theme": "water",
+  "Tags": [
+    "Ocean Colour",
+    "Kd-blue",
+    "Diffuse Attenuation",
+    "TROPOMI",
+    "Sentinel-5P",
+    "Remote Sensing",
+    "Daily Data"
+  ],
   "Colorlegend": {
     "domain": [
       0.01,
