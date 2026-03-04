@@ -1,6 +1,6 @@
 {
-  "Name": "Sentinel-5P Anthropogenic SO2 COBRA (PBL) (day)",
-  "Title": "Sentinel-5P Anthropogenic SO2 COBRA (PBL) (day)",
+  "Name": "Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)",
+  "Title": "Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)",
   "Description": "S5P-L3GRD-SO2COBRA-DAY/S5P-L3GRD-SO2COBRA-DAY.md",
   "DataSource": {
     "Spaceborne": {
@@ -15,7 +15,20 @@
   "Agency": [
     "ESA"
   ],
+  "Provider": "https://maps.s5p-pal.com/so2-cobra-pbl/day/",
   "Image": "S5P-L3GRD-SO2COBRA-DAY/S5P-L3GRD-SO2COBRA-DAY_thumbnail.jpg",
+  "Theme": "atmosphere",
+  "Tags": [
+    "SO2",
+    "Atmospheric Pollution",
+    "COBRA",
+    "PBL",
+    "TROPOMI",
+    "Sentinel-5P",
+    "Remote Sensing",
+    "Daily Data",
+    "Air Quality"
+  ],
   "Colorlegend": {
     "domain": [
       0.0,
