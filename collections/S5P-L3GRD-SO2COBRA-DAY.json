@@ -15,7 +15,7 @@
   "Agency": [
     "ESA"
   ],
-  "Provider": "https://maps.s5p-pal.com/so2-cobra-pbl/day/",
+  "Provider": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/so2-cobra-pbl",
   "Image": "S5P-L3GRD-SO2COBRA-DAY/S5P-L3GRD-SO2COBRA-DAY_thumbnail.jpg",
   "Theme": "atmosphere",
   "Tags": [
