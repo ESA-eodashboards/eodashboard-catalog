@@ -21,7 +21,7 @@
       "role": [
         "data"
       ],
-      "key": "da333284-c02a-4d05-bedc-60138395b752",
+      "key": "60b3766f-1036-4611-9776-0ef677b13ac4",
       "eodash:proj4_def": {
         "name": "EPSG:3031",
         "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
@@ -34,6 +34,9 @@
       "title": "West Antarctica (Sentinel-1)"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
   "sci:publications": [
     {
       "citation": "REMA: Howat, I. M., Porter, C., Smith, B. E., Noh, M.-J., and Morin, P. (2019): The Reference Elevation Model of Antarctica, The Cryosphere, 13, 665-674.\n",
@@ -41,6 +44,42 @@
     }
   ],
   "subtitle": "West Antarctica Sentinel-1 Subset",
+  "eodash:stories": {
+    "nasa-thwaites": {
+      "href": "https://eodashboard.org/story/?id=nasa-thwaites",
+      "type": "text/markdown",
+      "title": "Pine Island Glacier and Thwaites Glacier",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/nasa-thwaites.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "thwaites-intro": {
+      "href": "https://eodashboard.org/story/?id=thwaites-intro",
+      "type": "text/markdown",
+      "title": "Collaboration on Glaciers and Ice Sheets Research",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/thwaites-intro.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_West_Antarctica_S1/thumbnail.jpg",
   "themes": [
     "cryosphere"
@@ -129,6 +168,42 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
+      ]
+    },
+    "nasa-thwaites": {
+      "href": "https://eodashboard.org/story/?id=nasa-thwaites",
+      "type": "text/markdown",
+      "title": "Pine Island Glacier and Thwaites Glacier",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/nasa-thwaites.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "thwaites-intro": {
+      "href": "https://eodashboard.org/story/?id=thwaites-intro",
+      "type": "text/markdown",
+      "title": "Collaboration on Glaciers and Ice Sheets Research",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/thwaites-intro.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
       ]
     },
     "thumbnail": {

@@ -33,6 +33,9 @@
       "title": "Antarctica Melt Duration"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
   "sci:publications": [
     {
       "citation": "REMA: Howat, I. M., Porter, C., Smith, B. E., Noh, M.-J., and Morin, P. (2019): The Reference Elevation Model of Antarctica, The Cryosphere, 13, 665-674.\n",
@@ -40,6 +43,42 @@
     }
   ],
   "subtitle": "Antarctica Melt Duration from 4D Antarctica",
+  "eodash:stories": {
+    "nasa-thwaites": {
+      "href": "https://eodashboard.org/story/?id=nasa-thwaites",
+      "type": "text/markdown",
+      "title": "Pine Island Glacier and Thwaites Glacier",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/nasa-thwaites.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "thwaites-intro": {
+      "href": "https://eodashboard.org/story/?id=thwaites-intro",
+      "type": "text/markdown",
+      "title": "Collaboration on Glaciers and Ice Sheets Research",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/thwaites-intro.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Duration/thumbnail.jpg",
   "themes": [
     "cryosphere"
@@ -159,6 +198,42 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "nasa-thwaites": {
+      "href": "https://eodashboard.org/story/?id=nasa-thwaites",
+      "type": "text/markdown",
+      "title": "Pine Island Glacier and Thwaites Glacier",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/nasa-thwaites.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "thwaites-intro": {
+      "href": "https://eodashboard.org/story/?id=thwaites-intro",
+      "type": "text/markdown",
+      "title": "Collaboration on Glaciers and Ice Sheets Research",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/thwaites-intro.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
       ]
     },
     "thumbnail": {
