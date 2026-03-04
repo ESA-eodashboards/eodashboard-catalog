@@ -24,19 +24,19 @@
         "NASA"
       ],
       "cities": [
-        "Balaton Lake",
         "Vänern Lake",
         "Aral Lake",
+        "Tonlé Sap Lake",
         "Biwa Lake",
-        "Tonlé Sap Lake"
+        "Balaton Lake"
       ],
       "countries": [
-        "HU",
         "KH",
-        "UZ",
         "KZ",
         "SW",
-        "JP"
+        "JP",
+        "HU",
+        "UZ"
       ],
       "tags": [
         "Water quality",
@@ -197,18 +197,18 @@
       "OLI"
     ],
     "cities": [
-      "Balaton Lake",
       "Vänern Lake",
       "Aral Lake",
+      "Tonlé Sap Lake",
       "Biwa Lake",
-      "Tonlé Sap Lake"
+      "Balaton Lake"
     ],
     "countries": [
-      "HU",
-      "JP",
       "KH",
+      "JP",
       "KZ",
       "SW",
+      "HU",
       "UZ"
     ],
     "thumbnail": [
