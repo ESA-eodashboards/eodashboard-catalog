@@ -89,7 +89,7 @@
   "Process": {
     "Name": "VEDA Statistics",
     "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-    "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_vega_definition.json",
+    "VegaDefinition": "N9_OMI_trno2-COG/chart.json",
     "EndPoints": [
       {
         "Identifier": "veda_statistics",

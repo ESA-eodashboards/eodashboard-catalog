@@ -66,6 +66,19 @@
         0,
         50
       ],
+  "Process": {
+  "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
+  "VegaDefinition": "smos_ocean_salinity/chart.json",
+  "EndPoints": [
+      {
+        "Url": "https://api.earthsystemdatalab.net/api/timeseries/smos-os/SSS_corr?aggMethods=median",
+        "Identifier": "xcube_statistics",
+        "Method": "POST",
+        "Body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_body.json",
+        "Type": "application/json"
+      }
+    ]
+  },
       "Query": {
         "Start": "2023-01-04T00:00:00Z"
       }
