@@ -15,7 +15,12 @@
   "Agency": [
     "ESA"
   ],
-  "Provider": "https://maps.s5p-pal.com/ocean-colour-blue/",
+  "References": [
+    {
+      "Name": "Source Product Page",
+      "Url": "https://maps.s5p-pal.com/ocean-colour-blue/"
+    }
+  ],
   "Image": "S5P-L3GRD-KdBLUE-DAY/S5P-L3GRD-KdBLUE-DAY_thumbnail.jpg",
   "Theme": "water",
   "Tags": [
