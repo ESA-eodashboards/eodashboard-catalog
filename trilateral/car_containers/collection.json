@@ -202,7 +202,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2026-03-04T14:32:28.673971Z"
+          "2026-03-05T08:49:31.953312Z"
         ]
       ]
     }
@@ -230,21 +230,21 @@
       "ALOS-2"
     ],
     "sensor": [
-      "C-SAR",
-      "PALSAR-2"
+      "PALSAR-2",
+      "C-SAR"
     ],
     "cities": [
+      "Arcadia",
+      "Palm Springs",
+      "Nagoya",
       "Beijing",
       "Los Angeles",
-      "Palm Springs",
-      "Arcadia",
-      "Singapore",
-      "Nagoya"
+      "Singapore"
     ],
     "countries": [
-      "US",
       "CN",
       "SG",
+      "US",
       "JP"
     ],
     "thumbnail": [

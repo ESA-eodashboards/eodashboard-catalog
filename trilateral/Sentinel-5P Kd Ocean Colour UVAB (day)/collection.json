@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Sentinel-5P Kd Ocean Colour blue (day)",
+  "id": "Sentinel-5P Kd Ocean Colour UVAB (day)",
   "stac_version": "1.1.0",
-  "description": "## Kd Ocean Colour Blue by Sentinel-5P TROPOMI (Daily)\nThe Kd Ocean Colour (blue) product provides the diffuse attenuation coefficient (Kd) in the short blue wavelength range (390–423 nm), quantifying **how sunlight is absorbed and scattered in the upper ocean layer**.\n\nData are essential for monitoring ocean optical properties, phytoplankton, and marine ecosystem health.\n\n#### About the dataset\n- Kd-blue measures the attenuation of downwelling plane irradiance in the ocean’s first optical depth.\n- The product is generated using Differential Optical Absorption Spectroscopy (DOAS) adapted to oceanic applications (PhytoDOAS), with retrievals converted into physical Kd values using radiative transfer look-up tables. Only high-quality measurements (qa_value == 1.0) are used in the final gridded product.\n\n#### Use cases\nKd-blue measurements are particularly useful for:\n- Studying light penetration and ocean color dynamics.\n- Ocean biogeochemistry and primary productivity modeling.\n- Monitoring phytoplankton blooms and water quality.\n- Climate studies related to ocean radiative transfer and carbon cycling.\n\n\n",
+  "description": "## Sentinel-5P Kd Ocean Colour UVAB (day)\nDescription here.\n",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,16 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel-5P Kd Ocean Colour blue (day)/collection.json",
+      "href": "./Sentinel-5P Kd Ocean Colour UVAB (day)/collection.json",
       "type": "application/json",
-      "title": "Sentinel-5P Kd Ocean Colour blue (day)",
+      "title": "Sentinel-5P Kd Ocean Colour UVAB (day)",
       "endpointtype": "Sentinel Hub_byoc",
-      "code": "S5P-L3GRD-KdBLUE-DAY",
-      "id": "Sentinel-5P Kd Ocean Colour blue (day)",
+      "code": "S5P-L3GRD-KdUVAB-DAY",
+      "id": "Sentinel-5P Kd Ocean Colour UVAB (day)",
       "agency": [
         "ESA"
       ],
-      "subcode": "S5P-L3GRD-KdBLUE-DAY",
+      "subcode": "S5P-L3GRD-KdUVAB-DAY",
       "sensor": [
         "TROPOMI"
       ],
@@ -84,11 +84,11 @@
       "title": "Earth Observing Dashboard"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-KdBLUE-DAY/S5P-L3GRD-KdBLUE-DAY_thumbnail.jpg",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-KdUVAB-DAY/S5P-L3GRD-KdUVAB-DAY_thumbnail.jpg",
   "agency": [
     "ESA"
   ],
-  "subcode": "S5P-L3GRD-KdBLUE-DAY",
+  "subcode": "S5P-L3GRD-KdUVAB-DAY",
   "sensor": [
     "TROPOMI"
   ],
@@ -360,7 +360,7 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".2f",
-    "title": "Diffuse attenuation coefficient blue [m⁻±]",
+    "title": "Diffuse attenuation coefficient UVAB [m^(-1)]",
     "tickValues": [
       0.01,
       0.03,
@@ -368,7 +368,7 @@
       0.3
     ]
   },
-  "title": "Sentinel-5P Kd Ocean Colour blue (day)",
+  "title": "Sentinel-5P Kd Ocean Colour UVAB (day)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -389,8 +389,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-01-02T00:00:00Z",
-          "2025-01-03T00:00:00Z"
+          "2025-01-01T00:00:00Z",
+          "2025-01-02T00:00:00Z"
         ]
       ]
     }
@@ -398,7 +398,7 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "S5P-L3GRD-KdBLUE-DAY"
+      "S5P-L3GRD-KdUVAB-DAY"
     ],
     "satellite": [
       "Sentinel-5P"
@@ -407,19 +407,19 @@
       "TROPOMI"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-KdBLUE-DAY/S5P-L3GRD-KdBLUE-DAY_thumbnail.jpg"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-KdUVAB-DAY/S5P-L3GRD-KdUVAB-DAY_thumbnail.jpg"
     ]
   },
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-KdBLUE-DAY/S5P-L3GRD-KdBLUE-DAY_legend.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-KdUVAB-DAY/S5P-L3GRD-KdUVAB-DAY_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-KdBLUE-DAY/S5P-L3GRD-KdBLUE-DAY_thumbnail.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-KdUVAB-DAY/S5P-L3GRD-KdUVAB-DAY_thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

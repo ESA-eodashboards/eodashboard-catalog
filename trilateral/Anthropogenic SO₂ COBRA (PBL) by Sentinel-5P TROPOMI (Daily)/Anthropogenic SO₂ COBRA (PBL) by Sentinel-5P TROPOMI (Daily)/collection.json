@@ -1,90 +1,48 @@
 {
   "type": "Collection",
-  "id": "Sentinel-5P Anthropogenic SO2 COBRA (PBL) (day)",
+  "id": "Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)",
   "stac_version": "1.1.0",
-  "description": "## Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)\n\nThe Anthropogenic SO₂ COBRA product provides measurements of **sulfur dioxide in the planetary boundary layer (PBL)**, capturing emissions primarily from human activities such as fossil fuel combustion and industrial processes. \n\n#### About the dataset\n- The Anthropogenic SO₂ COBRA product is measured by the [TROPOMI instrument](https://www.tropomi.eu/) aboard Copernicus ESA's [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P) satellite, operating in the UV spectral range.\n- This product uses the Covariance-Based Retrieval Algorithm (COBRA), implemented operationally in November 2024, which improves retrieval quality by reducing noise and bias compared to traditional Differential Optical Absorption Spectroscopy (DOAS) methods. Large SO₂ concentrations are still retrieved using DOAS in alternative spectral fit windows.\n- Provides the SO₂ vertical column in the PBL, with optional total vertical columns at 1 km, 7 km, and 15 km altitudes.\n- Includes random and systematic errors, as well as a quality assurance flag (qa_value). Pixels with qa_value > 0.5 are recommended for reliable analysis.\n- Data are daily gridded measurements, suitable for monitoring emissions and air quality at global scales.\n- Reprocessed data (RPRO, version 2.7.0) are available from the start of the mission up to November 2024.\n\n#### Use cases\nThe COBRA PBL SO₂ product is useful for:\n- Monitoring anthropogenic SO₂ emissions and industrial hotspots.\n- Air quality assessment and pollution modeling.\n- Tracking transport and dispersion of sulfur dioxide plumes.\n- Climate research, including aerosol–cloud–radiation interactions.\n",
+  "description": "## Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)\n\nThe Anthropogenic SO₂ COBRA product provides measurements of **sulfur dioxide in the planetary boundary layer (PBL), i.e., the lowest layer of the troposphere**,  capturing emissions primarily from human activities such as fossil fuel combustion and industrial processes. \n\nThe Anthropogenic SO₂ COBRA product is important because it provides direct insight into pollution where people actually live and breathe.\n\n#### About the dataset\n- The Anthropogenic SO₂ COBRA product is measured by the [TROPOMI instrument](https://www.tropomi.eu/) aboard Copernicus ESA's [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P) satellite, operating in the UV spectral range.\n- This product uses the _Covariance-Based Retrieval Algorithm (COBRA)_, implemented operationally in November 2024.\n- Provides the total amount of SO₂ in the troposphere (from the surface to the top of the troposphere), together with additional estimates assuming the SO₂ is located in a 1-km thick layer at ground level, 7 km, or 15 km altitude, which are mainly relevant for elevated plumes such as volcanic emissions.\n- More information on the TROPOMI SO2 measurements and quality assessment can be found in the [Product Readme file](https://sentiwiki.copernicus.eu/__attachments/1673595/S5P-MPC-BIRA-PRF-SO2-Sentinel-5P-Sulphur-Dioxide-Readme-2025-2.11.pdf). The dataset is available via [STAC Browser](https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/so2-cobra-pbl).\n\n\n#### Use cases\nThe COBRA PBL SO₂ product is useful for:\n- Monitoring anthropogenic SO₂ emissions and industrial hotspots.\n- Air quality assessment and pollution modeling.\n- Tracking transport and dispersion of sulfur dioxide plumes.\n- Climate research, including aerosol–cloud–radiation interactions.\n",
   "links": [
     {
       "rel": "root",
-      "href": "../catalog.json",
+      "href": "../../catalog.json",
       "type": "application/json",
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "child",
-      "href": "./Sentinel-5P Anthropogenic SO2 COBRA (PBL) (day)/collection.json",
-      "type": "application/json",
-      "title": "Sentinel-5P Anthropogenic SO2 COBRA (PBL) (day)",
-      "endpointtype": "Sentinel Hub_byoc",
-      "code": "S5P-L3GRD-SO2COBRA-DAY",
-      "id": "Sentinel-5P Anthropogenic SO2 COBRA (PBL) (day)",
-      "agency": [
-        "ESA"
-      ],
-      "subcode": "S5P-L3GRD-SO2COBRA-DAY",
-      "sensor": [
-        "TROPOMI"
-      ],
-      "satellite": [
-        "Sentinel-5P"
-      ]
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "EOxCloudless 2024",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "cloudless-2024",
-      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "OSM Background",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "OSM",
-      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "Terrain Light",
-      "roles": [
-        "baselayer",
-        "visible"
-      ],
-      "id": "terrain-light",
-      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
-      "title": "Overlay labels",
-      "roles": [
-        "overlay",
-        "visible"
+      "title": "Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)",
+      "wms:layers": [
+        "S5P-L3GRD-SO2COBRA-DAY"
       ],
-      "id": "overlay_bright",
-      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+      "role": [
+        "data"
+      ],
+      "proj:epsg": 4326
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "../collection.json",
       "type": "application/json",
-      "title": "Earth Observing Dashboard"
+      "title": "Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-SO2COBRA-DAY/S5P-L3GRD-SO2COBRA-DAY_thumbnail.jpg",
+  "tags": [
+    "SO2",
+    "Sulfure Dioxide",
+    "Atmospheric Pollution",
+    "COBRA",
+    "PBL",
+    "TROPOMI",
+    "Sentinel-5P",
+    "Remote Sensing",
+    "Daily Data",
+    "Air Quality"
+  ],
   "agency": [
     "ESA"
   ],
@@ -370,16 +328,12 @@
       20.0
     ]
   },
-  "title": "Sentinel-5P Anthropogenic SO2 COBRA (PBL) (day)",
+  "proj:epsg": 4326,
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
-        ],
         [
           -180.0,
           -90.0,
@@ -398,21 +352,15 @@
     }
   },
   "license": "other",
-  "summaries": {
-    "subcode": [
-      "S5P-L3GRD-SO2COBRA-DAY"
-    ],
-    "satellite": [
-      "Sentinel-5P"
-    ],
-    "sensor": [
-      "TROPOMI"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-SO2COBRA-DAY/S5P-L3GRD-SO2COBRA-DAY_thumbnail.jpg"
-    ]
-  },
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "legend": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-SO2COBRA-DAY/S5P-L3GRD-SO2COBRA-DAY_legend.png",
       "type": "image/png",
@@ -425,6 +373,14 @@
       "type": "image/png",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/so2-cobra-pbl",
+      "type": "text/html",
+      "title": "Source Product Catalog",
+      "roles": [
+        "metadata"
       ]
     }
   }
