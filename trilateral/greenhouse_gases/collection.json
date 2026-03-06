@@ -228,19 +228,19 @@
       "TANSO-FTS"
     ],
     "cities": [
-      "Shanghai",
-      "Mumbai",
-      "Dhaka",
-      "Tokyo",
-      "New York",
       "Beijing",
-      "New Delhi"
+      "Tokyo",
+      "New Delhi",
+      "Shanghai",
+      "New York",
+      "Mumbai",
+      "Dhaka"
     ],
     "countries": [
-      "CN",
-      "US",
       "IN",
       "BD",
+      "US",
+      "CN",
       "JP"
     ],
     "thumbnail": [
