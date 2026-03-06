@@ -1,0 +1,83 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2019-11-19T03:52:11",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -122.26557,
+          39.28284
+        ],
+        [
+          -121.86556999999999,
+          39.28284
+        ],
+        [
+          -121.86556999999999,
+          39.682840000000006
+        ],
+        [
+          -122.26557,
+          39.682840000000006
+        ],
+        [
+          -122.26557,
+          39.28284
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -122.26557,
+    39.28284,
+    -121.86556999999999,
+    39.682840000000006
+  ],
+  "properties": {
+    "datetime": "2019-11-19T03:52:11Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://services-uswest2.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "LANDSAT-8-TRUE-COLOUR",
+      "wms:layers": [
+        "LANDSAT-8-TRUE-COLOUR"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2019-11-19T03:52:11/2019-11-20T03:52:10"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Glenn - rice_planting"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Glenn - rice_planting"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    }
+  },
+  "collection": "US09"
+}

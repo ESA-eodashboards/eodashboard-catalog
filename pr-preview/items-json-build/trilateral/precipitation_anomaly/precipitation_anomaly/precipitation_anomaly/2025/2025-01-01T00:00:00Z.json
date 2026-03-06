@@ -1,0 +1,86 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "id": "2025-01-01T00:00:00Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "datetime": "2025-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://gpwmap.jaxa.jp/wms",
+      "type": "image/jpeg",
+      "title": "Precipitation Anomaly from GSMap",
+      "wms:layers": [
+        "EODASH:PRC-Anomaly-GSMaP-World-Monthly"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2025-01-01T00:00:00Z"
+      },
+      "key": "33982ad0-c0a0-4e77-8e18-4ef017375381"
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Precipitation Anomaly from GSMap"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Precipitation Anomaly from GSMap"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    }
+  },
+  "collection": "precipitation_anomaly"
+}

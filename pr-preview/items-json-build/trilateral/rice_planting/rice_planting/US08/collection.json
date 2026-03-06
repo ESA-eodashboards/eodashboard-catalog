@@ -1,0 +1,4690 @@
+{
+  "type": "Collection",
+  "id": "US08",
+  "stac_version": "1.1.0",
+  "description": "## Early Rice Planting in Sacramento, California, USA\r\n\r\n\r\nThis indicator aims at assessing the state of rice cultivation near Sacramento (California, USA) by means of satellite imagery obtained from:\r\n###\r\n- [JAXA](https://global.jaxa.jp/) ALOS-2 PALSAR-2 and GCOM-C \r\n- [ESA](https://esa.int/) Sentinel-2 \r\n- [NASA](https://www.nasa.gov/)/[USGS](https://www.usgs.gov/) Landsat-8 \r\n\r\n\r\n### Overview\r\n\r\nThe satellite-based observations show that the rice planting, heading and harvesting in 2020 began earlier than the past two years in many regions, and rice planting area was larger than in 2019. \r\nAs for the timing of planting, effect of weather conditions is one reason.\r\nIn addition, there is a possibility that high rice price caused by the COVID-19 related concerns over global rice supply through potential increases in demand,\r\nthreats of export restrictions, and shortage of labor. \r\n\r\nRead more about this data in the corresponding story under theme AGRICULTURE.\r\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2015/2015-10-22T04:12:16.json",
+      "type": "application/geo+json",
+      "datetime": "2015-10-22T04:12:16",
+      "id": "2015-10-22T04:12:16"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2015/2015-10-22T04:12:16.json",
+      "type": "application/geo+json",
+      "datetime": "2015-10-22T04:12:16",
+      "id": "2015-10-22T04:12:16"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2015/2015-11-18T03:56:44.json",
+      "type": "application/geo+json",
+      "datetime": "2015-11-18T03:56:44",
+      "id": "2015-11-18T03:56:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2015/2015-11-18T03:56:44.json",
+      "type": "application/geo+json",
+      "datetime": "2015-11-18T03:56:44",
+      "id": "2015-11-18T03:56:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2015/2015-12-11T04:08:03.json",
+      "type": "application/geo+json",
+      "datetime": "2015-12-11T04:08:03",
+      "id": "2015-12-11T04:08:03"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2015/2015-12-11T04:08:03.json",
+      "type": "application/geo+json",
+      "datetime": "2015-12-11T04:08:03",
+      "id": "2015-12-11T04:08:03"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2015/2015-12-28T04:05:14.json",
+      "type": "application/geo+json",
+      "datetime": "2015-12-28T04:05:14",
+      "id": "2015-12-28T04:05:14"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2015/2015-12-28T04:05:14.json",
+      "type": "application/geo+json",
+      "datetime": "2015-12-28T04:05:14",
+      "id": "2015-12-28T04:05:14"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-01-10T04:14:35.json",
+      "type": "application/geo+json",
+      "datetime": "2016-01-10T04:14:35",
+      "id": "2016-01-10T04:14:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-01-10T04:14:35.json",
+      "type": "application/geo+json",
+      "datetime": "2016-01-10T04:14:35",
+      "id": "2016-01-10T04:14:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-01-27T04:05:08.json",
+      "type": "application/geo+json",
+      "datetime": "2016-01-27T04:05:08",
+      "id": "2016-01-27T04:05:08"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-01-27T04:05:08.json",
+      "type": "application/geo+json",
+      "datetime": "2016-01-27T04:05:08",
+      "id": "2016-01-27T04:05:08"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-02-09T04:06:05.json",
+      "type": "application/geo+json",
+      "datetime": "2016-02-09T04:06:05",
+      "id": "2016-02-09T04:06:05"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-02-09T04:06:05.json",
+      "type": "application/geo+json",
+      "datetime": "2016-02-09T04:06:05",
+      "id": "2016-02-09T04:06:05"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-03-10T04:08:57.json",
+      "type": "application/geo+json",
+      "datetime": "2016-03-10T04:08:57",
+      "id": "2016-03-10T04:08:57"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-03-10T04:08:57.json",
+      "type": "application/geo+json",
+      "datetime": "2016-03-10T04:08:57",
+      "id": "2016-03-10T04:08:57"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-03-27T03:57:04.json",
+      "type": "application/geo+json",
+      "datetime": "2016-03-27T03:57:04",
+      "id": "2016-03-27T03:57:04"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-03-27T03:57:04.json",
+      "type": "application/geo+json",
+      "datetime": "2016-03-27T03:57:04",
+      "id": "2016-03-27T03:57:04"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-04-09T04:07:12.json",
+      "type": "application/geo+json",
+      "datetime": "2016-04-09T04:07:12",
+      "id": "2016-04-09T04:07:12"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-04-09T04:07:12.json",
+      "type": "application/geo+json",
+      "datetime": "2016-04-09T04:07:12",
+      "id": "2016-04-09T04:07:12"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-05-09T04:12:42.json",
+      "type": "application/geo+json",
+      "datetime": "2016-05-09T04:12:42",
+      "id": "2016-05-09T04:12:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-05-09T04:12:42.json",
+      "type": "application/geo+json",
+      "datetime": "2016-05-09T04:12:42",
+      "id": "2016-05-09T04:12:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-05-16T03:53:43.json",
+      "type": "application/geo+json",
+      "datetime": "2016-05-16T03:53:43",
+      "id": "2016-05-16T03:53:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-05-16T03:53:43.json",
+      "type": "application/geo+json",
+      "datetime": "2016-05-16T03:53:43",
+      "id": "2016-05-16T03:53:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-05-29T04:04:38.json",
+      "type": "application/geo+json",
+      "datetime": "2016-05-29T04:04:38",
+      "id": "2016-05-29T04:04:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-05-29T04:04:38.json",
+      "type": "application/geo+json",
+      "datetime": "2016-05-29T04:04:38",
+      "id": "2016-05-29T04:04:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-06-05T03:54:00.json",
+      "type": "application/geo+json",
+      "datetime": "2016-06-05T03:54:00",
+      "id": "2016-06-05T03:54:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-06-05T03:54:00.json",
+      "type": "application/geo+json",
+      "datetime": "2016-06-05T03:54:00",
+      "id": "2016-06-05T03:54:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-06-18T04:12:06.json",
+      "type": "application/geo+json",
+      "datetime": "2016-06-18T04:12:06",
+      "id": "2016-06-18T04:12:06"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-06-18T04:12:06.json",
+      "type": "application/geo+json",
+      "datetime": "2016-06-18T04:12:06",
+      "id": "2016-06-18T04:12:06"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-06-25T04:02:10.json",
+      "type": "application/geo+json",
+      "datetime": "2016-06-25T04:02:10",
+      "id": "2016-06-25T04:02:10"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-06-25T04:02:10.json",
+      "type": "application/geo+json",
+      "datetime": "2016-06-25T04:02:10",
+      "id": "2016-06-25T04:02:10"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-07-08T04:09:18.json",
+      "type": "application/geo+json",
+      "datetime": "2016-07-08T04:09:18",
+      "id": "2016-07-08T04:09:18"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-07-15T04:01:30.json",
+      "type": "application/geo+json",
+      "datetime": "2016-07-15T04:01:30",
+      "id": "2016-07-15T04:01:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-07-28T04:13:28.json",
+      "type": "application/geo+json",
+      "datetime": "2016-07-28T04:13:28",
+      "id": "2016-07-28T04:13:28"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-08-04T04:01:33.json",
+      "type": "application/geo+json",
+      "datetime": "2016-08-04T04:01:33",
+      "id": "2016-08-04T04:01:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-08-17T04:09:39.json",
+      "type": "application/geo+json",
+      "datetime": "2016-08-17T04:09:39",
+      "id": "2016-08-17T04:09:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-08-24T03:57:15.json",
+      "type": "application/geo+json",
+      "datetime": "2016-08-24T03:57:15",
+      "id": "2016-08-24T03:57:15"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-08-24T03:57:15.json",
+      "type": "application/geo+json",
+      "datetime": "2016-08-24T03:57:15",
+      "id": "2016-08-24T03:57:15"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-09-06T04:13:23.json",
+      "type": "application/geo+json",
+      "datetime": "2016-09-06T04:13:23",
+      "id": "2016-09-06T04:13:23"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-09-06T04:13:23.json",
+      "type": "application/geo+json",
+      "datetime": "2016-09-06T04:13:23",
+      "id": "2016-09-06T04:13:23"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-09-13T04:01:01.json",
+      "type": "application/geo+json",
+      "datetime": "2016-09-13T04:01:01",
+      "id": "2016-09-13T04:01:01"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-09-13T04:01:01.json",
+      "type": "application/geo+json",
+      "datetime": "2016-09-13T04:01:01",
+      "id": "2016-09-13T04:01:01"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-09-26T04:06:12.json",
+      "type": "application/geo+json",
+      "datetime": "2016-09-26T04:06:12",
+      "id": "2016-09-26T04:06:12"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-09-26T04:06:12.json",
+      "type": "application/geo+json",
+      "datetime": "2016-09-26T04:06:12",
+      "id": "2016-09-26T04:06:12"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-10-03T04:02:32.json",
+      "type": "application/geo+json",
+      "datetime": "2016-10-03T04:02:32",
+      "id": "2016-10-03T04:02:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-10-03T04:02:33.json",
+      "type": "application/geo+json",
+      "datetime": "2016-10-03T04:02:33",
+      "id": "2016-10-03T04:02:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-10-16T04:09:28.json",
+      "type": "application/geo+json",
+      "datetime": "2016-10-16T04:09:28",
+      "id": "2016-10-16T04:09:28"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-10-16T04:09:28.json",
+      "type": "application/geo+json",
+      "datetime": "2016-10-16T04:09:28",
+      "id": "2016-10-16T04:09:28"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-10-23T03:54:48.json",
+      "type": "application/geo+json",
+      "datetime": "2016-10-23T03:54:48",
+      "id": "2016-10-23T03:54:48"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-10-23T03:54:48.json",
+      "type": "application/geo+json",
+      "datetime": "2016-10-23T03:54:48",
+      "id": "2016-10-23T03:54:48"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-11-05T04:05:49.json",
+      "type": "application/geo+json",
+      "datetime": "2016-11-05T04:05:49",
+      "id": "2016-11-05T04:05:49"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-11-05T04:05:49.json",
+      "type": "application/geo+json",
+      "datetime": "2016-11-05T04:05:49",
+      "id": "2016-11-05T04:05:49"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-11-12T03:57:23.json",
+      "type": "application/geo+json",
+      "datetime": "2016-11-12T03:57:23",
+      "id": "2016-11-12T03:57:23"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-11-12T03:57:23.json",
+      "type": "application/geo+json",
+      "datetime": "2016-11-12T03:57:23",
+      "id": "2016-11-12T03:57:23"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-11-15T04:06:40.json",
+      "type": "application/geo+json",
+      "datetime": "2016-11-15T04:06:40",
+      "id": "2016-11-15T04:06:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-11-15T04:06:40.json",
+      "type": "application/geo+json",
+      "datetime": "2016-11-15T04:06:40",
+      "id": "2016-11-15T04:06:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-11-22T04:02:56.json",
+      "type": "application/geo+json",
+      "datetime": "2016-11-22T04:02:56",
+      "id": "2016-11-22T04:02:56"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-11-22T04:02:56.json",
+      "type": "application/geo+json",
+      "datetime": "2016-11-22T04:02:56",
+      "id": "2016-11-22T04:02:56"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-11-25T04:07:21.json",
+      "type": "application/geo+json",
+      "datetime": "2016-11-25T04:07:21",
+      "id": "2016-11-25T04:07:21"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-11-25T04:07:21.json",
+      "type": "application/geo+json",
+      "datetime": "2016-11-25T04:07:21",
+      "id": "2016-11-25T04:07:21"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-12-02T04:01:36.json",
+      "type": "application/geo+json",
+      "datetime": "2016-12-02T04:01:36",
+      "id": "2016-12-02T04:01:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-12-02T04:01:36.json",
+      "type": "application/geo+json",
+      "datetime": "2016-12-02T04:01:36",
+      "id": "2016-12-02T04:01:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-12-15T04:08:04.json",
+      "type": "application/geo+json",
+      "datetime": "2016-12-15T04:08:04",
+      "id": "2016-12-15T04:08:04"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-12-22T03:58:03.json",
+      "type": "application/geo+json",
+      "datetime": "2016-12-22T03:58:03",
+      "id": "2016-12-22T03:58:03"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2016/2016-12-25T04:08:07.json",
+      "type": "application/geo+json",
+      "datetime": "2016-12-25T04:08:07",
+      "id": "2016-12-25T04:08:07"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-01-01T04:01:05.json",
+      "type": "application/geo+json",
+      "datetime": "2017-01-01T04:01:05",
+      "id": "2017-01-01T04:01:05"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-01-04T04:09:49.json",
+      "type": "application/geo+json",
+      "datetime": "2017-01-04T04:09:49",
+      "id": "2017-01-04T04:09:49"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-01-11T03:57:36.json",
+      "type": "application/geo+json",
+      "datetime": "2017-01-11T03:57:36",
+      "id": "2017-01-11T03:57:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-01-24T04:06:53.json",
+      "type": "application/geo+json",
+      "datetime": "2017-01-24T04:06:53",
+      "id": "2017-01-24T04:06:53"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-01-31T03:56:15.json",
+      "type": "application/geo+json",
+      "datetime": "2017-01-31T03:56:15",
+      "id": "2017-01-31T03:56:15"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-02-03T04:06:04.json",
+      "type": "application/geo+json",
+      "datetime": "2017-02-03T04:06:04",
+      "id": "2017-02-03T04:06:04"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-02-10T03:58:31.json",
+      "type": "application/geo+json",
+      "datetime": "2017-02-10T03:58:31",
+      "id": "2017-02-10T03:58:31"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-02-13T04:10:31.json",
+      "type": "application/geo+json",
+      "datetime": "2017-02-13T04:10:31",
+      "id": "2017-02-13T04:10:31"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-02-20T03:54:15.json",
+      "type": "application/geo+json",
+      "datetime": "2017-02-20T03:54:15",
+      "id": "2017-02-20T03:54:15"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-03-05T04:11:41.json",
+      "type": "application/geo+json",
+      "datetime": "2017-03-05T04:11:41",
+      "id": "2017-03-05T04:11:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-03-12T03:59:39.json",
+      "type": "application/geo+json",
+      "datetime": "2017-03-12T03:59:39",
+      "id": "2017-03-12T03:59:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-03-25T04:02:18.json",
+      "type": "application/geo+json",
+      "datetime": "2017-03-25T04:02:18",
+      "id": "2017-03-25T04:02:18"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-04-01T03:58:50.json",
+      "type": "application/geo+json",
+      "datetime": "2017-04-01T03:58:50",
+      "id": "2017-04-01T03:58:50"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-04-14T04:11:42.json",
+      "type": "application/geo+json",
+      "datetime": "2017-04-14T04:11:42",
+      "id": "2017-04-14T04:11:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-04-21T04:02:03.json",
+      "type": "application/geo+json",
+      "datetime": "2017-04-21T04:02:03",
+      "id": "2017-04-21T04:02:03"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-05-04T04:12:03.json",
+      "type": "application/geo+json",
+      "datetime": "2017-05-04T04:12:03",
+      "id": "2017-05-04T04:12:03"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-05-11T03:59:15.json",
+      "type": "application/geo+json",
+      "datetime": "2017-05-11T03:59:15",
+      "id": "2017-05-11T03:59:15"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-05-24T04:12:40.json",
+      "type": "application/geo+json",
+      "datetime": "2017-05-24T04:12:40",
+      "id": "2017-05-24T04:12:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-05-31T04:01:28.json",
+      "type": "application/geo+json",
+      "datetime": "2017-05-31T04:01:28",
+      "id": "2017-05-31T04:01:28"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-06-13T04:04:49.json",
+      "type": "application/geo+json",
+      "datetime": "2017-06-13T04:04:49",
+      "id": "2017-06-13T04:04:49"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-06-20T03:57:28.json",
+      "type": "application/geo+json",
+      "datetime": "2017-06-20T03:57:28",
+      "id": "2017-06-20T03:57:28"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-07-03T04:07:08.json",
+      "type": "application/geo+json",
+      "datetime": "2017-07-03T04:07:08",
+      "id": "2017-07-03T04:07:08"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-07-05T03:59:34.json",
+      "type": "application/geo+json",
+      "datetime": "2017-07-05T03:59:34",
+      "id": "2017-07-05T03:59:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-07-10T04:03:14.json",
+      "type": "application/geo+json",
+      "datetime": "2017-07-10T04:03:14",
+      "id": "2017-07-10T04:03:14"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-07-18T04:05:56.json",
+      "type": "application/geo+json",
+      "datetime": "2017-07-18T04:05:56",
+      "id": "2017-07-18T04:05:56"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-07-23T04:10:32.json",
+      "type": "application/geo+json",
+      "datetime": "2017-07-23T04:10:32",
+      "id": "2017-07-23T04:10:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-07-25T03:58:51.json",
+      "type": "application/geo+json",
+      "datetime": "2017-07-25T03:58:51",
+      "id": "2017-07-25T03:58:51"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-07-30T03:58:16.json",
+      "type": "application/geo+json",
+      "datetime": "2017-07-30T03:58:16",
+      "id": "2017-07-30T03:58:16"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-08-07T04:08:02.json",
+      "type": "application/geo+json",
+      "datetime": "2017-08-07T04:08:02",
+      "id": "2017-08-07T04:08:02"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-08-12T04:03:05.json",
+      "type": "application/geo+json",
+      "datetime": "2017-08-12T04:03:05",
+      "id": "2017-08-12T04:03:05"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-08-14T03:58:45.json",
+      "type": "application/geo+json",
+      "datetime": "2017-08-14T03:58:45",
+      "id": "2017-08-14T03:58:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-08-19T04:03:26.json",
+      "type": "application/geo+json",
+      "datetime": "2017-08-19T04:03:26",
+      "id": "2017-08-19T04:03:26"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-08-27T04:11:59.json",
+      "type": "application/geo+json",
+      "datetime": "2017-08-27T04:11:59",
+      "id": "2017-08-27T04:11:59"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-09-01T04:10:16.json",
+      "type": "application/geo+json",
+      "datetime": "2017-09-01T04:10:16",
+      "id": "2017-09-01T04:10:16"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-09-08T03:57:37.json",
+      "type": "application/geo+json",
+      "datetime": "2017-09-08T03:57:37",
+      "id": "2017-09-08T03:57:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-09-16T04:05:58.json",
+      "type": "application/geo+json",
+      "datetime": "2017-09-16T04:05:58",
+      "id": "2017-09-16T04:05:58"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-09-21T04:13:04.json",
+      "type": "application/geo+json",
+      "datetime": "2017-09-21T04:13:04",
+      "id": "2017-09-21T04:13:04"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-09-23T03:56:30.json",
+      "type": "application/geo+json",
+      "datetime": "2017-09-23T03:56:30",
+      "id": "2017-09-23T03:56:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-09-28T03:58:20.json",
+      "type": "application/geo+json",
+      "datetime": "2017-09-28T03:58:20",
+      "id": "2017-09-28T03:58:20"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-10-06T04:02:25.json",
+      "type": "application/geo+json",
+      "datetime": "2017-10-06T04:02:25",
+      "id": "2017-10-06T04:02:25"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-10-11T04:11:20.json",
+      "type": "application/geo+json",
+      "datetime": "2017-10-11T04:11:20",
+      "id": "2017-10-11T04:11:20"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-10-26T04:04:36.json",
+      "type": "application/geo+json",
+      "datetime": "2017-10-26T04:04:36",
+      "id": "2017-10-26T04:04:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-10-31T04:05:22.json",
+      "type": "application/geo+json",
+      "datetime": "2017-10-31T04:05:22",
+      "id": "2017-10-31T04:05:22"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-11-02T03:55:16.json",
+      "type": "application/geo+json",
+      "datetime": "2017-11-02T03:55:16",
+      "id": "2017-11-02T03:55:16"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-11-07T03:55:55.json",
+      "type": "application/geo+json",
+      "datetime": "2017-11-07T03:55:55",
+      "id": "2017-11-07T03:55:55"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-11-15T04:09:01.json",
+      "type": "application/geo+json",
+      "datetime": "2017-11-15T04:09:01",
+      "id": "2017-11-15T04:09:01"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-11-20T04:11:59.json",
+      "type": "application/geo+json",
+      "datetime": "2017-11-20T04:11:59",
+      "id": "2017-11-20T04:11:59"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-11-22T03:56:53.json",
+      "type": "application/geo+json",
+      "datetime": "2017-11-22T03:56:53",
+      "id": "2017-11-22T03:56:53"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-11-25T04:07:10.json",
+      "type": "application/geo+json",
+      "datetime": "2017-11-25T04:07:10",
+      "id": "2017-11-25T04:07:10"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-11-27T03:57:19.json",
+      "type": "application/geo+json",
+      "datetime": "2017-11-27T03:57:19",
+      "id": "2017-11-27T03:57:19"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-12-02T04:02:53.json",
+      "type": "application/geo+json",
+      "datetime": "2017-12-02T04:02:53",
+      "id": "2017-12-02T04:02:53"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-12-05T04:07:40.json",
+      "type": "application/geo+json",
+      "datetime": "2017-12-05T04:07:40",
+      "id": "2017-12-05T04:07:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-12-10T04:07:57.json",
+      "type": "application/geo+json",
+      "datetime": "2017-12-10T04:07:57",
+      "id": "2017-12-10T04:07:57"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-12-12T03:59:20.json",
+      "type": "application/geo+json",
+      "datetime": "2017-12-12T03:59:20",
+      "id": "2017-12-12T03:59:20"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-12-15T04:07:57.json",
+      "type": "application/geo+json",
+      "datetime": "2017-12-15T04:07:57",
+      "id": "2017-12-15T04:07:57"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-12-17T03:58:01.json",
+      "type": "application/geo+json",
+      "datetime": "2017-12-17T03:58:01",
+      "id": "2017-12-17T03:58:01"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-12-22T04:00:36.json",
+      "type": "application/geo+json",
+      "datetime": "2017-12-22T04:00:36",
+      "id": "2017-12-22T04:00:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-12-25T04:08:01.json",
+      "type": "application/geo+json",
+      "datetime": "2017-12-25T04:08:01",
+      "id": "2017-12-25T04:08:01"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2017/2017-12-30T04:08:03.json",
+      "type": "application/geo+json",
+      "datetime": "2017-12-30T04:08:03",
+      "id": "2017-12-30T04:08:03"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-01-01T03:57:53.json",
+      "type": "application/geo+json",
+      "datetime": "2018-01-01T03:57:53",
+      "id": "2018-01-01T03:57:53"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-01-04T04:07:55.json",
+      "type": "application/geo+json",
+      "datetime": "2018-01-04T04:07:55",
+      "id": "2018-01-04T04:07:55"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-01-06T03:57:48.json",
+      "type": "application/geo+json",
+      "datetime": "2018-01-06T03:57:48",
+      "id": "2018-01-06T03:57:48"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-01-11T04:02:32.json",
+      "type": "application/geo+json",
+      "datetime": "2018-01-11T04:02:32",
+      "id": "2018-01-11T04:02:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-01-14T04:07:32.json",
+      "type": "application/geo+json",
+      "datetime": "2018-01-14T04:07:32",
+      "id": "2018-01-14T04:07:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-01-19T04:07:15.json",
+      "type": "application/geo+json",
+      "datetime": "2018-01-19T04:07:15",
+      "id": "2018-01-19T04:07:15"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-01-21T03:57:04.json",
+      "type": "application/geo+json",
+      "datetime": "2018-01-21T03:57:04",
+      "id": "2018-01-21T03:57:04"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-01-24T04:12:37.json",
+      "type": "application/geo+json",
+      "datetime": "2018-01-24T04:12:37",
+      "id": "2018-01-24T04:12:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-01-26T03:56:44.json",
+      "type": "application/geo+json",
+      "datetime": "2018-01-26T03:56:44",
+      "id": "2018-01-26T03:56:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-01-31T04:01:24.json",
+      "type": "application/geo+json",
+      "datetime": "2018-01-31T04:01:24",
+      "id": "2018-01-31T04:01:24"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-02-03T04:12:14.json",
+      "type": "application/geo+json",
+      "datetime": "2018-02-03T04:12:14",
+      "id": "2018-02-03T04:12:14"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-02-08T04:05:40.json",
+      "type": "application/geo+json",
+      "datetime": "2018-02-08T04:05:40",
+      "id": "2018-02-08T04:05:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-02-10T03:56:14.json",
+      "type": "application/geo+json",
+      "datetime": "2018-02-10T03:56:14",
+      "id": "2018-02-10T03:56:14"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-02-13T04:12:54.json",
+      "type": "application/geo+json",
+      "datetime": "2018-02-13T04:12:54",
+      "id": "2018-02-13T04:12:54"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-02-15T03:58:46.json",
+      "type": "application/geo+json",
+      "datetime": "2018-02-15T03:58:46",
+      "id": "2018-02-15T03:58:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-02-18T04:12:43.json",
+      "type": "application/geo+json",
+      "datetime": "2018-02-18T04:12:43",
+      "id": "2018-02-18T04:12:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-02-20T03:58:08.json",
+      "type": "application/geo+json",
+      "datetime": "2018-02-20T03:58:08",
+      "id": "2018-02-20T03:58:08"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-02-23T04:10:46.json",
+      "type": "application/geo+json",
+      "datetime": "2018-02-23T04:10:46",
+      "id": "2018-02-23T04:10:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-02-25T04:01:11.json",
+      "type": "application/geo+json",
+      "datetime": "2018-02-25T04:01:11",
+      "id": "2018-02-25T04:01:11"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-02-28T04:04:55.json",
+      "type": "application/geo+json",
+      "datetime": "2018-02-28T04:04:55",
+      "id": "2018-02-28T04:04:55"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-03-02T03:53:15.json",
+      "type": "application/geo+json",
+      "datetime": "2018-03-02T03:53:15",
+      "id": "2018-03-02T03:53:15"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-03-05T04:11:07.json",
+      "type": "application/geo+json",
+      "datetime": "2018-03-05T04:11:07",
+      "id": "2018-03-05T04:11:07"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-03-07T03:54:00.json",
+      "type": "application/geo+json",
+      "datetime": "2018-03-07T03:54:00",
+      "id": "2018-03-07T03:54:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-03-10T04:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2018-03-10T04:09:13",
+      "id": "2018-03-10T04:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-03-12T04:02:56.json",
+      "type": "application/geo+json",
+      "datetime": "2018-03-12T04:02:56",
+      "id": "2018-03-12T04:02:56"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-03-15T04:09:20.json",
+      "type": "application/geo+json",
+      "datetime": "2018-03-15T04:09:20",
+      "id": "2018-03-15T04:09:20"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-03-17T03:52:15.json",
+      "type": "application/geo+json",
+      "datetime": "2018-03-17T03:52:15",
+      "id": "2018-03-17T03:52:15"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-03-20T04:07:40.json",
+      "type": "application/geo+json",
+      "datetime": "2018-03-20T04:07:40",
+      "id": "2018-03-20T04:07:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-03-22T03:56:28.json",
+      "type": "application/geo+json",
+      "datetime": "2018-03-22T03:56:28",
+      "id": "2018-03-22T03:56:28"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-03-25T04:03:59.json",
+      "type": "application/geo+json",
+      "datetime": "2018-03-25T04:03:59",
+      "id": "2018-03-25T04:03:59"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-03-27T04:01:16.json",
+      "type": "application/geo+json",
+      "datetime": "2018-03-27T04:01:16",
+      "id": "2018-03-27T04:01:16"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-03-30T04:04:19.json",
+      "type": "application/geo+json",
+      "datetime": "2018-03-30T04:04:19",
+      "id": "2018-03-30T04:04:19"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-04-01T04:00:22.json",
+      "type": "application/geo+json",
+      "datetime": "2018-04-01T04:00:22",
+      "id": "2018-04-01T04:00:22"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-04-04T04:13:20.json",
+      "type": "application/geo+json",
+      "datetime": "2018-04-04T04:13:20",
+      "id": "2018-04-04T04:13:20"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-04-06T03:58:11.json",
+      "type": "application/geo+json",
+      "datetime": "2018-04-06T03:58:11",
+      "id": "2018-04-06T03:58:11"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-04-09T04:06:36.json",
+      "type": "application/geo+json",
+      "datetime": "2018-04-09T04:06:36",
+      "id": "2018-04-09T04:06:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-04-11T03:58:19.json",
+      "type": "application/geo+json",
+      "datetime": "2018-04-11T03:58:19",
+      "id": "2018-04-11T03:58:19"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-04-14T04:12:17.json",
+      "type": "application/geo+json",
+      "datetime": "2018-04-14T04:12:17",
+      "id": "2018-04-14T04:12:17"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-04-16T03:56:13.json",
+      "type": "application/geo+json",
+      "datetime": "2018-04-16T03:56:13",
+      "id": "2018-04-16T03:56:13"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-04-19T04:06:15.json",
+      "type": "application/geo+json",
+      "datetime": "2018-04-19T04:06:15",
+      "id": "2018-04-19T04:06:15"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-04-21T03:55:52.json",
+      "type": "application/geo+json",
+      "datetime": "2018-04-21T03:55:52",
+      "id": "2018-04-21T03:55:52"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-04-24T04:10:40.json",
+      "type": "application/geo+json",
+      "datetime": "2018-04-24T04:10:40",
+      "id": "2018-04-24T04:10:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-04-26T03:58:12.json",
+      "type": "application/geo+json",
+      "datetime": "2018-04-26T03:58:12",
+      "id": "2018-04-26T03:58:12"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-04-29T04:11:52.json",
+      "type": "application/geo+json",
+      "datetime": "2018-04-29T04:11:52",
+      "id": "2018-04-29T04:11:52"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-05-01T03:57:49.json",
+      "type": "application/geo+json",
+      "datetime": "2018-05-01T03:57:49",
+      "id": "2018-05-01T03:57:49"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-05-04T04:06:50.json",
+      "type": "application/geo+json",
+      "datetime": "2018-05-04T04:06:50",
+      "id": "2018-05-04T04:06:50"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-05-06T03:57:31.json",
+      "type": "application/geo+json",
+      "datetime": "2018-05-06T03:57:31",
+      "id": "2018-05-06T03:57:31"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-05-09T04:07:51.json",
+      "type": "application/geo+json",
+      "datetime": "2018-05-09T04:07:51",
+      "id": "2018-05-09T04:07:51"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-05-11T03:54:38.json",
+      "type": "application/geo+json",
+      "datetime": "2018-05-11T03:54:38",
+      "id": "2018-05-11T03:54:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-05-14T04:04:31.json",
+      "type": "application/geo+json",
+      "datetime": "2018-05-14T04:04:31",
+      "id": "2018-05-14T04:04:31"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-05-16T04:00:03.json",
+      "type": "application/geo+json",
+      "datetime": "2018-05-16T04:00:03",
+      "id": "2018-05-16T04:00:03"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-05-19T04:09:40.json",
+      "type": "application/geo+json",
+      "datetime": "2018-05-19T04:09:40",
+      "id": "2018-05-19T04:09:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-05-21T04:01:45.json",
+      "type": "application/geo+json",
+      "datetime": "2018-05-21T04:01:45",
+      "id": "2018-05-21T04:01:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-05-24T04:07:13.json",
+      "type": "application/geo+json",
+      "datetime": "2018-05-24T04:07:13",
+      "id": "2018-05-24T04:07:13"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-05-26T04:00:23.json",
+      "type": "application/geo+json",
+      "datetime": "2018-05-26T04:00:23",
+      "id": "2018-05-26T04:00:23"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-05-29T04:06:15.json",
+      "type": "application/geo+json",
+      "datetime": "2018-05-29T04:06:15",
+      "id": "2018-05-29T04:06:15"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-05-31T04:01:15.json",
+      "type": "application/geo+json",
+      "datetime": "2018-05-31T04:01:15",
+      "id": "2018-05-31T04:01:15"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-06-03T04:10:46.json",
+      "type": "application/geo+json",
+      "datetime": "2018-06-03T04:10:46",
+      "id": "2018-06-03T04:10:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-06-05T03:57:31.json",
+      "type": "application/geo+json",
+      "datetime": "2018-06-05T03:57:31",
+      "id": "2018-06-05T03:57:31"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-06-08T04:06:36.json",
+      "type": "application/geo+json",
+      "datetime": "2018-06-08T04:06:36",
+      "id": "2018-06-08T04:06:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-06-10T03:59:46.json",
+      "type": "application/geo+json",
+      "datetime": "2018-06-10T03:59:46",
+      "id": "2018-06-10T03:59:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-06-13T04:05:40.json",
+      "type": "application/geo+json",
+      "datetime": "2018-06-13T04:05:40",
+      "id": "2018-06-13T04:05:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-06-15T04:01:14.json",
+      "type": "application/geo+json",
+      "datetime": "2018-06-15T04:01:14",
+      "id": "2018-06-15T04:01:14"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-06-18T04:02:27.json",
+      "type": "application/geo+json",
+      "datetime": "2018-06-18T04:02:27",
+      "id": "2018-06-18T04:02:27"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-06-20T03:55:37.json",
+      "type": "application/geo+json",
+      "datetime": "2018-06-20T03:55:37",
+      "id": "2018-06-20T03:55:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-06-23T04:04:32.json",
+      "type": "application/geo+json",
+      "datetime": "2018-06-23T04:04:32",
+      "id": "2018-06-23T04:04:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-06-25T04:01:08.json",
+      "type": "application/geo+json",
+      "datetime": "2018-06-25T04:01:08",
+      "id": "2018-06-25T04:01:08"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-06-28T04:07:20.json",
+      "type": "application/geo+json",
+      "datetime": "2018-06-28T04:07:20",
+      "id": "2018-06-28T04:07:20"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-06-30T03:54:05.json",
+      "type": "application/geo+json",
+      "datetime": "2018-06-30T03:54:05",
+      "id": "2018-06-30T03:54:05"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-07-03T04:07:44.json",
+      "type": "application/geo+json",
+      "datetime": "2018-07-03T04:07:44",
+      "id": "2018-07-03T04:07:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-07-05T03:55:45.json",
+      "type": "application/geo+json",
+      "datetime": "2018-07-05T03:55:45",
+      "id": "2018-07-05T03:55:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-07-08T04:06:08.json",
+      "type": "application/geo+json",
+      "datetime": "2018-07-08T04:06:08",
+      "id": "2018-07-08T04:06:08"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-07-10T03:59:35.json",
+      "type": "application/geo+json",
+      "datetime": "2018-07-10T03:59:35",
+      "id": "2018-07-10T03:59:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-07-13T04:03:05.json",
+      "type": "application/geo+json",
+      "datetime": "2018-07-13T04:03:05",
+      "id": "2018-07-13T04:03:05"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-07-15T04:01:52.json",
+      "type": "application/geo+json",
+      "datetime": "2018-07-15T04:01:52",
+      "id": "2018-07-15T04:01:52"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-07-18T03:59:17.json",
+      "type": "application/geo+json",
+      "datetime": "2018-07-18T03:59:17",
+      "id": "2018-07-18T03:59:17"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-07-20T03:59:32.json",
+      "type": "application/geo+json",
+      "datetime": "2018-07-20T03:59:32",
+      "id": "2018-07-20T03:59:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-07-23T04:07:53.json",
+      "type": "application/geo+json",
+      "datetime": "2018-07-23T04:07:53",
+      "id": "2018-07-23T04:07:53"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-07-25T03:56:13.json",
+      "type": "application/geo+json",
+      "datetime": "2018-07-25T03:56:13",
+      "id": "2018-07-25T03:56:13"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-07-28T04:10:24.json",
+      "type": "application/geo+json",
+      "datetime": "2018-07-28T04:10:24",
+      "id": "2018-07-28T04:10:24"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-07-30T03:51:02.json",
+      "type": "application/geo+json",
+      "datetime": "2018-07-30T03:51:02",
+      "id": "2018-07-30T03:51:02"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-08-02T04:07:34.json",
+      "type": "application/geo+json",
+      "datetime": "2018-08-02T04:07:34",
+      "id": "2018-08-02T04:07:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-08-04T03:52:57.json",
+      "type": "application/geo+json",
+      "datetime": "2018-08-04T03:52:57",
+      "id": "2018-08-04T03:52:57"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-08-07T04:05:53.json",
+      "type": "application/geo+json",
+      "datetime": "2018-08-07T04:05:53",
+      "id": "2018-08-07T04:05:53"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-08-09T04:01:14.json",
+      "type": "application/geo+json",
+      "datetime": "2018-08-09T04:01:14",
+      "id": "2018-08-09T04:01:14"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-08-12T04:03:38.json",
+      "type": "application/geo+json",
+      "datetime": "2018-08-12T04:03:38",
+      "id": "2018-08-12T04:03:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-08-14T03:59:18.json",
+      "type": "application/geo+json",
+      "datetime": "2018-08-14T03:59:18",
+      "id": "2018-08-14T03:59:18"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-08-17T04:00:38.json",
+      "type": "application/geo+json",
+      "datetime": "2018-08-17T04:00:38",
+      "id": "2018-08-17T04:00:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-08-19T03:58:58.json",
+      "type": "application/geo+json",
+      "datetime": "2018-08-19T03:58:58",
+      "id": "2018-08-19T03:58:58"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-08-22T04:10:13.json",
+      "type": "application/geo+json",
+      "datetime": "2018-08-22T04:10:13",
+      "id": "2018-08-22T04:10:13"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-08-24T03:55:56.json",
+      "type": "application/geo+json",
+      "datetime": "2018-08-24T03:55:56",
+      "id": "2018-08-24T03:55:56"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-08-27T04:05:34.json",
+      "type": "application/geo+json",
+      "datetime": "2018-08-27T04:05:34",
+      "id": "2018-08-27T04:05:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-08-29T03:55:19.json",
+      "type": "application/geo+json",
+      "datetime": "2018-08-29T03:55:19",
+      "id": "2018-08-29T03:55:19"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-09-01T04:05:33.json",
+      "type": "application/geo+json",
+      "datetime": "2018-09-01T04:05:33",
+      "id": "2018-09-01T04:05:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-09-03T03:58:13.json",
+      "type": "application/geo+json",
+      "datetime": "2018-09-03T03:58:13",
+      "id": "2018-09-03T03:58:13"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-09-06T04:05:44.json",
+      "type": "application/geo+json",
+      "datetime": "2018-09-06T04:05:44",
+      "id": "2018-09-06T04:05:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-09-08T03:57:08.json",
+      "type": "application/geo+json",
+      "datetime": "2018-09-08T03:57:08",
+      "id": "2018-09-08T03:57:08"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-09-11T04:04:14.json",
+      "type": "application/geo+json",
+      "datetime": "2018-09-11T04:04:14",
+      "id": "2018-09-11T04:04:14"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-09-13T03:54:57.json",
+      "type": "application/geo+json",
+      "datetime": "2018-09-13T03:54:57",
+      "id": "2018-09-13T03:54:57"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-09-18T03:51:47.json",
+      "type": "application/geo+json",
+      "datetime": "2018-09-18T03:51:47",
+      "id": "2018-09-18T03:51:47"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-09-21T04:04:38.json",
+      "type": "application/geo+json",
+      "datetime": "2018-09-21T04:04:38",
+      "id": "2018-09-21T04:04:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-09-23T03:54:40.json",
+      "type": "application/geo+json",
+      "datetime": "2018-09-23T03:54:40",
+      "id": "2018-09-23T03:54:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-09-26T04:07:41.json",
+      "type": "application/geo+json",
+      "datetime": "2018-09-26T04:07:41",
+      "id": "2018-09-26T04:07:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-09-28T03:53:50.json",
+      "type": "application/geo+json",
+      "datetime": "2018-09-28T03:53:50",
+      "id": "2018-09-28T03:53:50"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-10-01T04:07:52.json",
+      "type": "application/geo+json",
+      "datetime": "2018-10-01T04:07:52",
+      "id": "2018-10-01T04:07:52"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-10-03T03:59:26.json",
+      "type": "application/geo+json",
+      "datetime": "2018-10-03T03:59:26",
+      "id": "2018-10-03T03:59:26"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-10-06T04:04:40.json",
+      "type": "application/geo+json",
+      "datetime": "2018-10-06T04:04:40",
+      "id": "2018-10-06T04:04:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-10-08T03:53:19.json",
+      "type": "application/geo+json",
+      "datetime": "2018-10-08T03:53:19",
+      "id": "2018-10-08T03:53:19"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-10-11T04:12:46.json",
+      "type": "application/geo+json",
+      "datetime": "2018-10-11T04:12:46",
+      "id": "2018-10-11T04:12:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-10-13T03:58:10.json",
+      "type": "application/geo+json",
+      "datetime": "2018-10-13T03:58:10",
+      "id": "2018-10-13T03:58:10"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-10-16T04:10:45.json",
+      "type": "application/geo+json",
+      "datetime": "2018-10-16T04:10:45",
+      "id": "2018-10-16T04:10:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-10-18T03:55:02.json",
+      "type": "application/geo+json",
+      "datetime": "2018-10-18T03:55:02",
+      "id": "2018-10-18T03:55:02"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-10-21T04:05:57.json",
+      "type": "application/geo+json",
+      "datetime": "2018-10-21T04:05:57",
+      "id": "2018-10-21T04:05:57"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-10-23T04:01:30.json",
+      "type": "application/geo+json",
+      "datetime": "2018-10-23T04:01:30",
+      "id": "2018-10-23T04:01:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-10-26T04:13:19.json",
+      "type": "application/geo+json",
+      "datetime": "2018-10-26T04:13:19",
+      "id": "2018-10-26T04:13:19"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-10-28T03:57:31.json",
+      "type": "application/geo+json",
+      "datetime": "2018-10-28T03:57:31",
+      "id": "2018-10-28T03:57:31"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-10-31T04:11:47.json",
+      "type": "application/geo+json",
+      "datetime": "2018-10-31T04:11:47",
+      "id": "2018-10-31T04:11:47"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-11-02T03:55:24.json",
+      "type": "application/geo+json",
+      "datetime": "2018-11-02T03:55:24",
+      "id": "2018-11-02T03:55:24"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-11-05T04:07:07.json",
+      "type": "application/geo+json",
+      "datetime": "2018-11-05T04:07:07",
+      "id": "2018-11-05T04:07:07"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-11-07T04:03:38.json",
+      "type": "application/geo+json",
+      "datetime": "2018-11-07T04:03:38",
+      "id": "2018-11-07T04:03:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-11-10T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2018-11-10T04:13:33",
+      "id": "2018-11-10T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-11-12T04:03:35.json",
+      "type": "application/geo+json",
+      "datetime": "2018-11-12T04:03:35",
+      "id": "2018-11-12T04:03:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-11-15T04:13:30.json",
+      "type": "application/geo+json",
+      "datetime": "2018-11-15T04:13:30",
+      "id": "2018-11-15T04:13:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-11-17T04:03:37.json",
+      "type": "application/geo+json",
+      "datetime": "2018-11-17T04:03:37",
+      "id": "2018-11-17T04:03:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-11-20T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2018-11-20T04:13:33",
+      "id": "2018-11-20T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-11-22T04:03:33.json",
+      "type": "application/geo+json",
+      "datetime": "2018-11-22T04:03:33",
+      "id": "2018-11-22T04:03:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-11-25T04:13:28.json",
+      "type": "application/geo+json",
+      "datetime": "2018-11-25T04:13:28",
+      "id": "2018-11-25T04:13:28"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-11-27T04:03:36.json",
+      "type": "application/geo+json",
+      "datetime": "2018-11-27T04:03:36",
+      "id": "2018-11-27T04:03:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-11-30T04:13:32.json",
+      "type": "application/geo+json",
+      "datetime": "2018-11-30T04:13:32",
+      "id": "2018-11-30T04:13:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-12-02T04:03:31.json",
+      "type": "application/geo+json",
+      "datetime": "2018-12-02T04:03:31",
+      "id": "2018-12-02T04:03:31"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-12-05T04:13:27.json",
+      "type": "application/geo+json",
+      "datetime": "2018-12-05T04:13:27",
+      "id": "2018-12-05T04:13:27"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-12-07T04:03:35.json",
+      "type": "application/geo+json",
+      "datetime": "2018-12-07T04:03:35",
+      "id": "2018-12-07T04:03:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-12-10T04:13:30.json",
+      "type": "application/geo+json",
+      "datetime": "2018-12-10T04:13:30",
+      "id": "2018-12-10T04:13:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-12-12T04:03:32.json",
+      "type": "application/geo+json",
+      "datetime": "2018-12-12T04:03:32",
+      "id": "2018-12-12T04:03:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-12-15T04:13:27.json",
+      "type": "application/geo+json",
+      "datetime": "2018-12-15T04:13:27",
+      "id": "2018-12-15T04:13:27"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-12-17T04:03:34.json",
+      "type": "application/geo+json",
+      "datetime": "2018-12-17T04:03:34",
+      "id": "2018-12-17T04:03:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-12-20T04:13:31.json",
+      "type": "application/geo+json",
+      "datetime": "2018-12-20T04:13:31",
+      "id": "2018-12-20T04:13:31"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-12-22T04:03:32.json",
+      "type": "application/geo+json",
+      "datetime": "2018-12-22T04:03:32",
+      "id": "2018-12-22T04:03:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-12-25T04:13:28.json",
+      "type": "application/geo+json",
+      "datetime": "2018-12-25T04:13:28",
+      "id": "2018-12-25T04:13:28"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-12-27T04:03:36.json",
+      "type": "application/geo+json",
+      "datetime": "2018-12-27T04:03:36",
+      "id": "2018-12-27T04:03:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2018/2018-12-30T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2018-12-30T04:13:33",
+      "id": "2018-12-30T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-01-01T04:03:34.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-01T04:03:34",
+      "id": "2019-01-01T04:03:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-01-04T04:13:30.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-04T04:13:30",
+      "id": "2019-01-04T04:13:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-01-06T04:03:38.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-06T04:03:38",
+      "id": "2019-01-06T04:03:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-01-09T04:13:35.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-09T04:13:35",
+      "id": "2019-01-09T04:13:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-01-11T04:03:35.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-11T04:03:35",
+      "id": "2019-01-11T04:03:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-01-14T04:13:30.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-14T04:13:30",
+      "id": "2019-01-14T04:13:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-01-16T04:03:39.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-16T04:03:39",
+      "id": "2019-01-16T04:03:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-01-19T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-19T04:13:36",
+      "id": "2019-01-19T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-01-21T04:03:36.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-21T04:03:36",
+      "id": "2019-01-21T04:03:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-01-24T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-24T04:13:33",
+      "id": "2019-01-24T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-01-26T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-26T04:03:40",
+      "id": "2019-01-26T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-01-29T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-29T04:13:36",
+      "id": "2019-01-29T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-01-31T04:03:37.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-31T04:03:37",
+      "id": "2019-01-31T04:03:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-02-03T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-03T04:13:33",
+      "id": "2019-02-03T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-02-05T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-05T04:03:40",
+      "id": "2019-02-05T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-02-08T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-08T04:13:36",
+      "id": "2019-02-08T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-02-10T04:03:37.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-10T04:03:37",
+      "id": "2019-02-10T04:03:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-02-13T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-13T04:13:33",
+      "id": "2019-02-13T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-02-15T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-15T04:03:40",
+      "id": "2019-02-15T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-02-18T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-18T04:13:36",
+      "id": "2019-02-18T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-02-20T04:03:36.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-20T04:03:36",
+      "id": "2019-02-20T04:03:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-02-23T04:13:32.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-23T04:13:32",
+      "id": "2019-02-23T04:13:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-02-25T04:03:39.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-25T04:03:39",
+      "id": "2019-02-25T04:03:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-02-28T04:13:34.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-28T04:13:34",
+      "id": "2019-02-28T04:13:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-03-02T04:03:35.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-02T04:03:35",
+      "id": "2019-03-02T04:03:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-03-05T04:13:30.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-05T04:13:30",
+      "id": "2019-03-05T04:13:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-03-07T04:03:37.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-07T04:03:37",
+      "id": "2019-03-07T04:03:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-03-10T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-10T04:13:33",
+      "id": "2019-03-10T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-03-12T04:03:35.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-12T04:03:35",
+      "id": "2019-03-12T04:03:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-03-15T04:13:32.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-15T04:13:32",
+      "id": "2019-03-15T04:13:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-03-17T04:03:38.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-17T04:03:38",
+      "id": "2019-03-17T04:03:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-03-20T04:13:35.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-20T04:13:35",
+      "id": "2019-03-20T04:13:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-03-22T04:03:37.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-22T04:03:37",
+      "id": "2019-03-22T04:03:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-03-25T04:13:35.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-25T04:13:35",
+      "id": "2019-03-25T04:13:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-03-27T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-27T04:03:41",
+      "id": "2019-03-27T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-03-30T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-30T04:13:38",
+      "id": "2019-03-30T04:13:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-04-01T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-01T04:03:40",
+      "id": "2019-04-01T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-04-04T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-04T04:13:37",
+      "id": "2019-04-04T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-04-06T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-06T04:03:43",
+      "id": "2019-04-06T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-04-09T04:13:40.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-09T04:13:40",
+      "id": "2019-04-09T04:13:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-04-11T04:03:42.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-11T04:03:42",
+      "id": "2019-04-11T04:03:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-04-14T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-14T04:13:38",
+      "id": "2019-04-14T04:13:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-04-16T04:03:45.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-16T04:03:45",
+      "id": "2019-04-16T04:03:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-04-19T04:13:42.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-19T04:13:42",
+      "id": "2019-04-19T04:13:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-04-21T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-21T04:03:43",
+      "id": "2019-04-21T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-04-24T04:13:39.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-24T04:13:39",
+      "id": "2019-04-24T04:13:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-04-26T04:03:47.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-26T04:03:47",
+      "id": "2019-04-26T04:03:47"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-04-29T04:13:43.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-29T04:13:43",
+      "id": "2019-04-29T04:13:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-05-01T04:03:44.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-01T04:03:44",
+      "id": "2019-05-01T04:03:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-05-04T04:13:40.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-04T04:13:40",
+      "id": "2019-05-04T04:13:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-05-06T04:03:48.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-06T04:03:48",
+      "id": "2019-05-06T04:03:48"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-05-09T04:13:44.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-09T04:13:44",
+      "id": "2019-05-09T04:13:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-05-11T04:03:44.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-11T04:03:44",
+      "id": "2019-05-11T04:03:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-05-14T04:13:40.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-14T04:13:40",
+      "id": "2019-05-14T04:13:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-05-16T04:03:49.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-16T04:03:49",
+      "id": "2019-05-16T04:03:49"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-05-19T04:13:45.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-19T04:13:45",
+      "id": "2019-05-19T04:13:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-05-21T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-21T04:03:43",
+      "id": "2019-05-21T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-05-24T04:13:39.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-24T04:13:39",
+      "id": "2019-05-24T04:13:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-05-26T04:03:49.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-26T04:03:49",
+      "id": "2019-05-26T04:03:49"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-05-29T04:13:44.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-29T04:13:44",
+      "id": "2019-05-29T04:13:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-05-31T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-31T04:03:43",
+      "id": "2019-05-31T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-06-03T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-03T04:13:38",
+      "id": "2019-06-03T04:13:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-06-05T04:03:48.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-05T04:03:48",
+      "id": "2019-06-05T04:03:48"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-06-08T04:13:44.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-08T04:13:44",
+      "id": "2019-06-08T04:13:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-06-10T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-10T04:03:43",
+      "id": "2019-06-10T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-06-13T04:13:39.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-13T04:13:39",
+      "id": "2019-06-13T04:13:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-06-15T04:03:47.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-15T04:03:47",
+      "id": "2019-06-15T04:03:47"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-06-18T04:13:44.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-18T04:13:44",
+      "id": "2019-06-18T04:13:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-06-20T04:03:44.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-20T04:03:44",
+      "id": "2019-06-20T04:03:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-06-23T04:13:40.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-23T04:13:40",
+      "id": "2019-06-23T04:13:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-06-25T04:03:48.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-25T04:03:48",
+      "id": "2019-06-25T04:03:48"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-06-28T04:13:44.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-28T04:13:44",
+      "id": "2019-06-28T04:13:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-06-30T04:03:45.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-30T04:03:45",
+      "id": "2019-06-30T04:03:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-07-03T04:13:41.json",
+      "type": "application/geo+json",
+      "datetime": "2019-07-03T04:13:41",
+      "id": "2019-07-03T04:13:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-07-05T04:03:49.json",
+      "type": "application/geo+json",
+      "datetime": "2019-07-05T04:03:49",
+      "id": "2019-07-05T04:03:49"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-07-08T04:13:45.json",
+      "type": "application/geo+json",
+      "datetime": "2019-07-08T04:13:45",
+      "id": "2019-07-08T04:13:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-07-10T04:03:45.json",
+      "type": "application/geo+json",
+      "datetime": "2019-07-10T04:03:45",
+      "id": "2019-07-10T04:03:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-07-13T04:13:41.json",
+      "type": "application/geo+json",
+      "datetime": "2019-07-13T04:13:41",
+      "id": "2019-07-13T04:13:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-07-15T04:03:49.json",
+      "type": "application/geo+json",
+      "datetime": "2019-07-15T04:03:49",
+      "id": "2019-07-15T04:03:49"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-07-18T04:13:45.json",
+      "type": "application/geo+json",
+      "datetime": "2019-07-18T04:13:45",
+      "id": "2019-07-18T04:13:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-07-20T04:03:45.json",
+      "type": "application/geo+json",
+      "datetime": "2019-07-20T04:03:45",
+      "id": "2019-07-20T04:03:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-07-23T04:13:41.json",
+      "type": "application/geo+json",
+      "datetime": "2019-07-23T04:13:41",
+      "id": "2019-07-23T04:13:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-07-25T04:03:48.json",
+      "type": "application/geo+json",
+      "datetime": "2019-07-25T04:03:48",
+      "id": "2019-07-25T04:03:48"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-07-28T04:13:44.json",
+      "type": "application/geo+json",
+      "datetime": "2019-07-28T04:13:44",
+      "id": "2019-07-28T04:13:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-07-30T04:03:45.json",
+      "type": "application/geo+json",
+      "datetime": "2019-07-30T04:03:45",
+      "id": "2019-07-30T04:03:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-08-02T04:13:40.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-02T04:13:40",
+      "id": "2019-08-02T04:13:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-08-04T04:03:48.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-04T04:03:48",
+      "id": "2019-08-04T04:03:48"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-08-07T04:13:43.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-07T04:13:43",
+      "id": "2019-08-07T04:13:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-08-09T04:03:44.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-09T04:03:44",
+      "id": "2019-08-09T04:03:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-08-12T04:13:40.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-12T04:13:40",
+      "id": "2019-08-12T04:13:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-08-14T04:03:47.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-14T04:03:47",
+      "id": "2019-08-14T04:03:47"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-08-17T04:13:42.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-17T04:13:42",
+      "id": "2019-08-17T04:13:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-08-19T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-19T04:03:43",
+      "id": "2019-08-19T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-08-22T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-22T04:13:38",
+      "id": "2019-08-22T04:13:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-08-24T04:03:45.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-24T04:03:45",
+      "id": "2019-08-24T04:03:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-08-27T04:13:40.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-27T04:13:40",
+      "id": "2019-08-27T04:13:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-08-29T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-29T04:03:41",
+      "id": "2019-08-29T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-09-01T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-01T04:13:36",
+      "id": "2019-09-01T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-09-03T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-03T04:03:43",
+      "id": "2019-09-03T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-09-06T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-06T04:13:38",
+      "id": "2019-09-06T04:13:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-09-08T04:03:39.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-08T04:03:39",
+      "id": "2019-09-08T04:03:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-09-11T04:13:34.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-11T04:13:34",
+      "id": "2019-09-11T04:13:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-09-13T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-13T04:03:41",
+      "id": "2019-09-13T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-09-16T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-16T04:13:36",
+      "id": "2019-09-16T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-09-18T04:03:39.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-18T04:03:39",
+      "id": "2019-09-18T04:03:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-09-21T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-21T04:13:36",
+      "id": "2019-09-21T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-09-23T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-23T04:03:40",
+      "id": "2019-09-23T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-09-26T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-26T04:13:36",
+      "id": "2019-09-26T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-09-28T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-28T04:03:41",
+      "id": "2019-09-28T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-10-01T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-01T04:13:38",
+      "id": "2019-10-01T04:13:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-10-03T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-03T04:03:41",
+      "id": "2019-10-03T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-10-06T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-06T04:13:37",
+      "id": "2019-10-06T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-10-08T04:03:42.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-08T04:03:42",
+      "id": "2019-10-08T04:03:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-10-11T04:13:39.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-11T04:13:39",
+      "id": "2019-10-11T04:13:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-10-13T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-13T04:03:41",
+      "id": "2019-10-13T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-10-16T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-16T04:13:37",
+      "id": "2019-10-16T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-10-18T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-18T04:03:43",
+      "id": "2019-10-18T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-10-21T04:13:39.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-21T04:13:39",
+      "id": "2019-10-21T04:13:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-10-23T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-23T04:03:41",
+      "id": "2019-10-23T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-10-26T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-26T04:13:37",
+      "id": "2019-10-26T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-10-28T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-28T04:03:43",
+      "id": "2019-10-28T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-10-31T04:13:39.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-31T04:13:39",
+      "id": "2019-10-31T04:13:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-11-02T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2019-11-02T04:03:40",
+      "id": "2019-11-02T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-11-05T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2019-11-05T04:13:36",
+      "id": "2019-11-05T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-11-07T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2019-11-07T04:03:43",
+      "id": "2019-11-07T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-11-10T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2019-11-10T04:13:38",
+      "id": "2019-11-10T04:13:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-11-12T04:03:39.json",
+      "type": "application/geo+json",
+      "datetime": "2019-11-12T04:03:39",
+      "id": "2019-11-12T04:03:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-11-15T04:13:35.json",
+      "type": "application/geo+json",
+      "datetime": "2019-11-15T04:13:35",
+      "id": "2019-11-15T04:13:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-11-17T04:03:42.json",
+      "type": "application/geo+json",
+      "datetime": "2019-11-17T04:03:42",
+      "id": "2019-11-17T04:03:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-11-20T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2019-11-20T04:13:37",
+      "id": "2019-11-20T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-11-22T04:03:37.json",
+      "type": "application/geo+json",
+      "datetime": "2019-11-22T04:03:37",
+      "id": "2019-11-22T04:03:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-11-25T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2019-11-25T04:13:33",
+      "id": "2019-11-25T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-11-27T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2019-11-27T04:03:40",
+      "id": "2019-11-27T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-11-30T04:13:35.json",
+      "type": "application/geo+json",
+      "datetime": "2019-11-30T04:13:35",
+      "id": "2019-11-30T04:13:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-12-02T04:03:35.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-02T04:03:35",
+      "id": "2019-12-02T04:03:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-12-05T04:13:30.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-05T04:13:30",
+      "id": "2019-12-05T04:13:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-12-07T04:03:37.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-07T04:03:37",
+      "id": "2019-12-07T04:03:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-12-10T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-10T04:13:33",
+      "id": "2019-12-10T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-12-12T04:03:34.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-12T04:03:34",
+      "id": "2019-12-12T04:03:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-12-15T04:13:30.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-15T04:13:30",
+      "id": "2019-12-15T04:13:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-12-17T04:03:34.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-17T04:03:34",
+      "id": "2019-12-17T04:03:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-12-20T04:13:30.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-20T04:13:30",
+      "id": "2019-12-20T04:13:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-12-22T04:03:35.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-22T04:03:35",
+      "id": "2019-12-22T04:03:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-12-25T04:13:31.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-25T04:13:31",
+      "id": "2019-12-25T04:13:31"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-12-27T04:03:35.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-27T04:03:35",
+      "id": "2019-12-27T04:03:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2019/2019-12-30T04:13:31.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-30T04:13:31",
+      "id": "2019-12-30T04:13:31"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-01-01T04:03:35.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-01T04:03:35",
+      "id": "2020-01-01T04:03:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-01-04T04:13:31.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-04T04:13:31",
+      "id": "2020-01-04T04:13:31"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-01-06T04:03:34.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-06T04:03:34",
+      "id": "2020-01-06T04:03:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-01-09T04:13:30.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-09T04:13:30",
+      "id": "2020-01-09T04:13:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-01-11T04:03:35.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-11T04:03:35",
+      "id": "2020-01-11T04:03:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-01-14T04:13:30.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-14T04:13:30",
+      "id": "2020-01-14T04:13:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-01-16T04:03:34.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-16T04:03:34",
+      "id": "2020-01-16T04:03:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-01-19T04:13:30.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-19T04:13:30",
+      "id": "2020-01-19T04:13:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-01-21T04:03:34.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-21T04:03:34",
+      "id": "2020-01-21T04:03:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-01-24T04:13:29.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-24T04:13:29",
+      "id": "2020-01-24T04:13:29"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-01-26T04:03:33.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-26T04:03:33",
+      "id": "2020-01-26T04:03:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-01-29T04:13:29.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-29T04:13:29",
+      "id": "2020-01-29T04:13:29"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-01-31T04:03:32.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-31T04:03:32",
+      "id": "2020-01-31T04:03:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-02-03T04:13:29.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-03T04:13:29",
+      "id": "2020-02-03T04:13:29"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-02-05T04:03:32.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-05T04:03:32",
+      "id": "2020-02-05T04:03:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-02-08T04:13:27.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-08T04:13:27",
+      "id": "2020-02-08T04:13:27"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-02-10T04:03:35.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-10T04:03:35",
+      "id": "2020-02-10T04:03:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-02-13T04:13:31.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-13T04:13:31",
+      "id": "2020-02-13T04:13:31"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-02-15T04:03:33.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-15T04:03:33",
+      "id": "2020-02-15T04:03:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-02-18T04:13:30.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-18T04:13:30",
+      "id": "2020-02-18T04:13:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-02-20T04:03:36.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-20T04:03:36",
+      "id": "2020-02-20T04:03:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-02-23T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-23T04:13:33",
+      "id": "2020-02-23T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-02-25T04:03:35.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-25T04:03:35",
+      "id": "2020-02-25T04:03:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-02-28T04:13:31.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-28T04:13:31",
+      "id": "2020-02-28T04:13:31"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-03-01T04:03:37.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-01T04:03:37",
+      "id": "2020-03-01T04:03:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-03-04T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-04T04:13:33",
+      "id": "2020-03-04T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-03-06T04:03:36.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-06T04:03:36",
+      "id": "2020-03-06T04:03:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-03-09T04:13:32.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-09T04:13:32",
+      "id": "2020-03-09T04:13:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-03-11T04:03:38.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-11T04:03:38",
+      "id": "2020-03-11T04:03:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-03-14T04:13:34.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-14T04:13:34",
+      "id": "2020-03-14T04:13:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-03-16T04:03:36.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-16T04:03:36",
+      "id": "2020-03-16T04:03:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-03-19T04:13:32.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-19T04:13:32",
+      "id": "2020-03-19T04:13:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-03-21T04:03:38.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-21T04:03:38",
+      "id": "2020-03-21T04:03:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-03-24T04:13:34.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-24T04:13:34",
+      "id": "2020-03-24T04:13:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-03-26T04:03:36.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-26T04:03:36",
+      "id": "2020-03-26T04:03:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-03-29T04:13:32.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-29T04:13:32",
+      "id": "2020-03-29T04:13:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-03-31T04:03:37.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-31T04:03:37",
+      "id": "2020-03-31T04:03:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-04-03T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-03T04:13:33",
+      "id": "2020-04-03T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-04-05T04:03:36.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-05T04:03:36",
+      "id": "2020-04-05T04:03:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-04-08T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-08T04:13:33",
+      "id": "2020-04-08T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-04-10T04:03:36.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-10T04:03:36",
+      "id": "2020-04-10T04:03:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-04-13T04:13:32.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-13T04:13:32",
+      "id": "2020-04-13T04:13:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-04-15T04:03:39.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-15T04:03:39",
+      "id": "2020-04-15T04:03:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-04-18T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-18T04:13:36",
+      "id": "2020-04-18T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-04-20T04:03:35.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-20T04:03:35",
+      "id": "2020-04-20T04:03:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-04-23T04:13:30.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-23T04:13:30",
+      "id": "2020-04-23T04:13:30"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-04-25T04:03:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-25T04:03:42",
+      "id": "2020-04-25T04:03:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-04-28T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-28T04:13:38",
+      "id": "2020-04-28T04:13:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-04-30T04:03:36.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-30T04:03:36",
+      "id": "2020-04-30T04:03:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-05-03T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-03T04:13:33",
+      "id": "2020-05-03T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-05-05T04:03:44.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-05T04:03:44",
+      "id": "2020-05-05T04:03:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-05-08T04:13:40.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-08T04:13:40",
+      "id": "2020-05-08T04:13:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-05-10T04:03:38.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-10T04:03:38",
+      "id": "2020-05-10T04:03:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-05-13T04:13:35.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-13T04:13:35",
+      "id": "2020-05-13T04:13:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-05-15T04:03:45.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-15T04:03:45",
+      "id": "2020-05-15T04:03:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-05-18T04:13:41.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-18T04:13:41",
+      "id": "2020-05-18T04:13:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-05-20T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-20T04:03:40",
+      "id": "2020-05-20T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-05-23T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-23T04:13:36",
+      "id": "2020-05-23T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-05-25T04:03:46.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-25T04:03:46",
+      "id": "2020-05-25T04:03:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-05-28T04:13:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-28T04:13:42",
+      "id": "2020-05-28T04:13:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-05-30T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-30T04:03:41",
+      "id": "2020-05-30T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-06-02T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-02T04:13:38",
+      "id": "2020-06-02T04:13:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-06-04T04:03:46.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-04T04:03:46",
+      "id": "2020-06-04T04:03:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-06-07T04:13:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-07T04:13:42",
+      "id": "2020-06-07T04:13:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-06-09T04:03:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-09T04:03:42",
+      "id": "2020-06-09T04:03:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-06-12T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-12T04:13:38",
+      "id": "2020-06-12T04:13:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-06-14T04:03:46.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-14T04:03:46",
+      "id": "2020-06-14T04:03:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-06-17T04:13:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-17T04:13:42",
+      "id": "2020-06-17T04:13:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-06-19T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-19T04:03:41",
+      "id": "2020-06-19T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-06-22T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-22T04:13:38",
+      "id": "2020-06-22T04:13:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-06-24T04:03:46.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-24T04:03:46",
+      "id": "2020-06-24T04:03:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-06-27T04:13:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-27T04:13:42",
+      "id": "2020-06-27T04:13:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-06-29T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-29T04:03:43",
+      "id": "2020-06-29T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-07-02T04:13:39.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-02T04:13:39",
+      "id": "2020-07-02T04:13:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-07-04T04:03:45.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-04T04:03:45",
+      "id": "2020-07-04T04:03:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-07-07T04:13:41.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-07T04:13:41",
+      "id": "2020-07-07T04:13:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-07-09T04:03:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-09T04:03:42",
+      "id": "2020-07-09T04:03:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-07-12T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-12T04:13:38",
+      "id": "2020-07-12T04:13:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-07-14T04:03:45.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-14T04:03:45",
+      "id": "2020-07-14T04:03:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-07-17T04:13:41.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-17T04:13:41",
+      "id": "2020-07-17T04:13:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-07-19T04:03:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-19T04:03:42",
+      "id": "2020-07-19T04:03:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-07-22T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-22T04:13:33",
+      "id": "2020-07-22T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-07-24T04:03:46.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-24T04:03:46",
+      "id": "2020-07-24T04:03:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-07-27T04:13:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-27T04:13:42",
+      "id": "2020-07-27T04:13:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-07-29T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-29T04:03:43",
+      "id": "2020-07-29T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-08-01T04:13:39.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-01T04:13:39",
+      "id": "2020-08-01T04:13:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-08-03T04:03:46.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-03T04:03:46",
+      "id": "2020-08-03T04:03:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-08-06T04:13:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-06T04:13:42",
+      "id": "2020-08-06T04:13:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-08-08T04:03:44.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-08T04:03:44",
+      "id": "2020-08-08T04:03:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-08-11T04:13:40.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-11T04:13:40",
+      "id": "2020-08-11T04:13:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-08-13T04:03:46.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-13T04:03:46",
+      "id": "2020-08-13T04:03:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-08-16T04:13:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-16T04:13:42",
+      "id": "2020-08-16T04:13:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-08-18T04:03:44.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-18T04:03:44",
+      "id": "2020-08-18T04:03:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-08-21T04:13:40.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-21T04:13:40",
+      "id": "2020-08-21T04:13:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-08-23T04:03:46.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-23T04:03:46",
+      "id": "2020-08-23T04:03:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-08-26T04:13:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-26T04:13:42",
+      "id": "2020-08-26T04:13:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-08-28T04:03:44.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-28T04:03:44",
+      "id": "2020-08-28T04:03:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-08-31T04:13:40.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-31T04:13:40",
+      "id": "2020-08-31T04:13:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-09-02T04:03:45.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-02T04:03:45",
+      "id": "2020-09-02T04:03:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-09-05T04:13:41.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-05T04:13:41",
+      "id": "2020-09-05T04:13:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-09-07T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-07T04:03:43",
+      "id": "2020-09-07T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-09-10T04:13:39.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-10T04:13:39",
+      "id": "2020-09-10T04:13:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-09-12T04:03:44.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-12T04:03:44",
+      "id": "2020-09-12T04:03:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-09-15T04:13:41.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-15T04:13:41",
+      "id": "2020-09-15T04:13:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-09-17T04:03:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-17T04:03:42",
+      "id": "2020-09-17T04:03:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-09-20T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-20T04:13:38",
+      "id": "2020-09-20T04:13:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-09-22T04:03:45.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-22T04:03:45",
+      "id": "2020-09-22T04:03:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-09-25T04:13:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-25T04:13:42",
+      "id": "2020-09-25T04:13:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-09-27T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-27T04:03:43",
+      "id": "2020-09-27T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-09-30T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-30T04:13:33",
+      "id": "2020-09-30T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-09-30T04:13:40.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-30T04:13:40",
+      "id": "2020-09-30T04:13:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-10-02T04:03:46.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-02T04:03:46",
+      "id": "2020-10-02T04:03:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-10-05T04:13:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-05T04:13:42",
+      "id": "2020-10-05T04:13:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-10-07T04:03:44.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-07T04:03:44",
+      "id": "2020-10-07T04:03:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-10-10T04:13:40.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-10T04:13:40",
+      "id": "2020-10-10T04:13:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-10-12T04:03:46.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-12T04:03:46",
+      "id": "2020-10-12T04:03:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-10-15T04:13:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-15T04:13:42",
+      "id": "2020-10-15T04:13:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-10-17T04:03:44.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-17T04:03:44",
+      "id": "2020-10-17T04:03:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-10-20T04:13:40.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-20T04:13:40",
+      "id": "2020-10-20T04:13:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-10-22T04:03:46.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-22T04:03:46",
+      "id": "2020-10-22T04:03:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-10-25T04:13:42.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-25T04:13:42",
+      "id": "2020-10-25T04:13:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-10-27T04:03:44.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-27T04:03:44",
+      "id": "2020-10-27T04:03:44"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-10-30T04:13:39.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-30T04:13:39",
+      "id": "2020-10-30T04:13:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-11-01T04:03:46.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-01T04:03:46",
+      "id": "2020-11-01T04:03:46"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-11-04T04:13:41.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-04T04:13:41",
+      "id": "2020-11-04T04:13:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-11-06T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-06T04:03:43",
+      "id": "2020-11-06T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-11-09T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-09T04:13:38",
+      "id": "2020-11-09T04:13:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-11-11T04:03:45.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-11T04:03:45",
+      "id": "2020-11-11T04:03:45"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-11-14T04:13:40.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-14T04:13:40",
+      "id": "2020-11-14T04:13:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-11-16T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-16T04:03:41",
+      "id": "2020-11-16T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-11-19T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-19T04:13:37",
+      "id": "2020-11-19T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-11-21T04:03:43.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-21T04:03:43",
+      "id": "2020-11-21T04:03:43"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-11-24T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-24T04:13:38",
+      "id": "2020-11-24T04:13:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-11-26T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-26T04:03:41",
+      "id": "2020-11-26T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-11-29T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-29T04:13:36",
+      "id": "2020-11-29T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-12-01T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-01T04:03:40",
+      "id": "2020-12-01T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-12-04T04:13:35.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-04T04:13:35",
+      "id": "2020-12-04T04:13:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-12-06T04:03:39.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-06T04:03:39",
+      "id": "2020-12-06T04:03:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-12-09T04:13:34.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-09T04:13:34",
+      "id": "2020-12-09T04:13:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-12-11T04:03:37.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-11T04:03:37",
+      "id": "2020-12-11T04:03:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-12-14T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-14T04:13:33",
+      "id": "2020-12-14T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-12-16T04:03:36.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-16T04:03:36",
+      "id": "2020-12-16T04:03:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-12-19T04:13:32.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-19T04:13:32",
+      "id": "2020-12-19T04:13:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-12-21T04:03:39.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-21T04:03:39",
+      "id": "2020-12-21T04:03:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-12-24T04:13:35.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-24T04:13:35",
+      "id": "2020-12-24T04:13:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-12-26T04:03:38.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-26T04:03:38",
+      "id": "2020-12-26T04:03:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-12-29T04:13:34.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-29T04:13:34",
+      "id": "2020-12-29T04:13:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2020/2020-12-31T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-31T04:03:41",
+      "id": "2020-12-31T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-01-03T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-03T04:13:37",
+      "id": "2021-01-03T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-01-05T04:03:39.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-05T04:03:39",
+      "id": "2021-01-05T04:03:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-01-08T04:13:35.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-08T04:13:35",
+      "id": "2021-01-08T04:13:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-01-10T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-10T04:03:41",
+      "id": "2021-01-10T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-01-13T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-13T04:13:37",
+      "id": "2021-01-13T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-01-15T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-15T04:03:40",
+      "id": "2021-01-15T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-01-18T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-18T04:13:36",
+      "id": "2021-01-18T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-01-20T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-20T04:03:41",
+      "id": "2021-01-20T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-01-23T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-23T04:13:37",
+      "id": "2021-01-23T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-01-25T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-25T04:03:40",
+      "id": "2021-01-25T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-01-28T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-28T04:13:36",
+      "id": "2021-01-28T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-01-30T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-30T04:03:41",
+      "id": "2021-01-30T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-02-02T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-02T04:13:36",
+      "id": "2021-02-02T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-02-04T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-04T04:03:40",
+      "id": "2021-02-04T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-02-07T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-07T04:13:36",
+      "id": "2021-02-07T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-02-09T04:03:39.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-09T04:03:39",
+      "id": "2021-02-09T04:03:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-02-12T04:13:35.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-12T04:13:35",
+      "id": "2021-02-12T04:13:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-02-14T04:03:39.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-14T04:03:39",
+      "id": "2021-02-14T04:03:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-02-17T04:13:34.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-17T04:13:34",
+      "id": "2021-02-17T04:13:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-02-19T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-19T04:03:40",
+      "id": "2021-02-19T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-02-22T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-22T04:13:36",
+      "id": "2021-02-22T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-02-24T04:03:39.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-24T04:03:39",
+      "id": "2021-02-24T04:03:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-02-27T04:13:35.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-27T04:13:35",
+      "id": "2021-02-27T04:13:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-03-01T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-01T04:03:40",
+      "id": "2021-03-01T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-03-04T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-04T04:13:36",
+      "id": "2021-03-04T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-03-06T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-06T04:03:40",
+      "id": "2021-03-06T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-03-09T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-09T04:13:36",
+      "id": "2021-03-09T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-03-11T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-11T04:03:40",
+      "id": "2021-03-11T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-03-14T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-14T04:13:36",
+      "id": "2021-03-14T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-03-16T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-16T04:03:40",
+      "id": "2021-03-16T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-03-19T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-19T04:13:36",
+      "id": "2021-03-19T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-03-21T04:03:39.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-21T04:03:39",
+      "id": "2021-03-21T04:03:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-03-24T04:13:35.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-24T04:13:35",
+      "id": "2021-03-24T04:13:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-03-26T04:03:39.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-26T04:03:39",
+      "id": "2021-03-26T04:03:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-03-29T04:13:35.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-29T04:13:35",
+      "id": "2021-03-29T04:13:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-03-31T04:03:38.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-31T04:03:38",
+      "id": "2021-03-31T04:03:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-04-03T04:13:33.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-03T04:13:33",
+      "id": "2021-04-03T04:13:33"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-04-05T04:03:38.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-05T04:03:38",
+      "id": "2021-04-05T04:03:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-04-08T04:13:34.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-08T04:13:34",
+      "id": "2021-04-08T04:13:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-04-10T04:03:36.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-10T04:03:36",
+      "id": "2021-04-10T04:03:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-04-13T04:13:31.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-13T04:13:31",
+      "id": "2021-04-13T04:13:31"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-04-15T04:03:36.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-15T04:03:36",
+      "id": "2021-04-15T04:03:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-04-18T04:13:32.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-18T04:13:32",
+      "id": "2021-04-18T04:13:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-04-20T04:03:31.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-20T04:03:31",
+      "id": "2021-04-20T04:03:31"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-04-23T04:13:32.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-23T04:13:32",
+      "id": "2021-04-23T04:13:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-04-25T04:03:35.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-25T04:03:35",
+      "id": "2021-04-25T04:03:35"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-04-28T04:13:32.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-28T04:13:32",
+      "id": "2021-04-28T04:13:32"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-04-30T04:03:38.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-30T04:03:38",
+      "id": "2021-04-30T04:03:38"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-05-03T04:13:34.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-03T04:13:34",
+      "id": "2021-05-03T04:13:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-05-05T04:03:37.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-05T04:03:37",
+      "id": "2021-05-05T04:03:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-05-08T04:13:34.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-08T04:13:34",
+      "id": "2021-05-08T04:13:34"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-05-10T04:03:40.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-10T04:03:40",
+      "id": "2021-05-10T04:03:40"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-05-13T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-13T04:13:36",
+      "id": "2021-05-13T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-05-15T04:03:39.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-15T04:03:39",
+      "id": "2021-05-15T04:03:39"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-05-18T04:13:36.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-18T04:13:36",
+      "id": "2021-05-18T04:13:36"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-05-20T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-20T04:03:41",
+      "id": "2021-05-20T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-05-23T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-23T04:13:37",
+      "id": "2021-05-23T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-05-25T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-25T04:03:41",
+      "id": "2021-05-25T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-05-28T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-28T04:13:37",
+      "id": "2021-05-28T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-05-30T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-30T04:03:41",
+      "id": "2021-05-30T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-06-02T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-02T04:13:37",
+      "id": "2021-06-02T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-06-04T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-04T04:03:41",
+      "id": "2021-06-04T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-06-07T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-07T04:13:37",
+      "id": "2021-06-07T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-06-09T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-09T04:03:41",
+      "id": "2021-06-09T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-06-12T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-12T04:13:37",
+      "id": "2021-06-12T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-06-14T04:03:42.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-14T04:03:42",
+      "id": "2021-06-14T04:03:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-06-17T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-17T04:13:37",
+      "id": "2021-06-17T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-06-19T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-19T04:03:41",
+      "id": "2021-06-19T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-06-22T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-22T04:13:37",
+      "id": "2021-06-22T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-06-24T04:03:41.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-24T04:03:41",
+      "id": "2021-06-24T04:03:41"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-06-27T04:13:37.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-27T04:13:37",
+      "id": "2021-06-27T04:13:37"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-06-29T04:03:42.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-29T04:03:42",
+      "id": "2021-06-29T04:03:42"
+    },
+    {
+      "rel": "item",
+      "href": "./US08/2021/2021-07-02T04:13:38.json",
+      "type": "application/geo+json",
+      "datetime": "2021-07-02T04:13:38",
+      "id": "2021-07-02T04:13:38"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10c_tri?aoi_id=eq.US08&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Rice planting"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10c_rice_planting/chart.json",
+  "subcode": "E10c",
+  "subtitle": "Early Rice Planting in Sacramento, California, USA",
+  "eodash:stories": {
+    "early_rice_planting": {
+      "href": "https://eodashboard.org/story/?id=early_rice_planting",
+      "type": "text/markdown",
+      "title": "COVID-19 Impacts on Rice Planting in Sacramento, California",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/early_rice_planting.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.jpg",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "Multi-sensors",
+    "Food security",
+    "Cereals"
+  ],
+  "agency": [
+    "NASA",
+    "USGS",
+    "JAXA",
+    "ESA"
+  ],
+  "sensor": [
+    "PALSAR-2",
+    "SGLI",
+    "MSI",
+    "OLI"
+  ],
+  "satellite": [
+    "ALOS-2",
+    "GCOM-C",
+    "Sentinel-2",
+    "Landsat-8"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      -1,
+      1
+    ],
+    "range": [
+      "#ffffff",
+      "#acacac",
+      "#595959",
+      "#616161",
+      "#b4b4b4",
+      "#f5f5f5",
+      "#949494",
+      "#454558",
+      "#1be830",
+      "#83ff01",
+      "#ffe801",
+      "#ff8001",
+      "#ff1801",
+      "#ff01ef"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "NDVI"
+  },
+  "title": "Glenn - rice_planting",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -122.26556000000001,
+          39.28284,
+          -121.86556,
+          39.682840000000006
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-10-22T04:12:16Z",
+          "2021-07-02T04:13:38Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "JAXA",
+      "url": "https://global.jaxa.jp/"
+    },
+    {
+      "name": "ESA",
+      "url": "https://www.esa.int/"
+    },
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/"
+    },
+    {
+      "name": "USGS",
+      "url": "https://www.usgs.gov/"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "early_rice_planting": {
+      "href": "https://eodashboard.org/story/?id=early_rice_planting",
+      "type": "text/markdown",
+      "title": "COVID-19 Impacts on Rice Planting in Sacramento, California",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/early_rice_planting.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://www.ers.usda.gov/publications/pub-details/?pubid=101645",
+      "type": "text/html",
+      "title": "Rice Outlook - July 2021",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://droughtmonitor.unl.edu/CurrentMap/StateDroughtMonitor.aspx?West",
+      "type": "text/html",
+      "title": "U.S. Drought Monitor",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=CALIFORNIA",
+      "type": "text/html",
+      "title": "Statistics by USDA",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_4": {
+      "href": "https://www.maff.go.jp/j/zyukyu/jki/j_rep/monthly/attach/pdf/r2index-28.pdf",
+      "type": "text/html",
+      "title": "Foreign Food Supply and Demand Report (October 2020, in Japanese)",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

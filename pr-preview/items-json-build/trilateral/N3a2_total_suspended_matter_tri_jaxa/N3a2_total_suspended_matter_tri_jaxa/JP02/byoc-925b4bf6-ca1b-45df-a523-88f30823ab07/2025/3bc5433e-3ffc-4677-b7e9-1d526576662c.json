@@ -1,0 +1,131 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "3bc5433e-3ffc-4677-b7e9-1d526576662c",
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          134.5,
+          33.85
+        ],
+        [
+          135.5,
+          33.85
+        ],
+        [
+          135.5,
+          34.85
+        ],
+        [
+          134.5,
+          34.85
+        ],
+        [
+          134.5,
+          33.85
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    134.5,
+    33.85,
+    135.5,
+    34.85
+  ],
+  "properties": {
+    "datetime": "2025-07-19T00:00:00Z",
+    "proj:bbox": [
+      134.5,
+      33.85,
+      135.5,
+      34.85
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            134.5,
+            33.85
+          ],
+          [
+            135.5,
+            33.85
+          ],
+          [
+            135.5,
+            34.85
+          ],
+          [
+            134.5,
+            34.85
+          ],
+          [
+            134.5,
+            33.85
+          ]
+        ]
+      ]
+    },
+    "proj:code": "EPSG:84"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Total suspended matter from GCOM-C",
+      "wms:layers": [
+        "AWS_JAXA_TSM"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2025-07-19T00:00:00Z/2025-07-19T23:59:59Z"
+      }
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Kobe"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Kobe"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": "https://services.sentinel-hub.com/api/v1/catalog/1.0.0/collections/byoc-925b4bf6-ca1b-45df-a523-88f30823ab07/items/"
+    }
+  },
+  "collection": "byoc-925b4bf6-ca1b-45df-a523-88f30823ab07"
+}

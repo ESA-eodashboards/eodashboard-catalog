@@ -1,0 +1,222 @@
+{
+  "type": "Collection",
+  "id": "SITI_IS2SITMOGR4-cog",
+  "stac_version": "1.1.0",
+  "description": "## Monthly Gridded Sea Ice Thickness (ICESat-2 L4)\n\nThis data set reports monthly, gridded winter sea ice thickness across the Arctic Ocean. Sea ice thickness is estimated using ATLAS/ICESat-2 L3A Sea Ice Freeboard (ATL10),\nVersion 5 data and NASA Eulerian Snow On Sea Ice Model (NESOSIM) snow loading.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./SITI_IS2SITMOGR4-cog/collection.json",
+      "type": "application/json",
+      "title": "Sea Ice Thickness (ICESat-2)",
+      "endpointtype": "VEDA_cog",
+      "subtitle": "Monthly Arctic sea ice thickness",
+      "code": "SITI",
+      "id": "SITI_IS2SITMOGR4-cog",
+      "themes": [
+        "cryosphere"
+      ],
+      "providers": [
+        "NASA"
+      ],
+      "tags": [
+        "Sea ice",
+        "Arctic",
+        "Open data",
+        "Polar Regions",
+        "Arctic"
+      ],
+      "agency": [
+        "NASA"
+      ],
+      "subcode": "SITI",
+      "sensor": [
+        "ATLAS"
+      ],
+      "satellite": [
+        "ICESat-2"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "sci:doi": "10.5067/OE8BDP5KU30Q",
+  "sci:citation": "Petty, A. A., N. Kurtz, R. Kwok, T. Markus, T. A. Neumann, and N. Keeney. 2022. ICESat-2 L4 Monthly Gridded Sea Ice Thickness, Version 2. [Indicate subset used]. \nBoulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. \n",
+  "subtitle": "Monthly Arctic sea ice thickness",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SITI_IS2SITMOGR4-cog/SITI_IS2SITMOGR4-cog.jpg",
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "Sea ice",
+    "Arctic",
+    "Open data",
+    "Polar Regions",
+    "Arctic"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "SITI",
+  "sensor": [
+    "ATLAS"
+  ],
+  "satellite": [
+    "ICESat-2"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      4
+    ],
+    "range": [
+      "#0d0887",
+      "#370499",
+      "#5801a4",
+      "#7701a8",
+      "#920fa3",
+      "#ac2694",
+      "#c23c81",
+      "#d45270",
+      "#e4695e",
+      "#f1814d",
+      "#fa9b3d",
+      "#feb82c",
+      "#fad824",
+      "#f0f921"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Sea-ice thickness [m]"
+  },
+  "title": "Sea Ice Thickness (ICESat-2)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          31.269270721494188,
+          179.7061752664782,
+          85.18898561151076
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-11-01T00:00:00Z",
+          "2021-04-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "NASA",
+      "roles": [
+        "licensor, producer"
+      ],
+      "url": "https://www.earthdata.nasa.gov/"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "SITI"
+    ],
+    "themes": [
+      "cryosphere"
+    ],
+    "satellite": [
+      "ICESat-2"
+    ],
+    "sensor": [
+      "ATLAS"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SITI_IS2SITMOGR4-cog/SITI_IS2SITMOGR4-cog.jpg"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SITI_IS2SITMOGR4-cog/SITI_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SITI_IS2SITMOGR4-cog/SITI_IS2SITMOGR4-cog.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://nsidc.org/data/is2sitmogr4/versions/2",
+      "type": "text/html",
+      "title": "Data access",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

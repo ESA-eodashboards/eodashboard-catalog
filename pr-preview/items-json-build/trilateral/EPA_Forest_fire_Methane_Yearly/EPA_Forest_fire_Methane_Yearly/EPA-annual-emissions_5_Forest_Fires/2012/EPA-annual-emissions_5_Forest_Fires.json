@@ -1,0 +1,187 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "EPA-annual-emissions_5_Forest_Fires",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -129.99999694660497,
+          19.999999240339655
+        ],
+        [
+          -59.99999923869774,
+          19.999999240339655
+        ],
+        [
+          -59.99999923869774,
+          54.99999694496308
+        ],
+        [
+          -129.99999694660497,
+          54.99999694496308
+        ],
+        [
+          -129.99999694660497,
+          19.999999240339655
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -129.99999694660497,
+    19.999999240339655,
+    -59.99999923869774,
+    54.99999694496308
+  ],
+  "properties": {
+    "end_datetime": "2012-12-31T23:59:59+00:00",
+    "start_datetime": "2012-01-01T00:00:00+00:00",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "preview",
+      "href": "https://openveda.cloud/api/raster/collections/EPA-annual-emissions_5_Forest_Fires/items/EPA-annual-emissions_5_Forest_Fires/WebMercatorQuad/map?assets=cog_default&nodata=0&rescale=0%2C23039817809&colormap_name=rainbow",
+      "type": "text/html",
+      "title": "Map of Item"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/EPA-annual-emissions_5_Forest_Fires/EPA-annual-emissions_5_Forest_Fires.tif&resampling_method=nearest&bidx=1&colormap_name=rainbow&rescale=0,2e10",
+      "type": "image/png",
+      "title": "Forest Fires annual - EPA Methane Emissions 2012",
+      "key": "5cab9269-d642-4577-9fc7-605cf799bf7b"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Forest Fires annual - EPA Methane Emissions 2012"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Forest Fires annual - EPA Methane Emissions 2012"
+    }
+  ],
+  "assets": {
+    "cog_default": {
+      "href": "s3://veda-data-store/EPA-annual-emissions_5_Forest_Fires/EPA-annual-emissions_5_Forest_Fires.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Default COG Layer",
+      "description": "Cloud optimized default layer to display on map",
+      "proj:bbox": [
+        -129.99999694660497,
+        19.999999240339655,
+        -59.99999923869774,
+        54.99999694496308
+      ],
+      "proj:wkt2": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "proj:shape": [
+        17500,
+        35000
+      ],
+      "proj:geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -129.99999694660497,
+              19.999999240339655
+            ],
+            [
+              -59.99999923869774,
+              19.999999240339655
+            ],
+            [
+              -59.99999923869774,
+              54.99999694496308
+            ],
+            [
+              -129.99999694660497,
+              54.99999694496308
+            ],
+            [
+              -129.99999694660497,
+              19.999999240339655
+            ]
+          ]
+        ]
+      },
+      "proj:projjson": {
+        "id": {
+          "code": 4326,
+          "authority": "EPSG"
+        },
+        "name": "WGS 84",
+        "type": "GeographicCRS",
+        "datum": {
+          "name": "World Geodetic System 1984",
+          "type": "GeodeticReferenceFrame",
+          "ellipsoid": {
+            "name": "WGS 84",
+            "semi_major_axis": 6378137,
+            "inverse_flattening": 298.257223563
+          }
+        },
+        "$schema": "https://proj.org/schemas/v0.4/projjson.schema.json",
+        "coordinate_system": {
+          "axis": [
+            {
+              "name": "Geodetic latitude",
+              "unit": "degree",
+              "direction": "north",
+              "abbreviation": "Lat"
+            },
+            {
+              "name": "Geodetic longitude",
+              "unit": "degree",
+              "direction": "east",
+              "abbreviation": "Lon"
+            }
+          ],
+          "subtype": "ellipsoidal"
+        }
+      },
+      "proj:transform": [
+        0.001999999934511635,
+        0.0,
+        -129.99999694660497,
+        0.0,
+        -0.0019999998688356242,
+        54.99999694496308,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "proj:code": "EPSG:4326",
+      "roles": [
+        "data",
+        "layer"
+      ]
+    },
+    "rendered_preview": {
+      "href": "https://openveda.cloud/api/raster/collections/EPA-annual-emissions_5_Forest_Fires/items/EPA-annual-emissions_5_Forest_Fires/preview.png?assets=cog_default&nodata=0&rescale=0%2C23039817809&colormap_name=rainbow",
+      "type": "image/png",
+      "title": "Rendered preview",
+      "rel": "preview",
+      "roles": [
+        "overview"
+      ]
+    }
+  },
+  "collection": "EPA-annual-emissions_5_Forest_Fires"
+}

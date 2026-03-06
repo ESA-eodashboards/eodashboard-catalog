@@ -1,0 +1,138 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2020-01-24T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -73.97302,
+          40.77222
+        ],
+        [
+          -74.0355,
+          40.76234
+        ],
+        [
+          -74.11241,
+          40.66345
+        ],
+        [
+          -74.1948,
+          40.64366
+        ],
+        [
+          -74.30329,
+          40.5044
+        ],
+        [
+          -74.22639,
+          40.44643
+        ],
+        [
+          -73.99087,
+          40.40461
+        ],
+        [
+          -73.79311,
+          40.3952
+        ],
+        [
+          -73.64617,
+          40.44695
+        ],
+        [
+          -73.61665,
+          40.58319
+        ],
+        [
+          -73.75123,
+          40.59519
+        ],
+        [
+          -73.79174,
+          40.66033
+        ],
+        [
+          -73.87895,
+          40.6572
+        ],
+        [
+          -73.97576,
+          40.61187
+        ],
+        [
+          -74.00117,
+          40.66189
+        ],
+        [
+          -73.93868,
+          40.7483
+        ],
+        [
+          -73.97302,
+          40.77222
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -74.30329,
+    40.3952,
+    -73.61665,
+    40.77222
+  ],
+  "properties": {
+    "datetime": "2020-01-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13c_shipping_activity/style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "dummy_asset",
+        "geodbfeatures"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://8ib71h0627.execute-api.us-east-1.amazonaws.com/v1/{z}/{x}/{y}@1x?url=s3%3A%2F%2Fcovid-eo-data%2Fplanet%2Fny-2020_01_24.tif&resampling_method=bilinear&bidx=1%2C2%2C3",
+      "type": "image/png",
+      "title": "Shipping Activity at Major Ports"
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "New York - E13c_shipping_activity"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "New York - E13c_shipping_activity"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    },
+    "geodbfeatures": {
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13c_tri-detections?aoi_id=eq.US01&time=eq.2020-01-24T00:00:00",
+      "type": "application/geodb+json",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "US01"
+}

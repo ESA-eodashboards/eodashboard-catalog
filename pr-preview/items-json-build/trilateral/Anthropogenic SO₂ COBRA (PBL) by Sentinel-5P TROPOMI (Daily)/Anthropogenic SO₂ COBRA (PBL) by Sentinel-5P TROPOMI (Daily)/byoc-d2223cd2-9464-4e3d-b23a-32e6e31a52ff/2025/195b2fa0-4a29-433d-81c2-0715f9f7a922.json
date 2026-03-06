@@ -1,0 +1,133 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "195b2fa0-4a29-433d-81c2-0715f9f7a922",
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+  ],
+  "properties": {
+    "datetime": "2025-02-17T00:00:00Z",
+    "proj:bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            -180.0,
+            -90.0
+          ],
+          [
+            180.0,
+            -90.0
+          ],
+          [
+            180.0,
+            90.0
+          ],
+          [
+            -180.0,
+            90.0
+          ],
+          [
+            -180.0,
+            -90.0
+          ]
+        ]
+      ]
+    },
+    "proj:code": "EPSG:84"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)",
+      "wms:layers": [
+        "S5P-L3GRD-SO2COBRA-DAY"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2025-02-17T00:00:00Z/2025-02-17T23:59:59Z"
+      },
+      "proj:epsg": 4326
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": "https://services.sentinel-hub.com/api/v1/catalog/1.0.0/collections/byoc-d2223cd2-9464-4e3d-b23a-32e6e31a52ff/items/"
+    }
+  },
+  "collection": "byoc-d2223cd2-9464-4e3d-b23a-32e6e31a52ff",
+  "proj:epsg": 4326
+}

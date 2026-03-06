@@ -1,0 +1,275 @@
+{
+  "type": "Collection",
+  "id": "car_containers",
+  "stac_version": "1.1.0",
+  "description": "# Finished goods production: vehicles inventory level\n\nThis indicator aims at tracking production and movement at factories and ports importing and exporting cars to monitor the increase and decrease of new car production\nby combining satellite data from:\n###\n- PALSAR-2, which uses L-band SAR mounted on [JAXA](https://global.jaxa.jp/)'s ALOS-2 \n- C-band SAR mounted on the [ESA](https://esa.int/)'s Sentinel-1\n- NASA-processed high-resolution optical remote sensing data from Planet’s SkySat\n\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./CN03/collection.json",
+      "type": "application/json",
+      "title": "Beijing - car_containers",
+      "id": "CN03",
+      "latlng": "40.08, 116.6",
+      "country": "CN",
+      "name": "Beijing"
+    },
+    {
+      "rel": "child",
+      "href": "./JP03/collection.json",
+      "type": "application/json",
+      "title": "Nagoya - car_containers",
+      "id": "JP03",
+      "latlng": "35.0800,136.8800",
+      "country": "JP",
+      "name": "Nagoya"
+    },
+    {
+      "rel": "child",
+      "href": "./SG01/collection.json",
+      "type": "application/json",
+      "title": "Singapore - car_containers",
+      "id": "SG01",
+      "latlng": "1.264856, 103.847663",
+      "country": "SG",
+      "name": "Singapore"
+    },
+    {
+      "rel": "child",
+      "href": "./US021/collection.json",
+      "type": "application/json",
+      "title": "Los Angeles - car_containers",
+      "id": "US021",
+      "latlng": "33.94, -118.41",
+      "country": "US",
+      "name": "Los Angeles"
+    },
+    {
+      "rel": "child",
+      "href": "./US050/collection.json",
+      "type": "application/json",
+      "title": "Los Angeles - car_containers",
+      "id": "US050",
+      "latlng": "33.79,-117.89",
+      "country": "US",
+      "name": "Los Angeles"
+    },
+    {
+      "rel": "child",
+      "href": "./US051/collection.json",
+      "type": "application/json",
+      "title": "Los Angeles - car_containers",
+      "id": "US051",
+      "latlng": "34.07,-118.23",
+      "country": "US",
+      "name": "Los Angeles"
+    },
+    {
+      "rel": "child",
+      "href": "./US052/collection.json",
+      "type": "application/json",
+      "title": "Palm Springs - car_containers",
+      "id": "US052",
+      "latlng": "33.82,-116.5",
+      "country": "US",
+      "name": "Palm Springs"
+    },
+    {
+      "rel": "child",
+      "href": "./US053/collection.json",
+      "type": "application/json",
+      "title": "Arcadia - car_containers",
+      "id": "US053",
+      "latlng": "34.14,-118.04",
+      "country": "US",
+      "name": "Arcadia"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Car containers"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "subtitle": "Change in the number of new cars at automobile factory",
+  "eodash:stories": {
+    "covid-cars": {
+      "href": "https://eodashboard.org/story/?id=covid-cars",
+      "type": "text/markdown",
+      "title": "COVID-19 Changes in Car Manufacturing",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/covid-cars.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg",
+  "yAxis": "Car Density",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Mobility",
+    "SAR",
+    "Multi-sensors",
+    "Production",
+    "Finished goods",
+    "Automotive",
+    "Motor vehicles"
+  ],
+  "agency": [
+    "JAXA",
+    "ESA"
+  ],
+  "subcode": "E9",
+  "sensor": [
+    "PALSAR-2",
+    "C-SAR"
+  ],
+  "satellite": [
+    "ALOS-2",
+    "Sentinel-1"
+  ],
+  "locations": true,
+  "endpointtype": "GeoDB",
+  "title": "Car containers",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          241.633621,
+          90.0
+        ],
+        [
+          116.547,
+          40.039,
+          116.661,
+          40.127
+        ],
+        [
+          136.74201569988466,
+          34.93867142383858,
+          136.95693574382997,
+          35.13376088778208
+        ],
+        [
+          103.79106908,
+          1.22839947,
+          103.89963395,
+          1.33714062
+        ],
+        [
+          241.547974,
+          33.925984,
+          241.633621,
+          33.964007
+        ],
+        [
+          -118.09,
+          33.589999999999996,
+          -117.69,
+          33.99
+        ],
+        [
+          -118.43,
+          33.87,
+          -118.03,
+          34.27
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          -118.24000000000001,
+          33.94,
+          -117.84,
+          34.34
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1970-01-01T00:00:00Z",
+          "2026-03-05T17:18:54.005564Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "JAXA",
+      "url": "https://global.jaxa.jp/"
+    },
+    {
+      "name": "ESA",
+      "url": "https://www.esa.int/"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "Beijing",
+      "Nagoya",
+      "Singapore",
+      "Los Angeles",
+      "Palm Springs",
+      "Arcadia"
+    ],
+    "countries": [
+      "CN",
+      "JP",
+      "SG",
+      "US"
+    ]
+  },
+  "assets": {
+    "covid-cars": {
+      "href": "https://eodashboard.org/story/?id=covid-cars",
+      "type": "text/markdown",
+      "title": "COVID-19 Changes in Car Manufacturing",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/covid-cars.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2020-04-18T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.09,
+          33.589999999999996
+        ],
+        [
+          -117.69,
+          33.589999999999996
+        ],
+        [
+          -117.69,
+          33.99
+        ],
+        [
+          -118.09,
+          33.99
+        ],
+        [
+          -118.09,
+          33.589999999999996
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.09,
+    33.589999999999996,
+    -117.69,
+    33.99
+  ],
+  "properties": {
+    "datetime": "2020-04-18T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "ALOS-2",
+      "wms:layers": [
+        "AWS_JAXA_CARS_CONTAINERS_ALOS2"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2020-04-18T00:00:00/2020-04-18T23:59:59"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Los Angeles - car_containers"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Los Angeles - car_containers"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    }
+  },
+  "collection": "US050"
+}

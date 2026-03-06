@@ -1,0 +1,956 @@
+{
+  "type": "Collection",
+  "id": "US04",
+  "stac_version": "1.1.0",
+  "description": "# Water Quality - Chlorophyll-a concentrations\nChlorophyll-a (Chl-a) concentration is an indicator of algae abundance which fluctuates naturally over space and time, as a result of combined atmospheric and oceanic effects (e.g., marine currents and upwelling). In coastal areas, strongly influenced by river inputs and human activities, high Chl concentration can result from the discharge of urban sewage, industrial runoffs, and fertilizers from agriculture activities over watersheds. In particular, nutrient inputs of anthropogenic origin affect the natural amount of phytoplankton in marine and inland waters, representing a continuous threat to biodiversity and leading to undesirable modifications of phytoplankton concentration (i.e., eutrophication).\n\nNASA’s Aqua satellite, part of the Earth Observing System (EOS), is equipped with several instruments designed to study Earth’s water cycle, climate, and ecosystems. Among these instruments, the Moderate Resolution Imaging Spectroradiometer (MODIS) is particularly important for mapping chlorophyll-a concentrations in oceans, lakes, and rivers. MODIS’s ability to detect chlorophyll-a helps monitor phytoplankton biomass, marine productivity, and the overall health of aquatic ecosystems on a global scale.\n\nWhen interpreting chlorophyll-a concentration maps produced by Aqua’s MODIS sensor, it’s crucial to understand the color scale used to represent different levels of chlorophyll-a. The scale typically goes from blue to red, where:\n\n- Blue represents low chlorophyll-a concentration.\n- Red represents high chlorophyll-a concentration.\n\n## Dataset Description\n- Spectral Range: MODIS has 36 spectral bands, covering visible, near-infrared, and thermal infrared wavelengths, optimized for observing ocean color, vegetation, and atmospheric properties.\n- Chlorophyll-a Detection: MODIS is highly effective for detecting chlorophyll-a concentrations, providing insights into phytoplankton distribution, ocean productivity, and marine ecosystem dynamics.\n- Spatial Resolution: MODIS offers spatial resolutions of 250 m for certain key bands (including those used for chlorophyll-a) and 500 m to 1 km for others, enabling detailed monitoring of coastal, inland, and oceanic waters.\n- Wide Swath Coverage: With a swath width of 2330 km, MODIS enables near-global coverage every 1 to 2 days, making it ideal for tracking phytoplankton blooms and monitoring marine ecosystem health on both regional and global scales.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-01-01T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-01T00:00:00",
+      "id": "2020-01-01T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-01-08T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-08T00:00:00",
+      "id": "2020-01-08T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-01-15T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-15T00:00:00",
+      "id": "2020-01-15T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-01-22T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-22T00:00:00",
+      "id": "2020-01-22T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-01-29T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-29T00:00:00",
+      "id": "2020-01-29T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-02-05T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-05T00:00:00",
+      "id": "2020-02-05T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-02-12T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-12T00:00:00",
+      "id": "2020-02-12T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-02-19T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-19T00:00:00",
+      "id": "2020-02-19T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-02-26T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-26T00:00:00",
+      "id": "2020-02-26T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-03-04T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-04T00:00:00",
+      "id": "2020-03-04T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-03-11T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-11T00:00:00",
+      "id": "2020-03-11T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-03-18T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-18T00:00:00",
+      "id": "2020-03-18T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-03-25T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-25T00:00:00",
+      "id": "2020-03-25T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-04-01T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-01T00:00:00",
+      "id": "2020-04-01T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-04-08T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-08T00:00:00",
+      "id": "2020-04-08T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-04-15T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-15T00:00:00",
+      "id": "2020-04-15T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-04-22T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-22T00:00:00",
+      "id": "2020-04-22T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-04-29T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-29T00:00:00",
+      "id": "2020-04-29T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-05-06T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-06T00:00:00",
+      "id": "2020-05-06T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-05-13T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-13T00:00:00",
+      "id": "2020-05-13T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-05-20T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-20T00:00:00",
+      "id": "2020-05-20T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-05-27T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-27T00:00:00",
+      "id": "2020-05-27T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-06-03T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-03T00:00:00",
+      "id": "2020-06-03T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-06-10T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-10T00:00:00",
+      "id": "2020-06-10T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-06-17T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-17T00:00:00",
+      "id": "2020-06-17T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-06-24T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-24T00:00:00",
+      "id": "2020-06-24T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-07-01T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-01T00:00:00",
+      "id": "2020-07-01T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-07-08T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-08T00:00:00",
+      "id": "2020-07-08T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-07-15T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-15T00:00:00",
+      "id": "2020-07-15T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-07-22T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-22T00:00:00",
+      "id": "2020-07-22T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-07-29T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-29T00:00:00",
+      "id": "2020-07-29T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-08-05T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-05T00:00:00",
+      "id": "2020-08-05T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-08-12T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-12T00:00:00",
+      "id": "2020-08-12T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-09-02T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-02T00:00:00",
+      "id": "2020-09-02T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-09-09T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-09T00:00:00",
+      "id": "2020-09-09T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-09-16T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-16T00:00:00",
+      "id": "2020-09-16T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-09-23T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-23T00:00:00",
+      "id": "2020-09-23T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-09-30T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-30T00:00:00",
+      "id": "2020-09-30T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-10-07T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-07T00:00:00",
+      "id": "2020-10-07T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-10-14T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-14T00:00:00",
+      "id": "2020-10-14T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-10-21T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-21T00:00:00",
+      "id": "2020-10-21T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-10-28T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-28T00:00:00",
+      "id": "2020-10-28T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-11-04T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-04T00:00:00",
+      "id": "2020-11-04T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-11-11T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-11T00:00:00",
+      "id": "2020-11-11T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-11-18T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-18T00:00:00",
+      "id": "2020-11-18T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-11-25T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-25T00:00:00",
+      "id": "2020-11-25T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-12-02T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-02T00:00:00",
+      "id": "2020-12-02T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-12-09T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-09T00:00:00",
+      "id": "2020-12-09T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-12-16T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-16T00:00:00",
+      "id": "2020-12-16T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-12-23T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-23T00:00:00",
+      "id": "2020-12-23T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2020/2020-12-30T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-30T00:00:00",
+      "id": "2020-12-30T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-01-06T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-06T00:00:00",
+      "id": "2021-01-06T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-01-13T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-13T00:00:00",
+      "id": "2021-01-13T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-01-20T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-20T00:00:00",
+      "id": "2021-01-20T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-01-27T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-01-27T00:00:00",
+      "id": "2021-01-27T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-02-03T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-03T00:00:00",
+      "id": "2021-02-03T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-02-10T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-10T00:00:00",
+      "id": "2021-02-10T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-02-17T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-17T00:00:00",
+      "id": "2021-02-17T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-02-24T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-24T00:00:00",
+      "id": "2021-02-24T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-03-03T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-03T00:00:00",
+      "id": "2021-03-03T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-03-10T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-10T00:00:00",
+      "id": "2021-03-10T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-03-17T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-17T00:00:00",
+      "id": "2021-03-17T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-03-24T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-24T00:00:00",
+      "id": "2021-03-24T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-03-31T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-31T00:00:00",
+      "id": "2021-03-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-04-07T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-07T00:00:00",
+      "id": "2021-04-07T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-04-14T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-14T00:00:00",
+      "id": "2021-04-14T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-04-21T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-21T00:00:00",
+      "id": "2021-04-21T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-04-28T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-28T00:00:00",
+      "id": "2021-04-28T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-05-05T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-05T00:00:00",
+      "id": "2021-05-05T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-05-12T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-12T00:00:00",
+      "id": "2021-05-12T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-05-19T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-19T00:00:00",
+      "id": "2021-05-19T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-05-26T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-26T00:00:00",
+      "id": "2021-05-26T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-06-02T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-02T00:00:00",
+      "id": "2021-06-02T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-06-09T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-09T00:00:00",
+      "id": "2021-06-09T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-06-16T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-16T00:00:00",
+      "id": "2021-06-16T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-06-23T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-23T00:00:00",
+      "id": "2021-06-23T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-06-30T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-30T00:00:00",
+      "id": "2021-06-30T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-07-07T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-07-07T00:00:00",
+      "id": "2021-07-07T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-07-14T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-07-14T00:00:00",
+      "id": "2021-07-14T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-07-21T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-07-21T00:00:00",
+      "id": "2021-07-21T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-07-28T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-07-28T00:00:00",
+      "id": "2021-07-28T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-08-04T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-08-04T00:00:00",
+      "id": "2021-08-04T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-08-11T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-08-11T00:00:00",
+      "id": "2021-08-11T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-08-18T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-08-18T00:00:00",
+      "id": "2021-08-18T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-08-25T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-08-25T00:00:00",
+      "id": "2021-08-25T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-09-01T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-09-01T00:00:00",
+      "id": "2021-09-01T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-09-08T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-09-08T00:00:00",
+      "id": "2021-09-08T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-09-15T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-09-15T00:00:00",
+      "id": "2021-09-15T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-09-22T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-09-22T00:00:00",
+      "id": "2021-09-22T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-09-29T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-09-29T00:00:00",
+      "id": "2021-09-29T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-10-06T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-10-06T00:00:00",
+      "id": "2021-10-06T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-10-13T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-10-13T00:00:00",
+      "id": "2021-10-13T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-10-20T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-10-20T00:00:00",
+      "id": "2021-10-20T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-10-27T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-10-27T00:00:00",
+      "id": "2021-10-27T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-11-03T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-11-03T00:00:00",
+      "id": "2021-11-03T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-11-10T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-11-10T00:00:00",
+      "id": "2021-11-10T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-11-17T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-11-17T00:00:00",
+      "id": "2021-11-17T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-11-24T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-11-24T00:00:00",
+      "id": "2021-11-24T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-12-01T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-12-01T00:00:00",
+      "id": "2021-12-01T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-12-08T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-12-08T00:00:00",
+      "id": "2021-12-08T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-12-15T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-12-15T00:00:00",
+      "id": "2021-12-15T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-12-22T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-12-22T00:00:00",
+      "id": "2021-12-22T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2021/2021-12-29T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2021-12-29T00:00:00",
+      "id": "2021-12-29T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2022/2022-01-05T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2022-01-05T00:00:00",
+      "id": "2022-01-05T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2022/2022-01-12T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2022-01-12T00:00:00",
+      "id": "2022-01-12T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2022/2022-01-19T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2022-01-19T00:00:00",
+      "id": "2022-01-19T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2022/2022-01-26T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2022-01-26T00:00:00",
+      "id": "2022-01-26T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2022/2022-02-02T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2022-02-02T00:00:00",
+      "id": "2022-02-02T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2022/2022-02-09T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2022-02-09T00:00:00",
+      "id": "2022-02-09T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2022/2022-02-16T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2022-02-16T00:00:00",
+      "id": "2022-02-16T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2022/2022-02-23T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2022-02-23T00:00:00",
+      "id": "2022-02-23T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2022/2022-03-02T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-02T00:00:00",
+      "id": "2022-03-02T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2022/2022-03-09T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-09T00:00:00",
+      "id": "2022-03-09T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./US04/2022/2022-03-16T00:00:00.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-16T00:00:00",
+      "id": "2022-03-16T00:00:00"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration from MODIS"
+    }
+  ],
+  "subcode": "N3a2_chl_nasa",
+  "subtitle": "Chlorophyll-a concentration maps",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg",
+  "yAxis": "%",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Water quality",
+    "Marine",
+    "Acqua",
+    "MODIS",
+    "Open data",
+    "Marine monitoring",
+    "Chlorophyll"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "sensor": [
+    "MODIS"
+  ],
+  "satellite": [
+    "Acqua"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      -100,
+      100
+    ],
+    "range": [
+      "#053264",
+      "#7fb9d7",
+      "#ffffff",
+      "#e68764",
+      "#731432"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Chl-a anomaly [%]"
+  },
+  "title": "New York - N3a2_chl_concentration_tri_nasa",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -74.16735,
+          40.17179,
+          -70.97122,
+          41.5339
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T00:00:00Z",
+          "2022-03-16T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

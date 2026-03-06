@@ -1,0 +1,80 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2023-07-19T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180,
+          -85
+        ],
+        [
+          180,
+          -85
+        ],
+        [
+          180,
+          85
+        ],
+        [
+          -180,
+          85
+        ],
+        [
+          -180,
+          -85
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180,
+    -85,
+    180,
+    85
+  ],
+  "properties": {
+    "datetime": "2023-07-19T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/Modis_SNPP_2023/style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "geodbfeatures"
+      ]
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Active Fires (MODIS)"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Active Fires (MODIS)"
+    }
+  ],
+  "assets": {
+    "geodbfeatures": {
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_MODIS_timeseries?select=brightness,geometry,date_time,confidence,frp,daynight,type,bright_t31&date_time=like.2023-07-19%",
+      "type": "application/geodb+json",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "Modis_SNPP_2023"
+}

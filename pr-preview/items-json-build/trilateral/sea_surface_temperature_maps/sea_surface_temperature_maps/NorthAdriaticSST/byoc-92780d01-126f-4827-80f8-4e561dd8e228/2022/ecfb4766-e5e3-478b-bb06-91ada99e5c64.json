@@ -1,0 +1,131 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "ecfb4766-e5e3-478b-bb06-91ada99e5c64",
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          11.995806217193604,
+          44.495954513549805
+        ],
+        [
+          13.82429552078247,
+          44.495954513549805
+        ],
+        [
+          13.82429552078247,
+          45.80441474914551
+        ],
+        [
+          11.995806217193604,
+          45.80441474914551
+        ],
+        [
+          11.995806217193604,
+          44.495954513549805
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    11.995806217193604,
+    44.495954513549805,
+    13.82429552078247,
+    45.80441474914551
+  ],
+  "properties": {
+    "datetime": "2022-07-09T00:00:00Z",
+    "proj:bbox": [
+      11.995806217193604,
+      44.495954513549805,
+      13.82429552078247,
+      45.80441474914551
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            11.995806217193604,
+            44.495954513549805
+          ],
+          [
+            13.82429552078247,
+            44.495954513549805
+          ],
+          [
+            13.82429552078247,
+            45.80441474914551
+          ],
+          [
+            11.995806217193604,
+            45.80441474914551
+          ],
+          [
+            11.995806217193604,
+            44.495954513549805
+          ]
+        ]
+      ]
+    },
+    "proj:code": "EPSG:84"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Sea surface temperature maps",
+      "wms:layers": [
+        "AWS_VIS_SST_MAPS"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2022-07-09T00:00:00Z/2022-07-09T23:59:59Z"
+      }
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature in North Adriatic"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature in North Adriatic"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": "https://services.sentinel-hub.com/api/v1/catalog/1.0.0/collections/byoc-92780d01-126f-4827-80f8-4e561dd8e228/items/"
+    }
+  },
+  "collection": "byoc-92780d01-126f-4827-80f8-4e561dd8e228"
+}

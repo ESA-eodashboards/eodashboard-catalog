@@ -1,0 +1,90 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2020-06-04T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -73.825,
+          40.62
+        ],
+        [
+          -73.753,
+          40.62
+        ],
+        [
+          -73.753,
+          40.664
+        ],
+        [
+          -73.825,
+          40.664
+        ],
+        [
+          -73.825,
+          40.62
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -73.825,
+    40.62,
+    -73.753,
+    40.664
+  ],
+  "properties": {
+    "datetime": "2020-06-04T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/features_style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "dummy_asset",
+        "geodbfeatures"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://8ib71h0627.execute-api.us-east-1.amazonaws.com/v1/{z}/{x}/{y}@1x?url=s3%3A%2F%2Fcovid-eo-data%2Fplanet%2Fny-2020_06_04.tif&resampling_method=bilinear&bidx=1%2C2%2C3",
+      "type": "image/png",
+      "title": "Parked Airplanes"
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "New York - E13b_parked_airplanes"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "New York - E13b_parked_airplanes"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    },
+    "geodbfeatures": {
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.US041&time=eq.2020-06-04T00:00:00",
+      "type": "application/geodb+json",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "US041"
+}

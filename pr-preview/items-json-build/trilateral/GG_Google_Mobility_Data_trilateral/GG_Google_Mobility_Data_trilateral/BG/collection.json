@@ -1,0 +1,130 @@
+{
+  "type": "Collection",
+  "id": "BG",
+  "stac_version": "1.1.0",
+  "description": "### People Mobility Reports \n\nThis indicator shows the impact of COVID-19 lockdown restrictions on the movement of people and is based on  [Google LLC \"Google COVID-19 Community Mobility Reports\"](https://www.google.com/covid19/mobility/).\nEach datasets shows the daily variation of visits and length of stay at 6 place categories:\n\n- **Grocery & pharmacy** = Mobility trends for places like grocery markets, food warehouses, farmers markets, specialty food shops, drug stores, and pharmacies.\n\n- **Parks** = Mobility trends for places like local parks, national parks, public beaches, marinas, dog parks, plazas, and public gardens.\n\n- **Transit stations** = Mobility trends for places like public transport hubs such as subway, bus, and train stations.\n\n- **Retail & recreation** = Mobility trends for places like restaurants, cafes, shopping centers, theme parks, museums, libraries, and movie theaters.\n\n- **Residential** = Mobility trends for places of residence.\n\n- **Workplaces** = Mobility trends for places of work.\n\n\nThe median value for the corresponding day of the week during the 5-week period Jan 3–Feb 6, 2020 has been considered as a baseline value.\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_Mobility_data?aoi_id=eq.BG&select=time,aoi,measurement_value,reference_value",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "People Mobility Reports"
+    }
+  ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/GG_people_mobility_reports/chart.json",
+  "subcode": "GG",
+  "subtitle": "People mobility data showing the impact of COVID-19 lockdown restrictions",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports.jpg",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Mobility",
+    "Traffic"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "insituSources": [
+    "Mobile"
+  ],
+  "title": "/ - GG_Google_Mobility_Data_trilateral",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          23.117,
+          42.483,
+          23.517,
+          42.883
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-15T00:00:00Z",
+          "2022-10-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Google",
+      "url": "https://www.google.com/covid19/mobility/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GG_people_mobility_reports/GG_people_mobility_reports.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "type": "Collection",
+  "id": "TonleSap_HV",
+  "stac_version": "1.1.0",
+  "description": "Tonlé Sap (ALOS2-HV)",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7820f4b8-0270-438e-83da-18de27fc539c/2022/bcd76e7e-dff7-4305-a854-1798b3c09272.json",
+      "type": "application/geo+json",
+      "datetime": "2022-12-14T00:00:00Z",
+      "id": "bcd76e7e-dff7-4305-a854-1798b3c09272"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7820f4b8-0270-438e-83da-18de27fc539c/2022/2bca07e6-7241-4220-a5c4-b4ecb9f8a7d6.json",
+      "type": "application/geo+json",
+      "datetime": "2022-09-21T00:00:00Z",
+      "id": "2bca07e6-7241-4220-a5c4-b4ecb9f8a7d6"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7820f4b8-0270-438e-83da-18de27fc539c/2022/4ad4b2fe-fe6f-4811-891e-c18e6fe0326e.json",
+      "type": "application/geo+json",
+      "datetime": "2022-08-24T00:00:00Z",
+      "id": "4ad4b2fe-fe6f-4811-891e-c18e6fe0326e"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7820f4b8-0270-438e-83da-18de27fc539c/2022/7cfa0d71-ab46-4ec9-9cc5-812524060101.json",
+      "type": "application/geo+json",
+      "datetime": "2022-07-13T00:00:00Z",
+      "id": "7cfa0d71-ab46-4ec9-9cc5-812524060101"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7820f4b8-0270-438e-83da-18de27fc539c/2022/93a0b4fc-970f-4cbf-8399-241e4c49c641.json",
+      "type": "application/geo+json",
+      "datetime": "2022-06-01T00:00:00Z",
+      "id": "93a0b4fc-970f-4cbf-8399-241e4c49c641"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7820f4b8-0270-438e-83da-18de27fc539c/2022/fb0d816a-7db8-48d0-a2ff-871376e8e767.json",
+      "type": "application/geo+json",
+      "datetime": "2022-04-20T00:00:00Z",
+      "id": "fb0d816a-7db8-48d0-a2ff-871376e8e767"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7820f4b8-0270-438e-83da-18de27fc539c/2022/ed8b1273-72dd-4070-ad1e-ae581593d217.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-23T00:00:00Z",
+      "id": "ed8b1273-72dd-4070-ad1e-ae581593d217"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7820f4b8-0270-438e-83da-18de27fc539c/2022/b94dc357-44c2-4504-9d0e-3f844224016f.json",
+      "type": "application/geo+json",
+      "datetime": "2022-02-09T00:00:00Z",
+      "id": "b94dc357-44c2-4504-9d0e-3f844224016f"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7820f4b8-0270-438e-83da-18de27fc539c/2021/db14e10c-4555-4ac3-8172-abcae74625b2.json",
+      "type": "application/geo+json",
+      "datetime": "2021-11-03T00:00:00Z",
+      "id": "db14e10c-4555-4ac3-8172-abcae74625b2"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7820f4b8-0270-438e-83da-18de27fc539c/2020/14fedd80-19bc-49f1-be96-681960e36784.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-04T00:00:00Z",
+      "id": "14fedd80-19bc-49f1-be96-681960e36784"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7820f4b8-0270-438e-83da-18de27fc539c/2017/c7fae878-2bb9-4587-82b0-9396bc1a1ac7.json",
+      "type": "application/geo+json",
+      "datetime": "2017-11-22T00:00:00Z",
+      "id": "c7fae878-2bb9-4587-82b0-9396bc1a1ac7"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-7820f4b8-0270-438e-83da-18de27fc539c/2016/ccf95405-1cf2-4f20-b39e-cdfac69768fa.json",
+      "type": "application/geo+json",
+      "datetime": "2016-11-23T00:00:00Z",
+      "id": "ccf95405-1cf2-4f20-b39e-cdfac69768fa"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Lakes (ALOS2-HV)",
+      "wms:layers": [
+        "JAXA_LAKES_ALOS2_HV"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Lakes collection (ALOS2-HH/HV)"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "eodash:stories": {
+    "lakes-climate": {
+      "href": "https://eodashboard.org/story/?id=lakes-climate",
+      "type": "text/markdown",
+      "title": "Climate Change Impacts on Inland Water Bodies",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/lakes-climate.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "lakes-intro": {
+      "href": "https://eodashboard.org/story/?id=lakes-intro",
+      "type": "text/markdown",
+      "title": "Troubled Waters: The State of the World's Lakes",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/lakes-intro.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_ALOS2_lakes_alos2_hv/thumbnail.jpg",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Lakes",
+    "SAR",
+    "ALOS-2",
+    "PALSAR-2",
+    "Lake monitoring",
+    "Surface Reflectance",
+    "Hydrological changes",
+    "Ecosystems",
+    "Resources"
+  ],
+  "agency": [
+    "JAXA"
+  ],
+  "subcode": "Lakes_ALOS2_HV",
+  "sensor": [
+    "PALSAR-2"
+  ],
+  "satellite": [
+    "ALOS-2"
+  ],
+  "title": "Tonlé Sap (ALOS2-HV)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          102.05815802238166,
+          11.433163363655378,
+          105.91024325063184,
+          15.053883303657637
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-11-23T00:00:00Z",
+          "2022-12-14T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "JAXA",
+      "url": "https://global.jaxa.jp/"
+    }
+  ],
+  "assets": {
+    "lakes-climate": {
+      "href": "https://eodashboard.org/story/?id=lakes-climate",
+      "type": "text/markdown",
+      "title": "Climate Change Impacts on Inland Water Bodies",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/lakes-climate.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "lakes-intro": {
+      "href": "https://eodashboard.org/story/?id=lakes-intro",
+      "type": "text/markdown",
+      "title": "Troubled Waters: The State of the World's Lakes",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/lakes-intro.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_ALOS2_lakes_alos2_hv/thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://www.eorc.jaxa.jp/ALOS-2/en/about/palsar2.htm",
+      "type": "text/html",
+      "title": "JAXA ALOS-2 PALSAR-2",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://www.eorc.jaxa.jp/ALOS/en/alos-2/a2_data_e.htm",
+      "type": "text/html",
+      "title": "Use data",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

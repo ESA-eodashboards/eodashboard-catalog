@@ -1,0 +1,86 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "id": "2020-01-01T00:00:00Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -76.07,
+          -26.476719
+        ],
+        [
+          -33.593252,
+          -26.476719
+        ],
+        [
+          -33.593252,
+          9.65
+        ],
+        [
+          -76.07,
+          9.65
+        ],
+        [
+          -76.07,
+          -26.476719
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -76.07,
+    -26.476719,
+    -33.593252,
+    9.65
+  ],
+  "properties": {
+    "datetime": "2020-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/jpeg",
+      "title": "ESA Sentinel-1 for Science Amazonas",
+      "wms:layers": [
+        "ID-AMAZONAS_PROJECT"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2020-01-01T00:00:00Z/2020-01-31T23:59:59Z"
+      },
+      "key": "400c022e-e62c-4e89-8593-49e9b5653a2d"
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "ESA Sentinel-1 for Science Amazonas"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "ESA Sentinel-1 for Science Amazonas"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    }
+  },
+  "collection": "S14Amazonas_detections"
+}

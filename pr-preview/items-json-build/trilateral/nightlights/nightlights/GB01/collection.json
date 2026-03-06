@@ -1,0 +1,646 @@
+{
+  "type": "Collection",
+  "id": "GB01",
+  "stac_version": "1.1.0",
+  "description": "London",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2022/finalBMHD_ScaledLondon_202203.json",
+      "type": "application/geo+json",
+      "start_datetime": "2022-03-01T00:00:00Z",
+      "end_datetime": "2022-03-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202203.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202203.tif",
+      "id": "finalBMHD_ScaledLondon_202203"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2022/finalBMHD_ScaledLondon_202202.json",
+      "type": "application/geo+json",
+      "start_datetime": "2022-02-01T00:00:00Z",
+      "end_datetime": "2022-02-28T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202202.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202202.tif",
+      "id": "finalBMHD_ScaledLondon_202202"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2022/finalBMHD_ScaledLondon_202201.json",
+      "type": "application/geo+json",
+      "start_datetime": "2022-01-01T00:00:00Z",
+      "end_datetime": "2022-01-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202201.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202201.tif",
+      "id": "finalBMHD_ScaledLondon_202201"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2021/finalBMHD_ScaledLondon_202112.json",
+      "type": "application/geo+json",
+      "start_datetime": "2021-12-01T00:00:00Z",
+      "end_datetime": "2021-12-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202112.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202112.tif",
+      "id": "finalBMHD_ScaledLondon_202112"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2021/finalBMHD_ScaledLondon_202111.json",
+      "type": "application/geo+json",
+      "start_datetime": "2021-11-01T00:00:00Z",
+      "end_datetime": "2021-11-30T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202111.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202111.tif",
+      "id": "finalBMHD_ScaledLondon_202111"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2021/finalBMHD_ScaledLondon_202110.json",
+      "type": "application/geo+json",
+      "start_datetime": "2021-10-01T00:00:00Z",
+      "end_datetime": "2021-10-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202110.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202110.tif",
+      "id": "finalBMHD_ScaledLondon_202110"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2021/finalBMHD_ScaledLondon_202109.json",
+      "type": "application/geo+json",
+      "start_datetime": "2021-09-01T00:00:00Z",
+      "end_datetime": "2021-09-30T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202109.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202109.tif",
+      "id": "finalBMHD_ScaledLondon_202109"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2021/finalBMHD_ScaledLondon_202108.json",
+      "type": "application/geo+json",
+      "start_datetime": "2021-08-01T00:00:00Z",
+      "end_datetime": "2021-08-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202108.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202108.tif",
+      "id": "finalBMHD_ScaledLondon_202108"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2021/finalBMHD_ScaledLondon_202107.json",
+      "type": "application/geo+json",
+      "start_datetime": "2021-07-01T00:00:00Z",
+      "end_datetime": "2021-07-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202107.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202107.tif",
+      "id": "finalBMHD_ScaledLondon_202107"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2021/finalBMHD_ScaledLondon_202106.json",
+      "type": "application/geo+json",
+      "start_datetime": "2021-06-01T00:00:00Z",
+      "end_datetime": "2021-06-30T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202106.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202106.tif",
+      "id": "finalBMHD_ScaledLondon_202106"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2021/finalBMHD_ScaledLondon_202105.json",
+      "type": "application/geo+json",
+      "start_datetime": "2021-05-01T00:00:00Z",
+      "end_datetime": "2021-05-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202105.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202105.tif",
+      "id": "finalBMHD_ScaledLondon_202105"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2021/finalBMHD_ScaledLondon_202104.json",
+      "type": "application/geo+json",
+      "start_datetime": "2021-04-01T00:00:00Z",
+      "end_datetime": "2021-04-30T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202104.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202104.tif",
+      "id": "finalBMHD_ScaledLondon_202104"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2021/finalBMHD_ScaledLondon_202103.json",
+      "type": "application/geo+json",
+      "start_datetime": "2021-03-01T00:00:00Z",
+      "end_datetime": "2021-03-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202103.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202103.tif",
+      "id": "finalBMHD_ScaledLondon_202103"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2021/finalBMHD_ScaledLondon_202102.json",
+      "type": "application/geo+json",
+      "start_datetime": "2021-02-01T00:00:00Z",
+      "end_datetime": "2021-02-28T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202102.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202102.tif",
+      "id": "finalBMHD_ScaledLondon_202102"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2021/finalBMHD_ScaledLondon_202101.json",
+      "type": "application/geo+json",
+      "start_datetime": "2021-01-01T00:00:00Z",
+      "end_datetime": "2021-01-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202101.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202101.tif",
+      "id": "finalBMHD_ScaledLondon_202101"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2020/finalBMHD_ScaledLondon_202012.json",
+      "type": "application/geo+json",
+      "start_datetime": "2020-12-01T00:00:00Z",
+      "end_datetime": "2020-12-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202012.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202012.tif",
+      "id": "finalBMHD_ScaledLondon_202012"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2020/finalBMHD_ScaledLondon_202011.json",
+      "type": "application/geo+json",
+      "start_datetime": "2020-11-01T00:00:00Z",
+      "end_datetime": "2020-11-30T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202011.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202011.tif",
+      "id": "finalBMHD_ScaledLondon_202011"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2020/finalBMHD_ScaledLondon_202010.json",
+      "type": "application/geo+json",
+      "start_datetime": "2020-10-01T00:00:00Z",
+      "end_datetime": "2020-10-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202010.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202010.tif",
+      "id": "finalBMHD_ScaledLondon_202010"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2020/finalBMHD_ScaledLondon_202009.json",
+      "type": "application/geo+json",
+      "start_datetime": "2020-09-01T00:00:00Z",
+      "end_datetime": "2020-09-30T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202009.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202009.tif",
+      "id": "finalBMHD_ScaledLondon_202009"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2020/finalBMHD_ScaledLondon_202008.json",
+      "type": "application/geo+json",
+      "start_datetime": "2020-08-01T00:00:00Z",
+      "end_datetime": "2020-08-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202008.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202008.tif",
+      "id": "finalBMHD_ScaledLondon_202008"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2020/finalBMHD_ScaledLondon_202007.json",
+      "type": "application/geo+json",
+      "start_datetime": "2020-07-01T00:00:00Z",
+      "end_datetime": "2020-07-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202007.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202007.tif",
+      "id": "finalBMHD_ScaledLondon_202007"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2020/finalBMHD_ScaledLondon_202006.json",
+      "type": "application/geo+json",
+      "start_datetime": "2020-06-01T00:00:00Z",
+      "end_datetime": "2020-06-30T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202006.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202006.tif",
+      "id": "finalBMHD_ScaledLondon_202006"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2020/finalBMHD_ScaledLondon_202005.json",
+      "type": "application/geo+json",
+      "start_datetime": "2020-05-01T00:00:00Z",
+      "end_datetime": "2020-05-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202005.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202005.tif",
+      "id": "finalBMHD_ScaledLondon_202005"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2020/finalBMHD_ScaledLondon_202004.json",
+      "type": "application/geo+json",
+      "start_datetime": "2020-04-01T00:00:00Z",
+      "end_datetime": "2020-04-30T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202004.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202004.tif",
+      "id": "finalBMHD_ScaledLondon_202004"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2020/finalBMHD_ScaledLondon_202003.json",
+      "type": "application/geo+json",
+      "start_datetime": "2020-03-01T00:00:00Z",
+      "end_datetime": "2020-03-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202003.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202003.tif",
+      "id": "finalBMHD_ScaledLondon_202003"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2020/finalBMHD_ScaledLondon_202002.json",
+      "type": "application/geo+json",
+      "start_datetime": "2020-02-01T00:00:00Z",
+      "end_datetime": "2020-02-29T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202002.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202002.tif",
+      "id": "finalBMHD_ScaledLondon_202002"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2020/finalBMHD_ScaledLondon_202001.json",
+      "type": "application/geo+json",
+      "start_datetime": "2020-01-01T00:00:00Z",
+      "end_datetime": "2020-01-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202001.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_202001.tif",
+      "id": "finalBMHD_ScaledLondon_202001"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2019/finalBMHD_ScaledLondon_201912.json",
+      "type": "application/geo+json",
+      "start_datetime": "2019-12-01T00:00:00Z",
+      "end_datetime": "2019-12-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201912.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201912.tif",
+      "id": "finalBMHD_ScaledLondon_201912"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2019/finalBMHD_ScaledLondon_201911.json",
+      "type": "application/geo+json",
+      "start_datetime": "2019-11-01T00:00:00Z",
+      "end_datetime": "2019-11-30T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201911.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201911.tif",
+      "id": "finalBMHD_ScaledLondon_201911"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2019/finalBMHD_ScaledLondon_201910.json",
+      "type": "application/geo+json",
+      "start_datetime": "2019-10-01T00:00:00Z",
+      "end_datetime": "2019-10-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201910.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201910.tif",
+      "id": "finalBMHD_ScaledLondon_201910"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2019/finalBMHD_ScaledLondon_201909.json",
+      "type": "application/geo+json",
+      "start_datetime": "2019-09-01T00:00:00Z",
+      "end_datetime": "2019-09-30T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201909.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201909.tif",
+      "id": "finalBMHD_ScaledLondon_201909"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2019/finalBMHD_ScaledLondon_201908.json",
+      "type": "application/geo+json",
+      "start_datetime": "2019-08-01T00:00:00Z",
+      "end_datetime": "2019-08-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201908.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201908.tif",
+      "id": "finalBMHD_ScaledLondon_201908"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2019/finalBMHD_ScaledLondon_201907.json",
+      "type": "application/geo+json",
+      "start_datetime": "2019-07-01T00:00:00Z",
+      "end_datetime": "2019-07-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201907.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201907.tif",
+      "id": "finalBMHD_ScaledLondon_201907"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2019/finalBMHD_ScaledLondon_201906.json",
+      "type": "application/geo+json",
+      "start_datetime": "2019-06-01T00:00:00Z",
+      "end_datetime": "2019-06-30T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201906.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201906.tif",
+      "id": "finalBMHD_ScaledLondon_201906"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2019/finalBMHD_ScaledLondon_201905.json",
+      "type": "application/geo+json",
+      "start_datetime": "2019-05-01T00:00:00Z",
+      "end_datetime": "2019-05-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201905.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201905.tif",
+      "id": "finalBMHD_ScaledLondon_201905"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2019/finalBMHD_ScaledLondon_201904.json",
+      "type": "application/geo+json",
+      "start_datetime": "2019-04-01T00:00:00Z",
+      "end_datetime": "2019-04-30T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201904.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201904.tif",
+      "id": "finalBMHD_ScaledLondon_201904"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2019/finalBMHD_ScaledLondon_201903.json",
+      "type": "application/geo+json",
+      "start_datetime": "2019-03-01T00:00:00Z",
+      "end_datetime": "2019-03-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201903.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201903.tif",
+      "id": "finalBMHD_ScaledLondon_201903"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2019/finalBMHD_ScaledLondon_201902.json",
+      "type": "application/geo+json",
+      "start_datetime": "2019-02-01T00:00:00Z",
+      "end_datetime": "2019-02-28T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201902.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201902.tif",
+      "id": "finalBMHD_ScaledLondon_201902"
+    },
+    {
+      "rel": "item",
+      "href": "./nightlights-hd-monthly/2019/finalBMHD_ScaledLondon_201901.json",
+      "type": "application/geo+json",
+      "start_datetime": "2019-01-01T00:00:00Z",
+      "end_datetime": "2019-01-31T00:00:00Z",
+      "assets": [
+        "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201901.tif"
+      ],
+      "cog_href": "s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledLondon_201901.tif",
+      "id": "finalBMHD_ScaledLondon_201901"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
+      "type": "image/png",
+      "title": "Nightlights from SUOMI-NPP",
+      "key": "4cc66969-17ae-4f26-840a-c759e16e84e4"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Nightlights from SUOMI-NPP"
+    }
+  ],
+  "subtitle": "30-meter Black Marble High Definition (HD) nighttime lights",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N5_nightlights/N5_nightlights.jpg",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "Human activities",
+    "Open data",
+    "SUOMI-NPP"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "N5",
+  "sensor": [
+    "VIIRS"
+  ],
+  "satellite": [
+    "Suomi"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      "Less light",
+      "More light"
+    ],
+    "range": [
+      "#000004",
+      "#fcffa4"
+    ],
+    "scaleType": "categorical",
+    "title": ""
+  },
+  "title": "London",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -0.510375,
+          51.28676,
+          0.33401499999999995,
+          51.691874
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-01T00:00:00Z",
+          "2022-03-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "NASA",
+      "roles": [
+        "licensor, producer, processor"
+      ],
+      "url": "https://search.earthdata.nasa.gov/search?portal=idn&fi=VIIRS"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N5_nightlights/N5_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N5_nightlights/N5_nightlights.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "black_marble": {
+      "href": "https://blackmarble.gsfc.nasa.gov/",
+      "type": "text/html",
+      "title": "NASA's Black Marble",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "suomi_npp": {
+      "href": "https://www.nasa.gov/mission_pages/NPP/main/index.html",
+      "type": "text/html",
+      "title": "Suomi National Polar-orbiting Partnership (Suomi NPP)",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "covid_dashboard": {
+      "href": "https://www.earthdata.nasa.gov/covid19/indicators/bm",
+      "type": "text/html",
+      "title": "NASA Covid Dashboard",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

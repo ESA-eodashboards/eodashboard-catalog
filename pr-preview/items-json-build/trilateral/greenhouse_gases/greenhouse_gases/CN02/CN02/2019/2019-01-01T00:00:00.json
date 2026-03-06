@@ -1,0 +1,74 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2019-01-01T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          120.9,
+          31.8
+        ],
+        [
+          121.9,
+          31.8
+        ],
+        [
+          121.9,
+          30.8
+        ],
+        [
+          120.9,
+          30.8
+        ],
+        [
+          120.9,
+          31.8
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    120.9,
+    30.8,
+    121.9,
+    31.8
+  ],
+  "properties": {
+    "datetime": "2019-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "xyz",
+      "href": "https://8ib71h0627.execute-api.us-east-1.amazonaws.com/v1/{z}/{x}/{y}@1x?url=s3://covid-eo-data/xco2/GOSAT_XCO2_201901_sh_BG_circle_cog.tif&resampling_method=nearest",
+      "type": "image/png",
+      "title": "Carbon Dioxide at city level from GOSAT"
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Shanghai - greenhouse_gases"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Shanghai - greenhouse_gases"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    }
+  },
+  "collection": "CN02"
+}

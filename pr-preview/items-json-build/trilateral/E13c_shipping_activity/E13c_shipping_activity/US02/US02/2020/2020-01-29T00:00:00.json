@@ -1,0 +1,90 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2020-01-29T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.78075,
+          33.4202
+        ],
+        [
+          -118.78075,
+          33.95016
+        ],
+        [
+          -117.92406,
+          33.95016
+        ],
+        [
+          -117.92406,
+          33.4202
+        ],
+        [
+          -118.78075,
+          33.4202
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.78075,
+    33.4202,
+    -117.92406,
+    33.95016
+  ],
+  "properties": {
+    "datetime": "2020-01-29T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "style",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13c_shipping_activity/style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "dummy_asset",
+        "geodbfeatures"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://8ib71h0627.execute-api.us-east-1.amazonaws.com/v1/{z}/{x}/{y}@1x?url=s3%3A%2F%2Fcovid-eo-data%2Fplanet%2Fla-2020_01_29.tif&resampling_method=bilinear&bidx=1%2C2%2C3",
+      "type": "image/png",
+      "title": "Shipping Activity at Major Ports"
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Los Angeles - E13c_shipping_activity"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Los Angeles - E13c_shipping_activity"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    },
+    "geodbfeatures": {
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13c_tri-detections?aoi_id=eq.US02&time=eq.2020-01-29T00:00:00",
+      "type": "application/geodb+json",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "US02"
+}

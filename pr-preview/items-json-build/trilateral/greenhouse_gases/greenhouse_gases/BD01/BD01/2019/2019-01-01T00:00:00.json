@@ -1,0 +1,74 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2019-01-01T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          89.8,
+          24.3
+        ],
+        [
+          90.8,
+          24.3
+        ],
+        [
+          90.8,
+          23.3
+        ],
+        [
+          89.8,
+          23.3
+        ],
+        [
+          89.8,
+          24.3
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    89.8,
+    23.3,
+    90.8,
+    24.3
+  ],
+  "properties": {
+    "datetime": "2019-01-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "xyz",
+      "href": "https://8ib71h0627.execute-api.us-east-1.amazonaws.com/v1/{z}/{x}/{y}@1x?url=s3://covid-eo-data/xco2/GOSAT_XCO2_201901_dh_BG_circle_cog.tif&resampling_method=nearest",
+      "type": "image/png",
+      "title": "Carbon Dioxide at city level from GOSAT"
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Dhaka - greenhouse_gases"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Dhaka - greenhouse_gases"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    }
+  },
+  "collection": "BD01"
+}

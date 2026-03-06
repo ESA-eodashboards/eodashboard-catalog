@@ -1,0 +1,196 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://landsat.usgs.gov/stac/landsat-extension/v1.1.1/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "id": "LE07_L2SP_160028_20190508_02_T1",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          60.460753,
+          47.0134217
+        ],
+        [
+          62.9630829,
+          46.6484995
+        ],
+        [
+          62.3306798,
+          45.0736958
+        ],
+        [
+          59.908703,
+          45.4313131
+        ],
+        [
+          60.460753,
+          47.0134217
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    59.72904965,
+    45.01612516,
+    63.02916732,
+    47.05804484
+  ],
+  "properties": {
+    "gsd": 30.0,
+    "created": "2022-05-06T16:40:03.451747+00:00",
+    "sci:doi": "10.5066/P9C7I13B",
+    "datetime": "2019-05-08T06:31:36.603379Z",
+    "platform": "landsat-7",
+    "proj:shape": [
+      7401,
+      8361
+    ],
+    "description": "Landsat Collection 2 Level-2",
+    "instruments": [
+      "etm+"
+    ],
+    "eo:cloud_cover": 1.0,
+    "proj:transform": [
+      30.0,
+      0.0,
+      251385.0,
+      0.0,
+      -30.0,
+      5211615.0
+    ],
+    "view:off_nadir": 0,
+    "landsat:wrs_row": "028",
+    "landsat:scene_id": "LE71600282019128NPA00",
+    "landsat:wrs_path": "160",
+    "landsat:wrs_type": "2",
+    "view:sun_azimuth": 143.87324988,
+    "landsat:correction": "L2SP",
+    "view:sun_elevation": 56.63547372,
+    "landsat:cloud_cover_land": 0.0,
+    "landsat:collection_number": "02",
+    "landsat:collection_category": "T1",
+    "proj:code": "EPSG:32641"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-lakes-aral-sea/items/LE07_L2SP_160028_20190508_02_T1/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55",
+      "type": "image/png",
+      "title": "Aral Lake Landsat-8 cloud free",
+      "key": "4d94e95c-e361-4fd7-92e2-a25ae6cab15c"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Aral Lake"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Aral Lake"
+    }
+  ],
+  "assets": {
+    "red": {
+      "href": "s3://usgs-landsat/collection02/level-2/standard/etm/2019/160/028/LE07_L2SP_160028_20190508_20200825_02_T1/LE07_L2SP_160028_20190508_20200825_02_T1_SR_B3.TIF",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Red Band",
+      "description": "Collection 2 Level-2 Red Band (SR_B3) Surface Reflectance",
+      "eo:bands": [
+        {
+          "name": "ETM_B3",
+          "common_name": "red",
+          "description": "Visible red",
+          "center_wavelength": 0.66,
+          "full_width_half_max": 0.06
+        }
+      ],
+      "raster:bands": [
+        {
+          "scale": 0.0000275,
+          "nodata": 0,
+          "offset": -0.2,
+          "data_type": "uint16",
+          "spatial_resolution": 30
+        }
+      ],
+      "roles": [
+        "data",
+        "reflectance"
+      ]
+    },
+    "blue": {
+      "href": "s3://usgs-landsat/collection02/level-2/standard/etm/2019/160/028/LE07_L2SP_160028_20190508_20200825_02_T1/LE07_L2SP_160028_20190508_20200825_02_T1_SR_B1.TIF",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Blue Band",
+      "description": "Collection 2 Level-2 Blue Band (SR_B1) Surface Reflectance",
+      "eo:bands": [
+        {
+          "name": "ETM_B1",
+          "common_name": "blue",
+          "description": "Visible blue",
+          "center_wavelength": 0.48,
+          "full_width_half_max": 0.07
+        }
+      ],
+      "raster:bands": [
+        {
+          "scale": 0.0000275,
+          "nodata": 0,
+          "offset": -0.2,
+          "data_type": "uint16",
+          "spatial_resolution": 30
+        }
+      ],
+      "roles": [
+        "data",
+        "reflectance"
+      ]
+    },
+    "green": {
+      "href": "s3://usgs-landsat/collection02/level-2/standard/etm/2019/160/028/LE07_L2SP_160028_20190508_20200825_02_T1/LE07_L2SP_160028_20190508_20200825_02_T1_SR_B2.TIF",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Green Band",
+      "description": "Collection 2 Level-2 Green Band (SR_B2) Surface Reflectance",
+      "eo:bands": [
+        {
+          "name": "ETM_B2",
+          "common_name": "green",
+          "description": "Visible green",
+          "center_wavelength": 0.56,
+          "full_width_half_max": 0.08
+        }
+      ],
+      "raster:bands": [
+        {
+          "scale": 0.0000275,
+          "nodata": 0,
+          "offset": -0.2,
+          "data_type": "uint16",
+          "spatial_resolution": 30
+        }
+      ],
+      "roles": [
+        "data",
+        "reflectance"
+      ]
+    }
+  },
+  "collection": "landsat-c2l2-sr-lakes-aral-sea"
+}

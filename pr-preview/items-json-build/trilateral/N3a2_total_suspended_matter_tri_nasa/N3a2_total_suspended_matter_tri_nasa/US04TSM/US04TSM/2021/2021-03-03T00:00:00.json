@@ -1,0 +1,74 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2021-03-03T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -74.16735,
+          40.17179
+        ],
+        [
+          -74.16735,
+          41.5339
+        ],
+        [
+          -70.97122,
+          41.5339
+        ],
+        [
+          -70.97122,
+          40.17179
+        ],
+        [
+          -74.16735,
+          40.17179
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -74.16735,
+    40.17179,
+    -70.97122,
+    41.5339
+  ],
+  "properties": {
+    "datetime": "2021-03-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "xyz",
+      "href": "https://8ib71h0627.execute-api.us-east-1.amazonaws.com/v1/{z}/{x}/{y}@1x?url=s3://covid-eo-data/spm_anomaly/anomaly-spm-ny-2021_03_03.tif&resampling_method=bilinear&bidx=1&rescale=-100%2C100&color_map=rdbu_r",
+      "type": "image/png",
+      "title": "Total suspended matter maps from MODIS"
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "New York - N3a2_total_suspended_matter_tri_nasa"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "New York - N3a2_total_suspended_matter_tri_nasa"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    }
+  },
+  "collection": "US04TSM"
+}

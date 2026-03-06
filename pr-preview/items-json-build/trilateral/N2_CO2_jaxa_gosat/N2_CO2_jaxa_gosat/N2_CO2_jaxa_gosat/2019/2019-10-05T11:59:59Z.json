@@ -1,0 +1,86 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "id": "2019-10-05T11:59:59Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          30.0,
+          29.0
+        ],
+        [
+          32.0,
+          29.0
+        ],
+        [
+          32.0,
+          31.0
+        ],
+        [
+          30.0,
+          31.0
+        ],
+        [
+          30.0,
+          29.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    30.0,
+    29.0,
+    32.0,
+    31.0
+  ],
+  "properties": {
+    "datetime": "2019-10-05T11:59:59Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://gpwmap.jaxa.jp/wms",
+      "type": "image/jpeg",
+      "title": "Carbon Dioxide from GOSAT",
+      "wms:layers": [
+        "EODASH:XCO2-GOSAT-Cairo"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2019-10-05T11:59:59Z"
+      },
+      "key": "81db2b94-2d60-4ee2-8f3d-f350ff1a5f28"
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Carbon Dioxide from GOSAT"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Carbon Dioxide from GOSAT"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    }
+  },
+  "collection": "N2_CO2_jaxa_gosat"
+}

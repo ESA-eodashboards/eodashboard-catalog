@@ -1,0 +1,2308 @@
+{
+  "type": "Collection",
+  "id": "IT9",
+  "stac_version": "1.1.0",
+  "description": "## Grounded airplanes during the novel coronavirus pandemic\n\nDuring COVID-19 related lockdowns, activities like air travel decreased to prevent the spread of the novel coronavirus. To help quantify these changes, scientists are combining two kinds of space-based remote sensing data – synthetic aperture radar (SAR) data from JAXA’s ALOS-2 and [ESA’s Copernicus Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) satellites with NASA-processed high-resolution optical remote sensing data from Planet Inc. and [ESA's Copernicus Sentinel-2 multispectral satellite data](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) – to observe and quantify the changes in grounded airplanes and air traffic around the world.\n\nSAR is a high-resolution, space-based radar that makes 2D images out of 3D objects. By comparing SAR images of airports before, during, and after lockdowns, scientists can determine how air traffic may have changed during the pandemic. In general, manmade targets such as buildings, cars, and airplanes appear brighter in SAR imagery than natural targets like bare land, forested areas, or the ocean.\n\nFigure 1 shows a color composited SAR image of Tokyo International Airport, Haneda from the PALSAR-2 instrument aboard the ALOS-2 satellite. The different colors in the image correspond to the different dates the images were captured: red images were captured before lockdowns on November 28, 2019, green images were captured as lockdowns began on March 19, 2020, and blue images were captured during lockdowns on May 14, 2020. White colored areas, such as buildings, indicate no changes during the time period, whereas individual red, green, or blue colored pixels in the parking areas of the airport indicate airplanes at that time. Cyan colored areas show airplanes on March and May 2020.\n \n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/JP01-E8_Fig1.png)\n\n*Figure 1. A multi-temporal, color-composite PALSAR-2 image at Tokyo International Airport, Haneda acquired on November 2019 (red), March 2020 (green), and May 2020 (blue).*\n\nFigure 2 shows a time series animation of SAR images taken from [Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) at Tokyo International Airport, Haneda from January 10 to June 2, 2020. Brighter pixels in parking areas of the airport may correspond with airplanes at each acquisition date.\n\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/JP01-E13b_Animation.gif)\n\n*Figure 2. Sentinel-1 animation at Tokyo International Airport, Haneda from January to June 2020.*\n\nIn addition to the SAR imagery, NASA and ESA scientists also used artificial intelligence technology and high-resolution optical imagery from Planet and [Copernicus Sentinel-2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) to detect and count aircraft on the ground at airports. \n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/JP01-E13b-Fig3.png)\n\n*Figure 3. Aircraft detection using Planet imagery and AI.*\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b-Fig4.png)\n\n*Figure 4. Aircraft detection over Paris CDG airport using Sentinel-2 imagery and AI.*\n\nCombining high-resolution optical remote sensing data from Planet and Sentinel-2 with SAR imagery from ALOS-2 and [Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) is a powerful method to provide reliable time series data on the number of aircrafts grounded at airports over time. While imagery from optical satellites like Planet or [Sentinel-2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) is powerful to monitor changes in grounded aircrafts around the world systematically, their sensors cannot penetrate clouds, limiting the detection capability on cloudy or rainy days. Alternatively, SAR data, while lower resolution, can penetrate clouds. Therefore, scientists are combining these datasets to get the most comprehensive images of changes at aircraft counts at airports during the COVID-19 pandemic. \n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-06-04T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-04T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-06-04T10:09:13"
+      ],
+      "id": "2021-06-04T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-01-06T10:09:06.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-06T10:09:06",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-01-06T10:09:06"
+      ],
+      "id": "2020-01-06T10:09:06"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-01-11T10:09:06.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-11T10:09:06",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-01-11T10:09:06"
+      ],
+      "id": "2020-01-11T10:09:06"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-01-01T10:09:07.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-01T10:09:07",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-01-01T10:09:07"
+      ],
+      "id": "2020-01-01T10:09:07"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-06-09T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-09T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-06-09T10:09:12"
+      ],
+      "id": "2021-06-09T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-01-16T10:09:06.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-16T10:09:06",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-01-16T10:09:06"
+      ],
+      "id": "2020-01-16T10:09:06"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-01-21T10:09:05.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-21T10:09:05",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-01-21T10:09:05"
+      ],
+      "id": "2020-01-21T10:09:05"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-02-05T10:09:03.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-05T10:09:03",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-02-05T10:09:03"
+      ],
+      "id": "2020-02-05T10:09:03"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-02-15T10:09:05.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-15T10:09:05",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-02-15T10:09:05"
+      ],
+      "id": "2020-02-15T10:09:05"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-02-20T10:09:08.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-20T10:09:08",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-02-20T10:09:08"
+      ],
+      "id": "2020-02-20T10:09:08"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-03-11T10:09:10.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-11T10:09:10",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-03-11T10:09:10"
+      ],
+      "id": "2020-03-11T10:09:10"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-03-16T10:09:09.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-16T10:09:09",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-03-16T10:09:09"
+      ],
+      "id": "2020-03-16T10:09:09"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-03-21T10:09:10.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-21T10:09:10",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-03-21T10:09:10"
+      ],
+      "id": "2020-03-21T10:09:10"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-03-31T10:09:09.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-31T10:09:09",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-03-31T10:09:09"
+      ],
+      "id": "2020-03-31T10:09:09"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-04-05T10:09:08.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-05T10:09:08",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-04-05T10:09:08"
+      ],
+      "id": "2020-04-05T10:09:08"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-04-10T10:09:08.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-10T10:09:08",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-04-10T10:09:08"
+      ],
+      "id": "2020-04-10T10:09:08"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-04-15T10:09:11.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-15T10:09:11",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-04-15T10:09:11"
+      ],
+      "id": "2020-04-15T10:09:11"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-04-25T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-25T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-04-25T10:09:13"
+      ],
+      "id": "2020-04-25T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-04-30T10:09:08.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-30T10:09:08",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-04-30T10:09:08"
+      ],
+      "id": "2020-04-30T10:09:08"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-05-10T10:09:10.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-10T10:09:10",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-05-10T10:09:10"
+      ],
+      "id": "2020-05-10T10:09:10"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-05-20T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-20T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-05-20T10:09:12"
+      ],
+      "id": "2020-05-20T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-05-25T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-25T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-05-25T10:09:17"
+      ],
+      "id": "2020-05-25T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-06-09T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-09T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-06-09T10:09:14"
+      ],
+      "id": "2020-06-09T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-06-24T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-24T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-06-24T10:09:17"
+      ],
+      "id": "2020-06-24T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-06-29T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-29T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-06-29T10:09:14"
+      ],
+      "id": "2020-06-29T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-07-09T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-09T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-07-09T10:09:13"
+      ],
+      "id": "2020-07-09T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-07-14T10:09:16.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-14T10:09:16",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-07-14T10:09:16"
+      ],
+      "id": "2020-07-14T10:09:16"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-07-19T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-19T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-07-19T10:09:13"
+      ],
+      "id": "2020-07-19T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-07-24T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-24T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-07-24T10:09:17"
+      ],
+      "id": "2020-07-24T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-07-29T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-29T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-07-29T10:09:14"
+      ],
+      "id": "2020-07-29T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-08-08T10:09:15.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-08T10:09:15",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-08-08T10:09:15"
+      ],
+      "id": "2020-08-08T10:09:15"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-08-13T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-13T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-08-13T10:09:17"
+      ],
+      "id": "2020-08-13T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-08-23T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-23T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-08-23T10:09:17"
+      ],
+      "id": "2020-08-23T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-08-28T10:09:15.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-28T10:09:15",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-08-28T10:09:15"
+      ],
+      "id": "2020-08-28T10:09:15"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-08-18T10:09:15.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-18T10:09:15",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-08-18T10:09:15"
+      ],
+      "id": "2020-08-18T10:09:15"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-09-12T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-12T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-09-12T10:09:14"
+      ],
+      "id": "2020-09-12T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-09-07T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-07T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-09-07T10:09:14"
+      ],
+      "id": "2020-09-07T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-09-17T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-17T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-09-17T10:09:13"
+      ],
+      "id": "2020-09-17T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-10-17T10:09:15.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-17T10:09:15",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-10-17T10:09:15"
+      ],
+      "id": "2020-10-17T10:09:15"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-10-22T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-22T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-10-22T10:09:17"
+      ],
+      "id": "2020-10-22T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-11-06T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-06T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-11-06T10:09:14"
+      ],
+      "id": "2020-11-06T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-11-11T10:09:16.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-11T10:09:16",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-11-11T10:09:16"
+      ],
+      "id": "2020-11-11T10:09:16"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-11-21T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-21T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-11-21T10:09:14"
+      ],
+      "id": "2020-11-21T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-11-26T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-26T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-11-26T10:09:12"
+      ],
+      "id": "2020-11-26T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-12-11T10:09:08.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-11T10:09:08",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-12-11T10:09:08"
+      ],
+      "id": "2020-12-11T10:09:08"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-12-21T10:09:10.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-21T10:09:10",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-12-21T10:09:10"
+      ],
+      "id": "2020-12-21T10:09:10"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-12-16T10:09:07.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-16T10:09:07",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-12-16T10:09:07"
+      ],
+      "id": "2020-12-16T10:09:07"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-12-26T10:09:09.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-26T10:09:09",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-12-26T10:09:09"
+      ],
+      "id": "2020-12-26T10:09:09"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-12-31T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-31T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-12-31T10:09:12"
+      ],
+      "id": "2020-12-31T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-02-14T10:09:10.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-14T10:09:10",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-02-14T10:09:10"
+      ],
+      "id": "2021-02-14T10:09:10"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-02-09T10:09:10.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-09T10:09:10",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-02-09T10:09:10"
+      ],
+      "id": "2021-02-09T10:09:10"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-06-14T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-14T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-06-14T10:09:13"
+      ],
+      "id": "2021-06-14T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-06-19T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-19T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-06-19T10:09:12"
+      ],
+      "id": "2021-06-19T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-02-24T10:09:10.json",
+      "type": "application/geo+json",
+      "datetime": "2021-02-24T10:09:10",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-02-24T10:09:10"
+      ],
+      "id": "2021-02-24T10:09:10"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-06-29T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-29T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-06-29T10:09:13"
+      ],
+      "id": "2021-06-29T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-01-15T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2022-01-15T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-01-15T10:09:12"
+      ],
+      "id": "2022-01-15T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-07-09T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2021-07-09T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-07-09T10:09:14"
+      ],
+      "id": "2021-07-09T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-07-14T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2021-07-14T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-07-14T10:09:14"
+      ],
+      "id": "2021-07-14T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-07-19T10:09:15.json",
+      "type": "application/geo+json",
+      "datetime": "2021-07-19T10:09:15",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-07-19T10:09:15"
+      ],
+      "id": "2021-07-19T10:09:15"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-11-21T10:09:09.json",
+      "type": "application/geo+json",
+      "datetime": "2021-11-21T10:09:09",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-11-21T10:09:09"
+      ],
+      "id": "2021-11-21T10:09:09"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-03-01T10:09:11.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-01T10:09:11",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-03-01T10:09:11"
+      ],
+      "id": "2021-03-01T10:09:11"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-07-24T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2021-07-24T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-07-24T10:09:14"
+      ],
+      "id": "2021-07-24T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-07-29T10:09:15.json",
+      "type": "application/geo+json",
+      "datetime": "2021-07-29T10:09:15",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-07-29T10:09:15"
+      ],
+      "id": "2021-07-29T10:09:15"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-03-11T10:09:11.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-11T10:09:11",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-03-11T10:09:11"
+      ],
+      "id": "2021-03-11T10:09:11"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-08-08T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2021-08-08T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-08-08T10:09:14"
+      ],
+      "id": "2021-08-08T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-08-13T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2021-08-13T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-08-13T10:09:12"
+      ],
+      "id": "2021-08-13T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-03-31T10:09:09.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-31T10:09:09",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-03-31T10:09:09"
+      ],
+      "id": "2021-03-31T10:09:09"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-08-18T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2021-08-18T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-08-18T10:09:14"
+      ],
+      "id": "2021-08-18T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-04-05T10:09:09.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-05T10:09:09",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-04-05T10:09:09"
+      ],
+      "id": "2021-04-05T10:09:09"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-09-07T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2021-09-07T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-09-07T10:09:12"
+      ],
+      "id": "2021-09-07T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-01-25T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2022-01-25T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-01-25T10:09:12"
+      ],
+      "id": "2022-01-25T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-04-15T10:09:07.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-15T10:09:07",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-04-15T10:09:07"
+      ],
+      "id": "2021-04-15T10:09:07"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-04-20T10:09:07.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-20T10:09:07",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-04-20T10:09:07"
+      ],
+      "id": "2021-04-20T10:09:07"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-09-12T10:09:08.json",
+      "type": "application/geo+json",
+      "datetime": "2021-09-12T10:09:08",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-09-12T10:09:08"
+      ],
+      "id": "2021-09-12T10:09:08"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-04-25T10:09:06.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-25T10:09:06",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-04-25T10:09:06"
+      ],
+      "id": "2021-04-25T10:09:06"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-04-30T10:09:09.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-30T10:09:09",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-04-30T10:09:09"
+      ],
+      "id": "2021-04-30T10:09:09"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-12-16T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2021-12-16T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-12-16T10:09:12"
+      ],
+      "id": "2021-12-16T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-05-05T10:09:09.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-05T10:09:09",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-05-05T10:09:09"
+      ],
+      "id": "2021-05-05T10:09:09"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-09-22T10:09:09.json",
+      "type": "application/geo+json",
+      "datetime": "2021-09-22T10:09:09",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-09-22T10:09:09"
+      ],
+      "id": "2021-09-22T10:09:09"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-12-31T10:09:07.json",
+      "type": "application/geo+json",
+      "datetime": "2021-12-31T10:09:07",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-12-31T10:09:07"
+      ],
+      "id": "2021-12-31T10:09:07"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-05-10T10:09:11.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-10T10:09:11",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-05-10T10:09:11"
+      ],
+      "id": "2021-05-10T10:09:11"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-06-19T10:09:16.json",
+      "type": "application/geo+json",
+      "datetime": "2022-06-19T10:09:16",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-06-19T10:09:16"
+      ],
+      "id": "2022-06-19T10:09:16"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-05-20T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-20T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-05-20T10:09:12"
+      ],
+      "id": "2021-05-20T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-05-15T10:09:11.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-15T10:09:11",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-05-15T10:09:11"
+      ],
+      "id": "2021-05-15T10:09:11"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-02-09T10:09:06.json",
+      "type": "application/geo+json",
+      "datetime": "2022-02-09T10:09:06",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-02-09T10:09:06"
+      ],
+      "id": "2022-02-09T10:09:06"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-05-25T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2021-05-25T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-05-25T10:09:12"
+      ],
+      "id": "2021-05-25T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-06-24T10:09:24.json",
+      "type": "application/geo+json",
+      "datetime": "2022-06-24T10:09:24",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-06-24T10:09:24"
+      ],
+      "id": "2022-06-24T10:09:24"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-06-29T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2022-06-29T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-06-29T10:09:17"
+      ],
+      "id": "2022-06-29T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-07-04T10:09:25.json",
+      "type": "application/geo+json",
+      "datetime": "2022-07-04T10:09:25",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-07-04T10:09:25"
+      ],
+      "id": "2022-07-04T10:09:25"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-09-17T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2022-09-17T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-09-17T10:09:13"
+      ],
+      "id": "2022-09-17T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-07-14T10:09:24.json",
+      "type": "application/geo+json",
+      "datetime": "2022-07-14T10:09:24",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-07-14T10:09:24"
+      ],
+      "id": "2022-07-14T10:09:24"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-07-09T10:09:16.json",
+      "type": "application/geo+json",
+      "datetime": "2022-07-09T10:09:16",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-07-09T10:09:16"
+      ],
+      "id": "2022-07-09T10:09:16"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-09-27T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2022-09-27T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-09-27T10:09:12"
+      ],
+      "id": "2022-09-27T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-03-11T10:09:10.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-11T10:09:10",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-03-11T10:09:10"
+      ],
+      "id": "2022-03-11T10:09:10"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-07-19T10:09:16.json",
+      "type": "application/geo+json",
+      "datetime": "2022-07-19T10:09:16",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-07-19T10:09:16"
+      ],
+      "id": "2022-07-19T10:09:16"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-03-21T10:09:09.json",
+      "type": "application/geo+json",
+      "datetime": "2022-03-21T10:09:09",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-03-21T10:09:09"
+      ],
+      "id": "2022-03-21T10:09:09"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-07-24T10:09:22.json",
+      "type": "application/geo+json",
+      "datetime": "2022-07-24T10:09:22",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-07-24T10:09:22"
+      ],
+      "id": "2022-07-24T10:09:22"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-07-29T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2022-07-29T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-07-29T10:09:17"
+      ],
+      "id": "2022-07-29T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-10-17T10:09:11.json",
+      "type": "application/geo+json",
+      "datetime": "2022-10-17T10:09:11",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-10-17T10:09:11"
+      ],
+      "id": "2022-10-17T10:09:11"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-04-05T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2022-04-05T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-04-05T10:09:13"
+      ],
+      "id": "2022-04-05T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-10-02T10:09:19.json",
+      "type": "application/geo+json",
+      "datetime": "2022-10-02T10:09:19",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-10-02T10:09:19"
+      ],
+      "id": "2022-10-02T10:09:19"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-04-10T10:09:08.json",
+      "type": "application/geo+json",
+      "datetime": "2022-04-10T10:09:08",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-04-10T10:09:08"
+      ],
+      "id": "2022-04-10T10:09:08"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-08-08T10:09:16.json",
+      "type": "application/geo+json",
+      "datetime": "2022-08-08T10:09:16",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-08-08T10:09:16"
+      ],
+      "id": "2022-08-08T10:09:16"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-04-20T10:09:07.json",
+      "type": "application/geo+json",
+      "datetime": "2022-04-20T10:09:07",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-04-20T10:09:07"
+      ],
+      "id": "2022-04-20T10:09:07"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-08-13T10:09:24.json",
+      "type": "application/geo+json",
+      "datetime": "2022-08-13T10:09:24",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-08-13T10:09:24"
+      ],
+      "id": "2022-08-13T10:09:24"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-04-30T10:09:05.json",
+      "type": "application/geo+json",
+      "datetime": "2022-04-30T10:09:05",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-04-30T10:09:05"
+      ],
+      "id": "2022-04-30T10:09:05"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-08-28T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2022-08-28T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-08-28T10:09:12"
+      ],
+      "id": "2022-08-28T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-05-10T10:09:09.json",
+      "type": "application/geo+json",
+      "datetime": "2022-05-10T10:09:09",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-05-10T10:09:09"
+      ],
+      "id": "2022-05-10T10:09:09"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-09-07T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2022-09-07T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-09-07T10:09:13"
+      ],
+      "id": "2022-09-07T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-09-02T10:09:24.json",
+      "type": "application/geo+json",
+      "datetime": "2022-09-02T10:09:24",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-09-02T10:09:24"
+      ],
+      "id": "2022-09-02T10:09:24"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-05-20T10:09:11.json",
+      "type": "application/geo+json",
+      "datetime": "2022-05-20T10:09:11",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-05-20T10:09:11"
+      ],
+      "id": "2022-05-20T10:09:11"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-05-15T10:09:16.json",
+      "type": "application/geo+json",
+      "datetime": "2022-05-15T10:09:16",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-05-15T10:09:16"
+      ],
+      "id": "2022-05-15T10:09:16"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-09-12T10:09:25.json",
+      "type": "application/geo+json",
+      "datetime": "2022-09-12T10:09:25",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-09-12T10:09:25"
+      ],
+      "id": "2022-09-12T10:09:25"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-05-30T10:09:11.json",
+      "type": "application/geo+json",
+      "datetime": "2022-05-30T10:09:11",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-05-30T10:09:11"
+      ],
+      "id": "2022-05-30T10:09:11"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-01-01T10:09:06.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-01T10:09:06",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-01-01T10:09:06"
+      ],
+      "id": "2019-01-01T10:09:06"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-01-06T10:09:10.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-06T10:09:10",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-01-06T10:09:10"
+      ],
+      "id": "2019-01-06T10:09:10"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-01-11T10:09:07.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-11T10:09:07",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-01-11T10:09:07"
+      ],
+      "id": "2019-01-11T10:09:07"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-01-16T10:09:11.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-16T10:09:11",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-01-16T10:09:11"
+      ],
+      "id": "2019-01-16T10:09:11"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-01-26T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-26T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-01-26T10:09:12"
+      ],
+      "id": "2019-01-26T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-01-31T10:09:08.json",
+      "type": "application/geo+json",
+      "datetime": "2019-01-31T10:09:08",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-01-31T10:09:08"
+      ],
+      "id": "2019-01-31T10:09:08"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-02-05T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-05T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-02-05T10:09:12"
+      ],
+      "id": "2019-02-05T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-02-20T10:09:08.json",
+      "type": "application/geo+json",
+      "datetime": "2019-02-20T10:09:08",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-02-20T10:09:08"
+      ],
+      "id": "2019-02-20T10:09:08"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-03-02T10:25:34.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-02T10:25:34",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-03-02T10:25:34"
+      ],
+      "id": "2019-03-02T10:25:34"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-03-07T10:17:44.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-07T10:17:44",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-03-07T10:17:44"
+      ],
+      "id": "2019-03-07T10:17:44"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-03-12T10:19:22.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-12T10:19:22",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-03-12T10:19:22"
+      ],
+      "id": "2019-03-12T10:19:22"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-03-22T10:13:47.json",
+      "type": "application/geo+json",
+      "datetime": "2019-03-22T10:13:47",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-03-22T10:13:47"
+      ],
+      "id": "2019-03-22T10:13:47"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-04-01T10:15:08.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-01T10:15:08",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-04-01T10:15:08"
+      ],
+      "id": "2019-04-01T10:15:08"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-04-11T10:24:54.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-11T10:24:54",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-04-11T10:24:54"
+      ],
+      "id": "2019-04-11T10:24:54"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-05-06T10:09:21.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-06T10:09:21",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-05-06T10:09:21"
+      ],
+      "id": "2019-05-06T10:09:21"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-05-16T10:09:20.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-16T10:09:20",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-05-16T10:09:20"
+      ],
+      "id": "2019-05-16T10:09:20"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-06-05T10:09:20.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-05T10:09:20",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-06-05T10:09:20"
+      ],
+      "id": "2019-06-05T10:09:20"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-06-20T10:09:15.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-20T10:09:15",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-06-20T10:09:15"
+      ],
+      "id": "2019-06-20T10:09:15"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-06-15T10:09:20.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-15T10:09:20",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-06-15T10:09:20"
+      ],
+      "id": "2019-06-15T10:09:20"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-06-25T10:09:20.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-25T10:09:20",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-06-25T10:09:20"
+      ],
+      "id": "2019-06-25T10:09:20"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-06-30T10:09:16.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-30T10:09:16",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-06-30T10:09:16"
+      ],
+      "id": "2019-06-30T10:09:16"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-07-05T10:09:20.json",
+      "type": "application/geo+json",
+      "datetime": "2019-07-05T10:09:20",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-07-05T10:09:20"
+      ],
+      "id": "2019-07-05T10:09:20"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-07-25T10:09:20.json",
+      "type": "application/geo+json",
+      "datetime": "2019-07-25T10:09:20",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-07-25T10:09:20"
+      ],
+      "id": "2019-07-25T10:09:20"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-07-30T10:09:16.json",
+      "type": "application/geo+json",
+      "datetime": "2019-07-30T10:09:16",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-07-30T10:09:16"
+      ],
+      "id": "2019-07-30T10:09:16"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-08-04T10:09:19.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-04T10:09:19",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-08-04T10:09:19"
+      ],
+      "id": "2019-08-04T10:09:19"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-08-09T10:09:15.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-09T10:09:15",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-08-09T10:09:15"
+      ],
+      "id": "2019-08-09T10:09:15"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-08-14T10:09:18.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-14T10:09:18",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-08-14T10:09:18"
+      ],
+      "id": "2019-08-14T10:09:18"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-08-19T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-19T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-08-19T10:09:14"
+      ],
+      "id": "2019-08-19T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-08-29T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-29T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-08-29T10:09:13"
+      ],
+      "id": "2019-08-29T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-09-03T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-03T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-09-03T10:09:14"
+      ],
+      "id": "2019-09-03T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-09-13T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-13T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-09-13T10:09:12"
+      ],
+      "id": "2019-09-13T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-09-18T10:09:11.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-18T10:09:11",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-09-18T10:09:11"
+      ],
+      "id": "2019-09-18T10:09:11"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-10-08T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-08T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-10-08T10:09:14"
+      ],
+      "id": "2019-10-08T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-10-18T10:09:15.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-18T10:09:15",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-10-18T10:09:15"
+      ],
+      "id": "2019-10-18T10:09:15"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-10-23T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-23T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-10-23T10:09:13"
+      ],
+      "id": "2019-10-23T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-11-07T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2019-11-07T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-11-07T10:09:14"
+      ],
+      "id": "2019-11-07T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-12-12T10:09:06.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-12T10:09:06",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-12-12T10:09:06"
+      ],
+      "id": "2019-12-12T10:09:06"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-12-17T10:09:06.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-17T10:09:06",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-12-17T10:09:06"
+      ],
+      "id": "2019-12-17T10:09:06"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-12-27T10:09:06.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-27T10:09:06",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-12-27T10:09:06"
+      ],
+      "id": "2019-12-27T10:09:06"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2019/2019-12-22T10:09:07.json",
+      "type": "application/geo+json",
+      "datetime": "2019-12-22T10:09:07",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2019-12-22T10:09:07"
+      ],
+      "id": "2019-12-22T10:09:07"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-01-01T10:09:07.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-01T10:09:07",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-01-01T10:09:07"
+      ],
+      "id": "2020-01-01T10:09:07"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-01-06T10:09:06.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-06T10:09:06",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-01-06T10:09:06"
+      ],
+      "id": "2020-01-06T10:09:06"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-01-11T10:09:06.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-11T10:09:06",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-01-11T10:09:06"
+      ],
+      "id": "2020-01-11T10:09:06"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-01-16T10:09:06.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-16T10:09:06",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-01-16T10:09:06"
+      ],
+      "id": "2020-01-16T10:09:06"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-01-21T10:09:05.json",
+      "type": "application/geo+json",
+      "datetime": "2020-01-21T10:09:05",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-01-21T10:09:05"
+      ],
+      "id": "2020-01-21T10:09:05"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-02-05T10:09:03.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-05T10:09:03",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-02-05T10:09:03"
+      ],
+      "id": "2020-02-05T10:09:03"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-02-20T10:09:08.json",
+      "type": "application/geo+json",
+      "datetime": "2020-02-20T10:09:08",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-02-20T10:09:08"
+      ],
+      "id": "2020-02-20T10:09:08"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-03-11T10:09:10.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-11T10:09:10",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-03-11T10:09:10"
+      ],
+      "id": "2020-03-11T10:09:10"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-03-21T10:09:10.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-21T10:09:10",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-03-21T10:09:10"
+      ],
+      "id": "2020-03-21T10:09:10"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-03-16T10:09:09.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-16T10:09:09",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-03-16T10:09:09"
+      ],
+      "id": "2020-03-16T10:09:09"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-03-31T10:09:09.json",
+      "type": "application/geo+json",
+      "datetime": "2020-03-31T10:09:09",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-03-31T10:09:09"
+      ],
+      "id": "2020-03-31T10:09:09"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-04-05T10:09:08.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-05T10:09:08",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-04-05T10:09:08"
+      ],
+      "id": "2020-04-05T10:09:08"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-04-10T10:09:08.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-10T10:09:08",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-04-10T10:09:08"
+      ],
+      "id": "2020-04-10T10:09:08"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-04-15T10:09:11.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-15T10:09:11",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-04-15T10:09:11"
+      ],
+      "id": "2020-04-15T10:09:11"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-04-25T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-25T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-04-25T10:09:13"
+      ],
+      "id": "2020-04-25T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-04-30T10:09:08.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-30T10:09:08",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-04-30T10:09:08"
+      ],
+      "id": "2020-04-30T10:09:08"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-05-10T10:09:10.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-10T10:09:10",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-05-10T10:09:10"
+      ],
+      "id": "2020-05-10T10:09:10"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-05-20T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-20T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-05-20T10:09:12"
+      ],
+      "id": "2020-05-20T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-05-25T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-25T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-05-25T10:09:17"
+      ],
+      "id": "2020-05-25T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-06-09T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-09T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-06-09T10:09:14"
+      ],
+      "id": "2020-06-09T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-06-24T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-24T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-06-24T10:09:17"
+      ],
+      "id": "2020-06-24T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-06-29T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-29T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-06-29T10:09:14"
+      ],
+      "id": "2020-06-29T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-07-09T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-09T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-07-09T10:09:13"
+      ],
+      "id": "2020-07-09T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-07-14T10:09:16.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-14T10:09:16",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-07-14T10:09:16"
+      ],
+      "id": "2020-07-14T10:09:16"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-07-19T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-19T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-07-19T10:09:13"
+      ],
+      "id": "2020-07-19T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-07-29T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-29T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-07-29T10:09:14"
+      ],
+      "id": "2020-07-29T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-07-24T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2020-07-24T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-07-24T10:09:17"
+      ],
+      "id": "2020-07-24T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-08-08T10:09:15.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-08T10:09:15",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-08-08T10:09:15"
+      ],
+      "id": "2020-08-08T10:09:15"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-08-13T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-13T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-08-13T10:09:17"
+      ],
+      "id": "2020-08-13T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-08-18T10:09:15.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-18T10:09:15",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-08-18T10:09:15"
+      ],
+      "id": "2020-08-18T10:09:15"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-08-28T10:09:15.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-28T10:09:15",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-08-28T10:09:15"
+      ],
+      "id": "2020-08-28T10:09:15"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-08-23T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2020-08-23T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-08-23T10:09:17"
+      ],
+      "id": "2020-08-23T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-09-07T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-07T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-09-07T10:09:14"
+      ],
+      "id": "2020-09-07T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-09-12T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-12T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-09-12T10:09:14"
+      ],
+      "id": "2020-09-12T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-09-17T10:09:13.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-17T10:09:13",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-09-17T10:09:13"
+      ],
+      "id": "2020-09-17T10:09:13"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-09-22T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2020-09-22T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-09-22T10:09:17"
+      ],
+      "id": "2020-09-22T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-10-17T10:09:15.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-17T10:09:15",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-10-17T10:09:15"
+      ],
+      "id": "2020-10-17T10:09:15"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-10-22T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2020-10-22T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-10-22T10:09:17"
+      ],
+      "id": "2020-10-22T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-11-06T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-06T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-11-06T10:09:14"
+      ],
+      "id": "2020-11-06T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-11-11T10:09:16.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-11T10:09:16",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-11-11T10:09:16"
+      ],
+      "id": "2020-11-11T10:09:16"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-11-21T10:09:14.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-21T10:09:14",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-11-21T10:09:14"
+      ],
+      "id": "2020-11-21T10:09:14"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-11-26T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2020-11-26T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-11-26T10:09:12"
+      ],
+      "id": "2020-11-26T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-12-11T10:09:08.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-11T10:09:08",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-12-11T10:09:08"
+      ],
+      "id": "2020-12-11T10:09:08"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-12-21T10:09:10.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-21T10:09:10",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-12-21T10:09:10"
+      ],
+      "id": "2020-12-21T10:09:10"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-12-16T10:09:07.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-16T10:09:07",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-12-16T10:09:07"
+      ],
+      "id": "2020-12-16T10:09:07"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-12-26T10:09:09.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-26T10:09:09",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-12-26T10:09:09"
+      ],
+      "id": "2020-12-26T10:09:09"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2020/2020-12-31T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2020-12-31T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2020-12-31T10:09:12"
+      ],
+      "id": "2020-12-31T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2021/2021-10-17T10:09:17.json",
+      "type": "application/geo+json",
+      "datetime": "2021-10-17T10:09:17",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2021-10-17T10:09:17"
+      ],
+      "id": "2021-10-17T10:09:17"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-06-14T10:09:22.json",
+      "type": "application/geo+json",
+      "datetime": "2022-06-14T10:09:22",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-06-14T10:09:22"
+      ],
+      "id": "2022-06-14T10:09:22"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-11-06T10:09:10.json",
+      "type": "application/geo+json",
+      "datetime": "2022-11-06T10:09:10",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-11-06T10:09:10"
+      ],
+      "id": "2022-11-06T10:09:10"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-11-01T10:09:16.json",
+      "type": "application/geo+json",
+      "datetime": "2022-11-01T10:09:16",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-11-01T10:09:16"
+      ],
+      "id": "2022-11-01T10:09:16"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-11-11T10:09:15.json",
+      "type": "application/geo+json",
+      "datetime": "2022-11-11T10:09:15",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-11-11T10:09:15"
+      ],
+      "id": "2022-11-11T10:09:15"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-11-21T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2022-11-21T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-11-21T10:09:12"
+      ],
+      "id": "2022-11-21T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-12-11T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2022-12-11T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-12-11T10:09:12"
+      ],
+      "id": "2022-12-11T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-11-21T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2022-11-21T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-11-21T10:09:12"
+      ],
+      "id": "2022-11-21T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-12-01T10:09:12.json",
+      "type": "application/geo+json",
+      "datetime": "2022-12-01T10:09:12",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-12-01T10:09:12"
+      ],
+      "id": "2022-12-01T10:09:12"
+    },
+    {
+      "rel": "item",
+      "href": "./IT9/2022/2022-12-31T10:09:10.json",
+      "type": "application/geo+json",
+      "datetime": "2022-12-31T10:09:10",
+      "assets": [
+        "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri-detections?aoi_id=eq.IT9&time=eq.2022-12-31T10:09:10"
+      ],
+      "id": "2022-12-31T10:09:10"
+    },
+    {
+      "rel": "service",
+      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E13b_tri?aoi_id=eq.IT9&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "type": "application/json",
+      "id": "process_geodb",
+      "method": "GET"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Parked Airplanes"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E13b_parked_airplanes/chart.json",
+  "subcode": "E13b",
+  "subtitle": "Grounded airplanes during the novel coronavirus pandemic",
+  "eodash:stories": {
+    "airports": {
+      "href": "https://eodashboard.org/story/?id=airports",
+      "type": "text/markdown",
+      "title": "Grounded: How COVID-19 Emptied the World's Airports",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/airports.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg",
+  "themes": [
+    "economy",
+    "covid-19"
+  ],
+  "tags": [
+    "Copernicus Services",
+    "Open data",
+    "COVID-19",
+    "Mobility",
+    "Community",
+    "Air traffic"
+  ],
+  "agency": [
+    "ESA",
+    "NASA",
+    "JAXA"
+  ],
+  "sensor": [
+    "PALSAR-2",
+    "C-SAR",
+    "MSI",
+    "PSB.SD"
+  ],
+  "satellite": [
+    "ALOS-2",
+    "Sentinel-1",
+    "Sentinel-2",
+    "PlanetScope"
+  ],
+  "title": "Rome - E13b_parked_airplanes",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          12.2200814,
+          41.7759028,
+          12.2813191,
+          41.8542539
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-01T10:09:06Z",
+          "2022-12-31T10:09:10Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "JAXA",
+      "url": "https://global.jaxa.jp/"
+    },
+    {
+      "name": "ESA",
+      "url": "https://sentinels.copernicus.eu/web/sentinel/home"
+    },
+    {
+      "name": "NASA",
+      "url": "https://www.nasa.gov/"
+    },
+    {
+      "name": "planet",
+      "url": "https://www.planet.com/"
+    }
+  ],
+  "assets": {
+    "airports": {
+      "href": "https://eodashboard.org/story/?id=airports",
+      "type": "text/markdown",
+      "title": "Grounded: How COVID-19 Emptied the World's Airports",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/airports.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

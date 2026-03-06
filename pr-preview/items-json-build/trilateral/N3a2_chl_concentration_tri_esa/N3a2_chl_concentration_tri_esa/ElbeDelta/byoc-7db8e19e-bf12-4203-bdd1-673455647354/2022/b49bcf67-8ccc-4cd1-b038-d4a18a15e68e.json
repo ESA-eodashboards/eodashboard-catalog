@@ -1,0 +1,131 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "b49bcf67-8ccc-4cd1-b038-d4a18a15e68e",
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          6.997215270996094,
+          53.39995574951172
+        ],
+        [
+          9.202720642089844,
+          53.39995574951172
+        ],
+        [
+          9.202720642089844,
+          54.40245819091797
+        ],
+        [
+          6.997215270996094,
+          54.40245819091797
+        ],
+        [
+          6.997215270996094,
+          53.39995574951172
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    6.997215270996094,
+    53.39995574951172,
+    9.202720642089844,
+    54.40245819091797
+  ],
+  "properties": {
+    "datetime": "2022-11-19T00:00:00Z",
+    "proj:bbox": [
+      6.997215270996094,
+      53.39995574951172,
+      9.202720642089844,
+      54.40245819091797
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            6.997215270996094,
+            53.39995574951172
+          ],
+          [
+            9.202720642089844,
+            53.39995574951172
+          ],
+          [
+            9.202720642089844,
+            54.40245819091797
+          ],
+          [
+            6.997215270996094,
+            54.40245819091797
+          ],
+          [
+            6.997215270996094,
+            53.39995574951172
+          ]
+        ]
+      ]
+    },
+    "proj:code": "EPSG:84"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Chlorophyll-a concentration from Sentinel-3",
+      "wms:layers": [
+        "AWS_N3_CUSTOM_TRILATERAL"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2022-11-19T00:00:00Z/2022-11-19T23:59:59Z"
+      }
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Elbe Delta"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Elbe Delta"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": "https://services.sentinel-hub.com/api/v1/catalog/1.0.0/collections/byoc-7db8e19e-bf12-4203-bdd1-673455647354/items/"
+    }
+  },
+  "collection": "byoc-7db8e19e-bf12-4203-bdd1-673455647354"
+}

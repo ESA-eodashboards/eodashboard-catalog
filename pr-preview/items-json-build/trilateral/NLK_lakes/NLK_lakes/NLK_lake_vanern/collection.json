@@ -1,0 +1,1648 @@
+{
+  "type": "Collection",
+  "id": "NLK_lake_vanern",
+  "stac_version": "1.1.0",
+  "description": "Vänern lake Landsat-8",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2023/LC09_L2SP_195019_20230609_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2023-06-09T10:12:43Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC09_L2SP_195019_20230609_20230611_02_T1/LC09_L2SP_195019_20230609_20230611_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC09_L2SP_195019_20230609_20230611_02_T1/LC09_L2SP_195019_20230609_20230611_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC09_L2SP_195019_20230609_20230611_02_T1/LC09_L2SP_195019_20230609_20230611_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC09_L2SP_195019_20230609_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2023/LC09_L2SP_195019_20230524_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2023-05-24T10:12:48Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC09_L2SP_195019_20230524_20230601_02_T1/LC09_L2SP_195019_20230524_20230601_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC09_L2SP_195019_20230524_20230601_02_T1/LC09_L2SP_195019_20230524_20230601_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC09_L2SP_195019_20230524_20230601_02_T1/LC09_L2SP_195019_20230524_20230601_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC09_L2SP_195019_20230524_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2023/LE07_L2SP_195019_20230518_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2023-05-18T08:08:31Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2023/195/019/LE07_L2SP_195019_20230518_20230613_02_T1/LE07_L2SP_195019_20230518_20230613_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2023/195/019/LE07_L2SP_195019_20230518_20230613_02_T1/LE07_L2SP_195019_20230518_20230613_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2023/195/019/LE07_L2SP_195019_20230518_20230613_02_T1/LE07_L2SP_195019_20230518_20230613_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20230518_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2023/LC09_L2SP_195019_20230508_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2023-05-08T10:12:58Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC09_L2SP_195019_20230508_20230510_02_T1/LC09_L2SP_195019_20230508_20230510_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC09_L2SP_195019_20230508_20230510_02_T1/LC09_L2SP_195019_20230508_20230510_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC09_L2SP_195019_20230508_20230510_02_T1/LC09_L2SP_195019_20230508_20230510_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC09_L2SP_195019_20230508_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2023/LC08_L2SP_195019_20230430_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2023-04-30T10:12:48Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC08_L2SP_195019_20230430_20230509_02_T1/LC08_L2SP_195019_20230430_20230509_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC08_L2SP_195019_20230430_20230509_02_T1/LC08_L2SP_195019_20230430_20230509_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC08_L2SP_195019_20230430_20230509_02_T1/LC08_L2SP_195019_20230430_20230509_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20230430_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2023/LC09_L2SP_195019_20230422_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2023-04-22T10:13:10Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC09_L2SP_195019_20230422_20230424_02_T1/LC09_L2SP_195019_20230422_20230424_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC09_L2SP_195019_20230422_20230424_02_T1/LC09_L2SP_195019_20230422_20230424_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC09_L2SP_195019_20230422_20230424_02_T1/LC09_L2SP_195019_20230422_20230424_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC09_L2SP_195019_20230422_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2023/LC09_L2SP_195019_20230305_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2023-03-05T10:13:32Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC09_L2SP_195019_20230305_20230308_02_T1/LC09_L2SP_195019_20230305_20230308_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC09_L2SP_195019_20230305_20230308_02_T1/LC09_L2SP_195019_20230305_20230308_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2023/195/019/LC09_L2SP_195019_20230305_20230308_02_T1/LC09_L2SP_195019_20230305_20230308_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC09_L2SP_195019_20230305_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2022/LE07_L2SP_195019_20220506_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2022-05-06T08:47:24Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2022/195/019/LE07_L2SP_195019_20220506_20220902_02_T1/LE07_L2SP_195019_20220506_20220902_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2022/195/019/LE07_L2SP_195019_20220506_20220902_02_T1/LE07_L2SP_195019_20220506_20220902_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2022/195/019/LE07_L2SP_195019_20220506_20220902_02_T1/LE07_L2SP_195019_20220506_20220902_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20220506_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2022/LC08_L2SP_195019_20220411_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2022-04-11T10:13:08Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2022/195/019/LC08_L2SP_195019_20220411_20220419_02_T1/LC08_L2SP_195019_20220411_20220419_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2022/195/019/LC08_L2SP_195019_20220411_20220419_02_T1/LC08_L2SP_195019_20220411_20220419_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2022/195/019/LC08_L2SP_195019_20220411_20220419_02_T1/LC08_L2SP_195019_20220411_20220419_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20220411_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2021/LC08_L2SP_195019_20211017_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2021-10-17T10:13:45Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2021/195/019/LC08_L2SP_195019_20211017_20211026_02_T1/LC08_L2SP_195019_20211017_20211026_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2021/195/019/LC08_L2SP_195019_20211017_20211026_02_T1/LC08_L2SP_195019_20211017_20211026_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2021/195/019/LC08_L2SP_195019_20211017_20211026_02_T1/LC08_L2SP_195019_20211017_20211026_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20211017_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2021/LC08_L2SP_195019_20210830_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2021-08-30T10:13:32Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2021/195/019/LC08_L2SP_195019_20210830_20210909_02_T1/LC08_L2SP_195019_20210830_20210909_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2021/195/019/LC08_L2SP_195019_20210830_20210909_02_T1/LC08_L2SP_195019_20210830_20210909_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2021/195/019/LC08_L2SP_195019_20210830_20210909_02_T1/LC08_L2SP_195019_20210830_20210909_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20210830_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2021/LE07_L2SP_195019_20210822_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2021-08-22T09:12:51Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2021/195/019/LE07_L2SP_195019_20210822_20210917_02_T1/LE07_L2SP_195019_20210822_20210917_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2021/195/019/LE07_L2SP_195019_20210822_20210917_02_T1/LE07_L2SP_195019_20210822_20210917_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2021/195/019/LE07_L2SP_195019_20210822_20210917_02_T1/LE07_L2SP_195019_20210822_20210917_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20210822_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2021/LE07_L2SP_195019_20210603_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2021-06-03T09:19:40Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2021/195/019/LE07_L2SP_195019_20210603_20210630_02_T1/LE07_L2SP_195019_20210603_20210630_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2021/195/019/LE07_L2SP_195019_20210603_20210630_02_T1/LE07_L2SP_195019_20210603_20210630_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2021/195/019/LE07_L2SP_195019_20210603_20210630_02_T1/LE07_L2SP_195019_20210603_20210630_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20210603_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2021/LE07_L2SP_195019_20210416_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2021-04-16T09:23:44Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2021/195/019/LE07_L2SP_195019_20210416_20210512_02_T1/LE07_L2SP_195019_20210416_20210512_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2021/195/019/LE07_L2SP_195019_20210416_20210512_02_T1/LE07_L2SP_195019_20210416_20210512_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2021/195/019/LE07_L2SP_195019_20210416_20210512_02_T1/LE07_L2SP_195019_20210416_20210512_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20210416_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2021/LC08_L2SP_195019_20210323_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2021-03-23T10:13:08Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2021/195/019/LC08_L2SP_195019_20210323_20210402_02_T1/LC08_L2SP_195019_20210323_20210402_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2021/195/019/LC08_L2SP_195019_20210323_20210402_02_T1/LC08_L2SP_195019_20210323_20210402_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2021/195/019/LC08_L2SP_195019_20210323_20210402_02_T1/LC08_L2SP_195019_20210323_20210402_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20210323_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2020/LC08_L2SP_195019_20200624_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2020-06-24T10:13:03Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2020/195/019/LC08_L2SP_195019_20200624_20200824_02_T1/LC08_L2SP_195019_20200624_20200824_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2020/195/019/LC08_L2SP_195019_20200624_20200824_02_T1/LC08_L2SP_195019_20200624_20200824_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2020/195/019/LC08_L2SP_195019_20200624_20200824_02_T1/LC08_L2SP_195019_20200624_20200824_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20200624_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2020/LE07_L2SP_195019_20200531_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2020-05-31T09:45:50Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2020/195/019/LE07_L2SP_195019_20200531_20200820_02_T1/LE07_L2SP_195019_20200531_20200820_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2020/195/019/LE07_L2SP_195019_20200531_20200820_02_T1/LE07_L2SP_195019_20200531_20200820_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2020/195/019/LE07_L2SP_195019_20200531_20200820_02_T1/LE07_L2SP_195019_20200531_20200820_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20200531_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2020/LC08_L2SP_195019_20200421_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2020-04-21T10:12:52Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2020/195/019/LC08_L2SP_195019_20200421_20200822_02_T1/LC08_L2SP_195019_20200421_20200822_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2020/195/019/LC08_L2SP_195019_20200421_20200822_02_T1/LC08_L2SP_195019_20200421_20200822_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2020/195/019/LC08_L2SP_195019_20200421_20200822_02_T1/LC08_L2SP_195019_20200421_20200822_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20200421_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2019/LC08_L2SP_195019_20191028_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2019-10-28T10:13:43Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2019/195/019/LC08_L2SP_195019_20191028_20200825_02_T1/LC08_L2SP_195019_20191028_20200825_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2019/195/019/LC08_L2SP_195019_20191028_20200825_02_T1/LC08_L2SP_195019_20191028_20200825_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2019/195/019/LC08_L2SP_195019_20191028_20200825_02_T1/LC08_L2SP_195019_20191028_20200825_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20191028_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2019/LE07_L2SP_195019_20190918_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2019-09-18T09:59:03Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2019/195/019/LE07_L2SP_195019_20190918_20200825_02_T1/LE07_L2SP_195019_20190918_20200825_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2019/195/019/LE07_L2SP_195019_20190918_20200825_02_T1/LE07_L2SP_195019_20190918_20200825_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2019/195/019/LE07_L2SP_195019_20190918_20200825_02_T1/LE07_L2SP_195019_20190918_20200825_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20190918_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2019/LC08_L2SP_195019_20190825_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2019-08-25T10:13:30Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2019/195/019/LC08_L2SP_195019_20190825_20200826_02_T1/LC08_L2SP_195019_20190825_20200826_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2019/195/019/LC08_L2SP_195019_20190825_20200826_02_T1/LC08_L2SP_195019_20190825_20200826_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2019/195/019/LC08_L2SP_195019_20190825_20200826_02_T1/LC08_L2SP_195019_20190825_20200826_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20190825_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2019/LC08_L2SP_195019_20190622_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2019-06-22T10:13:11Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2019/195/019/LC08_L2SP_195019_20190622_20200827_02_T1/LC08_L2SP_195019_20190622_20200827_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2019/195/019/LC08_L2SP_195019_20190622_20200827_02_T1/LC08_L2SP_195019_20190622_20200827_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2019/195/019/LC08_L2SP_195019_20190622_20200827_02_T1/LC08_L2SP_195019_20190622_20200827_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20190622_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2019/LE07_L2SP_195019_20190529_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-29T10:03:32Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2019/195/019/LE07_L2SP_195019_20190529_20200825_02_T1/LE07_L2SP_195019_20190529_20200825_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2019/195/019/LE07_L2SP_195019_20190529_20200825_02_T1/LE07_L2SP_195019_20190529_20200825_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2019/195/019/LE07_L2SP_195019_20190529_20200825_02_T1/LE07_L2SP_195019_20190529_20200825_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20190529_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2019/LE07_L2SP_195019_20190513_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2019-05-13T10:04:08Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2019/195/019/LE07_L2SP_195019_20190513_20200825_02_T1/LE07_L2SP_195019_20190513_20200825_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2019/195/019/LE07_L2SP_195019_20190513_20200825_02_T1/LE07_L2SP_195019_20190513_20200825_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2019/195/019/LE07_L2SP_195019_20190513_20200825_02_T1/LE07_L2SP_195019_20190513_20200825_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20190513_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2019/LC08_L2SP_195019_20190419_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2019-04-19T10:12:45Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2019/195/019/LC08_L2SP_195019_20190419_20200829_02_T1/LC08_L2SP_195019_20190419_20200829_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2019/195/019/LC08_L2SP_195019_20190419_20200829_02_T1/LC08_L2SP_195019_20190419_20200829_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2019/195/019/LC08_L2SP_195019_20190419_20200829_02_T1/LC08_L2SP_195019_20190419_20200829_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20190419_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2018/LC08_L2SP_195019_20180721_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2018-07-21T10:12:31Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2018/195/019/LC08_L2SP_195019_20180721_20200831_02_T1/LC08_L2SP_195019_20180721_20200831_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2018/195/019/LC08_L2SP_195019_20180721_20200831_02_T1/LC08_L2SP_195019_20180721_20200831_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2018/195/019/LC08_L2SP_195019_20180721_20200831_02_T1/LC08_L2SP_195019_20180721_20200831_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20180721_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2018/LE07_L2SP_195019_20180627_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2018-06-27T10:12:47Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2018/195/019/LE07_L2SP_195019_20180627_20200829_02_T1/LE07_L2SP_195019_20180627_20200829_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2018/195/019/LE07_L2SP_195019_20180627_20200829_02_T1/LE07_L2SP_195019_20180627_20200829_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2018/195/019/LE07_L2SP_195019_20180627_20200829_02_T1/LE07_L2SP_195019_20180627_20200829_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20180627_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2018/LC08_L2SP_195019_20180603_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2018-06-03T10:12:06Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2018/195/019/LC08_L2SP_195019_20180603_20200831_02_T1/LC08_L2SP_195019_20180603_20200831_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2018/195/019/LC08_L2SP_195019_20180603_20200831_02_T1/LC08_L2SP_195019_20180603_20200831_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2018/195/019/LC08_L2SP_195019_20180603_20200831_02_T1/LC08_L2SP_195019_20180603_20200831_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20180603_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2018/LC08_L2SP_195019_20180518_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2018-05-18T10:12:18Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2018/195/019/LC08_L2SP_195019_20180518_20200901_02_T1/LC08_L2SP_195019_20180518_20200901_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2018/195/019/LC08_L2SP_195019_20180518_20200901_02_T1/LC08_L2SP_195019_20180518_20200901_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2018/195/019/LC08_L2SP_195019_20180518_20200901_02_T1/LC08_L2SP_195019_20180518_20200901_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20180518_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2018/LE07_L2SP_195019_20180510_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2018-05-10T10:13:36Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2018/195/019/LE07_L2SP_195019_20180510_20200829_02_T1/LE07_L2SP_195019_20180510_20200829_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2018/195/019/LE07_L2SP_195019_20180510_20200829_02_T1/LE07_L2SP_195019_20180510_20200829_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2018/195/019/LE07_L2SP_195019_20180510_20200829_02_T1/LE07_L2SP_195019_20180510_20200829_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20180510_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2018/LC08_L2SP_195019_20180331_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2018-03-31T10:12:46Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2018/195/019/LC08_L2SP_195019_20180331_20200901_02_T1/LC08_L2SP_195019_20180331_20200901_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2018/195/019/LC08_L2SP_195019_20180331_20200901_02_T1/LC08_L2SP_195019_20180331_20200901_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2018/195/019/LC08_L2SP_195019_20180331_20200901_02_T1/LC08_L2SP_195019_20180331_20200901_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20180331_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2017/LE07_L2SP_195019_20170811_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2017-08-11T10:15:56Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2017/195/019/LE07_L2SP_195019_20170811_20200831_02_T1/LE07_L2SP_195019_20170811_20200831_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2017/195/019/LE07_L2SP_195019_20170811_20200831_02_T1/LE07_L2SP_195019_20170811_20200831_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2017/195/019/LE07_L2SP_195019_20170811_20200831_02_T1/LE07_L2SP_195019_20170811_20200831_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20170811_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2017/LE07_L2SP_195019_20170523_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2017-05-23T10:15:49Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2017/195/019/LE07_L2SP_195019_20170523_20200831_02_T1/LE07_L2SP_195019_20170523_20200831_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2017/195/019/LE07_L2SP_195019_20170523_20200831_02_T1/LE07_L2SP_195019_20170523_20200831_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2017/195/019/LE07_L2SP_195019_20170523_20200831_02_T1/LE07_L2SP_195019_20170523_20200831_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20170523_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2017/LC08_L2SP_195019_20170328_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2017-03-28T10:12:55Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2017/195/019/LC08_L2SP_195019_20170328_20200904_02_T1/LC08_L2SP_195019_20170328_20200904_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2017/195/019/LC08_L2SP_195019_20170328_20200904_02_T1/LC08_L2SP_195019_20170328_20200904_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2017/195/019/LC08_L2SP_195019_20170328_20200904_02_T1/LC08_L2SP_195019_20170328_20200904_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20170328_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2017/LC08_L2SP_195019_20170224_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2017-02-24T10:13:12Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2017/195/019/LC08_L2SP_195019_20170224_20200905_02_T1/LC08_L2SP_195019_20170224_20200905_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2017/195/019/LC08_L2SP_195019_20170224_20200905_02_T1/LC08_L2SP_195019_20170224_20200905_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2017/195/019/LC08_L2SP_195019_20170224_20200905_02_T1/LC08_L2SP_195019_20170224_20200905_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20170224_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2016/LC08_L2SP_195019_20161003_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2016-10-03T10:13:34Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2016/195/019/LC08_L2SP_195019_20161003_20200906_02_T1/LC08_L2SP_195019_20161003_20200906_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2016/195/019/LC08_L2SP_195019_20161003_20200906_02_T1/LC08_L2SP_195019_20161003_20200906_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2016/195/019/LC08_L2SP_195019_20161003_20200906_02_T1/LC08_L2SP_195019_20161003_20200906_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20161003_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2016/LE07_L2SP_195019_20160504_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2016-05-04T10:15:42Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2016/195/019/LE07_L2SP_195019_20160504_20200902_02_T1/LE07_L2SP_195019_20160504_20200902_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2016/195/019/LE07_L2SP_195019_20160504_20200902_02_T1/LE07_L2SP_195019_20160504_20200902_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2016/195/019/LE07_L2SP_195019_20160504_20200902_02_T1/LE07_L2SP_195019_20160504_20200902_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20160504_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2015/LE07_L2SP_195019_20151025_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2015-10-25T10:13:41Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2015/195/019/LE07_L2SP_195019_20151025_20200903_02_T1/LE07_L2SP_195019_20151025_20200903_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2015/195/019/LE07_L2SP_195019_20151025_20200903_02_T1/LE07_L2SP_195019_20151025_20200903_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2015/195/019/LE07_L2SP_195019_20151025_20200903_02_T1/LE07_L2SP_195019_20151025_20200903_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20151025_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2015/LE07_L2SP_195019_20150907_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2015-09-07T10:13:12Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2015/195/019/LE07_L2SP_195019_20150907_20200903_02_T1/LE07_L2SP_195019_20150907_20200903_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2015/195/019/LE07_L2SP_195019_20150907_20200903_02_T1/LE07_L2SP_195019_20150907_20200903_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2015/195/019/LE07_L2SP_195019_20150907_20200903_02_T1/LE07_L2SP_195019_20150907_20200903_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20150907_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2015/LE07_L2SP_195019_20150822_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2015-08-22T10:13:10Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2015/195/019/LE07_L2SP_195019_20150822_20200904_02_T1/LE07_L2SP_195019_20150822_20200904_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2015/195/019/LE07_L2SP_195019_20150822_20200904_02_T1/LE07_L2SP_195019_20150822_20200904_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2015/195/019/LE07_L2SP_195019_20150822_20200904_02_T1/LE07_L2SP_195019_20150822_20200904_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20150822_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2015/LC08_L2SP_195019_20150814_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2015-08-14T10:13:01Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2015/195/019/LC08_L2SP_195019_20150814_20200908_02_T1/LC08_L2SP_195019_20150814_20200908_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2015/195/019/LC08_L2SP_195019_20150814_20200908_02_T1/LC08_L2SP_195019_20150814_20200908_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2015/195/019/LC08_L2SP_195019_20150814_20200908_02_T1/LC08_L2SP_195019_20150814_20200908_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20150814_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2014/LE07_L2SP_195019_20140904_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2014-09-04T10:10:58Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2014/195/019/LE07_L2SP_195019_20140904_20200905_02_T1/LE07_L2SP_195019_20140904_20200905_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2014/195/019/LE07_L2SP_195019_20140904_20200905_02_T1/LE07_L2SP_195019_20140904_20200905_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2014/195/019/LE07_L2SP_195019_20140904_20200905_02_T1/LE07_L2SP_195019_20140904_20200905_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20140904_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2014/LC08_L2SP_195019_20140827_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2014-08-27T10:13:23Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2014/195/019/LC08_L2SP_195019_20140827_20200911_02_T1/LC08_L2SP_195019_20140827_20200911_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2014/195/019/LC08_L2SP_195019_20140827_20200911_02_T1/LC08_L2SP_195019_20140827_20200911_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2014/195/019/LC08_L2SP_195019_20140827_20200911_02_T1/LC08_L2SP_195019_20140827_20200911_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20140827_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2014/LC08_L2SP_195019_20140608_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2014-06-08T10:12:59Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2014/195/019/LC08_L2SP_195019_20140608_20200911_02_T1/LC08_L2SP_195019_20140608_20200911_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2014/195/019/LC08_L2SP_195019_20140608_20200911_02_T1/LC08_L2SP_195019_20140608_20200911_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2014/195/019/LC08_L2SP_195019_20140608_20200911_02_T1/LC08_L2SP_195019_20140608_20200911_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20140608_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2014/LE07_L2SP_195019_20140328_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2014-03-28T10:10:16Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2014/195/019/LE07_L2SP_195019_20140328_20200906_02_T1/LE07_L2SP_195019_20140328_20200906_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2014/195/019/LE07_L2SP_195019_20140328_20200906_02_T1/LE07_L2SP_195019_20140328_20200906_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2014/195/019/LE07_L2SP_195019_20140328_20200906_02_T1/LE07_L2SP_195019_20140328_20200906_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20140328_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2014/LE07_L2SP_195019_20140312_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2014-03-12T10:10:08Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2014/195/019/LE07_L2SP_195019_20140312_20200906_02_T1/LE07_L2SP_195019_20140312_20200906_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2014/195/019/LE07_L2SP_195019_20140312_20200906_02_T1/LE07_L2SP_195019_20140312_20200906_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2014/195/019/LE07_L2SP_195019_20140312_20200906_02_T1/LE07_L2SP_195019_20140312_20200906_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20140312_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2013/LC08_L2SP_195019_20130723_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2013-07-23T10:15:17Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2013/195/019/LC08_L2SP_195019_20130723_20200912_02_T1/LC08_L2SP_195019_20130723_20200912_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2013/195/019/LC08_L2SP_195019_20130723_20200912_02_T1/LC08_L2SP_195019_20130723_20200912_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2013/195/019/LC08_L2SP_195019_20130723_20200912_02_T1/LC08_L2SP_195019_20130723_20200912_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20130723_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2013/LC08_L2SP_195019_20130707_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2013-07-07T10:15:18Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2013/195/019/LC08_L2SP_195019_20130707_20200912_02_T1/LC08_L2SP_195019_20130707_20200912_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2013/195/019/LC08_L2SP_195019_20130707_20200912_02_T1/LC08_L2SP_195019_20130707_20200912_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2013/195/019/LC08_L2SP_195019_20130707_20200912_02_T1/LC08_L2SP_195019_20130707_20200912_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20130707_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2013/LC08_L2SP_195019_20130327_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2013-03-27T10:14:18Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2013/195/019/LC08_L2SP_195019_20130327_20200912_02_T1/LC08_L2SP_195019_20130327_20200912_02_T1_SR_B4.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2013/195/019/LC08_L2SP_195019_20130327_20200912_02_T1/LC08_L2SP_195019_20130327_20200912_02_T1_SR_B2.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/oli-tirs/2013/195/019/LC08_L2SP_195019_20130327_20200912_02_T1/LC08_L2SP_195019_20130327_20200912_02_T1_SR_B3.TIF"
+      ],
+      "id": "LC08_L2SP_195019_20130327_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2013/LE07_L2SP_195019_20130325_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2013-03-25T10:09:22Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2013/195/019/LE07_L2SP_195019_20130325_20200908_02_T1/LE07_L2SP_195019_20130325_20200908_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2013/195/019/LE07_L2SP_195019_20130325_20200908_02_T1/LE07_L2SP_195019_20130325_20200908_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2013/195/019/LE07_L2SP_195019_20130325_20200908_02_T1/LE07_L2SP_195019_20130325_20200908_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20130325_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2012/LE07_L2SP_195019_20120525_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2012-05-25T10:07:54Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2012/195/019/LE07_L2SP_195019_20120525_20200908_02_T1/LE07_L2SP_195019_20120525_20200908_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2012/195/019/LE07_L2SP_195019_20120525_20200908_02_T1/LE07_L2SP_195019_20120525_20200908_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2012/195/019/LE07_L2SP_195019_20120525_20200908_02_T1/LE07_L2SP_195019_20120525_20200908_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20120525_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2012/LE07_L2SP_195019_20120407_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2012-04-07T10:07:23Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2012/195/019/LE07_L2SP_195019_20120407_20200909_02_T1/LE07_L2SP_195019_20120407_20200909_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2012/195/019/LE07_L2SP_195019_20120407_20200909_02_T1/LE07_L2SP_195019_20120407_20200909_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2012/195/019/LE07_L2SP_195019_20120407_20200909_02_T1/LE07_L2SP_195019_20120407_20200909_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20120407_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2011/LE07_L2SP_195019_20110507_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2011-05-07T10:06:55Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2011/195/019/LE07_L2SP_195019_20110507_20200910_02_T1/LE07_L2SP_195019_20110507_20200910_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2011/195/019/LE07_L2SP_195019_20110507_20200910_02_T1/LE07_L2SP_195019_20110507_20200910_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2011/195/019/LE07_L2SP_195019_20110507_20200910_02_T1/LE07_L2SP_195019_20110507_20200910_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20110507_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2011/LT05_L2SP_195019_20110429_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2011-04-29T10:02:57Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2011/195/019/LT05_L2SP_195019_20110429_20200822_02_T1/LT05_L2SP_195019_20110429_20200822_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2011/195/019/LT05_L2SP_195019_20110429_20200822_02_T1/LT05_L2SP_195019_20110429_20200822_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2011/195/019/LT05_L2SP_195019_20110429_20200822_02_T1/LT05_L2SP_195019_20110429_20200822_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20110429_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2011/LT05_L2SP_195019_20110328_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2011-03-28T10:03:09Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2011/195/019/LT05_L2SP_195019_20110328_20200823_02_T1/LT05_L2SP_195019_20110328_20200823_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2011/195/019/LT05_L2SP_195019_20110328_20200823_02_T1/LT05_L2SP_195019_20110328_20200823_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2011/195/019/LT05_L2SP_195019_20110328_20200823_02_T1/LT05_L2SP_195019_20110328_20200823_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20110328_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2010/LT05_L2SP_195019_20101104_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2010-11-04T10:03:08Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2010/195/019/LT05_L2SP_195019_20101104_20200823_02_T1/LT05_L2SP_195019_20101104_20200823_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2010/195/019/LT05_L2SP_195019_20101104_20200823_02_T1/LT05_L2SP_195019_20101104_20200823_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2010/195/019/LT05_L2SP_195019_20101104_20200823_02_T1/LT05_L2SP_195019_20101104_20200823_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20101104_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2010/LE07_L2SP_195019_20101011_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2010-10-11T10:05:39Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2010/195/019/LE07_L2SP_195019_20101011_20200910_02_T1/LE07_L2SP_195019_20101011_20200910_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2010/195/019/LE07_L2SP_195019_20101011_20200910_02_T1/LE07_L2SP_195019_20101011_20200910_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2010/195/019/LE07_L2SP_195019_20101011_20200910_02_T1/LE07_L2SP_195019_20101011_20200910_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20101011_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2010/LE07_L2SP_195019_20100707_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2010-07-07T10:05:32Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2010/195/019/LE07_L2SP_195019_20100707_20200911_02_T1/LE07_L2SP_195019_20100707_20200911_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2010/195/019/LE07_L2SP_195019_20100707_20200911_02_T1/LE07_L2SP_195019_20100707_20200911_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2010/195/019/LE07_L2SP_195019_20100707_20200911_02_T1/LE07_L2SP_195019_20100707_20200911_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20100707_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2009/LT05_L2SP_195019_20090626_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2009-06-26T10:01:51Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2009/195/019/LT05_L2SP_195019_20090626_20200827_02_T1/LT05_L2SP_195019_20090626_20200827_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2009/195/019/LT05_L2SP_195019_20090626_20200827_02_T1/LT05_L2SP_195019_20090626_20200827_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2009/195/019/LT05_L2SP_195019_20090626_20200827_02_T1/LT05_L2SP_195019_20090626_20200827_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20090626_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2009/LT05_L2SP_195019_20090525_02_T2.json",
+      "type": "application/geo+json",
+      "datetime": "2009-05-25T10:01:16Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2009/195/019/LT05_L2SP_195019_20090525_20200827_02_T2/LT05_L2SP_195019_20090525_20200827_02_T2_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2009/195/019/LT05_L2SP_195019_20090525_20200827_02_T2/LT05_L2SP_195019_20090525_20200827_02_T2_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2009/195/019/LT05_L2SP_195019_20090525_20200827_02_T2/LT05_L2SP_195019_20090525_20200827_02_T2_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20090525_02_T2"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2009/LE07_L2SP_195019_20090501_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2009-05-01T10:03:43Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2009/195/019/LE07_L2SP_195019_20090501_20200912_02_T1/LE07_L2SP_195019_20090501_20200912_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2009/195/019/LE07_L2SP_195019_20090501_20200912_02_T1/LE07_L2SP_195019_20090501_20200912_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2009/195/019/LE07_L2SP_195019_20090501_20200912_02_T1/LE07_L2SP_195019_20090501_20200912_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20090501_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2009/LT05_L2SP_195019_20090423_02_T2.json",
+      "type": "application/geo+json",
+      "datetime": "2009-04-23T10:00:39Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2009/195/019/LT05_L2SP_195019_20090423_20200828_02_T2/LT05_L2SP_195019_20090423_20200828_02_T2_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2009/195/019/LT05_L2SP_195019_20090423_20200828_02_T2/LT05_L2SP_195019_20090423_20200828_02_T2_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2009/195/019/LT05_L2SP_195019_20090423_20200828_02_T2/LT05_L2SP_195019_20090423_20200828_02_T2_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20090423_02_T2"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2008/LT05_L2SP_195019_20080725_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2008-07-25T09:59:51Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2008/195/019/LT05_L2SP_195019_20080725_20200829_02_T1/LT05_L2SP_195019_20080725_20200829_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2008/195/019/LT05_L2SP_195019_20080725_20200829_02_T1/LT05_L2SP_195019_20080725_20200829_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2008/195/019/LT05_L2SP_195019_20080725_20200829_02_T1/LT05_L2SP_195019_20080725_20200829_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20080725_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2008/LE07_L2SP_195019_20080327_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2008-03-27T10:03:28Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2008/195/019/LE07_L2SP_195019_20080327_20200913_02_T1/LE07_L2SP_195019_20080327_20200913_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2008/195/019/LE07_L2SP_195019_20080327_20200913_02_T1/LE07_L2SP_195019_20080327_20200913_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2008/195/019/LE07_L2SP_195019_20080327_20200913_02_T1/LE07_L2SP_195019_20080327_20200913_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20080327_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2007/LT05_L2SP_195019_20070824_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2007-08-24T10:06:34Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2007/195/019/LT05_L2SP_195019_20070824_20200830_02_T1/LT05_L2SP_195019_20070824_20200830_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2007/195/019/LT05_L2SP_195019_20070824_20200830_02_T1/LT05_L2SP_195019_20070824_20200830_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2007/195/019/LT05_L2SP_195019_20070824_20200830_02_T1/LT05_L2SP_195019_20070824_20200830_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20070824_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2006/LT05_L2SP_195019_20060922_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2006-09-22T10:07:11Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2006/195/019/LT05_L2SP_195019_20060922_20200831_02_T1/LT05_L2SP_195019_20060922_20200831_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2006/195/019/LT05_L2SP_195019_20060922_20200831_02_T1/LT05_L2SP_195019_20060922_20200831_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2006/195/019/LT05_L2SP_195019_20060922_20200831_02_T1/LT05_L2SP_195019_20060922_20200831_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20060922_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2006/LE07_L2SP_195019_20060914_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2006-09-14T10:02:52Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2006/195/019/LE07_L2SP_195019_20060914_20200914_02_T1/LE07_L2SP_195019_20060914_20200914_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2006/195/019/LE07_L2SP_195019_20060914_20200914_02_T1/LE07_L2SP_195019_20060914_20200914_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2006/195/019/LE07_L2SP_195019_20060914_20200914_02_T1/LE07_L2SP_195019_20060914_20200914_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20060914_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2006/LT05_L2SP_195019_20060805_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2006-08-05T10:06:38Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2006/195/019/LT05_L2SP_195019_20060805_20200831_02_T1/LT05_L2SP_195019_20060805_20200831_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2006/195/019/LT05_L2SP_195019_20060805_20200831_02_T1/LT05_L2SP_195019_20060805_20200831_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2006/195/019/LT05_L2SP_195019_20060805_20200831_02_T1/LT05_L2SP_195019_20060805_20200831_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20060805_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2006/LE07_L2SP_195019_20060610_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2006-06-10T10:03:20Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2006/195/019/LE07_L2SP_195019_20060610_20200914_02_T1/LE07_L2SP_195019_20060610_20200914_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2006/195/019/LE07_L2SP_195019_20060610_20200914_02_T1/LE07_L2SP_195019_20060610_20200914_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2006/195/019/LE07_L2SP_195019_20060610_20200914_02_T1/LE07_L2SP_195019_20060610_20200914_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20060610_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2006/LE07_L2SP_195019_20060423_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2006-04-23T10:03:20Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2006/195/019/LE07_L2SP_195019_20060423_20200914_02_T1/LE07_L2SP_195019_20060423_20200914_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2006/195/019/LE07_L2SP_195019_20060423_20200914_02_T1/LE07_L2SP_195019_20060423_20200914_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2006/195/019/LE07_L2SP_195019_20060423_20200914_02_T1/LE07_L2SP_195019_20060423_20200914_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20060423_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2006/LT05_L2SP_195019_20060415_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2006-04-15T10:05:01Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2006/195/019/LT05_L2SP_195019_20060415_20200901_02_T1/LT05_L2SP_195019_20060415_20200901_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2006/195/019/LT05_L2SP_195019_20060415_20200901_02_T1/LT05_L2SP_195019_20060415_20200901_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2006/195/019/LT05_L2SP_195019_20060415_20200901_02_T1/LT05_L2SP_195019_20060415_20200901_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20060415_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2005/LT05_L2SP_195019_20050428_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2005-04-28T10:00:30Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2005/195/019/LT05_L2SP_195019_20050428_20200902_02_T1/LT05_L2SP_195019_20050428_20200902_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2005/195/019/LT05_L2SP_195019_20050428_20200902_02_T1/LT05_L2SP_195019_20050428_20200902_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2005/195/019/LT05_L2SP_195019_20050428_20200902_02_T1/LT05_L2SP_195019_20050428_20200902_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20050428_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2005/LE07_L2SP_195019_20050319_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2005-03-19T10:03:01Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2005/195/019/LE07_L2SP_195019_20050319_20200915_02_T1/LE07_L2SP_195019_20050319_20200915_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2005/195/019/LE07_L2SP_195019_20050319_20200915_02_T1/LE07_L2SP_195019_20050319_20200915_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2005/195/019/LE07_L2SP_195019_20050319_20200915_02_T1/LE07_L2SP_195019_20050319_20200915_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20050319_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2005/LE07_L2SP_195019_20050303_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2005-03-03T10:03:00Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2005/195/019/LE07_L2SP_195019_20050303_20200914_02_T1/LE07_L2SP_195019_20050303_20200914_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2005/195/019/LE07_L2SP_195019_20050303_20200914_02_T1/LE07_L2SP_195019_20050303_20200914_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2005/195/019/LE07_L2SP_195019_20050303_20200914_02_T1/LE07_L2SP_195019_20050303_20200914_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20050303_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2004/LE07_L2SP_195019_20041010_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2004-10-10T10:01:50Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2004/195/019/LE07_L2SP_195019_20041010_20200915_02_T1/LE07_L2SP_195019_20041010_20200915_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2004/195/019/LE07_L2SP_195019_20041010_20200915_02_T1/LE07_L2SP_195019_20041010_20200915_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2004/195/019/LE07_L2SP_195019_20041010_20200915_02_T1/LE07_L2SP_195019_20041010_20200915_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20041010_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2004/LT05_L2SP_195019_20040916_02_T2.json",
+      "type": "application/geo+json",
+      "datetime": "2004-09-16T09:57:11Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2004/195/019/LT05_L2SP_195019_20040916_20200903_02_T2/LT05_L2SP_195019_20040916_20200903_02_T2_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2004/195/019/LT05_L2SP_195019_20040916_20200903_02_T2/LT05_L2SP_195019_20040916_20200903_02_T2_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2004/195/019/LT05_L2SP_195019_20040916_20200903_02_T2/LT05_L2SP_195019_20040916_20200903_02_T2_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20040916_02_T2"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2004/LE07_L2SP_195019_20040823_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2004-08-23T10:02:06Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2004/195/019/LE07_L2SP_195019_20040823_20200915_02_T1/LE07_L2SP_195019_20040823_20200915_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2004/195/019/LE07_L2SP_195019_20040823_20200915_02_T1/LE07_L2SP_195019_20040823_20200915_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2004/195/019/LE07_L2SP_195019_20040823_20200915_02_T1/LE07_L2SP_195019_20040823_20200915_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20040823_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2004/LE07_L2SP_195019_20040807_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2004-08-07T10:02:07Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2004/195/019/LE07_L2SP_195019_20040807_20200915_02_T1/LE07_L2SP_195019_20040807_20200915_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2004/195/019/LE07_L2SP_195019_20040807_20200915_02_T1/LE07_L2SP_195019_20040807_20200915_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2004/195/019/LE07_L2SP_195019_20040807_20200915_02_T1/LE07_L2SP_195019_20040807_20200915_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20040807_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2004/LT05_L2SP_195019_20040409_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2004-04-09T09:52:50Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2004/195/019/LT05_L2SP_195019_20040409_20200903_02_T1/LT05_L2SP_195019_20040409_20200903_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2004/195/019/LT05_L2SP_195019_20040409_20200903_02_T1/LT05_L2SP_195019_20040409_20200903_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2004/195/019/LT05_L2SP_195019_20040409_20200903_02_T1/LT05_L2SP_195019_20040409_20200903_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20040409_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2004/LE07_L2SP_195019_20040401_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2004-04-01T10:02:35Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2004/195/019/LE07_L2SP_195019_20040401_20200915_02_T1/LE07_L2SP_195019_20040401_20200915_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2004/195/019/LE07_L2SP_195019_20040401_20200915_02_T1/LE07_L2SP_195019_20040401_20200915_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2004/195/019/LE07_L2SP_195019_20040401_20200915_02_T1/LE07_L2SP_195019_20040401_20200915_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20040401_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2004/LT05_L2SP_195019_20040221_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2004-02-21T09:52:16Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2004/195/019/LT05_L2SP_195019_20040221_20200903_02_T1/LT05_L2SP_195019_20040221_20200903_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2004/195/019/LT05_L2SP_195019_20040221_20200903_02_T1/LT05_L2SP_195019_20040221_20200903_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2004/195/019/LT05_L2SP_195019_20040221_20200903_02_T1/LT05_L2SP_195019_20040221_20200903_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20040221_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2003/LT05_L2SP_195019_20030829_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2003-08-29T09:50:33Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2003/195/019/LT05_L2SP_195019_20030829_20200904_02_T1/LT05_L2SP_195019_20030829_20200904_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2003/195/019/LT05_L2SP_195019_20030829_20200904_02_T1/LT05_L2SP_195019_20030829_20200904_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2003/195/019/LT05_L2SP_195019_20030829_20200904_02_T1/LT05_L2SP_195019_20030829_20200904_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20030829_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2003/LE07_L2SP_195019_20030805_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2003-08-05T10:01:42Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2003/195/019/LE07_L2SP_195019_20030805_20200916_02_T1/LE07_L2SP_195019_20030805_20200916_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2003/195/019/LE07_L2SP_195019_20030805_20200916_02_T1/LE07_L2SP_195019_20030805_20200916_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2003/195/019/LE07_L2SP_195019_20030805_20200916_02_T1/LE07_L2SP_195019_20030805_20200916_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20030805_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2003/LE07_L2SP_195019_20030330_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2003-03-30T10:02:01Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2003/195/019/LE07_L2SP_195019_20030330_20200915_02_T1/LE07_L2SP_195019_20030330_20200915_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2003/195/019/LE07_L2SP_195019_20030330_20200915_02_T1/LE07_L2SP_195019_20030330_20200915_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2003/195/019/LE07_L2SP_195019_20030330_20200915_02_T1/LE07_L2SP_195019_20030330_20200915_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20030330_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2003/LE07_L2SP_195019_20030314_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2003-03-14T10:02:03Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2003/195/019/LE07_L2SP_195019_20030314_20200916_02_T1/LE07_L2SP_195019_20030314_20200916_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2003/195/019/LE07_L2SP_195019_20030314_20200916_02_T1/LE07_L2SP_195019_20030314_20200916_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2003/195/019/LE07_L2SP_195019_20030314_20200916_02_T1/LE07_L2SP_195019_20030314_20200916_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20030314_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2002/LE07_L2SP_195019_20020903_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2002-09-03T10:01:19Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2002/195/019/LE07_L2SP_195019_20020903_20200916_02_T1/LE07_L2SP_195019_20020903_20200916_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2002/195/019/LE07_L2SP_195019_20020903_20200916_02_T1/LE07_L2SP_195019_20020903_20200916_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2002/195/019/LE07_L2SP_195019_20020903_20200916_02_T1/LE07_L2SP_195019_20020903_20200916_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20020903_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2002/LE07_L2SP_195019_20020818_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2002-08-18T10:01:28Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2002/195/019/LE07_L2SP_195019_20020818_20200916_02_T1/LE07_L2SP_195019_20020818_20200916_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2002/195/019/LE07_L2SP_195019_20020818_20200916_02_T1/LE07_L2SP_195019_20020818_20200916_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2002/195/019/LE07_L2SP_195019_20020818_20200916_02_T1/LE07_L2SP_195019_20020818_20200916_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20020818_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2002/LE07_L2SP_195019_20020717_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2002-07-17T10:01:39Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2002/195/019/LE07_L2SP_195019_20020717_20200916_02_T1/LE07_L2SP_195019_20020717_20200916_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2002/195/019/LE07_L2SP_195019_20020717_20200916_02_T1/LE07_L2SP_195019_20020717_20200916_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2002/195/019/LE07_L2SP_195019_20020717_20200916_02_T1/LE07_L2SP_195019_20020717_20200916_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20020717_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2002/LT05_L2SP_195019_20020607_02_T2.json",
+      "type": "application/geo+json",
+      "datetime": "2002-06-07T09:49:47Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2002/195/019/LT05_L2SP_195019_20020607_20200905_02_T2/LT05_L2SP_195019_20020607_20200905_02_T2_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2002/195/019/LT05_L2SP_195019_20020607_20200905_02_T2/LT05_L2SP_195019_20020607_20200905_02_T2_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2002/195/019/LT05_L2SP_195019_20020607_20200905_02_T2/LT05_L2SP_195019_20020607_20200905_02_T2_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20020607_02_T2"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2002/LT05_L2SP_195019_20020522_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2002-05-22T09:50:04Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2002/195/019/LT05_L2SP_195019_20020522_20200905_02_T1/LT05_L2SP_195019_20020522_20200905_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2002/195/019/LT05_L2SP_195019_20020522_20200905_02_T1/LT05_L2SP_195019_20020522_20200905_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2002/195/019/LT05_L2SP_195019_20020522_20200905_02_T1/LT05_L2SP_195019_20020522_20200905_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20020522_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2002/LE07_L2SP_195019_20020514_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2002-05-14T10:02:02Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2002/195/019/LE07_L2SP_195019_20020514_20200916_02_T1/LE07_L2SP_195019_20020514_20200916_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2002/195/019/LE07_L2SP_195019_20020514_20200916_02_T1/LE07_L2SP_195019_20020514_20200916_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2002/195/019/LE07_L2SP_195019_20020514_20200916_02_T1/LE07_L2SP_195019_20020514_20200916_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20020514_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2002/LE07_L2SP_195019_20020428_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2002-04-28T10:02:08Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2002/195/019/LE07_L2SP_195019_20020428_20200916_02_T1/LE07_L2SP_195019_20020428_20200916_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2002/195/019/LE07_L2SP_195019_20020428_20200916_02_T1/LE07_L2SP_195019_20020428_20200916_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2002/195/019/LE07_L2SP_195019_20020428_20200916_02_T1/LE07_L2SP_195019_20020428_20200916_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20020428_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2001/LE07_L2SP_195019_20010511_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2001-05-11T10:03:16Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2001/195/019/LE07_L2SP_195019_20010511_20200917_02_T1/LE07_L2SP_195019_20010511_20200917_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2001/195/019/LE07_L2SP_195019_20010511_20200917_02_T1/LE07_L2SP_195019_20010511_20200917_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2001/195/019/LE07_L2SP_195019_20010511_20200917_02_T1/LE07_L2SP_195019_20010511_20200917_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20010511_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2001/LE07_L2SP_195019_20010324_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2001-03-24T10:03:30Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2001/195/019/LE07_L2SP_195019_20010324_20200917_02_T1/LE07_L2SP_195019_20010324_20200917_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2001/195/019/LE07_L2SP_195019_20010324_20200917_02_T1/LE07_L2SP_195019_20010324_20200917_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2001/195/019/LE07_L2SP_195019_20010324_20200917_02_T1/LE07_L2SP_195019_20010324_20200917_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20010324_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2000/LE07_L2SP_195019_20000812_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2000-08-12T10:04:24Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2000/195/019/LE07_L2SP_195019_20000812_20200918_02_T1/LE07_L2SP_195019_20000812_20200918_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2000/195/019/LE07_L2SP_195019_20000812_20200918_02_T1/LE07_L2SP_195019_20000812_20200918_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2000/195/019/LE07_L2SP_195019_20000812_20200918_02_T1/LE07_L2SP_195019_20000812_20200918_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20000812_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2000/LT05_L2SP_195019_20000703_02_T2.json",
+      "type": "application/geo+json",
+      "datetime": "2000-07-03T09:50:05Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2000/195/019/LT05_L2SP_195019_20000703_20200906_02_T2/LT05_L2SP_195019_20000703_20200906_02_T2_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2000/195/019/LT05_L2SP_195019_20000703_20200906_02_T2/LT05_L2SP_195019_20000703_20200906_02_T2_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2000/195/019/LT05_L2SP_195019_20000703_20200906_02_T2/LT05_L2SP_195019_20000703_20200906_02_T2_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20000703_02_T2"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2000/LT05_L2SP_195019_20000617_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2000-06-17T09:49:43Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2000/195/019/LT05_L2SP_195019_20000617_20200906_02_T1/LT05_L2SP_195019_20000617_20200906_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2000/195/019/LT05_L2SP_195019_20000617_20200906_02_T1/LT05_L2SP_195019_20000617_20200906_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2000/195/019/LT05_L2SP_195019_20000617_20200906_02_T1/LT05_L2SP_195019_20000617_20200906_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20000617_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2000/LT05_L2SP_195019_20000516_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2000-05-16T09:49:06Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2000/195/019/LT05_L2SP_195019_20000516_20200907_02_T1/LT05_L2SP_195019_20000516_20200907_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2000/195/019/LT05_L2SP_195019_20000516_20200907_02_T1/LT05_L2SP_195019_20000516_20200907_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2000/195/019/LT05_L2SP_195019_20000516_20200907_02_T1/LT05_L2SP_195019_20000516_20200907_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20000516_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2000/LE07_L2SP_195019_20000508_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2000-05-08T10:05:28Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2000/195/019/LE07_L2SP_195019_20000508_20200918_02_T1/LE07_L2SP_195019_20000508_20200918_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2000/195/019/LE07_L2SP_195019_20000508_20200918_02_T1/LE07_L2SP_195019_20000508_20200918_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2000/195/019/LE07_L2SP_195019_20000508_20200918_02_T1/LE07_L2SP_195019_20000508_20200918_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20000508_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2000/LT05_L2SP_195019_20000329_02_T2.json",
+      "type": "application/geo+json",
+      "datetime": "2000-03-29T09:47:41Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2000/195/019/LT05_L2SP_195019_20000329_20200907_02_T2/LT05_L2SP_195019_20000329_20200907_02_T2_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2000/195/019/LT05_L2SP_195019_20000329_20200907_02_T2/LT05_L2SP_195019_20000329_20200907_02_T2_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/2000/195/019/LT05_L2SP_195019_20000329_20200907_02_T2/LT05_L2SP_195019_20000329_20200907_02_T2_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_20000329_02_T2"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2000/LE07_L2SP_195019_20000305_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "2000-03-05T10:05:55Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2000/195/019/LE07_L2SP_195019_20000305_20200918_02_T1/LE07_L2SP_195019_20000305_20200918_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2000/195/019/LE07_L2SP_195019_20000305_20200918_02_T1/LE07_L2SP_195019_20000305_20200918_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/etm/2000/195/019/LE07_L2SP_195019_20000305_20200918_02_T1/LE07_L2SP_195019_20000305_20200918_02_T1_SR_B2.TIF"
+      ],
+      "id": "LE07_L2SP_195019_20000305_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1997/LT05_L2SP_195019_19970406_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1997-04-06T09:40:19Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1997/195/019/LT05_L2SP_195019_19970406_20200910_02_T1/LT05_L2SP_195019_19970406_20200910_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1997/195/019/LT05_L2SP_195019_19970406_20200910_02_T1/LT05_L2SP_195019_19970406_20200910_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1997/195/019/LT05_L2SP_195019_19970406_20200910_02_T1/LT05_L2SP_195019_19970406_20200910_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19970406_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1995/LT05_L2SP_195019_19950823_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1995-08-23T09:16:22Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1995/195/019/LT05_L2SP_195019_19950823_20200912_02_T1/LT05_L2SP_195019_19950823_20200912_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1995/195/019/LT05_L2SP_195019_19950823_20200912_02_T1/LT05_L2SP_195019_19950823_20200912_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1995/195/019/LT05_L2SP_195019_19950823_20200912_02_T1/LT05_L2SP_195019_19950823_20200912_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19950823_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1994/LT05_L2SP_195019_19940804_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1994-08-04T09:30:54Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1994/195/019/LT05_L2SP_195019_19940804_20200913_02_T1/LT05_L2SP_195019_19940804_20200913_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1994/195/019/LT05_L2SP_195019_19940804_20200913_02_T1/LT05_L2SP_195019_19940804_20200913_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1994/195/019/LT05_L2SP_195019_19940804_20200913_02_T1/LT05_L2SP_195019_19940804_20200913_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19940804_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1994/LT05_L2SP_195019_19940719_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1994-07-19T09:31:22Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1994/195/019/LT05_L2SP_195019_19940719_20200913_02_T1/LT05_L2SP_195019_19940719_20200913_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1994/195/019/LT05_L2SP_195019_19940719_20200913_02_T1/LT05_L2SP_195019_19940719_20200913_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1994/195/019/LT05_L2SP_195019_19940719_20200913_02_T1/LT05_L2SP_195019_19940719_20200913_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19940719_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1994/LT05_L2SP_195019_19940601_02_T2.json",
+      "type": "application/geo+json",
+      "datetime": "1994-06-01T09:32:31Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1994/195/019/LT05_L2SP_195019_19940601_20200913_02_T2/LT05_L2SP_195019_19940601_20200913_02_T2_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1994/195/019/LT05_L2SP_195019_19940601_20200913_02_T2/LT05_L2SP_195019_19940601_20200913_02_T2_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1994/195/019/LT05_L2SP_195019_19940601_20200913_02_T2/LT05_L2SP_195019_19940601_20200913_02_T2_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19940601_02_T2"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1993/LT05_L2SP_195019_19930918_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1993-09-18T09:35:38Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1993/195/019/LT05_L2SP_195019_19930918_20200913_02_T1/LT05_L2SP_195019_19930918_20200913_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1993/195/019/LT05_L2SP_195019_19930918_20200913_02_T1/LT05_L2SP_195019_19930918_20200913_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1993/195/019/LT05_L2SP_195019_19930918_20200913_02_T1/LT05_L2SP_195019_19930918_20200913_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19930918_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1993/LT05_L2SP_195019_19930630_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1993-06-30T09:35:44Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1993/195/019/LT05_L2SP_195019_19930630_20200913_02_T1/LT05_L2SP_195019_19930630_20200913_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1993/195/019/LT05_L2SP_195019_19930630_20200913_02_T1/LT05_L2SP_195019_19930630_20200913_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1993/195/019/LT05_L2SP_195019_19930630_20200913_02_T1/LT05_L2SP_195019_19930630_20200913_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19930630_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1993/LT05_L2SP_195019_19930222_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1993-02-22T09:35:16Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1993/195/019/LT05_L2SP_195019_19930222_20200914_02_T1/LT05_L2SP_195019_19930222_20200914_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1993/195/019/LT05_L2SP_195019_19930222_20200914_02_T1/LT05_L2SP_195019_19930222_20200914_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1993/195/019/LT05_L2SP_195019_19930222_20200914_02_T1/LT05_L2SP_195019_19930222_20200914_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19930222_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1992/LT05_L2SP_195019_19920611_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1992-06-11T09:36:44Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1992/195/019/LT05_L2SP_195019_19920611_20200914_02_T1/LT05_L2SP_195019_19920611_20200914_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1992/195/019/LT05_L2SP_195019_19920611_20200914_02_T1/LT05_L2SP_195019_19920611_20200914_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1992/195/019/LT05_L2SP_195019_19920611_20200914_02_T1/LT05_L2SP_195019_19920611_20200914_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19920611_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1991/LT05_L2SP_195019_19910727_02_T2.json",
+      "type": "application/geo+json",
+      "datetime": "1991-07-27T09:36:47Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1991/195/019/LT05_L2SP_195019_19910727_20200915_02_T2/LT05_L2SP_195019_19910727_20200915_02_T2_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1991/195/019/LT05_L2SP_195019_19910727_20200915_02_T2/LT05_L2SP_195019_19910727_20200915_02_T2_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1991/195/019/LT05_L2SP_195019_19910727_20200915_02_T2/LT05_L2SP_195019_19910727_20200915_02_T2_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19910727_02_T2"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1991/LT05_L2SP_195019_19910508_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1991-05-08T09:35:40Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1991/195/019/LT05_L2SP_195019_19910508_20200915_02_T1/LT05_L2SP_195019_19910508_20200915_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1991/195/019/LT05_L2SP_195019_19910508_20200915_02_T1/LT05_L2SP_195019_19910508_20200915_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1991/195/019/LT05_L2SP_195019_19910508_20200915_02_T1/LT05_L2SP_195019_19910508_20200915_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19910508_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1990/LT05_L2SP_195019_19900505_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1990-05-05T09:33:28Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1990/195/019/LT05_L2SP_195019_19900505_20200915_02_T1/LT05_L2SP_195019_19900505_20200915_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1990/195/019/LT05_L2SP_195019_19900505_20200915_02_T1/LT05_L2SP_195019_19900505_20200915_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1990/195/019/LT05_L2SP_195019_19900505_20200915_02_T1/LT05_L2SP_195019_19900505_20200915_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19900505_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1989/LT05_L2SP_195019_19890822_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1989-08-22T09:39:52Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1989/195/019/LT05_L2SP_195019_19890822_20200916_02_T1/LT05_L2SP_195019_19890822_20200916_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1989/195/019/LT05_L2SP_195019_19890822_20200916_02_T1/LT05_L2SP_195019_19890822_20200916_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1989/195/019/LT05_L2SP_195019_19890822_20200916_02_T1/LT05_L2SP_195019_19890822_20200916_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19890822_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1989/LT05_L2SP_195019_19890705_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1989-07-05T09:40:54Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1989/195/019/LT05_L2SP_195019_19890705_20200916_02_T1/LT05_L2SP_195019_19890705_20200916_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1989/195/019/LT05_L2SP_195019_19890705_20200916_02_T1/LT05_L2SP_195019_19890705_20200916_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1989/195/019/LT05_L2SP_195019_19890705_20200916_02_T1/LT05_L2SP_195019_19890705_20200916_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19890705_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1989/LT05_L2SP_195019_19890518_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1989-05-18T09:41:44Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1989/195/019/LT05_L2SP_195019_19890518_20200916_02_T1/LT05_L2SP_195019_19890518_20200916_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1989/195/019/LT05_L2SP_195019_19890518_20200916_02_T1/LT05_L2SP_195019_19890518_20200916_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1989/195/019/LT05_L2SP_195019_19890518_20200916_02_T1/LT05_L2SP_195019_19890518_20200916_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19890518_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1989/LT05_L2SP_195019_19890211_02_T2.json",
+      "type": "application/geo+json",
+      "datetime": "1989-02-11T09:43:19Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1989/195/019/LT05_L2SP_195019_19890211_20200916_02_T2/LT05_L2SP_195019_19890211_20200916_02_T2_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1989/195/019/LT05_L2SP_195019_19890211_20200916_02_T2/LT05_L2SP_195019_19890211_20200916_02_T2_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1989/195/019/LT05_L2SP_195019_19890211_20200916_02_T2/LT05_L2SP_195019_19890211_20200916_02_T2_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19890211_02_T2"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1988/LT05_L2SP_195019_19880515_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1988-05-15T09:43:42Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1988/195/019/LT05_L2SP_195019_19880515_20200917_02_T1/LT05_L2SP_195019_19880515_20200917_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1988/195/019/LT05_L2SP_195019_19880515_20200917_02_T1/LT05_L2SP_195019_19880515_20200917_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1988/195/019/LT05_L2SP_195019_19880515_20200917_02_T1/LT05_L2SP_195019_19880515_20200917_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19880515_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1988/LT05_L2SP_195019_19880312_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1988-03-12T09:43:13Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1988/195/019/LT05_L2SP_195019_19880312_20200917_02_T1/LT05_L2SP_195019_19880312_20200917_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1988/195/019/LT05_L2SP_195019_19880312_20200917_02_T1/LT05_L2SP_195019_19880312_20200917_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1988/195/019/LT05_L2SP_195019_19880312_20200917_02_T1/LT05_L2SP_195019_19880312_20200917_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19880312_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1987/LT05_L2SP_195019_19871004_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1987-10-04T09:40:35Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1987/195/019/LT05_L2SP_195019_19871004_20201014_02_T1/LT05_L2SP_195019_19871004_20201014_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1987/195/019/LT05_L2SP_195019_19871004_20201014_02_T1/LT05_L2SP_195019_19871004_20201014_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1987/195/019/LT05_L2SP_195019_19871004_20201014_02_T1/LT05_L2SP_195019_19871004_20201014_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19871004_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1986/LT05_L2SP_195019_19861102_02_T2.json",
+      "type": "application/geo+json",
+      "datetime": "1986-11-02T09:32:16Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1986/195/019/LT05_L2SP_195019_19861102_20200917_02_T2/LT05_L2SP_195019_19861102_20200917_02_T2_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1986/195/019/LT05_L2SP_195019_19861102_20200917_02_T2/LT05_L2SP_195019_19861102_20200917_02_T2_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1986/195/019/LT05_L2SP_195019_19861102_20200917_02_T2/LT05_L2SP_195019_19861102_20200917_02_T2_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19861102_02_T2"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1986/LT05_L2SP_195019_19861017_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1986-10-17T09:32:50Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1986/195/019/LT05_L2SP_195019_19861017_20200917_02_T1/LT05_L2SP_195019_19861017_20200917_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1986/195/019/LT05_L2SP_195019_19861017_20200917_02_T1/LT05_L2SP_195019_19861017_20200917_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1986/195/019/LT05_L2SP_195019_19861017_20200917_02_T1/LT05_L2SP_195019_19861017_20200917_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19861017_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1986/LT05_L2SP_195019_19860627_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1986-06-27T09:36:41Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1986/195/019/LT05_L2SP_195019_19860627_20200918_02_T1/LT05_L2SP_195019_19860627_20200918_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1986/195/019/LT05_L2SP_195019_19860627_20200918_02_T1/LT05_L2SP_195019_19860627_20200918_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1986/195/019/LT05_L2SP_195019_19860627_20200918_02_T1/LT05_L2SP_195019_19860627_20200918_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19860627_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1986/LT05_L2SP_195019_19860408_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1986-04-08T09:38:54Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1986/195/019/LT05_L2SP_195019_19860408_20200918_02_T1/LT05_L2SP_195019_19860408_20200918_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1986/195/019/LT05_L2SP_195019_19860408_20200918_02_T1/LT05_L2SP_195019_19860408_20200918_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1986/195/019/LT05_L2SP_195019_19860408_20200918_02_T1/LT05_L2SP_195019_19860408_20200918_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19860408_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1985/LT05_L2SP_195019_19850928_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1985-09-28T09:42:27Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1985/195/019/LT05_L2SP_195019_19850928_20200918_02_T1/LT05_L2SP_195019_19850928_20200918_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1985/195/019/LT05_L2SP_195019_19850928_20200918_02_T1/LT05_L2SP_195019_19850928_20200918_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1985/195/019/LT05_L2SP_195019_19850928_20200918_02_T1/LT05_L2SP_195019_19850928_20200918_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19850928_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1985/LT05_L2SP_195019_19850912_02_T2.json",
+      "type": "application/geo+json",
+      "datetime": "1985-09-12T09:42:38Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1985/195/019/LT05_L2SP_195019_19850912_20200918_02_T2/LT05_L2SP_195019_19850912_20200918_02_T2_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1985/195/019/LT05_L2SP_195019_19850912_20200918_02_T2/LT05_L2SP_195019_19850912_20200918_02_T2_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1985/195/019/LT05_L2SP_195019_19850912_20200918_02_T2/LT05_L2SP_195019_19850912_20200918_02_T2_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19850912_02_T2"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1985/LT05_L2SP_195019_19850726_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1985-07-26T09:43:10Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1985/195/019/LT05_L2SP_195019_19850726_20200918_02_T1/LT05_L2SP_195019_19850726_20200918_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1985/195/019/LT05_L2SP_195019_19850726_20200918_02_T1/LT05_L2SP_195019_19850726_20200918_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1985/195/019/LT05_L2SP_195019_19850726_20200918_02_T1/LT05_L2SP_195019_19850726_20200918_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19850726_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1985/LT05_L2SP_195019_19850710_02_T2.json",
+      "type": "application/geo+json",
+      "datetime": "1985-07-10T09:43:17Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1985/195/019/LT05_L2SP_195019_19850710_20200918_02_T2/LT05_L2SP_195019_19850710_20200918_02_T2_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1985/195/019/LT05_L2SP_195019_19850710_20200918_02_T2/LT05_L2SP_195019_19850710_20200918_02_T2_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1985/195/019/LT05_L2SP_195019_19850710_20200918_02_T2/LT05_L2SP_195019_19850710_20200918_02_T2_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19850710_02_T2"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1985/LT05_L2SP_195019_19850507_02_T2.json",
+      "type": "application/geo+json",
+      "datetime": "1985-05-07T09:43:26Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1985/195/019/LT05_L2SP_195019_19850507_20200918_02_T2/LT05_L2SP_195019_19850507_20200918_02_T2_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1985/195/019/LT05_L2SP_195019_19850507_20200918_02_T2/LT05_L2SP_195019_19850507_20200918_02_T2_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1985/195/019/LT05_L2SP_195019_19850507_20200918_02_T2/LT05_L2SP_195019_19850507_20200918_02_T2_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19850507_02_T2"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1984/LT05_L2SP_195019_19840520_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1984-05-20T09:41:04Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1984/195/019/LT05_L2SP_195019_19840520_20200918_02_T1/LT05_L2SP_195019_19840520_20200918_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1984/195/019/LT05_L2SP_195019_19840520_20200918_02_T1/LT05_L2SP_195019_19840520_20200918_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1984/195/019/LT05_L2SP_195019_19840520_20200918_02_T1/LT05_L2SP_195019_19840520_20200918_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19840520_02_T1"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1984/LT05_L2SP_195019_19840418_02_T1.json",
+      "type": "application/geo+json",
+      "datetime": "1984-04-18T09:40:30Z",
+      "assets": [
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1984/195/019/LT05_L2SP_195019_19840418_20200918_02_T1/LT05_L2SP_195019_19840418_20200918_02_T1_SR_B3.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1984/195/019/LT05_L2SP_195019_19840418_20200918_02_T1/LT05_L2SP_195019_19840418_20200918_02_T1_SR_B1.TIF",
+        "s3://usgs-landsat/collection02/level-2/standard/tm/1984/195/019/LT05_L2SP_195019_19840418_20200918_02_T1/LT05_L2SP_195019_19840418_20200918_02_T1_SR_B2.TIF"
+      ],
+      "id": "LT05_L2SP_195019_19840418_02_T1"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-lakes-vanern/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55&nodata=0",
+      "type": "image/png",
+      "title": "Vänern Lake cloud free",
+      "key": "389c5025-37e0-4b45-81a5-048ecfc5715d"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Lakes collection (Landsat-8)"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Lakes"
+  ],
+  "satellite": [
+    "Landsat-8"
+  ],
+  "sensor": [
+    "OLI"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "NLK_lake_vanern",
+  "endpointtype": "VEDA_tiles",
+  "title": "Vänern Lake",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          10.69941816,
+          57.35328549,
+          15.98482535,
+          59.83119443
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1984-04-18T09:40:30.064088Z",
+          "2023-06-09T10:12:43.999938Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

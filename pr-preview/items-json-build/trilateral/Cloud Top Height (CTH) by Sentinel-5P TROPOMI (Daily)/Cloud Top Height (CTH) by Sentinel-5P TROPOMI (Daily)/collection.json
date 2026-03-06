@@ -1,0 +1,161 @@
+{
+  "type": "Collection",
+  "id": "Cloud Top Height (CTH) by Sentinel-5P TROPOMI (Daily)",
+  "stac_version": "1.1.0",
+  "description": "## Cloud Top Height (CTH) by Sentinel-5P TROPOMI (Daily)\n\nThe Cloud Top Height (CTH) measures the **altitude of the top of cloud layers** above the Earth’s surface, providing key information for understanding cloud vertical structure and its impact on radiation, weather, and atmospheric processes.\n\nCloud height data from Sentinel-5P is crucial for satellite trace gas retrieval corrections, as clouds strongly affect the measured atmospheric signal. It also contributes to extending long-term satellite cloud records, enhancing climate and weather studies.\n\nUnlike columnar aerosol measures or aerosol layer heights, CTH focuses on **cloud vertical positioning**, not particle concentration. High clouds (e.g., cirrus) and low clouds (e.g., stratocumulus) have very different radiative impacts and interactions with atmospheric dynamics.\n\n#### About the dataset\n\n- The CTH product is derived from measurements by the [TROPOMI instrument](https://www.tropomi.eu/) aboard Copernicus ESA's [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P) satellite.\n\n\n#### Use cases\nThe CTH product, combined with the [Cloud Fraction (CF)](https://eodashboard.org/explore/?x=0.0000&y=0.0000&z=2.5934&template=expert&indicator=S5P-L3GRD-CLOUDFR-DAY&datetime=2025-01-02) product, is particularly valuable for understanding the role of clouds in weather, climate, and atmospheric composition studies and for operational applications in satellite-based monitoring. Some of applications of CTH products are:\n- Improving atmospheric trace gas retrievals by correcting for cloud contamination\n- Monitoring cloud vertical structure and distribution\n- Climate research: radiative forcing, cloud–radiation interactions\n- Weather studies: cloud coverage and convection patterns\n\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-b7b1b68a-88cd-4f8b-aca6-156f06a60c0d/2025/0e1efe0c-6507-4a6b-a404-464c5f07a5be.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-06T00:00:00Z",
+      "id": "0e1efe0c-6507-4a6b-a404-464c5f07a5be"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-b7b1b68a-88cd-4f8b-aca6-156f06a60c0d/2025/1526f942-5a21-4a18-9a1e-60b57266473f.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-05T00:00:00Z",
+      "id": "1526f942-5a21-4a18-9a1e-60b57266473f"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-b7b1b68a-88cd-4f8b-aca6-156f06a60c0d/2025/3a2fbcac-7aeb-4c30-826b-63085034dc7f.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-04T00:00:00Z",
+      "id": "3a2fbcac-7aeb-4c30-826b-63085034dc7f"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-b7b1b68a-88cd-4f8b-aca6-156f06a60c0d/2025/91ac8153-c897-4f9b-b5bc-c854c15d70d2.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-03T00:00:00Z",
+      "id": "91ac8153-c897-4f9b-b5bc-c854c15d70d2"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-b7b1b68a-88cd-4f8b-aca6-156f06a60c0d/2025/ac8d8c02-f865-4ccf-9d4c-c8ab6f9abc18.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-02T00:00:00Z",
+      "id": "ac8d8c02-f865-4ccf-9d4c-c8ab6f9abc18"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-b7b1b68a-88cd-4f8b-aca6-156f06a60c0d/2025/019343d3-25e5-4cfb-8af2-1c97b60ea240.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-01T00:00:00Z",
+      "id": "019343d3-25e5-4cfb-8af2-1c97b60ea240"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Cloud Top Height (CTH) by Sentinel-5P TROPOMI (Daily)",
+      "wms:layers": [
+        "S5P-L3GRD-CLOUDTH-DAY"
+      ],
+      "role": [
+        "data"
+      ],
+      "proj:epsg": 4326
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Cloud Top Height (CTH) by Sentinel-5P TROPOMI (Daily)"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-CLOUDTH-DAY/S5P-L3GRD-CLOUDTH-DAY_thumbnail.jpg",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "Cloud",
+    "Cloud Top Height",
+    "CTH",
+    "Atmosphere",
+    "Open data",
+    "Open Science",
+    "S5P",
+    "Copernicus"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "S5P-L3GRD-CLOUDTH-DAY",
+  "sensor": [
+    "TROPOMI"
+  ],
+  "satellite": [
+    "Sentinel-5P"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      0.0,
+      20.0
+    ],
+    "range": [
+      "#fcee98",
+      "#77ca67",
+      "#3b9287",
+      "#0e5a90",
+      "#403a71"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Cloud Top Height [km]"
+  },
+  "proj:epsg": 4326,
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Cloud Top Height (CTH) by Sentinel-5P TROPOMI (Daily)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-01-06T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "Copernicus",
+      "url": "https://maps.s5p-pal.com/cloud-top-height/day/"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-CLOUDTH-DAY/S5P-L3GRD-CLOUDTH-DAY_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-CLOUDTH-DAY/S5P-L3GRD-CLOUDTH-DAY_thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "2021-04-24T00:00:00",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -122.6033,
+          37.39634
+        ],
+        [
+          -122.6033,
+          38.15399
+        ],
+        [
+          -121.69693,
+          38.15399
+        ],
+        [
+          -121.69693,
+          37.39634
+        ],
+        [
+          -122.6033,
+          37.39634
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -122.6033,
+    37.39634,
+    -121.69693,
+    38.15399
+  ],
+  "properties": {
+    "datetime": "2021-04-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "xyz",
+      "href": "https://8ib71h0627.execute-api.us-east-1.amazonaws.com/v1/{z}/{x}/{y}@1x?url=s3://covid-eo-data/oc3_chla_anomaly/anomaly-chl-sf-2021_04_24.tif&resampling_method=bilinear&bidx=1&rescale=-100%2C100&color_map=rdbu_r",
+      "type": "image/png",
+      "title": "Chlorophyll-a concentration from MODIS"
+    },
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "San Francisco - N3a2_chl_concentration_tri_nasa"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "San Francisco - N3a2_chl_concentration_tri_nasa"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    }
+  },
+  "collection": "US03"
+}

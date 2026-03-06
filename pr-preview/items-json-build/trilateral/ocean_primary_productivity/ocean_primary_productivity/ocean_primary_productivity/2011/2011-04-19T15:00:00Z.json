@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "id": "2011-04-19T15:00:00Z",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180,
+          -85
+        ],
+        [
+          180,
+          -85
+        ],
+        [
+          180,
+          85
+        ],
+        [
+          -180,
+          85
+        ],
+        [
+          -180,
+          -85
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -180,
+    -85,
+    180,
+    85
+  ],
+  "properties": {
+    "datetime": "2011-04-19T15:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/jpeg",
+      "title": "Ocean net primary production (BICEP)",
+      "wms:layers": [
+        "BICEP_NPP_VIS_PP2"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2011-04-19T15:00:00Z"
+      },
+      "key": "d3f52ae3-a588-490f-9eaf-da2414869295",
+      "proj:epsg": 3857
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Ocean net primary production (BICEP)"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Ocean net primary production (BICEP)"
+    }
+  ],
+  "assets": {
+    "dummy_asset": {
+      "href": ""
+    }
+  },
+  "collection": "ocean_primary_productivity",
+  "proj:epsg": 3857
+}
