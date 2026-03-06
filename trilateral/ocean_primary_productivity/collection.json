@@ -237,10 +237,10 @@
       "Suomi"
     ],
     "sensor": [
-      "MODIS",
       "MERIS",
-      "SeaWiFS",
-      "VIIRS"
+      "MODIS",
+      "VIIRS",
+      "SeaWiFS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPP_ocean_primary_productivity/NPP_ocean_primary_productivity.jpg"
