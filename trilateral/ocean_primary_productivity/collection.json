@@ -231,15 +231,15 @@
       "water"
     ],
     "satellite": [
-      "OrbView-2",
       "Envisat",
+      "Suomi",
       "Aqua",
-      "Suomi"
+      "OrbView-2"
     ],
     "sensor": [
       "MERIS",
-      "SeaWiFS",
       "MODIS",
+      "SeaWiFS",
       "VIIRS"
     ],
     "thumbnail": [
