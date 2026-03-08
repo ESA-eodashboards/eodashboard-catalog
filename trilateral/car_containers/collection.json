@@ -202,7 +202,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2026-03-08T22:23:11.993042Z"
+          "2026-03-08T22:42:43.716062Z"
         ]
       ]
     }
@@ -236,14 +236,14 @@
     "cities": [
       "Beijing",
       "Los Angeles",
-      "Nagoya",
       "Palm Springs",
+      "Singapore",
       "Arcadia",
-      "Singapore"
+      "Nagoya"
     ],
     "countries": [
-      "CN",
       "SG",
+      "CN",
       "US",
       "JP"
     ],

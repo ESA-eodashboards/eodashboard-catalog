@@ -30,6 +30,7 @@
       "title": "Sentinel-5P Tropospheric Column NO2 (day)"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TROPONO2-DAY/S5P-L3GRD-TROPONO2-DAY_thumbnail.jpg",
   "agency": [
     "ESA"
   ],
@@ -352,6 +353,13 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TROPONO2-DAY/S5P-L3GRD-TROPONO2-DAY_thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }

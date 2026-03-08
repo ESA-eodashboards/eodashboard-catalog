@@ -217,8 +217,8 @@
     ],
     "satellite": [
       "Acqua",
-      "Sentinel-3",
-      "GCOM-C"
+      "GCOM-C",
+      "Sentinel-3"
     ],
     "sensor": [
       "MODIS",
@@ -226,11 +226,11 @@
       "SGLI"
     ],
     "cities": [
-      "Tokyo",
       "Venice",
-      "Kobe",
+      "Tokyo",
+      "New York",
       "Nagoya",
-      "New York"
+      "Kobe"
     ],
     "countries": [
       "IT",
