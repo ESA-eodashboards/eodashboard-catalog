@@ -24,19 +24,19 @@
         "NASA"
       ],
       "cities": [
-        "Aral Lake",
-        "Vänern Lake",
-        "Biwa Lake",
         "Tonlé Sap Lake",
-        "Balaton Lake"
+        "Vänern Lake",
+        "Aral Lake",
+        "Balaton Lake",
+        "Biwa Lake"
       ],
       "countries": [
+        "HU",
+        "UZ",
+        "SW",
         "KH",
         "KZ",
-        "HU",
-        "SW",
-        "JP",
-        "UZ"
+        "JP"
       ],
       "tags": [
         "Water quality",
@@ -197,19 +197,19 @@
       "OLI"
     ],
     "cities": [
-      "Aral Lake",
-      "Biwa Lake",
-      "Vänern Lake",
       "Tonlé Sap Lake",
-      "Balaton Lake"
+      "Vänern Lake",
+      "Aral Lake",
+      "Balaton Lake",
+      "Biwa Lake"
     ],
     "countries": [
+      "HU",
+      "UZ",
+      "SW",
       "KH",
       "KZ",
-      "HU",
-      "SW",
-      "JP",
-      "UZ"
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
