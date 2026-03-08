@@ -232,14 +232,14 @@
     ],
     "satellite": [
       "Envisat",
-      "OrbView-2",
       "Aqua",
-      "Suomi"
+      "Suomi",
+      "OrbView-2"
     ],
     "sensor": [
+      "MODIS",
       "SeaWiFS",
       "MERIS",
-      "MODIS",
       "VIIRS"
     ],
     "thumbnail": [

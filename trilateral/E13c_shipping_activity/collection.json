@@ -244,25 +244,25 @@
       "MSI"
     ],
     "cities": [
-      "Ghent",
-      "Suez",
-      "Dunkirk",
-      "Hamburg",
-      "Los Angeles",
       "Gdynia",
-      "Genoa",
-      "New York",
+      "San Francisco",
+      "Hamburg",
+      "Suez",
       "Suez ",
-      "San Francisco"
+      "New York",
+      "Genoa",
+      "Los Angeles",
+      "Dunkirk",
+      "Ghent"
     ],
     "countries": [
-      "DE",
       "IT",
       "PL",
-      "US",
-      "EG",
+      "DE",
       "BE",
-      "FR"
+      "US",
+      "FR",
+      "EG"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg"
