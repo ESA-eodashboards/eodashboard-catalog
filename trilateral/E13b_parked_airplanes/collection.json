@@ -260,43 +260,43 @@
       "covid-19"
     ],
     "satellite": [
-      "ALOS-2",
       "Sentinel-2",
+      "ALOS-2",
       "PlanetScope",
       "Sentinel-1"
     ],
     "sensor": [
-      "MSI",
       "PSB.SD",
       "C-SAR",
-      "PALSAR-2"
+      "PALSAR-2",
+      "MSI"
     ],
     "cities": [
-      "Beijing",
-      "Napa",
-      "Buchannan",
+      "Newark",
+      "Narita",
+      "Marin",
       "Los Angeles",
+      "Hayward",
+      "Napa",
+      "New York",
+      "Rome",
+      "Beijing",
+      "Paris",
       "Ontario",
+      "San Jose",
+      "Buchannan",
+      "Heathrow",
       "Oakland",
       "Beijing Daxing",
-      "San Francisco",
-      "Newark",
-      "Paris",
-      "San Jose",
-      "New York",
-      "Marin",
-      "Heathrow",
-      "Hayward",
-      "Narita",
-      "Rome"
+      "San Francisco"
     ],
     "countries": [
-      "GB",
+      "US",
+      "IT",
+      "JP",
       "FR",
       "CN",
-      "JP",
-      "US",
-      "IT"
+      "GB"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg"

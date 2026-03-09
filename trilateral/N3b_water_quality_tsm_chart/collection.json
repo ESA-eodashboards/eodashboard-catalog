@@ -220,18 +220,18 @@
     ],
     "sensor": [
       "OLCI",
-      "SGLI",
-      "MODIS"
+      "MODIS",
+      "SGLI"
     ],
     "cities": [
-      "Nagoya",
-      "Venice",
       "Tokyo",
-      "Kobe"
+      "Kobe",
+      "Venice",
+      "Nagoya"
     ],
     "countries": [
-      "IT",
-      "JP"
+      "JP",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.jpg"
