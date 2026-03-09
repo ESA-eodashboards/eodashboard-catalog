@@ -216,21 +216,21 @@
       "water"
     ],
     "satellite": [
+      "Sentinel-3",
       "GCOM-C",
-      "Acqua",
-      "Sentinel-3"
+      "Acqua"
     ],
     "sensor": [
-      "SGLI",
       "OLCI",
+      "SGLI",
       "MODIS"
     ],
     "cities": [
+      "Tokyo",
       "Nagoya",
-      "Venice",
-      "Kobe",
       "New York",
-      "Tokyo"
+      "Kobe",
+      "Venice"
     ],
     "countries": [
       "JP",
