@@ -3,8 +3,7 @@
   "Title": "Cloud Fraction (CF) by Sentinel-5P TROPOMI (Daily)",
   "Description": "S5P-L3GRD-CLOUDFR-DAY/S5P-L3GRD-CLOUDFR-DAY.md",
   "Themes": [
-    "atmosphere",
-    "clouds"
+    "atmosphere"
   ],
   "Tags": [
     "Cloud",
@@ -13,6 +12,10 @@
     "Atmosphere",
     "Open data",
     "Open Science",
+    "TROPOMI",
+    "Sentinel-5P",
+    "Remote Sensing",
+    "Daily Data",
     "S5P",
     "Copernicus"
   ],
@@ -29,10 +32,10 @@
   "Agency": [
     "ESA"
   ],
-  "Provider": [
+  "References": [
     {
-      "Name": "Copernicus",
-      "Url": "https://maps.s5p-pal.com/cloud-fraction/"
+      "Name": "Source Product Page",
+      "Url": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/cloud-fraction"
     }
   ],
   "Image": "S5P-L3GRD-CLOUDFR-DAY/S5P-L3GRD-CLOUDFR-DAY_thumbnail.jpg",
