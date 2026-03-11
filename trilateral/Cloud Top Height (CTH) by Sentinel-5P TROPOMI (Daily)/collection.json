@@ -21,9 +21,6 @@
       "themes": [
         "atmosphere"
       ],
-      "providers": [
-        "Copernicus"
-      ],
       "tags": [
         "Cloud",
         "Cloud Top Height",
@@ -31,6 +28,10 @@
         "Atmosphere",
         "Open data",
         "Open Science",
+        "TROPOMI",
+        "Sentinel-5P",
+        "Remote Sensing",
+        "Daily Data",
         "S5P",
         "Copernicus"
       ],
@@ -111,6 +112,10 @@
     "Atmosphere",
     "Open data",
     "Open Science",
+    "TROPOMI",
+    "Sentinel-5P",
+    "Remote Sensing",
+    "Daily Data",
     "S5P",
     "Copernicus"
   ],
@@ -168,12 +173,6 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Copernicus",
-      "url": "https://maps.s5p-pal.com/cloud-top-height/day/"
-    }
-  ],
   "summaries": {
     "subcode": [
       "S5P-L3GRD-CLOUDTH-DAY"
@@ -204,6 +203,14 @@
       "type": "image/png",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/cloud-top-height",
+      "type": "text/html",
+      "title": "Source Product Page",
+      "roles": [
+        "metadata"
       ]
     }
   }
