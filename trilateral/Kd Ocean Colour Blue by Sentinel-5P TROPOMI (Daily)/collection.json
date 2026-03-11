@@ -18,6 +18,7 @@
       "endpointtype": "Sentinel Hub_byoc",
       "code": "S5P-L3GRD-KdBLUE-DAY",
       "id": "Kd Ocean Colour Blue by Sentinel-5P TROPOMI (Daily)",
+      "themes": "water",
       "tags": [
         "Ocean Colour",
         "Kd-blue",
@@ -94,6 +95,7 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-KdBLUE-DAY/S5P-L3GRD-KdBLUE-DAY_thumbnail.jpg",
+  "themes": "water",
   "tags": [
     "Ocean Colour",
     "Kd-blue",
@@ -144,6 +146,9 @@
   "summaries": {
     "subcode": [
       "S5P-L3GRD-KdBLUE-DAY"
+    ],
+    "themes": [
+      "water"
     ],
     "satellite": [
       "Sentinel-5P"
