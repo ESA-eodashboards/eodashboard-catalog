@@ -2,6 +2,21 @@
   "Name": "Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)",
   "Title": "Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)",
   "Description": "S5P-L3GRD-SO2COBRA-DAY/S5P-L3GRD-SO2COBRA-DAY.md",
+  "Themes": [
+    "atmosphere"
+  ],
+  "Tags": [
+    "SO2",
+    "Sulfure Dioxide",
+    "Atmospheric Pollution",
+    "COBRA",
+    "PBL",
+    "TROPOMI",
+    "Sentinel-5P",
+    "Remote Sensing",
+    "Daily Data",
+    "Air Quality"
+  ],
   "DataSource": {
     "Spaceborne": {
       "Satellite": [
@@ -18,23 +33,10 @@
   "References": [
     {
       "Name": "Source Product Catalog",
-      "Url": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/so2-7km",
+      "Url": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/so2-7km"
     }
   ],
   "Image": "S5P-L3GRD-SO2COBRA-DAY/S5P-L3GRD-SO2COBRA-DAY_thumbnail.jpg",
-  "Themes": "atmosphere",
-  "Tags": [
-    "SO2",
-    "Sulfure Dioxide",
-    "Atmospheric Pollution",
-    "COBRA",
-    "PBL",
-    "TROPOMI",
-    "Sentinel-5P",
-    "Remote Sensing",
-    "Daily Data",
-    "Air Quality"
-  ],
   "Colorlegend": {
     "domain": [
       0.0,
