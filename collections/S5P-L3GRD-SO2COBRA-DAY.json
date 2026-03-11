@@ -18,11 +18,11 @@
   "References": [
     {
       "Name": "Source Product Catalog",
-      "Url": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/so2-cobra-pbl",
+      "Url": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/so2-7km",
     }
   ],
   "Image": "S5P-L3GRD-SO2COBRA-DAY/S5P-L3GRD-SO2COBRA-DAY_thumbnail.jpg",
-  "Theme": "atmosphere",
+  "Themes": "atmosphere",
   "Tags": [
     "SO2",
     "Sulfure Dioxide",
