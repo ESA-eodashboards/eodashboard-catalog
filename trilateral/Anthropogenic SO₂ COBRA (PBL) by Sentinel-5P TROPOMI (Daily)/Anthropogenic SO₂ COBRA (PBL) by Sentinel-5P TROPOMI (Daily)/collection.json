@@ -31,7 +31,9 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-SO2COBRA-DAY/S5P-L3GRD-SO2COBRA-DAY_thumbnail.jpg",
-  "themes": "atmosphere",
+  "themes": [
+    "atmosphere"
+  ],
   "tags": [
     "SO2",
     "Sulfure Dioxide",
