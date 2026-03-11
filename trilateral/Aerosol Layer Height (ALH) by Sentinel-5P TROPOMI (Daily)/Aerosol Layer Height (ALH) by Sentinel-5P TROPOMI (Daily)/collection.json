@@ -43,6 +43,10 @@
     "ALH",
     "Open data",
     "Open Science",
+    "TROPOMI",
+    "Sentinel-5P",
+    "Remote Sensing",
+    "Daily Data",
     "S5P",
     "Copernicus"
   ],
@@ -96,12 +100,6 @@
     }
   },
   "license": "other",
-  "providers": [
-    {
-      "name": "Copernicus",
-      "url": "https://maps.s5p-pal.com/alh/"
-    }
-  ],
   "assets": {
     "geoparquet": {
       "href": "./items.parquet",
@@ -123,6 +121,14 @@
       "type": "image/png",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/alh",
+      "type": "text/html",
+      "title": "Source Product Page",
+      "roles": [
+        "metadata"
       ]
     }
   }
