@@ -2,6 +2,18 @@
   "Name": "Kd Ocean Colour Blue by Sentinel-5P TROPOMI (Daily)",
   "Title": "Kd Ocean Colour Blue by Sentinel-5P TROPOMI (Daily)",
   "Description": "S5P-L3GRD-KdBLUE-DAY/S5P-L3GRD-KdBLUE-DAY.md",
+  "Themes": [
+    "water"
+  ],
+  "Tags": [
+    "Ocean Colour",
+    "Kd-blue",
+    "Diffuse Attenuation",
+    "TROPOMI",
+    "Sentinel-5P",
+    "Remote Sensing",
+    "Daily Data"
+  ],
   "DataSource": {
     "Spaceborne": {
       "Satellite": [
@@ -22,16 +34,6 @@
     }
   ],
   "Image": "S5P-L3GRD-KdBLUE-DAY/S5P-L3GRD-KdBLUE-DAY_thumbnail.jpg",
-  "Themes": "water",
-  "Tags": [
-    "Ocean Colour",
-    "Kd-blue",
-    "Diffuse Attenuation",
-    "TROPOMI",
-    "Sentinel-5P",
-    "Remote Sensing",
-    "Daily Data"
-  ],
   "Legend": "S5P-L3GRD-KdBLUE-DAY/S5P-L3GRD-KdBLUE-DAY_legend.png",
   "EodashIdentifier": "S5P-L3GRD-KdBLUE-DAY",
   "Resources": [
