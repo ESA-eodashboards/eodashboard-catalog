@@ -51,7 +51,7 @@
     },
     {
       "rel": "service",
-      "href": "https://api.earthsystemdatalab.net/api/timeseries//hydrology/precip?aggMethods=median",
+      "href": "https://api.earthsystemdatalab.net/api/timeseries/hydrology/precip?aggMethods=median",
       "type": "application/json",
       "id": "xcube_statistics",
       "method": "POST",
@@ -239,8 +239,8 @@
       "ESDL_Hydrology_Precipitation"
     ],
     "themes": [
-      "water",
-      "agriculture"
+      "agriculture",
+      "water"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.jpg"
