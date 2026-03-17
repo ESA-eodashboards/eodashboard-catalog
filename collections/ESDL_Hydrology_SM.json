@@ -112,6 +112,6 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".1f",
-    "title": "[% relative saturation]"
+    "title": "[relative saturation]"
   }
 }
