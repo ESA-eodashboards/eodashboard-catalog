@@ -98,9 +98,31 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
   "sci:doi": "10.5067/OE8BDP5KU30Q",
   "sci:citation": "Petty, A. A., N. Kurtz, R. Kwok, T. Markus, T. A. Neumann, and N. Keeney. 2022. ICESat-2 L4 Monthly Gridded Sea Ice Thickness, Version 2. [Indicate subset used]. \nBoulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. \n",
   "subtitle": "Monthly Arctic sea ice thickness",
+  "eodash:stories": {
+    "sea-ice-freeboard-thickness": {
+      "href": "https://eodashboard.org/story/?id=sea-ice-freeboard-thickness",
+      "type": "text/markdown",
+      "title": "Sea Ice Freeboard and Thickness",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/sea-ice-freeboard-thickness.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SITI_IS2SITMOGR4-cog/SITI_IS2SITMOGR4-cog.jpg",
   "themes": [
     "cryosphere"
@@ -207,6 +229,24 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "sea-ice-freeboard-thickness": {
+      "href": "https://eodashboard.org/story/?id=sea-ice-freeboard-thickness",
+      "type": "text/markdown",
+      "title": "Sea Ice Freeboard and Thickness",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/sea-ice-freeboard-thickness.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
       ]
     },
     "thumbnail": {
