@@ -15,7 +15,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=viridis&rescale=0.0,100.0",
       "type": "image/png",
       "title": "GRDI Filled Missing Values Count",
-      "key": "0b07e3b0-bd37-4645-9d75-3423c59c593a"
+      "key": "7bebb0d1-730a-4676-8a07-6a1ed9bc8403"
     },
     {
       "rel": "parent",
