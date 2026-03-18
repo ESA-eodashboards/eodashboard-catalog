@@ -222,14 +222,14 @@
     ],
     "sensor": [
       "MODIS",
-      "SGLI",
-      "OLCI"
+      "OLCI",
+      "SGLI"
     ],
     "cities": [
-      "Nagoya",
-      "Venice",
       "Tokyo",
       "Kobe",
+      "Venice",
+      "Nagoya",
       "New York"
     ],
     "countries": [
