@@ -112,9 +112,31 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
   "sci:doi": "10.24381/cds.67e8eeb7",
   "sci:citation": "Copernicus Climate Change Service, Climate Data Store, (2021).\nORAS5 global ocean reanalysis monthly data from 1958 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS).\n",
   "subtitle": "ORAS5 global ocean reanalysis monthly data from 1958 to present",
+  "eodash:stories": {
+    "rising_global_sea_surface_temperatures": {
+      "href": "https://eodashboard.org/story/?id=rising_global_sea_surface_temperatures",
+      "type": "text/markdown",
+      "title": "El Niño 2023-2024 Part 2: Rising Global Sea Surface Temperatures",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/rising_global_sea_surface_temperatures.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OHC300_Ocean_Heat_Content_upper_300m/OHC300_Ocean_Heat_Content_upper_300m.jpg",
   "themes": [
     "water"
@@ -213,6 +235,24 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "rising_global_sea_surface_temperatures": {
+      "href": "https://eodashboard.org/story/?id=rising_global_sea_surface_temperatures",
+      "type": "text/markdown",
+      "title": "El Niño 2023-2024 Part 2: Rising Global Sea Surface Temperatures",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/rising_global_sea_surface_temperatures.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
       ]
     },
     "thumbnail": {
