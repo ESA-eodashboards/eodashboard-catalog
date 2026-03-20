@@ -111,7 +111,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://nasa-maap-data-store/file-staging/nasa-map/nceo-africa-2017/AGB_map_2017v0m_COG.tif&resampling_method=nearest&bidx=1&colormap_name=gist_earth_r&rescale=0.0,400.0",
       "type": "image/png",
       "title": "Aboveground Woody Biomass",
-      "key": "90fbf699-2d8a-4f89-a702-956861d4f0ca"
+      "key": "33b65be6-7e55-4ea1-b489-b171584fbcd5"
     },
     {
       "rel": "collection",

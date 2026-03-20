@@ -62,7 +62,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/nightlights-hd-monthly/BMHD_VNP46A2_tk_202102_cog.tif&resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
       "type": "image/png",
       "title": "Nightlights from SUOMI-NPP",
-      "key": "82f08ae7-4aea-4d6e-80b9-41bc67a1359d"
+      "key": "b1497c69-8a1d-425d-9708-1e34d93b3d80"
     },
     {
       "rel": "collection",

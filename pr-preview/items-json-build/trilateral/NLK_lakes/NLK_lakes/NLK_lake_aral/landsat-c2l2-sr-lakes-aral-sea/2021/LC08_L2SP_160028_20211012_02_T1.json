@@ -92,7 +92,7 @@
       "href": "https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-lakes-aral-sea/items/LC08_L2SP_160028_20211012_02_T1/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55",
       "type": "image/png",
       "title": "Aral Lake Landsat-8 cloud free",
-      "key": "791d30df-0ae0-4df2-be90-ad5f231b85ca"
+      "key": "fb5e8a70-a350-4b8b-92e5-242bf39b1a64"
     },
     {
       "rel": "collection",

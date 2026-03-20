@@ -60,7 +60,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/EPA-daily-emissions_5_Forest_Fires/EPA-daily-emissions_5_Forest_Fires_20121101.tif&resampling_method=nearest&bidx=1&colormap_name=rainbow&rescale=0,2e12&nodata=0",
       "type": "image/png",
       "title": "Forest Fires daily - EPA Methane Emissions 2012",
-      "key": "f457279a-9cb9-456c-b648-4152b7811d94"
+      "key": "51b5fd56-3ee4-46f4-8505-9b5a0043f8de"
     },
     {
       "rel": "collection",

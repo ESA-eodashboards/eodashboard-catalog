@@ -62,7 +62,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/no2-monthly-diff/OMI_trno2_0.10x0.10_201504_Col3_V4.nc.tif&resampling_method=nearest&bidx=1&colormap_name=rdbu_r&rescale=-3e15,3e15",
       "type": "image/png",
       "title": "Nitrogen Dioxide (Monthly Difference)",
-      "key": "abf0cb17-b386-4b8d-b446-326836ac25df"
+      "key": "f77ea58e-2263-493c-bb81-2ae65e1a5a42"
     },
     {
       "rel": "collection",

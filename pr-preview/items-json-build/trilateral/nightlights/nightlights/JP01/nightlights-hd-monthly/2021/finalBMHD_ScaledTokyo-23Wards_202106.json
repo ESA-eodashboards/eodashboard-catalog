@@ -62,7 +62,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledTokyo-23Wards_202106.tif&resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
       "type": "image/png",
       "title": "Nightlights from SUOMI-NPP",
-      "key": "95bb1939-126f-4253-9535-70787c297b09"
+      "key": "cbc0b0ee-e846-400a-88cd-e113f1c0d4c3"
     },
     {
       "rel": "collection",

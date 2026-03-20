@@ -60,7 +60,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2020.tif&resampling_method=nearest&bidx=1&colormap_name=viridis&rescale=0.0,1.0",
       "type": "image/png",
       "title": "Sulfur Dioxide (OMI/Aura)",
-      "key": "403a3cfb-6f60-4800-80c3-5515b2e3e18e"
+      "key": "cc6232d9-96c8-46b3-8dd0-13ddf595420b"
     },
     {
       "rel": "collection",

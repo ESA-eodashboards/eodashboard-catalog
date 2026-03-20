@@ -42,7 +42,7 @@
       "role": [
         "data"
       ],
-      "key": "2b54fcd1-28cb-4805-85a1-b9c5c8d60764"
+      "key": "c98b69af-2fbc-4d42-b73a-4331c7dbf8db"
     },
     {
       "rel": "parent",
@@ -50,6 +50,9 @@
       "type": "application/json",
       "title": "Solar induced chlorophyll fluorescence"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
   ],
   "sci:publications": [
     {
@@ -66,6 +69,25 @@
     }
   ],
   "subtitle": "SIF monthly average from Sentinel-5p TROPOMI [mW/m2/sr/nm]",
+  "eodash:stories": {
+    "cairo-farmlands": {
+      "href": "https://eodashboard.org/story/?id=cairo-farmlands",
+      "type": "text/markdown",
+      "title": "Nile Delta and Farmlands around Cairo",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/cairo-farmlands.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SIF_solar_induced_chlorophyll_fluorescence/SIF_solar_induced_chlorophyll_fluorescence.jpg",
   "themes": [
     "agriculture"
@@ -143,6 +165,24 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "cairo-farmlands": {
+      "href": "https://eodashboard.org/story/?id=cairo-farmlands",
+      "type": "text/markdown",
+      "title": "Nile Delta and Farmlands around Cairo",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/cairo-farmlands.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
       ]
     },
     "thumbnail": {

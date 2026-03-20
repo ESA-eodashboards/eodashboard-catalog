@@ -124,7 +124,7 @@
   ],
   "assets": {
     "dummy_asset": {
-      "href": "https://services.sentinel-hub.com/api/v1/catalog/1.0.0/collections/zarr-b6915831-0a56-424b-bcb4-781deb062f31/items/"
+      "href": "https://services.sentinel-hub.com/catalog/v1/collections/zarr-b6915831-0a56-424b-bcb4-781deb062f31/items/"
     }
   },
   "collection": "zarr-b6915831-0a56-424b-bcb4-781deb062f31"

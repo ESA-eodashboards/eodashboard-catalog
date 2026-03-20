@@ -62,7 +62,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledFukuoka_Fukuoka-city_202002.tif&resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
       "type": "image/png",
       "title": "Nightlights from SUOMI-NPP",
-      "key": "99b3ded7-f163-4766-8df2-1fc2d24ae370"
+      "key": "937b28e7-9c2c-474d-81e1-3bf7619ff23b"
     },
     {
       "rel": "collection",

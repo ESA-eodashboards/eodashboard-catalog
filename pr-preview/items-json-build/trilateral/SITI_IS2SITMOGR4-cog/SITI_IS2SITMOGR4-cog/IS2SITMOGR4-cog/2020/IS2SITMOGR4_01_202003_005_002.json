@@ -62,7 +62,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/IS2SITMOGR4-cog/IS2SITMOGR4_01_202003_005_002.tif&resampling_method=nearest&bidx=1&colormap_name=plasma&rescale=0.0,4.0",
       "type": "image/png",
       "title": "Sea Ice Thickness (ICESat-2)",
-      "key": "93ac732a-81a6-4a7e-9969-5f175ae4cd4c"
+      "key": "5f0f8a1b-70a3-4a20-9413-f6d2046d7b40"
     },
     {
       "rel": "collection",

@@ -62,7 +62,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledKyoto_Kyoto-city_201912.tif&resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
       "type": "image/png",
       "title": "Nightlights from SUOMI-NPP",
-      "key": "247e2853-bc2f-4e9e-9d70-8c7e44cbff38"
+      "key": "55029c1d-8d1b-44ca-bb89-8ce4c3f3840d"
     },
     {
       "rel": "collection",

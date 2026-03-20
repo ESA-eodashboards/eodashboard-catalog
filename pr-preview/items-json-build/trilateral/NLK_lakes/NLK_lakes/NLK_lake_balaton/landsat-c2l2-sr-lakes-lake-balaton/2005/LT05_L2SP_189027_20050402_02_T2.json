@@ -91,7 +91,7 @@
       "href": "https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-lakes-lake-balaton/items/LT05_L2SP_189027_20050402_02_T2/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55&nodata=0",
       "type": "image/png",
       "title": "Balaton Lake cloud free",
-      "key": "f03f47ee-2326-4cfc-8325-39e4b193b655"
+      "key": "dbc52ac4-5923-418e-9056-ef611d85fc9b"
     },
     {
       "rel": "collection",

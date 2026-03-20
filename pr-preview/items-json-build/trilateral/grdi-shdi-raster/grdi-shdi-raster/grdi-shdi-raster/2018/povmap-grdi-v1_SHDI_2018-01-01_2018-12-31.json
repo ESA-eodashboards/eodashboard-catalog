@@ -62,7 +62,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/grdi-shdi-raster/povmap-grdi-v1_SHDI_2018-01-01_2018-12-31.tif&resampling_method=nearest&bidx=1&colormap_name=viridis&rescale=0.0,100.0",
       "type": "image/png",
       "title": "Subnational Human Development Index (SHDI)",
-      "key": "303b2de0-5a73-4838-a89a-dfd77fa8a499"
+      "key": "20ec7e66-f4de-4df5-93f6-b0fdea32edf7"
     },
     {
       "rel": "collection",

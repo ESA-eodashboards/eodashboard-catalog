@@ -92,7 +92,7 @@
       "href": "https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-lakes-vanern/items/LC09_L2SP_195019_20230422_02_T1/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55&nodata=0",
       "type": "image/png",
       "title": "Vänern Lake cloud free",
-      "key": "cf4a523d-749c-47f0-b424-f03ec9b162b8"
+      "key": "c922c2a4-c7bf-499d-8c33-22681717441d"
     },
     {
       "rel": "collection",

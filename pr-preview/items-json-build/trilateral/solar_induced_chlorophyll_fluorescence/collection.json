@@ -95,6 +95,9 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
   "sci:publications": [
     {
       "citation": "Köehler, P., Frankenberg, C., Magney, T. S., Guanter, L., Joiner, J., & Landgraf, J. (2018). \nGlobal retrievals of solar-induced chlorophyll fluorescence with TROPOMI. First results and intersensor comparison to OCO-2. Geophysical Research Letters, 45, 10,456–10,463.\n",
@@ -110,6 +113,25 @@
     }
   ],
   "subtitle": "SIF monthly average from Sentinel-5p TROPOMI [mW/m2/sr/nm]",
+  "eodash:stories": {
+    "cairo-farmlands": {
+      "href": "https://eodashboard.org/story/?id=cairo-farmlands",
+      "type": "text/markdown",
+      "title": "Nile Delta and Farmlands around Cairo",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/cairo-farmlands.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SIF_solar_induced_chlorophyll_fluorescence/SIF_solar_induced_chlorophyll_fluorescence.jpg",
   "themes": [
     "agriculture"
@@ -203,6 +225,24 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "cairo-farmlands": {
+      "href": "https://eodashboard.org/story/?id=cairo-farmlands",
+      "type": "text/markdown",
+      "title": "Nile Delta and Farmlands around Cairo",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/cairo-farmlands.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
       ]
     },
     "thumbnail": {

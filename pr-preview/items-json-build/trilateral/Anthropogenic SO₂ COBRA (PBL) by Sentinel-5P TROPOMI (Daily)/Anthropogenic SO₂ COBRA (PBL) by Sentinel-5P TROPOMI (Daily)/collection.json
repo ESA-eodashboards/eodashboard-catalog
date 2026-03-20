@@ -1067,6 +1067,9 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-SO2COBRA-DAY/S5P-L3GRD-SO2COBRA-DAY_thumbnail.jpg",
+  "themes": [
+    "atmosphere"
+  ],
   "tags": [
     "SO2",
     "Sulfure Dioxide",
@@ -1404,7 +1407,7 @@
       ]
     },
     "reference_1": {
-      "href": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/so2-cobra-pbl",
+      "href": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/so2-7km",
       "type": "text/html",
       "title": "Source Product Catalog",
       "roles": [

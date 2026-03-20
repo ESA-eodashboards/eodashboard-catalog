@@ -92,7 +92,7 @@
       "href": "https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-lakes-tonle-sap/items/LC08_L2SP_126051_20190211_02_T1/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55&nodata=0",
       "type": "image/png",
       "title": "Tonlé Sap Lake cloud free",
-      "key": "5ccc2e74-194c-49cf-838b-5605f0b7c123"
+      "key": "5c01e4bc-2a31-4cf1-aab3-bb2998b5a62d"
     },
     {
       "rel": "collection",

@@ -62,7 +62,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledHokkaido_Sapporo_202106.tif&resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
       "type": "image/png",
       "title": "Nightlights from SUOMI-NPP",
-      "key": "21c93c4f-603c-40e0-9724-e19661b2a483"
+      "key": "e0e55b59-f656-4e63-9b27-321576a337c0"
     },
     {
       "rel": "collection",

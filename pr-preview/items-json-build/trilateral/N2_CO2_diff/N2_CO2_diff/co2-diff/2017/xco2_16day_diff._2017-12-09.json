@@ -60,7 +60,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/co2-diff/xco2_16day_diff._2017-12-09.tif&resampling_method=nearest&bidx=1&colormap_name=rdbu_r&rescale=-1e-06,1e-06",
       "type": "image/png",
       "title": "Carbon Dioxide from OCO-2 (daily difference)",
-      "key": "676c2ec7-f5e9-41d8-98e2-a4595df0822a"
+      "key": "6db102f7-8a4c-45b7-a60f-c2a0438b2ce3"
     },
     {
       "rel": "collection",

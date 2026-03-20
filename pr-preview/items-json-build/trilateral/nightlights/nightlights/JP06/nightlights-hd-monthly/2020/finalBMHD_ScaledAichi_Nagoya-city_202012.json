@@ -62,7 +62,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledAichi_Nagoya-city_202012.tif&resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
       "type": "image/png",
       "title": "Nightlights from SUOMI-NPP",
-      "key": "63ed5434-264e-4700-87ca-753d01a1b806"
+      "key": "5a328f05-0904-4946-8af1-68002c8182ac"
     },
     {
       "rel": "collection",

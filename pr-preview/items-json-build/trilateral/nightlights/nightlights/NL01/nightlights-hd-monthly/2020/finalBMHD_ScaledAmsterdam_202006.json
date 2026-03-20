@@ -62,7 +62,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledAmsterdam_202006.tif&resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
       "type": "image/png",
       "title": "Nightlights from SUOMI-NPP",
-      "key": "ce9b769d-60e3-4a7f-ae8e-cd659ce276af"
+      "key": "420b0481-3d79-464a-8906-58cfcc0c7f3b"
     },
     {
       "rel": "collection",

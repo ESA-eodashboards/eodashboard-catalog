@@ -124,7 +124,7 @@
   ],
   "assets": {
     "dummy_asset": {
-      "href": "https://services.sentinel-hub.com/api/v1/catalog/1.0.0/collections/byoc-7db8e19e-bf12-4203-bdd1-673455647354/items/"
+      "href": "https://services.sentinel-hub.com/catalog/v1/collections/byoc-7db8e19e-bf12-4203-bdd1-673455647354/items/"
     }
   },
   "collection": "byoc-7db8e19e-bf12-4203-bdd1-673455647354"

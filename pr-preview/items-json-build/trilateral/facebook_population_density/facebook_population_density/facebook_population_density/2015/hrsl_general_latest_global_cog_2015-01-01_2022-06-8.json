@@ -60,7 +60,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/facebook_population_density/hrsl_general_latest_global_cog_2015-01-01_2022-06-8.tif&resampling_method=nearest&bidx=1&colormap_name=ylorrd&rescale=0,70",
       "type": "image/png",
       "title": "Population Density (Meta)",
-      "key": "19fe80ae-c9ee-455b-872f-3538b21b61e8"
+      "key": "7a774ff4-3c22-4c27-83c4-c0d1e4518485"
     },
     {
       "rel": "collection",

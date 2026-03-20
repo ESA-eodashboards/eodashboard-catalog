@@ -91,7 +91,7 @@
       "href": "https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-lakes-lake-biwa/items/LT05_L2SP_109036_20050504_02_T1/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55&nodata=0",
       "type": "image/png",
       "title": "Biwa Lake cloud free",
-      "key": "4a185e0a-9d6f-4c4d-af54-05cdb9f9ddd4"
+      "key": "b67c690d-f870-4c8d-8412-85385423758f"
     },
     {
       "rel": "collection",

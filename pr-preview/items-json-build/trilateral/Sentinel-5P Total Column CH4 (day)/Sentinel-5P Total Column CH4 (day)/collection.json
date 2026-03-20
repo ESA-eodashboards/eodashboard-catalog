@@ -1,0 +1,583 @@
+{
+  "type": "Collection",
+  "id": "Sentinel-5P Total Column CH4 (day)",
+  "stac_version": "1.1.0",
+  "description": "## Sentinel-5P Total Column CH4 (day)\nDescription here.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/e69b16a2-be84-4edd-bcc4-8fcef48d50d1.json",
+      "type": "application/geo+json",
+      "datetime": "2025-02-01T00:00:00Z",
+      "id": "e69b16a2-be84-4edd-bcc4-8fcef48d50d1"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/09cebeef-389c-4d87-bc44-b0c474f540c8.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-31T00:00:00Z",
+      "id": "09cebeef-389c-4d87-bc44-b0c474f540c8"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/5388fd51-2389-456c-93a4-a199790ee631.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-30T00:00:00Z",
+      "id": "5388fd51-2389-456c-93a4-a199790ee631"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/9bccebd1-ee36-4367-95d0-9ea7b3d03573.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-29T00:00:00Z",
+      "id": "9bccebd1-ee36-4367-95d0-9ea7b3d03573"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/f862329a-27e7-48f2-bba2-2bdeb1c2d0ca.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-28T00:00:00Z",
+      "id": "f862329a-27e7-48f2-bba2-2bdeb1c2d0ca"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/8ba83a64-7810-4e79-97e5-a86e12cfaaf0.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-27T00:00:00Z",
+      "id": "8ba83a64-7810-4e79-97e5-a86e12cfaaf0"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/284c4c62-a8f4-4058-b8de-b35ff5cc5bdc.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-26T00:00:00Z",
+      "id": "284c4c62-a8f4-4058-b8de-b35ff5cc5bdc"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/8022c510-54a8-4ee9-9786-1face3aef100.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-25T00:00:00Z",
+      "id": "8022c510-54a8-4ee9-9786-1face3aef100"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/7d149e14-a071-4bc4-a6fd-21a218588def.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-24T00:00:00Z",
+      "id": "7d149e14-a071-4bc4-a6fd-21a218588def"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/7dc858c2-3ee7-43a9-ab84-61d9c8f5fd04.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-23T00:00:00Z",
+      "id": "7dc858c2-3ee7-43a9-ab84-61d9c8f5fd04"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/ea182ebd-95e1-4ff6-bcd0-2c83a354b983.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-22T00:00:00Z",
+      "id": "ea182ebd-95e1-4ff6-bcd0-2c83a354b983"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/a8ae54f7-4c9b-424b-98e5-fb62a43e1355.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-21T00:00:00Z",
+      "id": "a8ae54f7-4c9b-424b-98e5-fb62a43e1355"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/c887a919-b07c-4151-a2a6-609d7c51e464.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-20T00:00:00Z",
+      "id": "c887a919-b07c-4151-a2a6-609d7c51e464"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/154c2de9-747c-4f8d-99ac-594b2f14a045.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-19T00:00:00Z",
+      "id": "154c2de9-747c-4f8d-99ac-594b2f14a045"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/5fa3be8d-376f-4a68-aefd-f63c6436ca83.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-18T00:00:00Z",
+      "id": "5fa3be8d-376f-4a68-aefd-f63c6436ca83"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/94cc2ac5-452d-45f3-bf5f-f8d82165b96c.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-17T00:00:00Z",
+      "id": "94cc2ac5-452d-45f3-bf5f-f8d82165b96c"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/37cca7d6-c8bd-4003-ba4c-791adabf2e07.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-16T00:00:00Z",
+      "id": "37cca7d6-c8bd-4003-ba4c-791adabf2e07"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/7ddcaee0-cf52-4036-8a14-705a0fb9ae03.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-15T00:00:00Z",
+      "id": "7ddcaee0-cf52-4036-8a14-705a0fb9ae03"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/ef3e6785-0657-4a3f-9b40-3309752a76f5.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-14T00:00:00Z",
+      "id": "ef3e6785-0657-4a3f-9b40-3309752a76f5"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/a1c4402f-c011-4f51-b2c4-bfc60d7703c4.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-13T00:00:00Z",
+      "id": "a1c4402f-c011-4f51-b2c4-bfc60d7703c4"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/0404571a-355a-4b6a-9e86-0e342332b3a3.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-12T00:00:00Z",
+      "id": "0404571a-355a-4b6a-9e86-0e342332b3a3"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/f9ed51f6-3fc5-4ca8-b077-dc9f67296875.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-11T00:00:00Z",
+      "id": "f9ed51f6-3fc5-4ca8-b077-dc9f67296875"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/a1b606ac-81ba-4d82-9476-2ba1f81e7a89.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-10T00:00:00Z",
+      "id": "a1b606ac-81ba-4d82-9476-2ba1f81e7a89"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/b189750b-ecaa-495e-9bbc-b620964a5899.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-09T00:00:00Z",
+      "id": "b189750b-ecaa-495e-9bbc-b620964a5899"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/fbcfade2-2c5f-4ebf-9b67-80ebe6dd66eb.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-08T00:00:00Z",
+      "id": "fbcfade2-2c5f-4ebf-9b67-80ebe6dd66eb"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/a95def33-a7f2-4a61-b8d4-c71411dcfed6.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-07T00:00:00Z",
+      "id": "a95def33-a7f2-4a61-b8d4-c71411dcfed6"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/4c7e2b8a-ba90-40a4-87ab-59c1ee76647f.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-06T00:00:00Z",
+      "id": "4c7e2b8a-ba90-40a4-87ab-59c1ee76647f"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/89fbc9b2-ca11-4254-9944-f0115cb91d48.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-05T00:00:00Z",
+      "id": "89fbc9b2-ca11-4254-9944-f0115cb91d48"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/802212ac-98c2-4cac-87e8-00b598d16d42.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-04T00:00:00Z",
+      "id": "802212ac-98c2-4cac-87e8-00b598d16d42"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/7ad9431d-6999-45a3-a5fb-067f82ce4f77.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-03T00:00:00Z",
+      "id": "7ad9431d-6999-45a3-a5fb-067f82ce4f77"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/7bcc18d5-eaa1-49f3-a526-21f452c9f8d3.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-02T00:00:00Z",
+      "id": "7bcc18d5-eaa1-49f3-a526-21f452c9f8d3"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-d82e463b-0714-45c2-87b2-4c4c6cc60330/2025/1a4b1bc9-536c-4d3a-b5a2-4d93bde9f6a6.json",
+      "type": "application/geo+json",
+      "datetime": "2025-01-01T00:00:00Z",
+      "id": "1a4b1bc9-536c-4d3a-b5a2-4d93bde9f6a6"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Sentinel-5P Total Column CH4 (day)",
+      "wms:layers": [
+        "S5P-L3GRD-TCCH4-DAY"
+      ],
+      "role": [
+        "data"
+      ],
+      "proj:epsg": 4326
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel-5P Total Column CH4 (day)"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4-DAY/S5P-L3GRD-TCCH4-DAY_thumbnail.jpg",
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "S5P-L3GRD-TCCH4-DAY",
+  "sensor": [
+    "TROPOMI"
+  ],
+  "satellite": [
+    "Sentinel-5P"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      1680.0,
+      1980.0
+    ],
+    "range": [
+      "#000b16",
+      "#000c18",
+      "#000e1c",
+      "#001122",
+      "#001225",
+      "#001428",
+      "#00152b",
+      "#001931",
+      "#001a34",
+      "#001c38",
+      "#001d3b",
+      "#002041",
+      "#002244",
+      "#002347",
+      "#00254a",
+      "#002850",
+      "#002a53",
+      "#002b57",
+      "#002d5a",
+      "#003060",
+      "#003163",
+      "#003366",
+      "#003469",
+      "#00386f",
+      "#003973",
+      "#003b76",
+      "#003c79",
+      "#003f7f",
+      "#004182",
+      "#004285",
+      "#004488",
+      "#00478f",
+      "#004992",
+      "#004a95",
+      "#004c98",
+      "#004f9e",
+      "#0050a1",
+      "#0052a4",
+      "#0053a7",
+      "#0055aa",
+      "#0058b1",
+      "#005ab4",
+      "#005bb7",
+      "#005dba",
+      "#0060c0",
+      "#0061c3",
+      "#0063c6",
+      "#0064ca",
+      "#0067d0",
+      "#0069d3",
+      "#006bd6",
+      "#006cd9",
+      "#006fdf",
+      "#0071e2",
+      "#0072e6",
+      "#0074e9",
+      "#0077ef",
+      "#0079f2",
+      "#007af5",
+      "#007cf8",
+      "#007ffe",
+      "#0080ff",
+      "#0082ff",
+      "#0083ff",
+      "#0086ff",
+      "#0088ff",
+      "#008aff",
+      "#008bff",
+      "#008eff",
+      "#0090ff",
+      "#0091ff",
+      "#0093ff",
+      "#0096ff",
+      "#0098ff",
+      "#0099ff",
+      "#009bff",
+      "#009cff",
+      "#009fff",
+      "#00a1ff",
+      "#00a3ff",
+      "#00a4ff",
+      "#00a7ff",
+      "#00a9ff",
+      "#00aaff",
+      "#00acff",
+      "#00afff",
+      "#00b1ff",
+      "#00b2ff",
+      "#00b4ff",
+      "#00b7ff",
+      "#00b8ff",
+      "#00baff",
+      "#00bcff",
+      "#00bfff",
+      "#00c0ff",
+      "#00c2ff",
+      "#00c3ff",
+      "#00c6ff",
+      "#00c8ff",
+      "#00caff",
+      "#00cbff",
+      "#00ceff",
+      "#00d0ff",
+      "#00d1ff",
+      "#00d3ff",
+      "#00d6ff",
+      "#00d8ff",
+      "#00d9ff",
+      "#00dbff",
+      "#00deff",
+      "#00dfff",
+      "#00e1ff",
+      "#00e3ff",
+      "#00e4ff",
+      "#00e7ff",
+      "#00e9ff",
+      "#00eaff",
+      "#00ecff",
+      "#00efff",
+      "#00f1ff",
+      "#00f2ff",
+      "#00f4ff",
+      "#00f7ff",
+      "#00f8ff",
+      "#00faff",
+      "#00fbff",
+      "#00ffff",
+      "#02fffd",
+      "#05fffa",
+      "#08fff7",
+      "#0ffff0",
+      "#12ffed",
+      "#15ffea",
+      "#18ffe7",
+      "#1effe1",
+      "#21ffde",
+      "#24ffdb",
+      "#28ffd7",
+      "#2effd1",
+      "#31ffce",
+      "#34ffcb",
+      "#37ffc8",
+      "#3dffc2",
+      "#40ffbf",
+      "#44ffbb",
+      "#47ffb8",
+      "#4affb5",
+      "#50ffaf",
+      "#53ffac",
+      "#56ffa9",
+      "#59ffa6",
+      "#5fffa0",
+      "#63ff9c",
+      "#66ff99",
+      "#69ff96",
+      "#6fff90",
+      "#72ff8d",
+      "#75ff8a",
+      "#78ff87",
+      "#7fff80",
+      "#82ff7d",
+      "#85ff7a",
+      "#88ff77",
+      "#8eff71",
+      "#91ff6e",
+      "#94ff6b",
+      "#97ff68",
+      "#9eff61",
+      "#a1ff5e",
+      "#a4ff5b",
+      "#a7ff58",
+      "#adff52",
+      "#b0ff4f",
+      "#b3ff4c",
+      "#b6ff49",
+      "#bdff42",
+      "#c0ff3f",
+      "#c3ff3c",
+      "#c6ff39",
+      "#ccff33",
+      "#cfff30",
+      "#d2ff2d",
+      "#d6ff29",
+      "#d9ff26",
+      "#dfff20",
+      "#e2ff1d",
+      "#e5ff1a",
+      "#e8ff17",
+      "#eeff11",
+      "#f2ff0d",
+      "#f5ff0a",
+      "#f8ff07",
+      "#feff01",
+      "#fffd00",
+      "#fffa00",
+      "#fff700",
+      "#fff100",
+      "#ffed00",
+      "#ffea00",
+      "#ffe700",
+      "#ffe100",
+      "#ffde00",
+      "#ffdb00",
+      "#ffd800",
+      "#ffd100",
+      "#ffce00",
+      "#ffcb00",
+      "#ffc800",
+      "#ffc200",
+      "#ffbf00",
+      "#ffbc00",
+      "#ffb900",
+      "#ffb200",
+      "#ffaf00",
+      "#ffac00",
+      "#ffa900",
+      "#ffa300",
+      "#ffa000",
+      "#ff9d00",
+      "#ff9a00",
+      "#ff9600",
+      "#ff9000",
+      "#ff8d00",
+      "#ff8a00",
+      "#ff8700",
+      "#ff8100",
+      "#ff7e00",
+      "#ff7a00",
+      "#ff7700",
+      "#ff7100",
+      "#ff6e00",
+      "#ff6b00",
+      "#ff6800",
+      "#ff6200",
+      "#ff5e00",
+      "#ff5b00",
+      "#ff5800",
+      "#ff5200",
+      "#ff4f00",
+      "#ff4c00",
+      "#ff4900",
+      "#ff4300",
+      "#ff3f00",
+      "#ff3c00",
+      "#ff3900",
+      "#ff3300",
+      "#ff3000",
+      "#ff2d00",
+      "#ff2a00",
+      "#ff2300",
+      "#ff2000",
+      "#ff1d00",
+      "#ff1a00",
+      "#ff1400",
+      "#ff1100",
+      "#ff0f00"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "CH4 column volume mixing ratio [PPBV]",
+    "tickValues": [
+      1680.0,
+      1740.0,
+      1800.0,
+      1860.0,
+      1920.0,
+      1980.0
+    ]
+  },
+  "proj:epsg": 4326,
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Sentinel-5P Total Column CH4 (day)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-02-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4-DAY/S5P-L3GRD-TCCH4-DAY_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4-DAY/S5P-L3GRD-TCCH4-DAY_thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

@@ -62,7 +62,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/EPA-monthly-emissions_4F_Field_Burning/EPA-monthly-emissions_4F_Field_Burning_201203.tif&resampling_method=nearest&bidx=1&colormap_name=rainbow&rescale=0,4.5e9",
       "type": "image/png",
       "title": "Field Burning monthly - EPA Methane Emissions 2012",
-      "key": "4c7a3ea8-6465-4fba-a484-40807c52f816"
+      "key": "f7f3570d-6c36-46f6-86cc-ac8b7032110c"
     },
     {
       "rel": "collection",

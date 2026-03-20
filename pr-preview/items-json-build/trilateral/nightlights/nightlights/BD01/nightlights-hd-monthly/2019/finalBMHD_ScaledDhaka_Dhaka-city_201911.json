@@ -62,7 +62,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledDhaka_Dhaka-city_201911.tif&resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
       "type": "image/png",
       "title": "Nightlights from SUOMI-NPP",
-      "key": "15aaf477-81a3-4ee9-a96f-50551d14997f"
+      "key": "8ea0285f-abc7-4ecf-981d-18c332693e34"
     },
     {
       "rel": "collection",

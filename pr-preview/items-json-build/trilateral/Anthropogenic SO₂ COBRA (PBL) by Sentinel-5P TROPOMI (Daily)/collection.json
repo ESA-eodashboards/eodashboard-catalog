@@ -18,6 +18,9 @@
       "endpointtype": "Sentinel Hub_byoc",
       "code": "S5P-L3GRD-SO2COBRA-DAY",
       "id": "Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)",
+      "themes": [
+        "atmosphere"
+      ],
       "tags": [
         "SO2",
         "Sulfure Dioxide",
@@ -97,6 +100,9 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-SO2COBRA-DAY/S5P-L3GRD-SO2COBRA-DAY_thumbnail.jpg",
+  "themes": [
+    "atmosphere"
+  ],
   "tags": [
     "SO2",
     "Sulfure Dioxide",
@@ -420,6 +426,9 @@
     "subcode": [
       "S5P-L3GRD-SO2COBRA-DAY"
     ],
+    "themes": [
+      "atmosphere"
+    ],
     "satellite": [
       "Sentinel-5P"
     ],
@@ -446,7 +455,7 @@
       ]
     },
     "reference_1": {
-      "href": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/so2-cobra-pbl",
+      "href": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/so2-7km",
       "type": "text/html",
       "title": "Source Product Catalog",
       "roles": [

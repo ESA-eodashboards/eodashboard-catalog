@@ -62,7 +62,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/MO_NPP_npp_vgpm/A_202012.L3m_MO_NPP_npp_vgpm_4km.tif&resampling_method=nearest&bidx=1&colormap_name=jet&rescale=0.0,1500.0",
       "type": "image/png",
       "title": "Ocean net primary production (MODIS)",
-      "key": "71933bbf-f03a-4f5e-963a-865ad4de8177"
+      "key": "72ddfa2f-8479-4505-835e-807bb2cf6b53"
     },
     {
       "rel": "collection",

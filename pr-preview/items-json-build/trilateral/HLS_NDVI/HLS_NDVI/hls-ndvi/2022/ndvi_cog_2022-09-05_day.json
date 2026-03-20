@@ -54,7 +54,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/hls-ndvi/ndvi_cog_2022-09-05_day.tif&resampling_method=nearest&bidx=1&colormap_name=cfastie&rescale=-1,1",
       "type": "image/png",
       "title": "NDVI from HLS",
-      "key": "3064e0d1-8a9d-451d-80a8-f6d4423f7679"
+      "key": "7debb97c-f31e-4341-8fc5-d75c173d5c30"
     },
     {
       "rel": "collection",

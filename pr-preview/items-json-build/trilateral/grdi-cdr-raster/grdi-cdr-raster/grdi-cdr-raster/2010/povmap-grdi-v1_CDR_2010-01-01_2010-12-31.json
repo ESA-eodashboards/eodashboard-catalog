@@ -62,7 +62,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/grdi-cdr-raster/povmap-grdi-v1_CDR_2010-01-01_2010-12-31.tif&resampling_method=nearest&bidx=1&colormap_name=viridis&rescale=0.0,100.0",
       "type": "image/png",
       "title": "Child Dependency Ratio (CDR)",
-      "key": "a29c7d6c-f8b0-4a9e-96a9-6ec2a7606375"
+      "key": "08dedb1a-90aa-4563-ae2f-7d12e9abff01"
     },
     {
       "rel": "collection",

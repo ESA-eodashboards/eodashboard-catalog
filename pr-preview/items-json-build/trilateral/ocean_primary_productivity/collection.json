@@ -117,12 +117,51 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
   "sci:publications": [
     {
       "citation": "Kulk, G.; Platt, T.; Dingle, J.; Jackson, T.; Jönsson, B.F.; Bouman, H.A.; Babin, M.; Brewin, R.J.W.; Doblin, M.; Estrada, M.; Figueiras, F.G.; Furuya, K.; González-Benítez, N.; Gudfinnsson, H.G.; Gudmundsson, K.; Huang, B.; Isada, T.; Kovač, Ž.; Lutz, V.A.; Marañón, E.; Raman, M.; Richardson, K.; Rozema, P.D.; van de Poll, W.H.; Segura, V.; Tilstone, G.H.; Uitz, J.; van Dongen-Vogels, V.; Yoshikawa, T.; Sathyendranath, S. (2021). \nBICEP / NCEO - Monthly global Marine Phytoplankton Primary Production, between 1998-2020 at 9 km resolution (derived from the Ocean Colour Climate Change Initiative v4.2 dataset). NERC EDS Centre for Environmental Data Analysis, 22 December 2021.\n",
       "doi": "10.5285/69b2c9c6c4714517ba10dab3515e4ee6"
     }
   ],
+  "eodash:stories": {
+    "primary-productivity": {
+      "href": "https://eodashboard.org/story/?id=primary-productivity",
+      "type": "text/markdown",
+      "title": "Ocean Primary Productivity",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/primary-productivity.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "ocean_plants": {
+      "href": "https://eodashboard.org/story/?id=ocean_plants",
+      "type": "text/markdown",
+      "title": "Ocean Plants",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/ocean_plants.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPP_ocean_primary_productivity/NPP_ocean_primary_productivity.jpg",
   "themes": [
     "water"
@@ -231,16 +270,16 @@
       "water"
     ],
     "satellite": [
-      "Suomi",
-      "Aqua",
+      "Envisat",
       "OrbView-2",
-      "Envisat"
+      "Aqua",
+      "Suomi"
     ],
     "sensor": [
-      "MODIS",
-      "SeaWiFS",
+      "MERIS",
       "VIIRS",
-      "MERIS"
+      "MODIS",
+      "SeaWiFS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPP_ocean_primary_productivity/NPP_ocean_primary_productivity.jpg"
@@ -252,6 +291,42 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "primary-productivity": {
+      "href": "https://eodashboard.org/story/?id=primary-productivity",
+      "type": "text/markdown",
+      "title": "Ocean Primary Productivity",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/primary-productivity.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "ocean_plants": {
+      "href": "https://eodashboard.org/story/?id=ocean_plants",
+      "type": "text/markdown",
+      "title": "Ocean Plants",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/ocean_plants.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
       ]
     },
     "thumbnail": {

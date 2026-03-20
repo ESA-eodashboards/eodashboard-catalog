@@ -62,7 +62,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/grdi-v1-built/povmap-grdi-v1_BUILT_2015-01-01_2021-12-31.tif&resampling_method=nearest&bidx=1&colormap_name=viridis&rescale=0.0,100.0",
       "type": "image/png",
       "title": "Builtup Area (BUILT)",
-      "key": "c941989c-b022-41cc-969c-09acbc616431"
+      "key": "abeddcec-af3b-474e-b1d2-fc6be7b6f0ce"
     },
     {
       "rel": "collection",

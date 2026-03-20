@@ -56,7 +56,7 @@
       "wms:dimensions": {
         "TIME": "2015-02-03T00:00:00Z"
       },
-      "key": "4e10ba78-0070-427b-b51a-50e090baf7a5",
+      "key": "d0d407ad-103d-4d64-99aa-8ea7361e43d6",
       "eodash:proj4_def": {
         "name": "EPSG:3413",
         "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"

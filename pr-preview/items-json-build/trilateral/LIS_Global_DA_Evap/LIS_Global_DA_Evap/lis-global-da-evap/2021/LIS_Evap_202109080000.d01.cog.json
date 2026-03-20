@@ -60,7 +60,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/lis-global-da-evap/LIS_Evap_202109080000.d01.cog.tif&resampling_method=nearest&bidx=1&colormap_name=viridis&rescale=0,0.0001",
       "type": "image/png",
       "title": "Evapotranspiration LIS",
-      "key": "1d42f5b7-f025-4435-a1e8-0dff4c6a4c77"
+      "key": "92d086c0-aa1a-4f89-bc65-13631439f41c"
     },
     {
       "rel": "collection",

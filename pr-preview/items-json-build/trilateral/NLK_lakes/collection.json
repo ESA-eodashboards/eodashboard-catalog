@@ -24,19 +24,19 @@
         "NASA"
       ],
       "cities": [
+        "Vänern Lake",
         "Aral Lake",
-        "Tonlé Sap Lake",
         "Balaton Lake",
-        "Biwa Lake",
-        "Vänern Lake"
+        "Tonlé Sap Lake",
+        "Biwa Lake"
       ],
       "countries": [
-        "SW",
-        "KH",
-        "KZ",
-        "HU",
+        "UZ",
         "JP",
-        "UZ"
+        "KH",
+        "SW",
+        "HU",
+        "KZ"
       ],
       "tags": [
         "Water quality",
@@ -128,6 +128,62 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "eodash:stories": {
+    "lakes-climate": {
+      "href": "https://eodashboard.org/story/?id=lakes-climate",
+      "type": "text/markdown",
+      "title": "Climate Change Impacts on Inland Water Bodies",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/lakes-climate.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "lakes-human-activity": {
+      "href": "https://eodashboard.org/story/?id=lakes-human-activity",
+      "type": "text/markdown",
+      "title": "Changing Lakes Due to Human Activity",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/lakes-human-activity.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "lakes-intro": {
+      "href": "https://eodashboard.org/story/?id=lakes-intro",
+      "type": "text/markdown",
+      "title": "Troubled Waters: The State of the World's Lakes",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/lakes-intro.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
   "themes": [
     "water"
@@ -197,25 +253,79 @@
       "OLI"
     ],
     "cities": [
+      "Vänern Lake",
       "Aral Lake",
-      "Tonlé Sap Lake",
       "Balaton Lake",
-      "Biwa Lake",
-      "Vänern Lake"
+      "Tonlé Sap Lake",
+      "Biwa Lake"
     ],
     "countries": [
-      "SW",
-      "KH",
-      "KZ",
-      "HU",
+      "UZ",
       "JP",
-      "UZ"
+      "KH",
+      "SW",
+      "HU",
+      "KZ"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
     ]
   },
   "assets": {
+    "lakes-climate": {
+      "href": "https://eodashboard.org/story/?id=lakes-climate",
+      "type": "text/markdown",
+      "title": "Climate Change Impacts on Inland Water Bodies",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/lakes-climate.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "lakes-human-activity": {
+      "href": "https://eodashboard.org/story/?id=lakes-human-activity",
+      "type": "text/markdown",
+      "title": "Changing Lakes Due to Human Activity",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/lakes-human-activity.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "lakes-intro": {
+      "href": "https://eodashboard.org/story/?id=lakes-intro",
+      "type": "text/markdown",
+      "title": "Troubled Waters: The State of the World's Lakes",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/lakes-intro.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg",
       "type": "image/png",

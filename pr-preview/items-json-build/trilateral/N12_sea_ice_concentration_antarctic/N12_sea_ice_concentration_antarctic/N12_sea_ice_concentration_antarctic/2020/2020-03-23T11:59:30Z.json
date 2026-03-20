@@ -56,7 +56,7 @@
       "wms:dimensions": {
         "TIME": "2020-03-23T11:59:30Z"
       },
-      "key": "9f1be7fe-4e0b-499a-80b8-c26b5cb99cc6",
+      "key": "31db844c-3dbd-4dab-9bf9-a1cec980b5b1",
       "eodash:proj4_def": {
         "name": "EPSG:3031",
         "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
