@@ -55,7 +55,9 @@
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://www.earthdata.nasa.gov/learn/articles/find-no2-data"
     }
   ],
@@ -65,20 +67,16 @@
       3
     ],
     "range": [
-      "#fff5f0",
-      "#fee8de",
-      "#fed7c7",
-      "#fcc1a9",
-      "#fca88b",
-      "#fc8f6f",
-      "#fb7656",
-      "#f75c41",
-      "#f03f2e",
-      "#dc2824",
-      "#c5171c",
-      "#ae1117",
-      "#8d0912",
-      "#67000d"
+      "#053061",
+      "#246aae",
+      "#559ec9",
+      "#a7cfe4",
+      "#e1ecf3",
+      "#fae7db",
+      "#f7b799",
+      "#dd7059",
+      "#b51f2e",
+      "#67001f"
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
@@ -87,7 +85,7 @@
   "Process": {
     "Name": "VEDA Statistics",
     "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-    "VegaDefinition": "N1_NO2_monthly/chart.json",
+    "VegaDefinition": "N1_NO2_diff_monthly/chart.json",
     "EndPoints": [
       {
         "Identifier": "veda_statistics",
