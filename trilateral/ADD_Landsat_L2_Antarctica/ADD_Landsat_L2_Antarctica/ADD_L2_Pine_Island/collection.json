@@ -21,7 +21,7 @@
       "href": "https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-antarctic-glaciers-pine-island/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55&nodata=0",
       "type": "image/png",
       "title": "Pine Island Landsat L2",
-      "key": "6a525860-c684-4441-ba96-58890ddc7b2a"
+      "key": "0c4c32bc-7ac1-4aef-a95a-8ca29b664bb7"
     },
     {
       "rel": "license",

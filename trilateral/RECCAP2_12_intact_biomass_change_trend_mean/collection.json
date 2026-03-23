@@ -196,7 +196,7 @@
     "title": "[Mg C/ha/year]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_12_intact_biomass_change_trend_mean/chart.json",
   "title": "Mean intact biomass change trend (CCI RECCAP2)",
   "extent": {
     "spatial": {

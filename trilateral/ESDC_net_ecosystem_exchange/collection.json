@@ -136,7 +136,7 @@
     "Terra"
   ],
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_net_ecosystem_exchange/chart.json",
   "title": "Land Net Ecosystem Exchange",
   "extent": {
     "spatial": {

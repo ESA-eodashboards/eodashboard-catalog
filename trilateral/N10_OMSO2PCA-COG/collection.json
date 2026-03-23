@@ -154,7 +154,7 @@
     "title": "SO2 Total Column [DU]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N10_OMSO2PCA-COG/chart.json",
   "title": "Sulfur Dioxide (OMI/Aura)",
   "extent": {
     "spatial": {

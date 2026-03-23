@@ -204,7 +204,7 @@
     "title": "[mgC/m²/day]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPPN_net_primary_production/chart.json",
   "title": "Ocean net primary production (MODIS)",
   "extent": {
     "spatial": {

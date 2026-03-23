@@ -152,7 +152,7 @@
     "title": "mg/m2/s"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LIS_Global_DA_Evap/chart.json",
   "title": "Evapotranspiration LIS",
   "extent": {
     "spatial": {

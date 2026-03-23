@@ -154,7 +154,7 @@
     "title": "NO2 [10^14 molecules/cm²]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N9_OMI_trno2-COG/chart.json",
   "title": "Nitrogen Dioxide from OMI (Yearly)",
   "extent": {
     "spatial": {

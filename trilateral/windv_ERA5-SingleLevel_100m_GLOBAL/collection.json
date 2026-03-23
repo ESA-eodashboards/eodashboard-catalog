@@ -195,7 +195,7 @@
     "title": "Wind field [m/s]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/CDS8_windv_ERA5-SingleLevel_100m_GLOBAL/chart.json",
   "title": "Wind V Field at 100m",
   "extent": {
     "spatial": {

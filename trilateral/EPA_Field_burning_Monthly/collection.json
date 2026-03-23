@@ -154,7 +154,7 @@
     "title": "10^9 [molec/cm2/s]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Field_burning_Monthly/chart.json",
   "title": "Field Burning monthly - EPA Methane Emissions 2012",
   "extent": {
     "spatial": {

@@ -196,7 +196,7 @@
     "title": "[Mg C/ha/year]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_9_intact_biomass_change_methods_mean/chart.json",
   "title": "Methods mean intact biomass change (CCI RECCAP2)",
   "extent": {
     "spatial": {

@@ -154,7 +154,7 @@
     "title": "10^12 [molec/cm2/s]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EPA_Forest_fire_Methane_Daily/chart.json",
   "title": "Forest Fires daily - EPA Methane Emissions 2012",
   "extent": {
     "spatial": {

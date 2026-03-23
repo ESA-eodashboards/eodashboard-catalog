@@ -160,7 +160,7 @@
     "title": "CO2 mean concentration [ppm]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_mean/chart.json",
   "title": "Carbon Dioxide from OMI (daily)",
   "extent": {
     "spatial": {

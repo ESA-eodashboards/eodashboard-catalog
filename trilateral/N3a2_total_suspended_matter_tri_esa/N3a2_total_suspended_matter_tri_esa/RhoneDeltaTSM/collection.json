@@ -145,7 +145,7 @@
     "title": "Total suspended matter anomaly [%]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri_esa/chart.json",
   "title": "Rhone Delta",
   "extent": {
     "spatial": {

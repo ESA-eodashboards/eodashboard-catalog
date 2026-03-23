@@ -196,7 +196,7 @@
     "title": "[Mg C/ha/year]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_8_edge_biomass_change/chart.json",
   "title": "Edge biomass change (CCI RECCAP2)",
   "extent": {
     "spatial": {

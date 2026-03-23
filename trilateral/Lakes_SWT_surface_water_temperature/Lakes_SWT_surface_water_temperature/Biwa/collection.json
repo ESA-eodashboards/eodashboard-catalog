@@ -194,7 +194,7 @@
     "title": "Lake Surface Temperature [K]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_SWT_surface_water_temperature/chart.json",
   "title": "Biwa",
   "extent": {
     "spatial": {

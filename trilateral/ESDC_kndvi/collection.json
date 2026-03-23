@@ -179,7 +179,7 @@
     "title": "KNDVI"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_kndvi/chart.json",
   "title": "Kernel NDVI (daily)",
   "extent": {
     "spatial": {

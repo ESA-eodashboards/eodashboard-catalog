@@ -196,7 +196,7 @@
     "title": "[Mg C/ha/year]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_6_deforested_biomass/chart.json",
   "title": "Deforestation (CCI RECCAP2)",
   "extent": {
     "spatial": {

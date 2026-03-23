@@ -173,7 +173,7 @@
     "title": "[GJ/m2]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/statistical_api_vega_definition.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OHC300_Ocean_Heat_Content_upper_300m/chart.json",
   "title": "Ocean heat content for the upper 300m",
   "extent": {
     "spatial": {

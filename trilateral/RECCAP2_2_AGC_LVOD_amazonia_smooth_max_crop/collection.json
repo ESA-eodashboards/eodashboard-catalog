@@ -200,7 +200,7 @@
     "title": "[Mg C/ha]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_2_AGC_LVOD_amazonia_smooth_max_crop/chart.json",
   "title": "Smooth max aboveground carbon (CCI RECCAP2)",
   "extent": {
     "spatial": {

@@ -159,7 +159,7 @@
     "title": "[gC/m²/day]"
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_vega.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_gross_primary_productivity/chart.json",
   "title": "Land Gross Primary Productivity",
   "extent": {
     "spatial": {
