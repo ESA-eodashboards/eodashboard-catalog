@@ -233,13 +233,13 @@
     "satellite": [
       "OrbView-2",
       "Suomi",
-      "Envisat",
-      "Aqua"
+      "Aqua",
+      "Envisat"
     ],
     "sensor": [
-      "MERIS",
       "VIIRS",
       "MODIS",
+      "MERIS",
       "SeaWiFS"
     ],
     "thumbnail": [

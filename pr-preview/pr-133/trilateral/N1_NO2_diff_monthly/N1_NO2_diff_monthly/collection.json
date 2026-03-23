@@ -15,7 +15,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=rdbu_r&rescale=-3e15,3e15",
       "type": "image/png",
       "title": "Nitrogen Dioxide (Monthly Difference)",
-      "key": "4003eada-019c-4677-878e-1e96aec7d7ae"
+      "key": "5cf17db6-ea49-4d0d-93db-025345a8d389"
     },
     {
       "rel": "parent",
@@ -51,20 +51,16 @@
       3
     ],
     "range": [
-      "#fff5f0",
-      "#fee8de",
-      "#fed7c7",
-      "#fcc1a9",
-      "#fca88b",
-      "#fc8f6f",
-      "#fb7656",
-      "#f75c41",
-      "#f03f2e",
-      "#dc2824",
-      "#c5171c",
-      "#ae1117",
-      "#8d0912",
-      "#67000d"
+      "#053061",
+      "#246aae",
+      "#559ec9",
+      "#a7cfe4",
+      "#e1ecf3",
+      "#fae7db",
+      "#f7b799",
+      "#dd7059",
+      "#b51f2e",
+      "#67001f"
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
