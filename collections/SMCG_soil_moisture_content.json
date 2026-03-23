@@ -74,5 +74,11 @@
     "scaleType": "continuous",
     "tickFormat": ".0f",
     "title": "Soil moisture content"
-  }
+  },
+  "Stories": [
+    {
+      "Name": "Satellites are Providing Insights into Agricultural Production, Crop Conditions, and Food Supply",
+      "Id": "world_crop_supply_and_demand"
+    }
+  ]
 }

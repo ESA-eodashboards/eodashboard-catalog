@@ -1,0 +1,31 @@
+{
+  "Name": "Sentinel-5P Kd Ocean Colour UVAB (day)",
+  "Title": "Sentinel-5P Kd Ocean Colour UVAB (day)",
+  "Description": "S5P-L3GRD-KdUVAB-DAY/S5P-L3GRD-KdUVAB-DAY.md",
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [
+        "Sentinel-5P"
+      ],
+      "Sensor": [
+        "TROPOMI"
+      ]
+    }
+  },
+  "Agency": [
+    "ESA"
+  ],
+  "Image": "S5P-L3GRD-KdUVAB-DAY/S5P-L3GRD-KdUVAB-DAY_thumbnail.jpg",
+  "Legend": "S5P-L3GRD-KdUVAB-DAY/S5P-L3GRD-KdUVAB-DAY_legend.png",
+  "EodashIdentifier": "S5P-L3GRD-KdUVAB-DAY",
+  "Resources": [
+    {
+      "EndPoint": "https://services.sentinel-hub.com",
+      "Name": "Sentinel Hub",
+      "Type": "byoc",
+      "CollectionId": "36ada8c7-04cb-4fec-ad67-c9738a906096",
+      "LayerId": "S5P-L3GRD-KdUVAB-DAY",
+      "DataProjection": 4326
+    }
+  ]
+}

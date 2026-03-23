@@ -49,5 +49,27 @@
         "Type": "application/json"
       }
     ]
-  }
+  },
+  "Stories": [
+    {
+      "Name": "During COVID-19 Lockdowns Night Lights in Central Business Districts Decreased",
+      "Id": "nightlights"
+    },
+    {
+      "Name": "Observing Nightlights from Space",
+      "Id": "nightlights_from_space"
+    },
+    {
+      "Name": "COVID-19 Impacts on Rice Planting in Sacramento, California",
+      "Id": "early_rice_planting"
+    },
+    {
+      "Name": "Travel Restrictions Interrupted Global Supply Chains Dependent on Cargo Shipping",
+      "Id": "shipping"
+    },
+    {
+      "Name": "Urban Health and Megacities: the case of New Delhi",
+      "Id": "urban-health-final"
+    }
+  ]
 }

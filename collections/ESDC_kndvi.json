@@ -104,5 +104,11 @@
     "scaleType": "continuous",
     "tickFormat": ".1f",
     "title": "KNDVI"
-  }
+  },
+  "Stories": [
+    {
+      "Name": "Evaluating Time Series Interpolation Techniques for Vegetation Monitoring Using Remote Sensing Data",
+      "Id": "scienceHub_timeSeries_vegetation"
+    }
+  ]
 }

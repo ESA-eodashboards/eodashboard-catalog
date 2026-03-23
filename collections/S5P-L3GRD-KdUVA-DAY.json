@@ -1,0 +1,31 @@
+{
+  "Name": "Sentinel-5P Kd Ocean Colour UVA (day)",
+  "Title": "Sentinel-5P Kd Ocean Colour UVA (day)",
+  "Description": "S5P-L3GRD-KdUVA-DAY/S5P-L3GRD-KdUVA-DAY.md",
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [
+        "Sentinel-5P"
+      ],
+      "Sensor": [
+        "TROPOMI"
+      ]
+    }
+  },
+  "Agency": [
+    "ESA"
+  ],
+  "Image": "S5P-L3GRD-KdUVA-DAY/S5P-L3GRD-KdUVA-DAY_thumbnail.jpg",
+  "Legend": "S5P-L3GRD-KdUVA-DAY/S5P-L3GRD-KdUVA-DAY_legend.png",
+  "EodashIdentifier": "S5P-L3GRD-KdUVA-DAY",
+  "Resources": [
+    {
+      "EndPoint": "https://services.sentinel-hub.com",
+      "Name": "Sentinel Hub",
+      "Type": "byoc",
+      "CollectionId": "7f9c73c9-931f-4aad-b6de-0f5923508382",
+      "LayerId": "S5P-L3GRD-KdUVA-DAY",
+      "DataProjection": 4326
+    }
+  ]
+}

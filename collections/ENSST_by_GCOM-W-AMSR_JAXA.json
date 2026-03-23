@@ -92,6 +92,12 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "Sea Surface Temperature [\u00b0C]"
-  }
+    "title": "Sea Surface Temperature [°C]"
+  },
+  "Stories": [
+    {
+      "Name": "El Niño 2023-2024 Part 2: Rising Global Sea Surface Temperatures",
+      "Id": "rising_global_sea_surface_temperatures"
+    }
+  ]
 }
