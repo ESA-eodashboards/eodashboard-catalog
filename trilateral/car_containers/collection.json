@@ -202,7 +202,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2026-03-25T10:33:43.329577Z"
+          "2026-03-25T13:14:52.277919Z"
         ]
       ]
     }
@@ -230,22 +230,22 @@
       "Sentinel-1"
     ],
     "sensor": [
-      "C-SAR",
-      "PALSAR-2"
+      "PALSAR-2",
+      "C-SAR"
     ],
     "cities": [
-      "Singapore",
-      "Arcadia",
-      "Nagoya",
-      "Beijing",
+      "Palm Springs",
       "Los Angeles",
-      "Palm Springs"
+      "Nagoya",
+      "Arcadia",
+      "Singapore",
+      "Beijing"
     ],
     "countries": [
+      "SG",
       "JP",
       "CN",
-      "US",
-      "SG"
+      "US"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg"
