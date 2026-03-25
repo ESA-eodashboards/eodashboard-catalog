@@ -84,6 +84,7 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-CLOUDFR-MONTH/S5P-L3GRD-CLOUDFR-MONTH_thumbnail.jpg",
   "agency": [
     "ESA"
   ],
@@ -406,6 +407,9 @@
     ],
     "sensor": [
       "TROPOMI"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-CLOUDFR-MONTH/S5P-L3GRD-CLOUDFR-MONTH_thumbnail.jpg"
     ]
   },
   "assets": {
@@ -414,6 +418,13 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-CLOUDFR-MONTH/S5P-L3GRD-CLOUDFR-MONTH_thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
