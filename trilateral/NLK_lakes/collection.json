@@ -26,17 +26,17 @@
       "cities": [
         "Vänern Lake",
         "Biwa Lake",
-        "Aral Lake",
         "Balaton Lake",
+        "Aral Lake",
         "Tonlé Sap Lake"
       ],
       "countries": [
-        "KZ",
-        "SW",
         "JP",
-        "KH",
+        "SW",
+        "KZ",
         "HU",
-        "UZ"
+        "UZ",
+        "KH"
       ],
       "tags": [
         "Water quality",
@@ -255,17 +255,17 @@
     "cities": [
       "Vänern Lake",
       "Biwa Lake",
-      "Aral Lake",
       "Balaton Lake",
+      "Aral Lake",
       "Tonlé Sap Lake"
     ],
     "countries": [
+      "JP",
       "SW",
       "KZ",
-      "JP",
-      "KH",
       "HU",
-      "UZ"
+      "UZ",
+      "KH"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
