@@ -226,16 +226,16 @@
       "MODIS"
     ],
     "cities": [
-      "New York",
       "Kobe",
       "Tokyo",
+      "Nagoya",
       "Venice",
-      "Nagoya"
+      "New York"
     ],
     "countries": [
       "US",
-      "JP",
-      "IT"
+      "IT",
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.jpg"
