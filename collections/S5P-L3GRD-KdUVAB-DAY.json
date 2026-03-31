@@ -1,13 +1,13 @@
 {
-  "Name": "Kd Ocean Colour UVA by Sentinel-5P TROPOMI (Daily)",
-  "Title": "Kd Ocean Colour UVA by Sentinel-5P TROPOMI (Daily)",
-  "Description": "S5P-L3GRD-KdUVA-DAY/S5P-L3GRD-KdUVA-DAY.md",
+  "Name": "Kd Ocean Colour UVAB by Sentinel-5P TROPOMI (Daily)",
+  "Title": "Kd Ocean Colour UVAB by Sentinel-5P TROPOMI (Daily)",
+  "Description": "S5P-L3GRD-KdUVAB-DAY/S5P-L3GRD-KdUVAB-DAY.md",
   "Themes": ["water"],
   "Tags": [
     "Ocean Colour",
-    "Kd-UVA",
+    "Kd-UVAB",
     "Diffuse Attenuation",
-    "UVA",
+    "UVAB",
     "TROPOMI",
     "Sentinel-5P",
     "Remote Sensing",
@@ -27,19 +27,19 @@
   "References": [
     {
       "Name": "Source Product Page",
-      "Url": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/ocean-colour-uva"
+      "Url": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/ocean-colour-uvab"
     }
   ],
-  "Image": "S5P-L3GRD-KdUVA-DAY/S5P-L3GRD-KdUVA-DAY_thumbnail.jpg",
-  "Legend": "S5P-L3GRD-KdUVA-DAY/S5P-L3GRD-KdUVA-DAY_legend.png",
-  "EodashIdentifier": "S5P-L3GRD-KdUVA-DAY",
+  "Image": "S5P-L3GRD-KdUVAB-DAY/S5P-L3GRD-KdUVAB-DAY_thumbnail.jpg",
+  "Legend": "S5P-L3GRD-KdUVAB-DAY/S5P-L3GRD-KdUVAB-DAY_legend.png",
+  "EodashIdentifier": "S5P-L3GRD-KdUVAB-DAY",
   "Resources": [
     {
       "EndPoint": "https://services.sentinel-hub.com",
       "Name": "Sentinel Hub",
       "Type": "byoc",
-      "CollectionId": "7f9c73c9-931f-4aad-b6de-0f5923508382",
-      "LayerId": "S5P-L3GRD-KdUVA-DAY",
+      "CollectionId": "36ada8c7-04cb-4fec-ad67-c9738a906096",
+      "LayerId": "S5P-L3GRD-KdUVAB-DAY",
       "DataProjection": 4326
     }
   ]
