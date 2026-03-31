@@ -1,90 +1,55 @@
 {
   "type": "Collection",
-  "id": "Sentinel-5P Aerosol Layer Height (month)",
+  "id": "Aerosol Layer Height (ALH) by Sentinel-5P TROPOMI (Monthly)",
   "stac_version": "1.1.0",
   "description": "## Aerosol Layer Height (ALH) by Sentinel-5P TROPOMI (Monthly)\nThe Aerosol Layer Height (ALH) reveals the **vertical position** of aerosol layers in the free troposphere, pinpointing how high above the surface particles such as desert dust, biomass burning smoke, and volcanic ash are suspended. Unlike columnar aerosol measures, the ALH provides crucial three-dimensional context: the same aerosol plume can have profoundly different climatic, health, and safety implications depending on whether it resides near the surface or several kilometres aloft.\n\n#### About the dataset\n\n- The ALH is measured by the [TROPOMI instrument](https://www.tropomi.eu/) aboard Copernicus ESA's [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P) satellite, operating in the visible part of the spectrum.\n- The ALH is retrieved using an Optimal Estimation approach, deriving the pressure (and corresponding altitude) at the centre of a vertically localised aerosol layer from measurements performed in the visible part of the spectrum.\n- The measurements are aggregated into monthly composites.\n- The product reports the mid-pressure and mid-height of the aerosol layer.\n- More information on the Tropomi aerosol index measurements and quality assessment can be found in the [Product Readme file](https://sentiwiki.copernicus.eu/__attachments/1673595/S5P-MPC-KNMI-PRF-AER_LH%20-%20Sentinel-5P%20Aerosol%20Layer%20Height%20Product%20Readme%20File%202025%20-%202.8.pdf).\n\nUse cases\nHeight information for aerosols in the free troposphere is particularly important for aviation safety. This dataset can be useful for identifying persistent aerosol transport patterns, seasonal dust cycles, and long-term trends in aerosol vertical distribution. Scientific applications include radiative forcing studies, long-range transport modelling and studies of cloud formation processes. Aerosol height information also helps to interpret the [UV Aerosol Index (UVAI)](https://eodashboard.org/explore/?x=0.0000&y=0.0000&z=2.1662&template=expert&indicator=S5P-L3GRD-AAI-DAY&datetime=2024-01-24) terms of aerosol absorption as the index is strongly height-dependent.\n",
   "links": [
     {
       "rel": "root",
-      "href": "../catalog.json",
+      "href": "../../catalog.json",
       "type": "application/json",
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "child",
-      "href": "./Sentinel-5P Aerosol Layer Height (month)/collection.json",
-      "type": "application/json",
-      "title": "Sentinel-5P Aerosol Layer Height (month)",
-      "endpointtype": "Sentinel Hub_byoc",
-      "code": "S5P-L3GRD-ALH-MONTH",
-      "id": "Sentinel-5P Aerosol Layer Height (month)",
-      "agency": [
-        "ESA"
-      ],
-      "subcode": "S5P-L3GRD-ALH-MONTH",
-      "sensor": [
-        "TROPOMI"
-      ],
-      "satellite": [
-        "Sentinel-5P"
-      ]
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "EOxCloudless 2024",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "cloudless-2024",
-      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "OSM Background",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "OSM",
-      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "Terrain Light",
-      "roles": [
-        "baselayer",
-        "visible"
-      ],
-      "id": "terrain-light",
-      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
-      "title": "Overlay labels",
-      "roles": [
-        "overlay",
-        "visible"
+      "title": "Aerosol Layer Height (ALH) by Sentinel-5P TROPOMI (Monthly)",
+      "wms:layers": [
+        "S5P-L3GRD-ALH-MONTH"
       ],
-      "id": "overlay_bright",
-      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+      "role": [
+        "data"
+      ],
+      "proj:epsg": 4326
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "../collection.json",
       "type": "application/json",
-      "title": "Earth Observing Dashboard"
+      "title": "Aerosol Layer Height (ALH) by Sentinel-5P TROPOMI (Monthly)"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-MONTH/S5P-L3GRD-ALH-MONTH_thumbnail.jpg",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "Aerosol",
+    "Atmosphere",
+    "Particles",
+    "Dust",
+    "Ash",
+    "ALH",
+    "Open data",
+    "Open Science",
+    "TROPOMI",
+    "Sentinel-5P",
+    "Remote Sensing",
+    "Monthly Data",
+    "S5P",
+    "Copernicus"
+  ],
   "agency": [
     "ESA"
   ],
@@ -369,16 +334,12 @@
       12.0
     ]
   },
-  "title": "Sentinel-5P Aerosol Layer Height (month)",
+  "proj:epsg": 4326,
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Aerosol Layer Height (ALH) by Sentinel-5P TROPOMI (Monthly)",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
-        ],
         [
           -180.0,
           -90.0,
@@ -397,21 +358,15 @@
     }
   },
   "license": "other",
-  "summaries": {
-    "subcode": [
-      "S5P-L3GRD-ALH-MONTH"
-    ],
-    "satellite": [
-      "Sentinel-5P"
-    ],
-    "sensor": [
-      "TROPOMI"
-    ],
-    "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-MONTH/S5P-L3GRD-ALH-MONTH_thumbnail.jpg"
-    ]
-  },
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "legend": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-MONTH/S5P-L3GRD-ALH-MONTH_legend.png",
       "type": "image/png",
@@ -424,6 +379,14 @@
       "type": "image/png",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/alh/month",
+      "type": "text/html",
+      "title": "Source Product Page",
+      "roles": [
+        "metadata"
       ]
     }
   }
