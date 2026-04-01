@@ -256,47 +256,47 @@
       "E13b"
     ],
     "themes": [
-      "covid-19",
-      "economy"
+      "economy",
+      "covid-19"
     ],
     "satellite": [
       "Sentinel-1",
       "PlanetScope",
-      "Sentinel-2",
-      "ALOS-2"
+      "ALOS-2",
+      "Sentinel-2"
     ],
     "sensor": [
       "PALSAR-2",
-      "PSB.SD",
       "MSI",
+      "PSB.SD",
       "C-SAR"
     ],
     "cities": [
-      "Beijing",
+      "New York",
       "Beijing Daxing",
+      "Los Angeles",
       "San Francisco",
+      "Rome",
+      "Heathrow",
+      "Ontario",
+      "Narita",
+      "San Jose",
       "Oakland",
       "Hayward",
       "Marin",
-      "Los Angeles",
-      "San Jose",
-      "Heathrow",
-      "New York",
-      "Rome",
-      "Paris",
       "Napa",
-      "Newark",
       "Buchannan",
-      "Ontario",
-      "Narita"
+      "Beijing",
+      "Paris",
+      "Newark"
     ],
     "countries": [
-      "US",
-      "GB",
-      "FR",
       "IT",
+      "FR",
+      "JP",
       "CN",
-      "JP"
+      "GB",
+      "US"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg"

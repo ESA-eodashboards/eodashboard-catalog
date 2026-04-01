@@ -240,28 +240,28 @@
       "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
-      "PS2"
+      "PS2",
+      "MSI"
     ],
     "cities": [
-      "Genoa",
-      "San Francisco",
-      "Suez ",
       "Gdynia",
-      "Hamburg",
-      "New York",
+      "Ghent",
       "Los Angeles",
-      "Suez",
+      "New York",
+      "San Francisco",
       "Dunkirk",
-      "Ghent"
+      "Suez ",
+      "Genoa",
+      "Suez",
+      "Hamburg"
     ],
     "countries": [
-      "US",
+      "IT",
       "FR",
       "DE",
-      "IT",
       "BE",
       "PL",
+      "US",
       "EG"
     ],
     "thumbnail": [
