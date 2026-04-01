@@ -15,7 +15,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=viridis&rescale=0.0,100.0",
       "type": "image/png",
       "title": "VIIRS Nighttime Lights (VNL) Slope Component",
-      "key": "98a7eb54-eef4-4734-98ca-aca024b5ce4a"
+      "key": "cd62c21b-86de-45ba-964e-09afa426fee3"
     },
     {
       "rel": "parent",

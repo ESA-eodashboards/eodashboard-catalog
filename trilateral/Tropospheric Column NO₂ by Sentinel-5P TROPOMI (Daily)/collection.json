@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Sentinel-5P Tropospheric Column NO2 (day)",
+  "id": "Tropospheric Column NO₂ by Sentinel-5P TROPOMI (Daily)",
   "stac_version": "1.1.0",
   "description": "## Tropospheric Column NO₂ by Sentinel-5P TROPOMI (Daily)\nNitrogen dioxide (NO₂) is a short-lived air pollutant produced primarily by human activity, combustion of fossil fuels from road traffic, shipping, power plants, and industrial facilities. Burning activities and wildfires also contribute significantly. NO₂ has a direct impact on human health and indirectly contributes to the formation of ozone and fine particles. Because NO₂ concentrations respond rapidly to changes in emissions, they serve as useful indicators of economic activity and the effectiveness of emission reduction policies.\n\n## About the dataset\n- The Tropospheric Column NO₂product is measured  by the [TROPOMI instrument](https://www.tropomi.eu/) aboard ESA’s [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P) satellite.\n- The product provides the tropospheric NO₂ column between the surface and the top of the troposphere, as well as stratospheric and total column data.\n- Because TROPOMI cannot see through thick clouds, near-surface concentrations can only be retrieved under cloud-free or partly cloudy conditions.\n- More information on the TROPOMI NO₂ measurements and quality assessment can be found in the [Product Readme file](https://sentiwiki.copernicus.eu/__attachments/1673595/S5P-MPC-KNMI-PRF-NO2%20-%20Sentinel-5P%20Nitrogen%20Dioxide%20Level%202%20Product%20Readme%20File%202025%20-%202.8.pdf).\n\n## Use cases\nNO₂ measurements are particularly useful for:\n- Monitoring air quality and anthropogenic pollution from traffic, industry, and power generation at urban and regional scales.\n- Tracking emission reductions from policy interventions, economic slowdowns, or lockdown measures.\n- Detecting NO₂ from wildfires, biomass burning, and shipping lanes.\n",
   "links": [
@@ -12,12 +12,31 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel-5P Tropospheric Column NO2 (day)/collection.json",
+      "href": "./Tropospheric Column NO₂ by Sentinel-5P TROPOMI (Daily)/collection.json",
       "type": "application/json",
-      "title": "Sentinel-5P Tropospheric Column NO2 (day)",
+      "title": "Tropospheric Column NO₂ by Sentinel-5P TROPOMI (Daily)",
       "endpointtype": "Sentinel Hub_byoc",
       "code": "S5P-L3GRD-TROPONO2-DAY",
-      "id": "Sentinel-5P Tropospheric Column NO2 (day)",
+      "id": "Tropospheric Column NO₂ by Sentinel-5P TROPOMI (Daily)",
+      "themes": [
+        "atmosphere"
+      ],
+      "tags": [
+        "NO2",
+        "Nitrogen Dioxide",
+        "Air Quality",
+        "Pollution",
+        "Troposphere",
+        "Atmosphere",
+        "Open data",
+        "Open Science",
+        "TROPOMI",
+        "Sentinel-5P",
+        "Remote Sensing",
+        "Daily Data",
+        "S5P",
+        "Copernicus"
+      ],
       "agency": [
         "ESA"
       ],
@@ -84,7 +103,82 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "eodash:stories": {
+    "covid-no2": {
+      "href": "https://eodashboard.org/story/?id=covid-no2",
+      "type": "text/markdown",
+      "title": "COVID-19 Lockdowns Reduce Nitrogen Dioxide Levels",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/covid-no2.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "extreme_air_pollution_india_and_pakistan": {
+      "href": "https://eodashboard.org/story/?id=extreme_air_pollution_india_and_pakistan",
+      "type": "text/markdown",
+      "title": "Extreme Air Pollution Episodes in Northern India and Pakistan",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/extreme_air_pollution_india_and_pakistan.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "urban-health-final": {
+      "href": "https://eodashboard.org/story/?id=urban-health-final",
+      "type": "text/markdown",
+      "title": "Urban Health and Megacities: the case of New Delhi",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/urban-health-final.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TROPONO2-DAY/S5P-L3GRD-TROPONO2-DAY_thumbnail.jpg",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "NO2",
+    "Nitrogen Dioxide",
+    "Air Quality",
+    "Pollution",
+    "Troposphere",
+    "Atmosphere",
+    "Open data",
+    "Open Science",
+    "TROPOMI",
+    "Sentinel-5P",
+    "Remote Sensing",
+    "Daily Data",
+    "S5P",
+    "Copernicus"
+  ],
   "agency": [
     "ESA"
   ],
@@ -369,7 +463,7 @@
       180.0
     ]
   },
-  "title": "Sentinel-5P Tropospheric Column NO2 (day)",
+  "title": "Tropospheric Column NO₂ by Sentinel-5P TROPOMI (Daily)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -401,6 +495,9 @@
     "subcode": [
       "S5P-L3GRD-TROPONO2-DAY"
     ],
+    "themes": [
+      "atmosphere"
+    ],
     "satellite": [
       "Sentinel-5P"
     ],
@@ -419,11 +516,73 @@
         "metadata"
       ]
     },
+    "covid-no2": {
+      "href": "https://eodashboard.org/story/?id=covid-no2",
+      "type": "text/markdown",
+      "title": "COVID-19 Lockdowns Reduce Nitrogen Dioxide Levels",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/covid-no2.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "extreme_air_pollution_india_and_pakistan": {
+      "href": "https://eodashboard.org/story/?id=extreme_air_pollution_india_and_pakistan",
+      "type": "text/markdown",
+      "title": "Extreme Air Pollution Episodes in Northern India and Pakistan",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/extreme_air_pollution_india_and_pakistan.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "urban-health-final": {
+      "href": "https://eodashboard.org/story/?id=urban-health-final",
+      "type": "text/markdown",
+      "title": "Urban Health and Megacities: the case of New Delhi",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/urban-health-final.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TROPONO2-DAY/S5P-L3GRD-TROPONO2-DAY_thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/no2-tropospheric",
+      "type": "text/html",
+      "title": "Source Product Page",
+      "roles": [
+        "metadata"
       ]
     }
   }
