@@ -24,18 +24,18 @@
         "NASA"
       ],
       "cities": [
-        "Tonlé Sap Lake",
         "Biwa Lake",
         "Balaton Lake",
         "Aral Lake",
-        "Vänern Lake"
+        "Vänern Lake",
+        "Tonlé Sap Lake"
       ],
       "countries": [
-        "HU",
         "UZ",
-        "KZ",
-        "SW",
         "KH",
+        "KZ",
+        "HU",
+        "SW",
         "JP"
       ],
       "tags": [
@@ -253,18 +253,18 @@
       "OLI"
     ],
     "cities": [
-      "Tonlé Sap Lake",
       "Biwa Lake",
       "Balaton Lake",
       "Aral Lake",
-      "Vänern Lake"
+      "Vänern Lake",
+      "Tonlé Sap Lake"
     ],
     "countries": [
-      "HU",
       "UZ",
+      "KH",
+      "HU",
       "KZ",
       "SW",
-      "KH",
       "JP"
     ],
     "thumbnail": [

@@ -188,7 +188,7 @@
       "interval": [
         [
           "2019-01-04T11:50:00Z",
-          "2025-11-29T00:00:00Z"
+          "2026-02-28T00:00:00Z"
         ]
       ]
     }
@@ -216,21 +216,21 @@
       "water"
     ],
     "satellite": [
-      "Acqua",
+      "GCOM-C",
       "Sentinel-3",
-      "GCOM-C"
+      "Acqua"
     ],
     "sensor": [
       "OLCI",
-      "SGLI",
-      "MODIS"
+      "MODIS",
+      "SGLI"
     ],
     "cities": [
-      "New York",
-      "Tokyo",
       "Nagoya",
+      "Tokyo",
       "Kobe",
-      "Venice"
+      "Venice",
+      "New York"
     ],
     "countries": [
       "JP",
