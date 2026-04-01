@@ -240,28 +240,28 @@
       "PlanetScope"
     ],
     "sensor": [
-      "PS2",
-      "MSI"
+      "MSI",
+      "PS2"
     ],
     "cities": [
-      "Los Angeles",
+      "New York",
+      "Genoa",
+      "Hamburg",
+      "San Francisco",
       "Ghent",
+      "Dunkirk",
       "Suez",
       "Gdynia",
       "Suez ",
-      "Dunkirk",
-      "Genoa",
-      "New York",
-      "Hamburg",
-      "San Francisco"
+      "Los Angeles"
     ],
     "countries": [
-      "FR",
-      "IT",
-      "US",
-      "EG",
-      "BE",
       "PL",
+      "BE",
+      "US",
+      "FR",
+      "EG",
+      "IT",
       "DE"
     ],
     "thumbnail": [

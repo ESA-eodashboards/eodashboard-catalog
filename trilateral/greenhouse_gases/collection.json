@@ -228,19 +228,19 @@
       "TANSO-CAI"
     ],
     "cities": [
-      "Beijing",
-      "Tokyo",
-      "Dhaka",
-      "Shanghai",
-      "New Delhi",
       "New York",
-      "Mumbai"
+      "Mumbai",
+      "New Delhi",
+      "Tokyo",
+      "Beijing",
+      "Shanghai",
+      "Dhaka"
     ],
     "countries": [
+      "IN",
+      "BD",
       "US",
       "JP",
-      "BD",
-      "IN",
       "CN"
     ],
     "thumbnail": [
