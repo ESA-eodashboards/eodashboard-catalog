@@ -1,7 +1,27 @@
 {
-  "Name": "Sentinel-5P Total Column CH4 - WFMD (day)",
-  "Title": "Sentinel-5P Total Column CH4 - WFMD (day)",
+  "Name": "Total Column CH₄ – WFMD (Daily)",
+  "Title": "Total Column CH₄ – WFMD (Daily)",
   "Description": "S5P-L3GRD-TCCH4WFMD-DAY/S5P-L3GRD-TCCH4WFMD-DAY.md",
+  "Themes": [
+    "atmosphere",
+    "climate"
+  ],
+  "Tags": [
+    "CH4",
+    "Methane",
+    "Greenhouse Gas",
+    "Atmosphere",
+    "Climate Change",
+    "TROPOMI",
+    "Sentinel-5P",
+    "WFMD",
+    "WFM-DOAS",
+    "Remote Sensing",
+    "Daily Data",
+    "Copernicus",
+    "Open data",
+    "Open Science"
+  ],
   "DataSource": {
     "Spaceborne": {
       "Satellite": [
@@ -301,6 +321,12 @@
       "CollectionId": "e2764313-218e-4050-a832-052cc2ba3c34",
       "LayerId": "S5P-L3GRD-TCCH4WFMD-DAY",
       "DataProjection": 4326
+    }
+  ],
+  "References": [
+    {
+      "Name": "Source Product Page",
+      "Url": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/ch4-wfmd"
     }
   ]
 }
