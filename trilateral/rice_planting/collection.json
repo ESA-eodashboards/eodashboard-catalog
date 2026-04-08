@@ -261,21 +261,21 @@
     ],
     "satellite": [
       "Landsat-8",
-      "GCOM-C",
       "Sentinel-2",
-      "ALOS-2"
+      "ALOS-2",
+      "GCOM-C"
     ],
     "sensor": [
-      "OLI",
       "SGLI",
+      "OLI",
       "MSI",
       "PALSAR-2"
     ],
     "cities": [
-      "Glenn (GCOM-C)",
       "Yolo",
       "Glenn",
-      "Colusa"
+      "Colusa",
+      "Glenn (GCOM-C)"
     ],
     "countries": [
       "US"
