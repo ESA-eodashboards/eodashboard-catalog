@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Sentinel-5P Total Column CHOCHO (day)",
+  "id": "Total Column CHOCHO by Sentinel-5P TROPOMI (Daily)",
   "stac_version": "1.1.0",
-  "description": "## Sentinel-5P Total Column CHOCHO (day)\nDescription here.\n",
+  "description": "## Total Column CHOCHO (Glyoxal) by Sentinel-5P TROPOMI (Daily)\nGlyoxal (CHOCHO) is a short-lived trace gas produced primarily in the atmosphere as an intermediate product in the oxidation of non-methane volatile organic compounds (NMVOCs). It is also directly emitted from fire events and combustion processes. Natural sources and fires account for approximately 70% of glyoxal production, with human activities contributing around 30%. Due to its short atmospheric lifetime of only a few hours, elevated glyoxal concentrations are observed close to emission sources, making it a valuable tracer for NMVOC emissions. Glyoxal also contributes significantly to the formation of secondary organic aerosols, impacting both air quality and climate forcing.\n\n#### About the dataset\n- The CHOCHO product is measured by the [TROPOMI instrument](https://www.tropomi.eu/) aboard ESA’s [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P) satellite.\n- Because glyoxal is a weak absorber, averaging of multiple observations in time and/or space is generally required to detect glyoxal signal reliably above the noise level. Only in extreme fire events may single-observation columns occasionally exceed the detection limit.\n- More information on the TROPOMI CHOCHO measurements and quality assessment can be found in the [Product User Manual](https://data-portal.s5p-pal.com/product-docs/chocho/S5P-BIRA-PUM-CHOCHO_1.1.pdf).\n\n#### Use cases\nCHOCHO measurements are particularly useful for:\n\n- Monitoring NMVOC emissions from natural vegetation, fires, and anthropogenic sources.\n- Supporting air quality studies.\n- Studying fire emissions and biomass burning events at global scale.\n",
   "links": [
     {
       "rel": "root",
@@ -12,12 +12,31 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel-5P Total Column CHOCHO (day)/collection.json",
+      "href": "./Total Column CHOCHO by Sentinel-5P TROPOMI (Daily)/collection.json",
       "type": "application/json",
-      "title": "Sentinel-5P Total Column CHOCHO (day)",
+      "title": "Total Column CHOCHO by Sentinel-5P TROPOMI (Daily)",
       "endpointtype": "Sentinel Hub_byoc",
       "code": "S5P-L3GRD-TCCHOCHO-DAY",
-      "id": "Sentinel-5P Total Column CHOCHO (day)",
+      "id": "Total Column CHOCHO by Sentinel-5P TROPOMI (Daily)",
+      "themes": [
+        "atmosphere"
+      ],
+      "tags": [
+        "CHOCHO",
+        "Glyoxal",
+        "NMVOC",
+        "Atmosphere",
+        "Air Quality",
+        "Aerosol",
+        "Open data",
+        "Open Science",
+        "TROPOMI",
+        "Sentinel-5P",
+        "Remote Sensing",
+        "Daily Data",
+        "S5P",
+        "Copernicus"
+      ],
       "agency": [
         "ESA"
       ],
@@ -85,6 +104,25 @@
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCHOCHO-DAY/S5P-L3GRD-TCCHOCHO-DAY_thumbnail.jpg",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "CHOCHO",
+    "Glyoxal",
+    "NMVOC",
+    "Atmosphere",
+    "Air Quality",
+    "Aerosol",
+    "Open data",
+    "Open Science",
+    "TROPOMI",
+    "Sentinel-5P",
+    "Remote Sensing",
+    "Daily Data",
+    "S5P",
+    "Copernicus"
+  ],
   "agency": [
     "ESA"
   ],
@@ -369,7 +407,7 @@
       8.0
     ]
   },
-  "title": "Sentinel-5P Total Column CHOCHO (day)",
+  "title": "Total Column CHOCHO by Sentinel-5P TROPOMI (Daily)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -401,6 +439,9 @@
     "subcode": [
       "S5P-L3GRD-TCCHOCHO-DAY"
     ],
+    "themes": [
+      "atmosphere"
+    ],
     "satellite": [
       "Sentinel-5P"
     ],
@@ -424,6 +465,14 @@
       "type": "image/png",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/chocho",
+      "type": "text/html",
+      "title": "Source Product Page",
+      "roles": [
+        "metadata"
       ]
     }
   }
