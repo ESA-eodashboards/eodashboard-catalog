@@ -1,36 +1,130 @@
 {
   "type": "Collection",
-  "id": "Sentinel-5P Total Column CH4 - WFMD (day)",
+  "id": "Total Column CH₄ – WFMD (Daily)",
   "stac_version": "1.1.0",
   "description": "## Total Column CH₄ – WFMD (Daily)\nThe Total Column Methane (CH₄) – WFMD product provides measurements of the column-averaged dry air mixing ratio of methane (XCH₄) in the atmosphere using an alternative retrieval algorithm. \nMethane is a key anthropogenic greenhouse gas and an important tracer for emissions from fossil fuels, agriculture, and natural sources.\n\n#### About the dataset\n- The CH₄ WFMD product is derived from measurements by the [TROPOMI instrument](https://www.tropomi.eu/) aboard ESA’s [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P) satellite.\n- The data is processed using the University of Bremen’s Weighting Function Modified DOAS (WFM-DOAS) v2.0 algorithm.\n- More information on the algorithm and data quality can be found in the Algorithm Theoretical Baseline Document and [Product Readme File](https://www.iup.uni-bremen.de/carbon_ghg/products/tropomi_wfmd/data/v20/pug_wfmd.pdf).\n\n#### Use cases\nCH₄ WFMD measurements are particularly useful for:\n- Monitoring methane emissions from anthropogenic sources such as fossil fuel extraction, agriculture, and waste.\n- Complementing operational CH₄ products with an independent retrieval algorithm for validation and comparison.\n- Studying spatial and temporal variability of methane concentrations.\n- Supporting climate research and greenhouse gas assessments.\n",
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "rel": "child",
+      "href": "./Total Column CH₄ – WFMD (Daily)/collection.json",
+      "type": "application/json",
+      "title": "Total Column CH₄ – WFMD (Daily)",
+      "endpointtype": "Sentinel Hub_byoc",
+      "code": "S5P-L3GRD-TCCH4WFMD-DAY",
+      "id": "Total Column CH₄ – WFMD (Daily)",
+      "themes": [
+        "atmosphere",
+        "climate"
+      ],
+      "tags": [
+        "CH4",
+        "Methane",
+        "Greenhouse Gas",
+        "Atmosphere",
+        "Climate Change",
+        "TROPOMI",
+        "Sentinel-5P",
+        "WFMD",
+        "WFM-DOAS",
+        "Remote Sensing",
+        "Daily Data",
+        "Copernicus",
+        "Open data",
+        "Open Science"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "S5P-L3GRD-TCCH4WFMD-DAY",
+      "sensor": [
+        "TROPOMI"
+      ],
+      "satellite": [
+        "Sentinel-5P"
+      ]
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "EOxCloudless 2024",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "cloudless-2024",
+      "attribution": "{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "OSM Background",
+      "roles": [
+        "baselayer",
+        "invisible"
+      ],
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
+      "type": "image/jpeg",
+      "title": "Terrain Light",
+      "roles": [
+        "baselayer",
+        "visible"
+      ],
+      "id": "terrain-light",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
       "type": "image/png",
-      "title": "Sentinel-5P Total Column CH4 - WFMD (day)",
-      "wms:layers": [
-        "S5P-L3GRD-TCCH4WFMD-DAY"
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
       ],
-      "role": [
-        "data"
-      ],
-      "proj:epsg": 4326
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "parent",
-      "href": "../collection.json",
+      "href": "../catalog.json",
       "type": "application/json",
-      "title": "Sentinel-5P Total Column CH4 - WFMD (day)"
+      "title": "Earth Observing Dashboard"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4WFMD-DAY/S5P-L3GRD-TCCH4WFMD-DAY_thumbnail.jpg",
+  "themes": [
+    "atmosphere",
+    "climate"
+  ],
+  "tags": [
+    "CH4",
+    "Methane",
+    "Greenhouse Gas",
+    "Atmosphere",
+    "Climate Change",
+    "TROPOMI",
+    "Sentinel-5P",
+    "WFMD",
+    "WFM-DOAS",
+    "Remote Sensing",
+    "Daily Data",
+    "Copernicus",
+    "Open data",
+    "Open Science"
+  ],
   "agency": [
     "ESA"
   ],
@@ -316,12 +410,16 @@
       1980.0
     ]
   },
-  "proj:epsg": 4326,
-  "endpointtype": "Sentinel Hub_byoc",
-  "title": "Sentinel-5P Total Column CH4 - WFMD (day)",
+  "title": "Total Column CH₄ – WFMD (Daily)",
   "extent": {
     "spatial": {
       "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
         [
           -180.0,
           -90.0,
@@ -340,15 +438,25 @@
     }
   },
   "license": "other",
+  "summaries": {
+    "subcode": [
+      "S5P-L3GRD-TCCH4WFMD-DAY"
+    ],
+    "themes": [
+      "climate",
+      "atmosphere"
+    ],
+    "satellite": [
+      "Sentinel-5P"
+    ],
+    "sensor": [
+      "TROPOMI"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4WFMD-DAY/S5P-L3GRD-TCCH4WFMD-DAY_thumbnail.jpg"
+    ]
+  },
   "assets": {
-    "geoparquet": {
-      "href": "./items.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "GeoParquet Items",
-      "roles": [
-        "collection-mirror"
-      ]
-    },
     "legend": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4WFMD-DAY/S5P-L3GRD-TCCH4WFMD-DAY_legend.png",
       "type": "image/png",
@@ -361,6 +469,14 @@
       "type": "image/png",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/ch4-wfmd",
+      "type": "text/html",
+      "title": "Source Product Page",
+      "roles": [
+        "metadata"
       ]
     }
   }
