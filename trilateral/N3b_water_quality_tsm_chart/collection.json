@@ -219,15 +219,15 @@
       "Acqua"
     ],
     "sensor": [
-      "SGLI",
+      "OLCI",
       "MODIS",
-      "OLCI"
+      "SGLI"
     ],
     "cities": [
-      "Kobe",
+      "Venice",
       "Tokyo",
       "Nagoya",
-      "Venice"
+      "Kobe"
     ],
     "countries": [
       "JP",

@@ -272,14 +272,14 @@
     "satellite": [
       "Suomi",
       "Envisat",
-      "Aqua",
-      "OrbView-2"
+      "OrbView-2",
+      "Aqua"
     ],
     "sensor": [
+      "MERIS",
       "VIIRS",
       "MODIS",
-      "SeaWiFS",
-      "MERIS"
+      "SeaWiFS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPP_ocean_primary_productivity/NPP_ocean_primary_productivity.jpg"
