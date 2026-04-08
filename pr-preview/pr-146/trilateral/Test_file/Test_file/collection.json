@@ -1,0 +1,44 @@
+{
+  "type": "Collection",
+  "id": "Test_file",
+  "stac_version": "1.1.0",
+  "description": "Test",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Nitrogen Dioxide (Monthly)"
+    }
+  ],
+  "subcode": "Test_file",
+  "endpointtype": "GeoJSON source",
+  "title": "Nitrogen Dioxide (Monthly)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-04-08T07:12:26.969177Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}
