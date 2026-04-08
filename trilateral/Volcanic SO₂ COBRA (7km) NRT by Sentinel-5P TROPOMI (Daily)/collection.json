@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Sentinel-5P Volcanic SO2 COBRA (7km) (day)",
+  "id": "Volcanic SO₂ COBRA (7km) NRT by Sentinel-5P TROPOMI (Daily)",
   "stac_version": "1.1.0",
-  "description": "## Volcanic SO₂ COBRA (7km) by Sentinel-5P TROPOMI (Daily)\nThe Volcanic SO₂ COBRA (7km) product provides measurements of sulfur dioxide primarily from volcanic sources, retrieved assuming the SO₂ is located in a layer at 7 km altitude in the atmosphere, which is typical for volcanic plumes injected into the free troposphere.\nThis product provides daily snapshots of volcanic degassing and eruption plumes, enabling monitoring of volcanic activity and the transport of sulfur-rich emissions over large distances.\n\n#### About the dataset\n- The Volcanic SO₂ COBRA (7km) product is measured by the [TROPOMI instrument](https://www.tropomi.eu/) aboard Copernicus ESA's [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P).\n- This product uses the Covariance-Based Retrieval Algorithm (COBRA), implemented operationally in November 2024.\n- The retrieval assumes SO₂ is located in a 7 km altitude layer, making it particularly suited for detecting elevated volcanic plumes.\n- Note that SO₂ from potential anthropogenic sources has not been filtered out and may still appear in the data.\nMore information on the TROPOMI SO₂ measurements and quality assessment can be found in the [Product Readme file](https://sentiwiki.copernicus.eu/__attachments/1673595/S5P-MPC-BIRA-PRF-SO2-Sentinel-5P-Sulphur-Dioxide-Readme-2025-2.11.pdf).\n\n#### Use cases\n\nThe Volcanic SO₂ COBRA (7km) product is useful for:\n- Monitoring volcanic eruptions and passive degassing activity globally.\n- Tracking the transport and dispersion of volcanic SO₂ plumes.\n- Supporting aviation safety by detecting sulfur-rich ash and gas clouds that may pose risks to aircraft.\n- Complementing anthropogenic SO₂ products for a more complete picture of tropospheric sulfur dioxide sources.\n",
+  "description": "##  Volcanic SO₂ (7km) NRT by Sentinel-5P TROPOMI (Daily)\nThe Volcanic SO₂ (7km) Near Real-Time (NRT) product measures sulfur dioxide concentrations primarily from volcanic sources, retrieved assuming SO₂ is located at an altitude of 7 km in the atmosphere. This product provides daily snapshots of volcanic degassing and eruption plumes within the last seven days, enabling near-real-time monitoring of volcanic activity and the rapid tracking of sulfur-rich emissions.\n\n#### About the dataset\n\n- The Volcanic SO₂ (7km) NRT product is measured by the  [TROPOMI instrument](https://www.tropomi.eu/) aboard Copernicus ESA's [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P) satellite, operating in the UV spectral range.\n- The retrieval assumes SO₂ is located in a layer at 7 km altitude, making it particularly suited for detecting elevated volcanic plumes injected into the free troposphere.\n- Only the last seven days of data are provided as NRT maps, making this product ideal for operational monitoring of ongoing volcanic events.\n- Only pixels where a volcanic source is most likely (sulfurdioxide_detection_flag > 0) and where the solar zenith angle is within limits (SZA < 70°) are included. Note that SO₂ from potential anthropogenic sources has not been filtered out and can therefore still appear in the data.\n- More information on the TROPOMI SO₂ measurements and quality assessment can be found in the [Product Readme file](https://sentiwiki.copernicus.eu/__attachments/1673595/S5P-MPC-BIRA-PRF-SO2-Sentinel-5P-Sulphur-Dioxide-Readme-2025-2.11.pdf). \n\n\n####  Use cases\nThe Volcanic SO₂ (7km) NRT product is useful for:\n- Rapid response monitoring of volcanic eruptions and passive degassing activity globally.\n- Tracking the short-term transport of volcanic SO₂ plumes in near real-time.\n- Aviation safety: early detection of sulfur-rich ash and gas clouds that pose risks to aircraft.\n",
   "links": [
     {
       "rel": "root",
@@ -12,16 +12,37 @@
     },
     {
       "rel": "child",
-      "href": "./Sentinel-5P Volcanic SO2 COBRA (7km) (day)/collection.json",
+      "href": "./Volcanic SO₂ COBRA (7km) NRT by Sentinel-5P TROPOMI (Daily)/collection.json",
       "type": "application/json",
-      "title": "Sentinel-5P Volcanic SO2 COBRA (7km) (day)",
+      "title": "Volcanic SO₂ COBRA (7km) NRT by Sentinel-5P TROPOMI (Daily)",
       "endpointtype": "Sentinel Hub_byoc",
-      "code": "S5P-L3GRD-VOLCSO2COBRA-DAY",
-      "id": "Sentinel-5P Volcanic SO2 COBRA (7km) (day)",
+      "code": "S5P-L3GRD-VOLCSO2NRT-DAY",
+      "id": "Volcanic SO₂ COBRA (7km) NRT by Sentinel-5P TROPOMI (Daily)",
+      "themes": [
+        "atmosphere"
+      ],
+      "tags": [
+        "SO2",
+        "Sulfur Dioxide",
+        "Volcanic",
+        "Atmosphere",
+        "Volcano",
+        "Eruption",
+        "NRT",
+        "Near Real-Time",
+        "Open data",
+        "Open Science",
+        "TROPOMI",
+        "Sentinel-5P",
+        "Remote Sensing",
+        "Daily Data",
+        "S5P",
+        "Copernicus"
+      ],
       "agency": [
         "ESA"
       ],
-      "subcode": "S5P-L3GRD-VOLCSO2COBRA-DAY",
+      "subcode": "S5P-L3GRD-VOLCSO2NRT-DAY",
       "sensor": [
         "TROPOMI"
       ],
@@ -84,11 +105,54 @@
       "title": "Earth Observing Dashboard"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2COBRA-DAY/S5P-L3GRD-VOLCSO2COBRA-DAY_thumbnail.jpg",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "eodash:stories": {
+    "hunga_tonga_aerosol_plumes": {
+      "href": "https://eodashboard.org/story/?id=hunga_tonga_aerosol_plumes",
+      "type": "text/markdown",
+      "title": "Hunga Tonga Aerosol Plumes",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/hunga_tonga_aerosol_plumes.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2NRT-DAY/S5P-L3GRD-VOLCSO2NRT-DAY_thumbnail.jpg",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "SO2",
+    "Sulfur Dioxide",
+    "Volcanic",
+    "Atmosphere",
+    "Volcano",
+    "Eruption",
+    "NRT",
+    "Near Real-Time",
+    "Open data",
+    "Open Science",
+    "TROPOMI",
+    "Sentinel-5P",
+    "Remote Sensing",
+    "Daily Data",
+    "S5P",
+    "Copernicus"
+  ],
   "agency": [
     "ESA"
   ],
-  "subcode": "S5P-L3GRD-VOLCSO2COBRA-DAY",
+  "subcode": "S5P-L3GRD-VOLCSO2NRT-DAY",
   "sensor": [
     "TROPOMI"
   ],
@@ -370,7 +434,7 @@
       20.0
     ]
   },
-  "title": "Sentinel-5P Volcanic SO2 COBRA (7km) (day)",
+  "title": "Volcanic SO₂ COBRA (7km) NRT by Sentinel-5P TROPOMI (Daily)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -400,7 +464,10 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "S5P-L3GRD-VOLCSO2COBRA-DAY"
+      "S5P-L3GRD-VOLCSO2NRT-DAY"
+    ],
+    "themes": [
+      "atmosphere"
     ],
     "satellite": [
       "Sentinel-5P"
@@ -409,22 +476,48 @@
       "TROPOMI"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2COBRA-DAY/S5P-L3GRD-VOLCSO2COBRA-DAY_thumbnail.jpg"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2NRT-DAY/S5P-L3GRD-VOLCSO2NRT-DAY_thumbnail.jpg"
     ]
   },
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2COBRA-DAY/S5P-L3GRD-VOLCSO2COBRA-DAY_legend.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2NRT-DAY/S5P-L3GRD-VOLCSO2NRT-DAY_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
+    "hunga_tonga_aerosol_plumes": {
+      "href": "https://eodashboard.org/story/?id=hunga_tonga_aerosol_plumes",
+      "type": "text/markdown",
+      "title": "Hunga Tonga Aerosol Plumes",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/hunga_tonga_aerosol_plumes.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2COBRA-DAY/S5P-L3GRD-VOLCSO2COBRA-DAY_thumbnail.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2NRT-DAY/S5P-L3GRD-VOLCSO2NRT-DAY_thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/so2-7km-nrt",
+      "type": "text/html",
+      "title": "Source Product Page",
+      "roles": [
+        "metadata"
       ]
     }
   }
