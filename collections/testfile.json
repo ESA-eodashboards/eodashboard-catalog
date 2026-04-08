@@ -1,3 +1,13 @@
 {
-  "Name": "Test_file"
+  "Name": "Test_file",
+  "Title": "Nitrogen Dioxide (Monthly)",
+  "Description": "Test",
+  "Resources": [
+    {
+      "Style": "",
+      "TimeEntries": [],
+      "Name": "GeoJSON source"
+    }
+  ],
+  "EodashIdentifier": "Test_file"
 }
