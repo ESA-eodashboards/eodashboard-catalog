@@ -26,6 +26,46 @@
       "subcode": "RECCAP_TEST"
     },
     {
+      "rel": "child",
+      "href": "./Volcanic SO₂ (7km) by Sentinel-5P TROPOMI (Daily)/collection.json",
+      "type": "application/json",
+      "title": "Volcanic SO₂ (7km) by Sentinel-5P TROPOMI (Daily)",
+      "code": "S5P-L3GRD-VOLCSO2-DAY",
+      "id": "Volcanic SO₂ (7km) by Sentinel-5P TROPOMI (Daily)",
+      "themes": [
+        "atmosphere"
+      ],
+      "subcode": "S5P-L3GRD-VOLCSO2-DAY",
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2-DAY/S5P-L3GRD-VOLCSO2-DAY_thumbnail.jpg"
+      ],
+      "tags": [
+        "SO2",
+        "Sulfur Dioxide",
+        "Volcanic",
+        "Atmosphere",
+        "Volcano",
+        "Eruption",
+        "Open data",
+        "Open Science",
+        "TROPOMI",
+        "Sentinel-5P",
+        "Remote Sensing",
+        "Daily Data",
+        "S5P",
+        "Copernicus"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
       "rel": "self",
       "href": "https://esa-eodashboards.github.io/eodashboard-catalog/trilateral/catalog.json",
       "type": "application/json"
