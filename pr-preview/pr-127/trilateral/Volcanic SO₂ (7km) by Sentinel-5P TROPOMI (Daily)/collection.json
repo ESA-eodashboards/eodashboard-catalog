@@ -103,6 +103,28 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
+  "eodash:stories": {
+    "hunga_tonga_aerosol_plumes": {
+      "href": "https://eodashboard.org/story/?id=hunga_tonga_aerosol_plumes",
+      "type": "text/markdown",
+      "title": "Story on Tracking aerosol plumes from Hunga Tonga eruption of 2022",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/hunga_tonga_aerosol_plumes.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2-DAY/S5P-L3GRD-VOLCSO2-DAY_thumbnail.jpg",
   "themes": [
     "atmosphere"
@@ -459,6 +481,24 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "hunga_tonga_aerosol_plumes": {
+      "href": "https://eodashboard.org/story/?id=hunga_tonga_aerosol_plumes",
+      "type": "text/markdown",
+      "title": "Story on Tracking aerosol plumes from Hunga Tonga eruption of 2022",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/hunga_tonga_aerosol_plumes.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
       ]
     },
     "thumbnail": {
