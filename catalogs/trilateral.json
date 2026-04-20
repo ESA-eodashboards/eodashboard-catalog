@@ -18,7 +18,11 @@
       }
     ]
   },
-  "stories_endpoint": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main",
+  "stories_endpoint": {
+    "raw_url": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main",
+    "rendered_url": "https://eodashboard.org/story/?id={id}",
+    "additional_stac_property": "eodash:stories"
+  },
   "assets_endpoint": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections",
   "default_base_layers": "layers/baselayers",
   "default_overlay_layers": "layers/overlays",
@@ -149,6 +153,30 @@
     "SMOS_ocean_salinity",
     "SMOS_soil_moisture",
     "ndvideepesdl",
-    "testxcubeserver"
+    "testxcubeserver",
+    "S5P-L3GRD-AAI-DAY",
+    "S5P-L3GRD-ALH-DAY",
+    "S5P-L3GRD-AOD-DAY",
+    "S5P-L3GRD-SO2COBRA-DAY",
+    "S5P-L3GRD-CLOUDFR-DAY",
+    "S5P-L3GRD-CLOUDTH-DAY",
+    "S5P-L3GRD-KdBLUE-DAY",
+    "S5P-L3GRD-KdUVA-DAY",
+    "S5P-L3GRD-KdUVAB-DAY",
+    "S5P-L3GRD-SIF-DAY",
+    "S5P-L3GRD-BRO-DAY",
+    "S5P-L3GRD-TROPOHCHO-DAY",
+    "S5P-L3GRD-TROPONO2-DAY",
+    "S5P-L3GRD-VOLCSO2-DAY",
+    "S5P-L3GRD-VOLCSO2NRT-DAY",
+    "S5P-L3GRD-VOLCSO2COBRA-DAY",
+    "S5P-L3GRD-TCCH4-DAY",
+    "S5P-L3GRD-TCCH4WFMD-DAY",
+    "S5P-L3GRD-TCCHOCHO-DAY",
+    "S5P-L3GRD-TCCO-DAY",
+    "S5P-L3GRD-TCO3-DAY",
+    "S5P-L3GRD-AAI-MONTH",
+    "S5P-L3GRD-ALH-MONTH",
+    "S5P-L3GRD-CLOUDFR-MONTH"
   ]
 }

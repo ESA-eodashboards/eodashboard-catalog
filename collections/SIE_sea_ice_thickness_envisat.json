@@ -91,5 +91,11 @@
     "scaleType": "continuous",
     "tickFormat": ".0f",
     "title": "Sea-ice thickness [m]"
-  }
+  },
+  "Stories": [
+    {
+      "Name": "Sea Ice Freeboard and Thickness",
+      "Id": "sea-ice-freeboard-thickness"
+    }
+  ]
 }

@@ -74,6 +74,12 @@
     ],
     "scaleType": "threshold",
     "tickFormat": ".0f",
-    "title": "Temperature [\u00b0C]"
-  }
+    "title": "Temperature [°C]"
+  },
+  "Stories": [
+    {
+      "Name": "Record Breaking Temperatures",
+      "Id": "record_breaking_temperatures"
+    }
+  ]
 }
