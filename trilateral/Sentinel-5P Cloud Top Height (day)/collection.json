@@ -84,6 +84,7 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-CLOUDTH-DAY/S5P-L3GRD-CLOUDTH-DAY_thumbnail.jpg",
   "agency": [
     "ESA"
   ],
@@ -407,6 +408,9 @@
     ],
     "sensor": [
       "TROPOMI"
+    ],
+    "thumbnail": [
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-CLOUDTH-DAY/S5P-L3GRD-CLOUDTH-DAY_thumbnail.jpg"
     ]
   },
   "assets": {
@@ -415,6 +419,13 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-CLOUDTH-DAY/S5P-L3GRD-CLOUDTH-DAY_thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
