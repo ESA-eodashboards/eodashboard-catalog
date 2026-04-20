@@ -327,5 +327,11 @@
       "LayerId": "S5P-L3GRD-VOLCSO2-DAY",
       "DataProjection": 4326
     }
+  ],
+  "Stories": [
+    {
+      "Name": "Story on Tracking aerosol plumes from Hunga Tonga eruption of 2022",
+      "Id": "hunga_tonga_aerosol_plumes"
+    }
   ]
 }
