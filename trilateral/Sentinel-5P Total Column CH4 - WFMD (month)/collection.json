@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Total Column CH₄ – WFMD (Daily)",
+  "id": "Sentinel-5P Total Column CH4 - WFMD (month)",
   "stac_version": "1.1.0",
-  "description": "## Total Column CH₄ – WFMD (Daily)\nThe Total Column Methane (CH₄) – WFMD product provides measurements of the column-averaged dry air mixing ratio of methane (XCH₄) in the atmosphere using an alternative retrieval algorithm. \nMethane is a key anthropogenic greenhouse gas and an important tracer for emissions from fossil fuels, agriculture, and natural sources.\n\n#### About the dataset\n- The CH₄ WFMD product is derived from measurements by the [TROPOMI instrument](https://www.tropomi.eu/) aboard ESA’s [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P) satellite.\n- The data is processed using the University of Bremen’s Weighting Function Modified DOAS (WFM-DOAS) v2.0 algorithm.\n- More information on the algorithm and data quality can be found in the Algorithm Theoretical Baseline Document and [Product Readme File](https://www.iup.uni-bremen.de/carbon_ghg/products/tropomi_wfmd/data/v20/pug_wfmd.pdf).\n\n#### Use cases\nCH₄ WFMD measurements are particularly useful for:\n- Monitoring methane emissions from anthropogenic sources such as fossil fuel extraction, agriculture, and waste.\n- Complementing operational CH₄ products with an independent retrieval algorithm for validation and comparison.\n- Studying spatial and temporal variability of methane concentrations.\n- Supporting climate research and greenhouse gas assessments.\n",
+  "description": "## Sentinel-5P Total Column CH4 - WFMD (month)\nDescription here.\n",
   "links": [
     {
       "rel": "root",
@@ -12,36 +12,16 @@
     },
     {
       "rel": "child",
-      "href": "./Total Column CH₄ – WFMD (Daily)/collection.json",
+      "href": "./Sentinel-5P Total Column CH4 - WFMD (month)/collection.json",
       "type": "application/json",
-      "title": "Total Column CH₄ – WFMD (Daily)",
+      "title": "Sentinel-5P Total Column CH4 - WFMD (month)",
       "endpointtype": "Sentinel Hub_byoc",
-      "code": "S5P-L3GRD-TCCH4WFMD-DAY",
-      "id": "Total Column CH₄ – WFMD (Daily)",
-      "themes": [
-        "atmosphere",
-        "climate"
-      ],
-      "tags": [
-        "CH4",
-        "Methane",
-        "Greenhouse Gas",
-        "Atmosphere",
-        "Climate Change",
-        "TROPOMI",
-        "Sentinel-5P",
-        "WFMD",
-        "WFM-DOAS",
-        "Remote Sensing",
-        "Daily Data",
-        "Copernicus",
-        "Open data",
-        "Open Science"
-      ],
+      "code": "S5P-L3GRD-TCCH4WFMD-MONTH",
+      "id": "Sentinel-5P Total Column CH4 - WFMD (month)",
       "agency": [
         "ESA"
       ],
-      "subcode": "S5P-L3GRD-TCCH4WFMD-DAY",
+      "subcode": "S5P-L3GRD-TCCH4WFMD-MONTH",
       "sensor": [
         "TROPOMI"
       ],
@@ -104,31 +84,11 @@
       "title": "Earth Observing Dashboard"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4WFMD-DAY/S5P-L3GRD-TCCH4WFMD-DAY_thumbnail.jpg",
-  "themes": [
-    "atmosphere",
-    "climate"
-  ],
-  "tags": [
-    "CH4",
-    "Methane",
-    "Greenhouse Gas",
-    "Atmosphere",
-    "Climate Change",
-    "TROPOMI",
-    "Sentinel-5P",
-    "WFMD",
-    "WFM-DOAS",
-    "Remote Sensing",
-    "Daily Data",
-    "Copernicus",
-    "Open data",
-    "Open Science"
-  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4WFMD-MONTH/S5P-L3GRD-TCCH4WFMD-MONTH_thumbnail.jpg",
   "agency": [
     "ESA"
   ],
-  "subcode": "S5P-L3GRD-TCCH4WFMD-DAY",
+  "subcode": "S5P-L3GRD-TCCH4WFMD-MONTH",
   "sensor": [
     "TROPOMI"
   ],
@@ -410,7 +370,7 @@
       1980.0
     ]
   },
-  "title": "Total Column CH₄ – WFMD (Daily)",
+  "title": "Sentinel-5P Total Column CH4 - WFMD (month)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -431,8 +391,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2025-01-02T00:00:00Z"
+          "2018-05-01T00:00:00Z",
+          "2018-06-01T00:00:00Z"
         ]
       ]
     }
@@ -440,11 +400,7 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "S5P-L3GRD-TCCH4WFMD-DAY"
-    ],
-    "themes": [
-      "atmosphere",
-      "climate"
+      "S5P-L3GRD-TCCH4WFMD-MONTH"
     ],
     "satellite": [
       "Sentinel-5P"
@@ -453,30 +409,22 @@
       "TROPOMI"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4WFMD-DAY/S5P-L3GRD-TCCH4WFMD-DAY_thumbnail.jpg"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4WFMD-MONTH/S5P-L3GRD-TCCH4WFMD-MONTH_thumbnail.jpg"
     ]
   },
   "assets": {
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4WFMD-DAY/S5P-L3GRD-TCCH4WFMD-DAY_legend.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4WFMD-MONTH/S5P-L3GRD-TCCH4WFMD-MONTH_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4WFMD-DAY/S5P-L3GRD-TCCH4WFMD-DAY_thumbnail.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4WFMD-MONTH/S5P-L3GRD-TCCH4WFMD-MONTH_thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
-      ]
-    },
-    "reference_1": {
-      "href": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/ch4-wfmd",
-      "type": "text/html",
-      "title": "Source Product Page",
-      "roles": [
-        "metadata"
       ]
     }
   }
