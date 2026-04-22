@@ -203,25 +203,25 @@
       "TROPOMI"
     ],
     "cities": [
-      "Tokyo",
-      "New Delhi",
       "Rome",
-      "Los Angeles",
-      "Milan",
-      "Mumbai",
-      "Paris",
-      "New York",
       "Beijing",
+      "Paris",
+      "Milan",
       "Madrid",
-      "San Francisco"
+      "Los Angeles",
+      "Tokyo",
+      "San Francisco",
+      "New Delhi",
+      "Mumbai",
+      "New York"
     ],
     "countries": [
-      "ES",
       "FR",
-      "US",
-      "JP",
       "CN",
+      "ES",
       "IT",
+      "JP",
+      "US",
       "IN"
     ],
     "thumbnail": [
