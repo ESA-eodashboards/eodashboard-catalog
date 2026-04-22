@@ -266,16 +266,16 @@
       "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
-      "OLI",
       "SGLI",
-      "PALSAR-2"
+      "PALSAR-2",
+      "MSI",
+      "OLI"
     ],
     "cities": [
-      "Glenn (GCOM-C)",
+      "Colusa",
       "Glenn",
       "Yolo",
-      "Colusa"
+      "Glenn (GCOM-C)"
     ],
     "countries": [
       "US"

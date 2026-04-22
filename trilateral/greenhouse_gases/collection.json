@@ -224,23 +224,23 @@
       "GOSAT"
     ],
     "sensor": [
-      "TANSO-FTS",
-      "TANSO-CAI"
+      "TANSO-CAI",
+      "TANSO-FTS"
     ],
     "cities": [
       "Beijing",
-      "Dhaka",
-      "New York",
-      "Shanghai",
+      "Mumbai",
       "New Delhi",
       "Tokyo",
-      "Mumbai"
+      "Dhaka",
+      "New York",
+      "Shanghai"
     ],
     "countries": [
-      "CN",
-      "IN",
-      "US",
       "JP",
+      "US",
+      "IN",
+      "CN",
       "BD"
     ],
     "thumbnail": [
