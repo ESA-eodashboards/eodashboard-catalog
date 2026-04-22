@@ -276,10 +276,10 @@
       "Envisat"
     ],
     "sensor": [
-      "MERIS",
-      "VIIRS",
       "MODIS",
-      "SeaWiFS"
+      "MERIS",
+      "SeaWiFS",
+      "VIIRS"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NPP_ocean_primary_productivity/NPP_ocean_primary_productivity.jpg"

@@ -30,6 +30,7 @@
       "title": "Sentinel-5P Cloud Top Height (month)"
     }
   ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-CLOUDTH-MONTH/S5P-L3GRD-CLOUDTH-MONTH_thumbnail.jpg",
   "agency": [
     "ESA"
   ],
@@ -354,6 +355,13 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-CLOUDTH-MONTH/S5P-L3GRD-CLOUDTH-MONTH_thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
       ]
     }
   }
