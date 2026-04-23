@@ -260,42 +260,42 @@
       "economy"
     ],
     "satellite": [
+      "PlanetScope",
       "ALOS-2",
-      "Sentinel-2",
       "Sentinel-1",
-      "PlanetScope"
+      "Sentinel-2"
     ],
     "sensor": [
       "C-SAR",
+      "PSB.SD",
       "PALSAR-2",
-      "MSI",
-      "PSB.SD"
+      "MSI"
     ],
     "cities": [
-      "Beijing",
-      "Beijing Daxing",
-      "Los Angeles",
-      "Newark",
-      "Rome",
-      "Paris",
-      "San Jose",
-      "Oakland",
-      "Hayward",
-      "Napa",
-      "San Francisco",
-      "Heathrow",
       "Buchannan",
+      "Newark",
       "Narita",
       "Marin",
+      "Paris",
+      "Rome",
+      "Heathrow",
+      "San Jose",
+      "Oakland",
+      "San Francisco",
+      "Beijing Daxing",
+      "Napa",
+      "Los Angeles",
       "New York",
+      "Hayward",
+      "Beijing",
       "Ontario"
     ],
     "countries": [
-      "GB",
       "JP",
-      "US",
       "CN",
       "FR",
+      "US",
+      "GB",
       "IT"
     ],
     "thumbnail": [
