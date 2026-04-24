@@ -1,0 +1,135 @@
+{
+  "type": "Collection",
+  "id": "Methanesat_l4",
+  "stac_version": "1.1.0",
+  "description": "Methanesat_l4/Methanesat_l4.md",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://eoapi.workspace.dashboards-operations.aws.hub.eox.at/raster/collections/methanesat-l4-dispersed-area-emissions/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=data&colormap_name=reds&rescale=0,50",
+      "type": "image/png",
+      "title": "Methanesat Dispersed Area Emissions",
+      "key": "74014bb5-9fe1-4ab9-84a6-0ddf7708e8f2"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Methanesat Dispersed Area Emissions"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Methanesat_l4/Methanesat_l4_thumbnail.jpg",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "Air quality",
+    "CH4",
+    "Multi-sensors",
+    "Methane",
+    "Emissions"
+  ],
+  "agency": [
+    "MethaneSAT LLC"
+  ],
+  "subcode": "Methanesat_l4",
+  "satellite": [
+    "MethaneSAT"
+  ],
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      50
+    ],
+    "range": [
+      "#fff5f0",
+      "#fee8de",
+      "#fed7c7",
+      "#fcc1a9",
+      "#fca88b",
+      "#fc8f6f",
+      "#fb7656",
+      "#f75c41",
+      "#f03f2e",
+      "#dc2824",
+      "#c5171c",
+      "#ae1117",
+      "#8d0912",
+      "#67000d"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "CH4 emissions [kg/km²/hr]"
+  },
+  "endpointtype": "VEDA_tiles",
+  "title": "Methanesat Dispersed Area Emissions",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -120.6018886014427,
+          -32.81779302378463,
+          152.5826541561949,
+          68.40386024425946
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-05-22T21:11:58Z",
+          "2025-06-14T11:12:26Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "MethaneSAT LLC",
+      "roles": [
+        "licensor, producer, processor"
+      ],
+      "url": "https://www.methanesat.org/sites/default/files/2025-02/MethaneSAT%20-%20Content%20License%20Terms%20of%20Use%20(Revised%202-12-2025)%5B25%5D.pdf"
+    }
+  ],
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Methanesat_l4/Methanesat_l4_thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://www.methanesat.org/scienceandresearch",
+      "type": "text/html",
+      "title": "MethaneSAT Science & Research",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://portal.methanesat.org/en/emissions-map/",
+      "type": "text/html",
+      "title": "MethaneSAT Emissions Map",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}
