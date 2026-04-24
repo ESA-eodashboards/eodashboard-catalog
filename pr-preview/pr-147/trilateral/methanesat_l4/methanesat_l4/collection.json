@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "Methanesat_l4",
+  "id": "methanesat_l4",
   "stac_version": "1.1.0",
-  "description": "Methanesat_l4/Methanesat_l4.md",
+  "description": "## Methanesat Dispersed Area Emissions and Distinct Point Sources\n\n#### About the dataset\n\nhttps://www.methanesat.org/\n\n#### Use cases\n",
   "links": [
     {
       "rel": "root",
@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.dashboards-operations.aws.hub.eox.at/raster/collections/methanesat-l4-dispersed-area-emissions/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=data&colormap_name=reds&rescale=0,50",
       "type": "image/png",
       "title": "Methanesat Dispersed Area Emissions",
-      "key": "74014bb5-9fe1-4ab9-84a6-0ddf7708e8f2"
+      "key": "73ab6579-15b7-4c94-90c6-d255578493e6"
     },
     {
       "rel": "parent",
@@ -24,7 +24,7 @@
       "title": "Methanesat Dispersed Area Emissions"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Methanesat_l4/Methanesat_l4_thumbnail.jpg",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/methanesat_l4/methanesat_l4_thumbnail.jpg",
   "themes": [
     "atmosphere"
   ],
@@ -38,7 +38,7 @@
   "agency": [
     "MethaneSAT LLC"
   ],
-  "subcode": "Methanesat_l4",
+  "subcode": "methanesat_l4",
   "satellite": [
     "MethaneSAT"
   ],
@@ -109,7 +109,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Methanesat_l4/Methanesat_l4_thumbnail.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/methanesat_l4/methanesat_l4_thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
