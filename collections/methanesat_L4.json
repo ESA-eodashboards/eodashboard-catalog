@@ -93,5 +93,23 @@
         "Type": "application/json"
       }
     ]
-  }
+  },
+  "OverlayLayers": [
+    {
+      "id": "Openinframap",
+      "name": "Open Infrastructure Map",
+      "Attribution": "{ Open Infrastructure Map: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors; Map Design and Analysis <a href=\"https://openinframap.org/copyright\" target=\"_blank\">OpenInfraMap</a> }",
+      "url": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
+      "visible": true,
+      "protocol": "mapbox-style-document"
+    },
+    {
+      "id": "overlay_bright",
+      "name": "Overlay labels",
+      "url": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "Attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }",
+      "visible": true,
+      "protocol": "xyz"
+    }
+  ]
 }
