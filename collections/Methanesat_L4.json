@@ -1,0 +1,97 @@
+{
+  "Name": "Methanesat_l4",
+  "Title": "Methanesat Dispersed Area Emissions",
+  "Description": "Methanesat_l4/Methanesat_l4.md",
+  "Themes": [
+    "atmosphere"
+  ],
+  "Tags": [
+    "Air quality",
+    "CH4",
+    "Multi-sensors",
+    "Methane",
+    "Emissions"
+  ],
+  "DataSource": {
+    "Spaceborne": {
+      "Satellite": [
+        "MethaneSAT"
+      ]
+    }
+  },
+  "Agency": [
+    "MethaneSAT LLC"
+  ],
+  "References": [
+    {
+      "Name": "MethaneSAT Science & Research",
+      "Url": "https://www.methanesat.org/scienceandresearch"
+    },
+    {
+      "Url": "https://portal.methanesat.org/en/emissions-map/",
+      "Name": "MethaneSAT Emissions Map"
+    }
+  ],
+  "Image": "Methanesat_l4/Methanesat_l4_thumbnail.jpg",
+  "EodashIdentifier": "Methanesat_l4",
+  "Resources": [
+    {
+      "Type": "tiles",
+      "Name": "VEDA",
+      "EndPoint": "https://eoapi.workspace.dashboards-operations.aws.hub.eox.at/stac/",
+      "CollectionId": "methanesat-l4-dispersed-area-emissions",
+      "Assets": ["data"],
+      "ColormapName": "reds",
+      "Rescale": [
+        0,
+        50
+      ]
+    }
+  ],
+  "Provider": [
+    {
+      "Name": "MethaneSAT LLC",
+      "Roles": ["licensor, producer, processor"],
+      "Url": "https://www.methanesat.org/sites/default/files/2025-02/MethaneSAT%20-%20Content%20License%20Terms%20of%20Use%20(Revised%202-12-2025)%5B25%5D.pdf"
+    }
+  ],
+  "Colorlegend": {
+    "domain": [
+      0,
+      50
+    ],
+    "range": [
+      "#fff5f0",
+      "#fee8de",
+      "#fed7c7",
+      "#fcc1a9",
+      "#fca88b",
+      "#fc8f6f",
+      "#fb7656",
+      "#f75c41",
+      "#f03f2e",
+      "#dc2824",
+      "#c5171c",
+      "#ae1117",
+      "#8d0912",
+      "#67000d"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "CH4 emissions [kg/km²/hr]"
+  },
+  "Process": {
+    "Name": "VEDA Statistics",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
+    "VegaDefinition": "Methanesat_l4/chart.json",
+    "EndPoints": [
+      {
+        "Identifier": "veda_statistics",
+        "Url": "https://eoapi.workspace.dashboards-operations.aws.hub.eox.at/raster/collections/methanesat-l4-dispersed-area-emissions/statistics?assets=data",
+        "Method": "POST",
+        "EndPoint": "veda_stac",
+        "Type": "application/json"
+      }
+    ]
+  }
+}
