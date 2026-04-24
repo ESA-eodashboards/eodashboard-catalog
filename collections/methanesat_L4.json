@@ -1,7 +1,7 @@
 {
-  "Name": "Methanesat_l4",
+  "Name": "methanesat_l4",
   "Title": "Methanesat Dispersed Area Emissions",
-  "Description": "Methanesat_l4/Methanesat_l4.md",
+  "Description": "methanesat_l4/methanesat_l4.md",
   "Themes": [
     "atmosphere"
   ],
@@ -32,8 +32,8 @@
       "Name": "MethaneSAT Emissions Map"
     }
   ],
-  "Image": "Methanesat_l4/Methanesat_l4_thumbnail.jpg",
-  "EodashIdentifier": "Methanesat_l4",
+  "Image": "methanesat_l4/methanesat_l4_thumbnail.jpg",
+  "EodashIdentifier": "methanesat_l4",
   "Resources": [
     {
       "Type": "tiles",
@@ -83,7 +83,7 @@
   "Process": {
     "Name": "VEDA Statistics",
     "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-    "VegaDefinition": "Methanesat_l4/chart.json",
+    "VegaDefinition": "methanesat_l4/chart.json",
     "EndPoints": [
       {
         "Identifier": "veda_statistics",
