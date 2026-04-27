@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.dashboards-operations.aws.hub.eox.at/raster/collections/methanesat-l4-dispersed-area-emissions/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=data&colormap_name=reds&rescale=0,50",
       "type": "image/png",
       "title": "Methanesat Dispersed Area Emissions",
-      "key": "4d746321-5f8e-4ca5-99ca-bdbb9ee3d129"
+      "key": "55ac85bb-58cd-4d21-a119-1cb791d16cca"
     },
     {
       "rel": "parent",
@@ -74,9 +74,9 @@
       "bbox": [
         [
           -121.05446622030048,
-          -35.670391208815595,
-          152.96849692366706,
-          54.51962378748593
+          -35.64962702532982,
+          152.9546302400586,
+          54.51553220897399
         ]
       ]
     },
