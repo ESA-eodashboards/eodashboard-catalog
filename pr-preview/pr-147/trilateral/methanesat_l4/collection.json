@@ -84,6 +84,18 @@
       "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
+      "rel": "xyz",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
+      "type": "image/png",
+      "title": "Overlay labels",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "overlay_bright",
+      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
+    },
+    {
       "rel": "mapbox-style-document",
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
       "type": "application/json",
@@ -97,18 +109,6 @@
         "mapboxauth"
       ],
       "attribution": "{ Open Infrastructure Map: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors; Map Design and Analysis <a href=\"https://openinframap.org/copyright\" target=\"_blank\">OpenInfraMap</a> }"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "image/png",
-      "title": "Overlay labels",
-      "roles": [
-        "overlay",
-        "visible"
-      ],
-      "id": "overlay_bright",
-      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "parent",
@@ -141,7 +141,7 @@
   "eox:colorlegend": {
     "domain": [
       0,
-      50
+      100
     ],
     "range": [
       "#fff5f0",
