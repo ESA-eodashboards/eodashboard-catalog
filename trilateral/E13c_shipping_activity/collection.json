@@ -240,29 +240,29 @@
       "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
-      "PS2"
+      "PS2",
+      "MSI"
     ],
     "cities": [
-      "Ghent",
-      "Hamburg",
-      "Los Angeles",
-      "Gdynia",
+      "San Francisco",
+      "Suez",
       "Dunkirk",
-      "Suez ",
+      "Hamburg",
       "New York",
       "Genoa",
-      "San Francisco",
-      "Suez"
+      "Los Angeles",
+      "Gdynia",
+      "Ghent",
+      "Suez "
     ],
     "countries": [
-      "PL",
-      "BE",
-      "FR",
-      "EG",
-      "US",
       "IT",
-      "DE"
+      "DE",
+      "US",
+      "PL",
+      "EG",
+      "FR",
+      "BE"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg"
