@@ -1,7 +1,7 @@
 {
-  "Name": "Sentinel-5P Total Column Water Vapor (day)",
-  "Title": "Sentinel-5P Total Column Water Vapor (day)",
-  "Description": "S5P-L3GRD-TCWV-DAY/S5P-L3GRD-TCWV-DAY.md",
+  "Name": "Sentinel-5P Total Column Water Vapor (month)",
+  "Title": "Sentinel-5P Total Column Water Vapor (month)",
+  "Description": "S5P-L3GRD-TCWV-MONTH/S5P-L3GRD-TCWV-MONTH.md",
   "DataSource": {
     "Spaceborne": {
       "Satellite": [
@@ -293,15 +293,15 @@
       70.0
     ]
   },
-  "Legend": "S5P-L3GRD-TCWV-DAY/S5P-L3GRD-TCWV-DAY_legend.png",
-  "EodashIdentifier": "S5P-L3GRD-TCWV-DAY",
+  "Legend": "S5P-L3GRD-TCWV-MONTH/S5P-L3GRD-TCWV-MONTH_legend.png",
+  "EodashIdentifier": "S5P-L3GRD-TCWV-MONTH",
   "Resources": [
     {
       "EndPoint": "https://services.sentinel-hub.com",
       "Name": "Sentinel Hub",
       "Type": "byoc",
-      "CollectionId": "9c005536-bbe3-4eb7-8b06-4079d78506cd",
-      "LayerId": "S5P-L3GRD-TCWV-DAY",
+      "CollectionId": "22031eb3-2967-41fe-b48f-b56dbf3dd52e",
+      "LayerId": "S5P-L3GRD-TCWV-MONTH",
       "DataProjection": 3857
     }
   ]
