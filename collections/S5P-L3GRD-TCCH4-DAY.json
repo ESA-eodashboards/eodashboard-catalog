@@ -53,7 +53,7 @@
       "Type": "byoc",
       "CollectionId": "d82e463b-0714-45c2-87b2-4c4c6cc60330",
       "LayerId": "S5P-L3GRD-TCCH4-DAY",
-      "DataProjection": 4326
+      "DataProjection": 3857
     }
   ]
 }

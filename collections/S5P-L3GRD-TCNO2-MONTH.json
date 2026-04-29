@@ -299,7 +299,7 @@
       "Type": "byoc",
       "CollectionId": "39ba43af-0b6a-4738-9ab1-60895cc1354b",
       "LayerId": "S5P-L3GRD-TCNO2-MONTH",
-      "DataProjection": 4326
+      "DataProjection": 3857
     }
   ]
 }
