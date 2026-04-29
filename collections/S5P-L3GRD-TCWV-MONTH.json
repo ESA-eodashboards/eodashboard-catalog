@@ -15,6 +15,7 @@
   "Agency": [
     "ESA"
   ],
+  "Image": "S5P-L3GRD-TCWV-DAY/S5P-L3GRD-TCWV-DAY_thumbnail.jpg",
   "Colorlegend": {
     "domain": [
       0.0,
@@ -280,7 +281,17 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "TCWV column density [kg/m^(2)]"
+    "title": "TCWV column density [kg/m\u00b2]",
+    "tickValues": [
+      0.0,
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      60.0,
+      70.0
+    ]
   },
   "Legend": "S5P-L3GRD-TCWV-DAY/S5P-L3GRD-TCWV-DAY_legend.png",
   "EodashIdentifier": "S5P-L3GRD-TCWV-DAY",
