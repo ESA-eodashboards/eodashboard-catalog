@@ -1,7 +1,7 @@
 {
   "Name": "Volcanic SO₂ COBRA (7km) NRT by Sentinel-5P TROPOMI (Daily)",
   "Title": "Volcanic SO₂ COBRA (7km) NRT by Sentinel-5P TROPOMI (Daily)",
-  "Description": "S5P-L3GRD-VOLCSO2NRT-DAY/S5P-L3GRD-VOLCSO2NRT-DAY.md",
+  "Description": "S5P-L3GRD-VOLCSO2COBRA-DAY/S5P-L3GRD-VOLCSO2COBRA-DAY.md",
   "Themes": [
     "atmosphere"
   ],
@@ -36,7 +36,7 @@
       "Url": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/so2-7km-nrt"
     }
   ],
-  "Image": "S5P-L3GRD-VOLCSO2NRT-DAY/S5P-L3GRD-VOLCSO2NRT-DAY_thumbnail.jpg",
+  "Image": "S5P-L3GRD-VOLCSO2COBRA-DAY/S5P-L3GRD-VOLCSO2COBRA-DAY_thumbnail.jpg",
   "Colorlegend": {
     "domain": [0.0, 20.0],
     "range": [
@@ -47,15 +47,15 @@
     "title": "SO2 column number density [DU]",
     "tickValues": [0.0, 4.0, 8.0, 12.0, 16.0, 20.0]
   },
-  "Legend": "S5P-L3GRD-VOLCSO2NRT-DAY/S5P-L3GRD-VOLCSO2NRT-DAY_legend.png",
-  "EodashIdentifier": "S5P-L3GRD-VOLCSO2NRT-DAY",
+  "Legend": "S5P-L3GRD-VOLCSO2COBRA-DAY/S5P-L3GRD-VOLCSO2COBRA-DAY_legend.png",
+  "EodashIdentifier": "S5P-L3GRD-VOLCSO2COBRA-DAY",
   "Resources": [
     {
       "EndPoint": "https://services.sentinel-hub.com",
       "Name": "Sentinel Hub",
       "Type": "byoc",
       "CollectionId": "a92b09e9-532c-49b3-9855-f352b2a3bb0a",
-      "LayerId": "S5P-L3GRD-VOLCSO2NRT-DAY",
+      "LayerId": "S5P-L3GRD-VOLCSO2COBRA-DAY",
       "DataProjection": 3857
     }
   ],
