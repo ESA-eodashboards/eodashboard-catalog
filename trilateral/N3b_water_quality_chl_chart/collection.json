@@ -221,21 +221,21 @@
       "Sentinel-3"
     ],
     "sensor": [
-      "MODIS",
       "SGLI",
-      "OLCI"
+      "OLCI",
+      "MODIS"
     ],
     "cities": [
-      "Kobe",
-      "Nagoya",
       "New York",
       "Tokyo",
-      "Venice"
+      "Venice",
+      "Kobe",
+      "Nagoya"
     ],
     "countries": [
-      "JP",
+      "IT",
       "US",
-      "IT"
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.jpg"
