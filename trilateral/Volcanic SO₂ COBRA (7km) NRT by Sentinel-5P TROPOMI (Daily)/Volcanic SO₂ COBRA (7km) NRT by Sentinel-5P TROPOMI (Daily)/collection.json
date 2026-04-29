@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Volcanic SO₂ COBRA (7km) NRT by Sentinel-5P TROPOMI (Daily)",
   "stac_version": "1.1.0",
-  "description": "##  Volcanic SO₂ (7km) NRT by Sentinel-5P TROPOMI (Daily)\nThe Volcanic SO₂ (7km) Near Real-Time (NRT) product measures sulfur dioxide concentrations primarily from volcanic sources, retrieved assuming SO₂ is located at an altitude of 7 km in the atmosphere. This product provides daily snapshots of volcanic degassing and eruption plumes within the last seven days, enabling near-real-time monitoring of volcanic activity and the rapid tracking of sulfur-rich emissions.\n\n#### About the dataset\n\n- The Volcanic SO₂ (7km) NRT product is measured by the  [TROPOMI instrument](https://www.tropomi.eu/) aboard Copernicus ESA's [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P) satellite, operating in the UV spectral range.\n- The retrieval assumes SO₂ is located in a layer at 7 km altitude, making it particularly suited for detecting elevated volcanic plumes injected into the free troposphere.\n- Only the last seven days of data are provided as NRT maps, making this product ideal for operational monitoring of ongoing volcanic events.\n- Only pixels where a volcanic source is most likely (sulfurdioxide_detection_flag > 0) and where the solar zenith angle is within limits (SZA < 70°) are included. Note that SO₂ from potential anthropogenic sources has not been filtered out and can therefore still appear in the data.\n- More information on the TROPOMI SO₂ measurements and quality assessment can be found in the [Product Readme file](https://sentiwiki.copernicus.eu/__attachments/1673595/S5P-MPC-BIRA-PRF-SO2-Sentinel-5P-Sulphur-Dioxide-Readme-2025-2.11.pdf). \n\n\n####  Use cases\nThe Volcanic SO₂ (7km) NRT product is useful for:\n- Rapid response monitoring of volcanic eruptions and passive degassing activity globally.\n- Tracking the short-term transport of volcanic SO₂ plumes in near real-time.\n- Aviation safety: early detection of sulfur-rich ash and gas clouds that pose risks to aircraft.\n",
+  "description": "## Volcanic SO₂ COBRA (7km) by Sentinel-5P TROPOMI (Daily)\nThe Volcanic SO₂ COBRA (7km) product provides measurements of sulfur dioxide primarily from volcanic sources, retrieved assuming the SO₂ is located in a layer at 7 km altitude in the atmosphere, which is typical for volcanic plumes injected into the free troposphere.\nThis product provides daily snapshots of volcanic degassing and eruption plumes, enabling monitoring of volcanic activity and the transport of sulfur-rich emissions over large distances.\n\n#### About the dataset\n- The Volcanic SO₂ COBRA (7km) product is measured by the [TROPOMI instrument](https://www.tropomi.eu/) aboard Copernicus ESA's [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P).\n- This product uses the Covariance-Based Retrieval Algorithm (COBRA), implemented operationally in November 2024.\n- The retrieval assumes SO₂ is located in a 7 km altitude layer, making it particularly suited for detecting elevated volcanic plumes.\n- Note that SO₂ from potential anthropogenic sources has not been filtered out and may still appear in the data.\nMore information on the TROPOMI SO₂ measurements and quality assessment can be found in the [Product Readme file](https://sentiwiki.copernicus.eu/__attachments/1673595/S5P-MPC-BIRA-PRF-SO2-Sentinel-5P-Sulphur-Dioxide-Readme-2025-2.11.pdf).\n\n#### Use cases\n\nThe Volcanic SO₂ COBRA (7km) product is useful for:\n- Monitoring volcanic eruptions and passive degassing activity globally.\n- Tracking the transport and dispersion of volcanic SO₂ plumes.\n- Supporting aviation safety by detecting sulfur-rich ash and gas clouds that may pose risks to aircraft.\n- Complementing anthropogenic SO₂ products for a more complete picture of tropospheric sulfur dioxide sources.\n",
   "links": [
     {
       "rel": "root",
@@ -16,7 +16,7 @@
       "type": "image/png",
       "title": "Volcanic SO₂ COBRA (7km) NRT by Sentinel-5P TROPOMI (Daily)",
       "wms:layers": [
-        "S5P-L3GRD-VOLCSO2NRT-DAY"
+        "S5P-L3GRD-VOLCSO2COBRA-DAY"
       ],
       "role": [
         "data"
@@ -52,7 +52,7 @@
       ]
     }
   },
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2NRT-DAY/S5P-L3GRD-VOLCSO2NRT-DAY_thumbnail.jpg",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2COBRA-DAY/S5P-L3GRD-VOLCSO2COBRA-DAY_thumbnail.jpg",
   "themes": [
     "atmosphere"
   ],
@@ -77,7 +77,7 @@
   "agency": [
     "ESA"
   ],
-  "subcode": "S5P-L3GRD-VOLCSO2NRT-DAY",
+  "subcode": "S5P-L3GRD-VOLCSO2COBRA-DAY",
   "sensor": [
     "TROPOMI"
   ],
@@ -393,7 +393,7 @@
       ]
     },
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2NRT-DAY/S5P-L3GRD-VOLCSO2NRT-DAY_legend.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2COBRA-DAY/S5P-L3GRD-VOLCSO2COBRA-DAY_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
@@ -418,7 +418,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2NRT-DAY/S5P-L3GRD-VOLCSO2NRT-DAY_thumbnail.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-VOLCSO2COBRA-DAY/S5P-L3GRD-VOLCSO2COBRA-DAY_thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
