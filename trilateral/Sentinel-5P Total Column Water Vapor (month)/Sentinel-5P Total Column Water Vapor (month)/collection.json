@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "Sentinel-5P Total Column Water Vapor (day)",
+  "id": "Sentinel-5P Total Column Water Vapor (month)",
   "stac_version": "1.1.0",
   "description": "## Sentinel-5P Total Column Water Vapor (day)\nDescription here.\n",
   "links": [
@@ -14,9 +14,9 @@
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
-      "title": "Sentinel-5P Total Column Water Vapor (day)",
+      "title": "Sentinel-5P Total Column Water Vapor (month)",
       "wms:layers": [
-        "S5P-L3GRD-TCWV-DAY"
+        "S5P-L3GRD-TCWV-MONTH"
       ],
       "role": [
         "data"
@@ -27,14 +27,14 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-5P Total Column Water Vapor (day)"
+      "title": "Sentinel-5P Total Column Water Vapor (month)"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCWV-DAY/S5P-L3GRD-TCWV-DAY_thumbnail.jpg",
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCWV-MONTH/S5P-L3GRD-TCWV-MONTH_thumbnail.jpg",
   "agency": [
     "ESA"
   ],
-  "subcode": "S5P-L3GRD-TCWV-DAY",
+  "subcode": "S5P-L3GRD-TCWV-MONTH",
   "sensor": [
     "TROPOMI"
   ],
@@ -320,7 +320,7 @@
   },
   "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
-  "title": "Sentinel-5P Total Column Water Vapor (day)",
+  "title": "Sentinel-5P Total Column Water Vapor (month)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -335,8 +335,8 @@
     "temporal": {
       "interval": [
         [
-          "2018-04-30T00:00:00Z",
-          "2025-01-31T00:00:00Z"
+          "2018-05-01T00:00:00Z",
+          "2018-07-01T00:00:00Z"
         ]
       ]
     }
@@ -352,14 +352,14 @@
       ]
     },
     "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCWV-DAY/S5P-L3GRD-TCWV-DAY_legend.png",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCWV-MONTH/S5P-L3GRD-TCWV-MONTH_legend.png",
       "type": "image/png",
       "roles": [
         "metadata"
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCWV-DAY/S5P-L3GRD-TCWV-DAY_thumbnail.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCWV-MONTH/S5P-L3GRD-TCWV-MONTH_thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"

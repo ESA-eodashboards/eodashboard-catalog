@@ -202,7 +202,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2026-04-29T10:42:47.103218Z"
+          "2026-04-29T11:05:51.263446Z"
         ]
       ]
     }
@@ -230,22 +230,22 @@
       "ALOS-2"
     ],
     "sensor": [
-      "C-SAR",
-      "PALSAR-2"
+      "PALSAR-2",
+      "C-SAR"
     ],
     "cities": [
-      "Palm Springs",
-      "Singapore",
-      "Nagoya",
-      "Beijing",
+      "Los Angeles",
       "Arcadia",
-      "Los Angeles"
+      "Singapore",
+      "Beijing",
+      "Palm Springs",
+      "Nagoya"
     ],
     "countries": [
-      "US",
       "JP",
-      "CN",
-      "SG"
+      "US",
+      "SG",
+      "CN"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg"
