@@ -229,17 +229,17 @@
     ],
     "cities": [
       "Dhaka",
-      "Mumbai",
-      "Shanghai",
       "Beijing",
-      "New Delhi",
       "New York",
-      "Tokyo"
+      "Tokyo",
+      "Shanghai",
+      "New Delhi",
+      "Mumbai"
     ],
     "countries": [
+      "JP",
       "US",
       "BD",
-      "JP",
       "IN",
       "CN"
     ],

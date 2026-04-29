@@ -21,7 +21,7 @@
       "role": [
         "data"
       ],
-      "proj:epsg": 4326
+      "proj:epsg": 3857
     },
     {
       "rel": "parent",
@@ -335,7 +335,7 @@
       500.0
     ]
   },
-  "proj:epsg": 4326,
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Tropospheric Column HCHO by Sentinel-5P TROPOMI (Daily)",
   "extent": {

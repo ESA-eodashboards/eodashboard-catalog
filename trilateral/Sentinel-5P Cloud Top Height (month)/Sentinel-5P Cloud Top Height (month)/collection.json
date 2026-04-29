@@ -21,7 +21,7 @@
       "role": [
         "data"
       ],
-      "proj:epsg": 4326
+      "proj:epsg": 3857
     },
     {
       "rel": "parent",
@@ -317,7 +317,7 @@
       12.0
     ]
   },
-  "proj:epsg": 4326,
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Sentinel-5P Cloud Top Height (month)",
   "extent": {

@@ -21,7 +21,7 @@
       "role": [
         "data"
       ],
-      "proj:epsg": 4326
+      "proj:epsg": 3857
     },
     {
       "rel": "parent",
@@ -334,7 +334,7 @@
       10.0
     ]
   },
-  "proj:epsg": 4326,
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Total Column BrO by Sentinel-5P TROPOMI (Daily)",
   "extent": {

@@ -21,7 +21,7 @@
       "role": [
         "data"
       ],
-      "proj:epsg": 4326
+      "proj:epsg": 3857
     },
     {
       "rel": "parent",
@@ -316,7 +316,7 @@
       3.0
     ]
   },
-  "proj:epsg": 4326,
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Sentinel-5P Solar Induced Fluorescence (month)",
   "extent": {

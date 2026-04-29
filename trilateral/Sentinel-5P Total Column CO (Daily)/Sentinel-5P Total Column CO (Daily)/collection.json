@@ -21,7 +21,7 @@
       "role": [
         "data"
       ],
-      "proj:epsg": 4326
+      "proj:epsg": 3857
     },
     {
       "rel": "parent",
@@ -331,7 +331,7 @@
       175.0
     ]
   },
-  "proj:epsg": 4326,
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Sentinel-5P Total Column CO (Daily)",
   "extent": {

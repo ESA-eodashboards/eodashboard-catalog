@@ -21,7 +21,7 @@
       "role": [
         "data"
       ],
-      "proj:epsg": 4326
+      "proj:epsg": 3857
     },
     {
       "rel": "parent",
@@ -79,7 +79,7 @@
     "tickFormat": ".0f",
     "title": "Absorbing Aerosol Index @ 354/388 nm"
   },
-  "proj:epsg": 4326,
+  "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Absorbing Aerosol Index (AAI) by Sentinel-5P TROPOMI (Monthly)",
   "extent": {
