@@ -15,7 +15,7 @@
       "href": "./methanesat-l4-dispersed-area-emissions/collection.json",
       "type": "application/json",
       "title": "Methanesat Dispersed Area Emissions",
-      "endpointtype": "VEDA_tiles",
+      "endpointtype": "Collection-only",
       "code": "methanesat-l4-dispersed-area-emissions",
       "id": "methanesat-l4-dispersed-area-emissions",
       "themes": [
@@ -177,24 +177,18 @@
     "spatial": {
       "bbox": [
         [
-          -121.118389578972,
-          -35.7593865114812,
-          152.9407795104786,
-          54.2494853631855
-        ],
-        [
-          -121.118389578972,
-          -35.7593865114812,
-          152.9407795104786,
-          54.2494853631855
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-05-22T21:11:58Z",
-          "2025-06-14T11:12:26Z"
+          "2026-05-13T13:08:34.702555Z",
+          "2026-05-13T13:08:34.702555Z"
         ]
       ]
     }

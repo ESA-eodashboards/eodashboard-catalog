@@ -11,13 +11,6 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "xyz",
-      "href": "https://eoapi.workspace.dashboards-operations.aws.hub.eox.at/raster/collections/methanesat-l4-dispersed-area-emissions/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=data&colormap_name=reds&rescale=0,100&expression=data_b1",
-      "type": "image/png",
-      "title": "Methanesat Dispersed Area Emissions",
-      "key": "b021d58f-ed63-4e43-9f31-ded0017d267a"
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -67,24 +60,24 @@
     "tickFormat": ".0f",
     "title": "CH4 emissions [kg/km²/hr]"
   },
-  "endpointtype": "VEDA_tiles",
+  "endpointtype": "Collection-only",
   "title": "Methanesat Dispersed Area Emissions",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -121.118389578972,
-          -35.7593865114812,
-          152.9407795104786,
-          54.2494853631855
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2024-05-22T21:11:58Z",
-          "2025-06-14T11:12:26Z"
+          "2026-05-13T13:08:34.702555Z",
+          null
         ]
       ]
     }
@@ -100,14 +93,6 @@
     }
   ],
   "assets": {
-    "geoparquet": {
-      "href": "./items.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "GeoParquet Items",
-      "roles": [
-        "collection-mirror"
-      ]
-    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/methanesat_l4/methanesat_l4_thumbnail.jpg",
       "type": "image/png",
