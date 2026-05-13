@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "methanesat_l4",
+  "id": "methanesat-l4-dispersed-area-emissions",
   "stac_version": "1.1.0",
   "description": "## Methanesat Dispersed Area Emissions and Distinct Point Sources\n\n#### About the dataset\n\nhttps://www.methanesat.org/\n\n#### Use cases\n",
   "links": [
@@ -15,7 +15,7 @@
       "href": "https://eoapi.workspace.dashboards-operations.aws.hub.eox.at/raster/collections/methanesat-l4-dispersed-area-emissions/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=data&colormap_name=reds&rescale=0,100&expression=data_b1",
       "type": "image/png",
       "title": "Methanesat Dispersed Area Emissions",
-      "key": "16e4c8a3-506f-480d-ab0d-c34925c2d16e"
+      "key": "b021d58f-ed63-4e43-9f31-ded0017d267a"
     },
     {
       "rel": "parent",
@@ -38,7 +38,7 @@
   "agency": [
     "MethaneSAT LLC"
   ],
-  "subcode": "methanesat_l4",
+  "subcode": "methanesat-l4-dispersed-area-emissions",
   "satellite": [
     "MethaneSAT"
   ],

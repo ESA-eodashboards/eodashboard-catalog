@@ -12,18 +12,18 @@
     },
     {
       "rel": "child",
-      "href": "./methanesat_l4/collection.json",
+      "href": "./methanesat-l4-dispersed-area-emissions/collection.json",
       "type": "application/json",
       "title": "Methanesat Dispersed Area Emissions",
-      "code": "methanesat_l4",
-      "id": "methanesat_l4",
+      "code": "methanesat-l4-dispersed-area-emissions",
+      "id": "methanesat-l4-dispersed-area-emissions",
       "themes": [
         "atmosphere"
       ],
       "providers": [
         "MethaneSAT LLC"
       ],
-      "subcode": "methanesat_l4",
+      "subcode": "methanesat-l4-dispersed-area-emissions",
       "satellite": [
         "MethaneSAT"
       ],
