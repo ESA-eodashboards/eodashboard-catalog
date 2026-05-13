@@ -35,31 +35,6 @@
   "satellite": [
     "MethaneSAT"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      100
-    ],
-    "range": [
-      "#fff5f0",
-      "#fee8de",
-      "#fed7c7",
-      "#fcc1a9",
-      "#fca88b",
-      "#fc8f6f",
-      "#fb7656",
-      "#f75c41",
-      "#f03f2e",
-      "#dc2824",
-      "#c5171c",
-      "#ae1117",
-      "#8d0912",
-      "#67000d"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "CH4 emissions [kg/km²/hr]"
-  },
   "endpointtype": "Collection-only",
   "title": "Methanesat Dispersed Area Emissions",
   "extent": {
@@ -76,7 +51,7 @@
     "temporal": {
       "interval": [
         [
-          "2026-05-13T13:08:34.702555Z",
+          "2026-05-13T13:25:33.903940Z",
           null
         ]
       ]
