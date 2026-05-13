@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "Sentinel-5P Total Column Water Vapor (month)",
   "stac_version": "1.1.0",
-  "description": "## Sentinel-5P Total Column Water Vapor (day)\nDescription here.\n",
+  "description": "## Total Column Water Vapor by Sentinel-5P TROPOMI (Monthly)\nWater vapour is one of the major components of the Earth's atmosphere, with strong impacts on climate and weather. It absorbs radiation in the infrared spectral range and, due to its abundance in the atmosphere, is the most important natural greenhouse gas. Accurate knowledge of the total column water vapour (TCWV) is essential for atmospheric correction of satellite measurements, numerical weather prediction, and climate studies.\n\n\n#### About the dataset\n- The TCWV product is measured by the [TROPOMI instrument](https://www.tropomi.eu/) aboard ESA’s [Sentinel-5P Precursor](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P) satellite.\n- The product provides monthly averaged total vertical column of water vapour (kg/m²) between the surface and the top of the atmosphere.\n- More information on the TROPOMI TCWV measurements and quality assessment can be found in the [Product Readme file](https://data-portal.s5p-pal.com/product-docs/tcwv/S5P_DLR_PUM_TCWV_1.6.1_signed.pdf).\n\n#### Use cases\n- Monitoring the global distribution and variability of atmospheric water vapour.\n- Supporting numerical weather prediction and atmospheric reanalysis.\n- Studying the role of water vapour in the Earth's energy budget and greenhouse effect.\nC- orrecting atmospheric effects in satellite retrievals of other trace gases.\n",
   "links": [
     {
       "rel": "root",
