@@ -16,9 +16,9 @@
       "type": "application/json",
       "title": "EarthCARE MSI",
       "endpointtype": "COG source",
-      "code": "earthCARE_MSI",
+      "code": "earthCARE_MSI_COG2025",
       "id": "earthCARE_Team1ScienceHub25",
-      "subcode": "earthCARE_MSI"
+      "subcode": "earthCARE_MSI_COG2025"
     },
     {
       "rel": "xyz",
@@ -75,7 +75,7 @@
       "title": "Earth Observing Dashboard"
     }
   ],
-  "subcode": "earthCARE_MSI",
+  "subcode": "earthCARE_MSI_COG2025",
   "title": "EarthCARE MSI",
   "extent": {
     "spatial": {
@@ -106,7 +106,7 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "earthCARE_MSI"
+      "earthCARE_MSI_COG2025"
     ]
   }
 }
