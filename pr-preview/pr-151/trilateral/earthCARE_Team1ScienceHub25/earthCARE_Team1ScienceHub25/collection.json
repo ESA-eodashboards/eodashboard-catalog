@@ -15,7 +15,7 @@
       "href": "https://dashboards-operations.aws.hub.eox.at/api/public/share/public/earthCARE_Team1SienceHub25/ECA_MSI_1B_COG2_style.json",
       "type": "text/cog-styles",
       "asset:keys": [
-        "earthCARE_1"
+        "earthCARE_COG4"
       ]
     },
     {
@@ -32,18 +32,18 @@
     "spatial": {
       "bbox": [
         [
-          304.0794850578715,
-          -81.911572265625,
-          501.57844497387146,
-          66.22093505859374
+          0.002731592490146796,
+          -0.0007358241731196813,
+          0.004505755833049311,
+          0.0005948727808942067
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2025-06-16T00:00:00Z",
+          "2025-06-28T00:00:00Z"
         ]
       ]
     }
