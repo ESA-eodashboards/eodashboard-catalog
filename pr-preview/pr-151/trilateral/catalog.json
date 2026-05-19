@@ -20,6 +20,15 @@
       "subcode": "earthCARE_MSI_COG2025"
     },
     {
+      "rel": "child",
+      "href": "./earthCARE_Team1ScienceHub25_geojson/collection.json",
+      "type": "application/json",
+      "title": "EarthCARE MSI Orbit Track",
+      "code": "earthCARE_MSI_geogson2025",
+      "id": "earthCARE_Team1ScienceHub25_geojson",
+      "subcode": "earthCARE_MSI_geogson2025"
+    },
+    {
       "rel": "self",
       "href": "https://esa-eodashboards.github.io/eodashboard-catalog/trilateral/catalog.json",
       "type": "application/json"

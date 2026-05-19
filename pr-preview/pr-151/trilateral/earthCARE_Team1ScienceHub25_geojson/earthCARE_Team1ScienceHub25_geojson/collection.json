@@ -1,0 +1,64 @@
+{
+  "type": "Collection",
+  "id": "earthCARE_Team1ScienceHub25_geojson",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "style",
+      "href": "https://dashboards-operations.aws.hub.eox.at/api/public/share/public/earthCARE_Team1SienceHub25/earthcare_msi_geojson_style.json",
+      "type": "text/vector-styles",
+      "asset:keys": [
+        "earthCARE_COG3_orbit",
+        "https://dashboards-operations.aws.hub.eox.at/api/public/share/public/earthCARE_Team1SienceHub25/ECA_EXAD_AC__TC__2B_20250621T010314Z_20250621T035704Z_06038G.geojson",
+        "earthCARE_COG4_orbit"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "EarthCARE MSI Orbit Track"
+    }
+  ],
+  "subcode": "earthCARE_MSI_geogson2025",
+  "endpointtype": "GeoJSON source",
+  "title": "EarthCARE MSI Orbit Track",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -85.0,
+          180.0,
+          85.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-01-01T00:00:00Z",
+          "2025-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    }
+  }
+}
