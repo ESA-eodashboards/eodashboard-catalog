@@ -21,12 +21,12 @@
     },
     {
       "rel": "child",
-      "href": "./earthCARE_Team1ScienceHub25_geojson/collection.json",
+      "href": "./earthCARE_orbit_track/collection.json",
       "type": "application/json",
-      "title": "EarthCARE MSI Orbit Track",
-      "code": "earthCARE_MSI_geogson2025",
-      "id": "earthCARE_Team1ScienceHub25_geojson",
-      "subcode": "earthCARE_MSI_geogson2025"
+      "title": "EarthCARE Orbit Track",
+      "code": "earthCARE_orbit_track",
+      "id": "earthCARE_orbit_track",
+      "subcode": "earthCARE_orbit_track"
     },
     {
       "rel": "self",

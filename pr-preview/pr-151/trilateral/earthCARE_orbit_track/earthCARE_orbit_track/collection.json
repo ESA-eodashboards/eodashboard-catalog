@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "earthCARE_Team1ScienceHub25_geojson",
+  "id": "earthCARE_orbit_track",
   "stac_version": "1.1.0",
-  "description": "",
+  "description": "Ground track of the EarthCARE satellite, showing the sub-satellite path for a single orbit. EarthCARE (Earth Cloud, Aerosol and Radiation Explorer) is a joint ESA/JAXA mission designed to study the role of clouds and aerosols in the Earth's radiation budget.",
   "links": [
     {
       "rel": "root",
@@ -24,12 +24,12 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "EarthCARE MSI Orbit Track"
+      "title": "EarthCARE Orbit Track"
     }
   ],
-  "subcode": "earthCARE_MSI_geogson2025",
+  "subcode": "earthCARE_orbit_track",
   "endpointtype": "GeoJSON source",
-  "title": "EarthCARE MSI Orbit Track",
+  "title": "EarthCARE Orbit Track",
   "extent": {
     "spatial": {
       "bbox": [
