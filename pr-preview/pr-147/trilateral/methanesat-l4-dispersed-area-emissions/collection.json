@@ -40,14 +40,6 @@
       ]
     },
     {
-      "rel": "service",
-      "href": "https://eoapi.workspace.dashboards-operations.aws.hub.eox.at/raster/collections/methanesat-l4-dispersed-area-emissions/statistics?assets=data",
-      "type": "application/json",
-      "id": "veda_statistics",
-      "method": "POST",
-      "endpoint": "veda_stac"
-    },
-    {
       "rel": "xyz",
       "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
@@ -138,8 +130,6 @@
   "satellite": [
     "MethaneSAT"
   ],
-  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/methanesat_l4/chart.json",
   "auth:schemes": {
     "mapboxauth": {
       "type": "apiKey",
@@ -162,8 +152,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-05-13T13:25:33.903940Z",
-          "2026-05-13T13:25:33.903940Z"
+          "2026-05-20T12:20:38.321458Z",
+          "2026-05-20T12:20:38.321458Z"
         ]
       ]
     }
