@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "earthCARE_orbit_track",
+  "id": "EarthCARE_orbit_track",
   "stac_version": "1.1.0",
-  "description": "Ground track of the EarthCARE satellite for a single orbit. EarthCARE (Earth Cloud, Aerosol and Radiation Explorer) is a joint ESA/JAXA mission launched on 28 May 2024. The satellite flies in a sun-synchronous orbit at 393 km altitude with an inclination of 97.1° and an orbital period of 92.5 minutes. Its near-polar orbit crosses the equator in the early afternoon, providing optimal illumination and minimal sun glint for the passive instruments. The ground track repeats every 25 days.",
+  "description": "Ground track of the EarthCARE satellite for a single orbit. EarthCARE (Earth Cloud, Aerosol and Radiation Explorer) is a joint ESA/JAXA mission launched on 28 May 2024. The satellite flies in a sun-synchronous orbit at 393 km altitude with an inclination of 97.1° and an orbital period of 92.5 minutes. Its near-polar orbit crosses the equator in the early afternoon, providing optimal illumination and minimal sun glint for the passive instruments. The ground track repeats every 25 days.\n\nEarthCARE (Earth Clouds, Aerosols and Radiation Explorer) is an earth observation satellite of the European Space Agency (ESA) and the Japan Aerospace Exploration Agency (JAXA). ",
   "links": [
     {
       "rel": "root",
@@ -12,13 +12,13 @@
     },
     {
       "rel": "child",
-      "href": "./earthCARE_orbit_track/collection.json",
+      "href": "./EarthCARE_orbit_track/collection.json",
       "type": "application/json",
       "title": "EarthCARE Orbit Track",
       "endpointtype": "GeoJSON source",
-      "code": "earthCARE_orbit_track",
-      "id": "earthCARE_orbit_track",
-      "subcode": "earthCARE_orbit_track"
+      "code": "EarthCARE_orbit_track",
+      "id": "EarthCARE_orbit_track",
+      "subcode": "EarthCARE_orbit_track"
     },
     {
       "rel": "xyz",
@@ -75,7 +75,7 @@
       "title": "Earth Observing Dashboard"
     }
   ],
-  "subcode": "earthCARE_orbit_track",
+  "subcode": "EarthCARE_orbit_track",
   "title": "EarthCARE Orbit Track",
   "extent": {
     "spatial": {
@@ -106,7 +106,7 @@
   "license": "other",
   "summaries": {
     "subcode": [
-      "earthCARE_orbit_track"
+      "EarthCARE_orbit_track"
     ]
   }
 }
