@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "earthCARE_Team1ScienceHub25",
+  "id": "earthCARE_MSI",
   "stac_version": "1.1.0",
   "description": "**EarthCARE MSI Data**\nThe Multi-Spectral Imager (MSI) is a passive sensor with seven sensitivity channels in the visible to thermal infrared regions. It measures electromagnetic waves emitted and reflected from the Earth's surface including the atmosphere. The data from each channel provides information on the properties and distribution of clouds and aerosols.\nMSI is the only sensor onboard EarthCARE with a cross-track range (perpendicular to the satellite's direction of travel), which means that it can acquire data over an area of approximately 150 km in width near the Earth's surface. Unlike vertical profiles from radar or lidar observation, MSI data offers horizontal information that includes the atmosphere on the Earth’s surface. Such planar information from MSI complements the vertical information from CPR and ATLID in the horizontal direction and enhances the effectiveness of the synergetic data from the four integrated sensors as three-dimensional information.\nMSI's seven channels consist of four channels (visible, near-infrared, and short-wavelength infrared) that measure the reflection of sunlight by the Earth and three channels (thermal infrared) that measure Earth radiation. Nighttime observation data are obtained from only three thermal infrared bands.\n",
   "links": [
@@ -24,12 +24,12 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "EarthCARE MSI"
+      "title": "EarthCARE  Multi Spectral Imager (MSI)"
     }
   ],
-  "subcode": "earthCARE_MSI_COG2025",
+  "subcode": "earthCARE_MSI",
   "endpointtype": "COG source",
-  "title": "EarthCARE MSI",
+  "title": "EarthCARE  Multi Spectral Imager (MSI)",
   "extent": {
     "spatial": {
       "bbox": [

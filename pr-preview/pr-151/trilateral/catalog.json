@@ -12,12 +12,12 @@
     },
     {
       "rel": "child",
-      "href": "./earthCARE_Team1ScienceHub25/collection.json",
+      "href": "./earthCARE_MSI/collection.json",
       "type": "application/json",
-      "title": "EarthCARE MSI",
-      "code": "earthCARE_MSI_COG2025",
-      "id": "earthCARE_Team1ScienceHub25",
-      "subcode": "earthCARE_MSI_COG2025"
+      "title": "EarthCARE  Multi Spectral Imager (MSI)",
+      "code": "earthCARE_MSI",
+      "id": "earthCARE_MSI",
+      "subcode": "earthCARE_MSI"
     },
     {
       "rel": "child",
