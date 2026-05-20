@@ -1,0 +1,41 @@
+{
+  "Name": "EarthCARE_orbit_track",
+  "Title": "EarthCARE Orbit Track",
+  "Description": "**EarthCARE Orbit track**\nThis shows the ground track of the EarthCARE satellite for a single orbit. EarthCARE (Earth Cloud, Aerosol and Radiation Explorer) is a joint ESA/JAXA mission launched on 28 May 2024. The satellite flies in a sun-synchronous orbit at 393 km altitude with an inclination of 97.1° and an orbital period of 92.5 minutes. Its near-polar orbit crosses the equator in the early afternoon, providing optimal illumination and minimal sun glint for the passive instruments. The ground track repeats every 25 days.\n",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.dashboards-operations.aws.hub.eox.at/api/public/share/public-708aab981-1a/earthCARE_Team1SienceHub25/earthcare_orbit_track_style.json",
+      "TimeEntries": [
+        {
+          "Time": "20250628",
+          "Assets": [
+            {
+              "Identifier": "EarthCARE_orbit_track_20250628",
+              "File": "https://workspace-ui-public.dashboards-operations.aws.hub.eox.at/api/public/share/public-708aab981-1a/earthCARE_Team1SienceHub25/ECA_EXAD_AC__TC__2B_20250628T152631Z_20250628T174754Z_06157A.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250616",
+          "Assets": [
+            {
+              "Identifier": "EarthCARE_orbit_track_20250616",
+              "File": "https://workspace-ui-public.dashboards-operations.aws.hub.eox.at/api/public/share/public-708aab981-1a/earthCARE_Team1SienceHub25/ECA_EXAD_AC__TC__2B_20250616T202420Z_20250616T233239Z_05973E.geojson"
+            }
+          ]
+        },
+        {
+          "Time": "20250621",
+          "Assets": [
+            {
+              "Identifier": "EarthCARE_orbit_track_20250621",
+              "File": "https://workspace-ui-public.dashboards-operations.aws.hub.eox.at/api/public/share/public-708aab981-1a/earthCARE_Team1SienceHub25/ECA_EXAD_AC__TC__2B_20250621T010314Z_20250621T035704Z_06038G.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source"
+    }
+  ],
+  "EodashIdentifier": "EarthCARE_orbit_track"
+}

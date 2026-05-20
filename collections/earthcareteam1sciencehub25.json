@@ -1,0 +1,47 @@
+{
+  "Name": "earthCARE_MSI",
+  "Title": "EarthCARE  Multi Spectral Imager (MSI)",
+  "Description": "**EarthCARE MSI Data**\nThe Multi-Spectral Imager (MSI) is a passive sensor with seven sensitivity channels in the visible to thermal infrared regions. It measures electromagnetic waves emitted and reflected from the Earth's surface including the atmosphere. The data from each channel provides information on the properties and distribution of clouds and aerosols.\nMSI is the only sensor onboard EarthCARE with a cross-track range (perpendicular to the satellite's direction of travel), which means that it can acquire data over an area of approximately 150 km in width near the Earth's surface. Unlike vertical profiles from radar or lidar observation, MSI data offers horizontal information that includes the atmosphere on the Earth’s surface. Such planar information from MSI complements the vertical information from CPR and ATLID in the horizontal direction and enhances the effectiveness of the synergetic data from the four integrated sensors as three-dimensional information.\nMSI's seven channels consist of four channels (visibe, near-infrared, and short-wavelength infrared) that measure the reflection of sunlight by the Earth and three channels (thermal infrared) that measure Earth radiation. Nighttime observation data are obtained from only three thermal infrared bands.\n**About dataset**\n* **White/bright areas**: high reflectance are clouds (for instance, thick cumulus or convective towers)\n* **Dark areas**: low reflectance, this is the ocean surface absorbing most of the incoming light\n* **Grey patches**: either thin cloud, aerosol, or ocean with some surface roughness/foam",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.dashboards-operations.aws.hub.eox.at/api/public/share/public-708aab981-1a/earthCARE_Team1SienceHub25/ECA_MSI_1B_style.json",
+      "TimeEntries": [
+        {
+          "Time": "20250616",
+          "Assets": [
+            {
+              "Identifier": "earthCARE_MSI_20250616",
+              "File": "https://workspace-ui-public.dashboards-operations.aws.hub.eox.at/api/public/share/public-708aab981-1a/earthCARE_Team1SienceHub25/ECA_MSI_1B_20250616.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20250621",
+          "Assets": [
+            {
+              "Identifier": "earthCARE_MSI_20250621",
+              "File": "https://workspace-ui-public.dashboards-operations.aws.hub.eox.at/api/public/share/public-708aab981-1a/earthCARE_Team1SienceHub25/ECA_MSI_1B_20250621.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20250628",
+          "Assets": [
+            {
+              "Identifier": "earthCARE_MSI_20250628",
+              "File": "https://workspace-ui-public.dashboards-operations.aws.hub.eox.at/api/public/share/public-708aab981-1a/earthCARE_Team1SienceHub25/ECA_MSI_1B_20250628.tif"
+            }
+          ]
+        }
+      ],
+      "Name": "COG source",
+      "Bbox": [
+        -117.62002682748742,
+        -66.19231461835192,
+        181.35850693686885,
+        45.15064578588643
+      ]
+    }
+  ],
+  "EodashIdentifier": "earthCARE_MSI"
+}
