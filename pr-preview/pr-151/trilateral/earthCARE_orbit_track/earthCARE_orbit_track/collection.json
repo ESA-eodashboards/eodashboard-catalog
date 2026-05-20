@@ -12,12 +12,10 @@
     },
     {
       "rel": "style",
-      "href": "https://dashboards-operations.aws.hub.eox.at/api/public/share/public/earthCARE_Team1SienceHub25/earthcare_msi_geojson_style.json",
+      "href": "https://dashboards-operations.aws.hub.eox.at/api/public/share/public/earthCARE_Team1SienceHub25/earthcare_orbit_track_style.json",
       "type": "text/vector-styles",
       "asset:keys": [
-        "earthCARE_COG3_orbit",
-        "earthCARE_COG2_orbit",
-        "earthCARE_COG4_orbit"
+        "earthCARE_COG2_orbit"
       ]
     },
     {
@@ -44,8 +42,8 @@
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2025-06-28T00:00:00Z",
+          "2025-06-28T00:00:00Z"
         ]
       ]
     }
