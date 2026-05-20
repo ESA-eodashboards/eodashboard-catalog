@@ -12,12 +12,10 @@
     },
     {
       "rel": "style",
-      "href": "https://workspace-ui-public.dashboards-operations.aws.hub.eox.at/api/public/share/public-708aab981-1a/earthCARE_Team1SienceHub25/ECA_MSI_1B_COG2_style.json",
+      "href": "https://workspace-ui-public.dashboards-operations.aws.hub.eox.at/api/public/share/public-708aab981-1a/earthCARE_Team1SienceHub25/ECA_MSI_1B_style.json",
       "type": "text/cog-styles",
       "asset:keys": [
-        "earthCARE_COG3",
-        "earthCARE_COG2",
-        "earthCARE_COG4"
+        "earthCARE_MSI_20250628"
       ]
     },
     {
@@ -34,18 +32,18 @@
     "spatial": {
       "bbox": [
         [
-          0.002731592490146796,
-          -0.0007358241731196813,
-          0.004505755833049311,
-          0.0005948727808942067
+          -129.04246476420442,
+          -62.546825623244416,
+          129.94171536583403,
+          40.5243262816011
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2025-01-01T00:00:00Z",
-          "2025-01-01T00:00:00Z"
+          "2025-06-16T00:00:00Z",
+          "2025-06-28T00:00:00Z"
         ]
       ]
     }
