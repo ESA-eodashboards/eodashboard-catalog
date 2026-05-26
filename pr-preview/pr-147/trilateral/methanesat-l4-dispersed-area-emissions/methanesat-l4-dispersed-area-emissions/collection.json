@@ -11,6 +11,18 @@
       "title": "Earth Observing Dashboard"
     },
     {
+      "rel": "item",
+      "href": "./methanesat-l4-dispersed-area-emissions/2024/2024-05-22T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2024-05-22T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./methanesat-l4-dispersed-area-emissions/2025/2025-06-14T00:00:00Z.json",
+      "type": "application/geo+json",
+      "datetime": "2025-06-14T00:00:00Z"
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -51,8 +63,8 @@
     "temporal": {
       "interval": [
         [
-          "2026-05-20T12:20:38.321458Z",
-          null
+          "2024-05-22T00:00:00Z",
+          "2025-06-14T00:00:00Z"
         ]
       ]
     }
@@ -87,6 +99,22 @@
       "href": "https://portal.methanesat.org/en/emissions-map/",
       "type": "text/html",
       "title": "MethaneSAT Emissions Map",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://radiantearth.github.io/stac-browser/#/external/eoapi.workspace.dashboards-operations.aws.hub.eox.at/stac/collections/methanesat-l4-dispersed-area-emissions?.language=en",
+      "type": "text/html",
+      "title": "STAC API",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_4": {
+      "href": "https://docs.google.com/spreadsheets/d/1-NWtb9JaSv3J_0ZL39Wv96XtqmM9QJWWCT6-vEFW_tU",
+      "type": "text/html",
+      "title": "MethaneSAT Target List",
       "roles": [
         "metadata"
       ]
