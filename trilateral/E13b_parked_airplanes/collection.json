@@ -260,43 +260,43 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-2",
       "PlanetScope",
       "ALOS-2",
+      "Sentinel-2",
       "Sentinel-1"
     ],
     "sensor": [
-      "PALSAR-2",
-      "PSB.SD",
       "MSI",
-      "C-SAR"
+      "PSB.SD",
+      "C-SAR",
+      "PALSAR-2"
     ],
     "cities": [
+      "Beijing Daxing",
+      "Los Angeles",
+      "Ontario",
+      "Marin",
+      "Hayward",
       "Paris",
-      "Buchannan",
-      "Napa",
-      "San Francisco",
+      "Beijing",
+      "Narita",
+      "San Jose",
       "Oakland",
+      "Napa",
+      "Heathrow",
       "Newark",
       "Rome",
-      "San Jose",
-      "Marin",
-      "Beijing",
-      "Beijing Daxing",
-      "Heathrow",
-      "Los Angeles",
-      "New York",
-      "Narita",
-      "Ontario",
-      "Hayward"
+      "San Francisco",
+      "Buchannan",
+      "New York"
     ],
     "countries": [
       "GB",
-      "IT",
-      "CN",
       "US",
+      "IT",
+      "JP",
       "FR",
-      "JP"
+      "CN"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg"

@@ -221,21 +221,21 @@
       "GCOM-C"
     ],
     "sensor": [
-      "OLCI",
       "SGLI",
-      "MODIS"
+      "MODIS",
+      "OLCI"
     ],
     "cities": [
-      "Kobe",
+      "Venice",
       "Tokyo",
+      "Kobe",
       "Nagoya",
-      "New York",
-      "Venice"
+      "New York"
     ],
     "countries": [
-      "IT",
       "US",
-      "JP"
+      "JP",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.jpg"
