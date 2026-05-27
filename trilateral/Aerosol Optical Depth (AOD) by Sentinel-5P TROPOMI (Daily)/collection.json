@@ -136,6 +136,25 @@
   "satellite": [
     "Sentinel-5P"
   ],
+  "eox:colorlegend": {
+    "domain": [
+      0.2,
+      10
+    ],
+    "range": [
+      "#dbe1dd",
+      "#91ddc3",
+      "#54bbaa",
+      "#348fac",
+      "#35629d",
+      "#354076",
+      "#2f2145",
+      "#2e292d"
+    ],
+    "scaleType": "log10",
+    "tickFormat": ".1f",
+    "title": "Aerosol Optical Depth @ 494nm"
+  },
   "title": "Aerosol Optical Depth (AOD) by Sentinel-5P TROPOMI (Daily)",
   "extent": {
     "spatial": {
@@ -182,13 +201,6 @@
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-AOD-DAY/S5P-L3GRD-AOD-DAY_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-AOD-DAY/S5P-L3GRD-AOD-DAY_thumbnail.jpg",
       "type": "image/png",

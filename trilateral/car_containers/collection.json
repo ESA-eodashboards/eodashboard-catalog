@@ -205,7 +205,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2026-05-27T13:05:12.016870Z"
+          "2026-05-27T14:59:51.816653Z"
         ]
       ]
     }
@@ -237,18 +237,18 @@
       "PALSAR-2"
     ],
     "cities": [
-      "Beijing",
-      "Palm Springs",
       "Nagoya",
-      "Singapore",
+      "Arcadia",
+      "Beijing",
       "Los Angeles",
-      "Arcadia"
+      "Palm Springs",
+      "Singapore"
     ],
     "countries": [
-      "SG",
-      "CN",
       "JP",
-      "US"
+      "CN",
+      "US",
+      "SG"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/E9_car_containers.jpg"
