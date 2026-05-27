@@ -76,7 +76,7 @@
       "#2e292d"
     ],
     "scaleType": "log10",
-    "tickFormat": ".0f",
+    "tickFormat": ".1f",
     "title": "Aerosol Optical Depth @ 494nm"
   },
   "proj:epsg": 3857,
