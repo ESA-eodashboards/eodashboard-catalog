@@ -1,0 +1,111 @@
+{
+  "type": "Collection",
+  "id": "methanesat-l4-dispersed-area-emissions",
+  "stac_version": "1.1.0",
+  "description": "## Methanesat Dispersed Area Emissions and Distinct Point Sources\n\n#### About the dataset\n\nhttps://www.methanesat.org/\n\n#### Use cases\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Methanesat Dispersed Area Emissions"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/methanesat_l4/methanesat_l4_thumbnail.jpg",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "Air quality",
+    "CH4",
+    "Multi-sensors",
+    "Methane",
+    "Emissions"
+  ],
+  "agency": [
+    "MethaneSAT LLC"
+  ],
+  "subcode": "methanesat-l4-dispersed-area-emissions",
+  "satellite": [
+    "MethaneSAT"
+  ],
+  "endpointtype": "Collection-only",
+  "title": "Methanesat Dispersed Area Emissions",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-05-27T13:23:27.648792Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "MethaneSAT LLC",
+      "roles": [
+        "licensor, producer, processor"
+      ],
+      "url": "https://www.methanesat.org/sites/default/files/2025-02/MethaneSAT%20-%20Content%20License%20Terms%20of%20Use%20(Revised%202-12-2025)%5B25%5D.pdf"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/methanesat_l4/methanesat_l4_thumbnail.jpg",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "reference_1": {
+      "href": "https://www.methanesat.org/scienceandresearch",
+      "type": "text/html",
+      "title": "MethaneSAT Science & Research",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://portal.methanesat.org/en/emissions-map/",
+      "type": "text/html",
+      "title": "MethaneSAT Emissions Map",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://radiantearth.github.io/stac-browser/#/external/eoapi.workspace.dashboards-operations.aws.hub.eox.at/stac/collections/methanesat-l4-dispersed-area-emissions?.language=en",
+      "type": "text/html",
+      "title": "STAC API",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_4": {
+      "href": "https://docs.google.com/spreadsheets/d/1-NWtb9JaSv3J_0ZL39Wv96XtqmM9QJWWCT6-vEFW_tU",
+      "type": "text/html",
+      "title": "MethaneSAT Target List",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

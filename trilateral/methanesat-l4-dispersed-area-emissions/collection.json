@@ -1,8 +1,8 @@
 {
   "type": "Collection",
-  "id": "methane_monitoring",
+  "id": "methanesat-l4-dispersed-area-emissions",
   "stac_version": "1.1.0",
-  "description": "## Methane monitoring\n\nThis indicator aims at showing Methane (CH4) concentrations by means of Sentinel-5p [TROPOMI](http://www.tropomi.eu) data.\nTROPOMI uses absorption information from the Oxygen-A Band (760nm) and the SWIR spectral range to monitor CH4 levels in the Earth’s atmosphere contributing to the enhancement of the greenhouse effect.\n\nData from the GOSAT satellite instrument and ground-based TCCON instruments are used for verification and validation.",
+  "description": "## Methanesat Dispersed Area Emissions and Distinct Point Sources\n\n#### About the dataset\n\nhttps://www.methanesat.org/\n\n#### Use cases\n",
   "links": [
     {
       "rel": "root",
@@ -12,56 +12,35 @@
     },
     {
       "rel": "child",
-      "href": "./methane_monitoring/collection.json",
+      "href": "./methanesat-l4-dispersed-area-emissions/collection.json",
       "type": "application/json",
-      "title": "Methane monitoring",
-      "endpointtype": "Sentinel Hub_byoc",
-      "subtitle": "Daily Methane Monitoring",
-      "code": "N1_CH4",
-      "id": "methane_monitoring",
+      "title": "Methanesat Dispersed Area Emissions",
+      "endpointtype": "Collection-only",
+      "code": "methanesat-l4-dispersed-area-emissions",
+      "id": "methanesat-l4-dispersed-area-emissions",
       "themes": [
         "atmosphere"
       ],
       "providers": [
-        "Copernicus",
-        "JAXA",
-        "Caltech"
+        "MethaneSAT LLC"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.jpg"
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/methanesat_l4/methanesat_l4_thumbnail.jpg"
       ],
       "tags": [
         "Air quality",
         "CH4",
         "Multi-sensors",
-        "Open data"
+        "Methane",
+        "Emissions"
       ],
       "agency": [
-        "ESA",
-        "JAXA",
-        "NASA",
-        "NIWA"
+        "MethaneSAT LLC"
       ],
-      "subcode": "N1_CH4",
-      "sensor": [
-        "TROPOMI",
-        "TANSO"
-      ],
+      "subcode": "methanesat-l4-dispersed-area-emissions",
       "satellite": [
-        "Sentinel-5P",
-        "GOSAT"
-      ],
-      "insituSources": [
-        "TCCON"
+        "MethaneSAT"
       ]
-    },
-    {
-      "rel": "service",
-      "href": "https://services.sentinel-hub.com/api/v1/statistics",
-      "type": "application/json",
-      "id": "sentinelhub-statistics",
-      "method": "POST",
-      "endpoint": "sentinelhub"
     },
     {
       "rel": "xyz",
@@ -112,14 +91,31 @@
       "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
+      "rel": "mapbox-style-document",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/PowerOpenInfrastructure/mapboxstyledoc.json",
+      "type": "application/json",
+      "title": "Open Infrastructure Map",
+      "roles": [
+        "overlay",
+        "visible"
+      ],
+      "id": "Openinframap",
+      "auth:refs": [
+        "mapboxauth"
+      ],
+      "attribution": "{ Open Infrastructure Map: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors; Map Design and Analysis <a href=\"https://openinframap.org/copyright\" target=\"_blank\">OpenInfraMap</a> }"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Earth Observing Dashboard"
     }
   ],
-  "subtitle": "Daily Methane Monitoring",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.jpg",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json"
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/methanesat_l4/methanesat_l4_thumbnail.jpg",
   "themes": [
     "atmosphere"
   ],
@@ -127,58 +123,27 @@
     "Air quality",
     "CH4",
     "Multi-sensors",
-    "Open data"
+    "Methane",
+    "Emissions"
   ],
   "agency": [
-    "ESA",
-    "JAXA",
-    "NASA",
-    "NIWA"
+    "MethaneSAT LLC"
   ],
-  "subcode": "N1_CH4",
-  "sensor": [
-    "TROPOMI",
-    "TANSO"
-  ],
+  "subcode": "methanesat-l4-dispersed-area-emissions",
   "satellite": [
-    "Sentinel-5P",
-    "GOSAT"
+    "MethaneSAT"
   ],
-  "insituSources": [
-    "TCCON"
-  ],
-  "eox:colorlegend": {
-    "domain": [
-      1680,
-      1980
-    ],
-    "range": [
-      "#000103",
-      "#006cd3",
-      "#00d2ff",
-      "#00ffff",
-      "#46ff96",
-      "#fffd00",
-      "#ffc100",
-      "#ff4900",
-      "#ff0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "CH4 volume mixing ratio [ppbv]"
+  "auth:schemes": {
+    "mapboxauth": {
+      "type": "apiKey",
+      "name": "access_token",
+      "in": "query"
+    }
   },
-  "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/chart.json",
-  "title": "Methane monitoring",
+  "title": "Methanesat Dispersed Area Emissions",
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
-        ],
         [
           -180.0,
           -90.0,
@@ -190,8 +155,8 @@
     "temporal": {
       "interval": [
         [
-          "2018-04-30T00:00:00Z",
-          "2025-11-24T00:00:00Z"
+          "2026-05-27T13:23:27.648792Z",
+          "2026-05-27T13:23:27.648792Z"
         ]
       ]
     }
@@ -199,56 +164,63 @@
   "license": "other",
   "providers": [
     {
-      "name": "Copernicus",
-      "url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
-    },
-    {
-      "name": "JAXA",
-      "url": "https://earth.jaxa.jp/en/data/"
-    },
-    {
-      "name": "Caltech",
-      "url": "https://tccondata.org/"
+      "name": "MethaneSAT LLC",
+      "roles": [
+        "licensor, producer, processor"
+      ],
+      "url": "https://www.methanesat.org/sites/default/files/2025-02/MethaneSAT%20-%20Content%20License%20Terms%20of%20Use%20(Revised%202-12-2025)%5B25%5D.pdf"
     }
   ],
   "summaries": {
     "subcode": [
-      "N1_CH4"
+      "methanesat-l4-dispersed-area-emissions"
     ],
     "themes": [
       "atmosphere"
     ],
     "satellite": [
-      "GOSAT",
-      "Sentinel-5P"
-    ],
-    "sensor": [
-      "TANSO",
-      "TROPOMI"
+      "MethaneSAT"
     ],
     "thumbnail": [
-      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.jpg"
+      "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/methanesat_l4/methanesat_l4_thumbnail.jpg"
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.jpg",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/methanesat_l4/methanesat_l4_thumbnail.jpg",
       "type": "image/png",
       "roles": [
         "thumbnail"
       ]
     },
-    "tropomi_methane": {
-      "href": "http://www.tropomi.eu/data-products/methane",
+    "reference_1": {
+      "href": "https://www.methanesat.org/scienceandresearch",
       "type": "text/html",
-      "title": "TROPOMI Methane",
+      "title": "MethaneSAT Science & Research",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_2": {
+      "href": "https://portal.methanesat.org/en/emissions-map/",
+      "type": "text/html",
+      "title": "MethaneSAT Emissions Map",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_3": {
+      "href": "https://radiantearth.github.io/stac-browser/#/external/eoapi.workspace.dashboards-operations.aws.hub.eox.at/stac/collections/methanesat-l4-dispersed-area-emissions?.language=en",
+      "type": "text/html",
+      "title": "STAC API",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reference_4": {
+      "href": "https://docs.google.com/spreadsheets/d/1-NWtb9JaSv3J_0ZL39Wv96XtqmM9QJWWCT6-vEFW_tU",
+      "type": "text/html",
+      "title": "MethaneSAT Target List",
       "roles": [
         "metadata"
       ]
