@@ -24,6 +24,9 @@
       "providers": [
         "Copernicus Land Monitoring Service"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_WQ_TC_water_quality/Lakes_WQ_TC_water_quality.jpg"
+      ],
       "tags": [
         "Sentinel",
         "CLMS",

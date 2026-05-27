@@ -25,6 +25,9 @@
       "providers": [
         "JAXA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMCG_soil_moisture_content/SMCG_soil_moisture_content.jpg"
+      ],
       "tags": [
         "Precipitation",
         "Multi-sensors"

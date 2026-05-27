@@ -21,6 +21,9 @@
       "themes": [
         "agriculture"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMOS_SM/SMOS_SM.png"
+      ],
       "yAxis": "m3 m-3",
       "tags": [
         "CO2",

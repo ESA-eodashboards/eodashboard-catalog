@@ -25,6 +25,9 @@
       "providers": [
         "NASA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SITI_IS2SITMOGR4-cog/SITI_IS2SITMOGR4-cog.jpg"
+      ],
       "tags": [
         "Sea ice",
         "Arctic",

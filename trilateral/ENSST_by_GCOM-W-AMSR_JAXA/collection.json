@@ -27,6 +27,9 @@
         "JAXA GCOM project",
         "JAXA EORC"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ENSST_by_GCOM-W-AMSR_JAXA/ENSST_by_GCOM-W-AMSR_JAXA.jpg"
+      ],
       "tags": [
         "SST",
         "El Nino",

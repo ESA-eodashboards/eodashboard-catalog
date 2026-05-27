@@ -25,6 +25,9 @@
       "providers": [
         "NCEO"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/nceo_africa_2017/nceo_africa_2017.jpg"
+      ],
       "tags": [
         "Africa",
         "Wood",

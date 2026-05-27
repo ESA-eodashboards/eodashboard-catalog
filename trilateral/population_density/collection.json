@@ -25,6 +25,9 @@
       "providers": [
         "SEDAC"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NASAPopulation/NASAPopulation.jpg"
+      ],
       "tags": [
         "Society",
         "population",

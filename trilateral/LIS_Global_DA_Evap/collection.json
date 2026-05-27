@@ -25,6 +25,9 @@
       "providers": [
         "VEDA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LIS_Global_DA_Evap/thumbnail.jpg"
+      ],
       "tags": [
         "Evapotranspiration",
         "Water cycle",

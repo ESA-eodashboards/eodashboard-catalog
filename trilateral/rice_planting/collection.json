@@ -37,6 +37,9 @@
       "countries": [
         "US"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.jpg"
+      ],
       "yAxis": "NDVI",
       "tags": [
         "Multi-sensors",
@@ -260,20 +263,20 @@
       "agriculture"
     ],
     "satellite": [
-      "Landsat-8",
       "ALOS-2",
-      "Sentinel-2",
-      "GCOM-C"
+      "GCOM-C",
+      "Landsat-8",
+      "Sentinel-2"
     ],
     "sensor": [
-      "MSI",
       "SGLI",
-      "OLI",
-      "PALSAR-2"
+      "PALSAR-2",
+      "MSI",
+      "OLI"
     ],
     "cities": [
-      "Colusa",
       "Glenn",
+      "Colusa",
       "Yolo",
       "Glenn (GCOM-C)"
     ],

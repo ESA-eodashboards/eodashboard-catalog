@@ -192,6 +192,9 @@
         "South Africa",
         "Zambia"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/OW_Covid_19_vaccinations/OW_Covid_19_vaccinations_photo.jpg"
+      ],
       "yAxis": "/",
       "tags": [
         "COVID-19",

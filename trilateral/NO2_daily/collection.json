@@ -25,6 +25,9 @@
       "providers": [
         "Copernicus"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2.jpg"
+      ],
       "tags": [
         "Air quality",
         "NO2",

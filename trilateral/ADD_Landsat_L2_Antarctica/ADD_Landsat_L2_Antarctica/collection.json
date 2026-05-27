@@ -26,6 +26,9 @@
         "NASA",
         "USGS"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_L2_Pine_Island/thumbnail.jpg"
+      ],
       "tags": [
         "Antarctica",
         "climate change",
@@ -81,6 +84,9 @@
       "providers": [
         "NASA",
         "USGS"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_L2_Thwaites/thumbnail.jpg"
       ],
       "tags": [
         "Antarctica",
@@ -274,8 +280,8 @@
   ],
   "summaries": {
     "cities": [
-      "Thwaites Glacier",
-      "Pine Island"
+      "Pine Island",
+      "Thwaites Glacier"
     ],
     "countries": [
       "AQ"

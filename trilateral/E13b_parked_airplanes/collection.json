@@ -56,6 +56,9 @@
         "GB",
         "US"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg"
+      ],
       "yAxis": "Time series of airport throughput",
       "tags": [
         "Copernicus Services",
@@ -256,47 +259,47 @@
       "E13b"
     ],
     "themes": [
-      "covid-19",
-      "economy"
+      "economy",
+      "covid-19"
     ],
     "satellite": [
-      "PlanetScope",
       "ALOS-2",
-      "Sentinel-2",
-      "Sentinel-1"
+      "PlanetScope",
+      "Sentinel-1",
+      "Sentinel-2"
     ],
     "sensor": [
+      "PALSAR-2",
       "MSI",
       "PSB.SD",
-      "C-SAR",
-      "PALSAR-2"
+      "C-SAR"
     ],
     "cities": [
-      "Beijing Daxing",
-      "Los Angeles",
-      "Ontario",
-      "Marin",
-      "Hayward",
-      "Paris",
-      "Beijing",
-      "Narita",
       "San Jose",
+      "Rome",
+      "Beijing",
       "Oakland",
       "Napa",
-      "Heathrow",
-      "Newark",
-      "Rome",
-      "San Francisco",
+      "New York",
       "Buchannan",
-      "New York"
+      "Narita",
+      "Newark",
+      "Heathrow",
+      "San Francisco",
+      "Marin",
+      "Paris",
+      "Ontario",
+      "Beijing Daxing",
+      "Los Angeles",
+      "Hayward"
     ],
     "countries": [
-      "GB",
+      "JP",
       "US",
       "IT",
-      "JP",
-      "FR",
-      "CN"
+      "GB",
+      "CN",
+      "FR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg"

@@ -24,6 +24,9 @@
       "providers": [
         "Meta"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/facebook_population_density.jpg"
+      ],
       "tags": [
         "Human settlement",
         "Human activities",

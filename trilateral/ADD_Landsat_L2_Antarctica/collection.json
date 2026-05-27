@@ -26,11 +26,14 @@
         "USGS"
       ],
       "cities": [
-        "Thwaites Glacier",
-        "Pine Island"
+        "Pine Island",
+        "Thwaites Glacier"
       ],
       "countries": [
         "AQ"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Landsat_L2_Antarctica/ADD_Landsat_L2_Antarctica.jpg"
       ],
       "tags": [
         "Antarctica",
@@ -214,8 +217,8 @@
       "OLI"
     ],
     "cities": [
-      "Thwaites Glacier",
-      "Pine Island"
+      "Pine Island",
+      "Thwaites Glacier"
     ],
     "countries": [
       "AQ"

@@ -25,6 +25,9 @@
       "providers": [
         "NASA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_diff/N2_CO2_diff.jpg"
+      ],
       "tags": [
         "Air quality",
         "CO2",

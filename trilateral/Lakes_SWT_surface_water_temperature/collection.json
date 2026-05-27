@@ -24,6 +24,9 @@
       "providers": [
         "ESA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_SWT_surface_water_temperature/Lakes_SWT_surface_water_temperature.jpg"
+      ],
       "tags": [
         "Climate Change Initiative",
         "Water quality",

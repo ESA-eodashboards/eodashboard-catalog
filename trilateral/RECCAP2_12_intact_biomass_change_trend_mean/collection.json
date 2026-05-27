@@ -24,6 +24,9 @@
       "providers": [
         "ESA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_9_intact_biomass_change_methods_mean/World-RECCAP2_9.jpg"
+      ],
       "yAxis": "Mg C ha year",
       "tags": [
         "Amazon rainforest",

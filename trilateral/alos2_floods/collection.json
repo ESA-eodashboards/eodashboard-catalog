@@ -24,6 +24,9 @@
       "providers": [
         "JAXA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/alos2_floods/image.png"
+      ],
       "tags": [
         "Water quality",
         "Copernicus Services",

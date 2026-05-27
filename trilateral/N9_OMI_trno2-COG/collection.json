@@ -25,6 +25,9 @@
       "providers": [
         "NASA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N9_OMI_trno2-COG/N9_OMI_trno2-COG.jpg"
+      ],
       "tags": [
         "Air quality",
         "NO2",

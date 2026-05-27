@@ -25,6 +25,9 @@
       "providers": [
         "NASA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_kndvi/ESDC_kndvi.jpg"
+      ],
       "yAxis": "1",
       "tags": [
         "CO2",

@@ -24,6 +24,9 @@
       "providers": [
         "JAXA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N12_sea_ice_concentration/Antarctic-N12.jpg"
+      ],
       "tags": [
         "Antarctica",
         "Sea ice",

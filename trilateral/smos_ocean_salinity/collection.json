@@ -21,6 +21,9 @@
       "themes": [
         "water"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMOS_OS/SMOS_OS.png"
+      ],
       "yAxis": "psu",
       "tags": [
         "L-band",

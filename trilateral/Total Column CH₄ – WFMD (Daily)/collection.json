@@ -19,8 +19,10 @@
       "code": "S5P-L3GRD-TCCH4WFMD-DAY",
       "id": "Total Column CH₄ – WFMD (Daily)",
       "themes": [
-        "atmosphere",
-        "climate"
+        "atmosphere"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4WFMD-DAY/S5P-L3GRD-TCCH4WFMD-DAY_thumbnail.jpg"
       ],
       "tags": [
         "CH4",
@@ -106,8 +108,7 @@
   ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCH4WFMD-DAY/S5P-L3GRD-TCCH4WFMD-DAY_thumbnail.jpg",
   "themes": [
-    "atmosphere",
-    "climate"
+    "atmosphere"
   ],
   "tags": [
     "CH4",
@@ -443,7 +444,6 @@
       "S5P-L3GRD-TCCH4WFMD-DAY"
     ],
     "themes": [
-      "climate",
       "atmosphere"
     ],
     "satellite": [

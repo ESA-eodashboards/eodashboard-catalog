@@ -24,6 +24,9 @@
       "providers": [
         "NASA/JPL/ECOSTRESS"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NELST_ECOSTRESS_LST/NELST_ECOSTRESS_LST.jpg"
+      ],
       "tags": [
         "Temperature",
         "Open data"

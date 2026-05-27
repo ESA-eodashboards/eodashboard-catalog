@@ -25,6 +25,9 @@
       "providers": [
         "GEOGLAM"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N6_geoglam/N6_geoglam.jpg"
+      ],
       "tags": [
         "Agriculture",
         "Human activities",

@@ -27,6 +27,9 @@
         "JAXA",
         "Caltech"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.jpg"
+      ],
       "tags": [
         "Air quality",
         "CH4",
@@ -216,12 +219,12 @@
       "atmosphere"
     ],
     "satellite": [
-      "GOSAT",
-      "Sentinel-5P"
+      "Sentinel-5P",
+      "GOSAT"
     ],
     "sensor": [
-      "TROPOMI",
-      "TANSO"
+      "TANSO",
+      "TROPOMI"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_methane_monitoring/N1_methane_monitoring.jpg"

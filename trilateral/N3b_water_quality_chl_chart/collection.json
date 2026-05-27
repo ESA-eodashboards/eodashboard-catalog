@@ -39,6 +39,9 @@
         "JP",
         "US"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.jpg"
+      ],
       "yAxis": "Chlorophyll-a concentration anomaly [%]",
       "tags": [
         "Water quality",
@@ -217,19 +220,19 @@
     ],
     "satellite": [
       "Acqua",
-      "Sentinel-3",
-      "GCOM-C"
+      "GCOM-C",
+      "Sentinel-3"
     ],
     "sensor": [
       "SGLI",
-      "MODIS",
-      "OLCI"
+      "OLCI",
+      "MODIS"
     ],
     "cities": [
-      "Venice",
-      "Tokyo",
-      "Kobe",
       "Nagoya",
+      "Venice",
+      "Kobe",
+      "Tokyo",
       "New York"
     ],
     "countries": [

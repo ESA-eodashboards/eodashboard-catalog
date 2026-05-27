@@ -25,6 +25,9 @@
       "providers": [
         "NASA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/grdi-vnl-slope-raster/grdi-vnl-slope-raster.jpg"
+      ],
       "tags": [
         "Human activities",
         "Open data",

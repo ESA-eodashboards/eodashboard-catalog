@@ -24,6 +24,9 @@
       "providers": [
         "NASA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
+      ],
       "tags": [
         "Lakes",
         "Optical",
@@ -54,6 +57,9 @@
       "themes": [
         "water"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
+      ],
       "tags": [
         "Lakes"
       ],
@@ -80,6 +86,9 @@
       "id": "NLK_lake_tonle_sap",
       "themes": [
         "water"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
       ],
       "tags": [
         "Lakes"
@@ -108,6 +117,9 @@
       "themes": [
         "water"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
+      ],
       "tags": [
         "Lakes"
       ],
@@ -134,6 +146,9 @@
       "id": "NLK_lake_balaton",
       "themes": [
         "water"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
       ],
       "tags": [
         "Lakes"
@@ -363,18 +378,18 @@
   "summaries": {
     "cities": [
       "Tonlé Sap Lake",
+      "Vänern Lake",
       "Aral Lake",
       "Biwa Lake",
-      "Vänern Lake",
       "Balaton Lake"
     ],
     "countries": [
-      "KZ",
       "SW",
-      "JP",
+      "KH",
       "UZ",
-      "HU",
-      "KH"
+      "JP",
+      "KZ",
+      "HU"
     ]
   },
   "assets": {

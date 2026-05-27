@@ -24,6 +24,9 @@
       "providers": [
         "Copernicus"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_S2L2A/thumbnail.jpg"
+      ],
       "tags": [
         "Sentinel",
         "Open data",

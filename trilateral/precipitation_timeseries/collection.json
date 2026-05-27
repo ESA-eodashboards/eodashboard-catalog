@@ -33,6 +33,9 @@
         "BR",
         "US"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCTS_precipitation_timeseries/PRCTS_precipitation_timeseries.jpg"
+      ],
       "yAxis": "Precipitation[mm]",
       "tags": [
         "Precipitation",
@@ -213,8 +216,8 @@
       "Kansas"
     ],
     "countries": [
-      "BR",
-      "US"
+      "US",
+      "BR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCTS_precipitation_timeseries/PRCTS_precipitation_timeseries.jpg"

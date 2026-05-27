@@ -25,6 +25,9 @@
       "providers": [
         "JAXA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10e_ndvi/E10e_ndvi.jpg"
+      ],
       "tags": [
         "NDVI",
         "Open data"

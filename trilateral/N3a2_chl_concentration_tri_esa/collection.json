@@ -26,6 +26,9 @@
         "Copernicus Marine Service",
         "ESA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg"
+      ],
       "yAxis": "%",
       "tags": [
         "Water quality",

@@ -19,10 +19,13 @@
       "code": "ndvi_deepESDL",
       "id": "ndvi_deepESDL",
       "themes": [
-        "land"
+        "biomass"
       ],
       "providers": [
         "NASA"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_NDVI/ESDC_NDVI.png"
       ],
       "yAxis": "1",
       "tags": [
@@ -126,7 +129,7 @@
   },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_NDVI/ESDC_NDVI.png",
   "themes": [
-    "land"
+    "biomass"
   ],
   "tags": [
     "vegetation",
@@ -182,7 +185,7 @@
       "ndvi_deepESDL"
     ],
     "themes": [
-      "land"
+      "biomass"
     ],
     "satellite": [
       "Aqua"

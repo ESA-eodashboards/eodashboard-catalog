@@ -25,6 +25,9 @@
       "providers": [
         "ESA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SIE_sea_ice_thickness_envisat/SIE_sea_ice_thickness_envisat.jpg"
+      ],
       "tags": [
         "Sea ice",
         "Polar Regions",

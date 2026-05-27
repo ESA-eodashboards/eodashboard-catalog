@@ -18,6 +18,9 @@
       "endpointtype": "Sentinel Hub_byoc",
       "code": "S5P-L3GRD-AAI-SEASON",
       "id": "Sentinel-5P Absorbing Aerosol Index (season)",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-AAI-SEASON/S5P-L3GRD-AAI-SEASON_thumbnail.jpg"
+      ],
       "agency": [
         "ESA"
       ],

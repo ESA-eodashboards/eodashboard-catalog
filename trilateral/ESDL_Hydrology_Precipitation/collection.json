@@ -30,6 +30,9 @@
         "CNR IRPI",
         "EURAC"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDL_Hydrology_Precipitation/image.jpg"
+      ],
       "yAxis": "mm/day",
       "tags": [
         "Open data",

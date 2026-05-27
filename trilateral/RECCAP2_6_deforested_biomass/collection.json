@@ -24,6 +24,9 @@
       "providers": [
         "ESA"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_6_deforested_biomass/World-RECCAP2_6.jpg"
+      ],
       "yAxis": "Mg C ha year",
       "tags": [
         "Amazon rainforest",

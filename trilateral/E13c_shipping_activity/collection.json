@@ -48,6 +48,9 @@
         "PL",
         "US"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg"
+      ],
       "yAxis": "Number of ships in Port",
       "tags": [
         "Economy",
@@ -236,31 +239,31 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-2",
-      "PlanetScope"
+      "PlanetScope",
+      "Sentinel-2"
     ],
     "sensor": [
       "PS2",
       "MSI"
     ],
     "cities": [
-      "Suez ",
-      "Los Angeles",
-      "New York",
       "Ghent",
-      "Dunkirk",
+      "Genoa",
       "Gdynia",
       "San Francisco",
-      "Hamburg",
       "Suez",
-      "Genoa"
+      "Suez ",
+      "Los Angeles",
+      "Hamburg",
+      "Dunkirk",
+      "New York"
     ],
     "countries": [
-      "BE",
-      "US",
-      "IT",
       "EG",
       "DE",
+      "IT",
+      "US",
+      "BE",
       "PL",
       "FR"
     ],
