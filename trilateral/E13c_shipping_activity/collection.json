@@ -239,33 +239,33 @@
       "economy"
     ],
     "satellite": [
-      "Sentinel-2",
-      "PlanetScope"
+      "PlanetScope",
+      "Sentinel-2"
     ],
     "sensor": [
       "PS2",
       "MSI"
     ],
     "cities": [
-      "San Francisco",
-      "Hamburg",
-      "Los Angeles",
-      "Ghent",
-      "Suez ",
-      "New York",
-      "Dunkirk",
       "Gdynia",
+      "Los Angeles",
+      "Suez ",
+      "Hamburg",
+      "San Francisco",
       "Genoa",
+      "Ghent",
+      "Dunkirk",
+      "New York",
       "Suez"
     ],
     "countries": [
-      "EG",
-      "PL",
-      "BE",
-      "FR",
       "IT",
+      "FR",
+      "BE",
+      "US",
       "DE",
-      "US"
+      "PL",
+      "EG"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg"

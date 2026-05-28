@@ -225,20 +225,20 @@
     ],
     "sensor": [
       "SGLI",
-      "MODIS",
-      "OLCI"
+      "OLCI",
+      "MODIS"
     ],
     "cities": [
       "Kobe",
-      "Venice",
       "Nagoya",
       "New York",
+      "Venice",
       "Tokyo"
     ],
     "countries": [
       "IT",
-      "JP",
-      "US"
+      "US",
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.jpg"

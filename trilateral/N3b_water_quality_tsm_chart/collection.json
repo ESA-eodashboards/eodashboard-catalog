@@ -223,13 +223,13 @@
     ],
     "sensor": [
       "SGLI",
-      "MODIS",
-      "OLCI"
+      "OLCI",
+      "MODIS"
     ],
     "cities": [
+      "Nagoya",
       "Kobe",
       "Venice",
-      "Nagoya",
       "Tokyo"
     ],
     "countries": [
