@@ -25,18 +25,18 @@
       ],
       "cities": [
         "Balaton Lake",
-        "Aral Lake",
         "Biwa Lake",
         "Vänern Lake",
+        "Aral Lake",
         "Tonlé Sap Lake"
       ],
       "countries": [
-        "UZ",
+        "SW",
+        "JP",
         "KH",
         "KZ",
-        "HU",
-        "JP",
-        "SW"
+        "UZ",
+        "HU"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
@@ -257,18 +257,18 @@
     ],
     "cities": [
       "Balaton Lake",
-      "Aral Lake",
       "Biwa Lake",
       "Vänern Lake",
+      "Aral Lake",
       "Tonlé Sap Lake"
     ],
     "countries": [
-      "UZ",
+      "SW",
+      "JP",
       "KH",
       "KZ",
-      "HU",
-      "JP",
-      "SW"
+      "UZ",
+      "HU"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
