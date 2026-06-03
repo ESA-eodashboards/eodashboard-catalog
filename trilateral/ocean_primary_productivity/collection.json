@@ -279,9 +279,9 @@
       "Envisat"
     ],
     "sensor": [
-      "VIIRS",
       "MERIS",
       "SeaWiFS",
+      "VIIRS",
       "MODIS"
     ],
     "thumbnail": [

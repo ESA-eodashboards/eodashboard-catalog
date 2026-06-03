@@ -208,24 +208,24 @@
     "cities": [
       "Milan",
       "New York",
+      "Tokyo",
       "Mumbai",
+      "Madrid",
+      "San Francisco",
+      "New Delhi",
+      "Beijing",
       "Rome",
       "Paris",
-      "Madrid",
-      "New Delhi",
-      "Tokyo",
-      "San Francisco",
-      "Beijing",
       "Los Angeles"
     ],
     "countries": [
-      "CN",
-      "IN",
-      "US",
       "IT",
-      "JP",
       "FR",
-      "ES"
+      "ES",
+      "US",
+      "IN",
+      "CN",
+      "JP"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg"
