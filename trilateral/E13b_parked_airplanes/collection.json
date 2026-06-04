@@ -263,42 +263,42 @@
       "covid-19"
     ],
     "satellite": [
-      "ALOS-2",
-      "Sentinel-1",
       "PlanetScope",
-      "Sentinel-2"
+      "Sentinel-2",
+      "ALOS-2",
+      "Sentinel-1"
     ],
     "sensor": [
+      "PSB.SD",
       "PALSAR-2",
-      "MSI",
       "C-SAR",
-      "PSB.SD"
+      "MSI"
     ],
     "cities": [
-      "Los Angeles",
-      "Rome",
-      "New York",
-      "Oakland",
-      "Buchannan",
-      "Paris",
-      "Heathrow",
-      "Beijing",
-      "Napa",
-      "Narita",
-      "Newark",
-      "Ontario",
       "San Jose",
-      "Beijing Daxing",
       "Marin",
+      "Beijing",
+      "New York",
+      "Narita",
+      "Oakland",
+      "Rome",
+      "Heathrow",
+      "Buchannan",
+      "Los Angeles",
+      "Beijing Daxing",
+      "Newark",
+      "Hayward",
+      "Paris",
+      "Ontario",
       "San Francisco",
-      "Hayward"
+      "Napa"
     ],
     "countries": [
+      "JP",
+      "CN",
+      "GB",
       "FR",
       "IT",
-      "CN",
-      "JP",
-      "GB",
       "US"
     ],
     "thumbnail": [

@@ -62,8 +62,8 @@
   ],
   "eox:colorlegend": {
     "domain": [
-      0.5,
-      8.0
+      1.0,
+      10.0
     ],
     "range": [
       "#1c36b0",
@@ -324,14 +324,13 @@
       "#f3fa66"
     ],
     "scaleType": "log10",
-    "tickFormat": ".1f",
+    "tickFormat": ".0f",
     "title": "CHOCHO column number density [10¹⁴ molec/cm²]",
     "tickValues": [
-      0.5,
       1.0,
       2.0,
-      4.0,
-      8.0
+      5.0,
+      10.0
     ]
   },
   "proj:epsg": 3857,
@@ -365,13 +364,6 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
-      ]
-    },
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-TCCHOCHO-MONTH/S5P-L3GRD-TCCHOCHO-MONTH_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
       ]
     },
     "thumbnail": {

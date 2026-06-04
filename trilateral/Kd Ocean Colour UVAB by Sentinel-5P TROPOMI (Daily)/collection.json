@@ -132,6 +132,28 @@
   "satellite": [
     "Sentinel-5P"
   ],
+  "eox:colorlegend": {
+    "domain": [
+      0.01,
+      0.3
+    ],
+    "range": [
+      "#403a71",
+      "#0e5a90",
+      "#3b9287",
+      "#77ca67",
+      "#fcee98"
+    ],
+    "scaleType": "log10",
+    "tickFormat": ".2f",
+    "title": "Diffuse attenuation coefficient UVAB [m⁻¹]",
+    "tickValues": [
+      0.01,
+      0.03,
+      0.1,
+      0.3
+    ]
+  },
   "title": "Kd Ocean Colour UVAB by Sentinel-5P TROPOMI (Daily)",
   "extent": {
     "spatial": {
@@ -178,13 +200,6 @@
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-KdUVAB-DAY/S5P-L3GRD-KdUVAB-DAY_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-KdUVAB-DAY/S5P-L3GRD-KdUVAB-DAY_thumbnail.jpg",
       "type": "image/png",

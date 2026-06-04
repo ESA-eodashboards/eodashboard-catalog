@@ -15,7 +15,7 @@
       "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=viridis&rescale=0.0,100.0",
       "type": "image/png",
       "title": "VIIRS Nighttime Lights (VNL) Constituent Raster",
-      "key": "80beb3d7-8f4d-4581-a41e-b674e3596fec"
+      "key": "adbc8fca-1fa4-4f50-893a-9d258feaf0ee"
     },
     {
       "rel": "parent",

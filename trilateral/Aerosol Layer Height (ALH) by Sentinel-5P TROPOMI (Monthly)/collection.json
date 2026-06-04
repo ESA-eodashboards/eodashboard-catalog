@@ -456,13 +456,6 @@
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-MONTH/S5P-L3GRD-ALH-MONTH_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-ALH-MONTH/S5P-L3GRD-ALH-MONTH_thumbnail.jpg",
       "type": "image/png",

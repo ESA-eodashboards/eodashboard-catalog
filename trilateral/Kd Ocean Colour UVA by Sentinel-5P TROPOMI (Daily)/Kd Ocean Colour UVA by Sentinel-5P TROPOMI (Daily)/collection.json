@@ -58,6 +58,28 @@
   "satellite": [
     "Sentinel-5P"
   ],
+  "eox:colorlegend": {
+    "domain": [
+      0.01,
+      0.3
+    ],
+    "range": [
+      "#403a71",
+      "#0e5a90",
+      "#3b9287",
+      "#77ca67",
+      "#fcee98"
+    ],
+    "scaleType": "log10",
+    "tickFormat": ".2f",
+    "title": "Diffuse attenuation coefficient UVA [m⁻¹]",
+    "tickValues": [
+      0.01,
+      0.03,
+      0.1,
+      0.3
+    ]
+  },
   "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Kd Ocean Colour UVA by Sentinel-5P TROPOMI (Daily)",
@@ -89,13 +111,6 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
-      ]
-    },
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-KdUVA-DAY/S5P-L3GRD-KdUVA-DAY_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
       ]
     },
     "thumbnail": {

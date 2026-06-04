@@ -231,20 +231,20 @@
       "TANSO-CAI"
     ],
     "cities": [
-      "New York",
       "Dhaka",
-      "Tokyo",
       "Beijing",
-      "Mumbai",
+      "New York",
+      "Tokyo",
       "Shanghai",
-      "New Delhi"
+      "New Delhi",
+      "Mumbai"
     ],
     "countries": [
-      "CN",
       "JP",
-      "US",
+      "CN",
       "IN",
-      "BD"
+      "BD",
+      "US"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg"
