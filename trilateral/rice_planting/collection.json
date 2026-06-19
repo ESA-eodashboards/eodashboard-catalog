@@ -263,8 +263,8 @@
       "agriculture"
     ],
     "satellite": [
-      "ALOS-2",
       "Sentinel-2",
+      "ALOS-2",
       "GCOM-C",
       "Landsat-8"
     ],
@@ -276,9 +276,9 @@
     ],
     "cities": [
       "Colusa",
-      "Glenn",
       "Glenn (GCOM-C)",
-      "Yolo"
+      "Yolo",
+      "Glenn"
     ],
     "countries": [
       "US"
