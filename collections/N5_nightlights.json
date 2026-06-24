@@ -346,7 +346,7 @@
         116.2,
         39.77,
         116.55,
-        40.0
+        40
       ],
       "Point": [
         116.375,
@@ -421,39 +421,41 @@
   "Image": "N5_nightlights/N5_nightlights.jpg",
   "Resources": [
     {
-      "EndPoint": "https://openveda.cloud/api/stac/",
-      "Type": "cog",
-      "Name": "VEDA",
-      "CollectionId": "nightlights-hd-monthly",
-      "Bidx": 1,
-      "ColormapName": "inferno",
-      "Rescale": [
-        0,
-        255
+      "Name": "COG source",
+      "Style": "",
+      "TimeEntries": [
+        {
+          "Time": "20190101",
+          "Assets": [
+            {
+              "Identifier": "ntls",
+              "File": "https://obs.eu-nl.otc.t-systems.com/eodashboardtutorial/Nighttimelevel_Urban_h25v06_2019-2022.tif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DZPPJ23QUW6DYLDCKEYP%2F20260619%2Feu-nl%2Fs3%2Faws4_request&X-Amz-Date=20260619T070740Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=a826f4dc36d64532ee486a604f9f662808b4d2ee8bf371e03d61f02c7a4459aa"
+            }
+          ]
+        }
       ]
     }
   ],
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://search.earthdata.nasa.gov/search?portal=idn&fi=VIIRS"
     }
   ],
   "References": [
     {
       "Name": "NASA's Black Marble",
-      "Key": "black_marble",
       "Url": "https://blackmarble.gsfc.nasa.gov/"
     },
     {
       "Name": "Suomi National Polar-orbiting Partnership (Suomi NPP)",
-      "Key": "suomi_npp",
       "Url": "https://www.nasa.gov/mission_pages/NPP/main/index.html"
     },
     {
       "Name": "NASA Covid Dashboard",
-      "Key": "covid_dashboard",
       "Url": "https://www.earthdata.nasa.gov/covid19/indicators/bm"
     }
   ],
