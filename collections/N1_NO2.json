@@ -61,7 +61,11 @@
       "ColormapName": "reds",
       "Assets": [
         "data"
-      ]
+      ],
+      "Rescale": [
+        0,
+        180
+      ],
     }
   ],
   "Services": [
