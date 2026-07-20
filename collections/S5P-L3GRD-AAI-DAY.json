@@ -39,6 +39,10 @@
     {
       "Name": "Source Product Page",
       "Url": "https://radiantearth.github.io/stac-browser/#/external/data-portal.s5p-pal.com/api/s5p-l3/aai"
+    },
+    {
+      "Name": "eoAPI STAC Collection",
+      "Url": "https://eoapi.workspace.dashboards-operations.aws.hub.eox.at/stac/collections/S5P-L3GRD-AAI-DAY"
     }
   ],
   "Image": "S5P-L3GRD-AAI-DAY/S5P-L3GRD-AAI-DAY_thumbnail.jpg",
@@ -64,12 +68,15 @@
   "EodashIdentifier": "S5P-L3GRD-AAI-DAY",
   "Resources": [
     {
-      "EndPoint": "https://services.sentinel-hub.com",
-      "Name": "Sentinel Hub",
-      "Type": "byoc",
-      "CollectionId": "62136507-01d9-4f1c-a502-77a79454d264",
-      "LayerId": "S5P-L3GRD-AAI-DAY",
-      "DataProjection": 3857
+      "EndPoint": "https://eoapi.workspace.dashboards-operations.aws.hub.eox.at/stac/",
+      "Name": "VEDA",
+      "Type": "tiles",
+      "CollectionId": "S5P-L3GRD-AAI-DAY",
+      "ColormapName": "magma_r",
+      "Assets": [
+        "data"
+      ],
+      "Rescale": [1.0, 7.0]
     }
   ]
 }
