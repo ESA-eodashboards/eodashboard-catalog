@@ -95,7 +95,7 @@
       "title": "Terrain Light Stereographic South",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "sx-cat_ortho320500",
       "wms:layers": "sx-cat_ortho320500",
@@ -112,7 +112,7 @@
       "title": "Antarctic hilshade, bathymetry",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
       "id": "Antarctic_hilshade",
       "wms:layers": "add:antarctic_hillshade_and_bathymetry",
