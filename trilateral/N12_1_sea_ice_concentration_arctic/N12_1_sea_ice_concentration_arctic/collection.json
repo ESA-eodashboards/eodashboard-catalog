@@ -21,7 +21,6 @@
       "role": [
         "data"
       ],
-      "key": "979d8650-9847-4693-8d27-ac62b0df5738",
       "eodash:proj4_def": {
         "name": "EPSG:3411",
         "def": "+proj=stere +lat_0=90 +lat_ts=70 +lon_0=-45 +x_0=0 +y_0=0 +a=6378273 +b=6356889.449 +units=m +no_defs +type=crs"
@@ -64,27 +63,6 @@
       3314763.31,
       3314763.31
     ]
-  },
-  "eox:colorlegend": {
-    "domain": [
-      50,
-      60,
-      70,
-      80,
-      90,
-      100
-    ],
-    "range": [
-      "#4040ff",
-      "#4646ff",
-      "#6262ff",
-      "#9999ff",
-      "#d1d1ff",
-      "#ffffff"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Percentage"
   },
   "eodash:proj4_def": {
     "name": "EPSG:3411",

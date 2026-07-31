@@ -28,7 +28,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_kndvi/ESDC_kndvi.jpg"
       ],
-      "yAxis": "1",
       "tags": [
         "CO2",
         "Atmosphere",
@@ -156,31 +155,6 @@
   "satellite": [
     "Other"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      1
-    ],
-    "range": [
-      "#a50026",
-      "#cb2527",
-      "#e75136",
-      "#f7814c",
-      "#fdb264",
-      "#fed885",
-      "#fff3ab",
-      "#f0f9ab",
-      "#d1ec86",
-      "#aadb6d",
-      "#7ac665",
-      "#43ac5a",
-      "#148d4a",
-      "#006837"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "KNDVI"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_kndvi/chart.json",
   "title": "Kernel NDVI (daily)",
@@ -235,13 +209,6 @@
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_kndvi/ESDC_kndvi_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "scienceHub_timeSeries_vegetation": {
       "href": "https://eodashboard.org/story/?id=scienceHub_timeSeries_vegetation",
       "type": "text/markdown",

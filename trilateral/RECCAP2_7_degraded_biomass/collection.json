@@ -27,7 +27,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_7_degraded_biomass/World-RECCAP2_7.jpg"
       ],
-      "yAxis": "Mg C ha year",
       "tags": [
         "Amazon rainforest",
         "Open data",
@@ -177,31 +176,6 @@
   "satellite": [
     "SMOS"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      5
-    ],
-    "range": [
-      "#ffffcc",
-      "#fff4b1",
-      "#ffe896",
-      "#fedc7c",
-      "#fec763",
-      "#feaf4b",
-      "#fd9841",
-      "#fd7a36",
-      "#fc532b",
-      "#ef3222",
-      "#dd161e",
-      "#c60624",
-      "#a60026",
-      "#800026"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "[Mg C/ha/year]"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_7_degraded_biomass/chart.json",
   "title": "Degradation (CCI RECCAP2)",
@@ -259,13 +233,6 @@
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_6_deforested_biomass/RECCAP2_6_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "forest_loss_and_degradation": {
       "href": "https://eodashboard.org/story/?id=forest_loss_and_degradation",
       "type": "text/markdown",

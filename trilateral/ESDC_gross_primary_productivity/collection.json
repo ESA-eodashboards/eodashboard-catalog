@@ -28,7 +28,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_gross_primary_productivity/ESDC_gross_primary_productivity.jpg"
       ],
-      "yAxis": "g C m^-2 d^-1",
       "tags": [
         "CO2",
         "Photosynthesis",
@@ -136,31 +135,6 @@
   "satellite": [
     "Terra"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      -1,
-      15
-    ],
-    "range": [
-      "#000080",
-      "#0000d9",
-      "#001dff",
-      "#006cff",
-      "#00baff",
-      "#1cffda",
-      "#5cff9b",
-      "#9bff5c",
-      "#daff1c",
-      "#ffce00",
-      "#ff8500",
-      "#ff3c00",
-      "#d90000",
-      "#800000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "[gC/m²/day]"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_gross_primary_productivity/chart.json",
   "title": "Land Gross Primary Productivity",
@@ -218,13 +192,6 @@
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_gross_primary_productivity/ESDC_gross_primary_productivity_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_gross_primary_productivity/ESDC_gross_primary_productivity.jpg",
       "type": "image/png",

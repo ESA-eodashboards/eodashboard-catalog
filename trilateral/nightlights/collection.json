@@ -128,18 +128,6 @@
   "satellite": [
     "Suomi"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      "Less light",
-      "More light"
-    ],
-    "range": [
-      "#000004",
-      "#fcffa4"
-    ],
-    "scaleType": "categorical",
-    "title": ""
-  },
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Nightlights from SUOMI-NPP",
   "extent": {
@@ -190,13 +178,6 @@
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N5_nightlights/N5_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N5_nightlights/N5_nightlights.jpg",
       "type": "image/png",

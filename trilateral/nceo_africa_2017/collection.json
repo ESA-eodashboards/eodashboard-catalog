@@ -119,31 +119,6 @@
   "satellite": [
     "Other"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      400
-    ],
-    "range": [
-      "#fdfbfb",
-      "#e7cac0",
-      "#d1ae8c",
-      "#bfa764",
-      "#b5b65e",
-      "#94ae57",
-      "#72a551",
-      "#479a48",
-      "#3c8f60",
-      "#338478",
-      "#276b7d",
-      "#1a487a",
-      "#0d1d76",
-      "#000000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "mg/ha"
-  },
   "title": "Aboveground Woody Biomass",
   "extent": {
     "spatial": {
@@ -196,13 +171,6 @@
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/nceo_africa_2017/NCEO_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/nceo_africa_2017/nceo_africa_2017.jpg",
       "type": "image/png",

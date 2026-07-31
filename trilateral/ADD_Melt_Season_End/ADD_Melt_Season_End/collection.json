@@ -118,32 +118,6 @@
       3333134.03
     ]
   },
-  "eox:colorlegend": {
-    "domain": [
-      1,
-      365
-    ],
-    "range": [
-      "#306bff",
-      "#488eff",
-      "#5ca5ff",
-      "#6fb4ff",
-      "#82beff",
-      "#94c7ff",
-      "#a3d0ff",
-      "#b2d8ff",
-      "#c2deff",
-      "#cee5ff",
-      "#d8ecff",
-      "#e1f2ff",
-      "#e9f6ff",
-      "#f2fbff",
-      "#fbffff"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Ice melting end [day of year]"
-  },
   "eodash:proj4_def": {
     "name": "EPSG:3031",
     "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"

@@ -20,8 +20,7 @@
       ],
       "role": [
         "data"
-      ],
-      "key": "a3998956-686a-4b53-a857-21bc26955482"
+      ]
     },
     {
       "rel": "parent",
@@ -132,24 +131,6 @@
     "NPP",
     "JPSS-1"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      300
-    ],
-    "range": [
-      "#ffffff",
-      "#4040da",
-      "#1ccb9a",
-      "#bdff0c",
-      "#ffe01c",
-      "#ff5100",
-      "#b10600"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Precipitation"
-  },
   "endpointtype": "WMS_Time",
   "title": "Precipitation from GSMaP",
   "extent": {

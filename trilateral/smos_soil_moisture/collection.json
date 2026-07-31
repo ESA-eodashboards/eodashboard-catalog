@@ -24,7 +24,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMOS_SM/SMOS_SM.png"
       ],
-      "yAxis": "m3 m-3",
       "tags": [
         "CO2",
         "Photosynthesis",
@@ -157,21 +156,6 @@
   "satellite": [
     "SMOS"
   ],
-  "eox:colorlegend": {
-    "title": "Soil moisture [mg m-3]",
-    "range": [
-      "rgb(0, 0, 131)",
-      "rgb(0, 60, 170)",
-      "rgb(5, 255, 255)",
-      "rgb(255, 255, 0)",
-      "rgb(250, 0, 0)",
-      "rgb(128, 0, 0)"
-    ],
-    "domain": [
-      0,
-      1
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMOS_SM/chart.json",
   "title": "SMOS Soil Moisture",

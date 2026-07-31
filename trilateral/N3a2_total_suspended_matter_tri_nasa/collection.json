@@ -37,7 +37,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.jpg"
       ],
-      "yAxis": "%",
       "tags": [
         "Water quality",
         "Marine",
@@ -128,7 +127,6 @@
   ],
   "subtitle": "Total suspended matter maps",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.jpg",
-  "yAxis": "%",
   "themes": [
     "water"
   ],
@@ -152,22 +150,6 @@
   "satellite": [
     "Acqua"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      -100,
-      100
-    ],
-    "range": [
-      "#053264",
-      "#7fb9d7",
-      "#ffffff",
-      "#e68764",
-      "#731432"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Total suspended matter anomaly [%]"
-  },
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Total suspended matter maps from MODIS",
   "extent": {
@@ -211,13 +193,13 @@
       "MODIS"
     ],
     "cities": [
-      "San Francisco",
       "New York",
+      "San Francisco",
       "North Adriatic"
     ],
     "countries": [
-      "US",
-      "IT"
+      "IT",
+      "US"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.jpg"

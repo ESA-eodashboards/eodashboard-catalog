@@ -111,25 +111,6 @@
   "otherSources": [
     "ECOSTRESS"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      8,
-      36
-    ],
-    "range": [
-      "#ffffff",
-      "#dbeef5",
-      "#bbdeed",
-      "#6800fd",
-      "#e4ff00",
-      "#ff9400",
-      "#ff0000",
-      "#ff0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Temperature [°°C]"
-  },
   "title": "NASA ECOSTRESS land surface temperature",
   "extent": {
     "spatial": {

@@ -132,31 +132,6 @@
   "otherSources": [
     "Multi-sensors"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      80
-    ],
-    "range": [
-      "#ffffcc",
-      "#fff4b1",
-      "#ffe896",
-      "#fedc7c",
-      "#fec763",
-      "#feaf4b",
-      "#fd9841",
-      "#fd7a36",
-      "#fc532b",
-      "#ef3222",
-      "#dd161e",
-      "#c60624",
-      "#a60026",
-      "#800026"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Population density [People/m²]"
-  },
   "title": "Population Density (Meta)",
   "extent": {
     "spatial": {
@@ -203,13 +178,6 @@
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/FB_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "urban-health-final": {
       "href": "https://eodashboard.org/story/?id=urban-health-final",
       "type": "text/markdown",

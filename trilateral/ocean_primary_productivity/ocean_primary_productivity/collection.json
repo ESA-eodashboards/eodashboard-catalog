@@ -21,7 +21,6 @@
       "role": [
         "data"
       ],
-      "key": "7360d74d-eee0-4778-80e5-ae5f1be5b419",
       "proj:epsg": 3857
     },
     {
@@ -107,28 +106,6 @@
     "Suomi",
     "OrbView-2"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      -1,
-      1
-    ],
-    "range": [
-      "#ffffff",
-      "#7600f0",
-      "#0ec5ff",
-      "#05ffc2",
-      "#98ff8a",
-      "#f3ff3e",
-      "#fcc700",
-      "#ff7700",
-      "#e93100",
-      "#b50000",
-      "#900000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "PP [g C/y m²]"
-  },
   "proj:epsg": 3857,
   "endpointtype": "WMS_OverwriteTimes",
   "title": "Ocean net primary production (BICEP)",

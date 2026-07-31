@@ -58,28 +58,6 @@
   "satellite": [
     "Sentinel-5P"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0.01,
-      0.3
-    ],
-    "range": [
-      "#403a71",
-      "#0e5a90",
-      "#3b9287",
-      "#77ca67",
-      "#fcee98"
-    ],
-    "scaleType": "log10",
-    "tickFormat": ".2f",
-    "title": "Diffuse attenuation coefficient UVAB [m⁻¹]",
-    "tickValues": [
-      0.01,
-      0.03,
-      0.1,
-      0.3
-    ]
-  },
   "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Kd Ocean Colour UVAB by Sentinel-5P TROPOMI (Daily)",

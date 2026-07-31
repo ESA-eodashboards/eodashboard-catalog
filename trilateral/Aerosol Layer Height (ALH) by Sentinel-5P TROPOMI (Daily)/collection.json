@@ -136,22 +136,6 @@
   "satellite": [
     "Sentinel-5P"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0.0,
-      12.0
-    ],
-    "range": [
-      "#fcee98",
-      "#77ca67",
-      "#3b9287",
-      "#0e5a90",
-      "#403a71"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Aerosol Layer Height [km]"
-  },
   "title": "Aerosol Layer Height (ALH) by Sentinel-5P TROPOMI (Daily)",
   "extent": {
     "spatial": {

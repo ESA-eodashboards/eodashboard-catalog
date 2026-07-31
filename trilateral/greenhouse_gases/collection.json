@@ -44,7 +44,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg"
       ],
-      "yAxis": "ppmv",
       "tags": [
         "Air quality",
         "CO2",
@@ -158,31 +157,6 @@
   "satellite": [
     "GOSAT"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      -12.5,
-      12.5
-    ],
-    "range": [
-      "#000080",
-      "#0000d9",
-      "#001dff",
-      "#006cff",
-      "#00baff",
-      "#1cffda",
-      "#5cff9b",
-      "#9bff5c",
-      "#daff1c",
-      "#ffce00",
-      "#ff8500",
-      "#ff3c00",
-      "#d90000",
-      "#800000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "diff XCO2 [ppm]"
-  },
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/N2_greenhouse_gases/chart.json",
   "title": "Carbon Dioxide at city level from GOSAT",
@@ -227,24 +201,24 @@
       "GOSAT"
     ],
     "sensor": [
-      "TANSO-CAI",
-      "TANSO-FTS"
+      "TANSO-FTS",
+      "TANSO-CAI"
     ],
     "cities": [
-      "Beijing",
-      "New Delhi",
-      "Shanghai",
-      "Mumbai",
-      "New York",
       "Dhaka",
-      "Tokyo"
+      "Beijing",
+      "Mumbai",
+      "Tokyo",
+      "New Delhi",
+      "New York",
+      "Shanghai"
     ],
     "countries": [
       "IN",
       "US",
       "JP",
-      "BD",
-      "CN"
+      "CN",
+      "BD"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg"

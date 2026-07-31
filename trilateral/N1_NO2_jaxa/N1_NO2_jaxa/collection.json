@@ -20,8 +20,7 @@
       ],
       "role": [
         "data"
-      ],
-      "key": "b1a6ad3b-1a80-41bf-8210-6f2f65a78ad2"
+      ]
     },
     {
       "rel": "parent",
@@ -50,25 +49,6 @@
   "satellite": [
     "Sentinel-5P"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      360
-    ],
-    "range": [
-      "#0000C8",
-      "#0041FF",
-      "#00C1FF",
-      "#49FFAD",
-      "#B1FF46",
-      "#FFD000",
-      "#FF5900",
-      "#C40000",
-      "#800000"
-    ],
-    "scaleType": "discrete",
-    "title": "NO2 (µmol/m²)"
-  },
   "endpointtype": "WMS_Time",
   "title": "Nitrogen dioxide daily (Cairo) [mol/m3]",
   "extent": {

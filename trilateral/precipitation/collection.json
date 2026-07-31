@@ -244,24 +244,6 @@
     "NPP",
     "JPSS-1"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      300
-    ],
-    "range": [
-      "#ffffff",
-      "#4040da",
-      "#1ccb9a",
-      "#bdff0c",
-      "#ffe01c",
-      "#ff5100",
-      "#b10600"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Precipitation"
-  },
   "title": "Precipitation from GSMaP",
   "extent": {
     "spatial": {
@@ -307,39 +289,39 @@
       "agriculture"
     ],
     "satellite": [
-      "TRMM",
-      "ADEOS-II",
-      "GCOM-W1",
-      "NOAA-N18",
-      "GPM Core Observatory",
-      "NOAA-N17",
-      "NOAA-N19",
-      "JPSS-1",
-      "Megha-Tropiques",
-      "DMSP-F15",
-      "Aqua",
-      "DMSP-F11",
-      "MetOp-B",
-      "DMSP-F14",
-      "DWSS-1",
       "DMSP-F13",
+      "GPM Core Observatory",
+      "DMSP-F14",
+      "ADEOS-II",
+      "NOAA-N16",
+      "DMSP-F11",
+      "DWSS-1",
+      "DMSP-F15",
       "NOAA-N15",
       "MetOp-A",
+      "NOAA-N18",
+      "Megha-Tropiques",
+      "MetOp-B",
       "NPP",
-      "NOAA-N16"
+      "NOAA-N17",
+      "TRMM",
+      "Aqua",
+      "JPSS-1",
+      "GCOM-W1",
+      "NOAA-N19"
     ],
     "sensor": [
-      "SSM/I",
-      "GMI",
       "ATMS",
       "AMSR-E",
-      "AMSR2",
-      "TMI",
+      "AMSU-A/AMSU-B",
+      "GMI",
       "AMSU-A/MHS",
       "TBD",
-      "AMSU-A/AMSU-B",
-      "AMSR",
-      "MADRAS"
+      "MADRAS",
+      "TMI",
+      "AMSR2",
+      "SSM/I",
+      "AMSR"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.jpg"

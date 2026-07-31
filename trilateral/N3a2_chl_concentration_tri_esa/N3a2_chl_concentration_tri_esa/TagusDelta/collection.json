@@ -105,7 +105,6 @@
   ],
   "subtitle": "Chlorophyll-a concentration maps",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg",
-  "yAxis": "%",
   "themes": [
     "water"
   ],
@@ -128,22 +127,6 @@
   "satellite": [
     "Sentinel-3"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      -100,
-      100
-    ],
-    "range": [
-      "#053264",
-      "#7fb9d7",
-      "#ffffff",
-      "#e68764",
-      "#731432"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Chl-a anomaly [%]"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri_esa/chart.json",
   "title": "Tagus Delta",

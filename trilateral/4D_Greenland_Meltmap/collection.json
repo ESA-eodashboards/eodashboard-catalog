@@ -209,22 +209,6 @@
       5314763.31
     ]
   },
-  "eox:colorlegend": {
-    "domain": [
-      "no melt l.",
-      "surface melt l.",
-      "wet snow l.",
-      "new top frozen l."
-    ],
-    "range": [
-      "#AFABAB",
-      "#B4C7E7",
-      "#66A2D8",
-      "#FFF3CC"
-    ],
-    "scaleType": "categorical",
-    "title": "Ice melting status"
-  },
   "title": "Greenland Meltmap",
   "extent": {
     "spatial": {

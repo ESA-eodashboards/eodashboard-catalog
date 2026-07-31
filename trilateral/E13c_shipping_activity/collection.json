@@ -51,7 +51,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg"
       ],
-      "yAxis": "Number of ships in Port",
       "tags": [
         "Economy",
         "Open data",
@@ -247,25 +246,25 @@
       "PS2"
     ],
     "cities": [
-      "New York",
       "Suez",
-      "Gdynia",
-      "San Francisco",
+      "Suez ",
       "Ghent",
-      "Genoa",
-      "Los Angeles",
-      "Dunkirk",
+      "Gdynia",
       "Hamburg",
-      "Suez "
+      "Los Angeles",
+      "Genoa",
+      "San Francisco",
+      "New York",
+      "Dunkirk"
     ],
     "countries": [
+      "FR",
       "PL",
       "US",
-      "IT",
-      "EG",
-      "FR",
       "DE",
-      "BE"
+      "IT",
+      "BE",
+      "EG"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13c_shipping_activity/E13c_shipping_activity.jpg"

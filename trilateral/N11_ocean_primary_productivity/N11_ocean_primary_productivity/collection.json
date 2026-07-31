@@ -20,8 +20,7 @@
       ],
       "role": [
         "data"
-      ],
-      "key": "d5f8609c-9df2-4f68-b59a-78519bcd0f48"
+      ]
     },
     {
       "rel": "parent",
@@ -58,29 +57,6 @@
   "satellite": [
     "GCOM-C"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      300,
-      600,
-      750,
-      900,
-      1200,
-      1500
-    ],
-    "range": [
-      "#9f409f",
-      "#2187f9",
-      "#76f6ff",
-      "#99e599",
-      "#f6fc81",
-      "#ff8a7f",
-      "#8b0b0b"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "mgC/m²/day"
-  },
   "endpointtype": "WMS_Time",
   "title": "Ocean Primary Productivity (GCOM-C)",
   "extent": {

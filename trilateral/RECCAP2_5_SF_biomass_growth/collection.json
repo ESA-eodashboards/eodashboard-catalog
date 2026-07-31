@@ -27,7 +27,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_5_SF_biomass_growth/World-RECCAP2_5.jpg"
       ],
-      "yAxis": "Mg C ha year",
       "tags": [
         "Amazon rainforest",
         "Open data",
@@ -177,31 +176,6 @@
   "satellite": [
     "SMOS"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      2
-    ],
-    "range": [
-      "#ffffe5",
-      "#fafdca",
-      "#f0f9b4",
-      "#def2a6",
-      "#c5e799",
-      "#a9db8c",
-      "#88cd7f",
-      "#67be70",
-      "#45ad5f",
-      "#31964f",
-      "#1e8041",
-      "#086e3a",
-      "#005b32",
-      "#004529"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "[Mg C/ha/year]"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_5_SF_biomass_growth/chart.json",
   "title": "Secondary forest growth (CCI RECCAP2)",
@@ -259,13 +233,6 @@
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_5_SF_biomass_growth/RECCAP2_5_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "forest_loss_and_degradation": {
       "href": "https://eodashboard.org/story/?id=forest_loss_and_degradation",
       "type": "text/markdown",

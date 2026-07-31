@@ -173,26 +173,6 @@
   "satellite": [
     "Other"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      270,
-      310
-    ],
-    "range": [
-      "#274f85",
-      "#568dba",
-      "#80aecf",
-      "#c5dbe9",
-      "#f6f6f6",
-      "#f3d3c0",
-      "#e3a48e",
-      "#b7534a",
-      "#812028"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Lake Surface Temperature [K]"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/sh_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_SWT_surface_water_temperature/chart.json",
   "title": "Biwa",

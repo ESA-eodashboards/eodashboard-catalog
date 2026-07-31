@@ -40,7 +40,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10c_rice_planting/E10c_rice_planting.jpg"
       ],
-      "yAxis": "NDVI",
       "tags": [
         "Multi-sensors",
         "Food security",
@@ -188,31 +187,6 @@
     "Sentinel-2",
     "Landsat-8"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      -1,
-      1
-    ],
-    "range": [
-      "#ffffff",
-      "#acacac",
-      "#595959",
-      "#616161",
-      "#b4b4b4",
-      "#f5f5f5",
-      "#949494",
-      "#454558",
-      "#1be830",
-      "#83ff01",
-      "#ffe801",
-      "#ff8001",
-      "#ff1801",
-      "#ff01ef"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "NDVI"
-  },
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10c_rice_planting/chart.json",
   "title": "Rice planting",
@@ -265,20 +239,20 @@
     "satellite": [
       "GCOM-C",
       "Sentinel-2",
-      "ALOS-2",
-      "Landsat-8"
+      "Landsat-8",
+      "ALOS-2"
     ],
     "sensor": [
+      "SGLI",
       "PALSAR-2",
       "OLI",
-      "SGLI",
       "MSI"
     ],
     "cities": [
       "Glenn (GCOM-C)",
       "Yolo",
-      "Glenn",
-      "Colusa"
+      "Colusa",
+      "Glenn"
     ],
     "countries": [
       "US"

@@ -29,7 +29,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.jpg"
       ],
-      "yAxis": "%",
       "tags": [
         "Water quality",
         "Copernicus Services",
@@ -120,7 +119,6 @@
   ],
   "subtitle": "Total suspended matter maps",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.jpg",
-  "yAxis": "%",
   "themes": [
     "water"
   ],
@@ -144,22 +142,6 @@
   "satellite": [
     "Sentinel-3"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      -100,
-      100
-    ],
-    "range": [
-      "#053264",
-      "#7fb9d7",
-      "#ffffff",
-      "#e68764",
-      "#731432"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Total suspended matter anomaly [%]"
-  },
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Total suspended matter from Sentinel-3",
   "extent": {

@@ -95,21 +95,6 @@
   "otherSources": [
     "ORAS5"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      -2,
-      30
-    ],
-    "range": [
-      "#0000FF",
-      "#00FFFF",
-      "#FFFF00",
-      "#FF0000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "[GJ/m2]"
-  },
   "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Ocean heat content for the upper 300m",

@@ -133,29 +133,6 @@
   "satellite": [
     "Other"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      -1,
-      0,
-      10,
-      20,
-      30,
-      40,
-      50
-    ],
-    "range": [
-      "#ffffff",
-      "#2727d5",
-      "#00b330",
-      "#1ccb9a",
-      "#ffe01c",
-      "#ff5100",
-      "#b10600"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Soil moisture content"
-  },
   "title": "Soil moisture content from GSMaP",
   "extent": {
     "spatial": {

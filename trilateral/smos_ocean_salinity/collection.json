@@ -24,7 +24,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMOS_OS/SMOS_OS.png"
       ],
-      "yAxis": "psu",
       "tags": [
         "L-band",
         "Ocean salinity",
@@ -149,21 +148,6 @@
   "satellite": [
     "SMOS"
   ],
-  "eox:colorlegend": {
-    "title": "Sea Surface Salinity [psu]",
-    "range": [
-      "rgb(0, 0, 131)",
-      "rgb(0, 60, 170)",
-      "rgb(5, 255, 255)",
-      "rgb(255, 255, 0)",
-      "rgb(250, 0, 0)",
-      "rgb(128, 0, 0)"
-    ],
-    "domain": [
-      0,
-      50
-    ]
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/smos_ocean_salinity/chart.json",
   "title": "SMOS Ocean Salinity",

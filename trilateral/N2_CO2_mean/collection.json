@@ -137,31 +137,6 @@
   "satellite": [
     "OCO-2"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      408,
-      419
-    ],
-    "range": [
-      "#313695",
-      "#4066ad",
-      "#5e93c4",
-      "#85bbd8",
-      "#afdbea",
-      "#d8eff6",
-      "#f3fad5",
-      "#fff3ad",
-      "#fed889",
-      "#fdb265",
-      "#f7814c",
-      "#e75136",
-      "#cb2527",
-      "#a50026"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "CO2 mean concentration [ppm]"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_mean/chart.json",
   "title": "Carbon Dioxide from OMI (daily)",
@@ -219,13 +194,6 @@
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_mean/N2_CO2_mean_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_CO2_mean/N2_CO2_mean.jpg",
       "type": "image/png",

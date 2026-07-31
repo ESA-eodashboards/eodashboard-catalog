@@ -61,32 +61,6 @@
   "satellite": [
     "Sentinel-5P"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0.5,
-      7.0
-    ],
-    "range": [
-      "#fbfea2",
-      "#fbb318",
-      "#ec6726",
-      "#bb3754",
-      "#781c6d",
-      "#33095e",
-      "#36331e"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "Absorbing Aerosol Index @ 354/388 nm",
-    "tickValues": [
-      0.5,
-      1.0,
-      2.0,
-      3.0,
-      5.0,
-      7.0
-    ]
-  },
   "proj:epsg": 3857,
   "endpointtype": "Sentinel Hub_byoc",
   "title": "Absorbing Aerosol Index (AAI) by Sentinel-5P TROPOMI (Monthly)",

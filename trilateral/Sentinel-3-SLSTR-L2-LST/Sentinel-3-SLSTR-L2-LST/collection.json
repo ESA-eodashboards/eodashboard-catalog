@@ -20,8 +20,7 @@
       ],
       "role": [
         "data"
-      ],
-      "key": "20affdf4-c560-4018-b7f5-0fa33f2f3137"
+      ]
     },
     {
       "rel": "parent",
@@ -70,24 +69,6 @@
   "satellite": [
     "Sentinel-3"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      10,
-      20,
-      30,
-      50
-    ],
-    "range": [
-      "rgb(254, 252, 231)",
-      "rgb(253, 225, 145)",
-      "rgb(246, 152, 85)",
-      "rgb(236, 105, 39)"
-    ],
-    "scaleType": "threshold",
-    "tickFormat": ".0f",
-    "title": "Temperature [°C]"
-  },
   "endpointtype": "WMS_OverwriteTimes",
   "title": "Land Surface Temperature (Sentinel-3 SLSTR L2)",
   "extent": {

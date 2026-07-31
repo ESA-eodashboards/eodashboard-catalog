@@ -61,7 +61,6 @@
     }
   },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/VITS_vegetation_index_timeseries/VITS_vegetation_index_timeseries.jpg",
-  "yAxis": "Normalized Difference Vegetation Index [Dimensionless]",
   "themes": [
     "agriculture"
   ],

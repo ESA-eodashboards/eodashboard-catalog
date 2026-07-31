@@ -166,28 +166,6 @@
   "insituSources": [
     "Other"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      "Exceptional",
-      "Favourable",
-      "Watch",
-      "Poor",
-      "Failure",
-      "Out-of-season",
-      "No data"
-    ],
-    "range": [
-      "#447fca",
-      "#0be840",
-      "#f1ff00",
-      "#f34a00",
-      "#8e0000",
-      "#787878",
-      "#834100"
-    ],
-    "scaleType": "categorical",
-    "title": "Crop conditions"
-  },
   "title": "Crop Conditions (GEOGLAM)",
   "extent": {
     "spatial": {
@@ -240,13 +218,6 @@
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N6_geoglam/N6_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "el_nino_part_3_food_security": {
       "href": "https://eodashboard.org/story/?id=el_nino_part_3_food_security",
       "type": "text/markdown",

@@ -51,7 +51,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg"
       ],
-      "yAxis": "Tropospheric NO2 (μmol/m2)",
       "tags": [
         "Air quality",
         "NO2",
@@ -207,25 +206,25 @@
     ],
     "cities": [
       "Beijing",
-      "New Delhi",
-      "Madrid",
-      "Rome",
       "Mumbai",
-      "Milan",
+      "Paris",
+      "Tokyo",
+      "Rome",
+      "New Delhi",
+      "Los Angeles",
+      "Madrid",
       "San Francisco",
       "New York",
-      "Tokyo",
-      "Los Angeles",
-      "Paris"
+      "Milan"
     ],
     "countries": [
+      "FR",
       "IN",
       "US",
       "IT",
       "JP",
       "ES",
-      "CN",
-      "FR"
+      "CN"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg"

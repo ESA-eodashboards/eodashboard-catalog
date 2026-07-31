@@ -27,7 +27,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/World-RECCAP2_1.jpg"
       ],
-      "yAxis": "Mg C ha",
       "tags": [
         "Amazon rainforest",
         "Open data",
@@ -177,31 +176,6 @@
   "satellite": [
     "SMOS"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      150
-    ],
-    "range": [
-      "#eeedf3",
-      "#e1d8d3",
-      "#d7c4ad",
-      "#beb68e",
-      "#9dab81",
-      "#7aa076",
-      "#54946f",
-      "#28886e",
-      "#08776e",
-      "#06656b",
-      "#185364",
-      "#234057",
-      "#252e47",
-      "#221b38"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "[Mg C/ha]"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_3_AGC_LVOD_amazonia_smooth_mean_crop/chart.json",
   "title": "Smooth mean aboveground carbon (CCI RECCAP2)",
@@ -259,13 +233,6 @@
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop/RECCAP2_1_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "forest_loss_and_degradation": {
       "href": "https://eodashboard.org/story/?id=forest_loss_and_degradation",
       "type": "text/markdown",

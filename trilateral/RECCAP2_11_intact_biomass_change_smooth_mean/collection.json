@@ -27,7 +27,6 @@
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_9_intact_biomass_change_methods_mean/World-RECCAP2_9.jpg"
       ],
-      "yAxis": "Mg C ha year",
       "tags": [
         "Amazon rainforest",
         "Open data",
@@ -173,31 +172,6 @@
   "satellite": [
     "SMOS"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      -5,
-      5
-    ],
-    "range": [
-      "#9e0142",
-      "#c8304c",
-      "#e65749",
-      "#f7814c",
-      "#fdb264",
-      "#fed885",
-      "#fff3ab",
-      "#f5fbb0",
-      "#ddf19a",
-      "#b0dfa3",
-      "#7bcaa5",
-      "#4ea7b0",
-      "#3c7bb7",
-      "#5e4fa2"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "[Mg C/ha/year]"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_11_intact_biomass_change_smooth_mean/chart.json",
   "title": "Smooth mean intact biomass change (CCI RECCAP2)",
@@ -255,13 +229,6 @@
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/RECCAP2_9_intact_biomass_change_methods_mean/RECCAP2_9_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "forest_loss_and_degradation": {
       "href": "https://eodashboard.org/story/?id=forest_loss_and_degradation",
       "type": "text/markdown",

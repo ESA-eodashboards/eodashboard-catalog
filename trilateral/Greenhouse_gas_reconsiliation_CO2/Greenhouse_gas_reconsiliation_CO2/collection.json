@@ -261,7 +261,6 @@
   "sci:citation": "Zhu Deng, Philippe Ciais, Liting Hu, Martinez, A., Saunois, M., Thompson, R., & Frédéric Chevallier. (2024). Global greenhouse gas reconciliation 2022 [Data set]. Zenodo.\n",
   "subtitle": "CO2 from National greenhouse gas inventories (NGHGI) database",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/GGI_CO2/GGI_CO2.jpg",
-  "yAxis": "Tg C",
   "themes": [
     "atmosphere"
   ],

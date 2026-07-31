@@ -23,8 +23,7 @@
       ],
       "wms:styles": [
         ""
-      ],
-      "key": "5f4267b5-0427-45c9-93eb-6f8e73cfe777"
+      ]
     },
     {
       "rel": "parent",
@@ -52,23 +51,6 @@
   "satellite": [
     "GCOM-C"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      0,
-      1
-    ],
-    "range": [
-      "#b79a4b",
-      "#ece267",
-      "#abff38",
-      "#61e43e",
-      "#1c9c03",
-      "#0e4303"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "NDVI"
-  },
   "endpointtype": "WMS_Time",
   "title": "Normalized Difference Vegetation Index",
   "extent": {

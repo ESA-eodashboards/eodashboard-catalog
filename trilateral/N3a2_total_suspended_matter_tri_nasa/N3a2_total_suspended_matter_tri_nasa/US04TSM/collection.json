@@ -73,7 +73,6 @@
   "subcode": "N3a2_tsm_nasa",
   "subtitle": "Total suspended matter maps",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.jpg",
-  "yAxis": "%",
   "themes": [
     "water"
   ],
@@ -95,22 +94,6 @@
   "satellite": [
     "Acqua"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      -100,
-      100
-    ],
-    "range": [
-      "#053264",
-      "#7fb9d7",
-      "#ffffff",
-      "#e68764",
-      "#731432"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Total suspended matter anomaly [%]"
-  },
   "title": "New York - N3a2_total_suspended_matter_tri_nasa",
   "extent": {
     "spatial": {

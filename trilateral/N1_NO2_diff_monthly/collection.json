@@ -129,27 +129,6 @@
   "satellite": [
     "Aura"
   ],
-  "eox:colorlegend": {
-    "domain": [
-      -3,
-      3
-    ],
-    "range": [
-      "#053061",
-      "#246aae",
-      "#559ec9",
-      "#a7cfe4",
-      "#e1ecf3",
-      "#fae7db",
-      "#f7b799",
-      "#dd7059",
-      "#b51f2e",
-      "#67001f"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "NO2 difference [10^15 molecules/cm²]"
-  },
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_diff_monthly/chart.json",
   "title": "Nitrogen Dioxide (Monthly Difference)",
@@ -207,13 +186,6 @@
     ]
   },
   "assets": {
-    "legend": {
-      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_diff_monthly/N1_NO2_diff_monthly_legend.png",
-      "type": "image/png",
-      "roles": [
-        "metadata"
-      ]
-    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_diff_monthly/N1_NO2_diff_monthly.jpg",
       "type": "image/png",
