@@ -204,7 +204,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2026-08-13T18:09:18.092661Z"
+          "2026-08-18T07:54:31.346313Z"
         ]
       ]
     }
@@ -236,17 +236,17 @@
       "PALSAR-2"
     ],
     "cities": [
-      "Beijing",
-      "Nagoya",
+      "Singapore",
       "Palm Springs",
+      "Nagoya",
       "Los Angeles",
-      "Arcadia",
-      "Singapore"
+      "Beijing",
+      "Arcadia"
     ],
     "countries": [
-      "SG",
       "US",
       "CN",
+      "SG",
       "JP"
     ],
     "thumbnail": [

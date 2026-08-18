@@ -33,6 +33,24 @@
     "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
   ],
   "subtitle": "Monthly precipitation product",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      300
+    ],
+    "range": [
+      "#ffffff",
+      "#4040da",
+      "#1ccb9a",
+      "#bdff0c",
+      "#ffe01c",
+      "#ff5100",
+      "#b10600"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Precipitation"
+  },
   "eodash:stories": {
     "world_crop_supply_and_demand": {
       "href": "https://eodashboard.org/story/?id=world_crop_supply_and_demand",

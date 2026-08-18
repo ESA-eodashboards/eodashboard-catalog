@@ -120,6 +120,26 @@
       "doi": "10.1038/s41597-022-01889-z"
     }
   ],
+  "eox:colorlegend": {
+    "domain": [
+      270,
+      310
+    ],
+    "range": [
+      "#274f85",
+      "#568dba",
+      "#80aecf",
+      "#c5dbe9",
+      "#f6f6f6",
+      "#f3d3c0",
+      "#e3a48e",
+      "#b7534a",
+      "#812028"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Lake Surface Temperature [K]"
+  },
   "eodash:stories": {
     "lakes-climate": {
       "href": "https://eodashboard.org/story/?id=lakes-climate",

@@ -99,6 +99,29 @@
     "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
   ],
   "subtitle": "Soil moisture content",
+  "eox:colorlegend": {
+    "domain": [
+      -1,
+      0,
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "range": [
+      "#ffffff",
+      "#2727d5",
+      "#00b330",
+      "#1ccb9a",
+      "#ffe01c",
+      "#ff5100",
+      "#b10600"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Soil moisture content"
+  },
   "eodash:stories": {
     "world_crop_supply_and_demand": {
       "href": "https://eodashboard.org/story/?id=world_crop_supply_and_demand",

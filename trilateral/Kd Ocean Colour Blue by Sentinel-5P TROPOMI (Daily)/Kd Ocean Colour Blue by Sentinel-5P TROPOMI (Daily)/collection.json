@@ -30,6 +30,28 @@
       "title": "Kd Ocean Colour Blue by Sentinel-5P TROPOMI (Daily)"
     }
   ],
+  "eox:colorlegend": {
+    "domain": [
+      0.01,
+      0.3
+    ],
+    "range": [
+      "#403a71",
+      "#0e5a90",
+      "#3b9287",
+      "#77ca67",
+      "#fcee98"
+    ],
+    "scaleType": "log10",
+    "tickFormat": ".2f",
+    "title": "Diffuse attenuation coefficient blue [m⁻¹]",
+    "tickValues": [
+      0.01,
+      0.03,
+      0.1,
+      0.3
+    ]
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-KdBLUE-DAY/S5P-L3GRD-KdBLUE-DAY_thumbnail.jpg",
   "themes": [
     "water"

@@ -38,6 +38,22 @@
   ],
   "sci:citation": "Citing the data:\nLindsley, R. D. and Long, D. G. (2010): Standard BYU ASCAT land/ice image products. Microwave Earth Remote Sensing Laboratory, 3\n",
   "subtitle": "Greenland Meltmap from 4D Greenland",
+  "eox:colorlegend": {
+    "domain": [
+      "no melt l.",
+      "surface melt l.",
+      "wet snow l.",
+      "new top frozen l."
+    ],
+    "range": [
+      "#AFABAB",
+      "#B4C7E7",
+      "#66A2D8",
+      "#FFF3CC"
+    ],
+    "scaleType": "categorical",
+    "title": "Ice melting status"
+  },
   "eodash:stories": {
     "jaxa-greenland-melting-and-darkening": {
       "href": "https://eodashboard.org/story/?id=jaxa-greenland-melting-and-darkening",

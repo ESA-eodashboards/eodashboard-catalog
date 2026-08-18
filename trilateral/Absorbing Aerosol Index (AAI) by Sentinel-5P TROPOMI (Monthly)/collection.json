@@ -107,6 +107,32 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "eox:colorlegend": {
+    "domain": [
+      0.5,
+      7.0
+    ],
+    "range": [
+      "#fbfea2",
+      "#fbb318",
+      "#ec6726",
+      "#bb3754",
+      "#781c6d",
+      "#33095e",
+      "#36331e"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".1f",
+    "title": "Absorbing Aerosol Index @ 354/388 nm",
+    "tickValues": [
+      0.5,
+      1.0,
+      2.0,
+      3.0,
+      5.0,
+      7.0
+    ]
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/S5P-L3GRD-AAI-MONTH/S5P-L3GRD-AAI-MONTH_thumbnail.jpg",
   "themes": [
     "atmosphere"

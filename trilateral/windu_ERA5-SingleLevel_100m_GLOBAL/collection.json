@@ -121,6 +121,26 @@
   "sci:doi": "10.24381/cds.adbb2d47",
   "sci:citation": "Citing the data:\nHersbach, H., Bell, B., Berrisford, P., Biavati, G., Horányi, A., Muñoz Sabater, J., Nicolas, J., Peubey, C., Radu, R., Rozum, I., Schepers, D., Simmons, A., Soci, C., Dee, D., Thépaut, J-N. (2023): ERA5 hourly data on single levels from 1940 to present. Copernicus Climate Change Service (C3S) Climate Data Store (CDS) (Accessed on 02-M07-2024)\n",
   "subtitle": "Gridded ERA5 reanalysis wind U field at 100 m at global level",
+  "eox:colorlegend": {
+    "domain": [
+      -4,
+      4
+    ],
+    "range": [
+      "#0b3587",
+      "#0b74c5",
+      "#4eb5fa",
+      "#abeaf3",
+      "#f4fced",
+      "#fbd45f",
+      "#f78500",
+      "#dd1800",
+      "#a30100"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Wind field [m/s]"
+  },
   "eodash:stories": {
     "extreme_air_pollution_india_and_pakistan": {
       "href": "https://eodashboard.org/story/?id=extreme_air_pollution_india_and_pakistan",

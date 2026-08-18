@@ -106,6 +106,24 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
   ],
+  "eox:colorlegend": {
+    "domain": [
+      "No data",
+      "Forest (>90% canopy cover)",
+      "Forest (10-90% canopy cover)",
+      "Non-forest",
+      "Water"
+    ],
+    "range": [
+      "#000000",
+      "#00c700",
+      "#4fff5c",
+      "#f6ff90",
+      "#6100ff"
+    ],
+    "scaleType": "categorical",
+    "title": "Global 25m resolution PALSAR-2 Forest/Non-Forest Map"
+  },
   "eodash:stories": {
     "forest_loss_and_degradation": {
       "href": "https://eodashboard.org/story/?id=forest_loss_and_degradation",

@@ -39,6 +39,31 @@
     }
   ],
   "subtitle": "Arctic sea ice thickness from CCI",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      4
+    ],
+    "range": [
+      "#0d0887",
+      "#370499",
+      "#5801a4",
+      "#7701a8",
+      "#920fa3",
+      "#ac2694",
+      "#c23c81",
+      "#d45270",
+      "#e4695e",
+      "#f1814d",
+      "#fa9b3d",
+      "#feb82c",
+      "#fad824",
+      "#f0f921"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Sea-ice thickness [m]"
+  },
   "eodash:stories": {
     "sea-ice-freeboard-thickness": {
       "href": "https://eodashboard.org/story/?id=sea-ice-freeboard-thickness",

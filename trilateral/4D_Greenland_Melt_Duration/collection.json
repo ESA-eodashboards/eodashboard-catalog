@@ -131,6 +131,32 @@
   ],
   "sci:citation": "Citing the data:\nLindsley, R. D. and Long, D. G. (2010): Standard BYU ASCAT land/ice image products. Microwave Earth Remote Sensing Laboratory, 3\n",
   "subtitle": "Greenland Melt Duration from 4D Greenland",
+  "eox:colorlegend": {
+    "domain": [
+      3,
+      210
+    ],
+    "range": [
+      "#306bff",
+      "#488eff",
+      "#5ca5ff",
+      "#6fb4ff",
+      "#82beff",
+      "#94c7ff",
+      "#a3d0ff",
+      "#b2d8ff",
+      "#c2deff",
+      "#cee5ff",
+      "#d8ecff",
+      "#e1f2ff",
+      "#e9f6ff",
+      "#f2fbff",
+      "#fbffff"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Ice melting [days]"
+  },
   "eodash:stories": {
     "jaxa-greenland-melting-and-darkening": {
       "href": "https://eodashboard.org/story/?id=jaxa-greenland-melting-and-darkening",

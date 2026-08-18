@@ -32,6 +32,24 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
   ],
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      10,
+      20,
+      30,
+      50
+    ],
+    "range": [
+      "rgb(254, 252, 231)",
+      "rgb(253, 225, 145)",
+      "rgb(246, 152, 85)",
+      "rgb(236, 105, 39)"
+    ],
+    "scaleType": "threshold",
+    "tickFormat": ".0f",
+    "title": "Temperature [°C]"
+  },
   "eodash:stories": {
     "record_breaking_temperatures": {
       "href": "https://eodashboard.org/story/?id=record_breaking_temperatures",

@@ -146,6 +146,24 @@
     "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
   ],
   "subtitle": "Monthly precipitation product",
+  "eox:colorlegend": {
+    "domain": [
+      0,
+      300
+    ],
+    "range": [
+      "#ffffff",
+      "#4040da",
+      "#1ccb9a",
+      "#bdff0c",
+      "#ffe01c",
+      "#ff5100",
+      "#b10600"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Precipitation"
+  },
   "eodash:stories": {
     "world_crop_supply_and_demand": {
       "href": "https://eodashboard.org/story/?id=world_crop_supply_and_demand",
@@ -289,39 +307,39 @@
       "agriculture"
     ],
     "satellite": [
-      "GCOM-W1",
-      "NOAA-N16",
-      "DMSP-F15",
-      "NOAA-N17",
-      "JPSS-1",
-      "MetOp-A",
-      "GPM Core Observatory",
-      "NOAA-N15",
-      "DMSP-F11",
-      "TRMM",
-      "NOAA-N18",
-      "DMSP-F13",
       "DWSS-1",
-      "NPP",
+      "DMSP-F13",
+      "NOAA-N17",
+      "NOAA-N18",
+      "TRMM",
       "MetOp-B",
-      "DMSP-F14",
+      "NOAA-N15",
+      "NPP",
+      "GCOM-W1",
       "Aqua",
+      "GPM Core Observatory",
       "ADEOS-II",
+      "MetOp-A",
+      "Megha-Tropiques",
+      "DMSP-F15",
+      "JPSS-1",
+      "NOAA-N16",
       "NOAA-N19",
-      "Megha-Tropiques"
+      "DMSP-F11",
+      "DMSP-F14"
     ],
     "sensor": [
-      "TMI",
-      "AMSR-E",
-      "TBD",
-      "GMI",
-      "AMSU-A/AMSU-B",
-      "ATMS",
-      "AMSR2",
-      "SSM/I",
-      "AMSU-A/MHS",
       "AMSR",
-      "MADRAS"
+      "TBD",
+      "AMSR2",
+      "AMSU-A/AMSU-B",
+      "MADRAS",
+      "TMI",
+      "ATMS",
+      "AMSU-A/MHS",
+      "GMI",
+      "SSM/I",
+      "AMSR-E"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_precipitation.jpg"
