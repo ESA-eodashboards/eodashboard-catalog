@@ -5,12 +5,6 @@
   "description": "## Global Precipitation anomaly\r\n\r\nJAXA with Japanese MAFF provide agrometeorological information including Precipitation, Drought Index, Soil Moisture, Solar Radiation, Surface Temperature,\r\nVegetation Index and anomaly, etc. Rainfall, Agriculture, Land, GPM Core Observatory, SHIZUKU (GCOM-W), MODIS, Multiple Satellites (GSMaP) bi-Monthly on JASMIN for Asia and on JASMAI for selected world areas.\r\n\r\n\r\n### Additional information\r\n\r\n- Access Jaxa’s Public-health Monitor and Analysis Platform: [https://www.jpmap-jaxa.jp/jpmap/en/user_guide/](https://www.jpmap-jaxa.jp/jpmap/en/user_guide/)\r\n- Access JAXA's GSMaP (Global Satellite Mapping of Precipitation): [https://sharaku.eorc.jaxa.jp/GSMaP/](https://sharaku.eorc.jaxa.jp/GSMaP/)\r\n- GSMaP Documentation: [https://www.eorc.jaxa.jp/GPM/doc/algorithm/GSMaPforGPM_20140902_E.pdf](https://www.eorc.jaxa.jp/GPM/doc/algorithm/GSMaPforGPM_20140902_E.pdf)\r\n",
   "links": [
     {
-      "rel": "root",
-      "href": "../../catalog.json",
-      "type": "application/json",
-      "title": "Earth Observing Dashboard"
-    },
-    {
       "rel": "wms",
       "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
@@ -21,6 +15,12 @@
       "role": [
         "data"
       ]
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
     },
     {
       "rel": "parent",

@@ -5,12 +5,6 @@
   "description": "## Soil Moisture Anomaly \r\n\r\nJAXA with Japanese MAFF provide agrometeorological information including Precipitation, Drought Index, Soil Moisture, Solar Radiation, Surface Temperature, Vegetation Index and anomaly, etc.\r\nRainfall, Agriculture, Land, GPM Core Observatory, SHIZUKU (GCOM-W), MODIS, Multiple Satellites (GSMaP) bi-Monthly on JASMIN for Asia and on JASMAI for selected world areas. \r\n",
   "links": [
     {
-      "rel": "root",
-      "href": "../../catalog.json",
-      "type": "application/json",
-      "title": "Earth Observing Dashboard"
-    },
-    {
       "rel": "wms",
       "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
@@ -21,6 +15,12 @@
       "role": [
         "data"
       ]
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
     },
     {
       "rel": "parent",

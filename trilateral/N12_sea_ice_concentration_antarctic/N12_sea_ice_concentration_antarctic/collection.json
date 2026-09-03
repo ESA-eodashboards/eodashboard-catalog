@@ -5,12 +5,6 @@
   "description": "## GCOM-W Sea Ice Concentration\n\nJAXA is releasing Sea ice data observed by JAXA's [Global Change Observation Mission – Water “SHIZUKU” (GCOM-W)](https://global.jaxa.jp/projects/sat/gcom_w/).\nArctic sea ice extent is used as an important indicator showing the effect of global warming. Taking advantage of the wide-area observation from satellites,\nJAXA is conducting observation of the sea ice in the entire Arctic Ocean. Every winter, drift ice arriving on the coast of the Sea of Okhotsk can be captured.\n\n\n## Additional information\n\n- [Read more](https://earth.jaxa.jp/en/data/products/sea-ice/index.html)\n- Access the [Global Change Observation Mission - Water (GCOM-W) Product Distribution Service](https://suzaku.eorc.jaxa.jp/GCOM_W/research/resdist.html)\n",
   "links": [
     {
-      "rel": "root",
-      "href": "../../catalog.json",
-      "type": "application/json",
-      "title": "Earth Observing Dashboard"
-    },
-    {
       "rel": "wms",
       "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
@@ -25,6 +19,12 @@
         "name": "EPSG:3031",
         "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
       }
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
     },
     {
       "rel": "parent",

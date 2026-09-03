@@ -5,12 +5,6 @@
   "description": "## Solar Induced Chlorophyll Fluorescence from Sentinel-5p TROPOMI\n\n\nTROPOMI solar-induced chlorophyll fluorescence (SIF) shows the photosynthetic activity of plant ecosystem.\nPlant absorbs sunlight but re-emit a small fraction of energy as SIF, which is strongly related to carbon uptake of CO2 through photosynthesis over plant area (TROPOMI SIF in monthly average [mW/m2/sr/nm]).\n",
   "links": [
     {
-      "rel": "root",
-      "href": "../../catalog.json",
-      "type": "application/json",
-      "title": "Earth Observing Dashboard"
-    },
-    {
       "rel": "wms",
       "href": "https://gpwmap.jaxa.jp/wms",
       "type": "image/jpeg",
@@ -21,6 +15,12 @@
       "role": [
         "data"
       ]
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
     },
     {
       "rel": "parent",
