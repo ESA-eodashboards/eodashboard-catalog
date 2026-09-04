@@ -1,7 +1,6 @@
 {
-  "Name": "N11_ocean_primary_productivity",
+  "Name": "N11",
   "Title": "Ocean Primary Productivity (GCOM-C)",
-  "EodashIdentifier": "N11",
   "Subtitle": "Net primary productivity [mgC/m2/day]",
   "Description": "N11_ocean_primary_productivity/N11_ocean_primary_productivity.md",
   "Themes": [
@@ -54,7 +53,9 @@
   "Provider": [
     {
       "Name": "JAXA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://global.jaxa.jp/"
     }
   ],

@@ -1,7 +1,6 @@
 {
   "Name": "N12_sea_ice_concentration_antarctic",
   "Title": "Sea ice concentration GCOM-W - Antarctic",
-  "EodashIdentifier": "N12_sea_ice_concentration_antarctic",
   "Description": "N12_sea_ice_concentration/N12.md",
   "Themes": [
     "cryosphere"

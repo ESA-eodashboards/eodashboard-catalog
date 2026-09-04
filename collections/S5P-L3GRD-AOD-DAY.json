@@ -1,5 +1,5 @@
 {
-  "Name": "Aerosol Optical Depth (AOD) by Sentinel-5P TROPOMI (Daily)",
+  "Name": "S5P-L3GRD-AOD-DAY",
   "Title": "Aerosol Optical Depth (AOD) by Sentinel-5P TROPOMI (Daily)",
   "Description": "S5P-L3GRD-AOD-DAY/S5P-L3GRD-AOD-DAY.md",
   "Themes": [
@@ -60,7 +60,6 @@
     "tickFormat": ".1f",
     "title": "Aerosol Optical Depth @ 494nm"
   },
-  "EodashIdentifier": "S5P-L3GRD-AOD-DAY",
   "Resources": [
     {
       "EndPoint": "https://services.sentinel-hub.com",

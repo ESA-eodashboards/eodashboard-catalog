@@ -1,6 +1,6 @@
 {
-  "Name": "Total Column CH₄ – WFMD (Daily)",
-  "Title": "Total Column CH₄ – WFMD (Daily)",
+  "Name": "S5P-L3GRD-TCCH4WFMD-DAY",
+  "Title": "Total Column CH\u2084 \u2013 WFMD (Daily)",
   "Description": "S5P-L3GRD-TCCH4WFMD-DAY/S5P-L3GRD-TCCH4WFMD-DAY.md",
   "Themes": [
     "atmosphere"
@@ -311,7 +311,6 @@
     ]
   },
   "Legend": "S5P-L3GRD-TCCH4WFMD-DAY/S5P-L3GRD-TCCH4WFMD-DAY_legend.png",
-  "EodashIdentifier": "S5P-L3GRD-TCCH4WFMD-DAY",
   "Resources": [
     {
       "EndPoint": "https://services.sentinel-hub.com",

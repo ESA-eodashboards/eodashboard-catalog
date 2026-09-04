@@ -1,7 +1,6 @@
 {
   "Name": "LIS_Global_DA_Evap",
   "Title": "Evapotranspiration LIS",
-  "EodashIdentifier": "LIS_Global_DA_Evap",
   "Subtitle": "Total evapotranspiration gridded from 10km global LIS with assimilation",
   "Description": "LIS_Global_DA_Evap/LIS_Global_DA_Evap.md",
   "Themes": [

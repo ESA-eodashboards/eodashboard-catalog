@@ -1,7 +1,6 @@
 {
-  "Name": "NO2_daily",
+  "Name": "N1_NO2",
   "Title": "Air Quality (tropospheric NO2 concetrations)",
-  "EodashIdentifier": "N1_NO2",
   "Subtitle": "Daily Nitrogen Dioxide",
   "Description": "N1_NO2/N1_NO2.md",
   "Themes": [

@@ -1,6 +1,6 @@
 {
-  "Name": "Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)",
-  "Title": "Anthropogenic SO₂ COBRA (PBL) by Sentinel-5P TROPOMI (Daily)",
+  "Name": "S5P-L3GRD-SO2COBRA-DAY",
+  "Title": "Anthropogenic SO\u2082 COBRA (PBL) by Sentinel-5P TROPOMI (Daily)",
   "Description": "S5P-L3GRD-SO2COBRA-DAY/S5P-L3GRD-SO2COBRA-DAY.md",
   "Themes": [
     "atmosphere"
@@ -313,7 +313,6 @@
     ]
   },
   "Legend": "S5P-L3GRD-SO2COBRA-DAY/S5P-L3GRD-SO2COBRA-DAY_legend.png",
-  "EodashIdentifier": "S5P-L3GRD-SO2COBRA-DAY",
   "Resources": [
     {
       "EndPoint": "https://services.sentinel-hub.com",

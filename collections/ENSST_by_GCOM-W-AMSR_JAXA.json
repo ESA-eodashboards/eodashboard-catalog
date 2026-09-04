@@ -1,7 +1,6 @@
 {
-  "Name": "ENSST_by_GCOM-W-AMSR_JAXA",
+  "Name": "ENSST",
   "Title": "Sea Surface Temperature (GCOM-W)",
-  "EodashIdentifier": "ENSST",
   "Description": "ENSST_by_GCOM-W-AMSR_JAXA/ENSST_by_GCOM-W-AMSR_JAXA.md",
   "Image": "ENSST_by_GCOM-W-AMSR_JAXA/ENSST_by_GCOM-W-AMSR_JAXA.jpg",
   "Themes": [
@@ -55,17 +54,23 @@
   "Provider": [
     {
       "Name": "JAXA",
-      "Roles": ["licensor"],
+      "Roles": [
+        "licensor"
+      ],
       "Url": "https://global.jaxa.jp/"
     },
     {
       "Name": "JAXA GCOM project",
-      "Roles": ["producer"],
+      "Roles": [
+        "producer"
+      ],
       "Url": "https://suzaku.eorc.jaxa.jp/GCOM/index.html"
     },
     {
       "Name": "JAXA EORC",
-      "Roles": ["processor"],
+      "Roles": [
+        "processor"
+      ],
       "Url": "https://earth.jaxa.jp/"
     }
   ],
@@ -92,11 +97,11 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "Sea Surface Temperature [°C]"
+    "title": "Sea Surface Temperature [\u00b0C]"
   },
   "Stories": [
     {
-      "Name": "El Niño 2023-2024 Part 2: Rising Global Sea Surface Temperatures",
+      "Name": "El Ni\u00f1o 2023-2024 Part 2: Rising Global Sea Surface Temperatures",
       "Id": "rising_global_sea_surface_temperatures"
     }
   ]

@@ -2,17 +2,30 @@
   "Name": "ESDC_net_ecosystem_exchange",
   "Title": "Land Net Ecosystem Exchange",
   "Subtitle": "Net carbon exchange between the ecosystem and the atmosphere",
-  "EodashIdentifier": "ESDC_net_ecosystem_exchange",
   "Description": "ESDC_net_ecosystem_exchange/ESDC_net_ecosystem_exchange.md",
-  "Themes": ["biomass"],
-  "Tags": ["CO2", "Atmosphere", "Photosynthesis", "Open data", "Carbon"],
+  "Themes": [
+    "biomass"
+  ],
+  "Tags": [
+    "CO2",
+    "Atmosphere",
+    "Photosynthesis",
+    "Open data",
+    "Carbon"
+  ],
   "DataSource": {
     "Spaceborne": {
-      "Satellite": ["Terra"],
-      "Sensor": ["MODIS"]
+      "Satellite": [
+        "Terra"
+      ],
+      "Sensor": [
+        "MODIS"
+      ]
     }
   },
-  "Agency": ["NASA"],
+  "Agency": [
+    "NASA"
+  ],
   "Citation": {
     "Publication": [
       {
@@ -37,7 +50,10 @@
       "DatacubeId": "esdc",
       "Variable": "net_ecosystem_exchange",
       "ColormapName": "bwr",
-      "Rescale": [-7, 2],
+      "Rescale": [
+        -7,
+        2
+      ],
       "Query": {
         "Start": "2014-01-01T00:00:00Z",
         "End": "2018-12-23T00:00:00Z"
@@ -61,7 +77,9 @@
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://terra.nasa.gov/data/modis-data"
     }
   ]

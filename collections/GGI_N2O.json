@@ -1,7 +1,6 @@
 {
-  "Name": "Greenhouse_gas_reconsiliation_N2O",
+  "Name": "GGI_N2O",
   "Title": "Nitrous oxide from CCI RECCAP2",
-  "EodashIdentifier": "GGI_N2O",
   "Subtitle": "N2O from National greenhouse gas inventories (NGHGI) database",
   "Description": "GGI_N2O/GGI_N2O.md",
   "Image": "GGI_N2O/GGI_N2O.jpg",
@@ -38,7 +37,9 @@
   "Provider": [
     {
       "Name": "ESA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://climate.esa.int/en/projects/reccap-2/"
     }
   ],

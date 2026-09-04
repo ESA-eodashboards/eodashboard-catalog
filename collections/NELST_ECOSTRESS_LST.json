@@ -1,7 +1,6 @@
 {
-  "Name": "NASA_ECOSTRESS_LST",
+  "Name": "NELST",
   "Title": "NASA ECOSTRESS land surface temperature",
-  "EodashIdentifier": "NELST",
   "Description": "NELST_ECOSTRESS_LST/NELST_ECOSTRESS_LST.md",
   "Image": "NELST_ECOSTRESS_LST/NELST_ECOSTRESS_LST.jpg",
   "Themes": [
@@ -52,7 +51,9 @@
   "Provider": [
     {
       "Name": "NASA/JPL/ECOSTRESS",
-      "Roles": ["processor"],
+      "Roles": [
+        "processor"
+      ],
       "Url": "https://ecostress.jpl.nasa.gov/"
     }
   ],
@@ -73,6 +74,6 @@
     ],
     "scaleType": "continuous",
     "tickFormat": ".0f",
-    "title": "Temperature [\u00b0°C]"
+    "title": "Temperature [\u00b0\u00b0C]"
   }
 }

@@ -1,7 +1,6 @@
 {
   "Name": "N1_NO2_jaxa",
   "Title": "Nitrogen dioxide daily (Cairo) [mol/m3]",
-  "EodashIdentifier": "N1_NO2_jaxa",
   "Subtitle": "NO2 daily column density in Cairo based on Sentinel-5P data",
   "Description": "N1_NO2_trilateral/N1_NO2_jaxa.md",
   "Image": "N1_NO2_jaxa/N1_NO2_jaxa.jpg",
@@ -58,12 +57,16 @@
   "Provider": [
     {
       "Name": "Copernicus",
-      "Roles": ["licensor, producer"],
+      "Roles": [
+        "licensor, producer"
+      ],
       "Url": "https://www.copernicus.eu/en/access-data/conventional-data-access-hubs"
     },
     {
       "Name": "ESA",
-      "Roles": ["processor"],
+      "Roles": [
+        "processor"
+      ],
       "Url": "https://www.esa.int/"
     }
   ],

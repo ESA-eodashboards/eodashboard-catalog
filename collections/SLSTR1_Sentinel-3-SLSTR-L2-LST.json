@@ -1,7 +1,6 @@
 {
-  "Name": "Sentinel-3-SLSTR-L2-LST",
+  "Name": "SLSTR1",
   "Title": "Land Surface Temperature (Sentinel-3 SLSTR L2)",
-  "EodashIdentifier": "SLSTR1",
   "Description": "SLSTR1_Sentinel-3-SLSTR-L2-LST/SLSTR1_Sentinel-3-SLSTR-L2-LST.md",
   "Image": "SLSTR1_Sentinel-3-SLSTR-L2-LST/SLSTR1_Sentinel-3-SLSTR-L2-LST.jpg",
   "Themes": [
@@ -53,18 +52,26 @@
   "Provider": [
     {
       "Name": "Copernicus",
-      "Roles": ["licensor, producer"],
+      "Roles": [
+        "licensor, producer"
+      ],
       "Url": "https://www.copernicus.eu/en"
     },
     {
       "Name": "ESA",
-      "Roles": ["processor"],
+      "Roles": [
+        "processor"
+      ],
       "Url": "https://sentinels.copernicus.eu/web/sentinel/home"
     }
   ],
   "Colorlegend": {
     "domain": [
-      0, 10, 20, 30, 50
+      0,
+      10,
+      20,
+      30,
+      50
     ],
     "range": [
       "rgb(254, 252, 231)",
@@ -74,7 +81,7 @@
     ],
     "scaleType": "threshold",
     "tickFormat": ".0f",
-    "title": "Temperature [°C]"
+    "title": "Temperature [\u00b0C]"
   },
   "Stories": [
     {

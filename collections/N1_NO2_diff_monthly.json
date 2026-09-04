@@ -1,7 +1,6 @@
 {
   "Name": "N1_NO2_diff_monthly",
   "Title": "Nitrogen Dioxide (Monthly Difference)",
-  "EodashIdentifier": "N1_NO2_diff_monthly",
   "Subtitle": "Mean NO2 column density compared to 2015-2019 baseline [10^15 mol/cm\u00b2]",
   "Description": "N1_NO2_trilateral/N1_NO2_diff_monthly.md",
   "Themes": [

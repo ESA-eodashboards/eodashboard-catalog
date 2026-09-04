@@ -1,5 +1,5 @@
 {
-  "Name": "Tropospheric Column HCHO by Sentinel-5P TROPOMI (Daily)",
+  "Name": "S5P-L3GRD-TROPOHCHO-DAY",
   "Title": "Tropospheric Column HCHO by Sentinel-5P TROPOMI (Daily)",
   "Description": "S5P-L3GRD-TROPOHCHO-DAY/S5P-L3GRD-TROPOHCHO-DAY.md",
   "Themes": [
@@ -23,11 +23,17 @@
   ],
   "DataSource": {
     "Spaceborne": {
-      "Satellite": ["Sentinel-5P"],
-      "Sensor": ["TROPOMI"]
+      "Satellite": [
+        "Sentinel-5P"
+      ],
+      "Sensor": [
+        "TROPOMI"
+      ]
     }
   },
-  "Agency": ["ESA"],
+  "Agency": [
+    "ESA"
+  ],
   "References": [
     {
       "Name": "Source Product Page",
@@ -311,7 +317,6 @@
     ]
   },
   "Legend": "S5P-L3GRD-TROPOHCHO-DAY/S5P-L3GRD-TROPOHCHO-DAY_legend.png",
-  "EodashIdentifier": "S5P-L3GRD-TROPOHCHO-DAY",
   "Resources": [
     {
       "EndPoint": "https://services.sentinel-hub.com",

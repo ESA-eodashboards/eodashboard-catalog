@@ -1,9 +1,10 @@
 {
   "Name": "Lakes_ALOS2",
   "Title": "Lakes collection (ALOS2-HH/HV)",
-  "EodashIdentifier": "Lakes_ALOS2",
   "Description": "Lakes_ALOS2/Lakes_ALOS2.md",
-  "Themes": ["water"],
+  "Themes": [
+    "water"
+  ],
   "Tags": [
     "Water quality",
     "Lakes",
@@ -19,11 +20,17 @@
   ],
   "DataSource": {
     "Spaceborne": {
-      "Satellite": ["ALOS-2"],
-      "Sensor": ["PALSAR-2"]
+      "Satellite": [
+        "ALOS-2"
+      ],
+      "Sensor": [
+        "PALSAR-2"
+      ]
     }
   },
-  "Agency": ["JAXA"],
+  "Agency": [
+    "JAXA"
+  ],
   "Provider": [
     {
       "Name": "JAXA",

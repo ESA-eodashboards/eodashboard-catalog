@@ -1,5 +1,5 @@
 {
-  "Name": "Aerosol Layer Height (ALH) by Sentinel-5P TROPOMI (Daily)",
+  "Name": "S5P-L3GRD-ALH-DAY",
   "Title": "Aerosol Layer Height (ALH) by Sentinel-5P TROPOMI (Daily)",
   "Description": "S5P-L3GRD-ALH-DAY/S5P-L3GRD-ALH-DAY.md",
   "Themes": [
@@ -57,7 +57,6 @@
     "tickFormat": ".0f",
     "title": "Aerosol Layer Height [km]"
   },
-  "EodashIdentifier": "S5P-L3GRD-ALH-DAY",
   "Resources": [
     {
       "EndPoint": "https://services.sentinel-hub.com",

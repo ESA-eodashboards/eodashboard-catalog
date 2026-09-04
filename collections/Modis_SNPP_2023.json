@@ -1,7 +1,6 @@
 {
   "Name": "Modis_SNPP_2023",
   "Title": "Active Fires (MODIS)",
-  "EodashIdentifier": "Modis_SNPP_2023",
   "Description": "Modis_SNPP_2023/Modis_SNPP_2023.md",
   "Themes": [
     "extreme-events"
@@ -74,7 +73,9 @@
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://firms.modaps.eosdis.nasa.gov/"
     }
   ]

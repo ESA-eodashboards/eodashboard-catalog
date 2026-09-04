@@ -1,7 +1,6 @@
 {
-  "Name": "lakes_alos2_hv",
+  "Name": "Lakes_ALOS2_HV",
   "Title": "Lakes (ALOS2-HV)",
-  "EodashIdentifier": "Lakes_ALOS2_HV",
   "Description": "Lakes_ALOS2/Lakes_ALOS2.md",
   "Themes": [
     "water"
@@ -47,7 +46,7 @@
       "Country": [
         "KH"
       ],
-      "Name": "Tonlé Sap (ALOS2-HV)",
+      "Name": "Tonl\u00e9 Sap (ALOS2-HV)",
       "Point": [
         104.2,
         12.7

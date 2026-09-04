@@ -1,8 +1,10 @@
 {
-  "Name": "Kd Ocean Colour Blue by Sentinel-5P TROPOMI (Daily)",
+  "Name": "S5P-L3GRD-KdBLUE-DAY",
   "Title": "Kd Ocean Colour Blue by Sentinel-5P TROPOMI (Daily)",
   "Description": "S5P-L3GRD-KdBLUE-DAY/S5P-L3GRD-KdBLUE-DAY.md",
-  "Themes": ["water"],
+  "Themes": [
+    "water"
+  ],
   "Tags": [
     "Ocean Colour",
     "Kd-blue",
@@ -18,11 +20,17 @@
   ],
   "DataSource": {
     "Spaceborne": {
-      "Satellite": ["Sentinel-5P"],
-      "Sensor": ["TROPOMI"]
+      "Satellite": [
+        "Sentinel-5P"
+      ],
+      "Sensor": [
+        "TROPOMI"
+      ]
     }
   },
-  "Agency": ["ESA"],
+  "Agency": [
+    "ESA"
+  ],
   "References": [
     {
       "Name": "Source Product Page",
@@ -31,7 +39,10 @@
   ],
   "Image": "S5P-L3GRD-KdBLUE-DAY/S5P-L3GRD-KdBLUE-DAY_thumbnail.jpg",
   "Colorlegend": {
-    "domain": [0.01, 0.30],
+    "domain": [
+      0.01,
+      0.3
+    ],
     "range": [
       "#403a71",
       "#0e5a90",
@@ -41,10 +52,14 @@
     ],
     "scaleType": "log10",
     "tickFormat": ".2f",
-    "title": "Diffuse attenuation coefficient blue [m⁻¹]",
-    "tickValues": [0.01, 0.03, 0.10, 0.30]
+    "title": "Diffuse attenuation coefficient blue [m\u207b\u00b9]",
+    "tickValues": [
+      0.01,
+      0.03,
+      0.1,
+      0.3
+    ]
   },
-  "EodashIdentifier": "S5P-L3GRD-KdBLUE-DAY",
   "Resources": [
     {
       "EndPoint": "https://services.sentinel-hub.com",

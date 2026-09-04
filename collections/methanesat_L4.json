@@ -41,7 +41,6 @@
     }
   ],
   "Image": "methanesat_l4/methanesat_l4_thumbnail.jpg",
-  "EodashIdentifier": "methanesat-l4-dispersed-area-emissions",
   "Resources": [
     {
       "Name": "Collection-only"
@@ -50,7 +49,9 @@
   "Provider": [
     {
       "Name": "MethaneSAT LLC",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://www.methanesat.org/sites/default/files/2025-02/MethaneSAT%20-%20Content%20License%20Terms%20of%20Use%20(Revised%202-12-2025)%5B25%5D.pdf"
     }
   ],

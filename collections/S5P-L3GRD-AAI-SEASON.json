@@ -1,5 +1,5 @@
 {
-  "Name": "Sentinel-5P Absorbing Aerosol Index (season)",
+  "Name": "S5P-L3GRD-AAI-SEASON",
   "Title": "Sentinel-5P Absorbing Aerosol Index (season)",
   "Description": "S5P-L3GRD-AAI-SEASON/S5P-L3GRD-AAI-SEASON.md",
   "DataSource": {
@@ -293,7 +293,6 @@
     ]
   },
   "Legend": "S5P-L3GRD-AAI-SEASON/S5P-L3GRD-AAI-SEASON_legend.png",
-  "EodashIdentifier": "S5P-L3GRD-AAI-SEASON",
   "Resources": [
     {
       "EndPoint": "https://services.sentinel-hub.com",

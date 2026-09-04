@@ -1,7 +1,6 @@
 {
-  "Name": "N2_CO2_diff",
+  "Name": "N2_diff",
   "Title": "Carbon Dioxide from OCO-2 (daily difference)",
-  "EodashIdentifier": "N2_diff",
   "Subtitle": "CO2 difference compared to 2015-2019 baseline [ppm]",
   "Description": "N2_CO2_diff/N2_CO2_diff.md",
   "Themes": [

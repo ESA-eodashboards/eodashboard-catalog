@@ -1,7 +1,6 @@
 {
-  "Name": "soil_moisture_anomaly",
+  "Name": "SMC",
   "Title": "Soil Moisture Anomaly from GSMaP",
-  "EodashIdentifier": "SMC",
   "Subtitle": "Global Soil Moisture Anomaly",
   "Description": "SMC_soil_moisture_anomaly/SMC_soil_moisture_anomaly.md",
   "Themes": [
@@ -48,7 +47,9 @@
   "Provider": [
     {
       "Name": "JAXA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://global.jaxa.jp/"
     }
   ],

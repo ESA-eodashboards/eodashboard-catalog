@@ -1,7 +1,6 @@
 {
-  "Name": "SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence",
+  "Name": "SSLC1",
   "Title": "Global seasonal Sentinel-1 backscatter",
-  "EodashIdentifier": "SSLC1",
   "Subtitle": "Mean seasonal backscatter amplitudes C-band SAR dataset - HV polarization",
   "Description": "SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence/SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence.md",
   "Image": "SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence/SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence.jpg",
@@ -57,22 +56,30 @@
   "Provider": [
     {
       "Name": "Copernicus",
-      "Roles": ["licensor"],
+      "Roles": [
+        "licensor"
+      ],
       "Url": "https://www.copernicus.eu/en"
     },
     {
       "Name": "NASA",
-      "Roles": ["producer"],
+      "Roles": [
+        "producer"
+      ],
       "Url": "https://jpl.nasa.gov/?_ga=2.243049538.1322991491.1723040890-976169570.1722866809"
     },
     {
       "Name": "Earth Big Data",
-      "Roles": ["processor"],
+      "Roles": [
+        "processor"
+      ],
       "Url": "https://earthbigdata.com/"
     },
     {
       "Name": "Gamma Remote Sensing",
-      "Roles": ["processor"],
+      "Roles": [
+        "processor"
+      ],
       "Url": "https://www.gamma-rs.ch/"
     }
   ]

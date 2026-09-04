@@ -1,7 +1,6 @@
 {
-  "Name": "Greenhouse_gas_reconsiliation_CO2",
+  "Name": "GGI_CO2",
   "Title": "Carbon Dioxide from CCI RECCAP2",
-  "EodashIdentifier": "GGI_CO2",
   "Subtitle": "CO2 from National greenhouse gas inventories (NGHGI) database",
   "Description": "GGI_CO2/GGI_CO2.md",
   "Image": "GGI_CO2/GGI_CO2.jpg",
@@ -38,7 +37,9 @@
   "Provider": [
     {
       "Name": "ESA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://climate.esa.int/en/projects/reccap-2/"
     }
   ],

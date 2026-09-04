@@ -1,8 +1,7 @@
 {
-  "Name": "Lakes_WQ_TURB_water_turbidity",
+  "Name": "Lakes_WQ_TURB",
   "Title": "Lake water quality (turbidity)",
   "Subtitle": "CLMS Lake Water Quality NRT 300m",
-  "EodashIdentifier": "Lakes_WQ_TURB",
   "Description": "Lakes_WQ_TURB_water_turbidity/Lakes_WQ_TURB_water_turbidity.md",
   "Themes": [
     "water"

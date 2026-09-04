@@ -1,7 +1,6 @@
 {
-  "Name": "so2_daily",
+  "Name": "N1_SO2",
   "Title": "Sulfur Dioxide observed by Sentinel-5p TROPOMI",
-  "EodashIdentifier": "N1_SO2",
   "Subtitle": "Global daily SO2",
   "Description": "N1_SO2/N1_SO2.md",
   "Themes": [

@@ -1,7 +1,6 @@
 {
   "Name": "ESDL_Hydrology_SM",
   "Title": "Surface Soil Moisture",
-  "EodashIdentifier": "ESDL_Hydrology_SM",
   "Description": "ESDL_Hydrology_SM/ESDL_Hydrology_SM.md",
   "Themes": [
     "agriculture",
@@ -76,9 +75,9 @@
     }
   ],
   "Process": {
-  "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "VegaDefinition": "ESDL_Hydrology_SM/chart.json",
-  "EndPoints": [
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
+    "VegaDefinition": "ESDL_Hydrology_SM/chart.json",
+    "EndPoints": [
       {
         "Url": "https://api.earthsystemdatalab.net/api/timeseries/hydrology/SM?aggMethods=median",
         "Identifier": "xcube_statistics",

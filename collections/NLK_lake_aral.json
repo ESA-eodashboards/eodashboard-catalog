@@ -1,7 +1,6 @@
 {
   "Name": "NLK_lake_aral",
   "Title": "Aral Lake Landsat-8 cloud free",
-  "EodashIdentifier": "NLK_lake_aral",
   "Description": "Landsat-8 images of the Aral Lake",
   "Themes": [
     "water"
@@ -43,7 +42,9 @@
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://landsat.gsfc.nasa.gov/data/data-access/"
     }
   ],

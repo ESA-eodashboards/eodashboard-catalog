@@ -1,8 +1,8 @@
 {
-  "Name":"Sentinel-5P Total Column CO (Daily)",
+  "Name": "S5P-L3GRD-TCCO-DAY",
   "Title": "Sentinel-5P Total Column CO (Daily)",
   "Description": "S5P-L3GRD-TCCO-DAY/S5P-L3GRD-TCCO-DAY.md",
- "Themes": [
+  "Themes": [
     "atmosphere"
   ],
   "Tags": [
@@ -313,7 +313,6 @@
     ]
   },
   "Legend": "S5P-L3GRD-TCCO-DAY/S5P-L3GRD-TCCO-DAY_legend.png",
-  "EodashIdentifier": "S5P-L3GRD-TCCO-DAY",
   "Resources": [
     {
       "EndPoint": "https://services.sentinel-hub.com",

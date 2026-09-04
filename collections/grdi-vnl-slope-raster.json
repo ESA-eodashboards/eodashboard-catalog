@@ -1,7 +1,6 @@
 {
-  "Name": "grdi-vnl-slope-raster",
+  "Name": "GRDI4",
   "Title": "VIIRS Nighttime Lights (VNL) Slope Component",
-  "EodashIdentifier": "GRDI4",
   "Subtitle": "Global Gridded Relative Deprivation Index - VIIRS VNL Slope",
   "Description": "grdi-vnl-slope-raster/grdi-vnl-slope-raster.md",
   "Themes": [

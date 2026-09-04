@@ -1,7 +1,6 @@
 {
-  "Name": "grdi-vnl-raster",
+  "Name": "GRDI5",
   "Title": "VIIRS Nighttime Lights (VNL) Constituent Raster",
-  "EodashIdentifier": "GRDI5",
   "Subtitle": "Global Gridded Relative Deprivation Index - VNL Constituent Raster",
   "Description": "grdi-vnl-raster/grdi-vnl-raster.md",
   "Themes": [

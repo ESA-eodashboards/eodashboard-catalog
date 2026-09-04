@@ -1,7 +1,6 @@
 {
-  "Name": "soil_moisture_content",
+  "Name": "SMCG",
   "Title": "Soil moisture content from GSMaP",
-  "EodashIdentifier": "SMCG",
   "Subtitle": "Soil moisture content",
   "Description": "SMCG_soil_moisture_content/SMCG_soil_moisture_content.md",
   "Themes": [
@@ -48,7 +47,9 @@
   "Provider": [
     {
       "Name": "JAXA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://global.jaxa.jp/"
     }
   ],

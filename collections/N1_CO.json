@@ -1,7 +1,6 @@
 {
-  "Name": "CO_3_daily",
+  "Name": "N1_CO",
   "Title": "Carbon Monoxide observed by Sentinel-5p TROPOMI",
-  "EodashIdentifier": "N1_CO",
   "Subtitle": "Global 3-daily Carbon monoxide",
   "Description": "N1_CO/N1_CO.md",
   "Themes": [

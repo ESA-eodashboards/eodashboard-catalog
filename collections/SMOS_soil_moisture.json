@@ -1,7 +1,6 @@
 {
-  "Name": "smos_soil_moisture",
+  "Name": "SMOS_SM",
   "Title": "SMOS Soil Moisture",
-  "EodashIdentifier": "SMOS_SM",
   "Description": "smos_soil_moisture/smos_soil_moisture.md",
   "Themes": [
     "agriculture"

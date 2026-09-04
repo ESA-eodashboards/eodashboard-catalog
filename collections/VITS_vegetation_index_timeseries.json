@@ -1,7 +1,6 @@
 {
-  "Name": "vegetation_index_timeseries",
+  "Name": "VITS",
   "Title": "Local NDVI from GSMaP",
-  "EodashIdentifier": "VITS",
   "Subtitle": "Normalized Difference Vegetation Index Timeseries",
   "Description": "VITS_vegetation_index_timeseries/VITS_vegetation_index_timeseries.md",
   "Image": "VITS_vegetation_index_timeseries/VITS_vegetation_index_timeseries.jpg",
@@ -71,7 +70,9 @@
   "Provider": [
     {
       "Name": "JAXA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://global.jaxa.jp/"
     }
   ],

@@ -1,7 +1,6 @@
 {
-  "Name": "smos_ocean_salinity",
+  "Name": "SMOS_OS",
   "Title": "SMOS Ocean Salinity",
-  "EodashIdentifier": "SMOS_OS",
   "Description": "smos_ocean_salinity/smos_ocean_salinity.md",
   "Themes": [
     "water"

@@ -1,8 +1,7 @@
 {
-  "Name": "sea_ice_thickness_cryosat",
+  "Name": "SIC",
   "Title": "Sea ice thickness (Cryosat-2)",
   "Subtitle": "Daily Arctic sea ice thickness",
-  "EodashIdentifier": "SIC",
   "Description": "SIC_sea_ice_thickness_cryosat/SIC_sea_ice_thickness_cryosat.md",
   "Themes": [
     "cryosphere"
@@ -59,7 +58,9 @@
   "Provider": [
     {
       "Name": "ESA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://climate.esa.int/en/data/#/dashboard"
     }
   ],
