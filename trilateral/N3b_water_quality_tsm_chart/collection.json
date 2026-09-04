@@ -217,13 +217,13 @@
     ],
     "satellite": [
       "GCOM-C",
-      "Acqua",
-      "Sentinel-3"
+      "Sentinel-3",
+      "Acqua"
     ],
     "sensor": [
-      "MODIS",
       "SGLI",
-      "OLCI"
+      "OLCI",
+      "MODIS"
     ],
     "cities": [
       "Tokyo",

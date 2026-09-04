@@ -279,9 +279,9 @@
       "Suomi"
     ],
     "sensor": [
-      "MODIS",
-      "SeaWiFS",
       "VIIRS",
+      "SeaWiFS",
+      "MODIS",
       "MERIS"
     ],
     "thumbnail": [

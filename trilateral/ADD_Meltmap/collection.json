@@ -17,6 +17,7 @@
       "title": "Antarctica Meltmap",
       "endpointtype": "WMS_OverwriteTimes",
       "subtitle": "Antarctica Meltmap from 4D Antarctica",
+      "code": "ADD_Meltmap",
       "id": "ADD_Meltmap",
       "themes": [
         "cryosphere"
@@ -46,6 +47,7 @@
         "ESA",
         "EUMETSAT"
       ],
+      "subcode": "ADD_Meltmap",
       "sensor": [
         "ASCAT"
       ],
@@ -224,6 +226,7 @@
     "ESA",
     "EUMETSAT"
   ],
+  "subcode": "ADD_Meltmap",
   "sensor": [
     "ASCAT"
   ],
@@ -273,6 +276,9 @@
     }
   ],
   "summaries": {
+    "subcode": [
+      "ADD_Meltmap"
+    ],
     "themes": [
       "cryosphere"
     ],
