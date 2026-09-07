@@ -31,15 +31,47 @@
     }
   ],
   "License": "MIT",
-  "Resources": [],
-  "Subcollections": [
+  "Resources": [
     {
-      "Identifier": "lakes_alos2_hh",
-      "Collection": "Lakes_ALOS2_HH"
-    },
-    {
-      "Identifier": "lakes_alos2_hv",
-      "Collection": "Lakes_ALOS2_HV"
+      "EndPoint": "https://services.sentinel-hub.com/ogc/wms/{SH_INSTANCE_ID}",
+      "Name": "Sentinel Hub WMS",
+      "LayerId": "JAXA_LAKES_ALOS2_HH",
+      "OverwriteBBox": [
+        101.938,
+        11.945,
+        106.37,
+        14.0674
+      ],
+      "Times": [
+        "2016-11-23T00:00:00",
+        "2017-11-22T00:00:00",
+        "2020-11-04T00:00:00",
+        "2021-11-03T00:00:00",
+        "2022-02-09T00:00:00",
+        "2022-03-23T00:00:00",
+        "2022-04-20T00:00:00",
+        "2022-06-01T00:00:00",
+        "2022-07-13T00:00:00",
+        "2022-08-24T00:00:00",
+        "2022-09-21T00:00:00",
+        "2022-12-14T00:00:00"
+      ],
+      "Rasterform": {
+        "jsonform": {
+          "type": "object",
+          "title": "HH/HV",
+          "properties": {
+            "layers": {
+              "type": "string",
+              "enum": ["JAXA_LAKES_ALOS2_HH", "JAXA_LAKES_ALOS2_HV"],
+              "options": {
+                "enum_titles": ["HH", "HV"]
+              },
+              "default": "JAXA_LAKES_ALOS2_HH"
+            }
+          }
+        }
+      }
     }
   ],
   "Image": "Lakes_ALOS2/thumbnail.jpg",
