@@ -204,7 +204,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2026-09-04T13:10:28.485229Z"
+          "2026-09-07T09:29:15.563928Z"
         ]
       ]
     }
@@ -228,25 +228,25 @@
       "economy"
     ],
     "satellite": [
-      "ALOS-2",
-      "Sentinel-1"
+      "Sentinel-1",
+      "ALOS-2"
     ],
     "sensor": [
       "C-SAR",
       "PALSAR-2"
     ],
     "cities": [
-      "Singapore",
+      "Los Angeles",
       "Nagoya",
       "Palm Springs",
+      "Arcadia",
       "Beijing",
-      "Los Angeles",
-      "Arcadia"
+      "Singapore"
     ],
     "countries": [
       "US",
-      "SG",
       "CN",
+      "SG",
       "JP"
     ],
     "thumbnail": [

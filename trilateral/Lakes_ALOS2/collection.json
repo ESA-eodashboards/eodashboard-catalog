@@ -15,6 +15,7 @@
       "href": "./Lakes_ALOS2/collection.json",
       "type": "application/json",
       "title": "Lakes collection (ALOS2-HH/HV)",
+      "endpointtype": "Sentinel Hub WMS",
       "code": "Lakes_ALOS2",
       "id": "Lakes_ALOS2",
       "themes": [
@@ -23,8 +24,6 @@
       "providers": [
         "JAXA"
       ],
-      "cities": [],
-      "countries": [],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_ALOS2/thumbnail.jpg"
       ],
@@ -56,14 +55,6 @@
       "rel": "license",
       "href": "http://www.opensource.org/licenses/MIT",
       "type": "text/html"
-    },
-    {
-      "rel": "service",
-      "href": "./Lakes_ALOS2/{{feature}}/collection.json",
-      "type": "application/json; profile=collection",
-      "id": "locations",
-      "method": "GET",
-      "endpoint": "STAC"
     },
     {
       "rel": "xyz",
@@ -163,7 +154,6 @@
   "themes": [
     "water"
   ],
-  "locations": true,
   "tags": [
     "Water quality",
     "Lakes",
@@ -187,16 +177,15 @@
   "satellite": [
     "ALOS-2"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Lakes collection (ALOS2-HH/HV)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          102.05815802238166,
-          11.433163363655378,
-          105.91024325063184,
-          15.053883303657637
+          101.938,
+          11.945,
+          106.37,
+          14.0674
         ]
       ]
     },

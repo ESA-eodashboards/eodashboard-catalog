@@ -11,107 +11,21 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "child",
-      "href": "./TonleSap_HH/collection.json",
-      "type": "application/json",
-      "title": "Tonlé Sap (ALOS2-HH)",
-      "id": "TonleSap_HH",
-      "latlng": "12.7,104.2",
-      "name": "Tonlé Sap (ALOS2-HH)"
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
     },
     {
       "rel": "wms",
       "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
       "type": "image/png",
-      "title": "Lakes (ALOS2-HH)",
+      "title": "Lakes collection (ALOS2-HH/HV)",
       "wms:layers": [
         "JAXA_LAKES_ALOS2_HH"
       ],
       "role": [
         "data"
       ]
-    },
-    {
-      "rel": "child",
-      "href": "./TonleSap_HV/collection.json",
-      "type": "application/json",
-      "title": "Tonlé Sap (ALOS2-HV)",
-      "id": "TonleSap_HV",
-      "latlng": "12.7,104.2",
-      "name": "Tonlé Sap (ALOS2-HV)"
-    },
-    {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Lakes (ALOS2-HV)",
-      "wms:layers": [
-        "JAXA_LAKES_ALOS2_HV"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
-      "rel": "license",
-      "href": "http://www.opensource.org/licenses/MIT",
-      "type": "text/html"
-    },
-    {
-      "rel": "service",
-      "href": "./Lakes_ALOS2/{{feature}}/collection.json",
-      "type": "application/json; profile=collection",
-      "id": "locations",
-      "method": "GET",
-      "endpoint": "STAC"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "EOxCloudless 2025",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "cloudless-2025",
-      "attribution": "{ EOxCloudless 2025: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "OSM Background",
-      "roles": [
-        "baselayer",
-        "invisible"
-      ],
-      "id": "OSM",
-      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg",
-      "type": "image/jpeg",
-      "title": "Terrain Light",
-      "roles": [
-        "baselayer",
-        "visible"
-      ],
-      "id": "terrain-light",
-      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
-    },
-    {
-      "rel": "xyz",
-      "href": "https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png",
-      "type": "image/png",
-      "title": "Overlay labels",
-      "roles": [
-        "overlay",
-        "visible"
-      ],
-      "id": "overlay_bright",
-      "attribution": "{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "parent",
@@ -163,7 +77,6 @@
   "themes": [
     "water"
   ],
-  "locations": true,
   "tags": [
     "Water quality",
     "Lakes",
@@ -187,28 +100,38 @@
   "satellite": [
     "ALOS-2"
   ],
-  "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
+  "eodash:rasterform": {
+    "jsonform": {
+      "type": "object",
+      "title": "HH/HV",
+      "properties": {
+        "layers": {
+          "type": "string",
+          "enum": [
+            "JAXA_LAKES_ALOS2_HH",
+            "JAXA_LAKES_ALOS2_HV"
+          ],
+          "options": {
+            "enum_titles": [
+              "HH",
+              "HV"
+            ]
+          },
+          "default": "JAXA_LAKES_ALOS2_HH"
+        }
+      }
+    }
+  },
+  "endpointtype": "Sentinel Hub WMS",
   "title": "Lakes collection (ALOS2-HH/HV)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          102.05815802238166,
-          11.433163363655378,
-          105.91024325063184,
-          15.053883303657637
-        ],
-        [
-          102.05815802238166,
-          11.433163363655378,
-          105.91024325063184,
-          15.053883303657637
-        ],
-        [
-          102.05815802238166,
-          11.433163363655378,
-          105.91024325063184,
-          15.053883303657637
+          101.938,
+          11.945,
+          106.37,
+          14.0674
         ]
       ]
     },
@@ -228,11 +151,15 @@
       "url": "https://global.jaxa.jp/"
     }
   ],
-  "summaries": {
-    "cities": [],
-    "countries": []
-  },
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "lakes-climate": {
       "href": "https://eodashboard.org/story/?id=lakes-climate",
       "type": "text/markdown",
