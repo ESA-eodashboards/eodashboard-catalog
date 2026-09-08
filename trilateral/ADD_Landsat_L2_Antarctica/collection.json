@@ -26,8 +26,8 @@
         "USGS"
       ],
       "cities": [
-        "Pine Island",
-        "Thwaites Glacier"
+        "Thwaites Glacier",
+        "Pine Island"
       ],
       "countries": [
         "AQ"
@@ -61,7 +61,11 @@
         "Landsat-7",
         "Landsat-8",
         "Landsat-9"
-      ]
+      ],
+      "eodash:mapProjection": {
+        "name": "EPSG:5042",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "license",
@@ -167,6 +171,10 @@
     "Landsat-8",
     "Landsat-9"
   ],
+  "eodash:mapProjection": {
+    "name": "EPSG:5042",
+    "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
   "title": "Landsat L2 Cloud free Antarctica",
   "extent": {
@@ -209,16 +217,16 @@
       "cryosphere"
     ],
     "satellite": [
-      "Landsat-8",
       "Landsat-7",
+      "Landsat-8",
       "Landsat-9"
     ],
     "sensor": [
       "OLI"
     ],
     "cities": [
-      "Pine Island",
-      "Thwaites Glacier"
+      "Thwaites Glacier",
+      "Pine Island"
     ],
     "countries": [
       "AQ"

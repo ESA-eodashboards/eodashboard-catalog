@@ -12,9 +12,13 @@
     },
     {
       "rel": "xyz",
-      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?&bidx=1&colormap_name=plasma&rescale=0.0,4.0&resampling_method=nearest",
+      "href": "https://openveda.cloud/api/raster/cog/tiles/UPSArcticWGS84Quad/{z}/{x}/{y}?&bidx=1&colormap_name=plasma&rescale=0.0,4.0&resampling_method=nearest",
       "type": "image/png",
-      "title": "Sea Ice Thickness (ICESat-2)"
+      "title": "Sea Ice Thickness (ICESat-2)",
+      "eodash:proj4_def": {
+        "name": "EPSG:5041",
+        "def": "+proj=stere +lat_0=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "parent",
@@ -69,6 +73,10 @@
   "satellite": [
     "ICESat-2"
   ],
+  "eodash:mapProjection": {
+    "name": "EPSG:5041",
+    "def": "+proj=stere +lat_0=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
   "eodash:rasterform": {
     "jsonform": {
       "type": "object",
@@ -293,6 +301,10 @@
       ],
       "rangeProperty": "colormap_name"
     }
+  },
+  "eodash:proj4_def": {
+    "name": "EPSG:5041",
+    "def": "+proj=stere +lat_0=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs"
   },
   "endpointtype": "VEDA_cog",
   "title": "Sea Ice Thickness (ICESat-2)",

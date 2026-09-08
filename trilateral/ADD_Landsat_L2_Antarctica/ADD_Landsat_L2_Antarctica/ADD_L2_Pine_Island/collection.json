@@ -18,9 +18,13 @@
     },
     {
       "rel": "xyz",
-      "href": "https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-antarctic-glaciers-pine-island/items/{item}/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55&nodata=0",
+      "href": "https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-antarctic-glaciers-pine-island/items/{item}/tiles/UPSAntarcticWGS84Quad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55&nodata=0",
       "type": "image/png",
-      "title": "Pine Island Landsat L2"
+      "title": "Pine Island Landsat L2",
+      "eodash:proj4_def": {
+        "name": "EPSG:5042",
+        "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs"
+      }
     },
     {
       "rel": "license",
@@ -113,14 +117,12 @@
     "Landsat-9"
   ],
   "eodash:mapProjection": {
-    "name": "EPSG:3031",
-    "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
-    "extent": [
-      -3299207.53,
-      -3333134.03,
-      3299207.53,
-      3333134.03
-    ]
+    "name": "EPSG:5042",
+    "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs"
+  },
+  "eodash:proj4_def": {
+    "name": "EPSG:5042",
+    "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs"
   },
   "endpointtype": "VEDA_tiles",
   "title": "Pine Island",
