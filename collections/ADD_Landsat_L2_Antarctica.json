@@ -98,5 +98,9 @@
       ]
     }
   ],
-  "Image": "ADD_Landsat_L2_Antarctica/ADD_Landsat_L2_Antarctica.jpg"
+  "Image": "ADD_Landsat_L2_Antarctica/ADD_Landsat_L2_Antarctica.jpg",
+  "MapProjection": {
+    "name": "EPSG:5042",
+    "def": "+proj=stere +lat_0=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs +type=crs"
+  }
 }
