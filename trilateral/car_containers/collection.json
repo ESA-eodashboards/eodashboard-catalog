@@ -204,7 +204,7 @@
       "interval": [
         [
           "1970-01-01T00:00:00Z",
-          "2026-09-08T10:40:43.236400Z"
+          "2026-09-08T16:09:27.732085Z"
         ]
       ]
     }
@@ -236,17 +236,17 @@
       "C-SAR"
     ],
     "cities": [
-      "Arcadia",
-      "Beijing",
-      "Singapore",
-      "Nagoya",
       "Palm Springs",
-      "Los Angeles"
+      "Los Angeles",
+      "Beijing",
+      "Arcadia",
+      "Singapore",
+      "Nagoya"
     ],
     "countries": [
-      "JP",
       "US",
       "SG",
+      "JP",
       "CN"
     ],
     "thumbnail": [
