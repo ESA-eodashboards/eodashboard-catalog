@@ -11,9 +11,31 @@
           "Assets": [
             {
               "Identifier": "palsar2-scansar-growth-stage-median-suphanburi_Seedling_20250501_20250606",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/SuphanBuri/ALOS2_ScanSAR_SuphanBuri_Seedling_20250501_20250606.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20250714",
+          "Assets": [
+            {
+              "Identifier": "palsar2-scansar-growth-stage-median-suphanburi_PanicleDevelopment_20250714_20250819",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/SuphanBuri/ALOS2_ScanSAR_SuphanBuri_PanicleDevelopment_20250714_20250819.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20250820",
+          "Assets": [
+            {
+              "Identifier": "palsar2-scansar-growth-stage-median-suphanburi_Flowering_20250820_20250925",
               "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/SuphanBuri/ALOS2_ScanSAR_SuphanBuri_Flowering_20250820_20250925.tif"
             }
           ]
+        },
+        {
+          "Time": "",
+          "Assets": []
         }
       ],
       "Name": "COG source"
