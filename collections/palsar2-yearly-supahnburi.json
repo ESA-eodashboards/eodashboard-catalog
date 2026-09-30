@@ -34,8 +34,13 @@
           ]
         },
         {
-          "Time": "",
-          "Assets": []
+          "Time": "20250926",
+          "Assets": [
+            {
+              "Identifier": "palsar2-scansar-growth-stage-median-suphanburi_Harvesting_20250926_20251031",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/SuphanBuri/ALOS2_ScanSAR_SuphanBuri_Harvesting_20250926_20251031.tif"
+            }
+          ]
         }
       ],
       "Name": "COG source"
