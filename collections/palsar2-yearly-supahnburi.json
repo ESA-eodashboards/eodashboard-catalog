@@ -43,7 +43,13 @@
           ]
         }
       ],
-      "Name": "COG source"
+      "Name": "COG source",
+      "Bbox": [
+        99.7,
+        14.2,
+        100.35,
+        14.95
+      ]
     }
   ],
   "EodashIdentifier": "palsar2-scansar-growth-stage-median-suphanburi"
