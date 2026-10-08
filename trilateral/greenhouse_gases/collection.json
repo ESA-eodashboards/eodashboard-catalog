@@ -232,18 +232,18 @@
     "cities": [
       "Shanghai",
       "Tokyo",
-      "Mumbai",
-      "Dhaka",
       "New York",
+      "Dhaka",
       "Beijing",
-      "New Delhi"
+      "New Delhi",
+      "Mumbai"
     ],
     "countries": [
-      "IN",
       "CN",
-      "BD",
       "US",
-      "JP"
+      "JP",
+      "IN",
+      "BD"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N2_greenhouse_gases/N2_greenhouse_gases.jpg"

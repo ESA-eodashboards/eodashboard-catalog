@@ -205,26 +205,26 @@
       "TROPOMI"
     ],
     "cities": [
-      "Los Angeles",
       "Tokyo",
-      "Mumbai",
       "San Francisco",
-      "Paris",
       "New York",
-      "Rome",
+      "Paris",
+      "Beijing",
+      "Los Angeles",
+      "New Delhi",
       "Madrid",
       "Milan",
-      "Beijing",
-      "New Delhi"
+      "Mumbai",
+      "Rome"
     ],
     "countries": [
-      "IN",
       "IT",
       "CN",
-      "ES",
-      "FR",
       "US",
-      "JP"
+      "FR",
+      "JP",
+      "IN",
+      "ES"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_trilateral/N1_NO2_city_trilateral.jpg"
