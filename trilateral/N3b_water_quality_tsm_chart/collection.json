@@ -221,8 +221,8 @@
       "Sentinel-3"
     ],
     "sensor": [
-      "OLCI",
       "MODIS",
+      "OLCI",
       "SGLI"
     ],
     "cities": [
@@ -232,8 +232,8 @@
       "Kobe"
     ],
     "countries": [
-      "IT",
-      "JP"
+      "JP",
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_tsm_chart/N3b_water_quality_tsm_chart.jpg"
