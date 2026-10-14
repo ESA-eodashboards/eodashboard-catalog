@@ -10,7 +10,7 @@
           "Time": "20250510",
           "Assets": [
             {
-              "Identifier": "palsar2-scansar-growth-stage-median-suphanburi_Seedling_20250510",
+              "Identifier": "palsar2-scansar-growth-stage-suphanburi_Seedling_20250510",
               "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/SuphanBuri/ALOS2_ScanSAR_SuphanBuri_Seedling_20250510.tif"
             }
           ]
@@ -19,25 +19,20 @@
           "Time": "20250719",
           "Assets": [
             {
-              "Identifier": "palsar2-scansar-growth-stage-median-suphanburi_PanicleDevelopment_20250719",
+              "Identifier": "palsar2-scansar-growth-stage-suphanburi_PanicleDevelopment_20250719",
               "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/SuphanBuri/ALOS2_ScanSAR_SuphanBuri_PanicleDevelopment_20250719.tif"
             }
           ]
         },
         {
           "Time": "20250820",
-          "Assets": [
-            {
-              "Identifier": "palsar2-scansar-growth-stage-median-suphanburi_Flowering_20250820_20250925",
-              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/SuphanBuri/ALOS2_ScanSAR_SuphanBuri_Flowering_20250820_20250925.tif"
-            }
-          ]
+          "Assets": []
         },
         {
           "Time": "20250821",
           "Assets": [
             {
-              "Identifier": "palsar2-scansar-growth-stage-median-suphanburi_Harvesting_20250821",
+              "Identifier": "palsar2-scansar-growth-stage-suphanburi_Harvesting_20250821",
               "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/SuphanBuri/ALOS2_ScanSAR_SuphanBuri_Harvesting_20250821.tif"
             }
           ]
