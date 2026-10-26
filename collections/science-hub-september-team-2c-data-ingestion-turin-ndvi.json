@@ -1,0 +1,29 @@
+{
+  "Name": "science-hub-september-team-2c-data-ingestion-turin-ndvi",
+  "Title": "Vegetation Index (NDVI) – Turin, 1–15 August 2026",
+  "Description": "  Sentinel-2 NDVI median composite over Turin, 1–15 August 2026, 20 m resolution.\n  Vegetation cools its surroundings through shade and evapotranspiration, so low NDVI areas tend to coincide with urban heat hotspots.",
+  "Resources": [
+    {
+      "Style": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/ndvi_style.json",
+      "TimeEntries": [
+        {
+          "Time": "20260801",
+          "Assets": [
+            {
+              "Identifier": "ndvi-turin",
+              "File": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/ndvi_2026-08-01_15.tif"
+            }
+          ]
+        }
+      ],
+      "Name": "COG source",
+      "Bbox": [
+        7.57358,
+        45.00517,
+        7.77624,
+        45.14257
+      ]
+    }
+  ],
+  "EodashIdentifier": "turin-ndvi"
+}
