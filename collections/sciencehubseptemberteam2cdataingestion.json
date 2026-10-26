@@ -10,14 +10,10 @@
           "Time": "20260801",
           "Assets": [
             {
-              "Identifier": "ndvi",
+              "Identifier": "turin-ndvi",
               "File": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/ndvi_2026-08-01_15.tif"
             }
           ]
-        },
-        {
-          "Time": "",
-          "Assets": []
         }
       ],
       "Name": "COG source",
