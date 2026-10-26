@@ -1,3 +1,59 @@
 {
-  "Name": "science-hub-september-team-2c-turin-lst-night"
+  "Name": "science-hub-september-team-2c-turin-lst-night",
+  "Title": "Night-time Land Surface Temperature – Turin, August 2026",
+  "Description": "  Night-time land surface temperature (°C) over Turin from Sentinel-3 SLSTR, 1–13 August 2026.\n  Warm nights limit the body's ability to recover from daytime heat, so night LST is a key indicator of urban heat stress.\n  Grey pixels (< 15 °C) are cloud tops; 10 and 13 August are strongly cloud-affected.",
+  "Resources": [
+    {
+      "Style": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/lst_style.json",
+      "TimeEntries": [
+        {
+          "Time": "20260801",
+          "Assets": [
+            {
+              "Identifier": "lst-night-20260801",
+              "File": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/lst_night_2026-08-01.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20260804",
+          "Assets": [
+            {
+              "Identifier": "lst-night-20260804",
+              "File": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/lst_night_2026-08-04.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20260807",
+          "Assets": [
+            {
+              "Identifier": "lst-night-20260807",
+              "File": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/lst_night_2026-08-07.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20260810",
+          "Assets": [
+            {
+              "Identifier": "lst-night-20260810",
+              "File": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/lst_night_2026-08-10.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20260813",
+          "Assets": [
+            {
+              "Identifier": "lst-night-20260813",
+              "File": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/lst_night_2026-08-13.tif"
+            }
+          ]
+        }
+      ],
+      "Name": "COG source"
+    }
+  ],
+  "EodashIdentifier": "turin-lst-night"
 }
