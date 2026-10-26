@@ -4,25 +4,10 @@
   "Description": "Sentinel-2 NDVI median composite for 1–15 August 2026 over Turin, 20 m resolution. Used as a proxy for vegetation cover and cooling potential in the heat risk analysis. ",
   "Resources": [
     {
-      "Style": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/ndvi_style.json",
-      "TimeEntries": [
-        {
-          "Time": "20260801",
-          "Assets": [
-            {
-              "Identifier": "turin-ndvi",
-              "File": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/ndvi_2026-08-01_15.tif"
-            }
-          ]
-        }
-      ],
-      "Name": "COG source",
-      "Bbox": [
-        7.57538,
-        45.00584,
-        7.77516,
-        45.14147
-      ]
+      "Name": "VEDA",
+      "EndPoint": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/ndvi_2026-08-01_15.tif",
+      "Type": "cog",
+      "CollectionId": "ndvi-turin"
     }
   ],
   "EodashIdentifier": "turin-ndvi"
