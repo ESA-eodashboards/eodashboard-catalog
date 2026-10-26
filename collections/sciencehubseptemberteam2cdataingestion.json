@@ -1,3 +1,23 @@
 {
-  "Name": "science_hub_september_team_2c_data_ingestion"
+  "Name": "science_hub_september_team_2c_data_ingestion",
+  "Title": "NDVI – Turin (Sentinel-2, 1–15 Aug 2026)",
+  "Description": "Sentinel-2 NDVI median composite for 1–15 August 2026 over Turin, 20 m resolution.\n  Used as a proxy for vegetation cover and cooling potential in the heat risk analysis.\n  Data: Copernicus / ESA.",
+  "Resources": [
+    {
+      "Style": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/ndvi_style.json",
+      "TimeEntries": [
+        {
+          "Time": "20260801",
+          "Assets": [
+            {
+              "Identifier": "ndvi",
+              "File": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/ndvi_2026-08-01_15.tif"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source"
+    }
+  ],
+  "EodashIdentifier": "turin-ndvi"
 }
