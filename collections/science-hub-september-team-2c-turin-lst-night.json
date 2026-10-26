@@ -52,7 +52,13 @@
           ]
         }
       ],
-      "Name": "COG source"
+      "Name": "COG source",
+      "Bbox": [
+        7.57358,
+        45.00517,
+        7.77624,
+        45.14257
+      ]
     }
   ],
   "EodashIdentifier": "turin-lst-night"
