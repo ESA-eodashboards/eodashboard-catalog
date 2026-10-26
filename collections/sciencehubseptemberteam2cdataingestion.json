@@ -1,14 +1,14 @@
 {
-  "Name": "science_hub_september_team_2c_data_ingestion",
-  "Title": "NDVI – Turin (Sentinel-2, 1–15 Aug 2026)",
-  "Description": "Sentinel-2 NDVI median composite for 1–15 August 2026 over Turin, 20 m resolution. Used as a proxy for vegetation cover and cooling potential in the heat risk analysis. ",
+  "Name": "science_hub_september_team_2c_turin-imperviousness",
+  "Title": "Imperviousness (Soil Sealing) – Turin, 2024",
+  "Description": "  Imperviousness density (%) over Turin, Copernicus High Resolution Layer 2024, 20 m resolution.\n  Indicates sealed surfaces that store and radiate heat, a key driver of the urban heat island.",
   "Resources": [
     {
       "Name": "VEDA",
-      "EndPoint": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/ndvi_2026-08-01_15.tif",
-      "Type": "cog",
-      "CollectionId": "ndvi-turin"
+      "EndPoint": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/imperviousness_2024.tif",
+      "Type": "tiles",
+      "CollectionId": ""
     }
   ],
-  "EodashIdentifier": "turin-ndvi"
+  "EodashIdentifier": "turin-imperviousness"
 }
