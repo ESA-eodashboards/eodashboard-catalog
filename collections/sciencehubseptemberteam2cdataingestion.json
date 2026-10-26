@@ -4,10 +4,19 @@
   "Description": "  Imperviousness density (%) over Turin, Copernicus High Resolution Layer 2024, 20 m resolution.\n  Indicates sealed surfaces that store and radiate heat, a key driver of the urban heat island.",
   "Resources": [
     {
-      "Name": "VEDA",
-      "EndPoint": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/imperviousness_2024.tif",
-      "Type": "tiles",
-      "CollectionId": ""
+      "Name": "GeoJSON source",
+      "Style": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/imperviousness_style.json",
+      "TimeEntries": [
+        {
+          "Time": "20240101",
+          "Assets": [
+            {
+              "Identifier": "imperviousness-turin",
+              "File": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/imperviousness_2024.tif"
+            }
+          ]
+        }
+      ]
     }
   ],
   "EodashIdentifier": "turin-imperviousness"
