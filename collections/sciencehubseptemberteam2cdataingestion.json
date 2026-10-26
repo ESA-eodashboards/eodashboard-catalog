@@ -14,9 +14,19 @@
               "File": "https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/ndvi_2026-08-01_15.tif"
             }
           ]
+        },
+        {
+          "Time": "",
+          "Assets": []
         }
       ],
-      "Name": "GeoJSON source"
+      "Name": "GeoJSON source",
+      "Bbox": [
+        7.57538,
+        45.00584,
+        7.77516,
+        45.14147
+      ]
     }
   ],
   "EodashIdentifier": "turin-ndvi"
