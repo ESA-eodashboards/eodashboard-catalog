@@ -24,19 +24,19 @@
         "NASA"
       ],
       "cities": [
-        "Balaton Lake",
         "Vänern Lake",
         "Aral Lake",
-        "Biwa Lake",
-        "Tonlé Sap Lake"
+        "Tonlé Sap Lake",
+        "Balaton Lake",
+        "Biwa Lake"
       ],
       "countries": [
         "SW",
-        "KH",
         "UZ",
-        "JP",
         "KZ",
-        "HU"
+        "JP",
+        "HU",
+        "KH"
       ],
       "thumbnail": [
         "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"
@@ -256,19 +256,19 @@
       "OLI"
     ],
     "cities": [
-      "Balaton Lake",
       "Vänern Lake",
       "Aral Lake",
-      "Biwa Lake",
-      "Tonlé Sap Lake"
+      "Tonlé Sap Lake",
+      "Balaton Lake",
+      "Biwa Lake"
     ],
     "countries": [
       "SW",
       "UZ",
-      "KH",
-      "JP",
       "KZ",
-      "HU"
+      "JP",
+      "HU",
+      "KH"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lakes/thumbnail.jpg"

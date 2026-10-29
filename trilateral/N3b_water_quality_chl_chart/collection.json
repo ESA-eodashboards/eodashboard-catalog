@@ -228,16 +228,16 @@
       "SGLI"
     ],
     "cities": [
-      "Tokyo",
       "Venice",
-      "Nagoya",
       "Kobe",
-      "New York"
+      "New York",
+      "Tokyo",
+      "Nagoya"
     ],
     "countries": [
+      "IT",
       "JP",
-      "US",
-      "IT"
+      "US"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.jpg"
