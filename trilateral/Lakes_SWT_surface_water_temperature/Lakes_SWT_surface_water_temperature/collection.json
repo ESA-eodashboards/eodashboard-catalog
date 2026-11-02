@@ -81,14 +81,6 @@
       "dataId": "byoc-9fdb8c27-9000-4912-b715-1465f840a1db"
     },
     {
-      "rel": "example",
-      "href": "https://eurodatacube.com/notebooks/curated/EDC_Access_CCI_data.ipynb",
-      "type": "application/x-ipynb+json",
-      "title": "Accessing CCI data with xcube",
-      "example:language": "Jupyter Notebook",
-      "example:container": true
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -321,7 +313,7 @@
       ]
     },
     "reference_5": {
-      "href": "https://viewer.earthsystemdatalab.net/",
+      "href": "https://rsc4earth.de/project/lexcube/",
       "type": "text/html",
       "title": "Lexcube - visualise datasets in a 3D cube",
       "roles": [

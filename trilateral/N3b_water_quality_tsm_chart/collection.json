@@ -221,15 +221,15 @@
       "Sentinel-3"
     ],
     "sensor": [
+      "SGLI",
       "MODIS",
-      "OLCI",
-      "SGLI"
+      "OLCI"
     ],
     "cities": [
       "Tokyo",
-      "Venice",
       "Kobe",
-      "Nagoya"
+      "Nagoya",
+      "Venice"
     ],
     "countries": [
       "IT",
