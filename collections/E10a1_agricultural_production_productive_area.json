@@ -25,9 +25,10 @@
   "Agency": [
     "ESA"
   ],
+  "Locations": true,
   "Provider": [
     {
-      "Name": "Universit\u00e9 catholique de Louvain",
+      "Name": "Université catholique de Louvain",
       "Url": "https://uclouvain.be/en/index.html"
     },
     {
@@ -37,21 +38,28 @@
   ],
   "Resources": [
     {
-      "EndPoint": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/",
-      "Name": "GeoDB",
-      "Database": "eodash",
-      "CollectionId": "E10a1_tri"
+      "Name": "tipg",
+      "EndPoint": "https://eoapi.workspace.eodashboard-operations.hub-otc-sc.eox.at/vector/",
+      "CollectionId": "public.e10a1_geometries_for_date",
+      "Style": "http://0.0.0.0:8001/defaults/features_no_tooltip.json",
+      "Bbox": [
+        -6.85,
+        37.18,
+        14.8,
+        53.6
+      ]
     }
   ],
   "Process": {
-    "Name": "GeoDB Statistics",
-    "JsonForm": "https://santilland.github.io/process_example/definitions/geodbform.json",
+    "Name": "timeseries",
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/geodb_form.json",
     "VegaDefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a1_agricultural_production_productive_area/chart.json",
     "EndPoints": [
       {
-        "Identifier": "process_geodb",
-        "Url": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a1_tri?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
-        "Type": "application/json"
+        "Identifier": "timeseries",
+        "Url": "https://eoapi.workspace.eodashboard-operations.hub-otc-sc.eox.at/vector/collections/public.e10a1_timeseries_by_id/items?target_id={{feature}}&f=json&limit=10000&geom-column=",
+        "Type": "application/json",
+        "Method": "GET"
       }
     ]
   }
