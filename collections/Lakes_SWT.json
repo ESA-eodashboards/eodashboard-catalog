@@ -52,7 +52,7 @@
     },
     {
       "Name": "Lexcube - visualise datasets in a 3D cube",
-      "Url": "https://viewer.earthsystemdatalab.net/"
+      "Url": "https://rsc4earth.de/project/lexcube/"
     },
     {
       "Name": "xcube viewer - visualise DeepESDL datacubes (zarr) on the web",
@@ -116,11 +116,6 @@
       "Type": "byoc",
       "CollectionId": "9fdb8c27-9000-4912-b715-1465f840a1db",
       "Script": "Lakes_SWT_surface_water_temperature/Lakes_SWT_surface_water_temperature.js"
-    },
-    {
-      "Name": "EOxHub Notebook",
-      "Title": "Accessing CCI data with xcube",
-      "Url": "https://eurodatacube.com/notebooks/curated/EDC_Access_CCI_data.ipynb"
     }
   ],
   "Provider": [
