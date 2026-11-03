@@ -15,7 +15,7 @@
       "href": "./car_containers/collection.json",
       "type": "application/json",
       "title": "Car containers",
-      "endpointtype": "GeoDB",
+      "endpointtype": "tipg",
       "subtitle": "Change in the number of new cars at automobile factory",
       "code": "E9",
       "id": "car_containers",
@@ -27,12 +27,12 @@
         "ESA"
       ],
       "cities": [
+        "Arcadia",
         "Beijing",
-        "Nagoya",
-        "Singapore",
         "Los Angeles",
+        "Nagoya",
         "Palm Springs",
-        "Arcadia"
+        "Singapore"
       ],
       "countries": [
         "CN",
@@ -73,13 +73,6 @@
       "id": "locations",
       "method": "GET",
       "endpoint": "STAC"
-    },
-    {
-      "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E9_tri?aoi_id=eq.{{feature}}&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
-      "type": "application/json",
-      "id": "process_geodb",
-      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -187,24 +180,23 @@
     "Sentinel-1"
   ],
   "eodash:jsonform": "https://santilland.github.io/process_example/definitions/geodbform.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E9_car_containers/chart.json",
   "title": "Car containers",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
+          -118.43,
+          1.22839947,
           241.633621,
-          90.0
+          40.127
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "1970-01-01T00:00:00Z",
-          "2026-11-02T10:07:16.783793Z"
+          "2019-11-27T00:00:00Z",
+          "2022-12-01T00:00:00Z"
         ]
       ]
     }
@@ -236,17 +228,17 @@
       "PALSAR-2"
     ],
     "cities": [
-      "Palm Springs",
-      "Singapore",
-      "Beijing",
+      "Los Angeles",
       "Arcadia",
+      "Beijing",
       "Nagoya",
-      "Los Angeles"
+      "Palm Springs",
+      "Singapore"
     ],
     "countries": [
+      "US",
       "JP",
       "SG",
-      "US",
       "CN"
     ],
     "thumbnail": [

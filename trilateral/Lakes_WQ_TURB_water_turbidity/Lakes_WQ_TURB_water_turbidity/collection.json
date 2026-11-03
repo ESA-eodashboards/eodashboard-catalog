@@ -17,18 +17,6 @@
       "title": "Data policy"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Lake water quality (turbidity)",
-      "wms:layers": [
-        "LAKE_WATER_QUALITY_TURBIDITY_MEAN"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "license",
       "href": "https://land.copernicus.eu/en/data-policy",
       "type": "text/html",
@@ -40,6 +28,9 @@
       "type": "application/json",
       "title": "Lake water quality (turbidity)"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "sci:citation": "European Commission Directorate-General Joint Research Centre. Lake Water Quality 2016-present (raster 300 m), global, 10-daily - version 1. \nhttps://land.copernicus.vgt.vito.be/geonetwork/srv/api/records/clms_global_lwq_300m_v1_10daily-nrt\n",
   "subtitle": "CLMS Lake Water Quality NRT 300m",
@@ -116,6 +107,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 21096,
       "roles": [
         "collection-mirror"
       ]

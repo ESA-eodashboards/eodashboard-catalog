@@ -47,18 +47,6 @@
       "name": "Kobe"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Total suspended matter from GCOM-C",
-      "wms:layers": [
-        "AWS_JAXA_TSM"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "license",
       "href": "http://www.opensource.org/licenses/MIT",
       "type": "text/html"

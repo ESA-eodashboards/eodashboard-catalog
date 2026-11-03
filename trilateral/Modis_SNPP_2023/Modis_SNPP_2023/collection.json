@@ -17,6 +17,9 @@
       "title": "Active Fires (MODIS)"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Modis_SNPP_2023/Modis_SNPP_2023.jpg",
   "themes": [
     "extreme-events"
@@ -36,16 +39,16 @@
     "Terra",
     "Aqua"
   ],
-  "endpointtype": "GeoDB Features",
+  "endpointtype": "tipg",
   "title": "Active Fires (MODIS)",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -85.0,
-          180.0,
-          85.0
+          -180,
+          -85,
+          180,
+          85
         ]
       ]
     },
@@ -73,6 +76,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 52360,
       "roles": [
         "collection-mirror"
       ]

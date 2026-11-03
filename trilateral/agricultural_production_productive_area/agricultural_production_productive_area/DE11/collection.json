@@ -12,9 +12,9 @@
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E10a1_tri?aoi_id=eq.DE11&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "href": "https://eoapi.workspace.eodashboard-operations.hub-otc-sc.eox.at/vector/collections/public.e10a1_timeseries_by_id/items?target_id=DE11&f=json&limit=10000&geom-column=",
       "type": "application/json",
-      "id": "process_geodb",
+      "id": "timeseries",
       "method": "GET"
     },
     {
@@ -74,7 +74,6 @@
   ],
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E10a1_agricultural_production_productive_area/chart.json",
-  "subcode": "E10a1",
   "subtitle": "Agricultural production in Europe",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg",
   "themes": [
@@ -87,21 +86,22 @@
   "agency": [
     "ESA"
   ],
+  "subcode": "E10a1",
   "sensor": [
     "MSI"
   ],
   "satellite": [
     "Sentinel-2"
   ],
-  "title": "Brandenburg - agricultural_production_productive_area",
+  "title": "Brandenburg",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          12.890630000000002,
-          51.93141,
-          13.29063,
-          52.331410000000005
+          11.26573,
+          51.36071,
+          14.76504,
+          53.5587
         ]
       ]
     },

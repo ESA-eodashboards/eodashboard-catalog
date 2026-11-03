@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./DE11/collection.json",
       "type": "application/json",
-      "title": "Brandenburg - agricultural_production_productive_area",
+      "title": "Brandenburg",
       "id": "DE11",
       "latlng": "52.13141,13.09063",
       "country": "DE",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./ES8/collection.json",
       "type": "application/json",
-      "title": "Huelva (Lagunas de las Madres) - agricultural_production_productive_area",
+      "title": "Huelva (Lagunas de las Madres)",
       "id": "ES8",
       "latlng": "37.18316,-6.84888",
       "country": "ES",
@@ -37,6 +37,10 @@
       "title": "Agricultural production - productive area"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
+  "locations": true,
   "subtitle": "Agricultural production in Europe",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg",
   "themes": [
@@ -56,36 +60,23 @@
   "satellite": [
     "Sentinel-2"
   ],
-  "locations": true,
-  "endpointtype": "GeoDB",
+  "endpointtype": "tipg",
   "title": "Agricultural production - productive area",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -7.0488800000000005,
-          36.98316,
-          13.29063,
-          52.331410000000005
-        ],
-        [
-          12.890630000000002,
-          51.93141,
-          13.29063,
-          52.331410000000005
-        ],
-        [
-          -7.0488800000000005,
-          36.98316,
-          -6.64888,
-          37.383160000000004
+          -6.85,
+          37.18,
+          14.8,
+          53.6
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2019-12-27T11:21:32Z",
+          "2019-12-27T00:00:00Z",
           "2020-07-31T00:00:00Z"
         ]
       ]
@@ -113,6 +104,15 @@
     ]
   },
   "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "file:size": 15945,
+      "roles": [
+        "collection-mirror"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/E10a1_agricultural_production_productive_area.jpg",
       "type": "image/png",

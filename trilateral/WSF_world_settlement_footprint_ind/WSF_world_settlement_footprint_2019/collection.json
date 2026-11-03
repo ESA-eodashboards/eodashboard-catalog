@@ -11,18 +11,6 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "wms",
-      "href": "https://a.geoservice.dlr.de/eoc/land/wms/",
-      "type": "image/jpeg",
-      "title": "World settlement footprint 2019",
-      "wms:layers": [
-        "WSF_2019"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "license",
       "href": "http://creativecommons.org/licenses/by/4.0/legalcode",
       "type": "text/html"
@@ -35,6 +23,7 @@
     }
   ],
   "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
     "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
   ],
   "sci:doi": "10.1553/giscience2021_01_s33",
@@ -123,6 +112,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14096,
       "roles": [
         "collection-mirror"
       ]

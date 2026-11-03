@@ -12,9 +12,9 @@
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/eodash_E9_tri?aoi_id=eq.JP03&select=site_name,city,color_code,time,aoi,measurement_value,indicator_value,reference_time,eo_sensor,reference_value,input_data",
+      "href": "https://eoapi.workspace.eodashboard-operations.hub-otc-sc.eox.at/vector/collections/public.e9_timeseries_by_id/items?target_id=JP03&f=json&limit=10000&geom-column=",
       "type": "application/json",
-      "id": "process_geodb",
+      "id": "timeseries",
       "method": "GET"
     },
     {
@@ -73,11 +73,11 @@
     }
   ],
   "stac_extensions": [
-    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "eodash:jsonform": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/empty_form.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/E9_car_containers/chart.json",
-  "subcode": "E9",
   "subtitle": "Change in the number of new cars at automobile factory",
   "eodash:stories": {
     "covid-cars": {
@@ -115,6 +115,7 @@
     "JAXA",
     "ESA"
   ],
+  "subcode": "E9",
   "sensor": [
     "PALSAR-2",
     "C-SAR"
@@ -123,15 +124,15 @@
     "ALOS-2",
     "Sentinel-1"
   ],
-  "title": "Nagoya - car_containers",
+  "title": "Nagoya",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          136.74201569988466,
-          34.93867142383858,
-          136.95693574382997,
-          35.13376088778208
+          136.7420157,
+          34.938671424,
+          136.956935744,
+          35.133760888
         ]
       ]
     },
@@ -156,14 +157,6 @@
     }
   ],
   "assets": {
-    "geoparquet": {
-      "href": "./items.parquet",
-      "type": "application/vnd.apache.parquet",
-      "title": "GeoParquet Items",
-      "roles": [
-        "collection-mirror"
-      ]
-    },
     "covid-cars": {
       "href": "https://eodashboard.org/story/?id=covid-cars",
       "type": "text/markdown",
@@ -187,6 +180,15 @@
       "type": "image/png",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "file:size": 15093,
+      "roles": [
+        "collection-mirror"
       ]
     }
   }

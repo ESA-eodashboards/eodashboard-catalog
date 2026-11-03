@@ -11,23 +11,14 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "NASA ECOSTRESS land surface temperature",
-      "wms:layers": [
-        "NASA-ECOSTRESS-LST"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "NASA ECOSTRESS land surface temperature"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "sci:doi": "10.5067/ECOSTRESS/ECO2LSTE.001",
   "sci:citation": "Hook, S., Hulley, G. (2019). ECOSTRESS Land Surface Temperature and Emissivity Daily L2 Global 70 m V001 [Data set]. NASA EOSDIS Land Processes Distributed Active Archive Center\n",
@@ -102,6 +93,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 16878,
       "roles": [
         "collection-mirror"
       ]

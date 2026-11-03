@@ -24,18 +24,6 @@
       "dataId": "byoc-698ade22-bc30-44d1-8751-159ee135f998"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Total suspended matter from Sentinel-3",
-      "wms:layers": [
-        "AWS_N3_CUSTOM_TRILATERAL_TSMNN"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "service",
       "href": "https://services.sentinel-hub.com/api/v1/statistics",
       "type": "application/json",
@@ -102,6 +90,9 @@
       "type": "application/json",
       "title": "Total suspended matter from Sentinel-3"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "subtitle": "Total suspended matter maps",
   "eox:colorlegend": {
@@ -182,6 +173,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 50040,
       "roles": [
         "collection-mirror"
       ]

@@ -77,6 +77,9 @@
       "title": "Lakes collection (Sentinel 1)"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "endpointtype": "Sentinel Hub WMS",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_Sentinel1/thumbnail.jpg",
   "themes": [
@@ -132,6 +135,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14892,
       "roles": [
         "collection-mirror"
       ]

@@ -24,18 +24,6 @@
       "dataId": "byoc-198aa13a-b0c0-4b78-8f69-e08fc58551a7"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Chlorophyll-a concentration from GCOM-C",
-      "wms:layers": [
-        "AWS_JAXA_CHLA"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "service",
       "href": "https://services.sentinel-hub.com/api/v1/statistics",
       "type": "application/json",
@@ -102,6 +90,9 @@
       "type": "application/json",
       "title": "Chlorophyll-a concentration from GCOM-C"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "subtitle": "Chlorophyll-a concentration maps",
   "eox:colorlegend": {
@@ -178,6 +169,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 51753,
       "roles": [
         "collection-mirror"
       ]

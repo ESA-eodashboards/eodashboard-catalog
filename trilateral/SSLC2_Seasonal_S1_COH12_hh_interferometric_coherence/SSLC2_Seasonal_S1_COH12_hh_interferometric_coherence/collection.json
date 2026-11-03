@@ -16,19 +16,6 @@
       "type": "text/html"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Global seasonal Sentinel-1 interferometric coherence",
-      "wms:layers": [
-        "S1_COH12_HH"
-      ],
-      "role": [
-        "data"
-      ],
-      "proj:epsg": 3857
-    },
-    {
       "rel": "license",
       "href": "http://creativecommons.org/licenses/by/4.0/legalcode",
       "type": "text/html"
@@ -39,6 +26,9 @@
       "type": "application/json",
       "title": "Global seasonal Sentinel-1 interferometric coherence"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "sci:doi": "10.5067/8W33RRS6S2RV",
   "sci:citation": "Kellndorfer, J. , O. Cartus, M. Lavalle,  C. Magnard, P. Milillo, S. Oveisgharan, B. Osmanoglu, P. Rosen, and U. Wegmüller. 2022. \nGlobal seasonal Sentinel-1 interferometric coherence and backscatter data set. \nFairbanks, Alaska USA. NASA Alaska Satellite Facility Synthetic Aperture Radar Distributed Active Archive Center.\n",
@@ -128,6 +118,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 17854,
       "roles": [
         "collection-mirror"
       ]

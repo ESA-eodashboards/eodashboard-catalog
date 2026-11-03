@@ -23,18 +23,6 @@
       "city": "Tonlé Sap (S1-VV)"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Lakes collection (Sentinel 1)",
-      "wms:layers": [
-        "SENTINEL_1_IW_VV"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -68,12 +56,6 @@
   "extent": {
     "spatial": {
       "bbox": [
-        [
-          101.938,
-          11.945,
-          106.37,
-          14.0674
-        ],
         [
           101.938,
           11.945,

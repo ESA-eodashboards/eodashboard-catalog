@@ -16,18 +16,6 @@
       "type": "text/html"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Lakes collection (ALOS2-HH/HV)",
-      "wms:layers": [
-        "JAXA_LAKES_ALOS2_HH"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -35,6 +23,7 @@
     }
   ],
   "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
     "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
   ],
   "eodash:stories": {
@@ -100,28 +89,6 @@
   "satellite": [
     "ALOS-2"
   ],
-  "eodash:rasterform": {
-    "jsonform": {
-      "type": "object",
-      "title": "HH/HV",
-      "properties": {
-        "layers": {
-          "type": "string",
-          "enum": [
-            "JAXA_LAKES_ALOS2_HH",
-            "JAXA_LAKES_ALOS2_HV"
-          ],
-          "options": {
-            "enum_titles": [
-              "HH",
-              "HV"
-            ]
-          },
-          "default": "JAXA_LAKES_ALOS2_HH"
-        }
-      }
-    }
-  },
   "endpointtype": "Sentinel Hub WMS",
   "title": "Lakes collection (ALOS2-HH/HV)",
   "extent": {
@@ -156,6 +123,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14800,
       "roles": [
         "collection-mirror"
       ]

@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./CN03/collection.json",
       "type": "application/json",
-      "title": "Beijing - car_containers",
+      "title": "Beijing",
       "id": "CN03",
       "latlng": "40.08, 116.6",
       "country": "CN",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./JP03/collection.json",
       "type": "application/json",
-      "title": "Nagoya - car_containers",
+      "title": "Nagoya",
       "id": "JP03",
       "latlng": "35.0800,136.8800",
       "country": "JP",
@@ -34,7 +34,7 @@
       "rel": "child",
       "href": "./SG01/collection.json",
       "type": "application/json",
-      "title": "Singapore - car_containers",
+      "title": "Singapore",
       "id": "SG01",
       "latlng": "1.264856, 103.847663",
       "country": "SG",
@@ -44,7 +44,7 @@
       "rel": "child",
       "href": "./US021/collection.json",
       "type": "application/json",
-      "title": "Los Angeles - car_containers",
+      "title": "Los Angeles",
       "id": "US021",
       "latlng": "33.94, -118.41",
       "country": "US",
@@ -54,7 +54,7 @@
       "rel": "child",
       "href": "./US050/collection.json",
       "type": "application/json",
-      "title": "Los Angeles - car_containers",
+      "title": "Los Angeles",
       "id": "US050",
       "latlng": "33.79,-117.89",
       "country": "US",
@@ -64,7 +64,7 @@
       "rel": "child",
       "href": "./US051/collection.json",
       "type": "application/json",
-      "title": "Los Angeles - car_containers",
+      "title": "Los Angeles",
       "id": "US051",
       "latlng": "34.07,-118.23",
       "country": "US",
@@ -74,7 +74,7 @@
       "rel": "child",
       "href": "./US052/collection.json",
       "type": "application/json",
-      "title": "Palm Springs - car_containers",
+      "title": "Palm Springs",
       "id": "US052",
       "latlng": "33.82,-116.5",
       "country": "US",
@@ -84,7 +84,7 @@
       "rel": "child",
       "href": "./US053/collection.json",
       "type": "application/json",
-      "title": "Arcadia - car_containers",
+      "title": "Arcadia",
       "id": "US053",
       "latlng": "34.14,-118.04",
       "country": "US",
@@ -100,6 +100,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
   ],
+  "locations": true,
   "subtitle": "Change in the number of new cars at automobile factory",
   "eodash:stories": {
     "covid-cars": {
@@ -146,17 +147,16 @@
     "ALOS-2",
     "Sentinel-1"
   ],
-  "locations": true,
-  "endpointtype": "GeoDB",
+  "endpointtype": "tipg",
   "title": "Car containers",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
+          -118.43,
+          1.22839947,
           241.633621,
-          90.0
+          40.127
         ],
         [
           116.547,
@@ -165,10 +165,10 @@
           40.127
         ],
         [
-          136.74201569988466,
-          34.93867142383858,
-          136.95693574382997,
-          35.13376088778208
+          136.7420157,
+          34.938671424,
+          136.956935744,
+          35.133760888
         ],
         [
           103.79106908,
@@ -195,10 +195,10 @@
           34.27
         ],
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -116.7,
+          33.62,
+          -116.3,
+          34.02
         ],
         [
           -118.24000000000001,
@@ -211,8 +211,8 @@
     "temporal": {
       "interval": [
         [
-          "1970-01-01T00:00:00Z",
-          "2026-11-02T10:07:16.783793Z"
+          "2019-11-27T00:00:00Z",
+          "2022-12-01T00:00:00Z"
         ]
       ]
     }
@@ -230,12 +230,12 @@
   ],
   "summaries": {
     "cities": [
+      "Arcadia",
       "Beijing",
-      "Nagoya",
-      "Singapore",
       "Los Angeles",
+      "Nagoya",
       "Palm Springs",
-      "Arcadia"
+      "Singapore"
     ],
     "countries": [
       "CN",

@@ -17,18 +17,6 @@
       "title": "Data policy"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Lake water quality (true color)",
-      "wms:layers": [
-        "LAKE_WATE_QUALITY_TRUECOLOR"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "license",
       "href": "https://land.copernicus.eu/en/data-policy",
       "type": "text/html",
@@ -40,6 +28,9 @@
       "type": "application/json",
       "title": "Lake water quality (true color)"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "sci:citation": "European Commission Directorate-General Joint Research Centre. Lake Water Quality 2016-present (raster 300 m), global, 10-daily - version 1. \nhttps://land.copernicus.vgt.vito.be/geonetwork/srv/api/records/clms_global_lwq_300m_v1_10daily-nrt\n",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_WQ_TC_water_quality/Lakes_WQ_TC_water_quality.jpg",
@@ -97,6 +88,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 21070,
       "roles": [
         "collection-mirror"
       ]

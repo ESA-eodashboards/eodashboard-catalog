@@ -70,6 +70,9 @@
       "title": "Total suspended matter maps from MODIS"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "subcode": "N3a2_tsm_nasa",
   "subtitle": "Total suspended matter maps",
   "eox:colorlegend": {
@@ -143,6 +146,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 16640,
       "roles": [
         "collection-mirror"
       ]

@@ -11,24 +11,14 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Kd Ocean Colour UVAB by Sentinel-5P TROPOMI (Daily)",
-      "wms:layers": [
-        "S5P-L3GRD-KdUVAB-DAY"
-      ],
-      "role": [
-        "data"
-      ],
-      "proj:epsg": 3857
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "Kd Ocean Colour UVAB by Sentinel-5P TROPOMI (Daily)"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "eox:colorlegend": {
     "domain": [
@@ -109,6 +99,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 43444,
       "roles": [
         "collection-mirror"
       ]

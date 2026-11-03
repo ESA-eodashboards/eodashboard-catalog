@@ -15,7 +15,7 @@
       "href": "./Modis_SNPP_2023/collection.json",
       "type": "application/json",
       "title": "Active Fires (MODIS)",
-      "endpointtype": "GeoDB Features",
+      "endpointtype": "tipg",
       "code": "Modis_SNPP_2023",
       "id": "Modis_SNPP_2023",
       "themes": [
@@ -45,11 +45,10 @@
     },
     {
       "rel": "service",
-      "href": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/rpc/geodb_get_pg",
+      "href": "https://eoapi.workspace.eodashboard-operations.hub-otc-sc.eox.at/vector/collections/public.modis_snpp_2023/items?bbox={{bbox}}&properties=date_time&f=json&limit=10000",
       "type": "application/json",
       "id": "timeseries",
-      "method": "POST",
-      "body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/Modis_SNPP_2023/body_timeseries.json"
+      "method": "GET"
     },
     {
       "rel": "xyz",
@@ -132,16 +131,10 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -85.0,
-          180.0,
-          85.0
-        ],
-        [
-          -180.0,
-          -85.0,
-          180.0,
-          85.0
+          -180,
+          -85,
+          180,
+          85
         ]
       ]
     },

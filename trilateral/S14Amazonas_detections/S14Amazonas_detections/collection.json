@@ -11,23 +11,14 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/jpeg",
-      "title": "ESA Sentinel-1 for Science Amazonas",
-      "wms:layers": [
-        "ID-AMAZONAS_PROJECT"
-      ],
-      "role": [
-        "data"
-      ]
-    },
-    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
       "title": "ESA Sentinel-1 for Science Amazonas"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "subtitle": "Multi-temporal Change Detection",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/MCD_S14Amazonas_detections/thumbnail.jpg",
@@ -94,6 +85,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 15981,
       "roles": [
         "collection-mirror"
       ]

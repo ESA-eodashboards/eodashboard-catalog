@@ -223,21 +223,21 @@
       "Acqua"
     ],
     "sensor": [
-      "MODIS",
       "SGLI",
-      "OLCI"
+      "OLCI",
+      "MODIS"
     ],
     "cities": [
-      "Tokyo",
-      "Kobe",
-      "Venice",
       "New York",
-      "Nagoya"
+      "Nagoya",
+      "Venice",
+      "Tokyo",
+      "Kobe"
     ],
     "countries": [
+      "US",
       "JP",
-      "IT",
-      "US"
+      "IT"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.jpg"

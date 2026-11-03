@@ -70,6 +70,9 @@
       "title": "Chlorophyll-a concentration from MODIS"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "subcode": "N3a2_chl_nasa",
   "subtitle": "Chlorophyll-a concentration maps",
   "eox:colorlegend": {
@@ -143,6 +146,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 15066,
       "roles": [
         "collection-mirror"
       ]

@@ -11,19 +11,6 @@
       "title": "Earth Observing Dashboard"
     },
     {
-      "rel": "wms",
-      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
-      "type": "image/png",
-      "title": "Air Quality (tropospheric NO2 concetrations)",
-      "wms:layers": [
-        "AWS_NO2-VISUALISATION"
-      ],
-      "role": [
-        "data"
-      ],
-      "proj:epsg": 3857
-    },
-    {
       "rel": "example",
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2.js",
       "type": "application/javascript",
@@ -37,6 +24,9 @@
       "type": "application/json",
       "title": "Air Quality (tropospheric NO2 concetrations)"
     }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
   ],
   "subtitle": "Daily Nitrogen Dioxide",
   "eox:colorlegend": {
@@ -119,6 +109,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 58750,
       "roles": [
         "collection-mirror"
       ]
