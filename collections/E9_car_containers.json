@@ -38,7 +38,7 @@
     {
       "Name": "tipg",
       "EndPoint": "https://eoapi.workspace.eodashboard-operations.hub-otc-sc.eox.at/vector/",
-      "CollectionId": "public.e9_geometries_for_date",
+      "CollectionId": "public.e9",
       "InputData": [
         {
           "Identifier": "ALOS-2",
