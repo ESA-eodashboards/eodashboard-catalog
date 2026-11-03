@@ -41,13 +41,10 @@
   ],
   "Resources": [
     {
-      "Name": "GeoDB Features",
-      "EndPoint": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/",
-      "Database": "eodash",
-      "TimeParameter": "date_time",
-      "CollectionId": "MODIS_timeseries",
-      "Query": "select=brightness,geometry,date_time,confidence,frp,daynight,type,bright_t31&date_time=like.{{date_time}}%",
-      "Aggregation": "day",
+      "Name": "tipg",
+      "EndPoint": "https://eoapi.workspace.eodashboard-operations.hub-otc-sc.eox.at/vector/",
+      "CollectionId": "public.modis_snpp_2023",
+      "TimeParameter": "obs_date",
       "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/Modis_SNPP_2023/style.json",
       "OverwriteBBox": [
         -180,
@@ -64,17 +61,18 @@
     "EndPoints": [
       {
         "Identifier": "timeseries",
-        "Url": "https://xcube-geodb.brockmann-consult.de/eodash/6bf15325-f6a0-4b6a-bf80-a2491753f8f2/rpc/geodb_get_pg",
+        "Url": "https://eoapi.workspace.eodashboard-operations.hub-otc-sc.eox.at/vector/collections/public.modis_snpp_2023/items?bbox={{bbox}}&properties=date_time&f=json&limit=10000",
         "Type": "application/json",
-        "Method": "POST",
-        "Body": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/collections/Modis_SNPP_2023/body_timeseries.json"
+        "Method": "GET"
       }
     ]
   },
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://firms.modaps.eosdis.nasa.gov/"
     }
   ]
