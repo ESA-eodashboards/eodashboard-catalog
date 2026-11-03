@@ -41,7 +41,7 @@
       "Name": "tipg",
       "EndPoint": "https://eoapi.workspace.eodashboard-operations.hub-otc-sc.eox.at/vector/",
       "CollectionId": "public.e10a1",
-      "Style": "http://0.0.0.0:8001/defaults/features_no_tooltip.json",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/features_no_tooltip.json",
       "Bbox": [
         -6.85,
         37.18,
