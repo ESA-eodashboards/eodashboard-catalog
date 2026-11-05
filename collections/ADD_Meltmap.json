@@ -1,10 +1,12 @@
 {
   "Name": "ADD_Meltmap",
   "EodashIdentifier": "ADD_Meltmap",
-  "Title": "Antarctica Meltmap",
+  "Title": "Antarctica Meltmap 2",
   "Subtitle": "Antarctica Meltmap from 4D Antarctica",
   "Description": "ADD_Meltmap/ADD_Meltmap.md",
-  "Themes": ["cryosphere"],
+  "Themes": [
+    "cryosphere"
+  ],
   "Tags": [
     "Antarctica",
     "climate change",
@@ -21,11 +23,18 @@
   ],
   "DataSource": {
     "Spaceborne": {
-      "Satellite": ["MetOp"],
-      "Sensor": ["ASCAT"]
+      "Satellite": [
+        "MetOp"
+      ],
+      "Sensor": [
+        "ASCAT"
+      ]
     }
   },
-  "Agency": ["ESA", "EUMETSAT"],
+  "Agency": [
+    "ESA",
+    "EUMETSAT"
+  ],
   "Provider": [
     {
       "Name": "ESA",
@@ -37,7 +46,7 @@
     }
   ],
   "Citation": {
-    "Citation": "Citing the data:\nLindsley, R. D. and Long, D. G. (2010): Standard BYU ASCAT land/ice image products. Microwave Earth Remote Sensing Laboratory, 3\n"
+    "Citation": "Citing the data:Lindsley, R. D. and Long, D. G. (2010): Standard BYU ASCAT land/ice image products. Microwave Earth Remote Sensing Laboratory, 3"
   },
   "References": [
     {
@@ -55,7 +64,12 @@
       "Name": "WMS",
       "Type": "OverwriteTimes",
       "LayerId": "VIS_ANTARTICA_MELTMAP",
-      "OverwriteBBox": [-100, -75, -70, -68],
+      "OverwriteBBox": [
+        -100,
+        -75,
+        -70,
+        -68
+      ],
       "DataProjection": {
         "name": "EPSG:3031",
         "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs"
@@ -78,14 +92,24 @@
       "wet snow l.",
       "new top frozen l."
     ],
-    "range": ["#AFABAB", "#B4C7E7", "#66A2D8", "#FFF3CC"],
+    "range": [
+      "#AFABAB",
+      "#B4C7E7",
+      "#66A2D8",
+      "#FFF3CC"
+    ],
     "scaleType": "categorical",
     "title": "Ice melting status"
   },
   "MapProjection": {
     "name": "EPSG:3031",
     "def": "+proj=stere +lat_0=-90 +lat_ts=-71 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
-    "extent": [-3299207.53, -3333134.03, 3299207.53, 3333134.03]
+    "extent": [
+      -3299207.53,
+      -3333134.03,
+      3299207.53,
+      3333134.03
+    ]
   },
   "BaseLayers": [
     {
@@ -94,7 +118,6 @@
       "url": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
       "media_type": "image/jpeg",
       "Attribution": "{ EOxCloudless 2025: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }",
-      "maxNativeZoom": 17,
       "protocol": "xyz",
       "visible": false
     },
