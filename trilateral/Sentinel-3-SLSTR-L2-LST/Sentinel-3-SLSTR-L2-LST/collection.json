@@ -11,6 +11,18 @@
       "title": "Earth Observing Dashboard"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/jpeg",
+      "title": "Land Surface Temperature (Sentinel-3 SLSTR L2)",
+      "wms:layers": [
+        "SENTINEL-3-SLSTR-L2-LST"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

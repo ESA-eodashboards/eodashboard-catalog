@@ -11,6 +11,19 @@
       "title": "Earth Observing Dashboard"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/jpeg",
+      "title": "Ocean net primary production (BICEP)",
+      "wms:layers": [
+        "BICEP_NPP_VIS_PP2"
+      ],
+      "role": [
+        "data"
+      ],
+      "proj:epsg": 3857
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

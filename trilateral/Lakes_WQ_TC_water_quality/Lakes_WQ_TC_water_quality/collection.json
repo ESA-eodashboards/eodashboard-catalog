@@ -17,6 +17,18 @@
       "title": "Data policy"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Lake water quality (true color)",
+      "wms:layers": [
+        "LAKE_WATE_QUALITY_TRUECOLOR"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
       "rel": "license",
       "href": "https://land.copernicus.eu/en/data-policy",
       "type": "text/html",

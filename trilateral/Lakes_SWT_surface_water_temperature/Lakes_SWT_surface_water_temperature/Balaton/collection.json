@@ -24,6 +24,18 @@
       "dataId": "byoc-9fdb8c27-9000-4912-b715-1465f840a1db"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Lakes surface water temperature",
+      "wms:layers": [
+        "LAKES_SURFACE_WATER_TEMPERATURE"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
       "rel": "service",
       "href": "https://services.sentinel-hub.com/api/v1/statistics",
       "type": "application/json",

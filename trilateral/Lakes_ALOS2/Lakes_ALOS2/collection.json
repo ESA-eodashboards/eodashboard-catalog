@@ -16,6 +16,18 @@
       "type": "text/html"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Lakes collection (ALOS2-HH/HV)",
+      "wms:layers": [
+        "JAXA_LAKES_ALOS2_HH"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
@@ -89,6 +101,28 @@
   "satellite": [
     "ALOS-2"
   ],
+  "eodash:rasterform": {
+    "jsonform": {
+      "type": "object",
+      "title": "HH/HV",
+      "properties": {
+        "layers": {
+          "type": "string",
+          "enum": [
+            "JAXA_LAKES_ALOS2_HH",
+            "JAXA_LAKES_ALOS2_HV"
+          ],
+          "options": {
+            "enum_titles": [
+              "HH",
+              "HV"
+            ]
+          },
+          "default": "JAXA_LAKES_ALOS2_HH"
+        }
+      }
+    }
+  },
   "endpointtype": "Sentinel Hub WMS",
   "title": "Lakes collection (ALOS2-HH/HV)",
   "extent": {

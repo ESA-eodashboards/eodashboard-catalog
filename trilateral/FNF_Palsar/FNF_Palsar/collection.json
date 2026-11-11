@@ -11,6 +11,16 @@
       "title": "Earth Observing Dashboard"
     },
     {
+      "rel": "wms",
+      "href": "https://ogcpreview1.restecmap.com/examind/api/WS/wms/JAXA_WMS_Preview",
+      "type": "image/jpeg",
+      "title": "PALSAR-2/PALSAR Forest/Non-Forest Map",
+      "wms:layers": "FNF-PALSAR2-World-2020-Yearly",
+      "role": [
+        "data"
+      ]
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

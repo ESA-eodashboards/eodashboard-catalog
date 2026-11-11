@@ -11,6 +11,19 @@
       "title": "Earth Observing Dashboard"
     },
     {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Sentinel-5P Total Column CO (Daily)",
+      "wms:layers": [
+        "S5P-L3GRD-TCCO-DAY"
+      ],
+      "role": [
+        "data"
+      ],
+      "proj:epsg": 3857
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
