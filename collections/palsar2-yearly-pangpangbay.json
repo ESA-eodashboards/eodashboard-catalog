@@ -1,0 +1,39 @@
+{
+  "Name": "palsar2-scansar-yearly-median-pangpangbay",
+  "Title": "PALSAR-2 ScanSAR Yearly Median: Pangpang Bay, Indonesia",
+  "Description": "The PALSAR-2 aboard the ALOS-2 is a Synthetic Aperture Radar (SAR), which emits microwave and receives the reflection from the ground to acquire information. Since it does not need other sources of light such as the sun, SAR has the advantage of providing satellite images regardless day or night. The frequency of transmitting and receiving microwave is L-band, which is less affected by clouds and rains. This all-weather observing capability is suitable for monitoring disasters rapidly. In addition, L-band microwave can reach to the ground partially penetrating through vegetation to obtain information of vegetation and ground surface. \n\n## About the dataset\n- PALSAR-2 ScanSAR Level 2.2 product is JAXA's normalized backscatter dataset acquired in PALSAR-2's broad-area ScanSAR observation mode (350 km swath width). \n- Data are ortho-rectified and radiometrically terrain-corrected using the ALOS World 3D – 30 m (AW3D30) Digital Surface Model, and are compatible with the CEOS Analysis Ready Data for Land (CARD4L) standard. \n- Values are stored as 16-bit digital numbers (DN), convertible to gamma-naught (γ0) backscatter in decibels via:\n\nγ0 = 10 × log10(DN²) − 83.0 dB\n",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/alos2_palsar_hh_hv_style.json",
+      "TimeEntries": [
+        {
+          "Time": "20210101",
+          "Assets": [
+            {
+              "Identifier": "palsar2-scansar-yearly-median-PangpangBay_2021",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/PangpangBay/ALOS2_ScanSAR_PangpangBay_2021.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20240101",
+          "Assets": [
+            {
+              "Identifier": "palsar2-scansar-yearly-median-PangpangBay_2024",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/PangpangBay/ALOS2_ScanSAR_PangpangBay_2024.tif"
+            }
+          ]
+        }
+      ],
+      "Name": "COG source",
+      "Bbox": [
+        114.189,
+        -8.6166,
+        114.538,
+        -8.38368
+      ]
+    }
+  ],
+  "EodashIdentifier": "palsar2-scansar-yearly-median-pangpangbay",
+  "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFC1CWV3wr_iYKFg1lq5pQgwHX_crcJ0XK2KpncluZJQ&s"
+}
