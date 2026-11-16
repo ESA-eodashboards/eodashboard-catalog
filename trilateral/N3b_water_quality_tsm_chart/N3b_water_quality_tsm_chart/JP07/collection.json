@@ -110,14 +110,14 @@
     "GCOM-C",
     "Acqua"
   ],
-  "title": "Tokyo - N3b_water_quality_tsm_chart",
+  "title": "Tokyo, TSM - N3b_water_quality_tsm_chart",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          139.7000001,
+          139.70000000000002,
           35.349999999999994,
-          140.1000001,
+          140.1,
           35.75
         ]
       ]
@@ -126,7 +126,7 @@
       "interval": [
         [
           "2019-01-05T00:00:00Z",
-          "2026-02-28T00:00:00Z"
+          "2026-08-08T00:00:00Z"
         ]
       ]
     }

@@ -110,14 +110,14 @@
     "GCOM-C",
     "Acqua"
   ],
-  "title": "Venice - N3b_water_quality_tsm_chart",
+  "title": "Venice, TSM - N3b_water_quality_tsm_chart",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          12.308056,
+          12.308055000000001,
           45.114247,
-          12.708056,
+          12.708055,
           45.514247000000005
         ]
       ]
@@ -126,7 +126,7 @@
       "interval": [
         [
           "2019-01-04T11:50:00Z",
-          "2026-02-21T00:00:00Z"
+          "2026-08-29T00:00:00Z"
         ]
       ]
     }

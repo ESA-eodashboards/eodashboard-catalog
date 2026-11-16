@@ -14,41 +14,41 @@
       "rel": "child",
       "href": "./IT6/collection.json",
       "type": "application/json",
-      "title": "Venice - N3b_water_quality_chl_chart",
+      "title": "Venice, chl-a - N3b_water_quality_chl_chart",
       "id": "IT6",
-      "latlng": "45.3142, 12.5081",
+      "latlng": " 45.314247,  12.508055",
       "country": "IT",
-      "name": "Venice"
+      "name": "Venice, chl-a"
     },
     {
       "rel": "child",
       "href": "./JP01/collection.json",
       "type": "application/json",
-      "title": "Tokyo - N3b_water_quality_chl_chart",
+      "title": "Tokyo, chl-a - N3b_water_quality_chl_chart",
       "id": "JP01",
       "latlng": " 35.550000, 139.900000",
       "country": "JP",
-      "name": "Tokyo"
+      "name": "Tokyo, chl-a"
     },
     {
       "rel": "child",
       "href": "./JP02/collection.json",
       "type": "application/json",
-      "title": "Kobe - N3b_water_quality_chl_chart",
+      "title": "Kobe, chl-a - N3b_water_quality_chl_chart",
       "id": "JP02",
       "latlng": " 34.550000, 135.150000",
       "country": "JP",
-      "name": "Kobe"
+      "name": "Kobe, chl-a"
     },
     {
       "rel": "child",
       "href": "./JP04/collection.json",
       "type": "application/json",
-      "title": "Nagoya - N3b_water_quality_chl_chart",
+      "title": "Nagoya, chl-a - N3b_water_quality_chl_chart",
       "id": "JP04",
       "latlng": " 34.750000, 136.700000",
       "country": "JP",
-      "name": "Nagoya"
+      "name": "Nagoya, chl-a"
     },
     {
       "rel": "child",
@@ -113,13 +113,13 @@
           -73.134,
           34.349999999999994,
           140.1,
-          45.5142
+          45.514247000000005
         ],
         [
-          12.308100000000001,
-          45.1142,
-          12.7081,
-          45.5142
+          12.308055000000001,
+          45.114247,
+          12.708055,
+          45.514247000000005
         ],
         [
           139.70000000000002,
@@ -151,7 +151,7 @@
       "interval": [
         [
           "2019-01-04T11:50:00Z",
-          "2026-02-28T00:00:00Z"
+          "2026-08-29T00:00:00Z"
         ]
       ]
     }
@@ -173,10 +173,10 @@
   ],
   "summaries": {
     "cities": [
-      "Venice",
-      "Tokyo",
-      "Kobe",
-      "Nagoya",
+      "Venice, chl-a",
+      "Tokyo, chl-a",
+      "Kobe, chl-a",
+      "Nagoya, chl-a",
       "New York"
     ],
     "countries": [

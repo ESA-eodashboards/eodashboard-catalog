@@ -110,14 +110,14 @@
     "GCOM-C",
     "Acqua"
   ],
-  "title": "Kobe - N3b_water_quality_tsm_chart",
+  "title": "Kobe, TSM - N3b_water_quality_tsm_chart",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          134.9500001,
+          134.95000000000002,
           34.349999999999994,
-          135.3500001,
+          135.35,
           34.75
         ]
       ]
@@ -126,7 +126,7 @@
       "interval": [
         [
           "2019-01-05T00:00:00Z",
-          "2026-02-28T00:00:00Z"
+          "2026-08-22T00:00:00Z"
         ]
       ]
     }

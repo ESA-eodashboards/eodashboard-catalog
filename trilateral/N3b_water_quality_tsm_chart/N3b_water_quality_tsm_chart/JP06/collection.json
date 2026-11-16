@@ -110,14 +110,14 @@
     "GCOM-C",
     "Acqua"
   ],
-  "title": "Nagoya - N3b_water_quality_tsm_chart",
+  "title": "Nagoya, TSM - N3b_water_quality_tsm_chart",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          136.50000010000002,
+          136.5,
           34.55,
-          136.9000001,
+          136.89999999999998,
           34.95
         ]
       ]
@@ -126,7 +126,7 @@
       "interval": [
         [
           "2019-01-05T00:00:00Z",
-          "2026-02-28T00:00:00Z"
+          "2026-08-22T00:00:00Z"
         ]
       ]
     }

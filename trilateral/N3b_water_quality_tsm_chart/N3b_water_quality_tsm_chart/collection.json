@@ -14,41 +14,41 @@
       "rel": "child",
       "href": "./IT10/collection.json",
       "type": "application/json",
-      "title": "Venice - N3b_water_quality_tsm_chart",
+      "title": "Venice, TSM - N3b_water_quality_tsm_chart",
       "id": "IT10",
-      "latlng": "45.314247, 12.508056",
+      "latlng": " 45.314247,  12.508055",
       "country": "IT",
-      "name": "Venice"
+      "name": "Venice, TSM"
     },
     {
       "rel": "child",
       "href": "./JP05/collection.json",
       "type": "application/json",
-      "title": "Kobe - N3b_water_quality_tsm_chart",
+      "title": "Kobe, TSM - N3b_water_quality_tsm_chart",
       "id": "JP05",
-      "latlng": "34.550000, 135.1500001",
+      "latlng": " 34.550000, 135.150000",
       "country": "JP",
-      "name": "Kobe"
+      "name": "Kobe, TSM"
     },
     {
       "rel": "child",
       "href": "./JP06/collection.json",
       "type": "application/json",
-      "title": "Nagoya - N3b_water_quality_tsm_chart",
+      "title": "Nagoya, TSM - N3b_water_quality_tsm_chart",
       "id": "JP06",
-      "latlng": "34.750000, 136.7000001",
+      "latlng": " 34.750000, 136.700000",
       "country": "JP",
-      "name": "Nagoya"
+      "name": "Nagoya, TSM"
     },
     {
       "rel": "child",
       "href": "./JP07/collection.json",
       "type": "application/json",
-      "title": "Tokyo - N3b_water_quality_tsm_chart",
+      "title": "Tokyo, TSM - N3b_water_quality_tsm_chart",
       "id": "JP07",
-      "latlng": "35.550000, 139.9000001",
+      "latlng": " 35.550000, 139.900000",
       "country": "JP",
-      "name": "Tokyo"
+      "name": "Tokyo, TSM"
     },
     {
       "rel": "parent",
@@ -100,33 +100,33 @@
     "spatial": {
       "bbox": [
         [
-          12.308056,
+          12.308055000000001,
           34.349999999999994,
-          140.1000001,
+          140.1,
           45.514247000000005
         ],
         [
-          12.308056,
+          12.308055000000001,
           45.114247,
-          12.708056,
+          12.708055,
           45.514247000000005
         ],
         [
-          134.9500001,
+          134.95000000000002,
           34.349999999999994,
-          135.3500001,
+          135.35,
           34.75
         ],
         [
-          136.50000010000002,
+          136.5,
           34.55,
-          136.9000001,
+          136.89999999999998,
           34.95
         ],
         [
-          139.7000001,
+          139.70000000000002,
           35.349999999999994,
-          140.1000001,
+          140.1,
           35.75
         ]
       ]
@@ -135,7 +135,7 @@
       "interval": [
         [
           "2019-01-04T11:50:00Z",
-          "2026-02-28T00:00:00Z"
+          "2026-08-29T00:00:00Z"
         ]
       ]
     }
@@ -157,10 +157,10 @@
   ],
   "summaries": {
     "cities": [
-      "Venice",
-      "Kobe",
-      "Nagoya",
-      "Tokyo"
+      "Venice, TSM",
+      "Kobe, TSM",
+      "Nagoya, TSM",
+      "Tokyo, TSM"
     ],
     "countries": [
       "IT",

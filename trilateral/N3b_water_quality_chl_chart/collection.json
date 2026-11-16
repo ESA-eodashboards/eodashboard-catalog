@@ -28,10 +28,10 @@
         "NASA"
       ],
       "cities": [
-        "Venice",
-        "Tokyo",
-        "Kobe",
-        "Nagoya",
+        "Venice, chl-a",
+        "Tokyo, chl-a",
+        "Kobe, chl-a",
+        "Nagoya, chl-a",
         "New York"
       ],
       "countries": [
@@ -182,7 +182,7 @@
           -73.134,
           34.349999999999994,
           140.1,
-          45.5142
+          45.514247000000005
         ]
       ]
     },
@@ -190,7 +190,7 @@
       "interval": [
         [
           "2019-01-04T11:50:00Z",
-          "2026-02-28T00:00:00Z"
+          "2026-08-29T00:00:00Z"
         ]
       ]
     }
@@ -218,26 +218,26 @@
       "water"
     ],
     "satellite": [
-      "Acqua",
       "Sentinel-3",
-      "GCOM-C"
+      "GCOM-C",
+      "Acqua"
     ],
     "sensor": [
+      "MODIS",
       "OLCI",
-      "SGLI",
-      "MODIS"
+      "SGLI"
     ],
     "cities": [
-      "Tokyo",
-      "Venice",
-      "Nagoya",
+      "Venice, chl-a",
+      "Tokyo, chl-a",
       "New York",
-      "Kobe"
+      "Nagoya, chl-a",
+      "Kobe, chl-a"
     ],
     "countries": [
       "IT",
-      "US",
-      "JP"
+      "JP",
+      "US"
     ],
     "thumbnail": [
       "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3b_water_quality_chl_chart/N3b_water_quality_chl_chart.jpg"

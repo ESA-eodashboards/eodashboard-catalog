@@ -192,26 +192,26 @@
       "agriculture"
     ],
     "satellite": [
-      "Sentinel-1",
       "Sentinel-2",
-      "Landsat-8"
+      "Landsat-8",
+      "Sentinel-1"
     ],
     "sensor": [
+      "OLI",
       "MSI",
-      "C-SAR",
-      "OLI"
+      "C-SAR"
     ],
     "cities": [
-      "Castilla y Leon",
-      "Andalucia",
-      "Aragon",
       "Comunidad Valenciana",
-      "Region de Murcia",
       "Comunidad Foral de Navarra",
-      "La Rioja",
+      "Castilla y Leon",
       "Extremadura",
-      "Comunidad de Madrid",
+      "Aragon",
+      "Region de Murcia",
+      "La Rioja",
       "Castilla-La Mancha",
+      "Andalucia",
+      "Comunidad de Madrid",
       "Cataluna"
     ],
     "countries": [
