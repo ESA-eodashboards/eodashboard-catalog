@@ -1,0 +1,23 @@
+{
+  "Name": "test-delete-vector-data",
+  "Title": "test-delete-vector-data",
+  "Description": "Description",
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "bucket/public/stories/science-hub/November-2026/train_val_footprints_style.json",
+      "TimeEntries": [
+        {
+          "Time": "2026",
+          "Assets": [
+            {
+              "Identifier": "test-delete-vector-data",
+              "File": "bucket/public/stories/science-hub/November-2026/Train_Val_Footprints.geojson"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "EodashIdentifier": "test-delete-vector-data"
+}
