@@ -1,0 +1,111 @@
+{
+  "Name": "palsar2-yearly-hanoi",
+  "Title": "PALSAR-2 Yearly Mosaic: Hanoi, Vietnam",
+  "Description": "The PALSAR-2 aboard the ALOS-2 is a Synthetic Aperture Radar (SAR), which emits microwave and receives the reflection from the ground to acquire information. Since it does not need other sources of light such as the sun, SAR has the advantage of providing satellite images regardless day or night. The frequency of transmitting and receiving microwave is L-band, which is less affected by clouds and rains. This all-weather observing capability is suitable for monitoring disasters rapidly. In addition, L-band microwave can reach to the ground partially penetrating through vegetation to obtain information of vegetation and ground surface.\n\n## About the dataset\n- The Global PALSAR-2/PALSAR Yearly Mosaic is JAXA's pre-composited annual global backscatter product, built from repeated L-band observations and assembled into one seamless mosaic per year at 25 m resolution.\n- Data are ortho-rectified and slope-corrected using the ALOS World 3D – 30 m (AW3D30) Digital Surface Model.\n- Values are stored as 16-bit digital numbers (DN), convertible to gamma-naught (γ0) backscatter in decibels via:\n\nγ0 = 10 × log10(DN²) − 83.0 dB\n\n",
+  "Resources": [
+    {
+      "Style": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/alos2_palsar_hh_hv_style.json",
+      "TimeEntries": [
+        {
+          "Time": "20150101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2015",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2015.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20160101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2016",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2016.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20170101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2017",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2017.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20180101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2018",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2018.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20190101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2019",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2019.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20200101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2020",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2020.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20210101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2021",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2021.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20220101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2022",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2022.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2023",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2023.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20240101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2024",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2024.tif"
+            }
+          ]
+        }
+      ],
+      "Name": "COG source",
+      "Bbox": [
+        105.3,
+        20.8,
+        106.05,
+        21.4
+      ]
+    }
+  ],
+  "EodashIdentifier": "palsar2-yearly-hanoi",
+  "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFC1CWV3wr_iYKFg1lq5pQgwHX_crcJ0XK2KpncluZJQ&s"
+}
